@@ -1,0 +1,1253 @@
+STRING_FILE_TABLE_START
+fontName	"Albany AMT Custom"	0 0 0	0x0001	0	0	0	0	18	0
+forbiddenEndCharList	""	0 0 0	0x0000	520	110	380	20	10	0
+forbiddenStartCharList	""	0 0 0	0x0000	520	110	380	20	10	0
+languageCrc	"0x6788c364"	0 0 0	0x0001	0	0	0	0	18	0
+languageId	"Česky"	255 255 255	0x0001	0	0	100	50	12	0
+languageIndex	"11"	0 0 0	0x0001	0	0	0	0	18	0
+languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
+textAbortBodyAas	"#![BeginSeg 1]Ukončení přidání náhradního roztoku znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Přidání náhradního roztoku je zrušeno. #![EndSeg 2]#![BeginSeg 3]Vyjměte a zlikvidujte set.\n#![EndSeg 3]#![BeginSeg 4]- Může být zapotřebí další náhradní roztok. #![EndSeg 4]#![BeginSeg 5]Přečtěte si Příručku operátora, kde jsou další pokyny.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Náprava při zablokování vzduchem znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Pozorujete vzduch v lince trombocytů nebo v lince plazmy.\n#![EndSeg 2]#![BeginSeg 3]- Systém pozastaví odběr, dokud se nedokončí náprava.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyPas	"#![BeginSeg 1]Ukončení přidání náhradního roztoku znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Přidání náhradního roztoku je zrušeno. #![EndSeg 2]#![BeginSeg 3]Vyjměte a zlikvidujte set.\n#![EndSeg 3]#![BeginSeg 4]- Může být zapotřebí další náhradní roztok. #![EndSeg 4]#![BeginSeg 5]Přečtěte si Příručku operátora, kde jsou další pokyny.\n#![EndSeg 5]#![BeginSeg 6]- Můžete také ukončit přidání náhradního roztoku trombocytů a pokračovat v přidání náhradního roztoku erytrocytů.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyProc	"#![BeginSeg 1]Konec procesu znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Procedura je zrušena.\n#![EndSeg 2]#![BeginSeg 3]- Musíte vyjmout a zlikvidovat set.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyRas	"#![BeginSeg 1]Ukončení přidání náhradního roztoku znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Přidání náhradního roztoku je zrušeno. #![EndSeg 2]#![BeginSeg 3]Vyjměte a zlikvidujte set.\n#![EndSeg 3]#![BeginSeg 4]- Může být zapotřebí další náhradní roztok. #![EndSeg 4]#![BeginSeg 5]Přečtěte si Příručku operátora, kde jsou další pokyny.\n#![EndSeg 5]#![BeginSeg 6]- Můžete také ukončit přidání náhradního roztoku erytrocytů a pokračovat v přidání náhradního roztoku trombocytů.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyRasOrPas	"#![BeginSeg 1]Ukončení přidání náhradního roztoku znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Přidání náhradního roztoku je zrušeno. #![EndSeg 2]#![BeginSeg 3]Vyjměte a zlikvidujte set.\n#![EndSeg 3]#![BeginSeg 4]- Může být zapotřebí další náhradní roztok. #![EndSeg 4]#![BeginSeg 5]Přečtěte si Příručku operátora, kde jsou další pokyny.\n#![EndSeg 5]#![BeginSeg 6]- Můžete také ukončit přidání náhradního roztoku do jednoho produktu a pokračovat v přidání do jiného produktu.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyRinseback	"#![BeginSeg 1]Reinfuze znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Odběr je ukončen.\n#![EndSeg 2]#![BeginSeg 3]- Krev v setu bude navrácena dárci.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodySpillover	"#![BeginSeg 1]Náprava při přeplavení znamená, že:\n#![EndSeg 1]#![BeginSeg 2]- Pozorujete erytrocyty v lince trombocytů nebo v lince plazmy.\n#![EndSeg 2]#![BeginSeg 3]- Systém pozastaví odběr, dokud se nedokončí náprava.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAlarmBodyNoGraphic10MinPause	"#![BeginSeg 1]Pumpy byly zastaveny na deset minut během odběrového cyklu, bez průtoku linkou dárce. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Odpojte dárce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcClosFailAas	"#![BeginSeg 1]Systém nemůže zkontrolovat, zda byl antikoagulant zataven a odstraněn ze systému. #![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku. #![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 3]#![BeginSeg 4]Stiskněte ,Konec přidání‘. Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcClosFailAasPasOk	"#![BeginSeg 1]Systém nemůže zkontrolovat, zda byl antikoagulant zataven a odstraněn ze systému. #![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘ pro pokračování nebo ,Ukončit přidání‘ pro ukončení procedury.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcHallHigh	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy trombocytů může být založený do nesprávného uložení rotoru. #![EndSeg 5]#![BeginSeg 6]Pokud je rotor pumpy s černou tečkou založený do uložení rotoru antikoagulantu, vytáhněte ho a založte ho do uložení rotoru trombocytů. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcHallLow	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy antikoagulantu nemusí být založený správně. #![EndSeg 5]#![BeginSeg 6]Založte rotor na pumpu antikoagulantu. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcPrimeInletOcclusion	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Systém zkontroluje, zda byl dárce odpojen, a vysune kazetu. #![EndSeg 4]#![BeginSeg 5]Zlikvidujte set. #![EndSeg 5]#![BeginSeg 6]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcPriorToAcPrime	"#![BeginSeg 1]Systém detekoval tekutinu na senzoru antikoagulantu. #![EndSeg 1]#![BeginSeg 2]Antikoagulant mohl být připojen příliš brzy. #![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 3]#![BeginSeg 4]Stiskněte ,Konec procesu.‘ Vyjměte a zlikvidujte set. #![EndSeg 4]#![BeginSeg 5]Nebyl-li připojen antikoagulant, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcStillNotDetected	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Systém nedetekoval antikoagulant na senzoru antikoagulantu. #![EndSeg 3]#![BeginSeg 4]Ukončete proces a odpojte dárce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsDecoupling	"#![BeginSeg 1]Systém se setkal s upozorněním. #![EndSeg 1]#![BeginSeg 3]Zvolte ,Reinfuze‘, pokud je k dispozici.\n#![EndSeg 3]#![BeginSeg 4]Zvolte ,Konec procesu‘, aby se ukončila procedura.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsHigh04	"#![BeginSeg 1]Pokud se výstraha objevuje opakovaně, stiskněte tlačítko ,Upravit‘ a proveďte potřebnou úpravu průtoku pro pokračování procedury. #![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsHighAas	"#![BeginSeg 1]Systémový tlak je stále příliš vysoký.\n#![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku.\n#![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku.\n#![EndSeg 3]#![BeginSeg 4]Stiskněte ,Konec přidání.‘\nPokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsHighAasP2Ok	"#![BeginSeg 1]Systémový tlak je stále příliš vysoký.\n#![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku do produktu erytrocytů 2.\n#![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku.\n#![EndSeg 3]#![BeginSeg 4]Stiskněte ,Pokračovat‘ pro přidání náhradního roztoku do produktu 1.\n#![EndSeg 4]#![BeginSeg 5]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsLow05	"#![BeginSeg 1]Pokud se výstraha objevuje opakovaně, stiskněte tlačítko ,Upravit‘ a proveďte potřebnou úpravu průtoku pro pokračování procedury. #![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsSensorFailure	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicBagEvacFailure	"#![BeginSeg 1]Systém se setkal s upozorněním. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte text stavového řádku. #![EndSeg 2]#![BeginSeg 4]Stiskněte ,Konec procesu‘, aby se ukončila procedura. #![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCassetteMovement	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Odpojte dárce. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a pokusí se vysunout kazetu. #![EndSeg 4]#![BeginSeg 5]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCassetteUnrecognized	"#![BeginSeg 1]Detektor erytrocytů nerozeznává typ setu.\n#![EndSeg 1]#![BeginSeg 2]- Vyčistěte detektor erytrocytů.\n#![EndSeg 2]#![BeginSeg 3]- Založte znovu set.\n#![EndSeg 3]#![BeginSeg 4]- Pokud set opakovaně neprojde tímto testem, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCentrifugeAlert	"#![BeginSeg 1]Systém se setkal s upozorněním. #![EndSeg 1]#![BeginSeg 4]Zvolte ,Reinfuze‘, aby se krev vrátila zpět dárci, nebo zvolte ,Konec procesu‘, aby se procedura ukončila bez reinfuze. #![EndSeg 4]#![BeginSeg 5]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHigh03	"#![BeginSeg 1]Zkontrolujte, zda v odběrové lince není vzduch.#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHighAas	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku. #![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 3]#![BeginSeg 4]Stiskněte ,Konec přidání‘. Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHighRbcCollect	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Reinfuze‘, aby se krev vrátila zpět dárci, nebo stiskněte ,Konec procesu‘, aby se procedura ukončila bez reinfuze. #![EndSeg 2]#![BeginSeg 3]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHighRbcCollectProd1	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte:\n#![EndSeg 3]#![BeginSeg 4]- Svorky separačního prstence jsou otevřené.\n#![EndSeg 4]#![BeginSeg 5]- Linky separačního prstence nejsou zkroucené ani neprůchodné.\n#![EndSeg 5]#![BeginSeg 6]Odběr produktu erytrocytů 1 nemůže být dokončen. #![EndSeg 6]#![BeginSeg 7]Stiskněte ,Pokračovat‘, aby se pokračovalo\ns produktem 2. #![EndSeg 7]#![BeginSeg 8]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsRangeAtSetLoad	"#![BeginSeg 1]Tlak centrifugy je mimo rozsah. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Vyjmout‘, aby se vysunula kazeta. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte:\n#![EndSeg 3]#![BeginSeg 4]- Kazeta je správně založená.\n#![EndSeg 4]#![BeginSeg 5]- Za kazetou ani podkladovou deskou nejsou žádné překážky.\n#![EndSeg 5]#![BeginSeg 6]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCrvHigh	"#![BeginSeg 1]Zbývající objem separačního prstence je příliš velký. #![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku. #![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 3]#![BeginSeg 4]Stiskněte ,Konec přidání‘. Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDonorHypovolemia	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Odpojte dárce. #![EndSeg 3]#![BeginSeg 4]Vypněte systém a poté ho znovu zapněte. #![EndSeg 4]#![BeginSeg 5]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen a vysune kazetu.\n#![EndSeg 5]#![BeginSeg 6]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDrawCycleShortNoClamp	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Hadička je založená ve ventilech správně.\n#![EndSeg 3]#![BeginSeg 4]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 4]#![BeginSeg 5]Pokud se tato výstraha objevuje opakovaně, stiskněte ,Konec procesu‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDrawCycleShortOneClamp	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Hadička je založená ve ventilech správně.\n#![EndSeg 3]#![BeginSeg 4]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 4]#![BeginSeg 5]- Svorka linky separačního prstence je otevřená.\n#![EndSeg 5]#![BeginSeg 6]Pokud se tato výstraha objevuje opakovaně, stiskněte ,Konec procesu‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDrawCycleShortThreeClamp	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Hadička je založená ve ventilech správně.\n#![EndSeg 3]#![BeginSeg 4]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 4]#![BeginSeg 5]- Svorky linky separačního prstence jsou otevřené.\n#![EndSeg 5]#![BeginSeg 6]Pokud se tato výstraha objevuje opakovaně, stiskněte ,Konec procesu‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicFirstCycleLate	"#![BeginSeg 1]První odběrový cyklus byl příliš dlouhý.\n#![EndSeg 1]#![BeginSeg 2]- Pokud vidíte únik, stiskněte ,Konec procesu‘, aby se procedura ukončila bez reinfuze.\n#![EndSeg 2]#![BeginSeg 3]- Pokud je tekutina v odpadním vaku nebo v kterémkoli vaku produktu, stiskněte ,Reinfuze‘, aby se krev vrátila dárci a ukončil proces. #![EndSeg 3]#![BeginSeg 4]Před další procedurou vyčistěte horní senzor náplně. #![EndSeg 4]#![BeginSeg 5]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.\n#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicGenericA1	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Odpojte dárce. #![EndSeg 4]#![BeginSeg 5]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicGenericA2	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Odpojte dárce. #![EndSeg 3]#![BeginSeg 4]Vypněte systém a poté ho znovu zapněte. #![EndSeg 4]#![BeginSeg 5]Když bude systém znovu zapnutý, zkontroluje, zda je dárce odpojen, a vysune kazetu. #![EndSeg 5]#![BeginSeg 6]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicHemolysisDetected	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Odpojte dárce. #![EndSeg 4]#![BeginSeg 5]Pokud vidíte v lince plazmy červené zabarvení, mohlo dojít k hemolýze kvůli neprůchodnosti setu. #![EndSeg 5]#![BeginSeg 6]Pokud nevidíte v lince plazmy červené zabarvení, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicHypovolemia	"#![BeginSeg 1]Systém se setkal s upozorněním. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Odpojte dárce. #![EndSeg 4]#![BeginSeg 5]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicInletHallHigh	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda je dárce odpojený, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy trombocytů může být založený do nesprávného uložení rotoru. #![EndSeg 5]#![BeginSeg 6]Pokud je rotor pumpy s černou tečkou založený do uložení rotoru odběru, vytáhněte ho a založte ho do uložení rotoru trombocytů. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicInletHallLow	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy odběru nemusí být založený správně. #![EndSeg 5]#![BeginSeg 6]Založte rotor na pumpu odběru. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicInletVolAas	"#![BeginSeg 1]Objem separačního prstence je příliš velký. #![EndSeg 1]#![BeginSeg 2]Systém nemůže dokončit přidání náhradního roztoku. #![EndSeg 2]#![BeginSeg 3]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 3]#![BeginSeg 4]Stiskněte ,Konec přidání‘. Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLeakDetected	"#![BeginSeg 1]Systém detekoval únik tekutin v komoře centrifugy. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda se v separačním prstenci a komoře centrifugy nenachází tekutina. #![EndSeg 2]#![BeginSeg 3]Přečtěte si Příručku operátora, kde jsou další informace.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLeakTestFailure	"#![BeginSeg 1]Detektor úniku tekutin možná potřebuje znovu otestovat. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře. #![EndSeg 2]#![BeginSeg 3]Pokud detektor úniku tekutin opakovaně neprojde testem, ukončete proces. #![EndSeg 3]#![BeginSeg 4]Pak požádejte o pomoc vašeho servisního zástupce. #![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowLevelLate	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Odpojte dárce. #![EndSeg 4]#![BeginSeg 5]Zkontrolujte, zda je smyčka návratové pumpy správně založená. #![EndSeg 5]#![BeginSeg 6]Zkontrolujte, zda jsou všechny rotory pump ve správné poloze a správně založené. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowLevelPriorToExpected	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]- Pokud vidíte tekutinu na dolním senzoru náplně, byl antikoagulant připojený příliš brzy.\n#![EndSeg 5]#![BeginSeg 6]- Pokud nevidíte tekutinu na dolním senzoru náplně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowLevelSensor	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Ukončete proces. #![EndSeg 3]#![BeginSeg 4]Odpojte dárce.\n#![EndSeg 4]#![BeginSeg 5]- Pokud vidíte tekutinu na dolním senzoru náplně, byl antikoagulant připojený příliš brzy.\n#![EndSeg 5]#![BeginSeg 6]- Pokud nevidíte tekutinu na dolním senzoru náplně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowPltConc	"#![BeginSeg 1]Koncentrace produktu trombocytů se může lišit od nakonfigurované koncentrace.#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicMaintainDonorAccess	"#![BeginSeg 1]Pumpy byly zastaveny na tři minuty. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste vrátili dárci 3 ml krve a udrželi tak žilní přístup.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicMotorHwFailure	"#![BeginSeg 1]Hardware motoru možná potřebuje znovu otestovat. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře. #![EndSeg 2]#![BeginSeg 3]Pokud hardware motoru neprojde opakovaně testem, ukončete proces. #![EndSeg 3]#![BeginSeg 4]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicOvertemp	"#![BeginSeg 1]Systém se setkal se selháním teploty centrifugy. #![EndSeg 1]#![BeginSeg 2]Odpojte dárce. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Systém zkontroluje, zda byl dárce odpojen, a vysune kazetu. #![EndSeg 4]#![BeginSeg 5]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPlasmaHallHigh	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy trombocytů může být založený do nesprávného uložení rotoru. #![EndSeg 5]#![BeginSeg 6]Pokud je rotor pumpy s černou tečkou založený do uložení rotoru plazmy, vytáhněte ho a založte ho do uložení rotoru trombocytů. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPlasmaHallLow	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy plazmy nemusí být založený správně. #![EndSeg 5]#![BeginSeg 6]Založte rotor znovu na pumpu plazmy. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]Systém detekoval v lince trombocytů nízkou koncentraci. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 3]#![BeginSeg 4]- Ve vaku produktu jsou trombocyty.\n\n#![EndSeg 4]#![BeginSeg 5]Pokud nevidíte tekutinu v lince trombocytů nebo plazmy, proveďte úpravu pro zablokování vzduchem.\n#![EndSeg 5]#![BeginSeg 6]Pokud nevidíte trombocyty ve vaku produktu, proveďte úpravu pro shlukování trombocytů.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Zkontrolujte, zda jsou všechny rotory pump ve správné poloze a správně založené. #![EndSeg 5]#![BeginSeg 6]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy trombocytů nemusí být založený správně nebo může být do uložení rotoru trombocytů založený nesprávný motor pumpy. #![EndSeg 5]#![BeginSeg 6]Zkontrolujte, zda je rotor pumpy s černou tečkou založený do uložení rotoru trombocytů. #![EndSeg 6]#![BeginSeg 7]Založte rotor znovu na pumpu trombocytů. #![EndSeg 7]#![BeginSeg 8]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]Došlo k události, která mohla způsobit kontaminaci produktu trombocytů leukocyty.\n#![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘ pro pokračování nebo ,Reinfuze‘ pro ukončení procedury.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPowerFail	"#![BeginSeg 1]V průběhu odběrové procedury bylo přerušeno napájení systému. #![EndSeg 1]#![BeginSeg 2]Pro pokračování stiskněte jedno z tlačítek na obrazovce.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPowerFailAbort	"#![BeginSeg 1]V průběhu odběrové procedury bylo přerušeno napájení systému. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Konec procesu‘, aby se ukončila procedura. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPowerTestFailure	"#![BeginSeg 1]Je možná zapotřebí opakovat test napájení. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře. #![EndSeg 2]#![BeginSeg 3]Pokud zdroj napájení opakovaně neprojde testem, ukončete proces. #![EndSeg 3]#![BeginSeg 4]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicProcedureModified	"#![BeginSeg 1]Provedli jste úpravu, kterou se změnila procedura. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste se vrátili na obrazovku volby procedury.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPtfPressureHigh	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Ukončete proces. #![EndSeg 2]#![BeginSeg 3]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPumpRpmCommand	"#![BeginSeg 1]Některá pumpa možná potřebuje znovu otestovat. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře. #![EndSeg 2]#![BeginSeg 3]Pokud pumpa opakovaně neprojde tímto testem, ukončete proces. #![EndSeg 3]#![BeginSeg 4]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRasPrimeEarly	"#![BeginSeg 1]Systém detekoval tekutinu na dolním senzoru náplně příliš brzy. #![EndSeg 1]#![BeginSeg 2]Je možné, že náhradní roztok byl připojen příliš brzy. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte:\n#![EndSeg 3]#![BeginSeg 4]- Antikoagulant byl zataven a odpojen.\n#![EndSeg 4]#![BeginSeg 6]Stiskněte ,Pokračovat‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRasPrimeLate	"#![BeginSeg 1]Systém nedetekoval tekutinu na dolním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Náhradní roztok erytrocytů je připojený správně.\n#![EndSeg 3]#![BeginSeg 4]- Prolomitelné konektory jsou zlomené.\n#![EndSeg 4]#![BeginSeg 5]- Svorka na přechodové lince je otevřená.\n#![EndSeg 5]#![BeginSeg 6]Stiskněte ,Pokračovat‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRbcDetectorCal	"#![BeginSeg 1]Systém nemohl provést kalibraci detektoru erytrocytů. #![EndSeg 1]#![BeginSeg 2]Pokud budete pokračovat v proceduře, musíte zkontrolovat výtěžek produktu a kontaminaci leukocyty. #![EndSeg 2]#![BeginSeg 3]Před další procedurou vyčistěte detektor erytrocytů. #![EndSeg 3]#![BeginSeg 4]Pokud detektor opakovaně neprojde testem, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRefMismatch	"#![BeginSeg 1]Zvolený REF neodpovídá založenému setu. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Vyjmout‘, aby se vysunula kazeta. #![EndSeg 2]#![BeginSeg 3]Zvolte REF, který odpovídá setu, a založte odpovídající set.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRefMismatchDispTest	"#![BeginSeg 1]Zvolený REF neodpovídá založenému setu. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘. Zvolte REF, který odpovídá setu, a založte odpovídající set.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawNoClamp	"#![BeginSeg 1]Na konci odběrového cyklu systém nedetekoval tekutinu na horním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 3]#![BeginSeg 4]- Hadička je založená ve ventilech správně.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawOneClamp	"#![BeginSeg 1]Na konci odběrového cyklu systém nedetekoval tekutinu na horním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 3]#![BeginSeg 4]- Hadička je založená ve ventilech správně.\n#![EndSeg 4]#![BeginSeg 5]- Svorka linky separačního prstence je otevřená.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawRbcPlNoClamp	"#![BeginSeg 1]Na konci odběrového cyklu systém nedetekoval tekutinu na horním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Vak kompenzačního roztoku je připojený správně a není prázdný.\n#![EndSeg 3]#![BeginSeg 4]- Linka plazmy je naplněná tekutinou.\n#![EndSeg 4]#![BeginSeg 5]- Hadička je založená ve ventilech správně.#![EndSeg 5]"	165 8 0	0x0100	15	120	453	300	18	1
+textAlarmBodyNoGraphicResDrawRbcPlOneClamp	"#![BeginSeg 1]Na konci odběrového cyklu systém nedetekoval tekutinu na horním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Vak kompenzačního roztoku je připojený správně a není prázdný.\n#![EndSeg 3]#![BeginSeg 4]- Linka plazmy je naplněná tekutinou.\n#![EndSeg 4]#![BeginSeg 5]- Hadička je založená ve ventilech správně.\n#![EndSeg 5]#![BeginSeg 6]- Svorka linky separačního prstence je otevřená.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawRbcPlThreeClamp	"#![BeginSeg 1]Na konci odběrového cyklu systém nedetekoval tekutinu na horním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Linka plazmy a linka trombocytů jsou naplněné tekutinou.\n#![EndSeg 3]#![BeginSeg 4]- Hadička je založená ve ventilech správně.\n#![EndSeg 4]#![BeginSeg 5]- Svorky linky separačního prstence jsou otevřené.\n#![EndSeg 5]#![BeginSeg 6]- Svorka náhradního roztoku trombocytů je zavřená.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResReturnNoClamp	"#![BeginSeg 1]Cyklus návratu byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- V lince návratu není žádný vzduch.\n#![EndSeg 3]#![BeginSeg 4]- Hadička je založená ve ventilech správně.\n#![EndSeg 4]#![BeginSeg 5]- Hadička linky návratu není zkroucená ani neprůchodná.\n#![EndSeg 5]#![BeginSeg 6]- Linka odpadního vaku není neprůchodná.\n\n#![EndSeg 6]#![BeginSeg 7]Pokud vidíte vzduch v lince návratu, stiskněte ,Konec procesu‘, aby se procedura ukončila bez reinfuze.\n#![EndSeg 7]#![BeginSeg 8]Pokud jsou ventily správně založené a linka odpadního vaku není neprůchodná, stiskněte ,Pokračovat‘.#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResReturnOneClamp	"#![BeginSeg 1]Cyklus návratu byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- V lince návratu není žádný vzduch.\n#![EndSeg 3]#![BeginSeg 4]- Hadička je založená ve ventilech správně.\n#![EndSeg 4]#![BeginSeg 5]- Hadička linky návratu není zkroucená ani neprůchodná.\n#![EndSeg 5]#![BeginSeg 6]- Linka odpadního vaku není neprůchodná.\n#![EndSeg 6]#![BeginSeg 7]- Svorka linky separačního prstence je otevřená.\n#![EndSeg 7]#![BeginSeg 8]Pokud vidíte vzduch v lince návratu, stiskněte ,Konec procesu‘, aby se procedura ukončila bez reinfuze. #![EndSeg 8]#![BeginSeg 9]Pokud jsou ventily správně založené a linka odpadního vaku není neprůchodná, stiskněte ,Pokračovat‘.#![EndSeg 9]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResReturnThreeClamp	"#![BeginSeg 1]Cyklus návratu byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- V lince návratu není žádný vzduch.\n#![EndSeg 3]#![BeginSeg 4]- Hadička je založená ve ventilech správně.\n#![EndSeg 4]#![BeginSeg 5]- Hadička linky návratu není zkroucená ani neprůchodná.\n#![EndSeg 5]#![BeginSeg 6]- Linka odpadního vaku není neprůchodná.\n#![EndSeg 6]#![BeginSeg 7]- Svorky linky separačního prstence jsou otevřené.\n#![EndSeg 7]#![BeginSeg 8]Pokud vidíte vzduch v lince návratu, stiskněte ,Konec procesu‘, aby se procedura ukončila bez reinfuze. #![EndSeg 8]#![BeginSeg 9]Pokud jsou ventily správně založené a linka odpadního vaku není neprůchodná, stiskněte ,Pokračovat‘.#![EndSeg 9]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Zkontrolujte, zda jsou všechny rotory pump ve správné poloze a správně založené. #![EndSeg 5]#![BeginSeg 6]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]Systém se setkal s alarmem, který nelze odstranit. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Když bude systém znovu zapnutý, zkontroluje, zda byl dárce odpojen, a vysune kazetu.\n#![EndSeg 4]#![BeginSeg 5]Rotor pumpy návratu nemusí být založený správně. #![EndSeg 5]#![BeginSeg 6]Založte rotor znovu na pumpu návratu. #![EndSeg 6]#![BeginSeg 7]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicSafetyNotResponding	"#![BeginSeg 1]Protokol spuštění systému selhal. #![EndSeg 1]#![BeginSeg 2]Zaznamenejte číslo alarmu a text stavového řádku. #![EndSeg 2]#![BeginSeg 3]Vypněte systém a poté ho znovu zapněte. #![EndSeg 3]#![BeginSeg 4]Systém zkontroluje, zda byl dárce odpojený, a vysune kazetu, bude-li to třeba. #![EndSeg 4]#![BeginSeg 5]Pokud se tento alarm vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]Ventil možná potřebuje znovu otestovat. #![EndSeg 1]#![BeginSeg 2]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře. #![EndSeg 2]#![BeginSeg 3]Pokud je test ventilu opakovaně neúspěšný, ukončete proces. #![EndSeg 3]#![BeginSeg 4]Pak požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyWithGraphic10MinPause	"#![BeginSeg 1]Pumpy byly zastaveny na deset minut. #![EndSeg 1]#![BeginSeg 2]Centrifuga je zastavená. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphic1MinPause	"#![BeginSeg 1]Pumpy byly zastaveny na jednu minutu. #![EndSeg 1]#![BeginSeg 2]Rychlost centrifugy je snížená. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAasClampClosAddition	"#![BeginSeg 1]Systém nemůže zkontrolovat, zda jsou svorky linky separačního prstence zavřené. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Svorky jsou zavřené správně.\n#![EndSeg 3]#![BeginSeg 4]Stiskněte ,Pokračovat‘.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]Systém nemůže zkontrolovat, zda jsou svorky linky separačního prstence zavřené. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Svorky jsou zavřené správně.\n#![EndSeg 3]#![BeginSeg 4]- Není připojený žádný náhradní roztok.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]Systém nemůže zkontrolovat, zda byla linka antikoagulantu zatavena. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Linka antikoagulantu byla zatavena.\n#![EndSeg 3]#![BeginSeg 4]- Linka antikoagulantu byla odstraněna ze senzoru.\n#![EndSeg 4]#![BeginSeg 5]- Vak antikoagulantu byl odstraněn ze systému.\n#![EndSeg 5]#![BeginSeg 6]Stiskněte ,Pokračovat‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcHallHigh	"#![BeginSeg 1]Systém se setkal s chybou pumpy antikoagulantu. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy trombocytů může být založený do nesprávného uložení rotoru. #![EndSeg 2]#![BeginSeg 3]Pokud je rotor pumpy s černou tečkou založený do uložení rotoru antikoagulantu, vytáhněte ho a založte ho do uložení rotoru trombocytů. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicAcHallLow	"#![BeginSeg 1]Systém se setkal s chybou pumpy antikoagulantu. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy antikoagulantu nemusí být založený správně. #![EndSeg 2]#![BeginSeg 3]Založte rotor na pumpu antikoagulantu. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]Senzor antikoagulantu nedetekoval antikoagulant. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Vak antikoagulantu není prázdný.\n#![EndSeg 3]#![BeginSeg 4]- Vak antikoagulantu je správně připojený.\n#![EndSeg 4]#![BeginSeg 5]Nainstalujte znovu linku antikoagulantu na senzor.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]Zkontrolujte, zda je vak antikoagulantu správně připojený a kapací komůrka naplněná.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel02	"#![BeginSeg 1]Založte linku antikoagulantu zcela do senzoru antikoagulantu pohybem nahoru a dolů.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel03	"#![BeginSeg 1]Pokud je vak antikoagulantu prázdný, vyměňte ho.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcOcclusion	"#![BeginSeg 1]Systém nemůže řádně dodávat antikoagulant. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda linka antikoagulantu není zkroucená nebo neprůchodná. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAccessPumpsSlowed	"#![BeginSeg 1]Odběrový tlak je příliš nízký. #![EndSeg 1]#![BeginSeg 2]Průtoková rychlost je dočasně snížená. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte:\n#![EndSeg 3]#![BeginSeg 4]- Jehla je umístěná v žíle dárce správně.\n#![EndSeg 4]#![BeginSeg 5]- Linka není zkroucená ani neprůchodná.\n#![EndSeg 5]#![BeginSeg 6]- Tlak manžety je přiměřený.\n#![EndSeg 6]#![BeginSeg 7]Vyzvěte dárce ke stisku balónku.\n#![EndSeg 7]#![BeginSeg 8]Stiskněte ,Pokračovat‘, aby se napravil původní odběrový průtok, nebo stiskněte ,Upravit‘, aby se snížil původní odběrový průtok.#![EndSeg 8]"	165 8 0	0x0100	15	120	227	300	14	1
+textAlarmBodyWithGraphicApsHigh00	"#![BeginSeg 1]Návratový tlak je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Jehla je umístěná v žíle dárce správně.\n#![EndSeg 3]#![BeginSeg 4]- Linka není zkroucená ani neprůchodná.\n#![EndSeg 4]#![BeginSeg 5]- Tlak manžety je přiměřený.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHigh01	"#![BeginSeg 1]Zkontrolujte dárcovo místo vpichu.\n#![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je jehla umístěná v žíle dárce správně. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte možnost infiltrace podkoží. #![EndSeg 3]#![BeginSeg 4]Je-li třeba, upravte polohu jehly v dárcově žíle tak, aby byla správná.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHigh02	"#![BeginSeg 1]Zkontrolujte, zda není linka zkroucená či neprůchodná.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHigh03	"#![BeginSeg 1]Zkontrolujte, zda není tlak manžety na paži dárce příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Vysoký tlak manžety může omezovat průtok k dárci.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHighAas	"#![BeginSeg 1]Systémový tlak je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Svorka na přechodové lince je otevřená.\n#![EndSeg 3]#![BeginSeg 4]- Linka není zkroucená ani neprůchodná.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHighPtf	"#![BeginSeg 1]Systémový tlak je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Deleukotizační filtry jsou správně nasměrované v konzole.\n#![EndSeg 3]#![BeginSeg 4]- Linky filtru jsou správně založené v konzole.\n#![EndSeg 4]#![BeginSeg 5]- Linka není zkroucená ani neprůchodná.\n#![EndSeg 5]#![BeginSeg 6]Stiskněte ,Pokračovat‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow00	"#![BeginSeg 1]Odběrový tlak příliš nízký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte: \n#![EndSeg 2]#![BeginSeg 3]- Jehla je umístěná v žíle dárce správně.\n#![EndSeg 3]#![BeginSeg 4]- Linka není zkroucená ani neprůchodná.\n#![EndSeg 4]#![BeginSeg 5]- Tlak manžety je přiměřený.\n#![EndSeg 5]#![BeginSeg 6]Vyzvěte dárce k opakovanému stisku balónku.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow01	"#![BeginSeg 1]Zkontrolujte dárcovo místo vpichu.\n#![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je jehla umístěná v žíle dárce správně. #![EndSeg 2]#![BeginSeg 3]Je-li třeba, upravte polohu jehly v dárcově žíle tak, aby byla správná.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow02	"#![BeginSeg 1]Zkontrolujte, zda není linka zkroucená či neprůchodná.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow03	"#![BeginSeg 1]Zkontrolujte, zda není tlak manžety na paži dárce příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Vysoký tlak manžety může omezovat průtok k dárci.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow04	"#![BeginSeg 1]Vyzvěte dárce k opakovanému stisku balónku.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicBagEvac	"#![BeginSeg 5]Pokud je dárce připojený, odpojte ho a poté vyjměte a zlikvidujte set.\n\n#![EndSeg 5]#![BeginSeg 6]Pokud není dárce připojený, zkontrolujte:\n#![EndSeg 6]#![BeginSeg 2]- Svorka linky dárce je otevřená.\n#![EndSeg 2]#![BeginSeg 3]- Vak vzorku není nafouknutý.\n\n#![EndSeg 3]#![BeginSeg 4]Pokud je vak vzorku nafouknutý, otevřete svorky linky dárce a vzduch vytlačte.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicCassetteFailure00	"#![BeginSeg 1]Systém nemůže posunout kazetu do její správné polohy. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Kazeta je správně založená.\n#![EndSeg 3]#![BeginSeg 4]- Za kazetou ani podkladovou deskou nejsou žádné překážky.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCassetteFailure01	"#![BeginSeg 1]Zkontrolujte, zda je kazeta správně založená.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCassetteFailure02	"#![BeginSeg 1]Zkontrolujte, zda za kazetou nebo podkladovou deskou nejsou žádné překážky.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCentDoor	"#![BeginSeg 1]Dvířka centrifugy nejsou zavřená. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda ve dvířkách nejsou překážky. #![EndSeg 2]#![BeginSeg 3]Pevně zavřete dvířka centrifugy. #![EndSeg 3]#![BeginSeg 4]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCollectValveFailure	"#![BeginSeg 1]Ventil trombocytů není ve správné poloze. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda na ventilu trombocytů nejsou překážky. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHigh01	"#![BeginSeg 1]Zkontrolujte, zda není smyčka překroucená. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Horní a dolní úchyty a objímky jsou správně nainstalované.\n#![EndSeg 3]#![BeginSeg 4]- Linka erytrocytů není zkroucená ani neprůchodná.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHigh02	"#![BeginSeg 1]Zkontrolujte, zda je separační prstenec kompletně založený a pod okrajem kotouče.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHigh03	"#![BeginSeg 1]Zkontrolujte, zda v odběrové lince není vzduch.#![EndSeg 1]"	165 8 0	0x0100	15	120	233	300	17	1
+textAlarmBodyWithGraphicCpsHighDuringRbcAlert	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 4]- Linka erytrocytů není zkroucená ani neprůchodná.\n#![EndSeg 4]#![BeginSeg 5]- Svorka linky separačního prstence je otevřená.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighNoClamp	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Smyčka není překroucená.\n#![EndSeg 3]#![BeginSeg 4]- Linka erytrocytů není zkroucená ani neprůchodná.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighOneClamp00	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Smyčka není překroucená.\n#![EndSeg 3]#![BeginSeg 4]- Linka erytrocytů není zkroucená ani neprůchodná.\n#![EndSeg 4]#![BeginSeg 5]- Svorka linky separačního prstence je otevřená.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighOneClamp04	"#![BeginSeg 1]Zkontrolujte:\n#![EndSeg 1]#![BeginSeg 2]- Svorka linky separačního prstence je otevřená.\n#![EndSeg 2]#![BeginSeg 3]- Linky separačního prstence nejsou zkroucené ani neprůchodné.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighThreeClamp00	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Smyčka není překroucená.\n#![EndSeg 3]#![BeginSeg 4]- Linka erytrocytů není zkroucená ani neprůchodná.\n#![EndSeg 4]#![BeginSeg 5]- Svorky linky separačního prstence jsou otevřené.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighThreeClamp04	"#![BeginSeg 1]Zkontrolujte:\n#![EndSeg 1]#![BeginSeg 2]- Svorky linky separačního prstence jsou otevřené.\n#![EndSeg 2]#![BeginSeg 3]- Linky separačního prstence nejsou zkroucené ani neprůchodné.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsPtfPrimeTest	"#![BeginSeg 1]Senzor tlaku centrifugy nereaguje podle očekávání. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Svorky separačního prstence jsou otevřené.\n#![EndSeg 3]#![BeginSeg 4]- Linky separačního prstence nejsou zkroucené ani neprůchodné.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.\n#![EndSeg 5]#![BeginSeg 6]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicCrossoverOpen	"#![BeginSeg 1]Systém nemůže zkontrolovat, zda je svorka na přechodové lince zavřená. #![EndSeg 1]#![BeginSeg 2]Zavřete svorku a stiskněte ,Pokračovat‘.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest00	"#![BeginSeg 1]Systém detekuje, že dárce je stále připojen. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Vak antikoagulantu je zatavený a oddělený.\n#![EndSeg 3]#![BeginSeg 4]- Svorky na lince dárce jsou zcela zavřené.\n#![EndSeg 4]#![BeginSeg 5]- Dárce je odpojený.\n#![EndSeg 5]#![BeginSeg 6]Stiskněte ,Pokračovat‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest01	"#![BeginSeg 1]Zkontrolujte, zda je svorka na lince dárce zcela zavřená.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest02	"#![BeginSeg 1]Zatavte a odstraňte vak antikoagulantu.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest03	"#![BeginSeg 1]Odpojte dárce.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestAas	"#![BeginSeg 1]Systém detekuje, že dárce je stále připojený. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Svorky na lince dárce jsou zcela zavřené.\n#![EndSeg 3]#![BeginSeg 4]- Dárce je odpojený.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail00	"#![BeginSeg 1]Test odpojení dárce byl třikrát neúspěšný. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Vak antikoagulantu je zatavený a oddělený.\n#![EndSeg 3]#![BeginSeg 4]- Svorky na lince dárce jsou zcela zavřené.\n#![EndSeg 4]#![BeginSeg 5]- Dárce je odpojený.\n#![EndSeg 5]#![BeginSeg 6]Stiskněte ,Pokračovat, aby systém mohl vysunout kazetu.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail01	"#![BeginSeg 1]Zkontrolujte, zda je svorka na lince dárce zcela zavřená.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail02	"#![BeginSeg 1]Zatavte a odstraňte vak antikoagulantu.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail03	"#![BeginSeg 1]Odpojte dárce.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFailAas	"#![BeginSeg 1]Test odpojení dárce byl třikrát neúspěšný. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Svorky na lince dárce jsou zcela zavřené.\n#![EndSeg 3]#![BeginSeg 4]- Dárce je odpojený.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShort01	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou hadičky správně založené ve ventilech.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShort02	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda linka plazmy a linka trombocytů jsou zcela naplněné tekutinou. #![EndSeg 2]#![BeginSeg 3]Nejsou-li zcela naplněné, stiskněte ,Upravit‘. Poté stiskněte ,Zablokování vzduchem‘, aby se provedla náprava.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShortOneClamp	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je svorka linky separačního prstence otevřená.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShortThreeClamp	"#![BeginSeg 1]Odběrový cyklus byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou svorky linky separačního prstence otevřené.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcAasSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavřete bílou svorku na jedné z linek erytrocytů.\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]Otevřete modrou svorku na druhé lince erytrocytů.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcPtfSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavřete modrou svorku na jedné z linek erytrocytů.\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]Otevřete bílou svorku na druhé lince erytrocytů.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcRasEmpty	"#![BeginSeg 1]Vak náhradního roztoku erytrocytů je téměř prázdný. #![EndSeg 1]#![BeginSeg 2]Zavřete svorku na jedné z linek připojení před připojením nového vaku k lince s otevřenou svorkou. #![EndSeg 2]#![BeginSeg 4]Zlomte prolomitelný konektor vaku. #![EndSeg 4]#![BeginSeg 3]Stiskněte ,Pokračovat‘.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavřete linku k vaku obsahujícímu erytrocyty.\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]Otevřete linku k prázdnému vaku erytrocytů.\n#![EndSeg 4]#![BeginSeg 5]Stiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicFailureToRelievePressure	"#![BeginSeg 1]Set selhal při testu uvolnění tlaku. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda linka antikoagulantu není zkroucená nebo neprůchodná. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte, zda je filtr antikoagulantu suchý. #![EndSeg 3]#![BeginSeg 4]Až budete připraveni, stiskněte ,Pokračovat‘ pro pokračování procedury.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicFluidAtAcAas	"#![BeginSeg 1]Systém detekoval tekutinu na senzoru antikoagulantu. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Linka antikoagulantu byla zatavena.\n#![EndSeg 3]#![BeginSeg 4]- Linka antikoagulantu byla odstraněna ze senzoru.\n#![EndSeg 4]#![BeginSeg 5]- Vak antikoagulantu byl odstraněn ze systému. \nStiskněte ,Pokračovat‘.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicInletHallHigh	"#![BeginSeg 1]Systém se setkal s chybou pumpy odběru. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy trombocytů může být založený do nesprávného uložení rotoru. #![EndSeg 2]#![BeginSeg 3]Pokud je rotor pumpy s černou tečkou založený do uložení rotoru odběru, vytáhněte ho a založte ho do uložení rotoru trombocytů. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicInletHallLow	"#![BeginSeg 1]Systém se setkal s chybou pumpy odběru. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy odběru nemusí být založený správně. #![EndSeg 2]#![BeginSeg 3]Založte rotor na pumpu odběru. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicLeakDetected	"#![BeginSeg 1]Systém detekoval únik tekutin v komoře centrifugy. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda se v separačním prstenci a komoře centrifugy nenachází tekutina. #![EndSeg 2]#![BeginSeg 3]Přečtěte si Příručku operátora, kde jsou další pokyny.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPasLineOpen	"#![BeginSeg 1]Zavřete svorku na lince k náhradnímu roztoku trombocytů.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPasPrimeEarly	"#![BeginSeg 1]Systém detekoval náhradní roztok příliš brzy. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou svorky linky separačního prstence zavřené, a stiskněte ,Pokračovat‘.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPasPrimeLate	"#![BeginSeg 1]Systém nedetekoval náhradní roztok trombocytů. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Náhradní roztok trombocytů je připojený správně.\n#![EndSeg 3]#![BeginSeg 4]- Prolomitelný konektor vaku je zlomený.\n#![EndSeg 4]#![BeginSeg 5]- Svorka je otevřená.\n#![EndSeg 5]#![BeginSeg 6]Stiskněte ,Pokračovat‘.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPauseButton	"#![BeginSeg 1]Bylo stisknuto tlačítko pauzy. #![EndSeg 1]#![BeginSeg 2]Pumpy jsou zastavené a centrifuga může pokračovat v chodu. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPlasmaHallHigh	"#![BeginSeg 1]Systém se setkal s chybou pumpy plazmy. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy trombocytů může být založený do nesprávného uložení rotoru. #![EndSeg 2]#![BeginSeg 3]Pokud je rotor pumpy s černou tečkou založený do uložení rotoru plazmy, vytáhněte ho a založte ho do uložení rotoru trombocytů. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPlasmaHallLow	"#![BeginSeg 1]Systém se setkal s chybou pumpy plazmy. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy plazmy nemusí být založený správně. #![EndSeg 2]#![BeginSeg 3]Založte rotor znovu na pumpu plazmy. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPlasmaValveFailure	"#![BeginSeg 1]Systém detekoval nesprávnou polohu ventilu plazmy. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda na ventilu plazmy nejsou překážky. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPltHallHigh	"#![BeginSeg 1]Systém se setkal s chybou pumpy trombocytů. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou všechny rotory pump ve správné poloze a správně založené. #![EndSeg 2]#![BeginSeg 3]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPltHallLow	"#![BeginSeg 1]Systém se setkal s chybou pumpy trombocytů. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy trombocytů nemusí být zasazen správně nebo může být do uložení rotoru trombocytů zasazen nesprávný motor pumpy. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte, zda je rotor pumpy s černou tečkou zasazen do uložení rotoru trombocytů. #![EndSeg 3]#![BeginSeg 4]Zasaďte rotor znovu na pumpu trombocytů. #![EndSeg 4]#![BeginSeg 5]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	15	1
+textAlarmBodyWithGraphicPressurizeInletFailure00	"#![BeginSeg 1]Systém nemůže udržet tlak. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Bílé svorky na lince dárce jsou zavřené a ve vaku vzorku není žádný vzduch.\n#![EndSeg 3]#![BeginSeg 4]- Smyčky pump jsou správně založené.\n#![EndSeg 4]#![BeginSeg 5]- Kazeta je založená správně a nikde nejsou překážky.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPressurizeInletFailure01	"#![BeginSeg 1]Zkontrolujte, zda jsou bílé svorky na lince dárce zcela zavřené.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure01Ais	"#![BeginSeg 1]Otevřením svorky na lince dárce uvolněte tlak. #![EndSeg 1]#![BeginSeg 2]Je-li ve vaku vzorku vzduch, otevřete svorku vaku vzorku a vzduch vytlačte.\n#![EndSeg 2]#![BeginSeg 3]Zavřete bílé svorky na lince dárce.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure02	"#![BeginSeg 1]Prohlédněte každou pumpu a posunem prstu po okraji dráhy každé pumpy zkontrolujte, zda jsou všechny smyčky pump správně založené.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure03	"#![BeginSeg 1]Zkontrolujte, zda je kazeta správně založená.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure04	"#![BeginSeg 1]Zkontrolujte, zda za kazetou nejsou překážky. #![EndSeg 1]#![BeginSeg 2]Pro vysunutí kazety stiskněte ,Vyjmout‘.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure05	"#![BeginSeg 1]Zkontrolujte, zda založený set odpovídá zvolenému REF. #![EndSeg 1]#![BeginSeg 2]Pokud neodpovídá, stiskněte ,Vyjmout‘, aby se kazeta vysunula.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure06	"#![BeginSeg 1]Zkontrolujte, zda je svorka na přechodové lince otevřená.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailureCassette	"#![BeginSeg 1]Systém nemůže udržet tlak. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Bílé svorky na lince dárce jsou zavřené.\n#![EndSeg 3]#![BeginSeg 4]- Ve vaku vzorku není žádný vzduch.\n#![EndSeg 4]#![BeginSeg 5]- Smyčky pump jsou správně založené.\n#![EndSeg 5]#![BeginSeg 6]- Kazeta je správně založená.\n#![EndSeg 6]#![BeginSeg 8]- Za kazetou ani podkladovou deskou nejsou žádné překážky.\n#![EndSeg 8]#![BeginSeg 7]- Zvolený REF odpovídá založenému setu.#![EndSeg 7]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPressurizeInletFailureCrossover	"#![BeginSeg 1]Systém nemůže udržet tlak. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 3]- Bílé svorky na lince dárce jsou zavřené.\n#![EndSeg 3]#![BeginSeg 4]- Ve vaku vzorku není žádný vzduch.\n#![EndSeg 4]#![BeginSeg 5]- Smyčky pump jsou správně založené.\n#![EndSeg 5]#![BeginSeg 6]- Kazeta je založená správně a nikde nejsou překážky.\n#![EndSeg 9]#![BeginSeg 7]- Zvolený REF odpovídá založenému setu.\n#![EndSeg 7]#![BeginSeg 8]- Svorka na přechodové lince je otevřená.#![EndSeg 8]"	165 8 0	0x0100	15	120	227	300	14	1
+textAlarmBodyWithGraphicPtfPressureHigh	"#![BeginSeg 1]Tlak centrifugy je příliš vysoký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte:\n#![EndSeg 2]#![BeginSeg 5]- Svorky linky separačního prstence jsou otevřené.\n#![EndSeg 5]#![BeginSeg 6]- Deleukotizační filtry jsou v konzole nasměrované správně.\n#![EndSeg 6]#![BeginSeg 7]- Linky filtru jsou správně založené v konzole.\n#![EndSeg 7]#![BeginSeg 8]- Linka není zkroucená ani neprůchodná.\n#![EndSeg 8]#![BeginSeg 9]Stiskněte ,Pokračovat‘.#![EndSeg 9]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicRasEmpty	"#![BeginSeg 1]Vak náhradního roztoku erytrocytů je téměř prázdný. #![EndSeg 1]#![BeginSeg 2]Připojte nový vak, zlomte prolomitelný konektor vaku a stiskněte ,Pokračovat‘.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicRbcValve	"#![BeginSeg 1]Systém detekoval nesprávnou polohu ventilu erytrocytů. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda na ventilu erytrocytů nejsou překážky. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResAlert	"#![BeginSeg 1]Systém detekoval tekutinu na horním senzoru náplně a ne na dolním senzoru náplně. #![EndSeg 1]#![BeginSeg 2]Poklepejte na přední část rezervoáru návratu, abyste odstranili všechny bublinky, nebo počkejte, až se stav upraví.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert01	"#![BeginSeg 1]Cyklus odběru byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda linka plazmy a linka trombocytů jsou zcela naplněné tekutinou. #![EndSeg 2]#![BeginSeg 3]Nejsou-li zcela naplněné, stiskněte ,Upravit‘. Poté stiskněte ,Zablokování vzduchem‘, aby se provedla náprava.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert02	"#![BeginSeg 1]Používáte-li kompenzační roztok, zkontrolujte, zda je vak s kompenzačním roztokem správně připojený.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert03	"#![BeginSeg 1]Používáte-li kompenzační roztok a je-li vak prázdný, připojte nový vak kompenzačního roztoku.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert1Clamp04	"#![BeginSeg 1]Cyklus odběru byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je svorka linky separačního prstence otevřená.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert3Clamp04	"#![BeginSeg 1]Cyklus odběru byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou svorky linky separačního prstence otevřené.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlertRbcPl01	"#![BeginSeg 1]Cyklus odběru byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je linka plazmy zcela naplněná tekutinou. #![EndSeg 2]#![BeginSeg 3]Není-li zcela naplněná, stiskněte ,Upravit‘. Poté stiskněte ,Zablokování vzduchem‘, aby se provedla náprava.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResReturn01	"#![BeginSeg 1]Cyklus návratu byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou všechny hadičky správně založené ve ventilech.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResReturn1Clamp	"#![BeginSeg 1]Cyklus návratu byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je svorka linky separačního prstence otevřená.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResReturn3Clamp	"#![BeginSeg 1]Cyklus návratu byl příliš dlouhý. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou svorky linky separačního prstence otevřené.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnHallHigh	"#![BeginSeg 1]Systém se setkal s chybou pumpy návratu. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou všechny rotory pump ve správné poloze a správně založené. #![EndSeg 2]#![BeginSeg 3]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnHallLow	"#![BeginSeg 1]Systém se setkal s chybou pumpy návratu. #![EndSeg 1]#![BeginSeg 2]Rotor pumpy návratu nemusí být založený správně. #![EndSeg 2]#![BeginSeg 3]Založte rotor znovu na pumpu návratu. #![EndSeg 3]#![BeginSeg 4]Pokud se problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortNoClamp	"#![BeginSeg 1]Cyklus návratu byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Poklepejte na přední část rezervoáru návratu, abyste odstranili všechny bublinky, nebo počkejte, až se stav upraví.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortOneClamp00	"#![BeginSeg 1]Cyklus návratu byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Poklepejte na přední část rezervoáru návratu, abyste odstranili všechny bublinky, nebo počkejte, až se stav upraví. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte, zda je svorka linky separačního prstence otevřená.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortOneClamp01	"#![BeginSeg 1]Cyklus návratu byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je svorka linky separačního prstence otevřená.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortThreeClamp00	"#![BeginSeg 1]Cyklus návratu byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Poklepejte na přední část rezervoáru návratu, abyste odstranili všechny bublinky, nebo počkejte, až se stav upraví. #![EndSeg 2]#![BeginSeg 3]Zkontrolujte, zda jsou svorky linky separačního prstence otevřené.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortThreeClamp01	"#![BeginSeg 1]Cyklus návratu byl příliš krátký. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda jsou svorky linky separačního prstence otevřené.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSaline	"#![BeginSeg 1]Zvolená procedura vyžaduje kompenzační roztok.\n#![EndSeg 1]#![BeginSeg 2]Připojte vak fyziologického roztoku a stiskněte ,Pokračovat‘\n         nebo\n stiskněte ,Zrušit‘ pro návrat na obrazovku volby procedury.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSalineBolus	"#![BeginSeg 1]Zvolili jste podání bolusu fyziologického roztoku dárci.\n#![EndSeg 1]#![BeginSeg 2]Připojte vak fyziologického roztoku a stiskněte ,Pokračovat‘\n         nebo\n stiskněte ,Zrušit‘ pro návrat k proceduře.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSalineEmpty	"#![BeginSeg 1]Připojte vak fyziologického roztoku a stiskněte ,Pokračovat‘.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSalineRinsebackConnect	"#![BeginSeg 1]Procedura reinfuze vyžaduje fyziologický roztok.\n#![EndSeg 1]#![BeginSeg 2]Připojte vak fyziologického roztoku a stiskněte ,Pokračovat‘.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]Systém detekoval přeplavení a provádí automatickou nápravu přeplavení. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda je zadaná správná hodnota hematokritu/\nhemoglobinu dárce.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]Bylo stisknuto tlačítko Stop. #![EndSeg 1]#![BeginSeg 2]Pumpy a centrifuga jsou zastavené. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]Systém nemůže vyjmout kazetu z její současné polohy. #![EndSeg 1]#![BeginSeg 2]Odpojte dárce. #![EndSeg 2]#![BeginSeg 3]Přečtěte si Příručku operátora, kde jsou pokyny týkající se manuálního vyjmutí kazety.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]Systém nemůže přesunout ventil do správné polohy. #![EndSeg 1]#![BeginSeg 2]Zkontrolujte, zda na ventilech nejsou překážky. #![EndSeg 2]#![BeginSeg 3]Stiskněte ,Pokračovat‘, abyste pokračovali v proceduře.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
+textButtonAbortAasExit	"#![BeginSeg 1]Ukončit\npřidání\nnáhradního\nroztoku#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	17	1
+textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]Náprava zablokování vzduchem#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortPasExit	"#![BeginSeg 1]Ukončit přidání\nnáhradního\nroztoku\ntrombocytů#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	17	1
+textButtonAbortProcExit	"#![BeginSeg 1]Konec procesu#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortRasExit	"#![BeginSeg 1]Ukončit přidání\nnáhradního\nroztoku\nerytrocytů#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	17	1
+textButtonAbortReturnToPrev	"#![BeginSeg 1]Vrátit se na\npřechozí\nobrazovku#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortRinsebackExit	"#![BeginSeg 1]Reinfuze#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortSpilloverExit	"#![BeginSeg 1]Náprava\npřeplavení#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAdjustAirInPlasma	"#![BeginSeg 1]Zablokování vzduchem#![EndSeg 1]"	255 247 57	0x0111	5	5	110	50	14	1
+textButtonAdjustSalineBolus	"#![BeginSeg 1]Bolus fyziol. roztoku#![EndSeg 1]"	255 247 57	0x0111	5	5	110	50	14	1
+textButtonAdjustSpillover	"#![BeginSeg 1]Přeplavení#![EndSeg 1]"	255 247 57	0x0111	5	5	110	50	14	1
+textButtonAlarmAdjust	"#![BeginSeg 1]Upravit#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmDisabledContinue	"#![BeginSeg 1]Pokračovat#![EndSeg 1]"	239 239 239	0x0111	488	155	106	40	18	1
+textButtonAlarmEndAddition	"#![BeginSeg 1]Ukončit přidání#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmExit	"#![BeginSeg 1]Konec procesu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmRinseback	"#![BeginSeg 1]Reinfuze#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	18	1
+textButtonAlarmUnload	"#![BeginSeg 1]Vyjmout#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmUnloadSet	"#![BeginSeg 1]Vyjmout set#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonBarcodeAc	"#![BeginSeg 1]Anti-\nkoagulant#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
+textButtonBarcodeCategoryClear	"#![BeginSeg 1]Vymazat#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonBarcodeInputClear	"#![BeginSeg 1]Vymazat#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc3	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc4	"#![BeginSeg 1]4#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc5	"#![BeginSeg 1]5#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeNacl	"#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
+textButtonCancel	"#![BeginSeg 1]Konec\nprocesu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	16	1
+textButtonCancelSalineConnect	"#![BeginSeg 1]Zrušit#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	18	1
+textButtonCategoryRankSwitch	"#![BeginSeg 1]Další...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonCfgDonLimDrbcVolToggle	"#![BeginSeg 1]Min objem krve pro dERY#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	12	1
+textButtonCfgDonLimTbvToggle	"#![BeginSeg 1]Celkový objem krve#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgDonLimVolToggle	"#![BeginSeg 1]Objem#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgDonLimWeightToggle	"#![BeginSeg 1]Hmotnost#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgLongMachAddCassette	"#![BeginSeg 1]Přidat REF setu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgLongMachRemoveCassette	"#![BeginSeg 1]Odebrat REF setu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgMachAdminCode	"#![BeginSeg 1]Kód setu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgMachSetId	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgMainAutoProc	"#![BeginSeg 1]Automatizované procesy#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainDonor	"#![BeginSeg 1]Dárce#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainLang	"#![BeginSeg 1]Jazyk/jednotky#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainMach	"#![BeginSeg 1]Přístroj#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainPls	"#![BeginSeg 1]Plazma#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainPlt	"#![BeginSeg 1]Trombocyty#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainPrio	"#![BeginSeg 1]Priorita procedur#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainProc	"#![BeginSeg 1]Procedura#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainRbc	"#![BeginSeg 1]Erytrocyty#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainRepFluid	"#![BeginSeg 1]Kompenzační roztok#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainVolLim	"#![BeginSeg 1]Objemové limity dárce#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgNonDisplayedNumber	"#![BeginSeg 1]---#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	0
+textButtonCfgPrioExtraDoseUnits	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	10	1
+textButtonCfgPrioExtraPlasUnits	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	10	1
+textButtonCfgPrioExtraPltExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0102	68	31	8	8	6	0
+textButtonCfgPrioExtraPltX10	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	10	0
+textButtonCfgRepFluidRbc	"#![BeginSeg 1]Kompenzační roztok#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	12	1
+textButtonCfrClear	"#![BeginSeg 1]Vymazat#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
+textButtonCfrSelected	"#![BeginSeg 1]Přijmout#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
+textButtonConfig	"#![BeginSeg 1]Konfig#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textButtonConfirmBoxCancel	"#![BeginSeg 1]Zrušit#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonConfirmBoxConfirm	"#![BeginSeg 1]Potvrdit#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonConfirmInfo	"#![BeginSeg 1]Potvrdit údaje#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonContinueSalineConnect	"#![BeginSeg 1]Pokračovat#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonDonorInfo	"#![BeginSeg 1]Údaje o dárci#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonEndAddition	"#![BeginSeg 1]Ukončit\npřidání#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	17	1
+textButtonFlagPlasVol	"#![BeginSeg 1]Zkontrolujte objem produktu plazmy #![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagPlasWbcs	"#![BeginSeg 1]Zkontrolujte obsah leukocytů v produktu plazmy#![EndSeg 1]"	74 74 74	0x0101	10	10	262	40	16	1
+textButtonFlagPltConc	"#![BeginSeg 1]Zkontrolujte koncentraci trombocytů#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagPltWbcs	"#![BeginSeg 1]Zkontrolujte obsah leukocytů v produktu trombocytů#![EndSeg 1]"	74 74 74	0x0101	10	10	262	40	16	1
+textButtonFlagPltYieldVol	"#![BeginSeg 1]Zkontrolujte produkt trombocytů, jeho výtěžek a objem#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagRbcHctVol	"#![BeginSeg 1]Zkontrolujte produkt erytrocytů, jeho objem a hematokrit#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagRbcQuality	"#![BeginSeg 1]Zkontrolujte kvalitu produktu erytrocytů#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagRbcWbcs	"#![BeginSeg 1]Zkontrolujte obsah leukocytů v produktu erytrocytů#![EndSeg 1]"	74 74 74	0x0101	10	10	262	40	16	1
+textButtonGiantDonorInfoBloodType	"#![BeginSeg 1]Krevní skupina#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorInfoCrit	"#![BeginSeg 1]Hematokrit#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorInfoHemoglobin	"#![BeginSeg 1]Hemoglobin#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorInfoPltPrecount	"#![BeginSeg 1]Počet\ntrombocytů\npřed odběrem#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsHeight	"#![BeginSeg 1]Výška dárce#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsHeightCmSet	"#![BeginSeg 1]Výška dárce\n#!{dataItemHeightCm} cm#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsHeightFtSet	"#![BeginSeg 1]Výška dárce\n#!{dataItemHeightFeet} ft  #!{dataItemHeightInches} in#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]Hmotnost dárce#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]Hmotnost dárce\n#!{dataItemWeightKg} kg#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]Hmotnost dárce\n#!{dataItemWeightLb} lbs#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantLoadSystem	"#![BeginSeg 1]Založit systém#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonKeypad0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad3	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad4	"#![BeginSeg 1]4#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad5	"#![BeginSeg 1]5#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad6	"#![BeginSeg 1]6#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad7	"#![BeginSeg 1]7#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad8	"#![BeginSeg 1]8#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad9	"#![BeginSeg 1]9#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeANeg	"#![BeginSeg 1]A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeAPos	"#![BeginSeg 1]A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeAbNeg	"#![BeginSeg 1]AB-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeAbPos	"#![BeginSeg 1]AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeBNeg	"#![BeginSeg 1]B-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeBPos	"#![BeginSeg 1]B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadClear	"#![BeginSeg 1]C#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonKeypadEnter	"#![BeginSeg 1]Enter#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]Objem (l)#![EndSeg 2]"	255 247 57	0x0112	481	210	100	45	14	1
+textButtonLabelCfgDonLimJpDrbcVolSetting	"#![BeginSeg 2]Objem (l)#![EndSeg 2]"	255 247 57	0x0112	505	340	100	31	14	1
+textButtonLabelCfgDonLimJpMlPerKgSetting	"#![BeginSeg 2]ml/kg#![EndSeg 2]"	255 247 57	0x0112	505	162	100	35	14	1
+textButtonLabelCfgDonLimJpTbvSetting	"#![BeginSeg 2]Celkový objem krve (%)#![EndSeg 2]"	255 247 57	0x0112	339	162	135	40	14	1
+textButtonLabelCfgDonLimJpVolBucket1SettingKg	"#![BeginSeg 1]Objem (ml)\n< = hmotnost 1 (kg)#![EndSeg 1]"	255 247 57	0x0112	144	162	147	40	14	1
+textButtonLabelCfgDonLimJpVolBucket1SettingLb	"#![BeginSeg 1]Objem (ml)\n< = hmotnost 1 (lb)#![EndSeg 1]"	255 247 57	0x0112	144	162	147	40	14	1
+textButtonLabelCfgDonLimJpVolBucket2SettingKg	"#![BeginSeg 1]Objem (ml)\n> hmotnost 1 (kg)\n< = hmotnost 2 (kg)#![EndSeg 1]"	255 247 57	0x0112	157	252	110	32	10	1
+textButtonLabelCfgDonLimJpVolBucket2SettingLb	"#![BeginSeg 1]Objem (ml)\n> hmotnost 1 (lb)\n< = hmotnost 2 (lb)#![EndSeg 1]"	255 247 57	0x0112	157	252	110	32	10	1
+textButtonLabelCfgDonLimJpVolBucket3SettingKg	"#![BeginSeg 1]Objem (ml)\n> hmotnost 2 (kg)\n< = hmotnost 3 (kg)#![EndSeg 1]"	255 247 57	0x0112	157	340	110	31	10	1
+textButtonLabelCfgDonLimJpVolBucket3SettingLb	"#![BeginSeg 1]Objem (ml)\n> hmotnost 2 (lb)\n< = hmotnost 3 (lb)#![EndSeg 1]"	255 247 57	0x0112	157	340	110	31	10	1
+textButtonLabelCfgDonLimJpVolBucket4SettingKg	"#![BeginSeg 1]Objem (ml)\n> hmotnost 3 (kg)#![EndSeg 1]"	255 247 57	0x0112	292	340	110	31	14	1
+textButtonLabelCfgDonLimJpVolBucket4SettingLb	"#![BeginSeg 1]Objem (ml)\n> hmotnost 3 (lb)#![EndSeg 1]"	255 247 57	0x0112	292	340	110	31	14	1
+textButtonLabelCfgDonLimJpVolWeight1SettingKg	"#![BeginSeg 2]Hmotnost 1 (kg)#![EndSeg 2]"	255 247 57	0x0112	27	162	100	40	14	1
+textButtonLabelCfgDonLimJpVolWeight1SettingLb	"#![BeginSeg 2]Hmotnost 1 (lb)#![EndSeg 2]"	255 247 57	0x0112	27	162	100	40	14	1
+textButtonLabelCfgDonLimJpVolWeight2SettingKg	"#![BeginSeg 2]Hmotnost 2 (kg)#![EndSeg 2]"	255 247 57	0x0112	27	252	100	32	14	1
+textButtonLabelCfgDonLimJpVolWeight2SettingLb	"#![BeginSeg 2]Hmotnost 2 (lb)#![EndSeg 2]"	255 247 57	0x0112	27	252	100	32	14	1
+textButtonLabelCfgDonLimJpVolWeight3SettingKg	"#![BeginSeg 2]Hmotnost 3 (kg)#![EndSeg 2]"	255 247 57	0x0112	27	340	100	31	14	1
+textButtonLabelCfgDonLimJpVolWeight3SettingLb	"#![BeginSeg 2]Hmotnost 3 (lb)#![EndSeg 2]"	255 247 57	0x0112	27	340	100	31	14	1
+textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]ml/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
+textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]Celkový objem krve (%)#![EndSeg 2]"	255 247 57	0x0112	170	210	135	45	14	1
+textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]Objem (ml) \n> hmotnost#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	14	1
+textButtonLabelCfgDonLimVolSmallBucketSetting	"#![BeginSeg 1]Objem (ml) \n< = hmotnost#![EndSeg 1]"	255 247 57	0x0112	333	105	100	50	14	1
+textButtonLabelCfgDonLimVolWeightSettingKg	"#![BeginSeg 2]Hmotnost (kg)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	14	1
+textButtonLabelCfgDonLimVolWeightSettingLb	"#![BeginSeg 2]Hmotnost (lb)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	14	1
+textButtonLabelCfgLeftAutoProcExtraFlagMsgs	"#![BeginSeg 1]Zobrazte další zprávy o deleukotizaci#![EndSeg 1]"	255 247 57	0x0111	365	285	150	70	14	1
+textButtonLabelCfgLeftAutoProcPasBagVol	"#![BeginSeg 1]Objem (ml) vaku náhradního roztoku trombocytů#![EndSeg 1]"	255 247 57	0x0111	3	210	190	70	14	1
+textButtonLabelCfgLeftAutoProcPasOverrideToggle	"#![BeginSeg 1]Umožnění změny nastavení automatického objemu vaku náhradního roztoku trombocytů#![EndSeg 1]"	255 247 57	0x0111	3	285	190	70	14	1
+textButtonLabelCfgLeftAutoProcPasSplitNotifToggle	"#![BeginSeg 1]Dodání náhradního roztoku do samostatného vaku#![EndSeg 1]"	255 247 57	0x0111	3	360	190	70	14	1
+textButtonLabelCfgLeftAutoProcPasToggle	"#![BeginSeg 1]Přidání náhradního\nroztoku#![EndSeg 1]"	255 247 57	0x0111	3	135	190	70	14	1
+textButtonLabelCfgLeftAutoProcRasBagVol	"#![BeginSeg 1]Objem (ml) vaku náhradního roztoku erytrocytů#![EndSeg 1]"	255 247 57	0x0111	365	210	150	70	14	1
+textButtonLabelCfgLeftAutoProcRasToggle	"#![BeginSeg 1]Deleukotizace\na přidání\nnáhradního roztoku#![EndSeg 1]"	255 247 57	0x0111	365	135	150	70	14	1
+textButtonLabelCfgLeftDonAcRate	"#![BeginSeg 1]Řízení rychlosti infuze antikoagulantu#![EndSeg 1]"	255 247 57	0x0111	10	105	140	70	14	1
+textButtonLabelCfgLeftDonInletFlowRamp	"#![BeginSeg 1]Počáteční pozvolný náběh odběru#![EndSeg 1]"	255 247 57	0x0111	300	185	140	70	14	1
+textButtonLabelCfgLeftDonInletMgmt	"#![BeginSeg 1]Řízení odběru#![EndSeg 1]"	255 247 57	0x0111	310	265	140	70	14	1
+textButtonLabelCfgLeftDonMaxDrawFlow	"#![BeginSeg 1]Maximální rychlost odběru#![EndSeg 1]"	255 247 57	0x0111	300	105	140	70	14	1
+textButtonLabelCfgLeftDonPostCrit	"#![BeginSeg 1]Minimální hematokrit dárce po odběru (%)#![EndSeg 1]"	255 247 57	0x0111	10	185	140	70	14	1
+textButtonLabelCfgLeftDonPostPlat	"#![BeginSeg 1]Minimální počet trombocytů dárce po odběru#![EndSeg 1]"	255 247 57	0x0111	10	265	140	70	14	1
+textButtonLabelCfgLeftDonReturnMgmt	"#![BeginSeg 1]Řízení návratu#![EndSeg 1]"	255 247 57	0x0111	310	345	140	70	14	1
+textButtonLabelCfgLeftLangCritOrGlob	"#![BeginSeg 1]Jednotky erytrocytů#![EndSeg 1]"	255 247 57	0x0111	350	215	100	50	14	1
+textButtonLabelCfgLeftLangDecDelim	"#![BeginSeg 1]Desetinný oddělovač#![EndSeg 1]"	255 247 57	0x0111	350	115	100	50	14	1
+textButtonLabelCfgLeftLangHeight	"#![BeginSeg 1]Výška#![EndSeg 1]"	255 247 57	0x0111	50	215	100	50	14	1
+textButtonLabelCfgLeftLangLanguage	"#![BeginSeg 1]Jazyk#![EndSeg 1]"	255 247 57	0x0111	50	115	100	50	14	1
+textButtonLabelCfgLeftLangWeight	"#![BeginSeg 1]Hmotnost#![EndSeg 1]"	255 247 57	0x0111	50	315	100	50	14	1
+textButtonLabelCfgLeftMachAudio	"#![BeginSeg 1]Hlasitost upozornění#![EndSeg 1]"	255 247 57	0x0111	40	360	100	70	14	1
+textButtonLabelCfgLeftMachDate	"#![BeginSeg 1]Datum#![EndSeg 1]"	255 247 57	0x0111	40	165	100	70	14	1
+textButtonLabelCfgLeftMachDateFmt	"#![BeginSeg 1]Formát data#![EndSeg 1]"	255 247 57	0x0111	40	100	100	70	14	1
+textButtonLabelCfgLeftMachTime	"#![BeginSeg 1]Čas#![EndSeg 1]"	255 247 57	0x0111	40	295	100	70	14	1
+textButtonLabelCfgLeftMachTimeFmt	"#![BeginSeg 1]Formát času#![EndSeg 1]"	255 247 57	0x0111	40	230	100	70	14	1
+textButtonLabelCfgLeftPlsAmapMax	"#![BeginSeg 1]Co nejvíce - maximum (ml)#![EndSeg 1]"	255 247 57	0x0111	222	342	100	70	14	1
+textButtonLabelCfgLeftPlsAmapMin	"#![BeginSeg 1]Co nejvíce - minimum (ml)#![EndSeg 1]"	255 247 57	0x0111	10	342	100	70	14	1
+textButtonLabelCfgLeftPlsTrali	"#![BeginSeg 1]Povolení dárci#![EndSeg 1]"	255 247 57	0x0111	425	342	100	70	14	1
+textButtonLabelCfgLeftPlsVol1	"#![BeginSeg 1]Objem plazmy 1 (ml)#![EndSeg 1]"	255 247 57	0x0111	25	100	120	70	14	1
+textButtonLabelCfgLeftPlsVol2	"#![BeginSeg 1]Objem plazmy 2 (ml)#![EndSeg 1]"	255 247 57	0x0111	25	180	120	70	14	1
+textButtonLabelCfgLeftPlsVol3	"#![BeginSeg 1]Objem plazmy 3 (ml)#![EndSeg 1]"	255 247 57	0x0111	25	260	120	70	14	1
+textButtonLabelCfgLeftPlsVol4	"#![BeginSeg 1]Objem plazmy 4 (ml)#![EndSeg 1]"	255 247 57	0x0111	360	100	120	70	14	1
+textButtonLabelCfgLeftPlsVol5	"#![BeginSeg 1]Objem plazmy 5 (ml)#![EndSeg 1]"	255 247 57	0x0111	360	180	120	70	14	1
+textButtonLabelCfgLeftPlsVol6	"#![BeginSeg 1]Objem plazmy 6 (ml)#![EndSeg 1]"	255 247 57	0x0111	360	260	120	70	14	1
+textButtonLabelCfgLeftPltTrali	"#![BeginSeg 1]Povolení dárci#![EndSeg 1]"	255 247 57	0x0111	360	340	100	90	14	1
+textButtonLabelCfgLeftPltYsf	"#![BeginSeg 1]Faktor synchronizace výtěžnosti#![EndSeg 1]"	255 247 57	0x0111	110	340	100	90	14	1
+textButtonLabelCfgLeftProcAirRemoval	"#![BeginSeg 1]Odstranění vzduchu z vaku produktu#![EndSeg 1]"	255 247 57	0x0111	350	295	150	70	14	1
+textButtonLabelCfgLeftProcAuditTracking	"#![BeginSeg 1]Kontrola činnosti operátora#![EndSeg 1]"	255 247 57	0x0111	350	230	150	70	14	1
+textButtonLabelCfgLeftProcBloodDiversion	"#![BeginSeg 1]Odklon toku krve#![EndSeg 1]"	255 247 57	0x0111	30	295	150	70	14	1
+textButtonLabelCfgLeftProcCustomRatio	"#![BeginSeg 1]Poměr vstup/antikoagulant#![EndSeg 1]"	255 247 57	0x0111	350	100	150	70	14	1
+textButtonLabelCfgLeftProcDrawPressure	"#![BeginSeg 1]Dolní limit odběrového tlaku (mm Hg)#![EndSeg 1]"	255 247 57	0x0111	30	230	150	70	14	1
+textButtonLabelCfgLeftProcPlsRinseback	"#![BeginSeg 1]Reinfuze plazmy#![EndSeg 1]"	255 247 57	0x0111	30	360	150	70	14	1
+textButtonLabelCfgLeftProcRbcRatio	"#![BeginSeg 1]Poměr vstup/\nantikoagulant pro erytrocyty#![EndSeg 1]"	255 247 57	0x0111	350	165	150	70	14	1
+textButtonLabelCfgLeftProcReturnPressure	"#![BeginSeg 1]Horní limit návratového tlaku (mm Hg)#![EndSeg 1]"	255 247 57	0x0111	30	165	150	70	14	1
+textButtonLabelCfgLeftProcSalineRinseback	"#![BeginSeg 1]Reinfuze fyziologického roztoku#![EndSeg 1]"	255 247 57	0x0111	350	360	150	70	14	1
+textButtonLabelCfgLeftProcTime	"#![BeginSeg 1]Maximální trvání procedury (minuty)#![EndSeg 1]"	255 247 57	0x0111	30	100	150	70	14	1
+textButtonLabelCfgLeftRbcSplitAlert	"#![BeginSeg 1]Prahová hodnota dERY (ml)#![EndSeg 1]"	255 247 57	0x0111	55	357	100	70	14	1
+textButtonLabelCfgLeftRbcYsf	"#![BeginSeg 1]Faktor synchronizace výtěžnosti ERY#![EndSeg 1]"	255 247 57	0x0111	334	357	120	70	14	1
+textButtonLabelCfgTopRepFluidPercent	"#![BeginSeg 1]Bilance tekutin (%)#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonLabelCfgTopRepFluidTotCollThreshold	"#![BeginSeg 1]Prahová hodnota kompenzace (ml)#![EndSeg 1]"	255 247 57	0x0111	0	0	125	40	14	1
+textButtonLongAlarmMoreInfo	"#![BeginSeg 1]Další údaje#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongBeginDonorPrep	"#![BeginSeg 1]Připravit dárce#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongCfrEnterLater	"#![BeginSeg 1]Zadat později#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
+textButtonLongConfigExit	"#![BeginSeg 1]Opustit konfiguraci#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongConfigReturnToMainMenu	"#![BeginSeg 1]Vrátit se do hlavní nabídky#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
+textButtonLongConfirmProduct	"#![BeginSeg 1]Potvrdit proceduru#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongContinue	"#![BeginSeg 1]Pokračovat#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongDisconnectConfirm	"#![BeginSeg 1]Potvrdit odpojení#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongNextPage	"#![BeginSeg 1]Další strana#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongNextProcedure	"#![BeginSeg 1]Další procedura#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongPredScrollNext	"#![BeginSeg 1]Méně preferovaná#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongPredScrollPrev	"#![BeginSeg 1]Více preferovaná#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongResetMachine	"#![BeginSeg 1]Resetovat přístroj#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
+textButtonLongStartDraw	"#![BeginSeg 1]Zahájit odběr#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]Objem (ml) vaku náhradního roztoku#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	14	1
+textButtonSelectRef	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0111	5	10	155	40	18	1
+textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]Režim#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	14	1
+textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]Koncentrace\nproduktu\n(x10  /µl)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	12	1
+textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	242	150	10	15	8	0
+textCfgColLabelCfgPltFinalConc	"#![BeginSeg 1]Konečná\nkoncentrace\n(x10  /µl)#![EndSeg 1]"	255 247 57	0x0112	180	105	120	60	12	1
+textCfgColLabelCfgPltFinalConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	514	150	10	15	8	0
+textCfgColLabelCfgPltPasVol	"#![BeginSeg 1]Objem\nnáhradního\nroztoku\n(ml)#![EndSeg 1]"	255 247 57	0x0112	555	105	85	60	12	1
+textCfgColLabelCfgPltPercentPlasma	"#![BeginSeg 1]Plazma\n (%)#![EndSeg 1]"	255 247 57	0x0112	270	105	120	60	12	1
+textCfgColLabelCfgPltVol	"#![BeginSeg 1]Objem\nproduktu\n(ml)#![EndSeg 1]"	255 247 57	0x0112	360	105	120	60	12	1
+textCfgColLabelCfgPltYield	"#![BeginSeg 1]Výtěžek\n(x10   )#![EndSeg 1]"	255 247 57	0x0112	90	105	120	60	12	1
+textCfgColLabelCfgPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	150	10	15	8	0
+textCfgColLabelCfgPrioBloodType	"#![BeginSeg 1]Krevní skupina#![EndSeg 1]"	255 247 57	0x0111	384	160	135	0	14	1
+textCfgColLabelCfgPrioPls	"#![BeginSeg 1]Plazma#![EndSeg 1]"	255 247 57	0x0111	170	160	100	0	14	1
+textCfgColLabelCfgPrioPlt	"#![BeginSeg 1]Trombocyty#![EndSeg 1]"	255 247 57	0x0111	55	160	100	0	14	1
+textCfgColLabelCfgPrioRbc	"#![BeginSeg 1]Erytrocyty#![EndSeg 1]"	255 247 57	0x0111	285	160	100	0	14	1
+textCfgColLabelCfgPrioTime	"#![BeginSeg 1]Trvání#![EndSeg 1]"	255 247 57	0x0111	515	160	100	0	14	1
+textCfgColLabelCfgRbcCrit	"#![BeginSeg 1]Hematokrit\nodebraného\nproduktu\nerytrocytů (%)#![EndSeg 1]"	255 247 57	0x0112	255	105	170	60	12	1
+textCfgColLabelCfgRbcDose	"#![BeginSeg 1]Koncentrát\nerytrocytů při\n100% HCT#![EndSeg 1]"	255 247 57	0x0112	120	105	170	60	12	1
+textCfgColLabelCfgRbcRas	"#![BeginSeg 1]Objem\nnáhradního\nroztoku\n(ml)#![EndSeg 1]"	255 247 57	0x0112	500	105	140	60	12	1
+textCfgColLabelCfgRbcVol	"#![BeginSeg 1]Objem\nproduktu\nerytrocytů (ml)#![EndSeg 1]"	255 247 57	0x0112	390	105	130	60	12	1
+textCfgRowLabelCfgPlt1	"#![BeginSeg 1]TROMBO 1#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt10	"#![BeginSeg 1]TROMBO 10#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt2	"#![BeginSeg 1]TROMBO 2#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt3	"#![BeginSeg 1]TROMBO 3#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt4	"#![BeginSeg 1]TROMBO 4#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt5	"#![BeginSeg 1]TROMBO 5#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt6	"#![BeginSeg 1]TROMBO 6#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt7	"#![BeginSeg 1]TROMBO 7#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt8	"#![BeginSeg 1]TROMBO 8#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPlt9	"#![BeginSeg 1]TROMBO 9#![EndSeg 1]"	255 247 57	0x0111	12	0	53	48	14	1
+textCfgRowLabelCfgPrio1	"#![BeginSeg 1]Procedura 1#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio10	"#![BeginSeg 1]Procedura 10#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio11	"#![BeginSeg 1]Procedura 11#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio12	"#![BeginSeg 1]Procedura 12#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio13	"#![BeginSeg 1]Procedura 13#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio14	"#![BeginSeg 1]Procedura 14#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio15	"#![BeginSeg 1]Procedura 15#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio16	"#![BeginSeg 1]Procedura 16#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio17	"#![BeginSeg 1]Procedura 17#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio18	"#![BeginSeg 1]Procedura 18#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio19	"#![BeginSeg 1]Procedura 19#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio2	"#![BeginSeg 1]Procedura 2#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio20	"#![BeginSeg 1]Procedura 20#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio3	"#![BeginSeg 1]Procedura 3#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio4	"#![BeginSeg 1]Procedura 4#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio5	"#![BeginSeg 1]Procedura 5#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio6	"#![BeginSeg 1]Procedura 6#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio7	"#![BeginSeg 1]Procedura 7#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio8	"#![BeginSeg 1]Procedura 8#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio9	"#![BeginSeg 1]Procedura 9#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgRbc1	"#![BeginSeg 1]ERY 1#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	14	1
+textCfgRowLabelCfgRbc2	"#![BeginSeg 1]ERY 2#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	14	1
+textCfgRowLabelCfgRbc3	"#![BeginSeg 1]ERY 3#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	14	1
+textCfgScreenLabelAutoProc	"#![BeginSeg 1]Automatizované procesy#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelDonor	"#![BeginSeg 1]Dárce#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelLang	"#![BeginSeg 1]Jazyk/jednotky#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelMach	"#![BeginSeg 1]Přístroj#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelMainMenu	"#![BeginSeg 1]Konfigurace#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelPls	"#![BeginSeg 1]Plazma#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelPlt	"#![BeginSeg 1]Trombocyty#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelPrio	"#![BeginSeg 1]Priorita procedur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelProc	"#![BeginSeg 1]Procedura#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelRbc	"#![BeginSeg 1]Erytrocyty#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelRepFluid	"#![BeginSeg 1]Kompenzační roztok#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelVolLim	"#![BeginSeg 1]Objemové limity dárce#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textConfirmBodyAcConnect	"#![BeginSeg 1]Potvrďte, zda připojený vak je antikoagulant#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]Odstranění všech zadaných REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textConfirmBodyCfgMachRefDeleteOne	"#![BeginSeg 1]Odebrání REF setu:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textConfirmBodyPasConnect	"#![BeginSeg 1]Potvrďte, zda připojený vak je náhradní roztok trombocytů#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textConfirmBodyRasConnect	"#![BeginSeg 1]Potvrďte, zda připojený vak je náhradní roztok\nerytrocytů#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textConfirmBodyRestart	"#![BeginSeg 1]Potvrďte spuštění další procedury#![EndSeg 1]"	255 247 57	0x0111	12	12	250	86	18	1
+textConfirmBodySalineConnect	"#![BeginSeg 1]Potvrďte, zda připojený vak je fyziologický roztok#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textDataCfrBloodType	"#![BeginSeg 1]Krevní skupina: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataCfrGenderFemale	"#![BeginSeg 1]Žena#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataCfrGenderMale	"#![BeginSeg 1]Muž#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataDatRs1RinsebackComplete	"#![BeginSeg 1]Kompletní#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
+textDataDatRs1RinsebackIncomplete	"#![BeginSeg 1]Nekompletní#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
+textDataInitDonDlTbv	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	416	279	171	24	18	1
+textDataInitRunProcCurrentPlas	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 247 57	0x0111	339	388	114	24	24	1
+textDataInitRunProcCurrentRbc	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 247 57	0x0111	466	388	114	24	24	1
+textDataInitRunProcEstPlas	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	339	209	114	24	24	1
+textDataInitRunProcEstRbc	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	466	209	114	24	24	1
+textDataLabelAasRunsumm	"#![BeginSeg 1]Manuální nastavení objemu náhradního roztoku#![EndSeg 1]"	239 239 239	0x0111	230	270	395	35	18	1
+textDataLabelDonDlBloodType	"#![BeginSeg 1]Krevní skupina#![EndSeg 1]"	255 255 255	0x0121	242	313	164	24	18	1
+textDataLabelDonDlGender	"#![BeginSeg 1]Pohlaví#![EndSeg 1]"	255 255 255	0x0121	242	177	164	24	18	1
+textDataLabelDonDlHct	"#![BeginSeg 1]Hematokrit#![EndSeg 1]"	255 255 255	0x0121	242	347	164	24	18	1
+textDataLabelDonDlHeight	"#![BeginSeg 1]Výška#![EndSeg 1]"	255 255 255	0x0121	242	211	164	24	18	1
+textDataLabelDonDlHgb	"#![BeginSeg 1]Hemoglobin#![EndSeg 1]"	255 255 255	0x0121	242	347	164	24	18	1
+textDataLabelDonDlNameAndDob	"#![BeginSeg 1]Jméno a datum narození dárce#![EndSeg 1]"	239 239 239	0x0111	111	115	427	14	14	1
+textDataLabelDonDlPltPrecount	"#![BeginSeg 1]Počet trombocytů\npřed odběrem#![EndSeg 1]"	255 255 255	0x0121	232	376	174	24	16	1
+textDataLabelDonDlTbv	"#![BeginSeg 1]Celkový objem krve#![EndSeg 1]"	255 255 255	0x0121	242	279	164	24	17	1
+textDataLabelDonDlWeight	"#![BeginSeg 1]Hmotnost#![EndSeg 1]"	255 255 255	0x0121	242	245	164	24	18	1
+textDataLabelPasOffline	"#![BeginSeg 1]Produkt trombocytů#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelPasVolRemaining	"#![BeginSeg 1]Náhradní roztok trombocytů, který zbývá dodat:#![EndSeg 1]"	165 8 0	0x0110	15	350	225	60	16	1
+textDataLabelPredConfAcRequired	"#![BeginSeg 1]Požadovaný objem antikoagulantu#![EndSeg 1]"	255 247 57	0x0101	20	173	200	24	11	1
+textDataLabelPredConfDuration	"#![BeginSeg 1]Trvání#![EndSeg 1]"	255 247 57	0x0101	20	195	200	24	14	1
+textDataLabelPredConfFlow	"#![BeginSeg 1]Rychlost vstupního průtoku#![EndSeg 1]"	255 247 57	0x0101	20	151	200	24	12	1
+textDataLabelPredConfPlasVol	"#![BeginSeg 1]Objem plazmy#![EndSeg 1]"	255 247 57	0x0101	20	129	200	24	14	1
+textDataLabelPredConfPltVol	"#![BeginSeg 1]Objem trombocytů#![EndSeg 1]"	255 247 57	0x0101	20	63	200	24	14	1
+textDataLabelPredConfPltYield	"#![BeginSeg 1]Výtěžek trombocytů#![EndSeg 1]"	255 247 57	0x0101	20	85	200	24	14	1
+textDataLabelPredConfRbcVol	"#![BeginSeg 1]Objem erytrocytů#![EndSeg 1]"	255 247 57	0x0101	20	107	200	24	14	1
+textDataLabelPredConfTbvProcessed	"#![BeginSeg 1]Zpracovaný objem krve#![EndSeg 1]"	255 247 57	0x0101	20	217	200	24	14	1
+textDataLabelRas1Offline	"#![BeginSeg 1]Produkt erytrocytů 1#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelRas2Offline	"#![BeginSeg 1]Produkt erytrocytů 2#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelRasOffline	"#![BeginSeg 1]Produkt erytrocytů#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelRbc2SplitLayout	"#![BeginSeg 1]Produkt erytrocytů 2#![EndSeg 1]"	239 239 239	0x0101	95	312	280	23	18	1
+textDataLabelRs1AasStartTime	"#![BeginSeg 1]Počáteční čas přidání náhradního roztoku#![EndSeg 1]"	74 74 74	0x0101	10	302	175	90	14	1
+textDataLabelRs1AcToDonor	"#![BeginSeg 1]Skutečný objem antikoagulantu dárci#![EndSeg 1]"	74 74 74	0x0101	330	130	175	90	14	1
+textDataLabelRs1AcUsed	"#![BeginSeg 1]Celkové množství použitého antikoagulantu#![EndSeg 1]"	74 74 74	0x0101	10	130	175	90	14	1
+textDataLabelRs1AvgInletFlow	"#![BeginSeg 1]Průměrný vstupní průtok #![EndSeg 1]"	74 74 74	0x0101	10	345	169	90	14	1
+textDataLabelRs1AvgInletFlowAlt	"#![BeginSeg 1]Průměrný vstupní průtok #![EndSeg 1]"	74 74 74	0x0101	10	302	169	90	14	1
+textDataLabelRs1DurationOfRun	"#![BeginSeg 1]Trvání procesu#![EndSeg 1]"	74 74 74	0x0101	330	173	175	90	14	1
+textDataLabelRs1EndOfRunTime	"#![BeginSeg 1]Doba ukončení procesu#![EndSeg 1]"	74 74 74	0x0101	10	173	175	90	14	1
+textDataLabelRs1PlasRedidualLoss	"#![BeginSeg 1]Reziduální ztráta plazmy#![EndSeg 1]"	74 74 74	0x0101	330	345	175	90	14	1
+textDataLabelRs1PlasmaRinseback	"#![BeginSeg 1]Reinfuze plazmy#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	14	1
+textDataLabelRs1PltPostCount	"#![BeginSeg 1]Počet trombocytů dárce po odběru#![EndSeg 1]"	74 74 74	0x0101	10	216	175	90	14	1
+textDataLabelRs1PostHct	"#![BeginSeg 1]Hematokrit po odběru#![EndSeg 1]"	74 74 74	0x0101	330	216	175	90	14	1
+textDataLabelRs1PostHgb	"#![BeginSeg 1]Hemoglobin po odběru#![EndSeg 1]"	74 74 74	0x0101	330	216	175	90	14	1
+textDataLabelRs1PrbcResidualLoss	"#![BeginSeg 1]Reziduální ztráta koncentrovaných erytrocytů#![EndSeg 1]"	74 74 74	0x0101	330	306	175	90	14	1
+textDataLabelRs1SalineRinseback	"#![BeginSeg 1]Reinfuze fyziologického roztoku#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	14	1
+textDataLabelRs1SalineUsed	"#![BeginSeg 1]Celkové množství použitého fyziol. roztoku#![EndSeg 1]"	74 74 74	0x0101	330	259	175	90	14	1
+textDataLabelRs1TbvProcessed	"#![BeginSeg 1]Zpracovaný objem krve#![EndSeg 1]"	74 74 74	0x0101	10	259	175	90	14	1
+textDataLabelRs2PasVol	"#![BeginSeg 1]Objem náhradního roztoku#![EndSeg 1]"	74 74 74	0x0101	95	218	280	23	14	1
+textDataLabelRs2PlasAc	"#![BeginSeg 1]Objem antikoagulantu v plazmě#![EndSeg 1]"	74 74 74	0x0101	95	294	280	23	14	1
+textDataLabelRs2PlasAcSplitLayout	"#![BeginSeg 1]Objem antikoagulantu v plazmě#![EndSeg 1]"	74 74 74	0x0101	95	158	280	23	14	1
+textDataLabelRs2PlasVol	"#![BeginSeg 1]Celkový objem produktu#![EndSeg 1]"	74 74 74	0x0101	95	264	280	23	14	1
+textDataLabelRs2PlasVolSplitLayout	"#![BeginSeg 1]Celkový objem produktu#![EndSeg 1]"	74 74 74	0x0101	95	128	280	23	14	1
+textDataLabelRs2PltAc	"#![BeginSeg 1]Objem antikoagulantu v trombocytech#![EndSeg 1]"	74 74 74	0x0101	95	184	239	23	14	1
+textDataLabelRs2PltVol	"#![BeginSeg 1]Celkový objem produktu#![EndSeg 1]"	74 74 74	0x0101	95	129	280	23	14	1
+textDataLabelRs2PltYield	"#![BeginSeg 1]Výtěžek trombocytů#![EndSeg 1]"	74 74 74	0x0101	95	158	280	23	14	1
+textDataLabelRs2Ras2Vol	"#![BeginSeg 1]Objem náhradního roztoku#![EndSeg 1]"	74 74 74	0x0101	95	394	280	23	14	1
+textDataLabelRs2RasVol	"#![BeginSeg 1]Objem náhradního roztoku#![EndSeg 1]"	74 74 74	0x0101	95	398	280	23	14	1
+textDataLabelRs2RasVolSplitLayout	"#![BeginSeg 1]Objem náhradního roztoku#![EndSeg 1]"	74 74 74	0x0101	95	276	280	23	14	1
+textDataLabelRs2Rbc2Ac	"#![BeginSeg 1]Objem antikoagulantu v produktu erytrocytů#![EndSeg 1]"	74 74 74	0x0101	95	360	280	23	14	1
+textDataLabelRs2Rbc2Vol	"#![BeginSeg 1]Celkový objem produktu#![EndSeg 1]"	74 74 74	0x0101	95	334	280	23	14	1
+textDataLabelRs2RbcAc	"#![BeginSeg 1]Objem antikoagulantu v produktu erytrocytů#![EndSeg 1]"	74 74 74	0x0101	95	365	239	23	14	1
+textDataLabelRs2RbcAcSplitLayout	"#![BeginSeg 1]Objem antikoagulantu v produktu erytrocytů#![EndSeg 1]"	74 74 74	0x0101	95	242	280	23	14	1
+textDataLabelRs2RbcSplitLayout	"#![BeginSeg 1]Produkt erytrocytů 1#![EndSeg 1]"	239 239 239	0x0101	95	194	280	23	18	1
+textDataLabelRs2RbcVol	"#![BeginSeg 1]Celkový objem produktu#![EndSeg 1]"	74 74 74	0x0101	95	338	280	23	14	1
+textDataLabelRs2RbcVolSplitLayout	"#![BeginSeg 1]Celkový objem produktu#![EndSeg 1]"	74 74 74	0x0101	95	216	280	23	14	1
+textDataUnitsAdjustTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textDataUnitsCfrAm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]a.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrHgb	"#![BeginSeg 1]g/dl#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrPm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]p.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCrit	"#![BeginSeg 1] %#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsDonDlCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlHct	"#![BeginSeg 1] %#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
+textDataUnitsDonDlHemoglobin	"#![BeginSeg 1]g/dl#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
+textDataUnitsDonDlTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsMl	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	1
+textDataUnitsPasOffline	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
+textDataUnitsPasVolRemaining	"#![BeginSeg 1]ml#![EndSeg 1]"	165 8 0	0x0102	130	350	113	60	16	1
+textDataUnitsPredConfAcRequired	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	173	60	24	14	1
+textDataUnitsPredConfDuration	"#![BeginSeg 1]min#![EndSeg 1]"	255 247 57	0x0101	245	195	60	24	14	1
+textDataUnitsPredConfFlow	"#![BeginSeg 1]ml/min#![EndSeg 1]"	255 247 57	0x0101	245	151	60	24	14	1
+textDataUnitsPredConfPlasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	129	60	24	14	1
+textDataUnitsPredConfPltVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	63	60	24	14	1
+textDataUnitsPredConfPltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0101	277	81	60	24	10	0
+textDataUnitsPredConfPltYieldX10	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 247 57	0x0101	245	85	60	24	14	0
+textDataUnitsPredConfRbcVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	107	60	24	14	1
+textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	217	60	24	14	1
+textDataUnitsPredDuration	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	1
+textDataUnitsPredFlowRate	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml/min#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	1
+textDataUnitsPredPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	0
+textDataUnitsPredUnitPltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
+textDataUnitsRas1Offline	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
+textDataUnitsRas2Offline	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
+textDataUnitsRs1AcToDonor	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	130	55	90	14	1
+textDataUnitsRs1AcUsed	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	253	130	55	90	14	1
+textDataUnitsRs1AvgInletFlow	"#![BeginSeg 1]ml/min#![EndSeg 1]"	255 255 255	0x0101	233	345	75	90	14	1
+textDataUnitsRs1AvgInletFlowAlt	"#![BeginSeg 1]ml/min#![EndSeg 1]"	255 255 255	0x0101	233	302	75	90	14	1
+textDataUnitsRs1GPerDl	"#![BeginSeg 1]g/dl#![EndSeg 1]"	255 255 255	0x0101	573	216	55	90	14	1
+textDataUnitsRs1MinLength	"#![BeginSeg 1]min#![EndSeg 1]"	255 255 255	0x0101	573	173	55	90	14	1
+textDataUnitsRs1Percent	"#![BeginSeg 1] %#![EndSeg 1]"	255 255 255	0x0101	573	216	55	90	14	0
+textDataUnitsRs1PlasResidualLoss	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	345	55	90	14	1
+textDataUnitsRs1PrbcResidualLoss	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	302	55	90	14	1
+textDataUnitsRs1SalineUsed	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	259	55	90	14	1
+textDataUnitsRs1TimeAasAm	"#![BeginSeg 1]a.m.#![EndSeg 1]"	255 255 255	0x0101	253	302	55	90	14	1
+textDataUnitsRs1TimeAasPm	"#![BeginSeg 1]p.m.#![EndSeg 1]"	255 255 255	0x0101	253	302	55	90	14	1
+textDataUnitsRs1TimeAm	"#![BeginSeg 1]a.m.#![EndSeg 1]"	255 255 255	0x0101	253	173	55	90	14	1
+textDataUnitsRs1TimePm	"#![BeginSeg 1]p.m.#![EndSeg 1]"	255 255 255	0x0101	253	173	55	90	14	1
+textDataUnitsRs1VolMl	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	253	259	55	90	14	1
+textDataUnitsRs1X1000	"#![BeginSeg 1]x 1000/µl#![EndSeg 1]"	255 255 255	0x0101	229	216	75	90	14	1
+textDataUnitsRs2PasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	218	110	23	14	1
+textDataUnitsRs2PlasAc	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	294	110	23	14	1
+textDataUnitsRs2PlasAcSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	158	110	23	14	1
+textDataUnitsRs2PlasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	264	110	23	14	1
+textDataUnitsRs2PlasVolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	128	110	23	14	1
+textDataUnitsRs2PltAc	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	188	110	23	14	1
+textDataUnitsRs2PltVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	129	110	23	14	1
+textDataUnitsRs2PltYield	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 255 255	0x0101	436	158	110	23	14	0
+textDataUnitsRs2PltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0101	466	154	110	23	8	0
+textDataUnitsRs2Ras2Vol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	398	110	23	14	1
+textDataUnitsRs2Ras2VolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	394	110	23	14	1
+textDataUnitsRs2RasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	398	110	23	14	1
+textDataUnitsRs2RasVolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	276	110	23	14	1
+textDataUnitsRs2Rbc2Ac	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	369	110	23	14	1
+textDataUnitsRs2Rbc2AcSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	364	110	23	14	1
+textDataUnitsRs2Rbc2Vol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	338	110	23	14	1
+textDataUnitsRs2Rbc2VolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	334	110	23	14	1
+textDataUnitsRs2RbcAc	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	369	110	23	14	1
+textDataUnitsRs2RbcAcSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	246	110	23	14	1
+textDataUnitsRs2RbcVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	338	110	23	14	1
+textDataUnitsRs2RbcVolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	216	110	23	14	1
+textDataUnitsRunProcCurrentPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	24	0
+textDataUnitsRunProcCurrentPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0121	0	0	0	0	10	0
+textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	0
+textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
+textDataUnitsRunProcTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	14	1
+textDataUnitsRunProcTimeAm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]a.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsRunProcTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsRunProcTimePm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]p.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textEmpty	""	0 0 0	0x0111	0	0	640	0	14	0
+textEmptyFormatAlarmBmpDisplay	""	165 8 0	0x0101	54	146	182	14	14	0
+textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
+textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
+textEmptyFormatAlarmNumberData	""	165 8 0	0x0102	15	70	90	30	18	0
+textEmptyFormatAlarmVersionLocation	""	255 247 57	0x0101	10	419	465	12	10	0
+textEmptyFormatBarcodeScan	""	255 247 57	0x0101	100	132	390	31	12	0
+textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	100	380	390	31	12	0
+textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
+textEmptyFormatButtonCfgPltEmpty	""	255 247 57	0x0111	0	0	0	0	14	0
+textEmptyFormatCatButton	""	255 247 57	0x0102	7	7	90	69	18	0
+textEmptyFormatCatNum	""	33 74 132	0x0101	161	205	90	35	16	0
+textEmptyFormatCfgMachAdminCodeInit	""	255 247 57	0x0111	380	181	210	45	18	0
+textEmptyFormatCfgMachBarcodeInit	""	255 247 57	0x0111	380	236	210	45	16	0
+textEmptyFormatCfgMachSetIdInit	""	255 247 57	0x0111	380	128	210	45	18	0
+textEmptyFormatCfgNumericTextFormatNull	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfgPltFinalConc	""	255 247 57	0x0111	0	0	50	20	14	0
+textEmptyFormatCfgRbcVolData	""	255 247 57	0x0111	390	0	130	48	12	0
+textEmptyFormatCfrList1Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrList2Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrList3Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrList4Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrOpId	""	255 255 255	0x0101	75	140	0	0	20	0
+textEmptyFormatCfrTimeOfDay	""	255 247 57	0x0101	500	400	0	0	16	0
+textEmptyFormatDonDlBloodTypeInit	""	255 255 255	0x0111	416	313	171	24	18	0
+textEmptyFormatDonDlDobInit	""	255 255 255	0x0121	395	131	131	20	18	0
+textEmptyFormatDonDlDonorNameInit	""	255 255 255	0x0101	116	131	285	20	18	0
+textEmptyFormatDonDlGenderInit	""	255 255 255	0x0111	416	177	171	24	18	0
+textEmptyFormatDonDlHctInit	""	255 255 255	0x0111	416	347	171	24	18	0
+textEmptyFormatDonDlHeightInit	""	255 255 255	0x0111	416	211	171	24	18	0
+textEmptyFormatDonDlWeightInit	""	255 255 255	0x0111	416	245	171	24	18	0
+textEmptyFormatKeypadUsrEntryInit	""	0 0 0	0x0121	0	0	0	0	18	0
+textEmptyFormatListboxButton	""	255 255 255	0x0111	20	0	640	0	19	0
+textEmptyFormatOfflinePasData	""	255 255 255	0x0121	480	305	60	32	14	0
+textEmptyFormatOfflineRas1Data	""	255 255 255	0x0121	480	305	60	32	14	0
+textEmptyFormatOfflineRas2Data	""	255 255 255	0x0121	480	305	60	32	14	0
+textEmptyFormatPasEmptyData	""	165 8 0	0x0122	15	350	112	60	16	0
+textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatPredConfirmAcData	""	255 247 57	0x0121	212	173	30	24	14	0
+textEmptyFormatPredConfirmFlowData	""	255 247 57	0x0121	212	151	30	24	14	0
+textEmptyFormatPredConfirmPlasVolData	""	255 247 57	0x0121	212	129	30	24	14	0
+textEmptyFormatPredConfirmPltVolData	""	255 247 57	0x0121	212	63	30	24	14	0
+textEmptyFormatPredConfirmPltYieldData	""	255 247 57	0x0121	212	85	30	24	14	0
+textEmptyFormatPredConfirmRbcVolData	""	255 247 57	0x0121	212	107	30	24	14	0
+textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	212	217	30	24	14	0
+textEmptyFormatPredConfirmTimeData	""	255 247 57	0x0121	212	195	30	24	14	0
+textEmptyFormatPredCurrFlowRateInit	""	255 247 57	0x0121	490	246	54	23	16	0
+textEmptyFormatPredCurrFlowRateLabelInit	""	255 247 57	0x0101	546	246	44	23	16	0
+textEmptyFormatPredCurrPlasInit	""	255 247 57	0x0121	225	265	59	23	18	0
+textEmptyFormatPredCurrPlasLabelInit	""	255 247 57	0x0101	286	265	44	23	18	0
+textEmptyFormatPredCurrPltExpInit	""	255 247 57	0x0101	128	263	16	12	10	0
+textEmptyFormatPredCurrPltInit	""	255 247 57	0x0121	35	265	45	23	18	0
+textEmptyFormatPredCurrPltVolInit	""	255 247 57	0x0121	35	290	45	23	14	0
+textEmptyFormatPredCurrPltVolLabelInit	""	255 247 57	0x0101	85	290	47	23	14	0
+textEmptyFormatPredCurrPltX10Init	""	255 247 57	0x0101	85	265	47	23	18	0
+textEmptyFormatPredCurrRbcInit	""	255 247 57	0x0121	330	265	59	23	18	0
+textEmptyFormatPredCurrRbcLabelInit	""	255 247 57	0x0101	391	265	39	23	18	0
+textEmptyFormatPredCurrTimeInit	""	255 247 57	0x0121	510	265	54	23	18	0
+textEmptyFormatPredCurrTimeInitAlt	""	255 247 57	0x0121	490	269	54	23	16	0
+textEmptyFormatPredCurrTimeLabelInit	""	255 247 57	0x0101	566	265	44	23	18	0
+textEmptyFormatPredCurrTimeLabelInitAlt	""	255 247 57	0x0101	546	269	44	23	16	0
+textEmptyFormatPredNextFlowRateInit	""	74 74 74	0x0121	490	318	54	19	14	0
+textEmptyFormatPredNextFlowRateLabelInit	""	74 74 74	0x0101	546	318	44	19	14	0
+textEmptyFormatPredNextPlasInit	""	74 74 74	0x0121	225	326	59	19	14	0
+textEmptyFormatPredNextPlasLabelInit	""	74 74 74	0x0101	286	326	44	19	14	0
+textEmptyFormatPredNextPltExpInit	""	74 74 74	0x0101	107	324	13	11	8	0
+textEmptyFormatPredNextPltInit	""	74 74 74	0x0121	35	326	34	19	14	0
+textEmptyFormatPredNextPltX10Init	""	74 74 74	0x0101	75	326	41	19	14	0
+textEmptyFormatPredNextRbcInit	""	74 74 74	0x0121	330	326	59	19	14	0
+textEmptyFormatPredNextRbcLabelInit	""	74 74 74	0x0101	391	326	39	19	14	0
+textEmptyFormatPredNextTimeInit	""	74 74 74	0x0121	510	326	54	19	14	0
+textEmptyFormatPredNextTimeInitAlt	""	74 74 74	0x0121	490	338	54	19	14	0
+textEmptyFormatPredNextTimeLabelInit	""	74 74 74	0x0101	566	326	44	19	14	0
+textEmptyFormatPredNextTimeLabelInitAlt	""	74 74 74	0x0101	546	338	44	19	14	0
+textEmptyFormatPredPrevFlowRateInit	""	74 74 74	0x0121	490	181	54	19	14	0
+textEmptyFormatPredPrevFlowRateLabelInit	""	74 74 74	0x0101	546	181	44	19	14	0
+textEmptyFormatPredPrevPlasInit	""	74 74 74	0x0121	225	193	59	19	14	0
+textEmptyFormatPredPrevPlasLabelInit	""	74 74 74	0x0101	286	193	44	19	14	0
+textEmptyFormatPredPrevPltExpInit	""	74 74 74	0x0101	107	190	13	11	8	0
+textEmptyFormatPredPrevPltInit	""	74 74 74	0x0121	35	193	34	19	14	0
+textEmptyFormatPredPrevPltX10Init	""	74 74 74	0x0101	75	193	41	19	14	0
+textEmptyFormatPredPrevRbcInit	""	74 74 74	0x0121	330	193	59	19	14	0
+textEmptyFormatPredPrevRbcLabelInit	""	74 74 74	0x0101	391	193	39	19	14	0
+textEmptyFormatPredPrevTimeInit	""	74 74 74	0x0121	510	193	54	19	14	0
+textEmptyFormatPredPrevTimeInitAlt	""	74 74 74	0x0121	490	200	54	19	14	0
+textEmptyFormatPredPrevTimeLabelInit	""	74 74 74	0x0101	566	193	44	19	14	0
+textEmptyFormatPredPrevTimeLabelInitAlt	""	74 74 74	0x0101	546	200	44	19	14	0
+textEmptyFormatPwsFactotumButton	""	74 74 74	0x0101	0	0	0	0	16	0
+textEmptyFormatPwsFactotumPlac	""	255 255 255	0x0101	360	150	255	256	16	0
+textEmptyFormatRbcAc	""	255 255 255	0x0121	370	369	60	23	14	0
+textEmptyFormatRbcListboxDoseInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatRs1DatAasStartTime	""	255 255 255	0x0121	180	302	70	90	14	0
+textEmptyFormatRs1DatAcToDonor	""	255 255 255	0x0121	500	130	70	90	14	0
+textEmptyFormatRs1DatAvgInletFlow	""	255 255 255	0x0121	180	345	50	90	14	0
+textEmptyFormatRs1DatAvgInletFlowAlt	""	255 255 255	0x0121	180	302	50	90	14	0
+textEmptyFormatRs1DatEndOfRunTime	""	255 255 255	0x0121	180	173	70	90	14	0
+textEmptyFormatRs1DatLengthOfRun	""	255 255 255	0x0121	500	173	70	90	14	0
+textEmptyFormatRs1DatPlasResidualLoss	""	255 255 255	0x0121	500	345	70	90	14	0
+textEmptyFormatRs1DatPostHct	""	255 255 255	0x0121	500	216	70	90	14	0
+textEmptyFormatRs1DatPostPltCount	""	255 255 255	0x0121	180	216	44	90	14	0
+textEmptyFormatRs1DatPrbcResidualLoss	""	255 255 255	0x0121	500	302	70	90	14	0
+textEmptyFormatRs1DatSalineUsed	""	255 255 255	0x0121	500	259	70	90	14	0
+textEmptyFormatRs1DatTbvProcessed	""	255 255 255	0x0121	180	259	70	90	14	0
+textEmptyFormatRs1DatTotAcUsed	""	255 255 255	0x0121	180	130	70	90	14	0
+textEmptyFormatRs2DatPasVol	""	255 255 255	0x0121	370	218	60	23	14	0
+textEmptyFormatRs2DatPlsAc	""	255 255 255	0x0121	370	294	60	23	14	0
+textEmptyFormatRs2DatPlsAcSplitLayout	""	255 255 255	0x0121	370	158	60	23	14	0
+textEmptyFormatRs2DatPlsVol	""	255 255 255	0x0121	370	264	60	23	14	0
+textEmptyFormatRs2DatPlsVolSplitLayout	""	255 255 255	0x0121	370	128	60	23	14	0
+textEmptyFormatRs2DatPltAc	""	255 255 255	0x0121	370	188	60	23	14	0
+textEmptyFormatRs2DatPltVol	""	255 255 255	0x0121	370	129	60	23	14	0
+textEmptyFormatRs2DatPltYield	""	255 255 255	0x0121	370	158	60	23	14	0
+textEmptyFormatRs2DatRas	""	255 255 255	0x0121	370	398	60	23	14	0
+textEmptyFormatRs2DatRasVol	""	255 255 255	0x0121	370	398	60	23	14	0
+textEmptyFormatRs2DatRbc2Ac	""	255 255 255	0x0121	370	369	60	23	14	0
+textEmptyFormatRs2DatRbc2AcSplitLayout	""	255 255 255	0x0121	370	364	60	23	14	0
+textEmptyFormatRs2DatRbc2RasSplitLayout	""	255 255 255	0x0121	370	394	60	23	14	0
+textEmptyFormatRs2DatRbc2Vol	""	255 255 255	0x0121	370	338	60	23	14	0
+textEmptyFormatRs2DatRbc2VolSplitLayout	""	255 255 255	0x0121	370	334	60	23	14	0
+textEmptyFormatRs2DatRbcAcSplitLayout	""	255 255 255	0x0121	370	246	60	23	14	0
+textEmptyFormatRs2DatRbcRasSplitLayout	""	255 255 255	0x0121	370	276	60	23	14	0
+textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	338	60	23	14	0
+textEmptyFormatRs2DatRbcVolSplitLayout	""	255 255 255	0x0121	370	216	60	23	14	0
+textEmptyFormatRunDonationTimeLeftInit	""	239 239 239	0x0101	314	146	86	15	14	0
+textEmptyFormatRunDonationTimeMidInit	""	255 247 57	0x0111	403	146	86	15	14	0
+textEmptyFormatRunDonationTimeRightInit	""	239 239 239	0x0121	492	146	86	15	14	0
+textEmptyFormatRunDrawReturnInit	""	255 255 255	0x0111	60	209	94	24	24	0
+textEmptyFormatScreenNameLiteral	""	0 0 0	0x0101	0	0	107	0	12	0
+textEmptyFormatServiceBuildNumber	""	0 0 0	0x0101	65	150	110	25	16	0
+textEmptyFormatServiceCRCValue	""	0 0 0	0x0101	65	180	110	25	16	0
+textEmptyFormatServiceCentrifugeMeter	""	0 0 0	0x0121	350	390	200	0	24	0
+textEmptyFormatServiceHourMeter	""	0 0 0	0x0121	350	360	200	0	24	0
+textEmptyFormatServiceIpAddressInit	""	0 0 0	0x0111	170	105	300	50	24	0
+textEmptyFormatServiceNumRunsMeter	""	0 0 0	0x0121	350	420	200	0	24	0
+textEmptyFormatServiceSerialNumInit	""	0 0 0	0x0111	170	75	300	50	24	0
+textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
+textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
+textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
+textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
+textKeypadUnitsCm	"#![BeginSeg 1]cm#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsCrit	"#![BeginSeg 1] %#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
+textKeypadUnitsExponentInit	"#![BeginSeg 1]0#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	12	0
+textKeypadUnitsFeet	"#![BeginSeg 1]ft#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsFlow	"#![BeginSeg 1]ml/min#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	16	1
+textKeypadUnitsHemoglobin	"#![BeginSeg 1]g/dl#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsInches	"#![BeginSeg 1]in#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsKg	"#![BeginSeg 1]kg#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsLbs	"#![BeginSeg 1]lbs#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
+textKeypadUnitsTime	"#![BeginSeg 1]min#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textListboxItemCancel	"#![BeginSeg 1]Zrušit#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	1
+textListboxItemCfgAcRateFast	"#![BeginSeg 1]Rychle#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAcRateModerate	"#![BeginSeg 1]Mírně#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAcRateSlow	"#![BeginSeg 1]Pomalu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjNoPlama	"#![BeginSeg 1]Žádná plazma#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjNoPlatelets	"#![BeginSeg 1]Žádné trombocyty#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjNoRbcs	"#![BeginSeg 1]Žádné erytrocyty#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjPossible	"#![BeginSeg 1]Co nejvíce#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textListboxItemCfgAuditLevel1	"#![BeginSeg 1]Údaje o dárci#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAuditLevel2	"#![BeginSeg 1]Úpravy#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAuditLevel3	"#![BeginSeg 1]Výstrahy#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAuditOff	"#![BeginSeg 1]Vypnout#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgBloodTypeAbpAbn	"#![BeginSeg 1]AB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeAll	"#![BeginSeg 1]Všechny#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgBloodTypeAnAp	"#![BeginSeg 1]A-/A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeApAnBpBnAbpAbn	"#![BeginSeg 1]A-/A+/B-/B+\nAB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeBnBp	"#![BeginSeg 1]B-/B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOn	"#![BeginSeg 1]O-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOnAn	"#![BeginSeg 1]O-/A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOnOp	"#![BeginSeg 1]O-/O+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOpOnAn	"#![BeginSeg 1]O-/O+/A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOpOnApAn	"#![BeginSeg 1]O-/O+/A-/A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOpOnApAnBn	"#![BeginSeg 1]O-/O+/A-/A+\nB-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOpOnApAnBpBn	"#![BeginSeg 1]O-/O+/A-/A+\nB-/B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOpOnBpBn	"#![BeginSeg 1]O-/O+/B-/B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgDateDay	"#![BeginSeg 1]rr/mm/dd#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgDateMonth	"#![BeginSeg 1]mm/dd/rr#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgDateYear	"#![BeginSeg 1]dd/mm/rr#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgDecDelimComma	"#![BeginSeg 1]0,000.00#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgDecDelimDec	"#![BeginSeg 1]0.000,00#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgHeightEnglish	"#![BeginSeg 1]ft/in#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgHeightMetric	"#![BeginSeg 1]cm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgMachHigh	"#![BeginSeg 1]Vysoká#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgMachLow	"#![BeginSeg 1]Nízká#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgMachMed	"#![BeginSeg 1]Střední#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgOff	"#![BeginSeg 1]Vypnout#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgOn	"#![BeginSeg 1]Zapnout#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc1	"#![BeginSeg 1]Plazma 1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc2	"#![BeginSeg 1]Plazma 2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc3	"#![BeginSeg 1]Plazma 3#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc4	"#![BeginSeg 1]Plazma 4#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc5	"#![BeginSeg 1]Plazma 5#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc6	"#![BeginSeg 1]Plazma 6#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProcAmap	"#![BeginSeg 1]Maximum současně#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPltProc1	"#![BeginSeg 1]TROMBO 1#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc10	"#![BeginSeg 1]TROMBO 10#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc2	"#![BeginSeg 1]TROMBO 2#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc3	"#![BeginSeg 1]TROMBO 3#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc4	"#![BeginSeg 1]TROMBO 4#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc5	"#![BeginSeg 1]TROMBO 5#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc6	"#![BeginSeg 1]TROMBO 6#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc7	"#![BeginSeg 1]TROMBO 7#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc8	"#![BeginSeg 1]TROMBO 8#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc9	"#![BeginSeg 1]TROMBO 9#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcProc1	"#![BeginSeg 1]ERY 1#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcProc2	"#![BeginSeg 1]ERY 2#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcProc3	"#![BeginSeg 1]ERY 3#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcRatio11	"#![BeginSeg 1]11.0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgRbcRatio814	"#![BeginSeg 1]8.14#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgRbcUnitsCrit	"#![BeginSeg 1]Hematokrit\n(%)#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgRbcUnitsHemoglobin	"#![BeginSeg 1]Hemoglobin (g/dl)#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgSalineNo	"#![BeginSeg 1]Ne#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgSalineYes	"#![BeginSeg 1]Ano#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTimeFmt12	"#![BeginSeg 1]hh:mm\na.m./p.m.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTimeFmt24	"#![BeginSeg 1]hh:mm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTraliAll	"#![BeginSeg 1]Všichni#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTraliMaleAndAbFemale	"#![BeginSeg 1]Muži + AB ženy#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTraliMaleOnly	"#![BeginSeg 1]Pouze muži#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgWeightKg	"#![BeginSeg 1]kg#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgWeightLb	"#![BeginSeg 1]lb#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemRemoveAll	"#![BeginSeg 1]Odstranit všechny#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	1
+textMiscAas	"#![BeginSeg 1]Automatizované přidání náhradního roztoku#![EndSeg 1]"	255 247 57	0x0111	70	180	470	20	18	1
+textMiscAasDisconnect	"#![BeginSeg 2]Zatavte a odpojte linku dárce#![EndSeg 2]"	255 247 57	0x0111	30	107	180	0	14	1
+textMiscAasDontSealProducts	"#![BeginSeg 1]NEZATAVUJTE linky produktu ani odpadního vaku#![EndSeg 1]"	165 8 0	0x0111	0	365	640	25	20	1
+textMiscAasPrime	"#![BeginSeg 1]Probíhá plnění náhradním roztokem...#![EndSeg 1]"	255 247 57	0x0111	30	150	300	210	18	1
+textMiscAasSealDetach	"#![BeginSeg 2]Zatavte a oddělte linky#![EndSeg 2]"	255 247 57	0x0112	133	105	260	42	18	1
+textMiscAcConnBag1	"#![BeginSeg 1]Anti-\nkoagulant#![EndSeg 1]"	57 24 132	0x0111	85	155	110	100	17	1
+textMiscAcConnBag2	"#![BeginSeg 1]Anti-\nkoagulant#![EndSeg 1]"	57 24 132	0x0111	268	155	110	100	17	1
+textMiscAdjustDonationTimeRemaining	"#![BeginSeg 1]Zbývající odběrový čas#![EndSeg 1]"	239 239 239	0x0111	111	115	416	11	14	1
+textMiscAdjustMeterLabelAcReaction	"#![BeginSeg 1]Reakce na\nantikoagulant#![EndSeg 1]"	239 239 239	0x0111	252	167	104	14	14	1
+textMiscAdjustMeterLabelClumping	"#![BeginSeg 1]Shlukování#![EndSeg 1]"	239 239 239	0x0111	378	177	104	14	14	1
+textMiscAdjustMeterLabelDraw	"#![BeginSeg 1]Odběrový\nprůtok#![EndSeg 1]"	239 239 239	0x0111	35	167	104	14	14	1
+textMiscAdjustMeterLabelReturn	"#![BeginSeg 1]Návratový\nprůtok#![EndSeg 1]"	239 239 239	0x0111	135	167	104	14	14	1
+textMiscAdjustTimeInit	"#![BeginSeg 1]0 min#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
+textMiscBarcodeInputLabel	"#![BeginSeg 1]Hodnota čárového kódu#![EndSeg 1]"	255 255 255	0x0101	71	102	380	35	20	1
+textMiscBarcodeMoreCategoriesElipses	"#![BeginSeg 1]...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	24	0
+textMiscBarcodeVerticalSpacer	"#![BeginSeg 1]\n\n\n #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textMiscBloodTypeANeg	"#![BeginSeg 1]A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAPos	"#![BeginSeg 1]A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAbNeg	"#![BeginSeg 1]AB-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAbPos	"#![BeginSeg 1]AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAnBnApBp	"#![BeginSeg 1]AB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeBNeg	"#![BeginSeg 1]B-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeBPos	"#![BeginSeg 1]B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Zlomte prolomitelný konektor vaku#![EndSeg 2]"	255 247 57	0x0112	170	105	160	45	14	1
+textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Zavěste vak a otevřete svorku#![EndSeg 2]"	255 247 57	0x0112	330	105	160	45	14	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]Kód setu:\n#![EndSeg 1]#![BeginSeg 2]8 číslic#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]Procesy trombocytů#![EndSeg 1]"	255 247 57	0x0111	15	110	300	25	18	1
+textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]Procesy erytrocytů#![EndSeg 1]"	255 247 57	0x0111	325	110	300	25	18	1
+textMiscCfgMachBarcode	"#![BeginSeg 1]Čárový kód#![EndSeg 1]"	255 247 57	0x0111	277	235	100	45	14	1
+textMiscCfgMachCatNumDigits	"#![BeginSeg 1]Zadejte 5 místný REF\nnebo posledních 6 číslic 9 místného REF#![EndSeg 1]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgMaxValue	"#![BeginSeg 1]Maximální hodnota = #![EndSeg 1]"	255 247 57	0x0101	10	75	620	17	14	1
+textMiscCfgMinValue	"#![BeginSeg 1]Minimální hodnota = #![EndSeg 1]"	255 247 57	0x0101	10	50	620	17	14	1
+textMiscCfgNoVolLimSelected	"#![BeginSeg 1]Zvolte limit objemu pro pokračování#![EndSeg 1]"	255 247 57	0x0111	0	50	640	0	18	1
+textMiscCfgPasVolInit	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
+textMiscCfgPlt10Indicator	"#![BeginSeg 1]TROMBO 10#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt1Indicator	"#![BeginSeg 1]TROMBO 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt2Indicator	"#![BeginSeg 1]TROMBO 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt3Indicator	"#![BeginSeg 1]TROMBO 3#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt4Indicator	"#![BeginSeg 1]TROMBO 4#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt5Indicator	"#![BeginSeg 1]TROMBO 5#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt6Indicator	"#![BeginSeg 1]TROMBO 6#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt7Indicator	"#![BeginSeg 1]TROMBO 7#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt8Indicator	"#![BeginSeg 1]TROMBO 8#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt9Indicator	"#![BeginSeg 1]TROMBO 9#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgRbc1Indicator	"#![BeginSeg 1]ERY 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgRbc2Indicator	"#![BeginSeg 1]ERY 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgRbc3Indicator	"#![BeginSeg 1]ERY 3#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgSplitRangeBottomLabel	"#![BeginSeg 1]Rozsah jednoduchého produktu#![EndSeg 1]"	255 247 57	0x0101	10	46	305	17	14	1
+textMiscCfgSplitRangeBottomMax	"#![BeginSeg 1]Maximální hodnota = #![EndSeg 1]"	255 247 57	0x0101	10	80	305	17	14	1
+textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]Minimální hodnota = #![EndSeg 1]"	255 247 57	0x0101	10	63	305	17	14	1
+textMiscCfgSplitRangeTopLabel	"#![BeginSeg 1]Rozsah dvojitého produktu#![EndSeg 1]"	255 247 57	0x0101	325	46	305	17	14	1
+textMiscCfgSplitRangeTopMax	"#![BeginSeg 1]Maximální hodnota = #![EndSeg 1]"	255 247 57	0x0101	325	80	305	17	14	1
+textMiscCfgSplitRangeTopMin	"#![BeginSeg 1]Minimální hodnota = #![EndSeg 1]"	255 247 57	0x0101	325	63	305	17	14	1
+textMiscCfrActionAcReactionDown	"#![BeginSeg 1]Snížení reakce na antikoagulant#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionAcReactionUp	"#![BeginSeg 1]Zvýšení reakce na antikoagulant#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingDown	"#![BeginSeg 1]Snížení shlukování#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingUp	"#![BeginSeg 1]Zvýšení shlukování#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawDown	"#![BeginSeg 1]Snížení rychlosti odběru#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawUp	"#![BeginSeg 1]Zvýšení rychlosti odběru#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionNewProcedureSelected	"#![BeginSeg 1]Nová procedura zvolena#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnDown	"#![BeginSeg 1]Snížení rychlosti návratu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnUp	"#![BeginSeg 1]Zvýšení rychlosti návratu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrCommaDelim	"#![BeginSeg 1], #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoCrit	"#![BeginSeg 1]HCT: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoGender	"#![BeginSeg 1]Pohlaví: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoHeight	"#![BeginSeg 1]Výška: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoHgb	"#![BeginSeg 1]Hgb: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoPltPrecount	"#![BeginSeg 1]počet trombocytů před odběrem: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoWeight	"#![BeginSeg 1]Hmotnost: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrOpIdLabel	"#![BeginSeg 1]ID operátora#![EndSeg 1]"	255 255 255	0x0101	70	110	0	0	20	1
+textMiscCfrTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrTimeEventSeparator	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscChannelTest	"#![BeginSeg 1]NEPŘIPOJUJTE náhradní roztok během testu#![EndSeg 1]"	255 247 57	0x0111	10	150	340	210	18	1
+textMiscClampBloodDiversionJp	"#![BeginSeg 1]Zavřete svorku odklonu toku krve#![EndSeg 1]"	255 247 57	0x0112	15	105	610	40	18	1
+textMiscClampChannelLine	"#![BeginSeg 1]Zavřete svorku na lince separačního prstence#![EndSeg 1]"	255 247 57	0x0112	400	160	240	40	18	1
+textMiscClampChannelLines	"#![BeginSeg 1]Zavřete svorky na linkách separačního prstence#![EndSeg 1]"	255 247 57	0x0112	400	160	240	40	18	1
+textMiscClampChannelLinesOnly	"#![BeginSeg 1]Zavřete svorky na linkách separačního prstence#![EndSeg 1]"	255 247 57	0x0112	0	105	640	45	18	1
+textMiscClampCrossover	"#![BeginSeg 1]Zavřete svorku na přechodové lince#![EndSeg 1]"	255 247 57	0x0111	20	110	360	300	18	1
+textMiscClampPasLine	"#![BeginSeg 1]Zavřete svorku na lince k náhradnímu roztoku trombocytů#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscClampPltBagForSplit	"#![BeginSeg 1]Zavřete linku k jednomu z trombocytárních vaků#![EndSeg 1]"	255 247 57	0x0111	40	150	320	200	18	1
+textMiscClampPltBagJp	"#![BeginSeg 1]Zavřete linku k jednomu z trombocytárních vaků\n\n#![EndSeg 1]#![BeginSeg 2]Zavřete linky k oběma vakům vzorků trombocytů#![EndSeg 2]"	255 247 57	0x0111	40	150	300	200	18	1
+textMiscClampSampleBag	"#![BeginSeg 1]Zavřete svorku na lince odběru vzorku#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscClosePtfLineSrbc	"#![BeginSeg 2]Zavřete svorku na lince odvzdušňovacího vaku#![EndSeg 2]"	255 247 57	0x0112	345	107	210	38	14	1
+textMiscClosePtfLines	"#![BeginSeg 3]Zavřete bílou svorku na lince erytrocytů#![EndSeg 3]"	255 247 57	0x0112	428	107	210	38	14	1
+textMiscConnectAcOnly	"#![BeginSeg 1]Připojte pouze antikoagulant#![EndSeg 1]"	165 8 0	0x0111	0	370	640	50	20	1
+textMiscConnectPas	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Připojte náhradní roztok#![EndSeg 2]"	255 247 57	0x0112	13	105	160	45	14	1
+textMiscConnectPasOnly	"#![BeginSeg 1]Připojte pouze náhradní roztok trombocytů#![EndSeg 1]"	165 8 0	0x0111	20	400	470	28	20	1
+textMiscConnectRasOnly	"#![BeginSeg 1]Připojte pouze náhradní roztok erytrocytů#![EndSeg 1]"	165 8 0	0x0111	20	400	470	28	20	1
+textMiscConnectSalineOnly	"#![BeginSeg 1]Připojte pouze fyziologický roztok #![EndSeg 1]"	165 8 0	0x0111	9	396	468	35	20	1
+textMiscDisconnAcBag	"#![BeginSeg 1]Antikoagulant#![EndSeg 1]"	57 24 132	0x0111	307	181	26	13	10	1
+textMiscDonConnNoDiversion	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Připojit#![EndSeg 2]"	255 247 57	0x0111	56	144	184	0	18	1
+textMiscDonDlDataGenderFemale	"#![BeginSeg 1]Žena#![EndSeg 1]"	255 255 255	0x0111	416	177	171	24	18	1
+textMiscDonDlDataGenderMale	"#![BeginSeg 1]Muž#![EndSeg 1]"	255 255 255	0x0111	416	177	171	24	18	1
+textMiscDonDlDataPltYield	"#![BeginSeg 1]0x1000#![EndSeg 1]"	255 255 255	0x0111	416	381	171	24	18	0
+textMiscFlossPtfLines	"#![BeginSeg 3]Zavřete svorky na linkách odvzdušňovacích vaků#![EndSeg 3]"	255 247 57	0x0112	217	107	210	38	14	1
+textMiscFormatServiceBuildNumber	"Build:"	0 0 0	0x0121	0	150	60	25	16	0
+textMiscFormatServiceCRCValue	"CRC:"	0 0 0	0x0121	0	180	60	25	16	0
+textMiscInitDonorVitalsTbv	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
+textMiscInitDonorVitalsTbvSet	"#![BeginSeg 1]#!{dataItemTbv} ml#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
+textMiscInstructionAasRemoveTubingSet	"#![BeginSeg 2]Odstraňte set#![EndSeg 2]"	255 247 57	0x0112	375	105	260	42	18	1
+textMiscInstructionClose	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]Zavřít#![EndSeg 2]"	255 247 57	0x0101	505	147	0	0	18	1
+textMiscInstructionDispCloseClamp	"#![BeginSeg 1]Zavřete bílou svorku na lince dárce#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscInstructionDispCloseClamps	"#![BeginSeg 1]Zavřete bílé svorky na lince dárce a lince odběru vzorku#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscInstructionDispConnectAc	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Připojit#![EndSeg 2]"	255 247 57	0x0111	55	128	170	0	18	1
+textMiscInstructionDispLoadAc	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Založit#![EndSeg 2]"	255 247 57	0x0111	418	128	170	0	18	1
+textMiscInstructionDispSqueezeAc	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Zmáčknout#![EndSeg 2]"	255 247 57	0x0111	236	128	170	0	18	1
+textMiscInstructionDonConnClose	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Zavřít#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
+textMiscInstructionDonConnCloseConnect	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavřít, připojit#![EndSeg 2]"	255 247 57	0x0111	56	144	184	0	18	1
+textMiscInstructionDonConnCloseOpen	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Zavřít, otevřít#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
+textMiscInstructionDonConnCloseSeal	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Zavřít, zatavit#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
+textMiscInstructionDonConnCloseSealOpen	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Zavřít, zatavit, otevřít#![EndSeg 2]"	255 247 57	0x0111	424	144	212	0	18	1
+textMiscInstructionDonConnOpen	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Otevřít#![EndSeg 2]"	255 247 57	0x0111	240	144	184	0	18	1
+textMiscInstructionHang	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavěsit#![EndSeg 2]"	255 247 57	0x0101	75	147	0	0	18	1
+textMiscInstructionInsert	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Vložit#![EndSeg 2]"	255 247 57	0x0101	215	147	0	0	18	1
+textMiscInstructionLoad	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Založit#![EndSeg 2]"	255 247 57	0x0101	363	147	0	0	18	1
+textMiscInstructionRemoveTubingSet	"#![BeginSeg 2]Odstraňte set#![EndSeg 2]"	255 247 57	0x0112	325	105	210	55	18	1
+textMiscInstructionSealDetachProd	"#![BeginSeg 1]Zatavte a oddělte linky#![EndSeg 1]"	255 247 57	0x0112	115	105	210	55	18	1
+textMiscLabelDonorVitalsTbv	"#![BeginSeg 1]Celkový objem krve#![EndSeg 1]"	239 239 239	0x0111	111	115	416	11	14	1
+textMiscLabelRs1Dlog	"#![BeginSeg 1]Data log ID: #![EndSeg 1]"	255 255 255	0x0121	430	110	180	20	14	0
+textMiscLabelRs1Procedural	"#![BeginSeg 1]Procedurální údaje#![EndSeg 1]"	239 239 239	0x0111	0	105	640	40	18	1
+textMiscLabelRs2PlasProd	"#![BeginSeg 1]Produkt plazmy#![EndSeg 1]"	239 239 239	0x0101	95	240	280	23	18	1
+textMiscLabelRs2PlasProdSplitLayout	"#![BeginSeg 1]Produkt plazmy #![EndSeg 1]"	239 239 239	0x0101	95	106	280	23	18	1
+textMiscLabelRs2PltProd	"#![BeginSeg 1]Produkt trombocytů#![EndSeg 1]"	239 239 239	0x0101	95	107	280	23	18	1
+textMiscLabelRs2RbcProd	"#![BeginSeg 1]Produkt erytrocytů#![EndSeg 1]"	239 239 239	0x0101	95	314	280	23	18	1
+textMiscLoadOnePtfIntoBracket	"#![BeginSeg 2]Zavěste erytrocytární vak a založte filtr#![EndSeg 2]"	255 247 57	0x0112	90	107	210	38	14	1
+textMiscLoadPtf	"#![BeginSeg 2]Zavěste erytrocytární vaky a založte filtry#![EndSeg 2]"	255 247 57	0x0111	0	110	215	20	14	1
+textMiscOfflineInstructionsDrbcAbove	"#![BeginSeg 1]Zatavte obě linky erytrocytů mezi filtry a vaky produktů#![EndSeg 1]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsDrbcBelow	"#![BeginSeg 1]Přidání náhradního roztoku bylo ukončeno. #![EndSeg 1]#![BeginSeg 2]Zatavte obě linky produktu erytrocytů pod filtrem poblíž kazety. #![EndSeg 2]#![BeginSeg 3]Přečtěte si Příručku operátora, kde jsou další informace.#![EndSeg 3]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsNoSealInstructions	"#![BeginSeg 1]Přidání náhradního roztoku bylo ukončeno. #![EndSeg 1]#![BeginSeg 2]Přečtěte si Příručku operátora, kde jsou další informace.#![EndSeg 2]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsSrbcAbove	"#![BeginSeg 1]Zatavte linku produktu erytrocytů mezi filtrem a vakem produktu.#![EndSeg 1]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsSrbcAbovePas	"#![BeginSeg 1]Přidání náhradního roztoku bylo ukončeno. #![EndSeg 1]#![BeginSeg 2]Zatavte linku produktu erytrocytů mezi filtrem a vakem produktu. #![EndSeg 2]#![BeginSeg 3]Přečtěte si Příručku operátora, kde jsou další informace.#![EndSeg 3]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsSrbcBelow	"#![BeginSeg 1]Přidání náhradního roztoku bylo ukončeno. #![EndSeg 1]#![BeginSeg 2]Zatavte linku produktu erytrocytů pod filtrem poblíž kazety. #![EndSeg 2]#![BeginSeg 3]Přečtěte si Příručku operátora, kde jsou další informace.#![EndSeg 3]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscPanelLabelRasBagFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Zlomte prolomitelný konektor vaku#![EndSeg 2]"	255 247 57	0x0112	175	105	150	43	14	1
+textMiscPanelLabelRasBagFrangDrbc	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Zlomte prolomitelné konektory vaků#![EndSeg 2]"	255 247 57	0x0112	175	105	150	43	14	1
+textMiscPanelLabelRasConnect	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavěste a připojte vak#![EndSeg 2]"	255 247 57	0x0112	20	105	150	43	14	1
+textMiscPanelLabelRasConnectDrbc	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavřete svorky, zavěste a připojte vaky#![EndSeg 2]"	255 247 57	0x0112	20	105	150	43	14	1
+textMiscPanelLabelRasConnectDrbc1Bag	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Zavřete svorky, zavěste a připojte vak#![EndSeg 2]"	255 247 57	0x0112	20	105	150	43	14	1
+textMiscPanelLabelRasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Zlomte prolomitelný konektor vaku#![EndSeg 2]"	255 247 57	0x0112	335	105	150	43	14	1
+textMiscPanelLabelRasLineFrangDrbc	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Otevřete svorky a zlomte prolomitelný konektor linky#![EndSeg 2]"	255 247 57	0x0112	335	105	150	43	14	1
+textMiscPanelLabelRasLineFrangDrbcOneBag	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Otevřete svorku a zlomte prolomitelný konektor linky#![EndSeg 2]"	255 247 57	0x0112	335	105	150	43	14	1
+textMiscPasConnectMaxBagVol	"#![BeginSeg 1]Maximální\nhodnota = #![EndSeg 1]"	255 247 57	0x0101	5	28	100	36	12	1
+textMiscPasConnectMinBagVol	"#![BeginSeg 1]Minimální\nhodnota = #![EndSeg 1]"	255 247 57	0x0101	5	64	100	36	12	1
+textMiscPasEmpty	"#![BeginSeg 1]Vak náhradního roztoku trombocytů je téměř prázdný. #![EndSeg 1]#![BeginSeg 2]Připojte nový vak, zlomte prolomitelný konektor vaku a stiskněte ,Pokračovat‘.#![EndSeg 2]"	165 8 0	0x0100	15	120	228	300	18	1
+textMiscPasNumBags	"#![BeginSeg 1]Odhadovaný počet potřebných vaků: #!{dataItemNumPasBagsNeeded}#![EndSeg 1]"	255 247 57	0x0111	497	307	130	81	14	1
+textMiscPasProgress	"#![BeginSeg 1]Průběh:#![EndSeg 1]"	255 247 57	0x0101	80	210	0	0	18	1
+textMiscPltPasSplitInstruct	"#![BeginSeg 2]1: #![EndSeg 2]#![BeginSeg 3]Zavřete linku k vaku obsahujícímu trombocyty.\n#![EndSeg 3]#![BeginSeg 4]2: #![EndSeg 4]#![BeginSeg 5]Otevřete linku k prázdnému trombocytárnímu vaku.\n#![EndSeg 5]"	255 247 57	0x0101	60	145	295	240	18	1
+textMiscPowerdownMsg	"#![BeginSeg 1]Konec procesu.\n#![EndSeg 1]#![BeginSeg 2]Čekejte prosím, zatímco se přístroj připravuje na další proceduru...#![EndSeg 2]"	255 255 255	0x0110	0	200	640	200	18	1
+textMiscPowerdownWatchdogFailure	"#![BeginSeg 1]Opakované spuštění přístroje bylo neúspěšné. #![EndSeg 1]#![BeginSeg 2]Požádejte o pomoc vašeho servisního zástupce.#![EndSeg 2]"	255 255 255	0x0110	0	200	640	200	18	1
+textMiscPredConfDataLabel	"#![BeginSeg 1]Odhadované údaje procedury#![EndSeg 1]"	255 247 57	0x0111	2	41	311	24	16	1
+textMiscPredConfMsg	"#![BeginSeg 1]Potvrďte zvolenou proceduru#![EndSeg 1]"	255 247 57	0x0111	2	2	311	40	18	1
+textMiscPredNoProductAvailable	"#![BeginSeg 1]Není dostupný žádný produkt#![EndSeg 1]"	255 247 57	0x0111	54	262	532	46	18	1
+textMiscPredPlasLabel	"#![BeginSeg 1]Plazma#![EndSeg 1]"	255 255 255	0x0111	225	240	105	20	18	1
+textMiscPredPltLabel	"#![BeginSeg 1]Trombocyty#![EndSeg 1]"	255 255 255	0x0101	35	240	124	20	18	1
+textMiscPredRbcLabel	"#![BeginSeg 1]Erytrocyty#![EndSeg 1]"	255 255 255	0x0111	330	240	100	20	18	1
+textMiscPredTimeLabel	"#![BeginSeg 1]Trvání#![EndSeg 1]"	255 255 255	0x0111	521	240	100	20	18	1
+textMiscPrepNonPtfDrbcBags	"#![BeginSeg 1]Zavřete linku k jednomu z erytrocytárních vaků#![EndSeg 1]"	255 247 57	0x0112	225	107	195	38	14	1
+textMiscPtfMountDontConnectAc	"#![BeginSeg 1]NEPŘIPOJUJTE antikoagulant#![EndSeg 1]"	165 8 0	0x0111	0	400	640	35	18	1
+textMiscRasNumBags	"#![BeginSeg 1]Odhadovaný počet potřebných vaků: #!{dataItemNumRasBagsNeeded}#![EndSeg 1]"	255 247 57	0x0111	497	157	130	230	14	1
+textMiscRemoveAcLine	"#![BeginSeg 2]Odstraňte linku antikoagulantu#![EndSeg 2]"	255 247 57	0x0111	430	107	180	0	14	1
+textMiscRunProcDate	"#![BeginSeg 1]00/00/0000#![EndSeg 1]"	255 247 57	0x0111	540	80	90	20	12	0
+textMiscRunProcInitPltCurrent	"#![BeginSeg 1]0.0 x 10#![EndSeg 1]"	255 247 57	0x0111	200	388	128	24	24	0
+textMiscRunProcInitPltCurrentExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0121	321	388	15	12	10	0
+textMiscRunProcInitPltEst	"#![BeginSeg 1]0.0 x 10#![EndSeg 1]"	255 255 255	0x0111	200	209	128	24	24	0
+textMiscRunProcInitPltEstExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	321	209	15	12	10	0
+textMiscRunProcPressureLabel	"#![BeginSeg 1]Tlak#![EndSeg 1]"	239 239 239	0x0111	60	193	94	14	14	1
+textMiscRunProcProductLabelPlasma	"#![BeginSeg 1]Plazma#![EndSeg 1]"	239 239 239	0x0111	339	193	114	14	14	1
+textMiscRunProcProductLabelPlt	"#![BeginSeg 1]Trombocyty#![EndSeg 1]"	239 239 239	0x0111	212	193	114	14	14	1
+textMiscRunProcProductLabelRbc	"#![BeginSeg 1]Erytrocyty#![EndSeg 1]"	239 239 239	0x0111	466	193	114	14	14	1
+textMiscRunProcStatusDraw	"#![BeginSeg 1]Odběr#![EndSeg 1]"	255 255 255	0x0111	60	209	94	24	24	1
+textMiscRunProcStatusReturn	"#![BeginSeg 1]Návrat#![EndSeg 1]"	255 255 255	0x0111	60	209	94	24	24	1
+textMiscRunsumProdMoreInfo	"#![BeginSeg 1]Stiskněte textové lišty, kde jsou další informace#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textMiscSalineConnBagLabel	"#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"	41 49 90	0x0111	315	143	102	61	18	1
+textMiscSealDetachAc	"#![BeginSeg 2]Zatavte a oddělte antikoagulant#![EndSeg 2]"	255 247 57	0x0111	230	107	180	0	14	1
+textMiscServiceCentrifugeOnTime	"Centrifuge on time -"	0 0 0	0x0101	5	390	0	0	24	0
+textMiscServiceDontConnectDonor	"DO NOT connect donor during this mode!"	239 8 0	0x0111	0	0	640	0	24	0
+textMiscServiceMachineOnTime	"Machine on time -"	0 0 0	0x0101	5	360	0	0	24	0
+textMiscServiceNumberOfRuns	"Number of runs -"	0 0 0	0x0101	5	420	640	0	24	0
+textMiscServiceStarted	"Service mode started"	0 0 0	0x0111	0	50	640	0	24	0
+textMiscServiceTouchscreenCalTitle	"Touch screen calibration"	0 0 0	0x0111	0	0	640	60	18	0
+textMiscServiceTsCalInstruction1	"1: Touch the crosshair in the upper left corner."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscServiceTsCalInstruction2	"2: Touch the crosshair in the upper right corner."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscServiceTsCalInstruction3	"3: Touch the crosshair in the lower left corner."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscServiceTsCalInstruction4	"Please wait while the screen calibration is updated..."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscSetIdOperatorPrompt	"#![BeginSeg 1]Systém je neschopný identifikovat typ založeného setu.\n#![EndSeg 1]#![BeginSeg 2]Pro pokračování stiskněte ,Vyjmout set‘, aby se vyjmula kazeta. #![EndSeg 2]#![BeginSeg 3]Potvrďte, že za kazetou nebo podkladovou deskou nejsou žádné překážky.\n                     nebo\nPotvrďte REF a stiskněte ,Pokračovat‘.\nPokud se tento problém vyskytne opakovaně, požádejte o pomoc vašeho servisního zástupce.#![EndSeg 3]"	165 8 0	0x0100	15	118	263	301	16	1
+textMiscSplashCopyright	"#![BeginSeg 1]Copyright \x00a9 CaridianBCT, Inc.#![EndSeg 1]"	0 0 0	0x0101	100	425	540	10	14	1
+textMiscSplashProductDescription	"#![BeginSeg 1]Automatický systém pro odběr krve#![EndSeg 1]"	0 0 0	0x0100	100	325	540	30	16	1
+textMiscSysDispDontConnectAc	"#![BeginSeg 1]NEPŘIPOJUJTE antikoagulant#![EndSeg 1]"	165 8 0	0x0111	0	386	640	35	18	1
+textMiscTrimaVersion	"#![BeginSeg 1]Verze 6.0#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	1
+textMiscTubingSetTest	"#![BeginSeg 1]NEPŘIPOJUJTE antikoagulant během testu setu#![EndSeg 1]"	255 255 255	0x0111	70	195	220	0	18	1
+textMiscUnclampCrossover	"#![BeginSeg 1]Otevřete svorku na přechodové lince#![EndSeg 1]"	255 247 57	0x0112	0	160	240	40	18	1
+textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1] %#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
+textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]g/dl#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
+textMiscUnitsDonorVitalsHeightCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsHeightFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsHeightInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsWeightKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsWeightLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textProdVerifLeukLabelPlasma	"#![BeginSeg 1]Kontrola produktu plazmy#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelPlt	"#![BeginSeg 1]Kontrola produktu trombocytů#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelRbc	"#![BeginSeg 1]Kontrola produktu erytrocytů#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelRbc1	"#![BeginSeg 1]Kontrola produktu erytrocytů 1#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelRbc2	"#![BeginSeg 1]Kontrola produktu erytrocytů 2#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukMsgPlasLeukoreduced	"#![BeginSeg 1]Produkt plazmy: #![EndSeg 1]#![BeginSeg 2]označit jako deleukotizovaný#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgPlasNotLeukoreduced	"#![BeginSeg 1]Produkt plazmy: #![EndSeg 1]#![BeginSeg 2]K OVĚŘENÍ#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgPltLeukoreduced	"#![BeginSeg 1]Produkt trombocytů: #![EndSeg 1]#![BeginSeg 2]označit jako deleukotizovaný#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgPltNotLeukoreduced	"#![BeginSeg 1]Produkt trombocytů: #![EndSeg 1]#![BeginSeg 2]K OVĚŘENÍ#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc1Leukoreduced	"#![BeginSeg 1]Produkt erytrocytů 1: #![EndSeg 1]#![BeginSeg 2]označit jako deleukotizovaný#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc1NotLeukoreduced	"#![BeginSeg 1]Produkt erytrocytů 1: #![EndSeg 1]#![BeginSeg 2]K OVĚŘENÍ#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc2Leukoreduced	"#![BeginSeg 1]Produkt erytrocytů 2: #![EndSeg 1]#![BeginSeg 2]označit jako deleukotizovaný#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc2NotLeukoreduced	"#![BeginSeg 1]Produkt erytrocytů 2: #![EndSeg 1]#![BeginSeg 2]K OVĚŘENÍ#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbcLeukoreduced	"#![BeginSeg 1]Produkt erytrocytů: #![EndSeg 1]#![BeginSeg 2]označit jako deleukotizovaný#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbcNotLeukoreduced	"#![BeginSeg 1]Produkt erytrocytů: #![EndSeg 1]#![BeginSeg 2]K OVĚŘENÍ#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifReasonAasPrimeError	"#![BeginSeg 1]Chyba při plnění náhradním roztokem#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonAasVolError	"#![BeginSeg 1]Chyba objemu během přidání náhradního roztoku#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonAirBlockRecovery	"#![BeginSeg 1]Možné zablokování vzduchem#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonApsHigh	"#![BeginSeg 1]Vysoký tlak filtru erytrocytů#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonCentrifugeStopped	"#![BeginSeg 1]Zastavení centrifugy#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonChannelClampError	"#![BeginSeg 1]Chyba na svorce linky separačního prstence#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonCpsHigh	"#![BeginSeg 1]Vysoký systémový tlak#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonFinalConcNotAchieved	"#![BeginSeg 1]Konečná koncentrace nedosažena#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonHctHigh	"#![BeginSeg 1]Hematokrit/hemoglobin dárce příliš vysoký #![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonHeaderPlasVol	"#![BeginSeg 1]Objem plazmy nemusí splňovat nakonfigurovanou hodnotu z následujících důvodů:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderPltConc	"#![BeginSeg 1]Koncentrace trombocytů nemusí splňovat nakonfigurovanou hodnotu z následujících důvodů:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderPltYieldVol	"#![BeginSeg 1]Výtěžek trombocytů nemusí odpovídat nakonfigurované hodnotě z následujících důvodů:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderPurity	"#![BeginSeg 1]Čistota produktu mohla být ohrožená z následujících důvodů:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderRbcProduct	"#![BeginSeg 1]Produkt erytrocytů nemusí splňovat nakonfigurovanou hodnotu z následujících důvodů:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderRbcQuality	"#![BeginSeg 1]Kvalita produktu mohla být ohrožena z následujících důvodů:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHighDeltaHct	"#![BeginSeg 1]Příliš velká změna hematokritu/hemoglobinu dárce#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonHighPltConc	"#![BeginSeg 1]Příliš vysoká koncentrace trombocytů#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonLowPltConc	"#![BeginSeg 1]Příliš nízká detekovaná koncentrace#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPltConcOver2100	"#![BeginSeg 1]Předpokládaná koncentrace je větší než #!{high_platelet_conc}#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPltConcUnder1000	"#![BeginSeg 1]Předpokládaná koncentrace je menší než #!{low_platelet_conc}#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPltContamDetected	"#![BeginSeg 1]Detekována potenciální kontaminace leukocyty#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]Chyba kalibrace detektoru erytrocytů#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonRbcSpillover	"#![BeginSeg 1]Přeplavení erytrocytů#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]Reinfuze nedokončena#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonTargetVolumesNotAchieved	"#![BeginSeg 1]Nakonfigurované objemy nedosaženy#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProgBarAddition	"#![BeginSeg 1]Přidání#![EndSeg 1]"	255 247 57	0x0101	305	50	0	0	12	1
+textProgBarDonate	"#![BeginSeg 1]Odebrat#![EndSeg 1]"	255 247 57	0x0101	227	50	0	0	12	1
+textProgBarDonorInfo	"#![BeginSeg 1]Údaje#![EndSeg 1]"	255 247 57	0x0101	84	50	0	0	12	1
+textProgBarDonorPrep	"#![BeginSeg 1]Připravit#![EndSeg 1]"	255 247 57	0x0101	161	50	0	0	12	1
+textProgBarLoad	"#![BeginSeg 1]Založit#![EndSeg 1]"	255 247 57	0x0101	18	50	0	0	12	1
+textProgBarNoAdditionUnload	"#![BeginSeg 1]Vyjmout#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	12	1
+textProgBarUnload	"#![BeginSeg 1]Vyjmout#![EndSeg 1]"	255 247 57	0x0101	368	50	0	0	12	1
+textStatAasActiveAddition	"#![BeginSeg 1]Probíhá automatizované přidání náhradního roztoku#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatAasActivePrime	"#![BeginSeg 1]Probíhá plnění...#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatAasClampChannel	"#![BeginSeg 1]Automatizované přidání náhradního roztoku#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatAasRemoveDisp	"#![BeginSeg 1]Odstraňte set#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAasSealDetach	"#![BeginSeg 1]Zatavte a oddělte produkt a vaky náhradního roztoku#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAcPriming	"#![BeginSeg 1]Probíhá plnění antikoagulantem...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAdjustingPltConc	"#![BeginSeg 1]Probíhá úprava koncentrace trombocytů...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarm10MinPause	"#![BeginSeg 1]Desetiminutová pauza#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm10MinPauseFailure	"#![BeginSeg 1]Desetiminutová pauza#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1MinPause	"#![BeginSeg 1]Jednominutová pauza#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1stCycleEarly	"#![BeginSeg 1]Selhání prvního cyklu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1stCycleLate	"#![BeginSeg 1]Chyba prvního cyklu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1stDrawCycleShort	"#![BeginSeg 1]Selhání prvního cyklu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAasClampClosureError	"#![BeginSeg 1]Chyba na svorce inky separačního prstence#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcClosureError	"#![BeginSeg 1]Chyba odpojení antikoagulantu#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcClosureFailure	"#![BeginSeg 1]Selhání při odpojení antikoagulantu#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcDuringReturn	"#![BeginSeg 1]Selhání pumpy antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcLevel	"#![BeginSeg 1]Detekován vzduch na senzoru antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPrimeInletFailure	"#![BeginSeg 1]Selhání při plnění antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPriorToPrime	"#![BeginSeg 1]Selhání na senzoru antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPumpError	"#![BeginSeg 1]Chyba na pumpě antikoagulantu#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcPumpFailure	"#![BeginSeg 1]Selhání pumpy antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPumpMovement	"#![BeginSeg 1]Selhání pohybu pumpy antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcStilNotDetected	"#![BeginSeg 1]Nedetekována kapalina na senzoru antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmApsDecoupling	"#![BeginSeg 1]Selhání na senzoru tlaku#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarmApsHigh	"#![BeginSeg 1]Návratový tlak příliš vysoký #![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmApsLow	"#![BeginSeg 1]Odběrový tlak příliš nízký#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmApsSensorFailure	"#![BeginSeg 1]Selhání na senzoru přístupového tlaku#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmBagEvac	"#![BeginSeg 1]Chyba při testu tlaku#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAlarmBagEvacFailure	"#![BeginSeg 1]Selhání odstranění vzduchu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAlarmCalDetectorFailure	"#![BeginSeg 1]Chyba na detektoru erytrocytů#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteError	"#![BeginSeg 1]Chyba kazety#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteMovement	"#![BeginSeg 1]Selhání při vysunutí kazety#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteNotDown	"#![BeginSeg 1]Selhání kazety#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteNotRecognized	"#![BeginSeg 1]Chyba typu setu#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	18	1
+textStatAlarmCentDoorUnlatched	"#![BeginSeg 1]Dvířka centrifugy nejsou zapadlá#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCentFailure	"#![BeginSeg 1]Selhání centrifugy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCentrifugeOverspeed	"#![BeginSeg 1]Chyba rychlosti centrifugy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCentrifugeOverspeedFailure	"#![BeginSeg 1]Selhání rychlosti centrifugy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCpsHigh	"#![BeginSeg 1]Tlak centrifugy je vysoký#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCpsHigh04	"#![BeginSeg 1]Tlak centrifugy je vysoký#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarmCpsHighAasP2Ok	"#![BeginSeg 1]Chyba tlaku centrifugy#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmCpsHighRbcCollect	"#![BeginSeg 1]Tlak centrifugy vysoký#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmCpsRangeErrorSetLoad	"#![BeginSeg 1]Tlak centrifugy je mimo rozsah#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	18	1
+textStatAlarmCrossoverClampClosureError	"#![BeginSeg 1]Chyba na přechodové lince#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmCrvHigh	"#![BeginSeg 1]Objem separačního prstence příliš velký#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmDisconnectError	"#![BeginSeg 1]Chyba při odpojení dárce#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmDisconnectFailure	"#![BeginSeg 1]Chyba při odpojení dárce#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmDonorAir	"#![BeginSeg 1]Selhání na dolním senzoru náplně#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmDoorOpen	"#![BeginSeg 1]Dvířka centrifugy otevřená#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmFilterPressureHigh	"#![BeginSeg 1]Vysoký tlak filtru erytrocytů#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmFluidAtAcAas	"#![BeginSeg 1]Detekována kapalina na senzoru antikoagulantu#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmGenericPltContam	"#![BeginSeg 1]Detekována potenciální kontaminace leukocyty#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmHemolysisDetected	"#![BeginSeg 1]Detekována hemolýza#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletPressureFailure	"#![BeginSeg 1]Chyba při testu tlaku#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletPumpError	"#![BeginSeg 1]Chyba na odběrové pumpě#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmInletPumpFailure	"#![BeginSeg 1]Selhání odběrové pumpy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletReliefFailure	"#![BeginSeg 1]Chyba při uvolnění tlaku#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletVolmAas	"#![BeginSeg 1]Objem separačního prstence příliš velký#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmLeakDetected	"#![BeginSeg 1]Detekován únik#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLeakDetectorFailure	"#![BeginSeg 1]Chyba na detektoru úniku#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLeakTestFailure	"#![BeginSeg 1]Chyba testu úniku#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLevelSensorErrorA	"#![BeginSeg 1]Chyba na senzoru náplně#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLevelSensorErrorR	"#![BeginSeg 1]Chyba na senzoru náplně#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarmLowLevelEarly	"#![BeginSeg 1]Tekutina detekována příliš brzy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLowLevelLate	"#![BeginSeg 1]Selhání na dolním senzoru náplně #![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLowLevelPriorToExpected	"#![BeginSeg 1]Selhání při detekci tekutiny před plněním#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLowPltConc	"#![BeginSeg 1]Koncentrace trombocytů mimo rozsah#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmMaintainDonorAccessError	"#![BeginSeg 1]Tříminutová pauza#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmMotorHardwareFailure	"#![BeginSeg 1]Selhání hardwaru#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmOcclusionDetected	"#![BeginSeg 1]Chyba při neprůchodnosti linky antikoagulantu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmOvertemp	"#![BeginSeg 1]Chyba teploty centrifugy#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	18	1
+textStatAlarmPasPrimeEarly	"#![BeginSeg 1]Chyba při plnění náhradním roztokem trombocytů#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPasPrimeLate	"#![BeginSeg 1]Chyba při plnění náhradním roztokem trombocytů#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPauseButton	"#![BeginSeg 1]Pumpy jsou zastavené#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPlasmaPumpError	"#![BeginSeg 1]Chyba na pumpě plazmy#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPlasmaPumpFailure	"#![BeginSeg 1]Selhání pumpy plazmy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPltConcLow	"#![BeginSeg 1]Detekována nízká koncentrace trombocytů#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	18	1
+textStatAlarmPltPumpError	"#![BeginSeg 1]Chyba na pumpě trombocytů#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPltPumpFailure	"#![BeginSeg 1]Selhání pumpy trombocytů#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPowerFailureAlert	"#![BeginSeg 1]Napájení přerušeno#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPowerTestFailure	"#![BeginSeg 1]Selhání při testu napájení#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPrimeInletOcclusion	"#![BeginSeg 1]Selhání při neprůchodnosti linky antikoagulantu#![EndSeg 1]"	255 247 57	0x0111	54	146	182	14	18	1
+textStatAlarmPrimeTooSoon	"#![BeginSeg 1]Selhání při plnění#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmProcedureModified	"#![BeginSeg 1]Procedura je změněná#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPtfPrimeError	"#![BeginSeg 1]Chyba tlaku centrifugy#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmPumpRpmCommand	"#![BeginSeg 1]Chyba pumpy#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmRasEmpty	"#![BeginSeg 1]Vyměňte vak s náhradním roztokem erytrocytů#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmRasPrimeEarly	"#![BeginSeg 1]Chyba při plnění náhradním roztokem erytrocytů#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmRasPrimeLate	"#![BeginSeg 1]Chyba při plnění náhradním roztokem erytrocytů#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmRefStampMismatch	"#![BeginSeg 1]Chyba typu setu#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	18	1
+textStatAlarmReturnPumpError	"#![BeginSeg 1]Chyba na pumpě návratu#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmReturnPumpFailure	"#![BeginSeg 1]Selhání pumpy návratu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmSafetyNotResponding	"#![BeginSeg 1]Selhání spuštění#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	18	1
+textStatAlarmSpilloverDetected	"#![BeginSeg 1]Přeplavení erytrocytů#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmStopButton	"#![BeginSeg 1]Centrifuga zastavena#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmSysPressureHigh	"#![BeginSeg 1]Vysoký systémový tlak#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmSysTestFailure	"#![BeginSeg 1]Selhání testu systému #![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmUnloadingBagCassettePosition	"#![BeginSeg 1]Chyba při vyjmutí kazety#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmValveError	"#![BeginSeg 1]Chyba ventilu#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmValveLedError	"#![BeginSeg 1]Selhání na senzoru ventilu nebo selhání na senzoru dvířek#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmVoltageFailure	"#![BeginSeg 1]Selhání napětí#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatApsLow	"#![BeginSeg 3]Odběrový tlak nízký#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAuthEvents	"#![BeginSeg 1]Zadejte čárový kód ID operátora#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAwaitingAp2Xmit	"#![BeginSeg 1]Čekejte na převod údajů o dárci...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcode2ManyScans	"#![BeginSeg 1]Zadaný údaj nelze přijmout, hodnota již existuje#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeBadScan	"#![BeginSeg 1]Chyba při čtení čárového kódu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]Hodnotu nelze vymazat#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeMoveInput	"#![BeginSeg 1]Identifikujte hodnotu čárového kódu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeReview	"#![BeginSeg 1]Zkontrolujte hodnoty#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeScanOverrun	"#![BeginSeg 1]Hodnota čárového kódu je příliš dlouhá#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeSegDupe	"#![BeginSeg 1]Detekován duplicitní čárový kód#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBloodPrimeInProgress	"#![BeginSeg 1]Probíhá plnění krví#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadBarcode	"#![BeginSeg 1]Čárový kód neodpovídá REF setu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatCfgMachBadCatNum	"#![BeginSeg 1]REF musí mít 5 nebo 6 číslic#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadPair	"#![BeginSeg 1]Neplatné zadání – zkontrolujte prosím čísla#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]Kód setu musí mít 8 číslic#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachEnterCatNum	"#![BeginSeg 1]Zadejte REF setu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachEnterSetCode	"#![BeginSeg 1]Zadejte REF setu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachSuccess	"#![BeginSeg 1]Zadání REF bylo úspěšné#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgPltConcRange	"#![BeginSeg 1]Koncentrace trombocytů mimo rozsah#![EndSeg 1]"	165 8 0	0x0111	0	0	640	0	18	1
+textStatClampCrossover	"#![BeginSeg 1]Zavřete přechodovou linku#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatConfigExitWait	"#![BeginSeg 2]Opouští se konfigurace... #![EndSeg 2]#![BeginSeg 3]čekejte prosím#![EndSeg 3]"	255 247 57	0x0101	0	0	0	0	18	1
+textStatConnectPas	"#![BeginSeg 1]Připojte náhradní roztok trombocytů#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatConnectRas	"#![BeginSeg 1]Připojte náhradní roztok erytrocytů#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatDispLowered	"#![BeginSeg 1]Zasunutí kazety bylo dokončeno#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispLowering	"#![BeginSeg 1]Kazeta se zasunuje...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispRaising	"#![BeginSeg 1]Kazeta se vysunuje...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispTestComplete	"#![BeginSeg 1]Test dokončen#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispTestInProgress	"#![BeginSeg 1]Probíhá test...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDoseRangeError	"#![BeginSeg 1]Koncentrát erytrocytů mimo doporučený rozsah skladování#![EndSeg 1]"	165 8 0	0x0111	0	0	640	0	18	1
+textStatDrbcSplitAlert	"#![BeginSeg 1]Výstraha - rozdělení dERY#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatEndOfRun	"#![BeginSeg 1]Konečný souhrn procesu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEndOfRunPlasma	"#![BeginSeg 1]Kontrola a značení produktu plazmy#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEndOfRunPlt	"#![BeginSeg 1]Kontrola a značení produktu trombocytů#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEndOfRunRbc	"#![BeginSeg 1]Kontrola produktu erytrocytů#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEnterPin	"#![BeginSeg 1]Zadejte své osobní identifikační číslo#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatEvac	"#![BeginSeg 1]Odstraňuje se vzduch z odběrových vaků...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatIdNotVerified	"#![BeginSeg 1]Nelze potvrdit identitu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatIdVerified	"#![BeginSeg 1]Identita je ověřená#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatLoadSet	"#![BeginSeg 1]Založte set s REF #!{currentlySelectedRef}#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatLrsPurge	"#![BeginSeg 1]Probíhá čištění deleukotizační komory#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatMaxEntriesExceeded	"#![BeginSeg 1]Překročen maximální počet zadání#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatMissingBadgeBoop	"#![BeginSeg 1]Naskenujte čárový kód vaší jmenovky, aby se dokončila autorizace#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
+textStatNoItemSelected	"#![BeginSeg 1]Zvolte prosím události#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatOptInProgress	"#![BeginSeg 2]Probíhá optimalizace...#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatPasEmpty	"#![BeginSeg 1]Vyměňte vak s náhradním roztokem trombocytů#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatPasPause	"#![BeginSeg 1]Samostatné přidání náhradního roztoku trombocytů#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatRbc1Runsum	"#![BeginSeg 1]Potvrzení produktu erytrocytů 1#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRbc2Runsum	"#![BeginSeg 1]Potvrzení produktu erytrocytů 2#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRecoveryProcedure	"#![BeginSeg 1]Probíhá procedura nápravy#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatReturnPumpStatusDraw	"#![BeginSeg 1]Probíhá odběr#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatReturnPumpStatusReturn	"#![BeginSeg 1]Probíhá návrat#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRinsebackInProgress	"#![BeginSeg 1]Probíhá reinfuze#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRunComplete	"#![BeginSeg 1]Proces dokončen#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatSalineConnect	"#![BeginSeg 1]Připojte kompenzační roztok#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatSalinePrime	"#![BeginSeg 1]Probíhá plnění linky kompenzačního roztoku#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSealAndDetach	"#![BeginSeg 1]Zatavte a oddělte linky vaku produktu#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatSetId	"#![BeginSeg 1]Nelze identifikovat typ setu#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
+textStatSetIdBadCode	"#![BeginSeg 1]Neplatný REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSetIdChosenProcBad	"#![BeginSeg 1]REF neodpovídá zvolené proceduře#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSetIdGoodCode	"#![BeginSeg 1]Zkontrolujte, zda REF odpovídá označení setu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSetIdInstructions	"#![BeginSeg 1]Zvolte REF setu#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatUnscheduledPurge	"#![BeginSeg 1]Detekován obsah leukocytů, čistí se deleukotizační komora#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatValueOutOfRange	"#![BeginSeg 1]Hodnota je mimo rozsah#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
+textStatWaitingForVista	"#![BeginSeg 1]Čekejte na informační systém Vista...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+STRING_FILE_TABLE_END

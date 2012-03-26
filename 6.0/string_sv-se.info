@@ -1,0 +1,1253 @@
+STRING_FILE_TABLE_START
+fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
+forbiddenEndCharList	""	0 0 0	0x0000	520	110	380	20	10	0
+forbiddenStartCharList	""	0 0 0	0x0000	520	110	380	20	10	0
+languageCrc	"0x9918f75"	0 0 0	0x0001	0	0	0	0	18	0
+languageId	"Svenska"	255 255 255	0x0001	0	0	100	50	12	0
+languageIndex	"8"	0 0 0	0x0001	0	0	0	0	18	0
+languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
+textAbortBodyAas	"#![BeginSeg 1]Sluta tillsätta lösning betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Tillsättningen av lösning annulleras. #![EndSeg 2]#![BeginSeg 3]Ladda ur och\nkassera slangsetet.\n#![EndSeg 3]#![BeginSeg 4]- Ytterligare tillsatslösning kan krävas. #![EndSeg 4]#![BeginSeg 5]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Borttagning av luft betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Du ser luft i trombocytslangen eller i plasmaslangen.\n#![EndSeg 2]#![BeginSeg 3]- Uppsamlingen skjuts upp tills borttagningen har slutförts.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyPas	"#![BeginSeg 1]Sluta tillsätta lösning betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Tillsättningen av lösning annulleras. #![EndSeg 2]#![BeginSeg 3]Ladda ur och\nkassera slangsetet.\n#![EndSeg 3]#![BeginSeg 4]- Ytterligare tillsatslösning kan krävas. #![EndSeg 4]#![BeginSeg 5]Användarhandboken innehåller ytterligare anvisningar.\n#![EndSeg 5]#![BeginSeg 6]- Du kan även välja att sluta tillsätta trombocytlösning och fortsätta tillsätta RBC-lösning.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyProc	"#![BeginSeg 1]Avsluta körning betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Proceduren annulleras.\n#![EndSeg 2]#![BeginSeg 3]- Du måste ladda ur och kassera slangsetet.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyRas	"#![BeginSeg 1]Sluta tillsätta lösning betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Tillsättningen av lösning annulleras. #![EndSeg 2]#![BeginSeg 3]Ladda ur och kassera slangsetet.\n#![EndSeg 3]#![BeginSeg 4]- Ytterligare tillsatslösning kan krävas. #![EndSeg 4]#![BeginSeg 5]Användarhandboken innehåller ytterligare anvisningar.\n#![EndSeg 5]#![BeginSeg 6]- Du kan även välja att sluta tillsätta RBC-lösning och fortsätta tillsätta trombocytlösning.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyRasOrPas	"#![BeginSeg 1]Sluta tillsätta lösning betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Tillsättningen av lösning annulleras. #![EndSeg 2]#![BeginSeg 3]Ladda ur och kassera slangsetet.\n#![EndSeg 3]#![BeginSeg 4]- Ytterligare tillsatslösning kan krävas. #![EndSeg 4]#![BeginSeg 5]Användarhandboken innehåller ytterligare anvisningar.\n#![EndSeg 5]#![BeginSeg 6]- Du kan även välja att sluta tillsätta till en produkt och fortsätta tillsätta till den andra produkten.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodyRinseback	"#![BeginSeg 1]Återtransfusion betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Uppsamlingen avslutas.\n#![EndSeg 2]#![BeginSeg 3]- Blodet i slangsetet återförs till givaren.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAbortBodySpillover	"#![BeginSeg 1]Borttagning av RBC betyder att:\n#![EndSeg 1]#![BeginSeg 2]- Du ser RBC i trombocytslangen eller plasmaslangen.\n#![EndSeg 2]#![BeginSeg 3]- Uppsamlingen skjuts upp tills borttagningen har slutförts.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
+textAlarmBodyNoGraphic10MinPause	"#![BeginSeg 1]Pumparna har gjort uppehåll i tio minuter under tappningscykeln utan flöde genom givarslangen. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Koppla bort givaren.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcClosFailAas	"#![BeginSeg 1]Det går inte att bekräfta att AC förseglades och avlägsnades från systemet. #![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av lösning. #![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden. #![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta tillsats'. Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcClosFailAasPasOk	"#![BeginSeg 1]Det går inte att bekräfta att AC förseglades och avlägsnades från systemet. #![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av lösning. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att fortsätta eller tryck på 'Avsluta tillsats' för att avsluta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcHallHigh	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Trombocytpumpen är eventuellt insatt i fel hölje. #![EndSeg 5]#![BeginSeg 6]Om pumpen med den svarta pricken är insatt i AC-pumpens hölje, ta bort den och sätt in den i trombocytpumpens hölje. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcHallLow	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]AC-pumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Ta bort och sätt tillbaka AC-pumpen. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcPrimeInletOcclusion	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten. #![EndSeg 4]#![BeginSeg 5]Kassera slangsetet. #![EndSeg 5]#![BeginSeg 6]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcPriorToAcPrime	"#![BeginSeg 1]Vätska har upptäckts vid AC-sensorn. #![EndSeg 1]#![BeginSeg 2]Du har eventuellt anslutit AC för tidigt. #![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden. #![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta körning'. Ladda ur och kassera slangsetet. #![EndSeg 4]#![BeginSeg 5]Om AC inte var anslutet, kontakta din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicAcStillNotDetected	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]AC upptäcks inte vid AC-sensorn. #![EndSeg 3]#![BeginSeg 4]Avsluta körningen och koppla bort givaren.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsDecoupling	"#![BeginSeg 1]Ett varningstillstånd förekommer i systemet. #![EndSeg 1]#![BeginSeg 3]Tryck på 'Återtransfusion' om alternativet är tillgängligt.\n#![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta körning' för att avsluta proceduren.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsHigh04	"#![BeginSeg 1]Om varningen inträffar upprepade gånger, tryck på knappen 'Justera' och gör nödvändig flödesjustering för att fortsätta proceduren.#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsHighAas	"#![BeginSeg 1]Systemtrycket är fortfarande för högt.\n#![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av lösning.\n#![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden.\n#![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta tillsats'.\nOm problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsHighAasP2Ok	"#![BeginSeg 1]Systemtrycket är fortfarande för högt.\n#![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av RBC-lösning till produkt 2.\n#![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden.\n#![EndSeg 3]#![BeginSeg 4]Tryck på 'Fortsätt' för att tillsätta lösning till produkt 1.\n#![EndSeg 4]#![BeginSeg 5]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsLow05	"#![BeginSeg 1]Om varningen inträffar upprepade gånger, tryck på knappen 'Justera' och gör nödvändig flödesjustering för att fortsätta proceduren.#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicApsSensorFailure	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicBagEvacFailure	"#![BeginSeg 1]Ett varningstillstånd förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned texten i statusraden. #![EndSeg 2]#![BeginSeg 4]Tryck på 'Avsluta körning' för att avsluta proceduren. #![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCassetteMovement	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Koppla bort givaren. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och\nslå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och försöker höja kassetten när enheten har slagits på igen. #![EndSeg 4]#![BeginSeg 5]Kontakta sedan din servicerepresentant för\natt få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCassetteUnrecognized	"#![BeginSeg 1]RBC-detektorn känner inte igen slangsettypen.\n#![EndSeg 1]#![BeginSeg 2]- Rengör RBC-detektorn.\n#![EndSeg 2]#![BeginSeg 3]- Ta bort och sätt tillbaka slangsetet.\n#![EndSeg 3]#![BeginSeg 4]- Om slangsetet inte godkänns av testet upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCentrifugeAlert	"#![BeginSeg 1]Ett varningstillstånd förekommer i systemet. #![EndSeg 1]#![BeginSeg 4]Tryck på 'Återtransfusion' för att återföra blodet till givaren eller tryck på 'Avsluta körning' för att avsluta proceduren utan återtransfusion. #![EndSeg 4]#![BeginSeg 5]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHigh03	"#![BeginSeg 1]Bekräfta att det inte finns luft i givarslangen.#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHighAas	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av lösning. #![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden. #![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta tillsats'. Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHighRbcCollect	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Återtransfusion' för att återföra blodet till givaren eller tryck på 'Avsluta körning' för att avsluta proceduren utan återtransfusion. #![EndSeg 2]#![BeginSeg 3]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsHighRbcCollectProd1	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Bekräfta följande:\n#![EndSeg 3]#![BeginSeg 4]- Kanalklämmorna är öppna.\n#![EndSeg 4]#![BeginSeg 5]- Kanalslangarna är inte böjda eller blockerade.\n#![EndSeg 5]#![BeginSeg 6]Uppsamling av RBC-produkt 1 kan inte slutföras. #![EndSeg 6]#![BeginSeg 7]Tryck på 'Fortsätt' för att fortsätta med produkt 2. #![EndSeg 7]#![BeginSeg 8]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCpsRangeAtSetLoad	"#![BeginSeg 1]Centrifugtrycket ligger utanför det giltiga området. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Ladda ur' för att höja kassetten. #![EndSeg 2]#![BeginSeg 3]Bekräfta följande:\n#![EndSeg 3]#![BeginSeg 4]- Kassetten är insatt på rätt sätt.\n#![EndSeg 4]#![BeginSeg 5]- Det finns inte några hinder bakom kassetten eller kassetthållaren.\n#![EndSeg 5]#![BeginSeg 6]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicCrvHigh	"#![BeginSeg 1]Den återstående kanalvolymen är för stor. #![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av lösning. #![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden. #![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta tillsats'. Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDonorHypovolemia	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Koppla bort givaren. #![EndSeg 3]#![BeginSeg 4]Stäng av systemet och slå sedan på det igen. #![EndSeg 4]#![BeginSeg 5]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 5]#![BeginSeg 6]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDrawCycleShortNoClamp	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Slangarna är rätt insatta i ventilerna.\n#![EndSeg 3]#![BeginSeg 4]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 4]#![BeginSeg 5]Om denna varning inträffar upprepade gånger, tryck på 'Avsluta körning'.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDrawCycleShortOneClamp	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Slangarna är rätt insatta i ventilerna.\n#![EndSeg 3]#![BeginSeg 4]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 4]#![BeginSeg 5]- Klämman på kanalslangen är öppen.\n#![EndSeg 5]#![BeginSeg 6]Om denna varning inträffar upprepade gånger, tryck på 'Avsluta körning'.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicDrawCycleShortThreeClamp	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Slangarna är rätt insatta i ventilerna.\n#![EndSeg 3]#![BeginSeg 4]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 4]#![BeginSeg 5]- Klämmorna på kanalslangen är öppna.\n#![EndSeg 5]#![BeginSeg 6]Om denna varning inträffar upprepade gånger, tryck på 'Avsluta körning'.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicFirstCycleLate	"#![BeginSeg 1]Den första tappningscykeln tog för lång tid.\n#![EndSeg 1]#![BeginSeg 2]- Om du ser läckage, tryck på 'Avsluta körning' för att avsluta proceduren utan återtransfusion.\n#![EndSeg 2]#![BeginSeg 3]- Om det finns vätska i ventileringspåsen eller någon av produktpåsarna, tryck på 'Återtransfusion' för att återföra blodet till givaren och avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Rengör sensorn för hög nivå före nästa körning. #![EndSeg 4]#![BeginSeg 5]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.\n#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicGenericA1	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Koppla bort givaren. #![EndSeg 4]#![BeginSeg 5]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicGenericA2	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Koppla bort givaren. #![EndSeg 3]#![BeginSeg 4]Stäng av systemet och slå sedan på det igen. #![EndSeg 4]#![BeginSeg 5]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen. #![EndSeg 5]#![BeginSeg 6]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicHemolysisDetected	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Koppla bort givaren. #![EndSeg 4]#![BeginSeg 5]Om du ser rött i plasmaslangen kan det hända att hemolys förekommer på grund av blockering i slangsetet. #![EndSeg 5]#![BeginSeg 6]Om du inte ser rött i plasmaslangen, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicHypovolemia	"#![BeginSeg 1]Ett varningstillstånd förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Koppla bort givaren. #![EndSeg 4]#![BeginSeg 5]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicInletHallHigh	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Trombocytpumpen är eventuellt insatt i fel hölje. #![EndSeg 5]#![BeginSeg 6]Om pumpen med den svarta pricken är insatt i tappningspumpens hölje, ta bort den och sätt in den i trombocytpumpens hölje. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicInletHallLow	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits\npå igen.\n#![EndSeg 4]#![BeginSeg 5]Tappningspumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Ta bort och sätt tillbaka tappningspumpen. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicInletVolAas	"#![BeginSeg 1]Volymen i kanalen är för stor. #![EndSeg 1]#![BeginSeg 2]Det går inte att slutföra tillsättningen av lösning. #![EndSeg 2]#![BeginSeg 3]Skriv ned larmnumret och texten i statusraden. #![EndSeg 3]#![BeginSeg 4]Tryck på 'Avsluta tillsats'. Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLeakDetected	"#![BeginSeg 1]Läckage har upptäckts i centrifugkammaren. #![EndSeg 1]#![BeginSeg 2]Kontrollera om det finns vätska i kanalen och centrifugkammaren. #![EndSeg 2]#![BeginSeg 3]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLeakTestFailure	"#![BeginSeg 1]Läckagedetektorn måste eventuellt testas\nigen. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återuppta proceduren. #![EndSeg 2]#![BeginSeg 3]Om läckagedetektorn underkänns av testet upprepade gånger, avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Kontakta sedan din servicerepresentant för att få hjälp. #![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowLevelLate	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Koppla bort givaren. #![EndSeg 4]#![BeginSeg 5]Bekräfta att returpumpen är insatt på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Bekräfta att alla pumpar sitter i rätt position och att de är insatta på rätt sätt. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowLevelPriorToExpected	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]- Om du ser vätska vid sensorn för låg nivå anslöts AC för tidigt.\n#![EndSeg 5]#![BeginSeg 6]- Om du inte ser någon vätska vid sensorn för låg nivå, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowLevelSensor	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Koppla bort givaren.\n#![EndSeg 4]#![BeginSeg 5]- Om du ser vätska vid sensorn för låg nivå, anslöts AC för tidigt.\n#![EndSeg 5]#![BeginSeg 6]- Om du inte ser någon vätska vid sensorn för låg nivå, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicLowPltConc	"#![BeginSeg 1]Trombocytproduktens koncentration kan eventuellt skilja sig från den konfigurerade koncentrationen.#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicMaintainDonorAccess	"#![BeginSeg 1]Pumparna har gjort uppehåll i tre minuter. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återföra 3 ml av blodet till givaren och upprätthålla givaraccess.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicMotorHwFailure	"#![BeginSeg 1]Motorns maskinvara måste eventuellt testas igen. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återuppta proceduren. #![EndSeg 2]#![BeginSeg 3]Om motorns maskinvara underkänns av testet upprepade gånger, avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicOvertemp	"#![BeginSeg 1]Ett funktionsavbrott förekommer i centrifugens temperaturfunktion. #![EndSeg 1]#![BeginSeg 2]Koppla bort givaren. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten. #![EndSeg 4]#![BeginSeg 5]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPlasmaHallHigh	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Trombocytpumpen är eventuellt insatt i fel hölje. #![EndSeg 5]#![BeginSeg 6]Om pumpen med den svarta pricken är insatt i plasmapumpens hölje, ta bort den och sätt in den i trombocytpumpens hölje. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPlasmaHallLow	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Plasmapumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Ta bort och sätt tillbaka plasmapumpen. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]Låg koncentration har upptäckts i trombocytslangen.\n#![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 3]#![BeginSeg 4]- Det finns trombocyter i produktpåsen.\n\n#![EndSeg 4]#![BeginSeg 5]Om du inte ser någon vätska i trombocytslangen eller plasmaslangen, justera för luftblockering.\n#![EndSeg 5]#![BeginSeg 6]Om du inte ser några trombocyter i produktpåsen, justera för trombocytaggregering.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Bekräfta att alla pumpar sitter i rätt position och att de är insatta på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Trombocytpumpen är eventuellt inte insatt på rätt sätt eller fel pump har satts in i trombocytpumpens hölje. #![EndSeg 5]#![BeginSeg 6]Kontrollera att pumpen med den svarta pricken är insatt i trombocytpumpens hölje. #![EndSeg 6]#![BeginSeg 7]Ta bort och sätt tillbaka trombocytpumpen. #![EndSeg 7]#![BeginSeg 8]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]En händelse inträffade som eventuellt orsakade förorening av vita blodkroppar i trombocytprodukten.\n#![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att fortsätta eller tryck på 'Återtransfusion' för att avsluta proceduren.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPowerFail	"#![BeginSeg 1]Strömförsörjningen till systemet avbröts under uppsamlingsproceduren. #![EndSeg 1]#![BeginSeg 2]Tryck på en av knapparna på skärmen för att fortsätta.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPowerFailAbort	"#![BeginSeg 1]Strömförsörjningen till systemet avbröts under uppsamlingsproceduren. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Avsluta körning' för att avsluta proceduren. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPowerTestFailure	"#![BeginSeg 1]Strömförsörjningen måste eventuellt testas igen. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återuppta proceduren. #![EndSeg 2]#![BeginSeg 3]Om strömförsörjningen underkänns av testet upprepade gånger, avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicProcedureModified	"#![BeginSeg 1]Du har gjort en justering som modifierade proceduren. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återgå till skärmen för procedurval.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPtfPressureHigh	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Avsluta körningen. #![EndSeg 2]#![BeginSeg 3]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPumpRpmCommand	"#![BeginSeg 1]En pump måste eventuellt testas igen. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återuppta proceduren. #![EndSeg 2]#![BeginSeg 3]Om pumpen underkänns av testet upprepade gånger, avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRasPrimeEarly	"#![BeginSeg 1]Vätska i sensorn för låg nivå har upptäckts för tidigt. #![EndSeg 1]#![BeginSeg 2]Du anslöt eventuellt tillsatslösningen för tidigt. #![EndSeg 2]#![BeginSeg 3]Bekräfta följande:\n#![EndSeg 3]#![BeginSeg 4]- AC har förseglats och avlägsnats.\n#![EndSeg 4]#![BeginSeg 6]Tryck på 'Fortsätt'.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRasPrimeLate	"#![BeginSeg 1]Ingen vätska har upptäckts i sensorn för låg nivå. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- RBC-tillsatslösningen är ansluten på rätt sätt.\n#![EndSeg 3]#![BeginSeg 4]- Brytstiften är brutna.\n#![EndSeg 4]#![BeginSeg 5]- Klämman på överföringsslangen är öppen.\n#![EndSeg 5]#![BeginSeg 6]Tryck på 'Fortsätt'.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRbcDetectorCal	"#![BeginSeg 1]Det gick inte att kalibrera RBC-detektorn. #![EndSeg 1]#![BeginSeg 2]Om du fortsätter proceduren, måste du bekräfta och mäta produkterna. #![EndSeg 2]#![BeginSeg 3]Rengör RBC-detektorn före nästa procedur. #![EndSeg 3]#![BeginSeg 4]Om detektorn underkänns av testet upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRefMismatch	"#![BeginSeg 1]Valt REF överensstämmer inte med det insatta slangsetet. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Ladda ur' för att höja kassetten. #![EndSeg 2]#![BeginSeg 3]Välj det REF som överensstämmer med ditt slangset och sätt in rätt slangset.#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicRefMismatchDispTest	"#![BeginSeg 1]Valt REF överensstämmer inte med det insatta slangsetet. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt'. Välj det REF som överensstämmer med ditt slangset och sätt in rätt slangset.#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawNoClamp	"#![BeginSeg 1]Ingen vätska har upptäckts vid sensorn för hög nivå vid slutet av tappningscykeln. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 3]#![BeginSeg 4]- Slangsetet är insatt på rätt sätt i ventilerna.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawOneClamp	"#![BeginSeg 1]Ingen vätska har upptäckts vid sensorn för hög nivå vid slutet av tappningscykeln. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 3]#![BeginSeg 4]- Slangsetet är insatt på rätt sätt i ventilerna.\n#![EndSeg 4]#![BeginSeg 5]- Klämman på kanalslangen är öppen.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawRbcPlNoClamp	"#![BeginSeg 1]Ingen vätska har upptäckts vid sensorn för hög nivå vid slutet av tappningscykeln. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Påsen med ersättningslösning är ansluten på rätt sätt och inte tom.\n#![EndSeg 3]#![BeginSeg 4]- Plasmaslangen är fylld med vätska.\n#![EndSeg 4]#![BeginSeg 5]- Slangsetet är insatt på rätt sätt i ventilerna.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawRbcPlOneClamp	"#![BeginSeg 1]Ingen vätska har upptäckts vid sensorn för hög nivå vid slutet av tappningscykeln. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Påsen med ersättningslösning är ansluten på rätt sätt och inte tom.\n#![EndSeg 3]#![BeginSeg 4]- Plasmaslangen är fylld med vätska.\n#![EndSeg 4]#![BeginSeg 5]- Slangsetet är insatt på rätt sätt i ventilerna.\n#![EndSeg 5]#![BeginSeg 6]- Klämman på kanalslangen är öppen.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResDrawRbcPlThreeClamp	"#![BeginSeg 1]Ingen vätska har upptäckts vid sensorn för hög nivå vid slutet av tappningscykeln. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Plasmaslangen och trombocytslangen är fyllda med vätska.\n#![EndSeg 3]#![BeginSeg 4]- Slangsetet är insatt på rätt sätt i ventilerna.\n#![EndSeg 4]#![BeginSeg 5]- Klämmorna på kanalslangen är öppna.\n#![EndSeg 5]#![BeginSeg 6]- Klämman på trombocytslangen för tillsatslösning är stängd.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResReturnNoClamp	"#![BeginSeg 1]Returcykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Ingen luft finns i returslangen.\n#![EndSeg 3]#![BeginSeg 4]- Slangsetet är insatt på rätt sätt i ventilerna.\n#![EndSeg 4]#![BeginSeg 5]- Returslangen är inte böjd eller blockerad.\n#![EndSeg 5]#![BeginSeg 6]- Slangen till ventileringspåsen är inte blockerad.\n\n#![EndSeg 6]#![BeginSeg 7]Om du ser luft i returslangen, tryck på 'Avsluta körning' för att avsluta proceduren utan återtransfusion.\n#![EndSeg 7]#![BeginSeg 8]Om ventilerna är insatta på rätt sätt och slangen till ventileringspåsen inte är blockerad, tryck på 'Fortsätt'.#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResReturnOneClamp	"#![BeginSeg 1]Returcykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Ingen luft finns i returslangen.\n#![EndSeg 3]#![BeginSeg 4]- Slangsetet är insatt på rätt sätt i ventilerna.\n#![EndSeg 4]#![BeginSeg 5]- Returslangen är inte böjd eller blockerad.\n#![EndSeg 5]#![BeginSeg 6]- Slangen till ventileringspåsen är inte blockerad.\n#![EndSeg 6]#![BeginSeg 7]- Klämman på kanalslangen är öppen.\n\n#![EndSeg 7]#![BeginSeg 8]Om du ser luft i returslangen, tryck på 'Avsluta körning' för att avsluta proceduren utan återtransfusion. #![EndSeg 8]#![BeginSeg 9]Om ventilerna är insatta på rätt sätt och slangen till ventileringspåsen inte är blockerad, tryck på 'Fortsätt'.#![EndSeg 9]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicResReturnThreeClamp	"#![BeginSeg 1]Returcykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Ingen luft finns i returslangen.\n#![EndSeg 3]#![BeginSeg 4]- Slangsetet är insatt på rätt sätt i ventilerna.\n#![EndSeg 4]#![BeginSeg 5]- Returslangen är inte böjd eller blockerad.\n#![EndSeg 5]#![BeginSeg 6]- Slangen till ventileringspåsen är inte blockerad.\n#![EndSeg 6]#![BeginSeg 7]- Klämmorna på kanalslangen är öppna.\n\n#![EndSeg 7]#![BeginSeg 8]Om du ser luft i returslangen, tryck på 'Avsluta körning' för att avsluta proceduren utan återtransfusion. #![EndSeg 8]#![BeginSeg 9]Om ventilerna är insatta på rätt sätt och slangen till ventileringspåsen inte är blockerad, tryck på 'Fortsätt'.#![EndSeg 9]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Bekräfta att alla pumpar sitter i rätt position och att de är insatta på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]Ett oåterkalleligt larm förekommer i systemet. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer kassetten när enheten har slagits på igen.\n#![EndSeg 4]#![BeginSeg 5]Returpumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 5]#![BeginSeg 6]Ta bort och sätt tillbaka returpumpen. #![EndSeg 6]#![BeginSeg 7]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicSafetyNotResponding	"#![BeginSeg 1]Ett funktionsavbrott har inträffat i protokollet för systemstart. #![EndSeg 1]#![BeginSeg 2]Skriv ned larmnumret och texten i statusraden. #![EndSeg 2]#![BeginSeg 3]Stäng av systemet och slå sedan på det igen. #![EndSeg 3]#![BeginSeg 4]Systemet bekräftar att givaren är bortkopplad och höjer vid behov kassetten. #![EndSeg 4]#![BeginSeg 5]Om det här larmet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]En ventil kan behöva testas på nytt. #![EndSeg 1]#![BeginSeg 2]Tryck på 'Fortsätt' för att återuppta proceduren. #![EndSeg 2]#![BeginSeg 3]Om ventilen underkänns av testet upprepade gånger, avsluta körningen. #![EndSeg 3]#![BeginSeg 4]Kontakta sedan din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	18	1
+textAlarmBodyWithGraphic10MinPause	"#![BeginSeg 1]Pumparna har gjort uppehåll i tio minuter. #![EndSeg 1]#![BeginSeg 2]Centrifugen är stoppad. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphic1MinPause	"#![BeginSeg 1]Pumparna har gjort uppehåll i en minut. #![EndSeg 1]#![BeginSeg 2]Centrifugens hastighet är minskad. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAasClampClosAddition	"#![BeginSeg 1]Systemet kan inte bekräfta att klämmorna på kanalslangen är stängda. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Klämmorna är ordentligt stängda.\n#![EndSeg 3]#![BeginSeg 4]Tryck på 'Fortsätt'.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]Systemet kan inte bekräfta att klämmorna på kanalslangen är stängda. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Klämmorna är ordentligt stängda.\n#![EndSeg 3]#![BeginSeg 4]- Ingen tillsatslösning är ansluten.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]Systemet kan inte bekräfta att AC-slangen förseglades. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- AC-slangen förseglades.\n#![EndSeg 3]#![BeginSeg 4]- AC-slangen avlägsnades från sensorn.\n#![EndSeg 4]#![BeginSeg 5]- AC-påsen avlägsnades från systemet.\n#![EndSeg 5]#![BeginSeg 6]Tryck på 'Fortsätt'.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcHallHigh	"#![BeginSeg 1]Ett fel förekommer i AC-pumpen. #![EndSeg 1]#![BeginSeg 2]Trombocytpumpen är eventuellt insatt i fel hölje. #![EndSeg 2]#![BeginSeg 3]Om pumpen med den svarta pricken är insatt i AC-pumpens hölje, ta bort den och sätt in den i trombocytpumpens hölje. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för\natt få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicAcHallLow	"#![BeginSeg 1]Ett fel förekommer i AC-pumpen. #![EndSeg 1]#![BeginSeg 2]AC-pumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 2]#![BeginSeg 3]Ta bort och sätt tillbaka AC-pumpen. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]AC upptäcktes inte vid AC-sensorn. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- AC-påsen är inte tom.\n#![EndSeg 3]#![BeginSeg 4]- AC-påsen är ansluten på rätt sätt.\n#![EndSeg 4]#![BeginSeg 5]Ta bort och sätt tillbaka AC-slangen i sensorn.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]Bekräfta att AC-påsen är ansluten på rätt\nsätt och att droppkammaren är fylld.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel02	"#![BeginSeg 1]Sätt in AC-slangen helt i AC-sensorn genom att vicka den fram och tillbaka.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel03	"#![BeginSeg 1]Byt ut AC-påsen om den är tom.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcOcclusion	"#![BeginSeg 1]Det går inte att leverera AC. #![EndSeg 1]#![BeginSeg 2]Kontrollera att AC-slangen inte är böjd eller blockerad. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAccessPumpsSlowed	"#![BeginSeg 1]Tappningstrycket är för lågt. #![EndSeg 1]#![BeginSeg 2]Flödeshastigheten har minskats tillfälligt. #![EndSeg 2]#![BeginSeg 3]Bekräfta följande:\n#![EndSeg 3]#![BeginSeg 4]- Nålen är införd på rätt sätt i givarens ven.\n#![EndSeg 4]#![BeginSeg 5]- Slangen är inte böjd eller blockerad.\n#![EndSeg 5]#![BeginSeg 6]- Manschettens tryck är lämpligt.\n#![EndSeg 6]#![BeginSeg 7]Anvisa givaren att knyta handen.\n#![EndSeg 7]#![BeginSeg 8]Tryck på 'Fortsätt' för att återställa det ursprungliga tappningsflödet eller tryck på 'Justera' för att minska det ursprungliga tappningsflödet.#![EndSeg 8]"	165 8 0	0x0100	15	120	227	300	14	1
+textAlarmBodyWithGraphicApsHigh00	"#![BeginSeg 1]Returtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Nålen är införd på rätt sätt i givarens ven.\n#![EndSeg 3]#![BeginSeg 4]- Slangen är inte böjd eller blockerad.\n#![EndSeg 4]#![BeginSeg 5]- Manschettens tryck är lämpligt.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHigh01	"#![BeginSeg 1]Kontrollera givarens accesställe. #![EndSeg 1]#![BeginSeg 2]Bekräfta att nålen är införd på rätt sätt i givarens ven. #![EndSeg 2]#![BeginSeg 3]Kontrollera möjlig infiltration. #![EndSeg 3]#![BeginSeg 4]Om så krävs, justera nålen för att säkerställa att den är placerad på rätt sätt i givarens ven.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHigh02	"#![BeginSeg 1]Bekräfta att slangen inte är böjd eller blockerad.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHigh03	"#![BeginSeg 1]Bekräfta att trycket i manschetten på givarens arm inte är för högt. #![EndSeg 1]#![BeginSeg 2]Högt tryck i manschetten kan hämma flödet till givaren.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHighAas	"#![BeginSeg 1]Systemtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Klämman på överföringsslangen är öppen.\n#![EndSeg 3]#![BeginSeg 4]- Slangen är inte böjd eller blockerad.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsHighPtf	"#![BeginSeg 1]Systemtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Leukocytreduktionsfiltren är insatta på rätt sätt i hållaren.\n#![EndSeg 3]#![BeginSeg 4]- Filterslangarna är insatta på rätt sätt i hållaren.\n#![EndSeg 4]#![BeginSeg 5]- Slangen är inte böjd eller blockerad.\n#![EndSeg 5]#![BeginSeg 6]Tryck på 'Fortsätt'.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicApsLow00	"#![BeginSeg 1]Tappningstrycket är för lågt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande: \n#![EndSeg 2]#![BeginSeg 3]- Nålen är införd på rätt sätt i givarens ven.\n#![EndSeg 3]#![BeginSeg 4]- Slangen är inte böjd eller blockerad.\n#![EndSeg 4]#![BeginSeg 5]- Manschettens tryck är lämpligt.\n#![EndSeg 5]#![BeginSeg 6]Anvisa givaren att knyta handen.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow01	"#![BeginSeg 1]Kontrollera givarens accesställe. #![EndSeg 1]#![BeginSeg 2]Bekräfta att nålen är införd på rätt sätt i givarens ven. #![EndSeg 2]#![BeginSeg 3]Om så krävs, justera nålen för att säkerställa att den är placerad på rätt sätt i givarens ven.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow02	"#![BeginSeg 1]Bekräfta att slangen inte är böjd eller blockerad.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow03	"#![BeginSeg 1]Bekräfta att trycket i manschetten på givarens arm inte är\nför högt. #![EndSeg 1]#![BeginSeg 2]Högt tryck i manschetten kan hämma flödet från givaren.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicApsLow04	"#![BeginSeg 1]Anvisa givaren att knyta handen.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicBagEvac	"#![BeginSeg 5]Om givaren är ansluten, koppla bort honom eller henne och ladda ur och kassera slangsetet.\n\n#![EndSeg 5]#![BeginSeg 6]Om givaren inte är ansluten, bekräfta följande:\n#![EndSeg 6]#![BeginSeg 2]- Klämman på givarslangen är öppen.\n#![EndSeg 2]#![BeginSeg 3]- Provpåsen är inte uppblåst.\n\n#![EndSeg 3]#![BeginSeg 4]Om provpåsen är uppblåst, öppna klämmorna på givarslangen och tryck ut luften.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicCassetteFailure00	"#![BeginSeg 1]Det går inte att flytta kassetten till rätt position. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Kassetten är insatt på rätt sätt.\n#![EndSeg 3]#![BeginSeg 4]- Det finns inte några hinder bakom kassetten eller kassetthållaren.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCassetteFailure01	"#![BeginSeg 1]Bekräfta att kassetten är insatt på rätt sätt.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCassetteFailure02	"#![BeginSeg 1]Bekräfta att det inte finns några hinder bakom kassetten eller kassetthållaren.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCentDoor	"#![BeginSeg 1]Centrifugluckan är inte stängd. #![EndSeg 1]#![BeginSeg 2]Kontrollera att luckan inte är blockerad. #![EndSeg 2]#![BeginSeg 3]Stäng centrifugluckan ordentligt. #![EndSeg 3]#![BeginSeg 4]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCollectValveFailure	"#![BeginSeg 1]Trombocytventilen är inte i rätt position. #![EndSeg 1]#![BeginSeg 2]Kontrollera att trombocytventilen inte är blockerad. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHigh01	"#![BeginSeg 1]Kontrollera att slingan inte är snodd. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- De övre och nedre lagren och fästena är monterade på rätt sätt.\n#![EndSeg 3]#![BeginSeg 4]- RBC-slangen är inte böjd eller blockerad.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHigh02	"#![BeginSeg 1]Bekräfta att kanalen är rätt insatt och ligger nedanför kanten.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHigh03	"#![BeginSeg 1]Bekräfta att det inte finns luft i givarslangen.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighDuringRbcAlert	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 4]- RBC-slangen är inte böjd eller blockerad.\n#![EndSeg 4]#![BeginSeg 5]- Klämman på kanalslangen är öppen.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighNoClamp	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Slingan är inte snodd.\n#![EndSeg 3]#![BeginSeg 4]- RBC-slangen är inte böjd eller blockerad.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighOneClamp00	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Slingan är inte snodd.\n#![EndSeg 3]#![BeginSeg 4]- RBC-slangen är inte böjd eller blockerad.\n#![EndSeg 4]#![BeginSeg 5]- Klämman på kanalslangen är öppen.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighOneClamp04	"#![BeginSeg 1]Bekräfta följande:\n#![EndSeg 1]#![BeginSeg 2]- Klämman på kanalslangen är öppen.\n#![EndSeg 2]#![BeginSeg 3]- Kanalslangarna är inte böjda eller blockerade.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighThreeClamp00	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Slingan är inte snodd.\n#![EndSeg 3]#![BeginSeg 4]- RBC-slangen är inte böjd eller blockerad.\n#![EndSeg 4]#![BeginSeg 5]- Klämmorna på kanalslangen är öppna.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsHighThreeClamp04	"#![BeginSeg 1]Bekräfta följande:\n#![EndSeg 1]#![BeginSeg 2]- Klämmorna på kanalslangen är öppna.\n#![EndSeg 2]#![BeginSeg 3]- Kanalslangarna är inte böjda eller blockerade.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCpsPtfPrimeTest	"#![BeginSeg 1]Centrifugens trycksensor reagerar inte som förväntat. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Kanalklämmorna är öppna.\n#![EndSeg 3]#![BeginSeg 4]- Kanalslangarna är inte böjda eller blockerade.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.\n#![EndSeg 5]#![BeginSeg 6]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicCrossoverOpen	"#![BeginSeg 1]Systemet kan inte bekräfta att klämman på överföringsslangen är stängd. #![EndSeg 1]#![BeginSeg 2]Stäng klämman och tryck på 'Fortsätt'.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest00	"#![BeginSeg 1]Systemet känner av att givaren fortfarande är ansluten. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- AC-påsen är förseglad och avlägsnad.\n#![EndSeg 3]#![BeginSeg 4]- Klämmorna på givarslangen är helt stängda.\n#![EndSeg 4]#![BeginSeg 5]- Givaren är bortkopplad.\n#![EndSeg 5]#![BeginSeg 6]Tryck på 'Fortsätt'.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest01	"#![BeginSeg 1]Bekräfta att klämman på givarslangen är helt stängd.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest02	"#![BeginSeg 1]Försegla och avlägsna AC-påsen.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTest03	"#![BeginSeg 1]Koppla bort givaren.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestAas	"#![BeginSeg 1]Systemet känner av att givaren fortfarande är ansluten. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Klämmorna på givarslangen är helt stängda.\n#![EndSeg 3]#![BeginSeg 4]- Givaren är bortkopplad.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail00	"#![BeginSeg 1]Testningen av att givaren är bortkopplad har underkänts tre gånger. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- AC-påsen är förseglad och avlägsnad.\n#![EndSeg 3]#![BeginSeg 4]- Klämmorna på givarslangen är helt stängda.\n#![EndSeg 4]#![BeginSeg 5]- Givaren är bortkopplad.\n#![EndSeg 5]#![BeginSeg 6]Tryck på 'Fortsätt' för att låta systemet höja kassetten.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	17	1
+textAlarmBodyWithGraphicDisconnectTestFail01	"#![BeginSeg 1]Bekräfta att klämman på givarslangen är helt stängd.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail02	"#![BeginSeg 1]Försegla och avlägsna AC-påsen.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFail03	"#![BeginSeg 1]Koppla bort givaren.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDisconnectTestFailAas	"#![BeginSeg 1]Testningen av att givaren är bortkopplad har underkänts tre gånger. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Klämmorna på givarslangen är helt stängda.\n#![EndSeg 3]#![BeginSeg 4]- Givaren är bortkopplad.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShort01	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta att slangarna är insatta i ventilerna på rätt sätt.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShort02	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta att plasmaslangen och trombocytslangen är helt fyllda med vätska. #![EndSeg 2]#![BeginSeg 3]Om de inte är helt fyllda, tryck på 'Justera'. Tryck sedan på 'Luftblockering' för att ta bort luften.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShortOneClamp	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämman på kanalslangen är öppen.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrawCycleShortThreeClamp	"#![BeginSeg 1]Tappningscykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämmorna på kanalslangen är öppna.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcAasSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Stäng den vita klämman på den ena av RBC-slangarna\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]Öppna den blå klämman på den andra RBC-slangen.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcPtfSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Stäng den blå klämman på den ena av RBC-slangarna\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]Öppna den vita klämman på den andra RBC-slangen.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcRasEmpty	"#![BeginSeg 1]Påsen med RBC-tillsatslösningen är nästan tom. #![EndSeg 1]#![BeginSeg 2]Stäng klämman på den ena anslutningsslangen innan en ny påse ansluts till den öppna anslutningsslangen. #![EndSeg 2]#![BeginSeg 4]Bryt brytstiftet på påsen. #![EndSeg 4]#![BeginSeg 3]Tryck på 'Fortsätt'.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicDrbcSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Stäng slangen till påsen som innehåller RBC\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]Öppna slangen till den tomma RBC-påsen.\n#![EndSeg 4]#![BeginSeg 5]Tryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicFailureToRelievePressure	"#![BeginSeg 1]Slangsetet kunde inte lätta på testtrycket. #![EndSeg 1]#![BeginSeg 2]Kontrollera att AC-slangen inte är böjd eller blockerad. #![EndSeg 2]#![BeginSeg 3]Bekräfta att AC-filtret är torrt. #![EndSeg 3]#![BeginSeg 4]När du är klar, tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicFluidAtAcAas	"#![BeginSeg 1]Vätska har upptäckts vid AC-sensorn. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- AC-slangen förseglades.\n#![EndSeg 3]#![BeginSeg 4]- AC-slangen avlägsnades från sensorn.\n#![EndSeg 4]#![BeginSeg 5]- AC-påsen avlägsnades från systemet. \nTryck på 'Fortsätt'.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicInletHallHigh	"#![BeginSeg 1]Ett fel förekommer i tappningspumpen. #![EndSeg 1]#![BeginSeg 2]Trombocytpumpen är eventuellt insatt i fel hölje. #![EndSeg 2]#![BeginSeg 3]Om pumpen med den svarta pricken är insatt i tappningspumpens hölje, ta bort den och sätt in den i trombocytpumpens hölje. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicInletHallLow	"#![BeginSeg 1]Ett fel förekommer i tappningspumpen. #![EndSeg 1]#![BeginSeg 2]Tappningspumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 2]#![BeginSeg 3]Ta bort och sätt tillbaka tappningspumpen. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicLeakDetected	"#![BeginSeg 1]Läckage har upptäckts i centrifugkammaren. #![EndSeg 1]#![BeginSeg 2]Kontrollera om det finns vätska i\nkanalen och centrifugkammaren. #![EndSeg 2]#![BeginSeg 3]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPasLineOpen	"#![BeginSeg 1]Stäng klämman på slangen för trombocyttillsatslösning.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPasPrimeEarly	"#![BeginSeg 1]Tillsatslösning har upptäckts för tidigt. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämmorna på kanalslangen är stängda och tryck på 'Fortsätt'.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPasPrimeLate	"#![BeginSeg 1]Ingen trombocyttillsatslösning har upptäckts. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- Trombocyttillsatslösningen är ansluten på rätt sätt.\n#![EndSeg 3]#![BeginSeg 4]- Brytstiftet på påsen är bruten.\n#![EndSeg 4]#![BeginSeg 5]- Klämman är öppen.\n#![EndSeg 5]#![BeginSeg 6]Tryck på 'Fortsätt'.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPauseButton	"#![BeginSeg 1]Pausknappen trycktes in. #![EndSeg 1]#![BeginSeg 2]Pumparna är stoppade och centrifugen fortsätter eventuellt att köra. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPlasmaHallHigh	"#![BeginSeg 1]Ett fel förekommer i plasmapumpen. #![EndSeg 1]#![BeginSeg 2]Trombocytpumpen är eventuellt insatt i fel hölje. #![EndSeg 2]#![BeginSeg 3]Om pumpen med den svarta pricken är insatt i plasmapumpens hölje, ta bort den och sätt in den i trombocytpumpens hölje. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPlasmaHallLow	"#![BeginSeg 1]Ett fel förekommer i plasmapumpen. #![EndSeg 1]#![BeginSeg 2]Plasmapumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 2]#![BeginSeg 3]Ta bort och sätt tillbaka plasmapumpen. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPlasmaValveFailure	"#![BeginSeg 1]Felaktig position för plasmaventilen har upptäckts. #![EndSeg 1]#![BeginSeg 2]Kontrollera att plasmaventilen inte är blockerad. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPltHallHigh	"#![BeginSeg 1]Ett fel förekommer i trombocytpumpen. #![EndSeg 1]#![BeginSeg 2]Bekräfta att alla pumpar sitter i rätt position och att de är insatta på rätt sätt. #![EndSeg 2]#![BeginSeg 3]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPltHallLow	"#![BeginSeg 1]Ett fel förekommer i trombocytpumpen. #![EndSeg 1]#![BeginSeg 2]Trombocytpumpen är eventuellt inte insatt på rätt sätt eller fel pump har satts in i trombocytpumpens hölje. #![EndSeg 2]#![BeginSeg 3]Kontrollera att pumpen med den svarta pricken är insatt i trombocytpumpens hölje. #![EndSeg 3]#![BeginSeg 4]Ta bort och sätt tillbaka trombocytpumpen. #![EndSeg 4]#![BeginSeg 5]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	14	1
+textAlarmBodyWithGraphicPressurizeInletFailure00	"#![BeginSeg 1]Det går inte att bibehålla trycket. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- De vita klämmorna på givarslangen är stängda och det finns ingen luft i provpåsen.\n#![EndSeg 3]#![BeginSeg 4]- Pumparna är insatta på rätt sätt.\n#![EndSeg 4]#![BeginSeg 5]- Kassetten är insatt på rätt sätt och det finns inte några hinder.#![EndSeg 5]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPressurizeInletFailure01	"#![BeginSeg 1]Bekräfta att de vita klämmorna på givarslangen är helt stängda.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure01Ais	"#![BeginSeg 1]Öppna klämman på givarslangen för att lätta på trycket. #![EndSeg 1]#![BeginSeg 2]Om det finns luft i provpåsen, öppna klämman till provpåsen och tryck ut luften.\n#![EndSeg 2]#![BeginSeg 3]Stäng de vita klämmorna på givarslangen.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure02	"#![BeginSeg 1]Bekräfta att alla pumpar är insatta på rätt sätt genom att noga inspektera alla pumparna och dra ett finger runt kanten på pumpbanorna.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure03	"#![BeginSeg 1]Bekräfta att kassetten är insatt på rätt sätt.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure04	"#![BeginSeg 1]Kontrollera om det finns något hinder bakom kassetten. #![EndSeg 1]#![BeginSeg 2]Höj kassetten, tryck på 'Ladda ur'.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure05	"#![BeginSeg 1]Bekräfta att det\ninsatta slangsetet överensstämmer med valt REF. #![EndSeg 1]#![BeginSeg 2]Om de inte överensstämmer, tryck på 'Ladda ur' för att höja kassetten.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailure06	"#![BeginSeg 1]Bekräfta att klämman på överföringsslangen är öppen.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicPressurizeInletFailureCassette	"#![BeginSeg 1]Det går inte att bibehålla trycket. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- De vita klämmorna på givarslangen är stängda.\n#![EndSeg 3]#![BeginSeg 4]- Ingen luft finns i provpåsen.\n#![EndSeg 4]#![BeginSeg 5]- Pumparna är insatta på rätt sätt.\n#![EndSeg 5]#![BeginSeg 6]- Kassetten är insatt på rätt sätt.\n#![EndSeg 6]#![BeginSeg 8]- Det finns inte några hinder bakom kassetten eller kassetthållaren.\n#![EndSeg 8]#![BeginSeg 7]- Valt REF överensstämmer med det insatta slangsetet.#![EndSeg 7]"	165 8 0	0x0100	15	120	227	300	16	1
+textAlarmBodyWithGraphicPressurizeInletFailureCrossover	"#![BeginSeg 1]Det går inte att bibehålla trycket. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 3]- De vita klämmorna på givarslangen är stängda.\n#![EndSeg 3]#![BeginSeg 4]- Ingen luft finns i provpåsen.\n#![EndSeg 4]#![BeginSeg 5]- Pumparna är insatta på rätt sätt.\n#![EndSeg 5]#![BeginSeg 6]- Kassetten är insatt på rätt sätt och det finns inte några hinder.\n#![EndSeg 6]#![BeginSeg 7]- Valt REF överensstämmer med det insatta slangsetet.\n#![EndSeg 7]#![BeginSeg 8]- Klämman på överföringsslangen är öppen.#![EndSeg 8]"	165 8 0	0x0100	15	120	227	300	14	1
+textAlarmBodyWithGraphicPtfPressureHigh	"#![BeginSeg 1]Centrifugtrycket är för högt. #![EndSeg 1]#![BeginSeg 2]Bekräfta följande:\n#![EndSeg 2]#![BeginSeg 5]- Klämmorna på kanalslangen är öppna.\n#![EndSeg 5]#![BeginSeg 6]- Leukocytreduktions-\nfiltren är insatta på rätt sätt i hållaren.\n#![EndSeg 6]#![BeginSeg 7]- Filterslangarna är insatta på rätt sätt i hållaren.\n#![EndSeg 7]#![BeginSeg 8]- Slangen är inte böjd eller blockerad.\n#![EndSeg 8]#![BeginSeg 9]Tryck på 'Fortsätt'.#![EndSeg 9]"	165 8 0	0x0100	15	120	227	300	17	1
+textAlarmBodyWithGraphicRasEmpty	"#![BeginSeg 1]Påsen med RBC-tillsatslösningen är nästan tom. #![EndSeg 1]#![BeginSeg 2]Anslut en ny påse, bryt brytstiftet och tryck på 'Fortsätt'.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicRbcValve	"#![BeginSeg 1]Felaktig position för RBC-ventilen har upptäckts. #![EndSeg 1]#![BeginSeg 2]Kontrollera att RBC-ventilen inte är blockerad. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResAlert	"#![BeginSeg 1]Vätska har upptäckts vid sensorn för hög nivå och inte vid sensorn för låg nivå. #![EndSeg 1]#![BeginSeg 2]Knacka på returbehållarens framsida för att driva ut eventuella bubblor eller vänta en stund på att problemet åtgärdas automatiskt.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert01	"#![BeginSeg 1]Tappningscykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att plasmaslangen och trombocytslangen är helt fyllda med vätska. #![EndSeg 2]#![BeginSeg 3]Om de inte är helt fyllda, tryck på 'Justera'. Tryck sedan på 'Luftblockering' för att ta bort luften.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert02	"#![BeginSeg 1]Om du använder ersättningslösning, bekräfta att påsen med ersättningslösning är ansluten på rätt sätt.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert03	"#![BeginSeg 1]Om du använder ersättningslösning och påsen är tom, anslut en ny påse med ersättningslösning.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert1Clamp04	"#![BeginSeg 1]Tappningscykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämman på kanalslangen är öppen.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlert3Clamp04	"#![BeginSeg 1]Tappningscykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämmorna på kanalslangen är öppna.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResDrawAlertRbcPl01	"#![BeginSeg 1]Tappningscykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att plasmaslangen är helt fylld med vätska. #![EndSeg 2]#![BeginSeg 3]Om den inte är helt fylld med vätska, tryck på 'Justera'. Tryck sedan på 'Luftblockering' för att ta bort luften.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResReturn01	"#![BeginSeg 1]Returcykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att alla slangar är insatta i ventilerna på rätt sätt.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResReturn1Clamp	"#![BeginSeg 1]Returcykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämman på kanalslangen är öppen.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicResReturn3Clamp	"#![BeginSeg 1]Returcykeln var för lång. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämmorna på kanalslangen är öppna.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnHallHigh	"#![BeginSeg 1]Ett fel förekommer i returpumpen. #![EndSeg 1]#![BeginSeg 2]Bekräfta att alla pumpar sitter i rätt position och att de är insatta på rätt sätt. #![EndSeg 2]#![BeginSeg 3]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnHallLow	"#![BeginSeg 1]Ett fel förekommer i returpumpen. #![EndSeg 1]#![BeginSeg 2]Returpumpen är eventuellt inte insatt på rätt sätt. #![EndSeg 2]#![BeginSeg 3]Ta bort och sätt tillbaka returpumpen. #![EndSeg 3]#![BeginSeg 4]Om problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortNoClamp	"#![BeginSeg 1]Returcykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Knacka på returbehållarens framsida för att driva ut eventuella bubblor eller vänta en stund på att problemet åtgärdas automatiskt.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortOneClamp00	"#![BeginSeg 1]Returcykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Knacka på returbehållarens framsida för att driva ut eventuella bubblor eller vänta en stund på att problemet åtgärdas automatiskt. #![EndSeg 2]#![BeginSeg 3]Bekräfta att klämman på kanalslangen är öppen.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortOneClamp01	"#![BeginSeg 1]Returcykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämman på kanalslangen är öppen.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortThreeClamp00	"#![BeginSeg 1]Returcykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Knacka på returbehållarens framsida för att driva ut eventuella bubblor eller vänta en stund på att problemet åtgärdas automatiskt. #![EndSeg 2]#![BeginSeg 3]Bekräfta att klämmorna på kanalslangen är öppna.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicReturnShortThreeClamp01	"#![BeginSeg 1]Returcykeln var för kort. #![EndSeg 1]#![BeginSeg 2]Bekräfta att klämmorna på kanalslangen är öppna.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSaline	"#![BeginSeg 1]Den valda proceduren kräver ersättningslösning.\n#![EndSeg 1]#![BeginSeg 2]Anslut påsen med NaCl och tryck på 'Fortsätt'.\n              eller\nTryck på 'Avbryt' för att återgå till skärmen för procedurval.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSalineBolus	"#![BeginSeg 1]Du har valt att leverera en NaCl-bolus till givaren.\n#![EndSeg 1]#![BeginSeg 2]Anslut påsen med NaCl och tryck på 'Fortsätt'.\n              eller\nTryck på 'Avbryt' för att återgå till proceduren.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSalineEmpty	"#![BeginSeg 1]Anslut påsen med NaCl och tryck på 'Fortsätt'.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSalineRinsebackConnect	"#![BeginSeg 1]Återtransfusionen kräver NaCl.\n#![EndSeg 1]#![BeginSeg 2]Anslut påsen med NaCl och tryck på 'Fortsätt'.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]Förekomst av RBC har upptäckts och automatisk borttagning av dessa utförs. #![EndSeg 1]#![BeginSeg 2]Bekräfta att rätt värde för EVF/Hgb för givaren har angivits.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]Stoppknappen trycktes in. #![EndSeg 1]#![BeginSeg 2]Pumparna och centrifugen har stoppats. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]Det går inte att ladda ur kassetten från dess nuvarande position. #![EndSeg 1]#![BeginSeg 2]Koppla bort givaren. #![EndSeg 2]#![BeginSeg 3]Användarhandboken innehåller anvisningar för hur du laddar ur kassetten manuellt.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]Systemet kan inte flytta en ventil till rätt position. #![EndSeg 1]#![BeginSeg 2]Kontrollera att ventilerna inte är blockerade. #![EndSeg 2]#![BeginSeg 3]Tryck på 'Fortsätt' för att återuppta proceduren.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
+textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
+textButtonAbortAasExit	"#![BeginSeg 1]Sluta\ntillsätta\nlösning#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]Borttagning av luft#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortPasExit	"#![BeginSeg 1]Sluta tillsätta\ntrombocyt-\nlösning#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortProcExit	"#![BeginSeg 1]Avsluta körning#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortRasExit	"#![BeginSeg 1]Sluta\ntillsätta\nRBC-lösning#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortReturnToPrev	"#![BeginSeg 1]Återgå till\nföregående\nskärm#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAbortRinsebackExit	"#![BeginSeg 1]Återtransfusion#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	17	1
+textButtonAbortSpilloverExit	"#![BeginSeg 1]Borttagning av\nRBC#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	18	1
+textButtonAdjustAirInPlasma	"#![BeginSeg 1]Luftblockering#![EndSeg 1]"	255 247 57	0x0111	5	5	110	50	14	1
+textButtonAdjustSalineBolus	"#![BeginSeg 1]NaCl-bolus#![EndSeg 1]"	255 247 57	0x0111	5	5	110	50	14	1
+textButtonAdjustSpillover	"#![BeginSeg 1]Förekomst av RBC#![EndSeg 1]"	255 247 57	0x0111	5	5	110	50	14	1
+textButtonAlarmAdjust	"#![BeginSeg 1]Justera#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmDisabledContinue	"#![BeginSeg 1]Fortsätt#![EndSeg 1]"	239 239 239	0x0111	488	155	106	40	18	1
+textButtonAlarmEndAddition	"#![BeginSeg 1]Avsluta tillsats#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
+textButtonAlarmExit	"#![BeginSeg 1]Avsluta\nkörning#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmRinseback	"#![BeginSeg 1]Återtransfusion#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	17	1
+textButtonAlarmUnload	"#![BeginSeg 1]Ladda ur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonAlarmUnloadSet	"#![BeginSeg 1]Ladda ur set#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonBarcodeAc	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
+textButtonBarcodeCategoryClear	"#![BeginSeg 1]Radera#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonBarcodeInputClear	"#![BeginSeg 1]Radera#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc3	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc4	"#![BeginSeg 1]4#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeMisc5	"#![BeginSeg 1]5#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
+textButtonBarcodeNacl	"#![BeginSeg 1]NaCl\n0.9 %#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	0
+textButtonCancel	"#![BeginSeg 1]Avsluta\nkörning#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textButtonCancelSalineConnect	"#![BeginSeg 1]Avbryt#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	18	1
+textButtonCategoryRankSwitch	"#![BeginSeg 1]Mer...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonCfgDonLimDrbcVolToggle	"#![BeginSeg 1]DRBC min TBV#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgDonLimTbvToggle	"#![BeginSeg 1]TBV#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgDonLimVolToggle	"#![BeginSeg 1]Volym#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgDonLimWeightToggle	"#![BeginSeg 1]Vikt#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonCfgLongMachAddCassette	"#![BeginSeg 1]Lägg till slangsetets REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgLongMachRemoveCassette	"#![BeginSeg 1]Ta bort slangsetets REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgMachAdminCode	"#![BeginSeg 1]Kod för slangset#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgMachSetId	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgMainAutoProc	"#![BeginSeg 1]Automatiska\nprocesser#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainDonor	"#![BeginSeg 1]Givare#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainLang	"#![BeginSeg 1]Språk/enhet#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainMach	"#![BeginSeg 1]Maskin#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainPls	"#![BeginSeg 1]Plasma#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainPlt	"#![BeginSeg 1]Trombocyter#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainPrio	"#![BeginSeg 1]Procedurprioritet#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainProc	"#![BeginSeg 1]Procedur#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainRbc	"#![BeginSeg 1]Röda blodkroppar#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainRepFluid	"#![BeginSeg 1]Ersättningslösning#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgMainVolLim	"#![BeginSeg 1]Volymgräns för givare#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
+textButtonCfgNonDisplayedNumber	"#![BeginSeg 1]---#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	0
+textButtonCfgPrioExtraDoseUnits	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	10	1
+textButtonCfgPrioExtraPlasUnits	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	10	1
+textButtonCfgPrioExtraPltExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0102	68	31	8	8	6	0
+textButtonCfgPrioExtraPltX10	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	10	0
+textButtonCfgRepFluidRbc	"#![BeginSeg 1]Ersättnings-\nlösning#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	12	1
+textButtonCfrClear	"#![BeginSeg 1]Radera#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
+textButtonCfrSelected	"#![BeginSeg 1]Acceptera#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
+textButtonConfig	"#![BeginSeg 1]Konfig#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textButtonConfirmBoxCancel	"#![BeginSeg 1]Avbryt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonConfirmBoxConfirm	"#![BeginSeg 1]Bekräfta#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonConfirmInfo	"#![BeginSeg 1]Bekräfta info#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonContinueSalineConnect	"#![BeginSeg 1]Fortsätt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonDonorInfo	"#![BeginSeg 1]Givarinfo#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonEndAddition	"#![BeginSeg 1]Avsluta\ntillsats#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textButtonFlagPlasVol	"#![BeginSeg 1]Bekräfta plasmaproduktens volym#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagPlasWbcs	"#![BeginSeg 1]Bekräfta plasmaproduktens innehåll av vita blodkroppar#![EndSeg 1]"	74 74 74	0x0101	10	10	262	40	16	1
+textButtonFlagPltConc	"#![BeginSeg 1]Bekräfta koncentrationen av trombocyter#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagPltWbcs	"#![BeginSeg 1]Bekräfta trombocytproduktens innehåll av vita blodkroppar#![EndSeg 1]"	74 74 74	0x0101	10	10	262	40	15	1
+textButtonFlagPltYieldVol	"#![BeginSeg 1]Bekräfta trombocytproduktens antal och volym#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagRbcHctVol	"#![BeginSeg 1]Bekräfta RBC-produktens EVF och volym#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagRbcQuality	"#![BeginSeg 1]Bekräfta RBC-produktens kvalitet#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	16	1
+textButtonFlagRbcWbcs	"#![BeginSeg 1]Bekräfta RBC-produktens innehåll av vita blodkroppar#![EndSeg 1]"	74 74 74	0x0101	10	10	262	40	16	1
+textButtonGiantDonorInfoBloodType	"#![BeginSeg 1]Blodgrupp#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorInfoCrit	"#![BeginSeg 1]EVF#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorInfoHemoglobin	"#![BeginSeg 1]Hemoglobin#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorInfoPltPrecount	"#![BeginSeg 1]Ingångsvärde\nför trombocyter#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsHeight	"#![BeginSeg 1]Givarens längd#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsHeightCmSet	"#![BeginSeg 1]Givarens längd\n#!{dataItemHeightCm} cm#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsHeightFtSet	"#![BeginSeg 1]Givarens längd\n#!{dataItemHeightFeet} ft #!{dataItemHeightInches} in#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]Givarens vikt#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]Givarens vikt\n#!{dataItemWeightKg} kg#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]Givarens vikt\n#!{dataItemWeightLb} lbs#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
+textButtonGiantLoadSystem	"#![BeginSeg 1]Ladda systemet#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonKeypad0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad3	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad4	"#![BeginSeg 1]4#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad5	"#![BeginSeg 1]5#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad6	"#![BeginSeg 1]6#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad7	"#![BeginSeg 1]7#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad8	"#![BeginSeg 1]8#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypad9	"#![BeginSeg 1]9#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeANeg	"#![BeginSeg 1]A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeAPos	"#![BeginSeg 1]A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeAbNeg	"#![BeginSeg 1]AB-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeAbPos	"#![BeginSeg 1]AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeBNeg	"#![BeginSeg 1]B-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeBPos	"#![BeginSeg 1]B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textButtonKeypadClear	"#![BeginSeg 1]C#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonKeypadEnter	"#![BeginSeg 1]Enter#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]Volym (l)#![EndSeg 2]"	255 247 57	0x0112	481	210	100	45	14	1
+textButtonLabelCfgDonLimJpDrbcVolSetting	"#![BeginSeg 2]Volym (l)#![EndSeg 2]"	255 247 57	0x0112	505	340	100	31	14	1
+textButtonLabelCfgDonLimJpMlPerKgSetting	"#![BeginSeg 2]ml/kg#![EndSeg 2]"	255 247 57	0x0112	505	162	100	35	14	1
+textButtonLabelCfgDonLimJpTbvSetting	"#![BeginSeg 2]TBV (%)#![EndSeg 2]"	255 247 57	0x0112	355	162	100	35	14	1
+textButtonLabelCfgDonLimJpVolBucket1SettingKg	"#![BeginSeg 1]Volym (ml)\n≤ vikt 1 (kg)#![EndSeg 1]"	255 247 57	0x0112	157	162	110	35	13	1
+textButtonLabelCfgDonLimJpVolBucket1SettingLb	"#![BeginSeg 1]Volym (ml)\n≤ vikt 1 (lb)#![EndSeg 1]"	255 247 57	0x0112	157	162	110	35	13	1
+textButtonLabelCfgDonLimJpVolBucket2SettingKg	"#![BeginSeg 1]Volym (ml)\n> vikt 1 (kg)\n≤ vikt 2 (kg)#![EndSeg 1]"	255 247 57	0x0112	157	252	110	32	11	1
+textButtonLabelCfgDonLimJpVolBucket2SettingLb	"#![BeginSeg 1]Volym (ml)\n> vikt 1 (lb)\n≤ vikt 2 (lb)#![EndSeg 1]"	255 247 57	0x0112	157	252	110	32	11	1
+textButtonLabelCfgDonLimJpVolBucket3SettingKg	"#![BeginSeg 1]Volym (ml)\n> vikt 2 (kg)\n≤ vikt 3 (kg)#![EndSeg 1]"	255 247 57	0x0112	157	340	110	31	11	1
+textButtonLabelCfgDonLimJpVolBucket3SettingLb	"#![BeginSeg 1]Volym (ml)\n> vikt 2 (lb)\n≤ vikt 3 (lb)#![EndSeg 1]"	255 247 57	0x0112	157	340	110	31	11	1
+textButtonLabelCfgDonLimJpVolBucket4SettingKg	"#![BeginSeg 1]Volym (ml)\n> vikt 3 (kg)#![EndSeg 1]"	255 247 57	0x0112	292	340	110	31	13	1
+textButtonLabelCfgDonLimJpVolBucket4SettingLb	"#![BeginSeg 1]Volym (ml)\n> vikt 3 (lb)#![EndSeg 1]"	255 247 57	0x0112	292	340	110	31	13	1
+textButtonLabelCfgDonLimJpVolWeight1SettingKg	"#![BeginSeg 2]Vikt 1 (kg)#![EndSeg 2]"	255 247 57	0x0112	27	162	100	35	14	1
+textButtonLabelCfgDonLimJpVolWeight1SettingLb	"#![BeginSeg 2]Vikt 1 (lb)#![EndSeg 2]"	255 247 57	0x0112	27	162	100	35	14	1
+textButtonLabelCfgDonLimJpVolWeight2SettingKg	"#![BeginSeg 2]Vikt 2 (kg)#![EndSeg 2]"	255 247 57	0x0112	27	252	100	32	14	1
+textButtonLabelCfgDonLimJpVolWeight2SettingLb	"#![BeginSeg 2]Vikt 2 (lb)#![EndSeg 2]"	255 247 57	0x0112	27	252	100	32	14	1
+textButtonLabelCfgDonLimJpVolWeight3SettingKg	"#![BeginSeg 2]Vikt 3 (kg)#![EndSeg 2]"	255 247 57	0x0112	27	340	100	31	14	1
+textButtonLabelCfgDonLimJpVolWeight3SettingLb	"#![BeginSeg 2]Vikt 3 (lb)#![EndSeg 2]"	255 247 57	0x0112	27	340	100	31	14	1
+textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]ml/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
+textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]TBV (%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	45	14	1
+textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]Volym (ml)\n> vikt#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	14	1
+textButtonLabelCfgDonLimVolSmallBucketSetting	"#![BeginSeg 1]Volym (ml)\n≤ vikt#![EndSeg 1]"	255 247 57	0x0112	333	105	100	50	14	1
+textButtonLabelCfgDonLimVolWeightSettingKg	"#![BeginSeg 2]Vikt (kg)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	14	1
+textButtonLabelCfgDonLimVolWeightSettingLb	"#![BeginSeg 2]Vikt (lb)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	14	1
+textButtonLabelCfgLeftAutoProcExtraFlagMsgs	"#![BeginSeg 1]Visa ytterligare meddelanden om leukocytreducering#![EndSeg 1]"	255 247 57	0x0111	365	285	150	70	14	1
+textButtonLabelCfgLeftAutoProcPasBagVol	"#![BeginSeg 1]Volym (ml) i\npåsen med\ntrombocyt-\ntillsatslösning#![EndSeg 1]"	255 247 57	0x0111	20	210	150	70	14	1
+textButtonLabelCfgLeftAutoProcPasOverrideToggle	"#![BeginSeg 1]Tillåt ändring av\npåsvolymen för\ntrombocyttillsatslösning#![EndSeg 1]"	255 247 57	0x0111	10	285	175	70	14	1
+textButtonLabelCfgLeftAutoProcPasSplitNotifToggle	"#![BeginSeg 1]Leverera tillsatslösning till separat påse#![EndSeg 1]"	255 247 57	0x0111	40	360	150	70	14	1
+textButtonLabelCfgLeftAutoProcPasToggle	"#![BeginSeg 1]Tillsättning av lösning#![EndSeg 1]"	255 247 57	0x0111	40	135	150	70	14	1
+textButtonLabelCfgLeftAutoProcRasBagVol	"#![BeginSeg 1]Volym (ml) i\npåsen med\nRBC-tillsatslösning#![EndSeg 1]"	255 247 57	0x0111	365	210	150	70	14	1
+textButtonLabelCfgLeftAutoProcRasToggle	"#![BeginSeg 1]Leukoreducering och tillsättning\nav lösning#![EndSeg 1]"	255 247 57	0x0111	365	135	150	70	14	1
+textButtonLabelCfgLeftDonAcRate	"#![BeginSeg 1]Flödeshastighet för AC-infusion#![EndSeg 1]"	255 247 57	0x0111	39	105	100	70	14	1
+textButtonLabelCfgLeftDonInletFlowRamp	"#![BeginSeg 1]Inledande tappningsökning#![EndSeg 1]"	255 247 57	0x0111	340	185	100	70	14	1
+textButtonLabelCfgLeftDonInletMgmt	"#![BeginSeg 1]Flödeshastighet för tappning#![EndSeg 1]"	255 247 57	0x0111	340	265	100	70	14	1
+textButtonLabelCfgLeftDonMaxDrawFlow	"#![BeginSeg 1]Högsta tappningsflöde#![EndSeg 1]"	255 247 57	0x0111	340	105	100	70	14	1
+textButtonLabelCfgLeftDonPostCrit	"#![BeginSeg 1]Givarens minsta EVF (%) efter uppsamling#![EndSeg 1]"	255 247 57	0x0111	39	185	100	70	14	1
+textButtonLabelCfgLeftDonPostPlat	"#![BeginSeg 1]Givarens minsta trombocytvärde efter uppsamling#![EndSeg 1]"	255 247 57	0x0111	39	265	100	70	14	1
+textButtonLabelCfgLeftDonReturnMgmt	"#![BeginSeg 1]Flödeshastighet för retur#![EndSeg 1]"	255 247 57	0x0111	340	345	100	70	14	1
+textButtonLabelCfgLeftLangCritOrGlob	"#![BeginSeg 1]RBC-enheter#![EndSeg 1]"	255 247 57	0x0111	322	215	100	50	14	1
+textButtonLabelCfgLeftLangDecDelim	"#![BeginSeg 1]Decimalavgränsare#![EndSeg 1]"	255 247 57	0x0111	300	115	100	50	14	1
+textButtonLabelCfgLeftLangHeight	"#![BeginSeg 1]Längd#![EndSeg 1]"	255 247 57	0x0111	50	215	100	50	14	1
+textButtonLabelCfgLeftLangLanguage	"#![BeginSeg 1]Språk#![EndSeg 1]"	255 247 57	0x0111	50	115	100	50	14	1
+textButtonLabelCfgLeftLangWeight	"#![BeginSeg 1]Vikt#![EndSeg 1]"	255 247 57	0x0111	50	315	100	50	14	1
+textButtonLabelCfgLeftMachAudio	"#![BeginSeg 1]Ljudvolym#![EndSeg 1]"	255 247 57	0x0111	40	360	100	70	14	1
+textButtonLabelCfgLeftMachDate	"#![BeginSeg 1]Datum#![EndSeg 1]"	255 247 57	0x0111	40	165	100	70	14	1
+textButtonLabelCfgLeftMachDateFmt	"#![BeginSeg 1]Datumformat#![EndSeg 1]"	255 247 57	0x0111	34	100	100	70	14	1
+textButtonLabelCfgLeftMachTime	"#![BeginSeg 1]Tid#![EndSeg 1]"	255 247 57	0x0111	40	295	100	70	14	1
+textButtonLabelCfgLeftMachTimeFmt	"#![BeginSeg 1]Tidsformat#![EndSeg 1]"	255 247 57	0x0111	40	230	100	70	14	1
+textButtonLabelCfgLeftPlsAmapMax	"#![BeginSeg 1]Så mycket som möjligt, högst (ml)#![EndSeg 1]"	255 247 57	0x0111	222	342	100	70	14	1
+textButtonLabelCfgLeftPlsAmapMin	"#![BeginSeg 1]Så mycket som möjligt, minst (ml)#![EndSeg 1]"	255 247 57	0x0111	10	342	100	70	14	1
+textButtonLabelCfgLeftPlsTrali	"#![BeginSeg 1]Tillåtna\ngivare#![EndSeg 1]"	255 247 57	0x0111	425	342	100	70	14	1
+textButtonLabelCfgLeftPlsVol1	"#![BeginSeg 1]Plasma 1, volym (ml)#![EndSeg 1]"	255 247 57	0x0111	45	100	100	70	14	1
+textButtonLabelCfgLeftPlsVol2	"#![BeginSeg 1]Plasma 2, volym (ml)#![EndSeg 1]"	255 247 57	0x0111	45	180	100	70	14	1
+textButtonLabelCfgLeftPlsVol3	"#![BeginSeg 1]Plasma 3, volym (ml)#![EndSeg 1]"	255 247 57	0x0111	45	260	100	70	14	1
+textButtonLabelCfgLeftPlsVol4	"#![BeginSeg 1]Plasma 4, volym (ml)#![EndSeg 1]"	255 247 57	0x0111	380	100	100	70	14	1
+textButtonLabelCfgLeftPlsVol5	"#![BeginSeg 1]Plasma 5, volym (ml)#![EndSeg 1]"	255 247 57	0x0111	380	180	100	70	14	1
+textButtonLabelCfgLeftPlsVol6	"#![BeginSeg 1]Plasma 6, volym (ml)#![EndSeg 1]"	255 247 57	0x0111	380	260	100	70	14	1
+textButtonLabelCfgLeftPltTrali	"#![BeginSeg 1]Tillåtna givare#![EndSeg 1]"	255 247 57	0x0111	360	340	100	90	14	1
+textButtonLabelCfgLeftPltYsf	"#![BeginSeg 1]Skalfaktor#![EndSeg 1]"	255 247 57	0x0111	120	340	100	90	14	1
+textButtonLabelCfgLeftProcAirRemoval	"#![BeginSeg 1]Borttagning av luft från produktpåsen#![EndSeg 1]"	255 247 57	0x0111	350	295	150	70	14	1
+textButtonLabelCfgLeftProcAuditTracking	"#![BeginSeg 1]Handhavandeåtgärd för validering#![EndSeg 1]"	255 247 57	0x0111	350	230	150	70	14	1
+textButtonLabelCfgLeftProcBloodDiversion	"#![BeginSeg 1]Blodavledning#![EndSeg 1]"	255 247 57	0x0111	30	295	150	70	14	1
+textButtonLabelCfgLeftProcCustomRatio	"#![BeginSeg 1]Förhållande inflöde till AC#![EndSeg 1]"	255 247 57	0x0111	350	100	150	70	14	1
+textButtonLabelCfgLeftProcDrawPressure	"#![BeginSeg 1]Lägsta gräns för tappningstryck (mmHg)#![EndSeg 1]"	255 247 57	0x0111	30	230	150	70	14	1
+textButtonLabelCfgLeftProcPlsRinseback	"#![BeginSeg 1]Återtransfusion med plasma#![EndSeg 1]"	255 247 57	0x0111	30	360	150	70	14	1
+textButtonLabelCfgLeftProcRbcRatio	"#![BeginSeg 1]Förhållande inflöde till AC för RBC#![EndSeg 1]"	255 247 57	0x0111	350	165	150	70	14	1
+textButtonLabelCfgLeftProcReturnPressure	"#![BeginSeg 1]Högsta gräns för returtryck (mmHg)#![EndSeg 1]"	255 247 57	0x0111	30	165	150	70	14	1
+textButtonLabelCfgLeftProcSalineRinseback	"#![BeginSeg 1]Återtransfusion med NaCl#![EndSeg 1]"	255 247 57	0x0111	350	360	150	70	14	1
+textButtonLabelCfgLeftProcTime	"#![BeginSeg 1]Längsta varaktighet för procedur (minuter)#![EndSeg 1]"	255 247 57	0x0111	30	100	150	70	14	1
+textButtonLabelCfgLeftRbcSplitAlert	"#![BeginSeg 1]DRBC-doströskel (ml)#![EndSeg 1]"	255 247 57	0x0111	40	357	100	70	14	1
+textButtonLabelCfgLeftRbcYsf	"#![BeginSeg 1]RBC-\nskalfaktor#![EndSeg 1]"	255 247 57	0x0111	350	357	100	70	14	1
+textButtonLabelCfgTopRepFluidPercent	"#![BeginSeg 1]Vätskebalans (%)#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textButtonLabelCfgTopRepFluidTotCollThreshold	"#![BeginSeg 1]Ersättningströskel (ml)#![EndSeg 1]"	255 247 57	0x0111	0	0	125	40	14	1
+textButtonLongAlarmMoreInfo	"#![BeginSeg 1]Mer info#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongBeginDonorPrep	"#![BeginSeg 1]Förbered givare#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongCfrEnterLater	"#![BeginSeg 1]Ange senare#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
+textButtonLongConfigExit	"#![BeginSeg 1]Avsluta konfiguration#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongConfigReturnToMainMenu	"#![BeginSeg 1]Återgå till huvudmeny#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongConfirmProduct	"#![BeginSeg 1]Bekräfta procedur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongContinue	"#![BeginSeg 1]Fortsätt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongDisconnectConfirm	"#![BeginSeg 1]Bekräfta bortkoppling#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongNextPage	"#![BeginSeg 1]Nästa sida#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongNextProcedure	"#![BeginSeg 1]Nästa procedur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongPredScrollNext	"#![BeginSeg 1]Bläddra nedåt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongPredScrollPrev	"#![BeginSeg 1]Bläddra uppåt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonLongResetMachine	"#![BeginSeg 1]Återställ maskinen#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
+textButtonLongStartDraw	"#![BeginSeg 1]Starta tappning#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]Volym (ml) i påsen med tillsatslösning#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	14	1
+textButtonSelectRef	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0111	5	10	155	40	18	1
+textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]Läge#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	14	1
+textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]Uppsamlings-\nkoncentration\n(x10  /µl)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	12	1
+textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	238	150	10	15	8	0
+textCfgColLabelCfgPltFinalConc	"#![BeginSeg 1]Slut-\nkoncentration\n(x10  /µl)#![EndSeg 1]"	255 247 57	0x0112	180	105	120	60	12	1
+textCfgColLabelCfgPltFinalConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	510	150	10	15	8	0
+textCfgColLabelCfgPltPasVol	"#![BeginSeg 1]Lösnings-\nvolym\n(ml)#![EndSeg 1]"	255 247 57	0x0112	555	105	85	60	12	1
+textCfgColLabelCfgPltPercentPlasma	"#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"	255 247 57	0x0112	270	105	120	60	12	1
+textCfgColLabelCfgPltVol	"#![BeginSeg 1]Uppsamlings-\nvolym\n(ml)#![EndSeg 1]"	255 247 57	0x0112	360	105	120	60	12	1
+textCfgColLabelCfgPltYield	"#![BeginSeg 1]Antal\n(x10   )#![EndSeg 1]"	255 247 57	0x0112	90	105	120	60	12	1
+textCfgColLabelCfgPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	150	10	15	8	0
+textCfgColLabelCfgPrioBloodType	"#![BeginSeg 1]Blodgrupp#![EndSeg 1]"	255 247 57	0x0111	400	160	100	0	14	1
+textCfgColLabelCfgPrioPls	"#![BeginSeg 1]Plasma#![EndSeg 1]"	255 247 57	0x0111	170	160	100	0	14	1
+textCfgColLabelCfgPrioPlt	"#![BeginSeg 1]Trombocyter#![EndSeg 1]"	255 247 57	0x0111	55	160	100	0	14	1
+textCfgColLabelCfgPrioRbc	"#![BeginSeg 1]RBC#![EndSeg 1]"	255 247 57	0x0111	285	160	100	0	14	1
+textCfgColLabelCfgPrioTime	"#![BeginSeg 1]Varaktighet#![EndSeg 1]"	255 247 57	0x0111	515	160	100	0	14	1
+textCfgColLabelCfgRbcCrit	"#![BeginSeg 1]EVF i\nuppsamlad\nRBC-produkt (%)#![EndSeg 1]"	255 247 57	0x0112	255	105	170	60	12	1
+textCfgColLabelCfgRbcDose	"#![BeginSeg 1]RBC-dos vid\n100 % EVF#![EndSeg 1]"	255 247 57	0x0112	120	105	170	60	12	1
+textCfgColLabelCfgRbcRas	"#![BeginSeg 1]Lösnings-\nvolym (ml)#![EndSeg 1]"	255 247 57	0x0112	500	105	140	60	12	1
+textCfgColLabelCfgRbcVol	"#![BeginSeg 1]RBC-uppsamlings-\nvolym (ml)#![EndSeg 1]"	255 247 57	0x0112	390	105	130	60	12	1
+textCfgRowLabelCfgPlt1	"#![BeginSeg 1]TPK 1#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt10	"#![BeginSeg 1]TPK 10#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt2	"#![BeginSeg 1]TPK 2#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt3	"#![BeginSeg 1]TPK 3#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt4	"#![BeginSeg 1]TPK 4#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt5	"#![BeginSeg 1]TPK 5#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt6	"#![BeginSeg 1]TPK 6#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt7	"#![BeginSeg 1]TPK 7#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt8	"#![BeginSeg 1]TPK 8#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPlt9	"#![BeginSeg 1]TPK 9#![EndSeg 1]"	255 247 57	0x0111	2	0	53	48	14	1
+textCfgRowLabelCfgPrio1	"#![BeginSeg 1]Procedur 1#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio10	"#![BeginSeg 1]Procedur 10#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio11	"#![BeginSeg 1]Procedur 11#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio12	"#![BeginSeg 1]Procedur 12#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio13	"#![BeginSeg 1]Procedur 13#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio14	"#![BeginSeg 1]Procedur 14#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio15	"#![BeginSeg 1]Procedur 15#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio16	"#![BeginSeg 1]Procedur 16#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio17	"#![BeginSeg 1]Procedur 17#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio18	"#![BeginSeg 1]Procedur 18#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio19	"#![BeginSeg 1]Procedur 19#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio2	"#![BeginSeg 1]Procedur 2#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio20	"#![BeginSeg 1]Procedur 20#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio3	"#![BeginSeg 1]Procedur 3#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio4	"#![BeginSeg 1]Procedur 4#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio5	"#![BeginSeg 1]Procedur 5#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio6	"#![BeginSeg 1]Procedur 6#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio7	"#![BeginSeg 1]Procedur 7#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio8	"#![BeginSeg 1]Procedur 8#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgPrio9	"#![BeginSeg 1]Procedur 9#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	14	1
+textCfgRowLabelCfgRbc1	"#![BeginSeg 1]RBC 1#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	14	1
+textCfgRowLabelCfgRbc2	"#![BeginSeg 1]RBC 2#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	14	1
+textCfgRowLabelCfgRbc3	"#![BeginSeg 1]RBC 3#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	14	1
+textCfgScreenLabelAutoProc	"#![BeginSeg 1]Automatiska processer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelDonor	"#![BeginSeg 1]Givare#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelLang	"#![BeginSeg 1]Språk/enhet#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelMach	"#![BeginSeg 1]Maskin#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelMainMenu	"#![BeginSeg 1]Konfiguration#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelPls	"#![BeginSeg 1]Plasma#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelPlt	"#![BeginSeg 1]Trombocyter#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelPrio	"#![BeginSeg 1]Procedurprioritet#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelProc	"#![BeginSeg 1]Procedur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelRbc	"#![BeginSeg 1]Röda blodkroppar#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelRepFluid	"#![BeginSeg 1]Ersättningslösning#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelVolLim	"#![BeginSeg 1]Volymgräns för givare#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textConfirmBodyAcConnect	"#![BeginSeg 1]Bekräfta att den anslutna påsen är AC#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]Ta bort alla REF-poster#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textConfirmBodyCfgMachRefDeleteOne	"#![BeginSeg 1]Ta bort slangsetets REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textConfirmBodyPasConnect	"#![BeginSeg 1]Bekräfta att den\nanslutna påsen är trombocyttillsatslösning#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textConfirmBodyRasConnect	"#![BeginSeg 1]Bekräfta att den\nanslutna påsen är\nRBC-tillsatslösning#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textConfirmBodyRestart	"#![BeginSeg 1]Bekräfta omstart för\nnästa procedur#![EndSeg 1]"	255 247 57	0x0111	12	12	250	86	18	1
+textConfirmBodySalineConnect	"#![BeginSeg 1]Bekräfta att den anslutna påsen är NaCl#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	18	1
+textDataCfrBloodType	"#![BeginSeg 1]Blodgrupp: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataCfrGenderFemale	"#![BeginSeg 1]Kvinna#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataCfrGenderMale	"#![BeginSeg 1]Man#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataDatRs1RinsebackComplete	"#![BeginSeg 1]Slutförd#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
+textDataDatRs1RinsebackIncomplete	"#![BeginSeg 1]Ej slutförd#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
+textDataInitDonDlTbv	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	416	279	171	24	18	1
+textDataInitRunProcCurrentPlas	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 247 57	0x0111	339	388	114	24	24	1
+textDataInitRunProcCurrentRbc	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 247 57	0x0111	466	388	114	24	24	1
+textDataInitRunProcEstPlas	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	339	209	114	24	24	1
+textDataInitRunProcEstRbc	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	466	209	114	24	24	1
+textDataLabelAasRunsumm	"#![BeginSeg 1]Manuell volym tillsatslösning#![EndSeg 1]"	239 239 239	0x0111	230	270	395	35	18	1
+textDataLabelDonDlBloodType	"#![BeginSeg 1]Blodgrupp#![EndSeg 1]"	255 255 255	0x0121	242	313	164	24	17	1
+textDataLabelDonDlGender	"#![BeginSeg 1]Kön#![EndSeg 1]"	255 255 255	0x0121	242	177	164	24	17	1
+textDataLabelDonDlHct	"#![BeginSeg 1]EVF#![EndSeg 1]"	255 255 255	0x0121	242	347	164	24	17	1
+textDataLabelDonDlHeight	"#![BeginSeg 1]Längd#![EndSeg 1]"	255 255 255	0x0121	242	211	164	24	17	1
+textDataLabelDonDlHgb	"#![BeginSeg 1]Hemoglobin#![EndSeg 1]"	255 255 255	0x0121	242	347	164	24	18	1
+textDataLabelDonDlNameAndDob	"#![BeginSeg 1]Givarens namn och födelsedatum#![EndSeg 1]"	239 239 239	0x0111	111	115	427	14	14	1
+textDataLabelDonDlPltPrecount	"#![BeginSeg 1]Ingångsvärde för\ntrombocyter#![EndSeg 1]"	255 255 255	0x0121	232	381	174	24	16	1
+textDataLabelDonDlTbv	"#![BeginSeg 1]TBV#![EndSeg 1]"	255 255 255	0x0121	242	279	164	24	17	1
+textDataLabelDonDlWeight	"#![BeginSeg 1]Vikt#![EndSeg 1]"	255 255 255	0x0121	242	245	164	24	17	1
+textDataLabelPasOffline	"#![BeginSeg 1]Trombocytprodukt#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelPasVolRemaining	"#![BeginSeg 1]Återstående trombocyttill-\nsatslösning att leverera:#![EndSeg 1]"	165 8 0	0x0110	15	350	225	60	16	1
+textDataLabelPredConfAcRequired	"#![BeginSeg 1]Nödvändig AC-volym#![EndSeg 1]"	255 247 57	0x0101	20	173	200	24	14	1
+textDataLabelPredConfDuration	"#![BeginSeg 1]Varaktighet#![EndSeg 1]"	255 247 57	0x0101	20	195	200	24	14	1
+textDataLabelPredConfFlow	"#![BeginSeg 1]Inflödeshastighet#![EndSeg 1]"	255 247 57	0x0101	20	151	200	24	14	1
+textDataLabelPredConfPlasVol	"#![BeginSeg 1]Plasmavolym#![EndSeg 1]"	255 247 57	0x0101	20	129	200	24	14	1
+textDataLabelPredConfPltVol	"#![BeginSeg 1]Trombocytvolym#![EndSeg 1]"	255 247 57	0x0101	20	63	200	24	14	1
+textDataLabelPredConfPltYield	"#![BeginSeg 1]Trombocytantal#![EndSeg 1]"	255 247 57	0x0101	20	85	200	24	14	1
+textDataLabelPredConfRbcVol	"#![BeginSeg 1]RBC-volym#![EndSeg 1]"	255 247 57	0x0101	20	107	200	24	14	1
+textDataLabelPredConfTbvProcessed	"#![BeginSeg 1]Behandlad blodvolym#![EndSeg 1]"	255 247 57	0x0101	20	217	200	24	14	1
+textDataLabelRas1Offline	"#![BeginSeg 1]RBC-produkt 1#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelRas2Offline	"#![BeginSeg 1]RBC-produkt 2#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelRasOffline	"#![BeginSeg 1]RBC-produkt#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	14	1
+textDataLabelRbc2SplitLayout	"#![BeginSeg 1]RBC-produkt 2#![EndSeg 1]"	239 239 239	0x0101	95	312	280	23	18	1
+textDataLabelRs1AasStartTime	"#![BeginSeg 1]Starttid för tillsättning av lösning#![EndSeg 1]"	74 74 74	0x0101	10	302	175	90	14	1
+textDataLabelRs1AcToDonor	"#![BeginSeg 1]Faktisk AC till givare#![EndSeg 1]"	74 74 74	0x0101	330	130	175	90	14	1
+textDataLabelRs1AcUsed	"#![BeginSeg 1]Total använd AC-volym#![EndSeg 1]"	74 74 74	0x0101	10	130	175	90	14	1
+textDataLabelRs1AvgInletFlow	"#![BeginSeg 1]Genomsnittligt inflöde#![EndSeg 1]"	74 74 74	0x0101	10	345	175	90	14	1
+textDataLabelRs1AvgInletFlowAlt	"#![BeginSeg 1]Genomsnittligt inflöde#![EndSeg 1]"	74 74 74	0x0101	10	302	175	90	14	1
+textDataLabelRs1DurationOfRun	"#![BeginSeg 1]Körningens varaktighet#![EndSeg 1]"	74 74 74	0x0101	330	173	175	90	14	1
+textDataLabelRs1EndOfRunTime	"#![BeginSeg 1]Körningens sluttid#![EndSeg 1]"	74 74 74	0x0101	10	173	175	90	14	1
+textDataLabelRs1PlasRedidualLoss	"#![BeginSeg 1]Restvolym av plasma#![EndSeg 1]"	74 74 74	0x0101	330	345	175	90	14	1
+textDataLabelRs1PlasmaRinseback	"#![BeginSeg 1]Återtransfusion med plasma#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	14	1
+textDataLabelRs1PltPostCount	"#![BeginSeg 1]Trombocytvärde efter uppsamling#![EndSeg 1]"	74 74 74	0x0101	10	216	175	90	14	1
+textDataLabelRs1PostHct	"#![BeginSeg 1]EVF efter uppsamling#![EndSeg 1]"	74 74 74	0x0101	330	216	175	90	14	1
+textDataLabelRs1PostHgb	"#![BeginSeg 1]Hemoglobin efter uppsamling#![EndSeg 1]"	74 74 74	0x0101	330	216	175	90	14	1
+textDataLabelRs1PrbcResidualLoss	"#![BeginSeg 1]Restvolym av koncentrerade RBC#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	14	1
+textDataLabelRs1SalineRinseback	"#![BeginSeg 1]Återtransfusion med NaCl#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	14	1
+textDataLabelRs1SalineUsed	"#![BeginSeg 1]Total använd NaCl-volym#![EndSeg 1]"	74 74 74	0x0101	330	259	175	90	14	1
+textDataLabelRs1TbvProcessed	"#![BeginSeg 1]Behandlad blodvolym#![EndSeg 1]"	74 74 74	0x0101	10	259	175	90	14	1
+textDataLabelRs2PasVol	"#![BeginSeg 1]Volym tillsatslösning#![EndSeg 1]"	74 74 74	0x0101	95	218	280	23	14	1
+textDataLabelRs2PlasAc	"#![BeginSeg 1]AC-volym i plasma#![EndSeg 1]"	74 74 74	0x0101	95	294	280	23	14	1
+textDataLabelRs2PlasAcSplitLayout	"#![BeginSeg 1]AC-volym i plasma#![EndSeg 1]"	74 74 74	0x0101	95	158	280	23	14	1
+textDataLabelRs2PlasVol	"#![BeginSeg 1]Total produktvolym#![EndSeg 1]"	74 74 74	0x0101	95	264	280	23	14	1
+textDataLabelRs2PlasVolSplitLayout	"#![BeginSeg 1]Total produktvolym#![EndSeg 1]"	74 74 74	0x0101	95	128	280	23	14	1
+textDataLabelRs2PltAc	"#![BeginSeg 1]AC-volym i trombocyter#![EndSeg 1]"	74 74 74	0x0101	95	188	280	23	14	1
+textDataLabelRs2PltVol	"#![BeginSeg 1]Total produktvolym#![EndSeg 1]"	74 74 74	0x0101	95	129	280	23	14	1
+textDataLabelRs2PltYield	"#![BeginSeg 1]Antal trombocyter#![EndSeg 1]"	74 74 74	0x0101	95	158	280	23	14	1
+textDataLabelRs2Ras2Vol	"#![BeginSeg 1]Volym tillsatslösning#![EndSeg 1]"	74 74 74	0x0101	95	394	280	23	14	1
+textDataLabelRs2RasVol	"#![BeginSeg 1]Volym tillsatslösning#![EndSeg 1]"	74 74 74	0x0101	95	398	280	23	14	1
+textDataLabelRs2RasVolSplitLayout	"#![BeginSeg 1]Volym tillsatslösning#![EndSeg 1]"	74 74 74	0x0101	95	276	280	23	14	1
+textDataLabelRs2Rbc2Ac	"#![BeginSeg 1]AC-volym i RBC#![EndSeg 1]"	74 74 74	0x0101	95	364	280	23	14	1
+textDataLabelRs2Rbc2Vol	"#![BeginSeg 1]Total produktvolym#![EndSeg 1]"	74 74 74	0x0101	95	334	280	23	14	1
+textDataLabelRs2RbcAc	"#![BeginSeg 1]AC-volym i RBC#![EndSeg 1]"	74 74 74	0x0101	95	369	280	23	14	1
+textDataLabelRs2RbcAcSplitLayout	"#![BeginSeg 1]AC-volym i RBC#![EndSeg 1]"	74 74 74	0x0101	95	246	280	23	14	1
+textDataLabelRs2RbcSplitLayout	"#![BeginSeg 1]RBC-produkt 1#![EndSeg 1]"	239 239 239	0x0101	95	194	280	23	18	1
+textDataLabelRs2RbcVol	"#![BeginSeg 1]Total produktvolym#![EndSeg 1]"	74 74 74	0x0101	95	338	280	23	14	1
+textDataLabelRs2RbcVolSplitLayout	"#![BeginSeg 1]Total produktvolym#![EndSeg 1]"	74 74 74	0x0101	95	216	280	23	14	1
+textDataUnitsAdjustTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textDataUnitsCfrAm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]AM#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrHgb	"#![BeginSeg 1]g/dl#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrPm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]PM#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCrit	"#![BeginSeg 1] %#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsDonDlCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlHct	"#![BeginSeg 1] %#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
+textDataUnitsDonDlHemoglobin	"#![BeginSeg 1]g/dl#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsDonDlPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
+textDataUnitsDonDlTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textDataUnitsMl	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	1
+textDataUnitsPasOffline	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
+textDataUnitsPasVolRemaining	"#![BeginSeg 1]ml#![EndSeg 1]"	165 8 0	0x0102	130	350	113	60	16	1
+textDataUnitsPredConfAcRequired	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	173	60	24	14	1
+textDataUnitsPredConfDuration	"#![BeginSeg 1]min#![EndSeg 1]"	255 247 57	0x0101	245	195	60	24	14	1
+textDataUnitsPredConfFlow	"#![BeginSeg 1]ml/min#![EndSeg 1]"	255 247 57	0x0101	245	151	60	24	14	1
+textDataUnitsPredConfPlasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	129	60	24	14	1
+textDataUnitsPredConfPltVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	63	60	24	14	1
+textDataUnitsPredConfPltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0101	277	81	60	24	10	0
+textDataUnitsPredConfPltYieldX10	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 247 57	0x0101	245	85	60	24	14	0
+textDataUnitsPredConfRbcVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	107	60	24	14	1
+textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0101	245	217	60	24	14	1
+textDataUnitsPredDuration	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	1
+textDataUnitsPredFlowRate	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml/min#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	1
+textDataUnitsPredPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	0
+textDataUnitsPredUnitPltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
+textDataUnitsRas1Offline	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
+textDataUnitsRas2Offline	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
+textDataUnitsRs1AcToDonor	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	130	55	90	14	1
+textDataUnitsRs1AcUsed	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	253	130	55	90	14	1
+textDataUnitsRs1AvgInletFlow	"#![BeginSeg 1]ml/min#![EndSeg 1]"	255 255 255	0x0101	233	345	75	90	14	1
+textDataUnitsRs1AvgInletFlowAlt	"#![BeginSeg 1]ml/min#![EndSeg 1]"	255 255 255	0x0101	233	302	75	90	14	1
+textDataUnitsRs1GPerDl	"#![BeginSeg 1]g/dl#![EndSeg 1]"	255 255 255	0x0101	573	216	55	90	14	1
+textDataUnitsRs1MinLength	"#![BeginSeg 1]min#![EndSeg 1]"	255 255 255	0x0101	573	173	55	90	14	1
+textDataUnitsRs1Percent	"#![BeginSeg 1] %#![EndSeg 1]"	255 255 255	0x0101	573	216	55	90	14	0
+textDataUnitsRs1PlasResidualLoss	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	345	55	90	14	1
+textDataUnitsRs1PrbcResidualLoss	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	302	55	90	14	1
+textDataUnitsRs1SalineUsed	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	573	259	55	90	14	1
+textDataUnitsRs1TimeAasAm	"#![BeginSeg 1]AM#![EndSeg 1]"	255 255 255	0x0101	253	302	55	90	14	1
+textDataUnitsRs1TimeAasPm	"#![BeginSeg 1]PM#![EndSeg 1]"	255 255 255	0x0101	253	302	55	90	14	1
+textDataUnitsRs1TimeAm	"#![BeginSeg 1]AM#![EndSeg 1]"	255 255 255	0x0101	253	173	55	90	14	1
+textDataUnitsRs1TimePm	"#![BeginSeg 1]PM#![EndSeg 1]"	255 255 255	0x0101	253	173	55	90	14	1
+textDataUnitsRs1VolMl	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	253	259	55	90	14	1
+textDataUnitsRs1X1000	"#![BeginSeg 1]x 1000/µl#![EndSeg 1]"	255 255 255	0x0101	229	216	75	90	14	1
+textDataUnitsRs2PasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	218	110	23	14	1
+textDataUnitsRs2PlasAc	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	294	110	23	14	1
+textDataUnitsRs2PlasAcSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	158	110	23	14	1
+textDataUnitsRs2PlasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	264	110	23	14	1
+textDataUnitsRs2PlasVolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	128	110	23	14	1
+textDataUnitsRs2PltAc	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	188	110	23	14	1
+textDataUnitsRs2PltVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	129	110	23	14	1
+textDataUnitsRs2PltYield	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 255 255	0x0101	436	158	110	23	14	0
+textDataUnitsRs2PltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0101	466	154	110	23	8	0
+textDataUnitsRs2Ras2Vol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	398	110	23	14	1
+textDataUnitsRs2Ras2VolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	394	110	23	14	1
+textDataUnitsRs2RasVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	398	110	23	14	1
+textDataUnitsRs2RasVolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	276	110	23	14	1
+textDataUnitsRs2Rbc2Ac	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	369	110	23	14	1
+textDataUnitsRs2Rbc2AcSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	364	110	23	14	1
+textDataUnitsRs2Rbc2Vol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	338	110	23	14	1
+textDataUnitsRs2Rbc2VolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	334	110	23	14	1
+textDataUnitsRs2RbcAc	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	369	110	23	14	1
+textDataUnitsRs2RbcAcSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	246	110	23	14	1
+textDataUnitsRs2RbcVol	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	338	110	23	14	1
+textDataUnitsRs2RbcVolSplitLayout	"#![BeginSeg 1]ml#![EndSeg 1]"	255 255 255	0x0101	436	216	110	23	14	1
+textDataUnitsRunProcCurrentPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	24	0
+textDataUnitsRunProcCurrentPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0121	0	0	0	0	10	0
+textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	0
+textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
+textDataUnitsRunProcTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	14	1
+textDataUnitsRunProcTimeAm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]AM#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsRunProcTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsRunProcTimePm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]PM#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
+textEmpty	""	0 0 0	0x0111	0	0	640	0	14	0
+textEmptyFormatAlarmBmpDisplay	""	165 8 0	0x0101	54	146	182	14	14	0
+textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
+textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
+textEmptyFormatAlarmNumberData	""	165 8 0	0x0102	15	70	90	30	18	0
+textEmptyFormatAlarmVersionLocation	""	255 247 57	0x0101	10	419	465	12	10	0
+textEmptyFormatBarcodeScan	""	255 247 57	0x0101	100	132	390	31	12	0
+textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	100	380	390	31	12	0
+textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
+textEmptyFormatButtonCfgPltEmpty	""	255 247 57	0x0111	0	0	0	0	14	0
+textEmptyFormatCatButton	""	255 247 57	0x0102	7	7	90	69	18	0
+textEmptyFormatCatNum	""	33 74 132	0x0101	161	205	90	35	16	0
+textEmptyFormatCfgMachAdminCodeInit	""	255 247 57	0x0111	380	181	210	45	18	0
+textEmptyFormatCfgMachBarcodeInit	""	255 247 57	0x0111	380	236	210	45	16	0
+textEmptyFormatCfgMachSetIdInit	""	255 247 57	0x0111	380	128	210	45	18	0
+textEmptyFormatCfgNumericTextFormatNull	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfgPltFinalConc	""	255 247 57	0x0111	0	0	50	20	14	0
+textEmptyFormatCfgRbcVolData	""	255 247 57	0x0111	390	0	130	48	12	0
+textEmptyFormatCfrList1Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrList2Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrList3Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrList4Button	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfrOpId	""	255 255 255	0x0101	75	140	0	0	20	0
+textEmptyFormatCfrTimeOfDay	""	255 247 57	0x0101	500	400	0	0	16	0
+textEmptyFormatDonDlBloodTypeInit	""	255 255 255	0x0111	416	313	171	24	18	0
+textEmptyFormatDonDlDobInit	""	255 255 255	0x0121	395	131	131	20	18	0
+textEmptyFormatDonDlDonorNameInit	""	255 255 255	0x0101	116	131	285	20	18	0
+textEmptyFormatDonDlGenderInit	""	255 255 255	0x0111	416	177	171	24	18	0
+textEmptyFormatDonDlHctInit	""	255 255 255	0x0111	416	347	171	24	18	0
+textEmptyFormatDonDlHeightInit	""	255 255 255	0x0111	416	211	171	24	18	0
+textEmptyFormatDonDlWeightInit	""	255 255 255	0x0111	416	245	171	24	18	0
+textEmptyFormatKeypadUsrEntryInit	""	0 0 0	0x0121	0	0	0	0	18	0
+textEmptyFormatListboxButton	""	255 255 255	0x0111	20	0	640	0	19	0
+textEmptyFormatOfflinePasData	""	255 255 255	0x0121	480	305	60	32	14	0
+textEmptyFormatOfflineRas1Data	""	255 255 255	0x0121	480	305	60	32	14	0
+textEmptyFormatOfflineRas2Data	""	255 255 255	0x0121	480	305	60	32	14	0
+textEmptyFormatPasEmptyData	""	165 8 0	0x0122	15	350	112	60	16	0
+textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatPredConfirmAcData	""	255 247 57	0x0121	212	173	30	24	14	0
+textEmptyFormatPredConfirmFlowData	""	255 247 57	0x0121	212	151	30	24	14	0
+textEmptyFormatPredConfirmPlasVolData	""	255 247 57	0x0121	212	129	30	24	14	0
+textEmptyFormatPredConfirmPltVolData	""	255 247 57	0x0121	212	63	30	24	14	0
+textEmptyFormatPredConfirmPltYieldData	""	255 247 57	0x0121	212	85	30	24	14	0
+textEmptyFormatPredConfirmRbcVolData	""	255 247 57	0x0121	212	107	30	24	14	0
+textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	212	217	30	24	14	0
+textEmptyFormatPredConfirmTimeData	""	255 247 57	0x0121	212	195	30	24	14	0
+textEmptyFormatPredCurrFlowRateInit	""	255 247 57	0x0121	490	246	54	23	16	0
+textEmptyFormatPredCurrFlowRateLabelInit	""	255 247 57	0x0101	546	246	44	23	16	0
+textEmptyFormatPredCurrPlasInit	""	255 247 57	0x0121	225	265	59	23	18	0
+textEmptyFormatPredCurrPlasLabelInit	""	255 247 57	0x0101	286	265	44	23	18	0
+textEmptyFormatPredCurrPltExpInit	""	255 247 57	0x0101	128	263	16	12	10	0
+textEmptyFormatPredCurrPltInit	""	255 247 57	0x0121	35	265	45	23	18	0
+textEmptyFormatPredCurrPltVolInit	""	255 247 57	0x0121	35	290	45	23	14	0
+textEmptyFormatPredCurrPltVolLabelInit	""	255 247 57	0x0101	85	290	47	23	14	0
+textEmptyFormatPredCurrPltX10Init	""	255 247 57	0x0101	85	265	47	23	18	0
+textEmptyFormatPredCurrRbcInit	""	255 247 57	0x0121	330	265	59	23	18	0
+textEmptyFormatPredCurrRbcLabelInit	""	255 247 57	0x0101	391	265	39	23	18	0
+textEmptyFormatPredCurrTimeInit	""	255 247 57	0x0121	510	265	54	23	18	0
+textEmptyFormatPredCurrTimeInitAlt	""	255 247 57	0x0121	490	269	54	23	16	0
+textEmptyFormatPredCurrTimeLabelInit	""	255 247 57	0x0101	566	265	44	23	18	0
+textEmptyFormatPredCurrTimeLabelInitAlt	""	255 247 57	0x0101	546	269	44	23	16	0
+textEmptyFormatPredNextFlowRateInit	""	74 74 74	0x0121	490	318	54	19	14	0
+textEmptyFormatPredNextFlowRateLabelInit	""	74 74 74	0x0101	546	318	44	19	14	0
+textEmptyFormatPredNextPlasInit	""	74 74 74	0x0121	225	326	59	19	14	0
+textEmptyFormatPredNextPlasLabelInit	""	74 74 74	0x0101	286	326	44	19	14	0
+textEmptyFormatPredNextPltExpInit	""	74 74 74	0x0101	107	324	13	11	8	0
+textEmptyFormatPredNextPltInit	""	74 74 74	0x0121	35	326	34	19	14	0
+textEmptyFormatPredNextPltX10Init	""	74 74 74	0x0101	75	326	41	19	14	0
+textEmptyFormatPredNextRbcInit	""	74 74 74	0x0121	330	326	59	19	14	0
+textEmptyFormatPredNextRbcLabelInit	""	74 74 74	0x0101	391	326	39	19	14	0
+textEmptyFormatPredNextTimeInit	""	74 74 74	0x0121	510	326	54	19	14	0
+textEmptyFormatPredNextTimeInitAlt	""	74 74 74	0x0121	490	338	54	19	14	0
+textEmptyFormatPredNextTimeLabelInit	""	74 74 74	0x0101	566	326	44	19	14	0
+textEmptyFormatPredNextTimeLabelInitAlt	""	74 74 74	0x0101	546	338	44	19	14	0
+textEmptyFormatPredPrevFlowRateInit	""	74 74 74	0x0121	490	181	54	19	14	0
+textEmptyFormatPredPrevFlowRateLabelInit	""	74 74 74	0x0101	546	181	44	19	14	0
+textEmptyFormatPredPrevPlasInit	""	74 74 74	0x0121	225	193	59	19	14	0
+textEmptyFormatPredPrevPlasLabelInit	""	74 74 74	0x0101	286	193	44	19	14	0
+textEmptyFormatPredPrevPltExpInit	""	74 74 74	0x0101	107	190	13	11	8	0
+textEmptyFormatPredPrevPltInit	""	74 74 74	0x0121	35	193	34	19	14	0
+textEmptyFormatPredPrevPltX10Init	""	74 74 74	0x0101	75	193	41	19	14	0
+textEmptyFormatPredPrevRbcInit	""	74 74 74	0x0121	330	193	59	19	14	0
+textEmptyFormatPredPrevRbcLabelInit	""	74 74 74	0x0101	391	193	39	19	14	0
+textEmptyFormatPredPrevTimeInit	""	74 74 74	0x0121	510	193	54	19	14	0
+textEmptyFormatPredPrevTimeInitAlt	""	74 74 74	0x0121	490	200	54	19	14	0
+textEmptyFormatPredPrevTimeLabelInit	""	74 74 74	0x0101	566	193	44	19	14	0
+textEmptyFormatPredPrevTimeLabelInitAlt	""	74 74 74	0x0101	546	200	44	19	14	0
+textEmptyFormatPwsFactotumButton	""	74 74 74	0x0101	0	0	0	0	16	0
+textEmptyFormatPwsFactotumPlac	""	255 255 255	0x0101	360	150	255	256	16	0
+textEmptyFormatRbcAc	""	255 255 255	0x0121	370	369	60	23	14	0
+textEmptyFormatRbcListboxDoseInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatRs1DatAasStartTime	""	255 255 255	0x0121	180	302	70	90	14	0
+textEmptyFormatRs1DatAcToDonor	""	255 255 255	0x0121	500	130	70	90	14	0
+textEmptyFormatRs1DatAvgInletFlow	""	255 255 255	0x0121	180	345	50	90	14	0
+textEmptyFormatRs1DatAvgInletFlowAlt	""	255 255 255	0x0121	180	302	50	90	14	0
+textEmptyFormatRs1DatEndOfRunTime	""	255 255 255	0x0121	180	173	70	90	14	0
+textEmptyFormatRs1DatLengthOfRun	""	255 255 255	0x0121	500	173	70	90	14	0
+textEmptyFormatRs1DatPlasResidualLoss	""	255 255 255	0x0121	500	345	70	90	14	0
+textEmptyFormatRs1DatPostHct	""	255 255 255	0x0121	500	216	70	90	14	0
+textEmptyFormatRs1DatPostPltCount	""	255 255 255	0x0121	180	216	44	90	14	0
+textEmptyFormatRs1DatPrbcResidualLoss	""	255 255 255	0x0121	500	302	70	90	14	0
+textEmptyFormatRs1DatSalineUsed	""	255 255 255	0x0121	500	259	70	90	14	0
+textEmptyFormatRs1DatTbvProcessed	""	255 255 255	0x0121	180	259	70	90	14	0
+textEmptyFormatRs1DatTotAcUsed	""	255 255 255	0x0121	180	130	70	90	14	0
+textEmptyFormatRs2DatPasVol	""	255 255 255	0x0121	370	218	60	23	14	0
+textEmptyFormatRs2DatPlsAc	""	255 255 255	0x0121	370	294	60	23	14	0
+textEmptyFormatRs2DatPlsAcSplitLayout	""	255 255 255	0x0121	370	158	60	23	14	0
+textEmptyFormatRs2DatPlsVol	""	255 255 255	0x0121	370	264	60	23	14	0
+textEmptyFormatRs2DatPlsVolSplitLayout	""	255 255 255	0x0121	370	128	60	23	14	0
+textEmptyFormatRs2DatPltAc	""	255 255 255	0x0121	370	188	60	23	14	0
+textEmptyFormatRs2DatPltVol	""	255 255 255	0x0121	370	129	60	23	14	0
+textEmptyFormatRs2DatPltYield	""	255 255 255	0x0121	370	158	60	23	14	0
+textEmptyFormatRs2DatRas	""	255 255 255	0x0121	370	398	60	23	14	0
+textEmptyFormatRs2DatRasVol	""	255 255 255	0x0121	370	398	60	23	14	0
+textEmptyFormatRs2DatRbc2Ac	""	255 255 255	0x0121	370	369	60	23	14	0
+textEmptyFormatRs2DatRbc2AcSplitLayout	""	255 255 255	0x0121	370	364	60	23	14	0
+textEmptyFormatRs2DatRbc2RasSplitLayout	""	255 255 255	0x0121	370	394	60	23	14	0
+textEmptyFormatRs2DatRbc2Vol	""	255 255 255	0x0121	370	338	60	23	14	0
+textEmptyFormatRs2DatRbc2VolSplitLayout	""	255 255 255	0x0121	370	334	60	23	14	0
+textEmptyFormatRs2DatRbcAcSplitLayout	""	255 255 255	0x0121	370	246	60	23	14	0
+textEmptyFormatRs2DatRbcRasSplitLayout	""	255 255 255	0x0121	370	276	60	23	14	0
+textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	338	60	23	14	0
+textEmptyFormatRs2DatRbcVolSplitLayout	""	255 255 255	0x0121	370	216	60	23	14	0
+textEmptyFormatRunDonationTimeLeftInit	""	239 239 239	0x0101	314	146	86	15	14	0
+textEmptyFormatRunDonationTimeMidInit	""	255 247 57	0x0111	403	146	86	15	14	0
+textEmptyFormatRunDonationTimeRightInit	""	239 239 239	0x0121	492	146	86	15	14	0
+textEmptyFormatRunDrawReturnInit	""	255 255 255	0x0111	60	209	94	24	24	0
+textEmptyFormatScreenNameLiteral	""	0 0 0	0x0101	0	0	107	0	12	0
+textEmptyFormatServiceBuildNumber	""	0 0 0	0x0101	65	150	110	25	16	0
+textEmptyFormatServiceCRCValue	""	0 0 0	0x0101	65	180	110	25	16	0
+textEmptyFormatServiceCentrifugeMeter	""	0 0 0	0x0121	350	390	200	0	24	0
+textEmptyFormatServiceHourMeter	""	0 0 0	0x0121	350	360	200	0	24	0
+textEmptyFormatServiceIpAddressInit	""	0 0 0	0x0111	170	105	300	50	24	0
+textEmptyFormatServiceNumRunsMeter	""	0 0 0	0x0121	350	420	200	0	24	0
+textEmptyFormatServiceSerialNumInit	""	0 0 0	0x0111	170	75	300	50	24	0
+textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
+textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
+textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
+textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
+textKeypadUnitsCm	"#![BeginSeg 1]cm#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsCrit	"#![BeginSeg 1] %#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
+textKeypadUnitsExponentInit	"#![BeginSeg 1]0#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	12	0
+textKeypadUnitsFeet	"#![BeginSeg 1]ft#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsFlow	"#![BeginSeg 1]ml/min#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	16	1
+textKeypadUnitsHemoglobin	"#![BeginSeg 1]g/dl#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsInches	"#![BeginSeg 1]in#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsKg	"#![BeginSeg 1]kg#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsLbs	"#![BeginSeg 1]lbs#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textKeypadUnitsPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
+textKeypadUnitsTime	"#![BeginSeg 1]min#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
+textListboxItemCancel	"#![BeginSeg 1]Avbryt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	1
+textListboxItemCfgAcRateFast	"#![BeginSeg 1]Snabbt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAcRateModerate	"#![BeginSeg 1]Måttligt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAcRateSlow	"#![BeginSeg 1]Långsamt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjNoPlama	"#![BeginSeg 1]Ingen plasma#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjNoPlatelets	"#![BeginSeg 1]Inga\ntrombocyter#![EndSeg 1]"	255 247 57	0x0111	3	0	640	0	14	1
+textListboxItemCfgAdjNoRbcs	"#![BeginSeg 1]Inga RBC#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAdjPossible	"#![BeginSeg 1]Så mycket\nsom möjligt#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
+textListboxItemCfgAuditLevel1	"#![BeginSeg 1]Givardata#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAuditLevel2	"#![BeginSeg 1]Justeringar#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAuditLevel3	"#![BeginSeg 1]Varningar#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgAuditOff	"#![BeginSeg 1]Av#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgBloodTypeAbpAbn	"#![BeginSeg 1]AB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgBloodTypeAll	"#![BeginSeg 1]Alla#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgBloodTypeAnAp	"#![BeginSeg 1]A-/A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeApAnBpBnAbpAbn	"#![BeginSeg 1]A-/A+/B-/B+\nAB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgBloodTypeBnBp	"#![BeginSeg 1]B-/B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOn	"#![BeginSeg 1]O-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOnAn	"#![BeginSeg 1]O-/A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOnOp	"#![BeginSeg 1]O-/O+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgBloodTypeOpOnAn	"#![BeginSeg 1]O-/O+/A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgBloodTypeOpOnApAn	"#![BeginSeg 1]O-/O+/A-/A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgBloodTypeOpOnApAnBn	"#![BeginSeg 1]O-/O+/A-/A+\nB-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgBloodTypeOpOnApAnBpBn	"#![BeginSeg 1]O-/O+/A-/A+\nB-/B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgBloodTypeOpOnBpBn	"#![BeginSeg 1]O-/O+/B-/B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	0
+textListboxItemCfgDateDay	"#![BeginSeg 1]åå/mm/dd#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgDateMonth	"#![BeginSeg 1]mm/dd/åå#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgDateYear	"#![BeginSeg 1]dd/mm/åå#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgDecDelimComma	"#![BeginSeg 1]0,000.00#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgDecDelimDec	"#![BeginSeg 1]0.000,00#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgHeightEnglish	"#![BeginSeg 1]ft/in#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgHeightMetric	"#![BeginSeg 1]cm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgMachHigh	"#![BeginSeg 1]Hög#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgMachLow	"#![BeginSeg 1]Låg#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgMachMed	"#![BeginSeg 1]Normal#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgOff	"#![BeginSeg 1]Av#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgOn	"#![BeginSeg 1]På#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc1	"#![BeginSeg 1]Plasma 1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc2	"#![BeginSeg 1]Plasma 2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc3	"#![BeginSeg 1]Plasma 3#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc4	"#![BeginSeg 1]Plasma 4#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc5	"#![BeginSeg 1]Plasma 5#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProc6	"#![BeginSeg 1]Plasma 6#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPlsProcAmap	"#![BeginSeg 1]Maximalt\nsamtidigt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgPltProc1	"#![BeginSeg 1]TPK 1#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc10	"#![BeginSeg 1]TPK 10#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc2	"#![BeginSeg 1]TPK 2#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc3	"#![BeginSeg 1]TPK 3#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc4	"#![BeginSeg 1]TPK 4#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc5	"#![BeginSeg 1]TPK 5#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc6	"#![BeginSeg 1]TPK 6#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc7	"#![BeginSeg 1]TPK 7#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc8	"#![BeginSeg 1]TPK 8#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgPltProc9	"#![BeginSeg 1]TPK 9#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcProc1	"#![BeginSeg 1]RBC 1#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcProc2	"#![BeginSeg 1]RBC 2#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcProc3	"#![BeginSeg 1]RBC 3#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	1
+textListboxItemCfgRbcRatio11	"#![BeginSeg 1]11.0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgRbcRatio814	"#![BeginSeg 1]8.14#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textListboxItemCfgRbcUnitsCrit	"#![BeginSeg 1]EVF (%)#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgRbcUnitsHemoglobin	"#![BeginSeg 1]Hemoglobin (g/dl)#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgSalineNo	"#![BeginSeg 1]Nej#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgSalineYes	"#![BeginSeg 1]Ja#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTimeFmt12	"#![BeginSeg 1]tt:mm\nAM/PM#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTimeFmt24	"#![BeginSeg 1]tt:mm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTraliAll	"#![BeginSeg 1]Alla#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTraliMaleAndAbFemale	"#![BeginSeg 1]Män + AB-kvinnor#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgTraliMaleOnly	"#![BeginSeg 1]Endast män#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgWeightKg	"#![BeginSeg 1]kg#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemCfgWeightLb	"#![BeginSeg 1]lb#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textListboxItemRemoveAll	"#![BeginSeg 1]Ta bort alla#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	1
+textMiscAas	"#![BeginSeg 1]Automatisk tillsättning av lösning#![EndSeg 1]"	255 247 57	0x0111	70	180	470	20	18	1
+textMiscAasDisconnect	"#![BeginSeg 2]Försegla och avlägsna givarslangen#![EndSeg 2]"	255 247 57	0x0111	30	107	180	0	14	1
+textMiscAasDontSealProducts	"#![BeginSeg 1]Försegla INTE produktslangarna eller slangen till ventileringspåsen#![EndSeg 1]"	165 8 0	0x0111	0	365	640	25	17	1
+textMiscAasPrime	"#![BeginSeg 1]Fyllning av tillsatslösning pågår...#![EndSeg 1]"	255 247 57	0x0111	30	150	300	210	18	1
+textMiscAasSealDetach	"#![BeginSeg 2]Försegla och avlägsna slangarna#![EndSeg 2]"	255 247 57	0x0112	133	105	260	42	18	1
+textMiscAcConnBag1	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	85	155	110	100	18	1
+textMiscAcConnBag2	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	268	155	110	100	18	1
+textMiscAdjustDonationTimeRemaining	"#![BeginSeg 1]Återstående givartid#![EndSeg 1]"	239 239 239	0x0111	111	115	416	11	14	1
+textMiscAdjustMeterLabelAcReaction	"#![BeginSeg 1]AC-\nreaktion#![EndSeg 1]"	239 239 239	0x0111	252	170	104	14	14	1
+textMiscAdjustMeterLabelClumping	"#![BeginSeg 1]Aggregering#![EndSeg 1]"	239 239 239	0x0111	378	177	104	14	14	1
+textMiscAdjustMeterLabelDraw	"#![BeginSeg 1]Tappnings-\nflöde#![EndSeg 1]"	239 239 239	0x0111	35	170	104	14	14	1
+textMiscAdjustMeterLabelReturn	"#![BeginSeg 1]Retur-\nflöde#![EndSeg 1]"	239 239 239	0x0111	135	170	104	14	14	1
+textMiscAdjustTimeInit	"#![BeginSeg 1]0 min#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
+textMiscBarcodeInputLabel	"#![BeginSeg 1]Streckkodsvärde#![EndSeg 1]"	255 255 255	0x0101	71	102	380	35	20	1
+textMiscBarcodeMoreCategoriesElipses	"#![BeginSeg 1]...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	24	0
+textMiscBarcodeVerticalSpacer	"#![BeginSeg 1]\n\n\n #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
+textMiscBloodTypeANeg	"#![BeginSeg 1]A-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAPos	"#![BeginSeg 1]A+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAbNeg	"#![BeginSeg 1]AB-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAbPos	"#![BeginSeg 1]AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeAnBnApBp	"#![BeginSeg 1]AB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeBNeg	"#![BeginSeg 1]B-#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeBPos	"#![BeginSeg 1]B+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Bryt brytstiftet på påsen#![EndSeg 2]"	255 247 57	0x0112	170	105	160	45	14	1
+textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Häng upp påsen och öppna klämman#![EndSeg 2]"	255 247 57	0x0112	330	105	160	45	14	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]Kod för slangset:\n#![EndSeg 1]#![BeginSeg 2]8 siffror#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]Trombocytprocesser#![EndSeg 1]"	255 247 57	0x0111	15	110	300	25	18	1
+textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]RBC-processer#![EndSeg 1]"	255 247 57	0x0111	325	110	300	25	18	1
+textMiscCfgMachBarcode	"#![BeginSeg 1]Streckkod#![EndSeg 1]"	255 247 57	0x0111	277	235	100	45	14	1
+textMiscCfgMachCatNumDigits	"#![BeginSeg 1]Ange 5 siffror för REF\neller de sista 6 siffrorna i det 9-siffriga REF-värdet#![EndSeg 1]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgMaxValue	"#![BeginSeg 1]Högsta värde = #![EndSeg 1]"	255 247 57	0x0101	10	75	620	17	14	1
+textMiscCfgMinValue	"#![BeginSeg 1]Lägsta värde = #![EndSeg 1]"	255 247 57	0x0101	10	50	620	17	14	1
+textMiscCfgNoVolLimSelected	"#![BeginSeg 1]Välj en volymgräns för att fortsätta#![EndSeg 1]"	255 247 57	0x0111	0	50	640	0	18	1
+textMiscCfgPasVolInit	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
+textMiscCfgPlt10Indicator	"#![BeginSeg 1]TPK 10#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt1Indicator	"#![BeginSeg 1]TPK 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt2Indicator	"#![BeginSeg 1]TPK 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt3Indicator	"#![BeginSeg 1]TPK 3#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt4Indicator	"#![BeginSeg 1]TPK 4#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt5Indicator	"#![BeginSeg 1]TPK 5#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt6Indicator	"#![BeginSeg 1]TPK 6#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt7Indicator	"#![BeginSeg 1]TPK 7#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt8Indicator	"#![BeginSeg 1]TPK 8#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgPlt9Indicator	"#![BeginSeg 1]TPK 9#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgRbc1Indicator	"#![BeginSeg 1]RBC 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgRbc2Indicator	"#![BeginSeg 1]RBC 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgRbc3Indicator	"#![BeginSeg 1]RBC 3#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
+textMiscCfgSplitRangeBottomLabel	"#![BeginSeg 1]Område för singelprodukt#![EndSeg 1]"	255 247 57	0x0101	10	46	250	17	14	1
+textMiscCfgSplitRangeBottomMax	"#![BeginSeg 1]Högsta värde = #![EndSeg 1]"	255 247 57	0x0101	10	80	250	17	14	1
+textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]Lägsta värde = #![EndSeg 1]"	255 247 57	0x0101	10	63	250	17	14	1
+textMiscCfgSplitRangeTopLabel	"#![BeginSeg 1]Område för dubbelprodukt#![EndSeg 1]"	255 247 57	0x0101	250	46	200	17	14	1
+textMiscCfgSplitRangeTopMax	"#![BeginSeg 1]Högsta värde = #![EndSeg 1]"	255 247 57	0x0101	250	80	200	17	14	1
+textMiscCfgSplitRangeTopMin	"#![BeginSeg 1]Lägsta värde = #![EndSeg 1]"	255 247 57	0x0101	250	63	200	17	14	1
+textMiscCfrActionAcReactionDown	"#![BeginSeg 1]AC-reaktion ned#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionAcReactionUp	"#![BeginSeg 1]AC-reaktion upp#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingDown	"#![BeginSeg 1]Aggregering ned#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingUp	"#![BeginSeg 1]Aggregering upp#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawDown	"#![BeginSeg 1]Tappningsflöde ned#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawUp	"#![BeginSeg 1]Tappningsflöde upp#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionNewProcedureSelected	"#![BeginSeg 1]Ny procedur vald#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnDown	"#![BeginSeg 1]Returflöde ned#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnUp	"#![BeginSeg 1]Returflöde upp#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrCommaDelim	"#![BeginSeg 1], #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoCrit	"#![BeginSeg 1]EVF: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoGender	"#![BeginSeg 1]Kön: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoHeight	"#![BeginSeg 1]Längd: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoHgb	"#![BeginSeg 1]Hgb: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoPltPrecount	"#![BeginSeg 1]Ingångsvärde för trombocyter: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrDonInfoWeight	"#![BeginSeg 1]Vikt: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrOpIdLabel	"#![BeginSeg 1]Användar-ID#![EndSeg 1]"	255 255 255	0x0101	70	110	0	0	20	1
+textMiscCfrTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrTimeEventSeparator	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscChannelTest	"#![BeginSeg 1]Anslut INTE tillsatslösning\nunder testet#![EndSeg 1]"	255 247 57	0x0111	10	150	340	210	18	1
+textMiscClampBloodDiversionJp	"#![BeginSeg 1]Stäng klämman till blodavledningen#![EndSeg 1]"	255 247 57	0x0112	15	105	610	40	18	1
+textMiscClampChannelLine	"#![BeginSeg 1]Stäng klämman på kanalslangen#![EndSeg 1]"	255 247 57	0x0112	400	160	240	40	18	1
+textMiscClampChannelLines	"#![BeginSeg 1]Stäng klämmorna på kanalslangarna#![EndSeg 1]"	255 247 57	0x0112	400	160	240	40	18	1
+textMiscClampChannelLinesOnly	"#![BeginSeg 1]Stäng klämmorna på kanalslangarna#![EndSeg 1]"	255 247 57	0x0112	0	105	640	45	18	1
+textMiscClampCrossover	"#![BeginSeg 1]Stäng klämman på överföringsslangen#![EndSeg 1]"	255 247 57	0x0111	20	110	360	300	18	1
+textMiscClampPasLine	"#![BeginSeg 1]Stäng klämman på slangen för trombocyttillsatslösningen#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscClampPltBagForSplit	"#![BeginSeg 1]Stäng slangen till den ena av trombocytpåsarna#![EndSeg 1]"	255 247 57	0x0111	40	150	320	200	18	1
+textMiscClampPltBagJp	"#![BeginSeg 1]Stäng slangen till den ena av trombocytpåsarna\n\n#![EndSeg 1]#![BeginSeg 2]Stäng slangarna till båda trombocytprovkapslarna#![EndSeg 2]"	255 247 57	0x0111	40	150	320	200	18	1
+textMiscClampSampleBag	"#![BeginSeg 1]Stäng klämman på slangen till provpåsen#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscClosePtfLineSrbc	"#![BeginSeg 2]Stäng klämman på slangen till avluftningspåsen#![EndSeg 2]"	255 247 57	0x0112	345	107	210	38	14	1
+textMiscClosePtfLines	"#![BeginSeg 3]Stäng den vita klämman på RBC-slangen#![EndSeg 3]"	255 247 57	0x0112	428	107	210	38	14	1
+textMiscConnectAcOnly	"#![BeginSeg 1]Anslut endast AC#![EndSeg 1]"	165 8 0	0x0111	0	370	640	50	20	1
+textMiscConnectPas	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Anslut lösning#![EndSeg 2]"	255 247 57	0x0112	13	105	160	45	14	1
+textMiscConnectPasOnly	"#![BeginSeg 1]Anslut endast trombocyttillsatslösning#![EndSeg 1]"	165 8 0	0x0111	20	400	470	28	20	1
+textMiscConnectRasOnly	"#![BeginSeg 1]Anslut endast RBC-tillsatslösning#![EndSeg 1]"	165 8 0	0x0111	20	400	470	28	20	1
+textMiscConnectSalineOnly	"#![BeginSeg 1]Anslut endast NaCl#![EndSeg 1]"	165 8 0	0x0111	9	396	468	35	20	1
+textMiscDisconnAcBag	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	307	181	26	13	10	1
+textMiscDonConnNoDiversion	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Anslut#![EndSeg 2]"	255 247 57	0x0111	56	144	184	0	18	1
+textMiscDonDlDataGenderFemale	"#![BeginSeg 1]Kvinna#![EndSeg 1]"	255 255 255	0x0111	416	177	171	24	18	1
+textMiscDonDlDataGenderMale	"#![BeginSeg 1]Man#![EndSeg 1]"	255 255 255	0x0111	416	177	171	24	18	1
+textMiscDonDlDataPltYield	"#![BeginSeg 1]0x1000#![EndSeg 1]"	255 255 255	0x0111	416	381	171	24	18	0
+textMiscFlossPtfLines	"#![BeginSeg 3]Stäng klämmorna på slangarna till avluftningspåsarna#![EndSeg 3]"	255 247 57	0x0112	217	107	210	38	14	1
+textMiscFormatServiceBuildNumber	"Build:"	0 0 0	0x0121	0	150	60	25	16	0
+textMiscFormatServiceCRCValue	"CRC:"	0 0 0	0x0121	0	180	60	25	16	0
+textMiscInitDonorVitalsTbv	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
+textMiscInitDonorVitalsTbvSet	"#![BeginSeg 1]#!{dataItemTbv} ml#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
+textMiscInstructionAasRemoveTubingSet	"#![BeginSeg 2]Avlägsna slangsetet#![EndSeg 2]"	255 247 57	0x0112	375	105	260	42	18	1
+textMiscInstructionClose	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]Stäng#![EndSeg 2]"	255 247 57	0x0101	505	147	0	0	18	1
+textMiscInstructionDispCloseClamp	"#![BeginSeg 1]Stäng den vita klämman på givarslangen#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscInstructionDispCloseClamps	"#![BeginSeg 1]Stäng de vita klämmorna på givarslangen och provslangen#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
+textMiscInstructionDispConnectAc	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Anslut#![EndSeg 2]"	255 247 57	0x0111	55	128	170	0	18	1
+textMiscInstructionDispLoadAc	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Ladda#![EndSeg 2]"	255 247 57	0x0111	418	128	170	0	18	1
+textMiscInstructionDispSqueezeAc	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Kläm#![EndSeg 2]"	255 247 57	0x0111	236	128	170	0	18	1
+textMiscInstructionDonConnClose	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Stäng#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
+textMiscInstructionDonConnCloseConnect	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Stäng, anslut#![EndSeg 2]"	255 247 57	0x0111	56	144	184	0	18	1
+textMiscInstructionDonConnCloseOpen	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Stäng, öppna#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
+textMiscInstructionDonConnCloseSeal	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Stäng, försegla#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
+textMiscInstructionDonConnCloseSealOpen	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Stäng, försegla, öppna#![EndSeg 2]"	255 247 57	0x0111	424	124	184	0	18	1
+textMiscInstructionDonConnOpen	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Öppna#![EndSeg 2]"	255 247 57	0x0111	240	144	184	0	18	1
+textMiscInstructionHang	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Häng upp#![EndSeg 2]"	255 247 57	0x0101	63	147	0	0	18	1
+textMiscInstructionInsert	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Sätt in#![EndSeg 2]"	255 247 57	0x0101	203	147	0	0	18	1
+textMiscInstructionLoad	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Ladda#![EndSeg 2]"	255 247 57	0x0101	351	147	0	0	18	1
+textMiscInstructionRemoveTubingSet	"#![BeginSeg 2]Avlägsna slangsetet#![EndSeg 2]"	255 247 57	0x0112	325	105	210	55	18	1
+textMiscInstructionSealDetachProd	"#![BeginSeg 1]Försegla och avlägsna slangarna#![EndSeg 1]"	255 247 57	0x0112	115	105	210	55	18	1
+textMiscLabelDonorVitalsTbv	"#![BeginSeg 1]Total blodvolym#![EndSeg 1]"	239 239 239	0x0111	111	115	416	11	14	1
+textMiscLabelRs1Dlog	"#![BeginSeg 1]Data log ID: #![EndSeg 1]"	255 255 255	0x0121	430	110	180	20	14	0
+textMiscLabelRs1Procedural	"#![BeginSeg 1]Procedur#![EndSeg 1]"	239 239 239	0x0111	0	105	640	40	18	1
+textMiscLabelRs2PlasProd	"#![BeginSeg 1]Plasmaprodukt#![EndSeg 1]"	239 239 239	0x0101	95	240	280	23	18	1
+textMiscLabelRs2PlasProdSplitLayout	"#![BeginSeg 1]Plasmaprodukt#![EndSeg 1]"	239 239 239	0x0101	95	106	280	23	18	1
+textMiscLabelRs2PltProd	"#![BeginSeg 1]Trombocytprodukt#![EndSeg 1]"	239 239 239	0x0101	95	107	280	23	18	1
+textMiscLabelRs2RbcProd	"#![BeginSeg 1]RBC-produkt#![EndSeg 1]"	239 239 239	0x0101	95	314	280	23	18	1
+textMiscLoadOnePtfIntoBracket	"#![BeginSeg 2]Häng upp RBC-påsen och ladda filtret#![EndSeg 2]"	255 247 57	0x0112	90	107	210	38	14	1
+textMiscLoadPtf	"#![BeginSeg 2]Häng upp RBC-påsarna och ladda filtren#![EndSeg 2]"	255 247 57	0x0111	0	110	215	20	14	1
+textMiscOfflineInstructionsDrbcAbove	"#![BeginSeg 1]Försegla båda RBC-slangarna mellan filtren och produktpåsarna.#![EndSeg 1]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsDrbcBelow	"#![BeginSeg 1]Tillsättningen av lösning avslutades. #![EndSeg 1]#![BeginSeg 2]Försegla båda RBC-produktslangarna nedanför filtret i närheten av kassetten. #![EndSeg 2]#![BeginSeg 3]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 3]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsNoSealInstructions	"#![BeginSeg 1]Tillsättningen av lösning avslutades. #![EndSeg 1]#![BeginSeg 2]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 2]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsSrbcAbove	"#![BeginSeg 1]Försegla RBC-produktslangen mellan filtret och produktpåsen.#![EndSeg 1]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsSrbcAbovePas	"#![BeginSeg 1]Tillsättningen av lösning avslutades. #![EndSeg 1]#![BeginSeg 2]Försegla RBC-produktslangen mellan filtret och produktpåsen. #![EndSeg 2]#![BeginSeg 3]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 3]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscOfflineInstructionsSrbcBelow	"#![BeginSeg 1]Tillsättningen av lösning avslutades. #![EndSeg 1]#![BeginSeg 2]Försegla RBC-produktslangen nedanför filtret i närheten av kassetten. #![EndSeg 2]#![BeginSeg 3]Användarhandboken innehåller ytterligare anvisningar.#![EndSeg 3]"	239 239 239	0x0111	240	120	373	130	18	1
+textMiscPanelLabelRasBagFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Bryt brytstiftet på påsen#![EndSeg 2]"	255 247 57	0x0112	175	105	150	43	14	1
+textMiscPanelLabelRasBagFrangDrbc	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Bryt brytstiften på påsarna#![EndSeg 2]"	255 247 57	0x0112	175	105	150	43	14	1
+textMiscPanelLabelRasConnect	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Häng upp och anslut påsen#![EndSeg 2]"	255 247 57	0x0112	20	105	150	43	14	1
+textMiscPanelLabelRasConnectDrbc	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Stäng klämmorna och häng upp och anslut påsarna#![EndSeg 2]"	255 247 57	0x0112	20	105	150	43	14	1
+textMiscPanelLabelRasConnectDrbc1Bag	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Stäng klämmorna och häng upp och anslut påsen#![EndSeg 2]"	255 247 57	0x0112	20	105	150	43	14	1
+textMiscPanelLabelRasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Bryt brytstiftet på slangen#![EndSeg 2]"	255 247 57	0x0112	335	105	150	43	14	1
+textMiscPanelLabelRasLineFrangDrbc	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Öppna klämmorna\noch bryt brytstiftet\npå slangen#![EndSeg 2]"	255 247 57	0x0112	335	105	170	43	14	1
+textMiscPanelLabelRasLineFrangDrbcOneBag	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Öppna klämman\noch bryt brytstiftet\npå slangen#![EndSeg 2]"	255 247 57	0x0112	335	105	170	43	14	1
+textMiscPasConnectMaxBagVol	"#![BeginSeg 1]Högsta\nvärde = #![EndSeg 1]"	255 247 57	0x0101	5	28	100	36	12	1
+textMiscPasConnectMinBagVol	"#![BeginSeg 1]Lägsta\nvärde = #![EndSeg 1]"	255 247 57	0x0101	5	64	100	36	12	1
+textMiscPasEmpty	"#![BeginSeg 1]Påsen med trombocyttillsatslösning är nästan tom. #![EndSeg 1]#![BeginSeg 2]Anslut en ny påse, bryt brytstiftet och tryck på 'Fortsätt'.#![EndSeg 2]"	165 8 0	0x0100	15	120	228	300	18	1
+textMiscPasNumBags	"#![BeginSeg 1]Uppskattat\nantal påsar som behövs: #!{dataItemNumPasBagsNeeded}#![EndSeg 1]"	255 247 57	0x0111	496	307	130	81	14	1
+textMiscPasProgress	"#![BeginSeg 1]Förlopp:#![EndSeg 1]"	255 247 57	0x0101	80	210	0	0	18	1
+textMiscPltPasSplitInstruct	"#![BeginSeg 2]1: #![EndSeg 2]#![BeginSeg 3]Stäng slangen till påsen som innehåller trombocyter.\n#![EndSeg 3]#![BeginSeg 4]2: #![EndSeg 4]#![BeginSeg 5]Öppna slangen till den tomma trombocytpåsen.\n#![EndSeg 5]"	255 247 57	0x0101	60	145	295	240	18	1
+textMiscPowerdownMsg	"#![BeginSeg 1]Processens slut.\n#![EndSeg 1]#![BeginSeg 2]Vänta medan maskinen förbereds för nästa procedur...#![EndSeg 2]"	255 255 255	0x0110	0	200	640	200	18	1
+textMiscPowerdownWatchdogFailure	"#![BeginSeg 1]Det gick inte att starta om maskinen. #![EndSeg 1]#![BeginSeg 2]Kontakta din servicerepresentant för att få hjälp.#![EndSeg 2]"	255 255 255	0x0110	0	200	640	200	18	1
+textMiscPredConfDataLabel	"#![BeginSeg 1]Uppskattade procedurdata#![EndSeg 1]"	255 247 57	0x0111	2	41	311	24	16	1
+textMiscPredConfMsg	"#![BeginSeg 1]Bekräfta den valda proceduren#![EndSeg 1]"	255 247 57	0x0111	2	2	311	40	18	1
+textMiscPredNoProductAvailable	"#![BeginSeg 1]Ingen produkt tillgänglig#![EndSeg 1]"	255 247 57	0x0111	54	262	532	46	18	1
+textMiscPredPlasLabel	"#![BeginSeg 1]Plasma#![EndSeg 1]"	255 255 255	0x0111	225	240	105	20	18	1
+textMiscPredPltLabel	"#![BeginSeg 1]Trombocyter#![EndSeg 1]"	255 255 255	0x0101	35	240	124	20	18	1
+textMiscPredRbcLabel	"#![BeginSeg 1]RBC#![EndSeg 1]"	255 255 255	0x0111	330	240	100	20	18	1
+textMiscPredTimeLabel	"#![BeginSeg 1]Varaktighet#![EndSeg 1]"	255 255 255	0x0111	510	240	100	20	18	1
+textMiscPrepNonPtfDrbcBags	"#![BeginSeg 1]Stäng slangen till den ena av RBC-påsarna#![EndSeg 1]"	255 247 57	0x0112	225	107	195	38	14	1
+textMiscPtfMountDontConnectAc	"#![BeginSeg 1]Anslut INTE AC#![EndSeg 1]"	165 8 0	0x0111	0	400	640	35	18	1
+textMiscRasNumBags	"#![BeginSeg 1]Uppskattat\nantal påsar som behövs: #!{dataItemNumRasBagsNeeded}#![EndSeg 1]"	255 247 57	0x0111	497	157	130	230	14	1
+textMiscRemoveAcLine	"#![BeginSeg 2]Avlägsna AC-slangen#![EndSeg 2]"	255 247 57	0x0111	430	122	180	0	14	1
+textMiscRunProcDate	"#![BeginSeg 1]00/00/0000#![EndSeg 1]"	255 247 57	0x0111	540	80	90	20	12	0
+textMiscRunProcInitPltCurrent	"#![BeginSeg 1]0.0 x 10#![EndSeg 1]"	255 247 57	0x0111	200	388	128	24	24	0
+textMiscRunProcInitPltCurrentExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0121	321	388	15	12	10	0
+textMiscRunProcInitPltEst	"#![BeginSeg 1]0.0 x 10#![EndSeg 1]"	255 255 255	0x0111	200	209	128	24	24	0
+textMiscRunProcInitPltEstExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	321	209	15	12	10	0
+textMiscRunProcPressureLabel	"#![BeginSeg 1]Tryck#![EndSeg 1]"	239 239 239	0x0111	60	193	94	14	14	1
+textMiscRunProcProductLabelPlasma	"#![BeginSeg 1]Plasma#![EndSeg 1]"	239 239 239	0x0111	339	193	114	14	14	1
+textMiscRunProcProductLabelPlt	"#![BeginSeg 1]Trombocyter#![EndSeg 1]"	239 239 239	0x0111	212	193	114	14	14	1
+textMiscRunProcProductLabelRbc	"#![BeginSeg 1]RBC#![EndSeg 1]"	239 239 239	0x0111	466	193	114	14	14	1
+textMiscRunProcStatusDraw	"#![BeginSeg 1]Tappning#![EndSeg 1]"	255 255 255	0x0111	60	209	94	24	18	1
+textMiscRunProcStatusReturn	"#![BeginSeg 1]Retur#![EndSeg 1]"	255 255 255	0x0111	60	209	94	24	24	1
+textMiscRunsumProdMoreInfo	"#![BeginSeg 1]Tryck på texten till vänster för att få ytterligare information#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textMiscSalineConnBagLabel	"#![BeginSeg 1]NaCl\n0.9 %#![EndSeg 1]"	41 49 90	0x0111	315	143	102	61	17	0
+textMiscSealDetachAc	"#![BeginSeg 2]Försegla och\navlägsna AC#![EndSeg 2]"	255 247 57	0x0111	230	107	180	0	14	1
+textMiscServiceCentrifugeOnTime	"Centrifuge on time -"	0 0 0	0x0101	5	390	0	0	24	0
+textMiscServiceDontConnectDonor	"DO NOT connect donor during this mode!"	239 8 0	0x0111	0	0	640	0	24	0
+textMiscServiceMachineOnTime	"Machine on time -"	0 0 0	0x0101	5	360	0	0	24	0
+textMiscServiceNumberOfRuns	"Number of runs -"	0 0 0	0x0101	5	420	640	0	24	0
+textMiscServiceStarted	"Service mode started"	0 0 0	0x0111	0	50	640	0	24	0
+textMiscServiceTouchscreenCalTitle	"Touch screen calibration"	0 0 0	0x0111	0	0	640	60	18	0
+textMiscServiceTsCalInstruction1	"1: Touch the crosshair in the upper left corner."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscServiceTsCalInstruction2	"2: Touch the crosshair in the upper right corner."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscServiceTsCalInstruction3	"3: Touch the crosshair in the lower left corner."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscServiceTsCalInstruction4	"Please wait while the screen calibration is updated..."	0 0 0	0x0111	0	60	640	100	14	0
+textMiscSetIdOperatorPrompt	"#![BeginSeg 1]Systemet kan inte identifiera vilken typ av slangset som är insatt.\n#![EndSeg 1]#![BeginSeg 2]Tryck på 'Ladda ur set' för att ta bort kassetten och fortsätta. #![EndSeg 2]#![BeginSeg 3]Bekräfta att det inte finns några hinder bakom kassetten eller kassetthållaren.\n                     eller\nBekräfta REF och tryck på 'Fortsätt'.\nOm problemet inträffar upprepade gånger, kontakta din servicerepresentant för att få hjälp.#![EndSeg 3]"	165 8 0	0x0100	15	118	263	301	16	1
+textMiscSplashCopyright	"#![BeginSeg 1]Copyright \x00a9 CaridianBCT, Inc.#![EndSeg 1]"	0 0 0	0x0101	100	425	540	10	14	1
+textMiscSplashProductDescription	"#![BeginSeg 1]Automatiskt blodtappningssystem#![EndSeg 1]"	0 0 0	0x0100	100	325	540	30	16	1
+textMiscSysDispDontConnectAc	"#![BeginSeg 1]Anslut INTE AC#![EndSeg 1]"	165 8 0	0x0111	0	386	640	35	18	1
+textMiscTrimaVersion	"#![BeginSeg 1]Version 6.0#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	1
+textMiscTubingSetTest	"#![BeginSeg 1]Anslut INTE AC under test av slangsetet#![EndSeg 1]"	255 255 255	0x0111	70	195	220	0	18	1
+textMiscUnclampCrossover	"#![BeginSeg 1]Öppna klämman på\növerföringsslangen#![EndSeg 1]"	255 247 57	0x0112	0	160	240	40	18	1
+textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1] %#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
+textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]g/dl#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
+textMiscUnitsDonorVitalsHeightCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsHeightFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsHeightInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsWeightKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textMiscUnitsDonorVitalsWeightLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
+textProdVerifLeukLabelPlasma	"#![BeginSeg 1]Bekräftelse av plasmaprodukt#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelPlt	"#![BeginSeg 1]Bekräftelse av trombocytprodukt#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelRbc	"#![BeginSeg 1]Bekräftelse av RBC-produkt#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelRbc1	"#![BeginSeg 1]Bekräftelse av RBC-produkt 1#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukLabelRbc2	"#![BeginSeg 1]Bekräftelse av RBC-produkt 2#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	18	1
+textProdVerifLeukMsgPlasLeukoreduced	"#![BeginSeg 1]Plasmaprodukt: #![EndSeg 1]#![BeginSeg 2]märk som leukocytreducerad#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgPlasNotLeukoreduced	"#![BeginSeg 1]Plasmaprodukt: #![EndSeg 1]#![BeginSeg 2]märk INTE#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgPltLeukoreduced	"#![BeginSeg 1]Trombocytprodukt: #![EndSeg 1]#![BeginSeg 2]märk som leukocytreducerad#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgPltNotLeukoreduced	"#![BeginSeg 1]Trombocytprodukt: #![EndSeg 1]#![BeginSeg 2]märk INTE#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc1Leukoreduced	"#![BeginSeg 1]RBC-produkt 1: #![EndSeg 1]#![BeginSeg 2]märk som leukocytreducerad#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc1NotLeukoreduced	"#![BeginSeg 1]RBC-produkt 1: #![EndSeg 1]#![BeginSeg 2]märk INTE#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc2Leukoreduced	"#![BeginSeg 1]RBC-produkt 2: #![EndSeg 1]#![BeginSeg 2]märk som leukocytreducerad#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbc2NotLeukoreduced	"#![BeginSeg 1]RBC-produkt 2: #![EndSeg 1]#![BeginSeg 2]märk INTE#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbcLeukoreduced	"#![BeginSeg 1]RBC-produkt: #![EndSeg 1]#![BeginSeg 2]märk som leukocytreducerad#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifLeukMsgRbcNotLeukoreduced	"#![BeginSeg 1]RBC-produkt: #![EndSeg 1]#![BeginSeg 2]märk INTE#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	18	1
+textProdVerifReasonAasPrimeError	"#![BeginSeg 1]Fel vid fyllning av tillsatslösning#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonAasVolError	"#![BeginSeg 1]Volymfel under tillsättning av lösning#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonAirBlockRecovery	"#![BeginSeg 1]Möjlig luftblockering#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonApsHigh	"#![BeginSeg 1]RBC-filtertrycket för högt#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonCentrifugeStopped	"#![BeginSeg 1]Centrifugen stannade#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonChannelClampError	"#![BeginSeg 1]Fel med kanalslangklämma#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonCpsHigh	"#![BeginSeg 1]Systemtrycket högt#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonFinalConcNotAchieved	"#![BeginSeg 1]Slutkoncentration ej uppnådd#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonHctHigh	"#![BeginSeg 1]Givarens EVF/hemoglobin för högt#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonHeaderPlasVol	"#![BeginSeg 1]Plasmavolymen uppfyller eventuellt inte det konfigurerade värdet av följande orsaker:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderPltConc	"#![BeginSeg 1]Trombocytkoncentrationen uppfyller eventuellt inte det konfigurerade värdet av följande orsaker:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderPltYieldVol	"#![BeginSeg 1]Trombocytantalet uppfyller eventuellt inte det konfigurerade värdet av följande orsaker:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderPurity	"#![BeginSeg 1]Produktens renhet har eventuellt äventyrats av följande orsaker:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderRbcProduct	"#![BeginSeg 1]RBC-produkten uppfyller eventuellt inte det konfigurerade värdet av följande orsaker:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHeaderRbcQuality	"#![BeginSeg 1]Produktens kvalitet har eventuellt äventyrats av följande orsaker:#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
+textProdVerifReasonHighDeltaHct	"#![BeginSeg 1]Förändringen av givarens EVF-/hemoglobinvärde för stor#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonHighPltConc	"#![BeginSeg 1]Trombocytkoncentrationen för hög#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonLowPltConc	"#![BeginSeg 1]Upptäckt koncentration för låg#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPltConcOver2100	"#![BeginSeg 1]Förutsagd koncentration är högre än #!{high_platelet_conc}#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPltConcUnder1000	"#![BeginSeg 1]Förutsagd koncentration är lägre än #!{low_platelet_conc}#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPltContamDetected	"#![BeginSeg 1]Möjlig förorening av vita blodkroppar upptäckt#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]Kalibreringsfel i RBC-detektorn#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonRbcSpillover	"#![BeginSeg 1]Förekomst av RBC#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]Återtransfusion ej slutförd#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonTargetVolumesNotAchieved	"#![BeginSeg 1]Konfigurerade volymer ej uppnådda#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProgBarAddition	"#![BeginSeg 1]Tillsats#![EndSeg 1]"	255 247 57	0x0101	296	50	0	0	12	1
+textProgBarDonate	"#![BeginSeg 1]Ge blod#![EndSeg 1]"	255 247 57	0x0101	227	50	0	0	12	1
+textProgBarDonorInfo	"#![BeginSeg 1]Info#![EndSeg 1]"	255 247 57	0x0101	90	50	0	0	12	1
+textProgBarDonorPrep	"#![BeginSeg 1]Förbered#![EndSeg 1]"	255 247 57	0x0101	161	50	0	0	12	1
+textProgBarLoad	"#![BeginSeg 1]Ladda#![EndSeg 1]"	255 247 57	0x0101	30	50	0	0	12	1
+textProgBarNoAdditionUnload	"#![BeginSeg 1]Ladda ur#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	12	1
+textProgBarUnload	"#![BeginSeg 1]Ladda ur#![EndSeg 1]"	255 247 57	0x0101	368	50	0	0	12	1
+textStatAasActiveAddition	"#![BeginSeg 1]Automatisk tillsättning av lösning pågår#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatAasActivePrime	"#![BeginSeg 1]Fyllning pågår...#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatAasClampChannel	"#![BeginSeg 1]Automatisk tillsättning av lösning#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatAasRemoveDisp	"#![BeginSeg 1]Avlägsna slangsetet#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAasSealDetach	"#![BeginSeg 1]Försegla och avlägsna alla påsar med produkt- och tillsatslösning#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAcPriming	"#![BeginSeg 1]Fyller AC...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAdjustingPltConc	"#![BeginSeg 1]Justerar koncentrationen av trombocyter…#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarm10MinPause	"#![BeginSeg 1]Tio minuters paus#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm10MinPauseFailure	"#![BeginSeg 1]Tio minuters paus#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1MinPause	"#![BeginSeg 1]En minuts paus#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1stCycleEarly	"#![BeginSeg 1]Funktionsavbrott i första cykeln#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1stCycleLate	"#![BeginSeg 1]Fel i första cykeln#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarm1stDrawCycleShort	"#![BeginSeg 1]Funktionsavbrott i första cykeln#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAasClampClosureError	"#![BeginSeg 1]Fel med kanalslangklämma#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcClosureError	"#![BeginSeg 1]Fel vid bortkoppling av AC#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcClosureFailure	"#![BeginSeg 1]Funktionsavbrott vid bortkoppling av AC#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcDuringReturn	"#![BeginSeg 1]Funktionsavbrott i AC-pumpen#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcLevel	"#![BeginSeg 1]Luft upptäckt i AC-sensorn#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPrimeInletFailure	"#![BeginSeg 1]Funktionsavbrott vid AC-fyllning#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPriorToPrime	"#![BeginSeg 1]Funktionsavbrott p.g.a. vätska i AC-sensorn#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPumpError	"#![BeginSeg 1]Fel på AC-pumpen#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmAcPumpFailure	"#![BeginSeg 1]Funktionsavbrott i AC-pumpen#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcPumpMovement	"#![BeginSeg 1]Funktionsavbrott i AC-pumpens rörelse#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmAcStilNotDetected	"#![BeginSeg 1]Vätska inte upptäckt vid AC-sensorn#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmApsDecoupling	"#![BeginSeg 1]Funktionsavbrott i trycksensorn#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarmApsHigh	"#![BeginSeg 1]Returtrycket för högt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmApsLow	"#![BeginSeg 1]Tappningstrycket för lågt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmApsSensorFailure	"#![BeginSeg 1]Funktionsavbrott i accesstrycksensorn#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmBagEvac	"#![BeginSeg 1]Trycktestfel#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAlarmBagEvacFailure	"#![BeginSeg 1]Funktionsavbrott vid avlägsning av luft#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatAlarmCalDetectorFailure	"#![BeginSeg 1]Fel i RBC-detektorn#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteError	"#![BeginSeg 1]Kassettfel#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteMovement	"#![BeginSeg 1]Funktionsavbrott vid upphöjning av kassett#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteNotDown	"#![BeginSeg 1]Funktionsavbrott i kassett#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCassetteNotRecognized	"#![BeginSeg 1]Fel typ av slangset#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	18	1
+textStatAlarmCentDoorUnlatched	"#![BeginSeg 1]Centrifugluckan ej låst#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCentFailure	"#![BeginSeg 1]Funktionsavbrott i centrifug#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCentrifugeOverspeed	"#![BeginSeg 1]Fel hastighet i centrifug#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCentrifugeOverspeedFailure	"#![BeginSeg 1]Funktionsavbrott p.g.a. centrifugens hastighet#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCpsHigh	"#![BeginSeg 1]Centrifugtrycket högt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmCpsHigh04	"#![BeginSeg 1]Centrifugtrycket högt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarmCpsHighAasP2Ok	"#![BeginSeg 1]Fel centrifugtryck#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmCpsHighRbcCollect	"#![BeginSeg 1]Centrifugtrycket högt#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmCpsRangeErrorSetLoad	"#![BeginSeg 1]Centrifugtrycket utanför giltigt område#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	18	1
+textStatAlarmCrossoverClampClosureError	"#![BeginSeg 1]Fel i överföringsslang#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmCrvHigh	"#![BeginSeg 1]Kanalvolymen för stor#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmDisconnectError	"#![BeginSeg 1]Fel vid bortkoppling av givare#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmDisconnectFailure	"#![BeginSeg 1]Fel vid bortkoppling av givare#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmDonorAir	"#![BeginSeg 1]Funktionsavbrott i sensor för låg nivå#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmDoorOpen	"#![BeginSeg 1]Centrifugluckan öppen#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmFilterPressureHigh	"#![BeginSeg 1]RBC-filtertrycket för högt#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmFluidAtAcAas	"#![BeginSeg 1]Vätska upptäckt i AC-sensorn#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmGenericPltContam	"#![BeginSeg 1]Möjlig förorening av vita blodkroppar upptäckt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmHemolysisDetected	"#![BeginSeg 1]Hemolys upptäckt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletPressureFailure	"#![BeginSeg 1]Trycktestfel#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletPumpError	"#![BeginSeg 1]Fel på tappningspumpen#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmInletPumpFailure	"#![BeginSeg 1]Funktionsavbrott i tappningspump#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletReliefFailure	"#![BeginSeg 1]Fel vid lättning på trycket#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmInletVolmAas	"#![BeginSeg 1]Kanalvolymen för stor#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmLeakDetected	"#![BeginSeg 1]Läcka upptäckt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLeakDetectorFailure	"#![BeginSeg 1]Fel i läckagedetektorn#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLeakTestFailure	"#![BeginSeg 1]Läckagetestfel#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLevelSensorErrorA	"#![BeginSeg 1]Fel i nivåsensor#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLevelSensorErrorR	"#![BeginSeg 1]Fel i nivåsensor#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAlarmLowLevelEarly	"#![BeginSeg 1]Vätska upptäcktes för tidigt#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLowLevelLate	"#![BeginSeg 1]Funktionsavbrott i sensor för låg nivå#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLowLevelPriorToExpected	"#![BeginSeg 1]Funktionsavbrott p.g.a. att vätska upptäcktes före fyllning#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmLowPltConc	"#![BeginSeg 1]Trombocytkoncentrationen utanför giltigt område#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmMaintainDonorAccessError	"#![BeginSeg 1]Tre minuters paus#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmMotorHardwareFailure	"#![BeginSeg 1]Funktionsavbrott i maskinvara#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmOcclusionDetected	"#![BeginSeg 1]Fel p.g.a. blockering i AC-slang#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmOvertemp	"#![BeginSeg 1]Fel centrifugtemperatur#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	18	1
+textStatAlarmPasPrimeEarly	"#![BeginSeg 1]Fel vid fyllning av trombocyttillsatslösning#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPasPrimeLate	"#![BeginSeg 1]Fel vid fyllning av trombocyttillsatslösning#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPauseButton	"#![BeginSeg 1]Pumparna har gjort uppehåll#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPlasmaPumpError	"#![BeginSeg 1]Fel på plasmapumpen#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPlasmaPumpFailure	"#![BeginSeg 1]Funktionsavbrott i plasmapumpen#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPltConcLow	"#![BeginSeg 1]Låg trombocytkoncentration upptäckt#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	18	1
+textStatAlarmPltPumpError	"#![BeginSeg 1]Fel på trombocytpumpen#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmPltPumpFailure	"#![BeginSeg 1]Funktionsavbrott i trombocytpumpen#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPowerFailureAlert	"#![BeginSeg 1]Strömavbrott#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPowerTestFailure	"#![BeginSeg 1]Testet av strömförsörjning underkändes#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPrimeInletOcclusion	"#![BeginSeg 1]Funktionsavbrott p.g.a. blockering i AC-slangen#![EndSeg 1]"	255 247 57	0x0111	54	146	182	14	18	1
+textStatAlarmPrimeTooSoon	"#![BeginSeg 1]Funktionsavbrott under fyllning#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmProcedureModified	"#![BeginSeg 1]Proceduren modifierad#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmPtfPrimeError	"#![BeginSeg 1]Fel centrifugtryck#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmPumpRpmCommand	"#![BeginSeg 1]Pumpfel#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmRasEmpty	"#![BeginSeg 1]Byt ut påsen med RBC-tillsatslösning#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmRasPrimeEarly	"#![BeginSeg 1]Fel vid fyllning av RBC-tillsatslösning#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmRasPrimeLate	"#![BeginSeg 1]Fel vid fyllning av RBC-tillsatslösning#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	18	1
+textStatAlarmRefStampMismatch	"#![BeginSeg 1]Fel typ av slangset#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	18	1
+textStatAlarmReturnPumpError	"#![BeginSeg 1]Fel på returpumpen#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmReturnPumpFailure	"#![BeginSeg 1]Funktionsavbrott i returpumpen#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmSafetyNotResponding	"#![BeginSeg 1]Funkionsavbrott vid start#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	18	1
+textStatAlarmSpilloverDetected	"#![BeginSeg 1]Förekomst av RBC#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmStopButton	"#![BeginSeg 1]Centrifugen stannade#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmSysPressureHigh	"#![BeginSeg 1]Systemtrycket högt#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatAlarmSysTestFailure	"#![BeginSeg 1]Systemtest underkändes#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmUnloadingBagCassettePosition	"#![BeginSeg 1]Fel vid borttagning av kassetten#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmValveError	"#![BeginSeg 1]Ventilfel#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmValveLedError	"#![BeginSeg 1]Funktionsavbrott i ventil- eller lucksensor#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatAlarmVoltageFailure	"#![BeginSeg 1]Funktionsavbrott p.g.a. felaktig spänning#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatApsLow	"#![BeginSeg 3]Tappningstrycket lågt#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAuthEvents	"#![BeginSeg 1]Ange streckkoden för användar-ID#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAwaitingAp2Xmit	"#![BeginSeg 1]Väntar på överföring av givarinformation...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcode2ManyScans	"#![BeginSeg 1]Posten accepteras inte eftersom ett värde redan finns#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeBadScan	"#![BeginSeg 1]Fel vid läsning av streckkoden#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]Värdet får inte raderas#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeMoveInput	"#![BeginSeg 1]Identifiera streckkodsvärdet#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeReview	"#![BeginSeg 1]Granska värdena#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeScanOverrun	"#![BeginSeg 1]Streckkodsvärdet för långt#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBarcodeSegDupe	"#![BeginSeg 1]Dubblettvärde för streckkod upptäckt#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatBloodPrimeInProgress	"#![BeginSeg 1]Blodfyllning pågår#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadBarcode	"#![BeginSeg 1]Streckkoden överensstämmer inte med slangsetes REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatCfgMachBadCatNum	"#![BeginSeg 1]REF-värdet måste bestå av 5 eller 6 siffror#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadPair	"#![BeginSeg 1]Ogiltig inmatning - kontrollera siffrorna#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]Koden för slangsetet måste bestå av 8 siffror#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachEnterCatNum	"#![BeginSeg 1]Ange slangsetets REF#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachEnterSetCode	"#![BeginSeg 1]Ange slangsetets kod#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachSuccess	"#![BeginSeg 1]REF-värdet har angivits på rätt sätt#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgPltConcRange	"#![BeginSeg 1]Trombocytkoncentrationen utanför giltigt område#![EndSeg 1]"	165 8 0	0x0111	0	0	640	0	18	1
+textStatClampCrossover	"#![BeginSeg 1]Stäng överföringsslangen#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatConfigExitWait	"#![BeginSeg 2]Avslutar konfigurationen... #![EndSeg 2]#![BeginSeg 3]vänta#![EndSeg 3]"	255 247 57	0x0101	0	0	0	0	18	1
+textStatConnectPas	"#![BeginSeg 1]Anslut trombocyttillsatslösningen#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatConnectRas	"#![BeginSeg 1]Anslut RBC-tillsatslösningen#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatDispLowered	"#![BeginSeg 1]Kassetten har sänkts ned#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispLowering	"#![BeginSeg 1]Kassetten sänks ned...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispRaising	"#![BeginSeg 1]Kassetten höjs upp...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispTestComplete	"#![BeginSeg 1]Testet slutfört#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDispTestInProgress	"#![BeginSeg 1]Testet pågår...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatDoseRangeError	"#![BeginSeg 1]RBC-dosen utanför det rekommenderade lagringsområdet#![EndSeg 1]"	165 8 0	0x0111	0	0	640	0	18	1
+textStatDrbcSplitAlert	"#![BeginSeg 1]Dela DRBC#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	1
+textStatEndOfRun	"#![BeginSeg 1]Sammanfattning efter avslutad körning#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEndOfRunPlasma	"#![BeginSeg 1]Bekräftelse och märkning av plasmaprodukt#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEndOfRunPlt	"#![BeginSeg 1]Bekräftelse och märkning av trombocytprodukt#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEndOfRunRbc	"#![BeginSeg 1]Bekräftelse av RBC-produkt#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatEnterPin	"#![BeginSeg 1]Ange ditt personliga identifikationsnummer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatEvac	"#![BeginSeg 1]Avlägsnar luft från produktpåsarna...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatIdNotVerified	"#![BeginSeg 1]Det gick inte att bekräfta identitet#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatIdVerified	"#![BeginSeg 1]Identitet bekräftad#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatLoadSet	"#![BeginSeg 1]Ladda slangsetet med REF #!{currentlySelectedRef}#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatLrsPurge	"#![BeginSeg 1]Spolar LRS-kammaren#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatMaxEntriesExceeded	"#![BeginSeg 1]Högsta antalet poster överskridet#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatMissingBadgeBoop	"#![BeginSeg 1]Skanna streckkoden på din bricka för att slutföra auktoriseringen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatNoItemSelected	"#![BeginSeg 1]Välj händelser#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatOptInProgress	"#![BeginSeg 2]Optimering pågår...#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatPasEmpty	"#![BeginSeg 1]Byt ut påsen med trombocyttillsatslösning#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	18	1
+textStatPasPause	"#![BeginSeg 1]Leverera tillsatslösning till separat påse#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
+textStatRbc1Runsum	"#![BeginSeg 1]Bekräftelse av RBC-produkt 1#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRbc2Runsum	"#![BeginSeg 1]Bekräftelse av RBC-produkt 2#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRecoveryProcedure	"#![BeginSeg 1]Återhämtning pågår#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatReturnPumpStatusDraw	"#![BeginSeg 1]Tappning pågår#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatReturnPumpStatusReturn	"#![BeginSeg 1]Retur pågår#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRinsebackInProgress	"#![BeginSeg 1]Återtransfusion pågår#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatRunComplete	"#![BeginSeg 1]Körningen slutförd#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatSalineConnect	"#![BeginSeg 1]Anslut ersättningslösning#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatSalinePrime	"#![BeginSeg 1]Fyller slangen med ersättningslösning#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSealAndDetach	"#![BeginSeg 1]Försegla och avlägsna produktpåsarnas slangar#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatSetId	"#![BeginSeg 1]Det går inte att identifiera slangsetets typ#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
+textStatSetIdBadCode	"#![BeginSeg 1]Ogiltigt REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSetIdChosenProcBad	"#![BeginSeg 1]REF överensstämmer inte med den valda proceduren#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSetIdGoodCode	"#![BeginSeg 1]Bekräfta att REF överensstämmer med slangsetets etikett#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatSetIdInstructions	"#![BeginSeg 1]Välj slangsetets REF#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatUnscheduledPurge	"#![BeginSeg 1]Innehåll av vita blodkroppar upptäckt, spolar LRS-kammaren#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatValueOutOfRange	"#![BeginSeg 1]Värdet utanför giltigt område#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
+textStatWaitingForVista	"#![BeginSeg 1]Väntar på Vista Information System...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+STRING_FILE_TABLE_END
