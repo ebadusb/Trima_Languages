@@ -15,7 +15,7 @@ STRING_FILE_TABLE_START
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］ーっッ"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x244a4def"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x142c58fb"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -319,7 +319,7 @@ textButtonKeypadClear	"#![BeginSeg 1]C#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	
 textButtonKeypadEnter	"#![BeginSeg 1]入力#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]容量 (L)#![EndSeg 2]"	255 247 57	0x0112	481	210	100	45	16	1
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]mL/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	16	1
-textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	45	16	1
+textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]採血量 (mL)\n> 体重#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	16	1
 textButtonLabelCfgDonLimVolSmallBucketSetting	"#![BeginSeg 1]採血量 (mL)\n≦ 体重#![EndSeg 1]"	255 247 57	0x0112	333	105	100	50	16	1
 textButtonLabelCfgDonLimVolWeightSettingKg	"#![BeginSeg 2]体重 (kg)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
@@ -348,29 +348,29 @@ textButtonLabelCfgLeftMachDate	"#![BeginSeg 1]日付#![EndSeg 1]"	255 247 57	0x0
 textButtonLabelCfgLeftMachDateFmt	"#![BeginSeg 1]日付の形式#![EndSeg 1]"	255 247 57	0x0111	40	100	100	70	16	1
 textButtonLabelCfgLeftMachTime	"#![BeginSeg 1]時刻#![EndSeg 1]"	255 247 57	0x0111	40	295	100	70	16	1
 textButtonLabelCfgLeftMachTimeFmt	"#![BeginSeg 1]時刻の形式#![EndSeg 1]"	255 247 57	0x0111	40	230	100	70	16	1
-textButtonLabelCfgLeftPlsAmapMin	"#![BeginSeg 1]最大限\n設定時の\n最小量 (mL)#![EndSeg 1]"	255 247 57	0x0111	30	290	110	70	16	1
-textButtonLabelCfgLeftPlsAmapMax	"#![BeginSeg 1]最大限\n設定時の\n最大量 (mL)#![EndSeg 1]"	255 247 57	0x0111	30	350	110	70	16	1
-textButtonLabelCfgLeftPlsVol1	"#![BeginSeg 1]血漿 1 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	20	100	139	70	16	1
-textButtonLabelCfgLeftPlsVol2	"#![BeginSeg 1]血漿 2 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	20	160	139	70	16	1
-textButtonLabelCfgLeftPlsVol3	"#![BeginSeg 1]血漿 3 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	20	220	139	70	16	1
-textButtonLabelCfgLeftPlsVol4	"#![BeginSeg 1]血漿 4 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	340	100	139	70	16	1
-textButtonLabelCfgLeftPlsVol5	"#![BeginSeg 1]血漿 5 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	340	160	139	70	16	1
-textButtonLabelCfgLeftPlsVol6	"#![BeginSeg 1]血漿 6 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	340	220	139	70	16	1
-textButtonLabelCfgLeftFfpVolume "#![BeginSeg 1]FFP Volume (mL)#![EndSeg 1]"             255 247 57      0x0111  340     350     139     70      16      1  
+textButtonLabelCfgLeftPlsAmapMin	"#![BeginSeg 1]最大限設定時の\n最小量 (mL)#![EndSeg 1]"	255 247 57	0x0111	25	290	150	70	16	1
+textButtonLabelCfgLeftPlsAmapMax	"#![BeginSeg 1]最大限設定時の\n最大量 (mL)#![EndSeg 1]"	255 247 57	0x0111	25	350	150	70	16	1
+textButtonLabelCfgLeftPlsVol1	"#![BeginSeg 1]血漿 1 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	20	100	153	70	16	1
+textButtonLabelCfgLeftPlsVol2	"#![BeginSeg 1]血漿 2 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	20	160	153	70	16	1
+textButtonLabelCfgLeftPlsVol3	"#![BeginSeg 1]血漿 3 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	20	220	153	70	16	1
+textButtonLabelCfgLeftPlsVol4	"#![BeginSeg 1]血漿 4 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	322	100	153	70	16	1
+textButtonLabelCfgLeftPlsVol5	"#![BeginSeg 1]血漿 5 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	322	160	153	70	16	1
+textButtonLabelCfgLeftPlsVol6	"#![BeginSeg 1]血漿 6 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	322	220	153	70	16	1
+textButtonLabelCfgLeftFfpVolume "#![BeginSeg 1]FFP 量 (mL)#![EndSeg 1]"             255 247 57      0x0111  365     350     115     70      16      1  approved 
 textButtonLabelCfgLeftPltTrali	"#![BeginSeg 1]対象ドナー#![EndSeg 1]"	255 247 57	0x0111	345	340	130	90	16	1
 textButtonLabelCfgLeftPltYsf	"#![BeginSeg 1]血小板\n産出高係数#![EndSeg 1]"	255 247 57	0x0111	100	340	130	90	16	1
-textButtonLabelCfgLeftProcAirRemoval	"#![BeginSeg 1]製剤バッグの\nエアー除去#![EndSeg 1]"	255 247 57	0x0111	350	295	150	70	16	1
+textButtonLabelCfgLeftProcAirRemoval	"#![BeginSeg 1]製剤バッグのエアー除去#![EndSeg 1]"	255 247 57	0x0111	310	295	200	70	16	1
 textButtonLabelCfgLeftProcAuditTracking	"#![BeginSeg 1]オペレータ操作\nバリデーション#![EndSeg 1]"	255 247 57	0x0111	350	230	150	70	16	1
 textButtonLabelCfgLeftProcBloodDiversion	"#![BeginSeg 1]初流血除去#![EndSeg 1]"	255 247 57	0x0111	30	295	150	70	16	1
-textButtonLabelCfgLeftProcCustomRatio	"#![BeginSeg 1]全血/抗凝固剤比#![EndSeg 1]"	255 247 57	0x0111	350	100	150	70	16	1
+textButtonLabelCfgLeftProcCustomRatio	"#![BeginSeg 1]全血/抗凝固剤比#![EndSeg 1]"	255 247 57	0x0111	310	100	200	70	16	1
 textButtonLabelCfgLeftProcDrawPressure	"#![BeginSeg 1]採血圧下限値\n(mmHg)#![EndSeg 1]"	255 247 57	0x0111	30	230	150	70	16	1
 textButtonLabelCfgLeftProcPlsRinseback	"#![BeginSeg 1]血漿リンスバック#![EndSeg 1]"	255 247 57	0x0111	30	360	150	70	16	1
-textButtonLabelCfgLeftProcRbcRatio	"#![BeginSeg 1]RBC 採取時全血/\n抗凝固剤比#![EndSeg 1]"	255 247 57	0x0111	350	165	150	70	16	1
-textButtonLabelCfgLeftProcPlasmaRatio                                      "#![BeginSeg 1]Inlet/AC ratio for Plasma#![EndSeg 1]"                  255 247  57 0x0111   350   230   150    70  14    1 
-textButtonLabelCfgLeftProcAuditTracking                                     "#![BeginSeg 1]Operator action validation#![EndSeg 1]"                255 247  57 0x0111   350   230   150    70  14    1  approved
+textButtonLabelCfgLeftProcRbcRatio	"#![BeginSeg 1]RBC 採取時全血/\n抗凝固剤比#![EndSeg 1]"	255 247 57	0x0111	310	165	200	70	16	1
+textButtonLabelCfgLeftProcPlasmaRatio                                      "#![BeginSeg 1]血漿採取時全血/\n抗凝固剤比#![EndSeg 1]"                  255 247  57 0x0111   310   230   200    70  16    1  approved
+textButtonLabelCfgLeftProcAuditTracking                                     "#![BeginSeg 1]オペレータ操作\nバリデーション#![EndSeg 1]"                255 247  57 0x0111   350   230   150    70  16    1  approved
 textButtonLabelCfgLeftProcReturnPressure	"#![BeginSeg 1]返血圧上限値\n(mmHg)#![EndSeg 1]"	255 247 57	0x0111	30	165	150	70	16	1
-textButtonLabelCfgLeftProcSalineRinseback	"#![BeginSeg 1]生理食塩水\nリンスバック#![EndSeg 1]"	255 247 57	0x0111	350	360	150	70	16	1
-textButtonLabelCfgLeftProcTime	"#![BeginSeg 1]最大処理時間\n(分)#![EndSeg 1]"	255 247 57	0x0111	30	100	150	70	16	1
+textButtonLabelCfgLeftProcSalineRinseback	"#![BeginSeg 1]生理食塩水リンスバック#![EndSeg 1]"	255 247 57	0x0111	310	360	200	70	16	1
+textButtonLabelCfgLeftProcTime	"#![BeginSeg 1]最大処理時間 (分)#![EndSeg 1]"	255 247 57	0x0111	30	100	150	70	16	1
 textButtonLabelCfgLeftRbcSplitAlert	"#![BeginSeg 1]DRBC へ分割を\n開始する\n採取量 (mL)#![EndSeg 1]"	255 247 57	0x0111	31	357	124	70	16	1
 textButtonLabelCfgLeftRbcYsf	"#![BeginSeg 1]赤血球\n採取量係数#![EndSeg 1]"	255 247 57	0x0111	350	357	100	70	16	1
 textButtonLabelCfgTopRepFluidPercent	"#![BeginSeg 1]採取量に対する\n補充率 (%)#![EndSeg 1]"	255 247 57	0x0111	0	0	125	40	16	1
@@ -391,11 +391,11 @@ textButtonLongResetMachine	"#![BeginSeg 1]リセット#![EndSeg 1]"	0 0 0	0x0111
 textButtonLongStartDraw	"#![BeginSeg 1]採血開始#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]保存用添加液\nバッグ量 (mL)#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	16	1
 textButtonSelectRef	"#![BeginSeg 1]カタログ番号#![EndSeg 1]"	255 247 57	0x0111	5	10	155	40	20	1
-textButtonCfgDonLimPlateletVolMaxToggle                          "#![BeginSeg 1]Platelet Vol Max#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   100     0  14    1  approved
-textButtonLabelCfgDonLimPlateletMaxVolume                     "#![BeginSeg 1]Platelet Max (mL)#![EndSeg 1]"                  255 247  57 0x0112    185    210   100     50  14    1  
+textButtonCfgDonLimPlateletVolMaxToggle                          "#![BeginSeg 1]PC 採取時\n総量#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   100     0  16    1  approved
+textButtonLabelCfgDonLimPlateletMaxVolume                     "#![BeginSeg 1]容量 (mL)#![EndSeg 1]"                  255 247  57 0x0112    185    210   100     45  16    1  approved
 textButtonLabelCfgDonLimMlPerKgSetting                             "#![BeginSeg 2]mL/kg#![EndSeg 2]"                                                                                                                 255 247  57 0x0112     185     310   100    45  14    1  approved
-textButtonLabelCfgDonLimPlasmaMaxVolume                     "#![BeginSeg 1]Plasma Max (mL)#![EndSeg 1]"                  255 247  57 0x0112    185    310   100     50  14    1  
-textButtonCfgDonLimPlasmaVolMaxToggle                          "#![BeginSeg 1]Plasma Vol Max#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   100     0  14    1  approved
+textButtonLabelCfgDonLimPlasmaMaxVolume                     "#![BeginSeg 1]容量 (mL)#![EndSeg 1]"                  255 247  57 0x0112    185    310   100     45  16    1  approved
+textButtonCfgDonLimPlasmaVolMaxToggle                          "#![BeginSeg 1]PPP 量#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   100     0  16    1  approved
 textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]モード#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	16	1
 textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]採取濃度\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	16	1
 textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	240	148	10	15	8	0
@@ -813,7 +813,7 @@ textListboxItemCfgPlsProc4	"#![BeginSeg 1]血漿 4#![EndSeg 1]"	255 247 57	0x011
 textListboxItemCfgPlsProc5	"#![BeginSeg 1]血漿 5#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textListboxItemCfgPlsProc6	"#![BeginSeg 1]血漿 6#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textListboxItemCfgPlsProcAmap	"#![BeginSeg 1]同時最大限#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
-textListboxItemCfgPlsProcFfp    "#![BeginSeg 1]FFP#![EndSeg 1]"         255 247 57      0x0111     0     0   640     0  14    1  
+textListboxItemCfgPlsProcFfp    "#![BeginSeg 1]FFP#![EndSeg 1]"         255 247 57      0x0111     0     0   640     0  14    1  approved  
 textListboxItemCfgPltProc1	"#![BeginSeg 1]血小板 1#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
 textListboxItemCfgPltProc10	"#![BeginSeg 1]血小板 10#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
 textListboxItemCfgPltProc2	"#![BeginSeg 1]血小板 2#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
@@ -1029,7 +1029,7 @@ textMiscSetIdOperatorPrompt	"#![BeginSeg 1]装着されている回路セット�
 textMiscSplashCopyright	"#![BeginSeg 1]Copyright \x00a9 TerumoBCT, Inc.#![EndSeg 1]"	0 0 0	0x0101	100	425	540	10	14	1
 textMiscSplashProductDescription	"#![BeginSeg 1]トリマ アクセル\n自動血液成分採取システム#![EndSeg 1]"	0 0 0	0x0100	100	325	540	30	18	1
 textMiscSysDispDontConnectAc	"#![BeginSeg 1]抗凝固剤を接続しないでください。#![EndSeg 1]"	165 8 0	0x0111	0	386	640	35	21	1
-textMiscTrimaVersion	"#![BeginSeg 1]Version 6.3#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	0
+textMiscTrimaVersion	"#![BeginSeg 1] #![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	0
 textMiscTubingSetTest	"#![BeginSeg 1]回路セットテスト中は\n抗凝固剤を接続しないでください。#![EndSeg 1]"	255 255 255	0x0111	40	150	320	200	20	1
 textMiscUnclampCrossover	"#![BeginSeg 1]クロスオーバーラインの\nクランプを開いてください。#![EndSeg 1]"	255 247 57	0x0112	0	160	260	40	18	1
 textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1]%#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
@@ -1254,7 +1254,5 @@ textStatSetIdInstructions	"#![BeginSeg 1]回路セットのカタログ番号を
 textStatUnscheduledPurge	"#![BeginSeg 1]白血球を検出後、LRS チャンバーをクリア中#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatValueOutOfRange	"#![BeginSeg 1]値が範囲外#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	21	1
 textStatWaitingForVista	"#![BeginSeg 1]Vista Information System を待機中...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
-textButtonLabelCfgLeftPlsTrali        "#![BeginSeg 1]Donors allowed#![EndSeg 1]"  255 247  57 0x0111   380   290   100    70  14    1  approved
-
-
+textButtonLabelCfgLeftPlsTrali        "#![BeginSeg 1]対象ドナー#![EndSeg 1]"  255 247  57 0x0111   365   290   115    70  16    1  approved
 STRING_FILE_TABLE_END
