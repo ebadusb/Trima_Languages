@@ -5,7 +5,7 @@ languageId                                                   "English"          
 languageIndex                                                "0"                            0   0   0 0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                         "WordBased"                 0   0   0 0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"    0   0   0 0x0001     0     0     0     0  18    0  approved
-languageCrc                                               "0xdf957f07"                0   0   0 0x0001     0     0     0     0  18    0  approved
+languageCrc                                               "0x47787eb6"                0   0   0 0x0001     0     0     0     0  18    0  approved
 readyForRelease                                        "1"                                0   0   0 0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                                 "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0 0x0000     520 110 380 20 10 0 Approved
 forbiddenEndCharList                                  "（(「｢［[‘“・"               0   0   0 0x0000     520 110 380 20 10 0 Approved
@@ -164,21 +164,6 @@ textCfgScreenLabelAutoProc                                                     "
 textButtonCfgMainAutoProc                                  "#![BeginSeg 1]Automated processes#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   190     55  18    1  approved
 textCfgScreenLabelSoftOpt                                                     "#![BeginSeg 1]Feature Status#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
 
-textCfgSoftOptAirOutMitigationItem                                                     "#![BeginSeg 1]Air Reduction Mitigation#![EndSeg 1]"                                                                                                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptAdjustFlowRatesItem                                                     "#![BeginSeg 1]Procedure selection: Flow Rate Adjustment#![EndSeg 1]"                                                                                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptAmapPlateletesItem                                                     "#![BeginSeg 1]Configuration, Platelet Optimization#![EndSeg 1]"                                                                                          0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptAPSHighSpeedLogItem                                                     "#![BeginSeg 1]High speed logging, Access Pressure Sensor#![EndSeg 1]"                                                                                   0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptComplementaryPlasmaItem                                                     "#![BeginSeg 1]Configuration, Plasma Replaced by PAS#![EndSeg 1]"                                                                                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptConfirmACConnectionItem                                                     "#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"                                                                                        0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptCPSHighSpeedLogItem                                                     "#![BeginSeg 1]High speed logging, Centrifuge Pressure Sensor#![EndSeg 1]"                                                                               0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptDisplayAverageInletFlowItem                                                     "#![BeginSeg 1]Procedure Summary: Average inlet flow#![EndSeg 1]"                                                                                0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptDontConnectACMsgItem                                                     "#![BeginSeg 1]Don't Connect AC Message#![EndSeg 1]"                                                                                                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptDisplayResidualVolumeItem                                                     "#![BeginSeg 1]Procedure Summary: residual volumes#![EndSeg 1]"                                                                                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptEnableScreenshotItem                                                     "#![BeginSeg 1]Screenshot capture#![EndSeg 1]"																										   0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptJPSampleBagConfigItem                                                     "#![BeginSeg 1]JP sample bag Config#![EndSeg 1]"                                                                                                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptOgawaTBVItem                                                     "#![BeginSeg 1]Predict, Ogawa TBV#![EndSeg 1]"                                                                                                                  0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptPostCountPltMobilizationItem                                                     "#![BeginSeg 1]Predict, Platelet Mobilization#![EndSeg 1]"                                                                                      0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textCfgSoftOptSelectScreenDisplayPltVolumeItem                                                     "#![BeginSeg 1]Procedure selection: platelet product volume#![EndSeg 1]"                                                                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textCfgSoftOptEmptyItem                                         ""																																											   0   0   0 0x0101        10     2   280     25  10    1  unapproved
 
 textCfgSoftOptSerialNumberLabel                                                     "#![BeginSeg 1]Serial Number:#![EndSeg 1]"																										255 255  255 0x0001     346     110   280     20  14    1  unapproved
@@ -1462,6 +1447,37 @@ CMP2textDataLabelRs2RasVol                                       "#![BeginSeg 1]
 CMP2textDataUnitsRs2RasVol                                     "#![BeginSeg 1]mL#![EndSeg 1]"                                              255 255 255 0x0101   436   398   110    23  13    0  approved
 CMP2textEmptyFormatRs2DatRasVol                                      ""                                                                                255 255 255 0x0121   370   398    60    23  13    0  approved
 
+################################################################################################
+##### Feature strings
+
+textEnableScreenshotButton                  "#![BeginSeg 1]Screenshot capture#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1  unapproved																								  
+textApsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, Access Pressure Sensor#![EndSeg 1]"              0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textCpsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, Centrifuge Pressure Sensor#![EndSeg 1]"          0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textDisplayAverageInletFlow                 "#![BeginSeg 1]Procedure Summary: Average inlet flow#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Procedure selection: Flow Rate Adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textConfirmAcConnection                     "#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textDontConnectAcMsgAtSetLoad               "#![BeginSeg 1]Do not connect AC message at set load#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textJpSampleBagConfiguration                "#![BeginSeg 1]Sample Bag Configuration#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textDisplayResidualVolumes                  "#![BeginSeg 1]Procedure Summary: residual volumes#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Predict, Platelet Mobilization#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textAiroutMitigation                        "#![BeginSeg 1]Air Reduction Mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration, Platelet Optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textComplementaryPlasmaAvailable            "#![BeginSeg 1]Configuration, Plasma Replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textOgawaTbv                                "#![BeginSeg 1]Predict, Ogawa TBV#![EndSeg 1]"                                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textEnableVistaCfr11Tracking               "#![BeginSeg 1]Vista tracking#![EndSeg 1]"                                           0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textGlobalJapanDonorVolumeLimits           "#![BeginSeg 1]Configuration: Platelet Capable and PPP volume limits#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textAllowExtraWbcMessage           "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textServiceModePeriodicLog           "#![BeginSeg 1]Service Mode: Periodic logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textEnableSumo           "#![BeginSeg 1]Enable Sumo#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textAllowFtpWithCassetteDown           "#![BeginSeg 1]Allow FTP with Cassette Down#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPumpStrokeVolumeLogging           "#![BeginSeg 1]Pump Stroke Volume Logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textSpecialBlackStampNeedle           "#![BeginSeg 1]Special Black Stamp Needle#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPloFlag           "#![BeginSeg 1]Plo Flag#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPloPca           "#![BeginSeg 1]PloPca Flag#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textApsAlarmDetectPosPressure           "#![BeginSeg 1]APS Alarm Detect Positive Pressure#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textSoftOptInvalidKey                                                     "#![BeginSeg 1]Invalid Key#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
+ 
 
 #############################
 STRING_FILE_TABLE_END
