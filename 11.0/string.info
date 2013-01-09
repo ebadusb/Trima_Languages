@@ -5,7 +5,7 @@ languageId                                                   "English"          
 languageIndex                                                "0"                            0   0   0 0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                         "WordBased"                 0   0   0 0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"    0   0   0 0x0001     0     0     0     0  18    0  approved
-languageCrc                                               "0x65e51b62"                0   0   0 0x0001     0     0     0     0  18    0  approved
+languageCrc                                               "0xbadb63d3"                0   0   0 0x0001     0     0     0     0  18    0  approved
 readyForRelease                                        "1"                                0   0   0 0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                                 "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0 0x0000     520 110 380 20 10 0 Approved
 forbiddenEndCharList                                  "（(「｢［[‘“・"               0   0   0 0x0000     520 110 380 20 10 0 approved
@@ -1340,6 +1340,8 @@ textSpecialBlackStampNeedle           "#![BeginSeg 1]Special Black Stamp Needle#
 textPloFlag           "#![BeginSeg 1]Plo Flag#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textPloPca           "#![BeginSeg 1]PloPca Flag#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textApsAlarmDetectPosPressure           "#![BeginSeg 1]APS Alarm Detect Positive Pressure#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textShowPlasmaVolume           "#![BeginSeg 1]Show Plasma Volume#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textExtraPlasmaNoAc           "#![BeginSeg 1]Extra Plasma Procs Do Not Include AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textSoftOptInvalidKey                                                     "#![BeginSeg 1]Invalid Key#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
  
 textACinPlasmaVolumeValueCurr                         ""                                   255 247  57       0x0121   238   290    45    23  14    1  unapproved   
