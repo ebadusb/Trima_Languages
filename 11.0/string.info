@@ -5,7 +5,7 @@ languageId                                                   "English"          
 languageIndex                                                "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                                    "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                                                  "0x08291EF7"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                                                  "0xee5eeaea"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                                              "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                  "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList                                         "（(「｢［[‘“・"                 0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -119,7 +119,7 @@ textMiscServiceTsCalInstruction3                               "3: Touch the cro
 textMiscServiceTsCalInstruction4                               "Please wait while the screen calibration is updated..."                                                                       0   0   0 0x0111     0    60   640   100  14    0  approved
 textButtonLabelCfgLeftAutoProcPasToggle                                            "#![BeginSeg 1]Solution addition#![EndSeg 1]"                                                                                                      255 247  57 0x0111    50   135   150    70  14    1  approved
 textMiscClampPltBagForSplit                                 "#![BeginSeg 1]Close the line to one of the platelet bags#![EndSeg 1]"                                                                255 247  57 0x0111    40   150   320   200  18    1  approved
-textMiscClampPltBagJp                                 "#![BeginSeg 1]Close the line to one of the platelet bags\n\n#![EndSeg 1]#![BeginSeg 2]Close the lines to both of the platelet samplers#![EndSeg 2]"          255 247  57 0x0111    40   150   320   200  18    1  approved
+textMiscClampPltBagJp                                 "#![BeginSeg 1]Close the line between the platelet bags#![EndSeg 1]"          255 247  57 0x0111    40   150   320   200  18    1  unapproved
 textMiscClampBloodDiversionJp                     "#![BeginSeg 1]Close the blood diversion clamp#![EndSeg 1]"                                                                                255 247  57 0x0112    15   105   610    40  18    1  approved
 textMiscConnectPas                                        "#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Connect solution#![EndSeg 2]"                                                                 255 247  57 0x0112   13   105   160    45  14  1  approved
 textMiscBreakPasLineBreakFrang                                     "#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Break the bag frangible#![EndSeg 2]"                                            255 247  57 0x0112   170   105   160    45  14  1  approved
