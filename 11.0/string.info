@@ -5,7 +5,7 @@ languageId                                                   "English"          
 languageIndex                                                "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                                    "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                                                  "0x8d8c9242"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                                                  "0xfa68e652"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                                              "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                  "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList                                         "（(「｢［[‘“・"                 0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1336,8 +1336,6 @@ textEnableVistaCfr11Tracking               "#![BeginSeg 1]Vista tracking#![EndSe
 textGlobalJapanDonorVolumeLimits           "#![BeginSeg 1]Configuration: Platelet Capable and PPP volume limits#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textAllowExtraWbcMessage           "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textServiceModePeriodicLog           "#![BeginSeg 1]Service Mode: Periodic logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textEnableSumo           "#![BeginSeg 1]Enable Sumo#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textAllowFtpWithCassetteDown           "#![BeginSeg 1]Allow FTP with Cassette Down#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textPumpStrokeVolumeLogging           "#![BeginSeg 1]Pump Stroke Volume Logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textSpecialBlackStampNeedle           "#![BeginSeg 1]Special Black Stamp Needle#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textPloFlag           "#![BeginSeg 1]Plo Flag#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  unapproved
