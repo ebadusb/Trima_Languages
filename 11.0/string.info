@@ -5,7 +5,7 @@ languageId                                                   "English"          
 languageIndex                                                "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                                    "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                                                  "0xff848cb3"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                                                  "0x7523354e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                                              "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                  "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList                                         "（(「｢［[‘“・"                 0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1321,13 +1321,13 @@ textEmptyFormatSimScreenshotInfo                                 ""             
 textEnableScreenshotButton                  "#![BeginSeg 1]Screenshot capture#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1  approved																								  
 textApsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, access pressure sensor#![EndSeg 1]"              0     0    0 0x0001     10     2   280     25  10    0  approved
 textCpsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, centrifuge pressure sensor#![EndSeg 1]"          0     0    0 0x0001     10     2   280     25  10    0  approved
-textDisplayAverageInletFlow                 "#![BeginSeg 1]Procedure summary: Draw flow rate#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
+textDisplayAverageInletFlow                 "#![BeginSeg 1]Procedural summary: Draw flow rate#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
 textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  approved
 textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  approved
 textConfirmAcConnection                     "#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
 textDontConnectAcMsgAtSetLoad               "#![BeginSeg 1]DO NOT connect AC message during loading#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
 textJpSampleBagConfiguration                "#![BeginSeg 1]Sample bag configuration#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
-textDisplayResidualVolumes                  "#![BeginSeg 1]Procedure summary: Residual volumes#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  approved
+textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  approved
 textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    1  approved
 textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
 textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
