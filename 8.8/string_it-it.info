@@ -6,7 +6,7 @@ languageCrc	"0xadd3d148"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Italiano"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"3"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Interrompi aggiunta soluzione significa che:\n#![EndSeg 1]#![BeginSeg 2]- Il processo di aggiunta della soluzione è stato annullato. #![EndSeg 2]#![BeginSeg 3]Scaricare ed eliminare il circuito.\n#![EndSeg 3]#![BeginSeg 4]- Potrebbe essere necessario aggiungere ulteriore soluzione additiva. #![EndSeg 4]#![BeginSeg 5]Per ulteriori informazioni, consultare il Manuale d'istruzione.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Rimozione aria significa che:\n#![EndSeg 1]#![BeginSeg 2]- Si è rilevata la presenza di aria nella linea delle\npiastrine o del plasma.\n#![EndSeg 2]#![BeginSeg 3]- Il sistema rimanda la raccolta fino al\ncompletamento della rimozione.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Interrompi aggiunta soluzione significa che:\n#![EndSeg 1]#![BeginSeg 2]- Il processo di aggiunta della soluzione è stato annullato.\n#![EndSeg 2]#![BeginSeg 3]Scaricare ed eliminare il circuito.\n#![EndSeg 3]#![BeginSeg 4]- Potrebbe essere necessario aggiungere ulteriore soluzione additiva. #![EndSeg 4]#![BeginSeg 5]Per ulteriori informazioni, consultare il Manuale d'istruzione.\n#![EndSeg 5]#![BeginSeg 6]- È anche possibile terminare l'aggiunta della soluzione delle piastrine e proseguire con l'aggiunta della soluzione GR.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1

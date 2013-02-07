@@ -6,7 +6,7 @@ languageCrc	"0x44c5a1ba"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Español"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"5"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Finalizar adición de solución significa que:\n#![EndSeg 1]#![BeginSeg 2]- La adición de solución se ha cancelado. #![EndSeg 2]#![BeginSeg 3]Retire y deseche el equipo de líneas.\n#![EndSeg 3]#![BeginSeg 4]- Es posible que sea necesario añadir más soluciones. #![EndSeg 4]#![BeginSeg 5]Consulte el Manual del usuario para obtener más detalles.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Recuperación del bloqueo de aire significa que:\n#![EndSeg 1]#![BeginSeg 2]- Se observa aire en la línea de plaquetas o de plasma.\n#![EndSeg 2]#![BeginSeg 3]- El sistema detiene la recolección hasta completar la recuperación.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Finalizar adición de solución significa que:\n#![EndSeg 1]#![BeginSeg 2]- La adición de solución se ha cancelado. #![EndSeg 2]#![BeginSeg 3]Retire y deseche el equipo de líneas.\n#![EndSeg 3]#![BeginSeg 4]- Es posible que sea necesario añadir más soluciones. #![EndSeg 4]#![BeginSeg 5]Consulte el Manual del usuario para obtener más detalles.\n#![EndSeg 5]#![BeginSeg 6]- También puede optar por finalizar la adición de solución para plaquetas y continuar con la adición de solución para hematíes.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
