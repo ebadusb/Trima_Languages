@@ -5,7 +5,7 @@ languageId                                                   "English"          
 languageIndex                                                "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                                    "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                                                  "0x3bc43928"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                                                  "0xde245cfb"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                                              "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                  "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList                                         "（(「｢［[‘“・"                 0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1325,7 +1325,6 @@ textDisplayAverageInletFlow                 "#![BeginSeg 1]Procedural summary: D
 textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  approved
 textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  approved
 textConfirmAcConnection                     "#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
-textDontConnectAcMsgAtSetLoad               "#![BeginSeg 1]DO NOT connect AC message during loading#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
 textJpSampleBagConfiguration                "#![BeginSeg 1]Sample bag configuration#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
 textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  approved
 textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    1  approved
@@ -1334,7 +1333,6 @@ textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platel
 textComplementaryPlasmaAvailable            "#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
 textOgawaTbv                                "#![BeginSeg 1]Ogawa TBV#![EndSeg 1]"                                       0     0    0 0x0001     10     2   280     25  10    1  approved
 textEnableVistaCfr11Tracking               "#![BeginSeg 1]Vista tracking#![EndSeg 1]"                                           0     0    0 0x0001     10     2   280     25  10    1  approved
-textGlobalJapanDonorVolumeLimits           "#![BeginSeg 1]Configuration: Volume limits for procedures with platelet and procedures with plasma#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
 textAllowExtraWbcMessage           "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
 textServiceModePeriodicLog           "#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    0  approved
 textPumpStrokeVolumeLogging           "#![BeginSeg 1]Pump stroke volume logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    0  approved
