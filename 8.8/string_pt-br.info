@@ -2,11 +2,11 @@ STRING_FILE_TABLE_START
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xb15d0ab0"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x16b725d"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Português"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"7"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Encerrar adição de solução significa:\n#![EndSeg 1]#![BeginSeg 2]- a adição da solução foi cancelada. #![EndSeg 2]#![BeginSeg 3]Descarregue e descarte o conjunto.\n#![EndSeg 3]#![BeginSeg 4]- pode ser necessária solução aditiva adicional. #![EndSeg 4]#![BeginSeg 5]Consulte o Manual do Operador para instruções adicionais.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Recuperação de bloqueio de ar significa:\n#![EndSeg 1]#![BeginSeg 2]- você observou a presença de ar na linha de plaquetas ou na linha de plasma.\n#![EndSeg 2]#![BeginSeg 3]- o sistema adia a coleta até que a recuperação esteja completa.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Encerrar adição de solução significa:\n#![EndSeg 1]#![BeginSeg 2]- a adição da solução foi cancelada. #![EndSeg 2]#![BeginSeg 3]Descarregue e descarte o conjunto.\n#![EndSeg 3]#![BeginSeg 4]- pode ser necessária solução aditiva adicional. #![EndSeg 4]#![BeginSeg 5]Consulte o Manual do Operador para instruções adicionais.\n#![EndSeg 5]#![BeginSeg 6]- você pode também cancelar a adição de solução de plaquetas e continuar com a adição de solução de hemácias.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1

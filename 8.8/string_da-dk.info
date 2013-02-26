@@ -2,11 +2,11 @@ STRING_FILE_TABLE_START
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x1306d115"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x3afdb5c5"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Dansk"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"17"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Afslut tilsætning af opbevaringsvæske betyder at:\n#![EndSeg 1]#![BeginSeg 2]- Væsketilsætningen er annulleret. #![EndSeg 2]#![BeginSeg 3]Fjern og bortskaf slangesættet.\n#![EndSeg 3]#![BeginSeg 4]- Der kan blive brug for ekstra opbevaringsvæske. #![EndSeg 4]#![BeginSeg 5]Se manualen for yderligere oplysninger.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Luftblokfjernelse betyder at:\n#![EndSeg 1]#![BeginSeg 2]- Du ser luft i trombocyt- eller plasmaslangen.\n#![EndSeg 2]#![BeginSeg 3]- Systemet udskyder opsamling, indtil fjernelsen er afsluttet.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Afslut tilsætning af opbevaringsvæske betyder at:\n#![EndSeg 1]#![BeginSeg 2]- Væsketilsætningen er annulleret. #![EndSeg 2]#![BeginSeg 3]Fjern og bortskaf slangesættet.\n#![EndSeg 3]#![BeginSeg 4]- Der kan blive brug for ekstra opbevaringsvæske.\n#![EndSeg 4]#![BeginSeg 5]Se manualen for yderligere oplysninger.\n#![EndSeg 5]#![BeginSeg 6]- Du kan også vælge at afslutte tilsætningen af trc-opbevaringsvæske og fortsætte med tilsætning af eryt.-opbevaringsvæske.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
