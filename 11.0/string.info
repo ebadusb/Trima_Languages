@@ -5,7 +5,7 @@ languageId                                                    "English"         
 languageIndex                                               "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                           "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                                                 "1b350701"                 0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                                                 "0x5b40fead"                 0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                                              "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                  "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList                                         "（(「｢［[‘“・"                 0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -728,7 +728,7 @@ textMiscBloodTypeANeg                                    "#![BeginSeg 1]A-#![End
 textMiscBloodTypeBPos                                    "#![BeginSeg 1]B+#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
 textMiscBloodTypeBNeg                                    "#![BeginSeg 1]B-#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
 textMiscBloodTypeOPos                                    "#![BeginSeg 1]O+#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
-textListboxItemCfgBloodTypeOn                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                             255 255 255 0x0111   416   313   171    24  18    0  approved
+textListboxItemCfgBloodTypeOn                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    0  approved
 textEmptyFormatCfgNumericTextFormatNull                            ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
 textButtonLabelCfgLeftMachAudio                                                   "#![BeginSeg 1]Audible alert volume#![EndSeg 1]"                                                                                                   255 247  57 0x0111    40   360   100    70  14    1  approved
 textListboxItemCfgMachLow                                            "#![BeginSeg 1]Low#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
