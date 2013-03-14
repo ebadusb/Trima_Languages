@@ -12,14 +12,14 @@ FONT_RANGE_TABLE_START
 FONT_RANGE_TABLE_END
 
 STRING_FILE_TABLE_START
-fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
-forbiddenEndCharList	"［"	0 0 0	0x0000	520	110	380	20	10	0
-forbiddenStartCharList	"、。］ーっッ"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x142c58fb"	0 0 0	0x0001	0	0	0	0	18	0
-languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
-languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
-languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
+fontName                  "Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
+forbiddenEndCharList	  "［"	0 0 0	0x0000	520	110	380	20	10	0
+forbiddenStartCharList	  "、。］ーっッ"	0 0 0	0x0000	520	110	380	20	10	0
+languageCrc               "0x78f348e6"	0 0 0	0x0001	0	0	0	0	18	0
+languageId                "日本語"	255 255 255	0x0001	0	0	100	50	16	0
+languageIndex             "4"	0 0 0	0x0001	0	0	0	0	18	0
+languageWrappingAlgorithm "CharBased"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease           "1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]保存用添加液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存用添加液の添加が取り消されました。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・保存用添加液の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は操作説明書を参照してください。#![EndSeg 5]"	165 8 0	0x0101	12	117	614	183	20	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]エアーブロック回復とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・血小板ラインまたは血漿ラインにエアーが認められます。\n#![EndSeg 2]#![BeginSeg 3]・回復手順が完了するまで採血を一時中断します。#![EndSeg 3]"	165 8 0	0x0101	12	117	614	183	20	1
 textAbortBodyPas	"#![BeginSeg 1]保存用添加液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存用添加液の添加が取り消されました。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・保存用添加液の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は操作説明書を参照してください。\n#![EndSeg 5]#![BeginSeg 6]・血小板保存用添加液の添加を終了して、赤血球保存用添加液の添加を続けることもできます。#![EndSeg 6]"	165 8 0	0x0101	12	117	614	183	20	1
@@ -1255,4 +1255,54 @@ textStatUnscheduledPurge	"#![BeginSeg 1]白血球を検出後、LRS チャンバ
 textStatValueOutOfRange	"#![BeginSeg 1]値が範囲外#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	21	1
 textStatWaitingForVista	"#![BeginSeg 1]Vista Information System を待機中...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textButtonLabelCfgLeftPlsTrali        "#![BeginSeg 1]対象ドナー#![EndSeg 1]"  255 247  57 0x0111   365   290   115    70  16    1  approved
+# Missing Japanese strings
+textMiscInstructionDispCloseClampJp         "#![BeginSeg 1]対象ドナー#![EndSeg 1]"  255 247  57 0x0111   365   290   115    70  16    1
+textACinPlasmaVolumeUnitCurr                "#![BeginSeg 1]mL#![EndSeg 1]"       255 247  57       0x0121   255   284    59    35  14     1
+textACinPlasmaVolumeValueCurr               ""                                   255 247  57       0x0121   238   290    45    23  14    1
+textACinPlasmaVolumeValueNext               ""                                  74  74  74          0x0121   225   343    59    19  12   1
+textACinPlasmaVolumeValuePrev               ""                                   74  74  74         0x0121   225   209    59    19  12    1 
+textACinPlasmaVolumeUnitNext                "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   338    59    35  11     1
+textACinPlasmaVolumeUnitPrev                "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   209    59    35  11     1
+textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  
+textAlarmBodyNoGraphicAcPrimeFailure        "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]End the run. #![EndSeg 3]#![BeginSeg 4]Disconnect the donor.\n#![EndSeg 4]#![BeginSeg 5]- The system did not detect fluid at the AC sensor after two attempts to prime. Tubing may not have been loaded correctly into the AC sensor.\n#![EndSeg 5]#![BeginSeg 6]- The system could not maintain pressure during AC prime. The donor line and sample bag line clamps may have been opened too soon.\n#![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]"  165   8   0 0x0100    15   120   455    300  18  1  
+textAlarmBodyNoGraphicPreWatchdogAlarm      "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.#![EndSeg 4]" 165 8 0  0x0100     15 120 455 300 18  1  
+textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  
+textAllowExtraWbcMessage                    "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  
+textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  
+textApsAlarmDetectPosPressure               "#![BeginSeg 1]Access pressure alert recovery#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  
+textButtonCfgMainSoftOpt                    "#![BeginSeg 1]Feature options#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   190     55  18    1  
+textCfgScreenLabelSoftOpt                   "#![BeginSeg 1]Active Features#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  
+textCfgSoftOptConfirmationCodeFormat        ""																																			0	0	0	0x0011     346     305   280     50  14    1  
+textCfgSoftOptConfirmationCodeLabel         "#![BeginSeg 1]Feature confirmation code#![EndSeg 1]"                                                                                       255 255  255 0x0011     346     285   280     25  14    1  
+textCfgSoftOptCountryFormat                 ""																																					255 247  57 0x0001     356     260   280     25  14    1  
+textCfgSoftOptCountryLabel                  "#![BeginSeg 1]Country:#![EndSeg 1]"																													255 255  255 0x0001     346     240   280     20  14    1  
+textCfgSoftOptCustomerFormat                ""																																					255 247  57 0x0001     356     215   280     25  14    1  
+textCfgSoftOptCustomerLabel                 "#![BeginSeg 1]Customer:#![EndSeg 1]"																												255 255  255 0x0001     346     195   280     20  14    1  
+textCfgSoftOptEmptyItem                     ""																																											   0   0   0 0x0101        10     2   280     25  10    1  
+textCfgSoftOptSerialNumberFormat            ""																																				255 247  57 0x0001     356     130   280     25  14    1  
+textCfgSoftOptSerialNumberLabel             "#![BeginSeg 1]Serial number:#![EndSeg 1]"																										255 255  255 0x0001     346     110   280     20  14    1  
+textCfgSoftOptSiteFormat                    ""																																						255 247  57 0x0001     356     170   280     25  14    1  
+textCfgSoftOptSiteLabel                     "#![BeginSeg 1]Site:#![EndSeg 1]"																														255 255  255 0x0001     346     155   280     20  14    1  
+textComplementaryPlasmaAvailable            "#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  
+textConfirmAcConnection                     "#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  
+textDisplayAverageInletFlow                 "#![BeginSeg 1]Procedural summary: Draw flow rate#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  
+textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  
+textEnableScreenshotButton                  "#![BeginSeg 1]Screenshot capture#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1  
+textEnableVistaCfr11Tracking                "#![BeginSeg 1]Vista tracking#![EndSeg 1]"                                           0     0    0 0x0001     10     2   280     25  10    1  
+textExtraPlasmaNoAc                         "#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  
+textJpSampleBagConfiguration                "#![BeginSeg 1]Sample bag configuration#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  
+textKeyboardEmptyFormatInit                 ""                                                                                                                       0   0   0 0x0101     20     10     470     85  18    1  
+textMiscClampPlasmaBagJp                    "#![BeginSeg 1]Close the clamp on the line between the plasma bag and the air removal bag#![EndSeg 1]"          255 247  57 0x0111    40   150   320   200  18    1  
+textMiscInstructionDispCloseClampsJp        "#![BeginSeg 1]Close the red clamp on the donor line and the white clamp on the sample bag line#![EndSeg 1]"                                                                                255 247  57 0x0111    15   125   610     0  18    1  
+textOgawaTbv                                "#![BeginSeg 1]Ogawa TBV#![EndSeg 1]"                                       0     0    0 0x0001     10     2   280     25  10    1  
+textPloFlag                                 "#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  
+textPloPca                                  "#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  
+textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    1  
+textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  
+textSoftOptInvalidKey                       "#![BeginSeg 1]Invalid key#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  
+textSpecialBlackStampNeedle                 "#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  
+textStatAlarmPreWatchdogAlarm               "#![BeginSeg 1]Re-establishing processor communication...#![EndSeg 1]#![BeginSeg 2]please wait#![EndSeg 2]"                                                                                             165   8   0 0x0101    54   146   182    14  18    1  
+textShowPlasmaVolume                        "#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
+
+
 STRING_FILE_TABLE_END

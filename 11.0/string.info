@@ -164,9 +164,7 @@ textCfgColLabelCfgPltPasVol                                         "#![BeginSeg
 textCfgScreenLabelAutoProc                                                     "#![BeginSeg 1]Automated processes#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved
 textButtonCfgMainAutoProc                                  "#![BeginSeg 1]Automated processes#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   190     55  18    1  approved
 textCfgScreenLabelSoftOpt                                                     "#![BeginSeg 1]Active Features#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved
-
 textCfgSoftOptEmptyItem                                         ""																																											   0   0   0 0x0101        10     2   280     25  10    1  approved
-
 textCfgSoftOptSerialNumberLabel                                                     "#![BeginSeg 1]Serial number:#![EndSeg 1]"																										255 255  255 0x0001     346     110   280     20  14    1  approved
 textCfgSoftOptCustomerLabel                                                     "#![BeginSeg 1]Customer:#![EndSeg 1]"																												255 255  255 0x0001     346     195   280     20  14    1  approved
 textCfgSoftOptSiteLabel                                                     "#![BeginSeg 1]Site:#![EndSeg 1]"																														255 255  255 0x0001     346     155   280     20  14    1  approved
@@ -178,7 +176,6 @@ textCfgSoftOptSiteFormat                                                     ""	
 textCfgSoftOptCountryFormat                                                     ""																																					255 247  57 0x0001     356     260   280     25  14    1  approved
 textCfgSoftOptConfirmationCodeFormat                                                     ""																																			0	0	0	0x0011     346     305   280     50  14    1  approved
 textButtonCfgMainSoftOpt                                  "#![BeginSeg 1]Feature options#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   190     55  18    1  approved
-
 textCfgColLabelCfgPltPercentPlasma                                     "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                                                                                                            255 247  57 0x0112    270   105   120    60  12    1  approved
 textButtonLabelCfgLeftAutoProcPasBagVol                                           "#![BeginSeg 1]Volume (mL) of the platelet additive solution bag#![EndSeg 1]"                                                                          255 247  57 0x0111    50   210   150    70  14    1  approved
 textButtonLabelCfgLeftAutoProcPasSplitNotifToggle                             "#![BeginSeg 1]Deliver additive solution to a separate bag#![EndSeg 1]"                                                                         255 247  57 0x0111    50   360   150    70  14    1  approved
@@ -1346,8 +1343,6 @@ textSoftOptInvalidKey                                                     "#![Be
  
 textACinPlasmaVolumeValueCurr                         ""                                   255 247  57       0x0121   238   290    45    23  14    1  approved   
 textACinPlasmaVolumeUnitCurr           "#![BeginSeg 1]mL#![EndSeg 1]"       255 247  57       0x0121   255   284    59    35  14     1  approved
-
-                                        
 textACinPlasmaVolumeValueNext                         ""                                  74  74  74          0x0121   225   343    59    19  12   1  approved
 textACinPlasmaVolumeValuePrev                         ""                                   74  74  74         0x0121   225   209    59    19  12    1  approved
 textACinPlasmaVolumeUnitNext          "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   338    59    35  11     1  approved
@@ -1430,7 +1425,7 @@ TEXT_CFG_COMP_PLS_LABEL_MAIN                    "#![BeginSeg 1]Plasma processes#
 
 
 ###################################################################################################################                                                                                                       
-TEXT_PLT_LABLE_COMP_PLS                                    "#![BeginSeg 1]Platelet product#![EndSeg 1]"                           239 239 239 0x0101    95   103   280    23  16    0  approved
+TEXT_PLT_LABEL_COMP_PLS                                    "#![BeginSeg 1]Platelet product#![EndSeg 1]"                           239 239 239 0x0101    95   103   280    23  16    0  approved
 
 #VOL:
 CMP2textDataLabelRs2PltVol                      "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                   74  74  74 0x0101    95   121   280    23  13    0  approved
@@ -1455,7 +1450,7 @@ CMP2textDataUnitsRs2PasVol                                     "#![BeginSeg 1]mL
 
                                
 ###################################################################################################################
-TEXT_PLS_LABLE_COMP_PLS                                  "#![BeginSeg 1]Plasma product#![EndSeg 1]"                            239 239 239 0x0101    95   226   280    23  16    0 approved
+TEXT_PLS_LABEL_COMP_PLS                                  "#![BeginSeg 1]Plasma product#![EndSeg 1]"                            239 239 239 0x0101    95   226   280    23  16    0 approved
 
 #VOL:
 CMP2textDataLabelRs2PlasVol                                    "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                      74  74  74 0x0101    95   245  280    23  13    0  approved
@@ -1474,7 +1469,7 @@ CMP2textDataUnitsRs2PlasAc                             "#![BeginSeg 1]mL#![EndSe
 
 
 ###################################################################################################################
-TEXT_RBC_LABLE_COMP_PLS                                         "#![BeginSeg 1]RBC product#![EndSeg 1]"                        239 239 239 0x0101    95   323   280    23  16    0  approved
+TEXT_RBC_LABEL_COMP_PLS                                         "#![BeginSeg 1]RBC product#![EndSeg 1]"                        239 239 239 0x0101    95   323   280    23  16    0  approved
 
 #VOL:
 CMP2textDataLabelRs2RbcVol                                       "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101       95   340   280    23  13    0  approved
