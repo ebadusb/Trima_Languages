@@ -15,7 +15,7 @@ STRING_FILE_TABLE_START
 fontName                  "Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	  "［"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	  "、。］ーっッ"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc               "0x78f348e6"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc               "0xcff9f23a"	0 0 0	0x0001	0	0	0	0	18	0
 languageId                "日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex             "4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm "CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -1256,6 +1256,7 @@ textStatValueOutOfRange	"#![BeginSeg 1]値が範囲外#![EndSeg 1]"	255 247 57	0
 textStatWaitingForVista	"#![BeginSeg 1]Vista Information System を待機中...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textButtonLabelCfgLeftPlsTrali        "#![BeginSeg 1]対象ドナー#![EndSeg 1]"  255 247  57 0x0111   365   290   115    70  16    1  approved
 # Missing Japanese strings
+textAlarmBodyNoGraphicControlSoftWatchdogAlarm  "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.#![EndSeg 4]" 165 8 0  0x0100 15 120 455 300 18  1 
 textMiscInstructionDispCloseClampJp         "#![BeginSeg 1]対象ドナー#![EndSeg 1]"  255 247  57 0x0111   365   290   115    70  16    1
 textACinPlasmaVolumeUnitCurr                "#![BeginSeg 1]mL#![EndSeg 1]"       255 247  57       0x0121   255   284    59    35  14     1
 textACinPlasmaVolumeValueCurr               ""                                   255 247  57       0x0121   238   290    45    23  14    1
@@ -1265,7 +1266,6 @@ textACinPlasmaVolumeUnitNext                "#![BeginSeg 1]mL#![EndSeg 1]"      
 textACinPlasmaVolumeUnitPrev                "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   209    59    35  11     1
 textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  
 textAlarmBodyNoGraphicAcPrimeFailure        "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]End the run. #![EndSeg 3]#![BeginSeg 4]Disconnect the donor.\n#![EndSeg 4]#![BeginSeg 5]- The system did not detect fluid at the AC sensor after two attempts to prime. Tubing may not have been loaded correctly into the AC sensor.\n#![EndSeg 5]#![BeginSeg 6]- The system could not maintain pressure during AC prime. The donor line and sample bag line clamps may have been opened too soon.\n#![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]"  165   8   0 0x0100    15   120   455    300  18  1  
-textAlarmBodyNoGraphicPreWatchdogAlarm      "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.#![EndSeg 4]" 165 8 0  0x0100     15 120 455 300 18  1  
 textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  
 textAllowExtraWbcMessage                    "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  
 textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  
