@@ -15,7 +15,7 @@ STRING_FILE_TABLE_START
 fontName                  "Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	  "［"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	  "、。］ーっッ"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc               "0xcff9f23a"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc               "0x8fea51f3"	0 0 0	0x0001	0	0	0	0	18	0
 languageId                "日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex             "4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm "CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -220,7 +220,7 @@ textButtonAbortPasExit	"#![BeginSeg 1]血小板保存用\n添加液の\n添加�
 textButtonAbortProcExit	"#![BeginSeg 1]処理終了#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortRasExit	"#![BeginSeg 1]赤血球保存用\n添加液の\n添加終了#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortReturnToPrev	"#![BeginSeg 1]前画面に戻る#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
-textButtonAbortRinsebackExit	"#![BeginSeg 1]リンスバック#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
+textButtonAbortRinsebackExit	"#![BeginSeg 1]リンスバック#![EndSeg 1]"	74  74 74	0x0111	5	5	142	93	21	1
 textButtonAbortSpilloverExit	"#![BeginSeg 1]スピル\nオーバー回復#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAdjustAirInPlasma	"#![BeginSeg 1]エアー\nブロック#![EndSeg 1]"	255 247 57	0x0111	5	2	110	50	17	1
 textButtonAdjustSalineBolus	"#![BeginSeg 1]生理食塩水の一時投与#![EndSeg 1]"	255 247 57	0x0111	5	2	110	50	17	1
