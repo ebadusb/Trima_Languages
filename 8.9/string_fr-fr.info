@@ -2,7 +2,7 @@ STRING_FILE_TABLE_START
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x3ea8e9c4"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xd9dd8960"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Français"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"1"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -1028,8 +1028,8 @@ textMiscSetIdOperatorPrompt	"#![BeginSeg 1]Le système ne reconnait pas le type 
 textMiscSplashCopyright	"#![BeginSeg 1]Copyright \x00a9 CaridianBCT, Inc.#![EndSeg 1]"	0 0 0	0x0101	100	425	540	10	14	1
 textMiscSplashProductDescription	"#![BeginSeg 1]Système automatisé de collecte de sang#![EndSeg 1]"	0 0 0	0x0100	100	325	540	30	16	1
 textMiscSysDispDontConnectAc	"#![BeginSeg 1]NE PAS connecter l'AC#![EndSeg 1]"	165 8 0	0x0111	0	386	640	35	18	1
-textMiscTlrFilterClamp	"#![BeginSeg 1]Close the clamps#![EndSeg 2]"	255 247	57	0x0111	100	120	188	0	18	1	unapproved
-textMiscTlrFilterHang	"#![BeginSeg 2]Hang#![EndSeg 2]"	255 247	57	0x0111	352	120	188	0	18	1	unapproved
+textMiscTlrFilterClamp	"#![BeginSeg 1]Close the clamps on the RBC bag lines#![EndSeg 2]"	255 247	57	0x0111	100	120	188	0	14	1	unapproved
+textMiscTlrFilterHang	"#![BeginSeg 2]Hang#![EndSeg 2]"	255 247	57	0x0111	352	120	188	0	14	1	unapproved
 textMiscTrimaVersion	"#![BeginSeg 1]Version 6.0#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	1
 textMiscTubingSetTest	"#![BeginSeg 1]NE PAS connecter l'AC lors du test du kit de collecte#![EndSeg 1]"	255 255 255	0x0111	70	195	220	0	18	1
 textMiscUnclampCrossover	"#![BeginSeg 1]Ouvrir le clamp sur\nla ligne de transfert#![EndSeg 1]"	255 247 57	0x0112	0	160	240	40	18	1
