@@ -93,7 +93,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"361b4dff"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xff848cb3"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -112,13 +112,13 @@ textAbortBodyRas	"#![BeginSeg 1]保存用添加液の添加終了とは、次の
 textAbortBodyRasOrPas	"#![BeginSeg 1]保存用添加液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存用添加液の添加が取り消されました。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・保存用添加液の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は操作説明書を参照してください。\n#![EndSeg 5]#![BeginSeg 6]・一方の製剤への添加を終了して、もう一方の製剤への添加を続けることもできます。#![EndSeg 6]"	165 8 0	0x0101	12	117	614	183	20	1
 textAbortBodyRinseback	"#![BeginSeg 1]リンスバックとは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・採取を終了します。\n#![EndSeg 2]#![BeginSeg 3]・回路セット内の血液がドナーに返血されます。\n\n#![EndSeg 3]#![BeginSeg 4]処理終了とは、次のことを意味します:\n#![EndSeg 4]#![BeginSeg 5]・手順が取り消されます。\n#![EndSeg 5]#![BeginSeg 6]・回路セット内の血液はドナーに返血されません。\n#![EndSeg 6]#![BeginSeg 7]・回路セットを取り外して廃棄する必要があります。#![EndSeg 7]"	165 8 0	0x0101	12	117	614	183	20	1
 textAbortBodySpillover	"#![BeginSeg 1]スピルオーバー回復とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・血小板ラインまたは血漿ライン内に赤血球が認められます。\n#![EndSeg 2]#![BeginSeg 3]・回復手順が完了するまで採血を一時中断します。#![EndSeg 3]"	165 8 0	0x0101	12	117	614	183	20	1
-textAiroutMitigation	"#![BeginSeg 1]エアー抜きによるリスク緩和#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textAiroutMitigation	"#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textAlarmBodyNoGraphic10MinPause	"#![BeginSeg 1]ドナーラインに血流がない状態で採血サイクル中に、各ポンプが 10 分間一時停止しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcClosFailAas	"#![BeginSeg 1]抗凝固剤がシールされてシステムから取り外されたことを確認できません。#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 3]#![BeginSeg 4]［添加終了］を押してください。問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcClosFailAasPasOk	"#![BeginSeg 1]抗凝固剤がシールされてシステムから取り外されたことを確認できません。#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を続けるか、［添加終了］を押して終了してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcHallHigh	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 5]#![BeginSeg 6]黒い点の付いたポンプローターが抗凝固剤ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcHallLow	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]抗凝固剤ポンプローターが正しく装着されていない可能性があります。#![EndSeg 5]#![BeginSeg 6]ローターを抗凝固剤ポンプに装着し直してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicAcPrimeFailure	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーに穿刺していないことを確認してください。\n#![EndSeg 4]#![BeginSeg 5]・システムはプライミングを 2 回試みましたが、\n抗凝固剤センサーで液体が検出されませんでした。チューブが抗凝固剤センサーに正しく装着されなかった可能性があります。\n#![EndSeg 5]#![BeginSeg 6]・抗凝固剤プライミング中、圧力を維持できませんでした。ドナーラインと初流血バッグラインの各クランプを開くのが早すぎた可能性があります。\n#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	19	1
+textAlarmBodyNoGraphicAcPrimeFailure	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーに穿刺していないことを確認してください。\n#![EndSeg 4]#![BeginSeg 5]・システムはプライミングを 2 回試みましたが、\n抗凝固剤センサーで液体が検出されませんでした。チューブが抗凝固剤センサーに正しく装着されなかった可能性があります。\n#![EndSeg 5]#![BeginSeg 6]・抗凝固剤プライミング中、圧力を維持できませんでした。ドナーラインと初流血バッグラインの各クランプを開くのが早すぎた可能性があります。\n\n#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	19	1
 textAlarmBodyNoGraphicAcPrimeInletOcclusion	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーからの抜針が確認されてカセットが上がります。#![EndSeg 4]#![BeginSeg 5]回路セットを廃棄してください。#![EndSeg 5]#![BeginSeg 6]その後、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcPriorToAcPrime	"#![BeginSeg 1]抗凝固剤センサーが液体を検出しました。#![EndSeg 1]#![BeginSeg 2]抗凝固剤接続が早すぎた可能性があります。#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 3]#![BeginSeg 4]［処理終了］を押し、回路セットを取り外して廃棄してください。#![EndSeg 4]#![BeginSeg 5]抗凝固剤が接続されていない場合には、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcStillNotDetected	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]抗凝固剤センサーが抗凝固剤を検出していません。#![EndSeg 3]#![BeginSeg 4]処理を終了して、ドナーから抜針してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
@@ -300,10 +300,10 @@ textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]スピルオーバー�
 textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]非常停止ボタンが押されました。#![EndSeg 1]#![BeginSeg 2]ポンプと遠心分離器が停止しました。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]カセットを現在の位置から取り外せません。#![EndSeg 1]#![BeginSeg 2]ドナーから抜針してください。#![EndSeg 2]#![BeginSeg 3]操作説明書の指示に従って、カセットを手動で取り外してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]バルブを所定の位置に移動できません。#![EndSeg 1]#![BeginSeg 2]バルブに異物がないか確認してください。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
-textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]手順選択: 流量調整#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textAllowExtraWbcMessage	"#![BeginSeg 1]設定: その他の白血球メッセージ#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textAmapPlateletsAvailable	"#![BeginSeg 1]設定: 血小板最適化#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textApsAlarmDetectPosPressure	"#![BeginSeg 1]採血圧警告の解消#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textAllowExtraWbcMessage	"#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textAmapPlateletsAvailable	"#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textApsAlarmDetectPosPressure	"#![BeginSeg 1]Access pressure alert recovery#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]High speed logging, access pressure sensor#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textButtonAbortAasExit	"#![BeginSeg 1]保存用添加液\nの添加終了#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
@@ -601,8 +601,8 @@ textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	1
 textCfgSoftOptSerialNumberLabel	"#![BeginSeg 1]シリアル番号:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	16	1
 textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	1
 textCfgSoftOptSiteLabel	"#![BeginSeg 1]所在地:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	16	1
-textComplementaryPlasmaAvailable	"#![BeginSeg 1]設定: PAS で置換された血漿#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textConfirmAcConnection	"#![BeginSeg 1]保存用添加液の設定: 抗凝固剤接続#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textComplementaryPlasmaAvailable	"#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textConfirmAcConnection	"#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textConfirmBodyAcConnect	"#![BeginSeg 1]接続されているバッグが\n抗凝固剤であることを再確認\nしてください。#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	20	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]すべてのカタログ番号を\n削除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textConfirmBodyCfgMachRefDeleteOne	"#![BeginSeg 1]カタログ番号の削除:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
@@ -762,8 +762,8 @@ textDataUnitsRunProcTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]分#![EndSeg 
 textDataUnitsRunProcTimeAm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]a.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
 textDataUnitsRunProcTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsRunProcTimePm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]p.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
-textDisplayAverageInletFlow	"#![BeginSeg 1]手順の要約: 採血流量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textDisplayResidualVolumes	"#![BeginSeg 1]手順の要約: 残留量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textDisplayAverageInletFlow	"#![BeginSeg 1]Procedural summary: Draw flow rate#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textDisplayResidualVolumes	"#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEmpty	""	0 0 0	0x0111	0	0	640	0	14	0
 textEmptyFormatAlarmBmpDisplay	""	165 8 0	0x0101	54	146	182	14	14	0
 textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
@@ -904,10 +904,10 @@ textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
 textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	16	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
-textEnableScreenshotButton	"#![BeginSeg 1]スクリーンショットのキャプチャー#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textEnableVistaCfr11Tracking	"#![BeginSeg 1]Vista がデータを追跡中#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textExtraPlasmaNoAc	"#![BeginSeg 1]抗凝固剤を含まない追加の血漿量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textJpSampleBagConfiguration	"#![BeginSeg 1]初流血バッグの設定#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textEnableScreenshotButton	"#![BeginSeg 1]Screenshot capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textEnableVistaCfr11Tracking	"#![BeginSeg 1]Vista tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textExtraPlasmaNoAc	"#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textJpSampleBagConfiguration	"#![BeginSeg 1]Sample bag configuration#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
 textKeypadUnitsCm	"#![BeginSeg 1]cm#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
 textKeypadUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
@@ -1195,10 +1195,10 @@ textMiscUnitsDonorVitalsHeightInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]i
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorVitalsWeightKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorVitalsWeightLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
-textOgawaTbv	"#![BeginSeg 1]Ogawa 循環血液総量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textPloFlag	"#![BeginSeg 1]血漿ライン閉塞メッセージ EPCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textPloPca	"#![BeginSeg 1]血漿ライン閉塞メッセージ PCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
-textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]血小板動員#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textOgawaTbv	"#![BeginSeg 1]Ogawa TBV#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPloFlag	"#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPloPca	"#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProdVerifLeukLabelPlasma	"#![BeginSeg 1]血漿製剤の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukLabelPlt	"#![BeginSeg 1]血小板製剤の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukLabelRbc	"#![BeginSeg 1]赤血球製剤の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
@@ -1247,11 +1247,11 @@ textProgBarLoad	"#![BeginSeg 1]装着#![EndSeg 1]"	255 247 57	0x0101	25	50	0	0	1
 textProgBarNoAdditionUnload	"#![BeginSeg 1]取り外し#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	18	1
 textProgBarUnload	"#![BeginSeg 1]取り外し#![EndSeg 1]"	255 247 57	0x0101	355	50	0	0	18	1
 textPumpStrokeVolumeLogging	"#![BeginSeg 1]Pump stroke volume logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
-textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]手順選択: 血小板製剤量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
-textShowPlasmaVolume	"#![BeginSeg 1]抗凝固剤を含まない血漿量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textShowPlasmaVolume	"#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textSoftOptInvalidKey	"#![BeginSeg 1]キーが正しくありません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
-textSpecialBlackStampNeedle	"#![BeginSeg 1]黒色シール付きカスタムニードル#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	11	1
+textSpecialBlackStampNeedle	"#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textStatAasActiveAddition	"#![BeginSeg 1]保存液の自動添加を実行中#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	20	1
 textStatAasActivePrime	"#![BeginSeg 1]プライミング中...#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	20	1
 textStatAasClampChannel	"#![BeginSeg 1]保存液の自動添加#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	20	1
