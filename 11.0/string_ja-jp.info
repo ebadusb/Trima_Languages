@@ -93,7 +93,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x6f266ce"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x4a743ac5"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -588,19 +588,19 @@ textCfgScreenLabelPrio	"#![BeginSeg 1]採取製品組み合わせ優先手順#![
 textCfgScreenLabelProc	"#![BeginSeg 1]手順#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelRbc	"#![BeginSeg 1]赤血球#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelRepFluid	"#![BeginSeg 1]置換液#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
-textCfgScreenLabelSoftOpt	"#![BeginSeg 1]有効な機能#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textCfgScreenLabelSoftOpt	"#![BeginSeg 1]Active Features#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1	unapproved
 textCfgScreenLabelVolLim	"#![BeginSeg 1]最大献血量制限#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	1
-textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]機能確認コード#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	16	1
+textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]Feature confirmation code#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	14	1	unapproved
 textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	1
-textCfgSoftOptCountryLabel	"#![BeginSeg 1]国名:#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	16	1
+textCfgSoftOptCountryLabel	"#![BeginSeg 1]Country:#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	14	1	unapproved
 textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	1
-textCfgSoftOptCustomerLabel	"#![BeginSeg 1]顧客:#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	16	1
+textCfgSoftOptCustomerLabel	"#![BeginSeg 1]Customer:#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	14	1	unapproved
 textCfgSoftOptEmptyItem	""	0 0 0	0x0101	10	2	280	25	10	1
 textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	1
-textCfgSoftOptSerialNumberLabel	"#![BeginSeg 1]シリアル番号:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	16	1
-textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	1
-textCfgSoftOptSiteLabel	"#![BeginSeg 1]所在地:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	16	1
+textCfgSoftOptSerialNumberLabel "#![BeginSeg 1]Serial number:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	14	1	unapproved
+textCfgSoftOptSiteFormat	""	255	247	57	0x0001	356	170	280	25	14	1
+textCfgSoftOptSiteLabel "#![BeginSeg 1]Site:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	14	1	unapproved
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textConfirmAcConnection	"#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textConfirmBodyAcConnect	"#![BeginSeg 1]接続されているバッグが\n抗凝固剤であることを再確認\nしてください。#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	20	1
