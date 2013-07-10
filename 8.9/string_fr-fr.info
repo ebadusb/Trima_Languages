@@ -2,11 +2,11 @@ STRING_FILE_TABLE_START
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x950d318"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x45cd3ca1"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Français"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"1"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Terminer l'ajout de solution signifie que :\n#![EndSeg 1]#![BeginSeg 2]- L'ajout de solution est annulé. #![EndSeg 2]#![BeginSeg 3]Déchargez et\njetez le kit de collecte.\n#![EndSeg 3]#![BeginSeg 4]- Un supplément de solution additive peut être nécessaire. #![EndSeg 4]#![BeginSeg 5]Consultez le manuel de l'opérateur pour plus d'informations.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Rétablir après bulle d'air signifie que :\n#![EndSeg 1]#![BeginSeg 2]- Vous observez de l'air dans la ligne plaquettes ou plasma.\n#![EndSeg 2]#![BeginSeg 3]- Le système suspend la collecte jusqu'à ce que\nle rétablissement soit terminé.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Terminer l'ajout de solution signifie que :\n#![EndSeg 1]#![BeginSeg 2]- L'ajout de solution est annulé. #![EndSeg 2]#![BeginSeg 3]Déchargez et jetez le kit de collecte.\n#![EndSeg 3]#![BeginSeg 4]- Un supplément de solution additive peut être nécessaire. #![EndSeg 4]#![BeginSeg 5]Consultez le manuel de l'opérateur pour plus d'informations.\n#![EndSeg 5]#![BeginSeg 6]- Vous pouvez également choisir de mettre fin à l'ajout de solution additive pour plaquettes et de poursuivre l'ajout de solution additive pour hématies.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
@@ -96,8 +96,8 @@ textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]Le système n
 textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]Le système ne peut pas confirmer que la ligne d'AC a été soudée. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la ligne d'AC a été soudée.\n#![EndSeg 3]#![BeginSeg 4]- la ligne d'AC a été retirée du détecteur.\n#![EndSeg 4]#![BeginSeg 5]- la poche d'AC a été retirée du système.\n#![EndSeg 5]#![BeginSeg 6]Sélectionnez 'Continuer'.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicAcHallHigh	"#![BeginSeg 1]Le système a rencontré une erreur liée à la pompe d'AC. #![EndSeg 1]#![BeginSeg 2]Le rotor de la pompe à plaquettes est peut-être chargé dans le mauvais emplacement. #![EndSeg 2]#![BeginSeg 3]Si la pompe avec le point noir est dans l'emplacement de la pompe d'AC, chargez-la dans l'emplacement de la pompe à plaquettes. #![EndSeg 3]#![BeginSeg 4]Si le problème se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
 textAlarmBodyWithGraphicAcHallLow	"#![BeginSeg 1]Le système a rencontré une erreur liée à la pompe d'AC. #![EndSeg 1]#![BeginSeg 2]Le rotor de la pompe d'AC n'est peut-être pas chargé correctement. #![EndSeg 2]#![BeginSeg 3]Rechargez le rotor de la pompe d'AC. #![EndSeg 3]#![BeginSeg 4]Si le problème se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
-textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]L'AC n'a pas été détecté au niveau du détecteur d'AC. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la poche d'AC n'est pas vide.\n#![EndSeg 3]#![BeginSeg 4]- la poche d'AC est connectée correctement.\n#![EndSeg 4]#![BeginSeg 5]Réinstallez la ligne d'AC dans le détecteur.#![EndSeg 5]#![BeginSeg 6]- The bag frangible is broken.\n#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	17	1	unapproved
-textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]Verify that the AC bag is connected correctly, the bag frangible is broken and the drip chamber is primed.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1	unapproved
+textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]L'AC n'a pas été détecté au niveau du détecteur d'AC. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la poche d'AC n'est pas vide.\n#![EndSeg 3]#![BeginSeg 4]- la poche d'AC est connectée correctement.\n#![EndSeg 4]#![BeginSeg 5]- le raccord sécable de la poche est cassé.\n#![EndSeg 5]#![BeginSeg 6]Réinstallez la ligne d'AC dans le détecteur.#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	17	1165 8 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]Vérifiez que la poche d'AC est connectée correctement, que le raccord sécable est cassé et que le goutte à goutte est amorcé.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicAcLevel02	"#![BeginSeg 1]Réinsérez la ligne d'AC dans le détecteur d'AC avec un mouvement de va-et-vient.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicAcLevel03	"#![BeginSeg 1]Remplacez la poche d'AC si elle est vide.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicAcOcclusion	"#![BeginSeg 1]Le système ne peut pas délivrer d'AC. #![EndSeg 1]#![BeginSeg 2]Vérifiez que la ligne d'AC n'est pas pliée ou obstruée. #![EndSeg 2]#![BeginSeg 3]Sélectionnez 'Continuer' pour poursuivre le don.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
@@ -155,7 +155,7 @@ textAlarmBodyWithGraphicInletHallLow	"#![BeginSeg 1]Le système a rencontré une
 textAlarmBodyWithGraphicLeakDetected	"#![BeginSeg 1]Le système a détecté une fuite dans la centrifugeuse. #![EndSeg 1]#![BeginSeg 2]Vérifiez la présence ou non de liquide dans l'anneau et la centrifugeuse. #![EndSeg 2]#![BeginSeg 3]Consultez le manuel de l'opérateur pour plus d'informations.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicPasLineOpen	"#![BeginSeg 1]Fermez le clamp de la ligne de solution additive pour plaquettes.#![EndSeg 1]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicPasPrimeEarly	"#![BeginSeg 1]Le système a détecté de la solution additive trop tôt. #![EndSeg 1]#![BeginSeg 2]Vérifiez que les clamps de la ligne de l'anneau sont fermés et sélectionnez 'Continuer'.#![EndSeg 2]"	165 8 0	0x0100	15	120	227	300	18	1
-textAlarmBodyWithGraphicPasPrimeLate	"#![BeginSeg 1]Le système n'a pas détecté de solution additive pour plaquettes. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la solution additive pour plaquettes est connectée correctement.\n#![EndSeg 3]#![BeginSeg 4]- le raccord sécable de la poche est cassé.\n#![EndSeg 4]#![BeginSeg 5]- le clamp est ouvert.\n#![EndSeg 5]#![BeginSeg 7]Vérifiez que les clamps de la ligne de l'anneau sont fermés et sélectionnez 'Continuer'.#![EndSeg 7]"	165 8 0	0x0100	15	120	227	300	15	1
+textAlarmBodyWithGraphicPasPrimeLate	"#![BeginSeg 1]Le système n'a pas détecté de solution additive pour plaquettes. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la solution additive pour plaquettes est connectée correctement.\n#![EndSeg 3]#![BeginSeg 4]- le raccord sécable de la poche est cassé.\n#![EndSeg 4]#![BeginSeg 5]- le clamp est ouvert.\n#![EndSeg 5]#![BeginSeg 7]Vérifiez que les clamps de la ligne de l'anneau sont fermés et sélectionnez 'Continuer'.#![EndSeg 7]"	165 8 0	0x0100	15	120	227	300	16	1
 textAlarmBodyWithGraphicPauseButton	"#![BeginSeg 1]Le bouton pause a été actionné. #![EndSeg 1]#![BeginSeg 2]Les pompes sont arrêtées et la centrifugeuse continue de fonctionner. #![EndSeg 2]#![BeginSeg 3]Sélectionnez 'Continuer' pour poursuivre le don.#![EndSeg 3]"	165 8 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicPlasmaHallHigh	"#![BeginSeg 1]Le système a rencontré une erreur liée à la pompe à plasma. #![EndSeg 1]#![BeginSeg 2]Le rotor de la pompe à plaquettes est peut-être chargé dans le mauvais emplacement. #![EndSeg 2]#![BeginSeg 3]Si la pompe avec le point noir est dans l'emplacement de la pompe à plasma, chargez-la dans l'emplacement de la pompe à plaquettes. #![EndSeg 3]#![BeginSeg 4]Si le problème se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	16	1
 textAlarmBodyWithGraphicPlasmaHallLow	"#![BeginSeg 1]Le système a rencontré une erreur liée à la pompe à plasma. #![EndSeg 1]#![BeginSeg 2]Le rotor de la pompe à plasma n'est peut-être pas correctement chargé. #![EndSeg 2]#![BeginSeg 3]Rechargez le rotor sur la pompe à plasma. #![EndSeg 3]#![BeginSeg 4]Si le problème se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 4]"	165 8 0	0x0100	15	120	227	300	18	1
@@ -844,7 +844,7 @@ textMiscAasPrime	"#![BeginSeg 1]Amorçage de la solution additive en cours...#![
 textMiscAasSealDetach	"#![BeginSeg 2]Souder et détacher\nles lignes#![EndSeg 2]"	255 247 57	0x0112	133	105	260	42	18	1
 textMiscAcConnBag1	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	40	155	110	100	18	1
 textMiscAcConnBag2	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	192	155	110	100	18	1
-textMiscAcConnBag3	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	344	155	110	100	18	1	unapproved
+textMiscAcConnBag3	"#![BeginSeg 1]AC#![EndSeg 1]"	57 24 132	0x0111	344	155	110	100	18	1
 textMiscAdjustDonationTimeRemaining	"#![BeginSeg 1]Temps restant pour le don#![EndSeg 1]"	239 239 239	0x0111	111	115	416	11	14	1
 textMiscAdjustMeterLabelAcReaction	"#![BeginSeg 1]Réaction\nà l'AC#![EndSeg 1]"	239 239 239	0x0111	252	170	104	14	14	1
 textMiscAdjustMeterLabelClumping	"#![BeginSeg 1]Agrégation#![EndSeg 1]"	239 239 239	0x0111	378	177	104	14	14	1
@@ -918,9 +918,9 @@ textMiscClampChannelLines	"#![BeginSeg 1]Fermer les clamps sur\nles lignes de l'
 textMiscClampChannelLinesOnly	"#![BeginSeg 1]Fermer les clamps sur les lignes de l'anneau#![EndSeg 1]"	255 247 57	0x0112	0	105	640	45	18	1
 textMiscClampCrossover	"#![BeginSeg 1]Fermer le clamp sur la ligne\nde transfert#![EndSeg 1]"	255 247 57	0x0111	20	110	360	300	18	1
 textMiscClampPasLine	"#![BeginSeg 1]Fermer le clamp de la ligne de solution\nadditive pour plaquettes#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
-textMiscClampPltFilter	"#![BeginSeg 1]Close the white platelet filter clamp#![EndSeg 1]"	255 247	57	0x0111	15	125	610	0	18	1	unapproved
 textMiscClampPltBagForSplit	"#![BeginSeg 1]Fermer la ligne de l'une des poches de plaquettes#![EndSeg 1]"	255 247 57	0x0111	40	150	320	200	18	1
 textMiscClampPltBagJp	"#![BeginSeg 1]Fermer la ligne de l'une des poches de plaquettes\n\n#![EndSeg 1]#![BeginSeg 2]Fermer les lignes des deux poches d'échantillonnage plaquettes#![EndSeg 2]"	255 247 57	0x0111	40	150	320	200	18	1
+textMiscClampPltFilter	"#![BeginSeg 1]Fermer le clamp blanc de la ligne du filtre plaquettes#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
 textMiscClampSampleBag	"#![BeginSeg 1]Fermer le clamp sur la ligne de la poche d'échantillonnage#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
 textMiscClosePtfLineSrbc	"#![BeginSeg 2]Fermer le clamp sur\nla ligne de la poche\nde chasse d'air#![EndSeg 2]"	255 247 57	0x0112	345	107	210	38	14	1
 textMiscClosePtfLines	"#![BeginSeg 3]Fermer le clamp blanc de\nla ligne hématies#![EndSeg 3]"	255 247 57	0x0112	428	107	210	38	14	1
@@ -941,12 +941,12 @@ textMiscInitDonorVitalsTbv	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	1
 textMiscInitDonorVitalsTbvSet	"#![BeginSeg 1]#!{dataItemTbv} ml#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
 textMiscInstructionAasRemoveTubingSet	"#![BeginSeg 2]Retirer le kit de collecte#![EndSeg 2]"	255 247 57	0x0112	375	105	260	42	18	1
 textMiscInstructionClose	"#![BeginSeg 1]4 : #![EndSeg 1]#![BeginSeg 2]Fermer#![EndSeg 2]"	255 247 57	0x0101	505	147	0	0	18	1
+textMiscInstructionDispBreakAc	"#![BeginSeg 1]2 : #![EndSeg 1]#![BeginSeg 2]Casser le raccord\nsécable de la poche#![EndSeg 2]"	255 247 57	0x0112	160	108	170	0	16	1
 textMiscInstructionDispCloseClamp	"#![BeginSeg 1]Fermer le clamp blanc de la ligne donneur#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
 textMiscInstructionDispCloseClamps	"#![BeginSeg 1]Fermer les clamps blancs de la ligne donneur et la ligne d'échantillonnage#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	18	1
 textMiscInstructionDispConnectAc	"#![BeginSeg 1]1 : #![EndSeg 1]#![BeginSeg 2]Connecter#![EndSeg 2]"	255 247 57	0x0112	6	128	170	0	16	1
-textMiscInstructionDispBreakAc	"#![BeginSeg 1]2 : #![EndSeg 1]#![BeginSeg 2]Cassez le raccord sécable de la poche#![EndSeg 2]" 255 247 57	0x0112	160	108	170	0	16	1	unapproved
-textMiscInstructionDispSqueezeAc	"#![BeginSeg 1]3 : #![EndSeg 1]#![BeginSeg 2]Presser#![EndSeg 2]"	255 247	57	0x0112	308	128	170	0	16	1	unapproved
-textMiscInstructionDispLoadAc	"#![BeginSeg 1]4 : #![EndSeg 1]#![BeginSeg 2]Charger#![EndSeg 2]"	255 247	57	0x0112	455	128	170	0	16	1	unapproved
+textMiscInstructionDispLoadAc	"#![BeginSeg 1]4 : #![EndSeg 1]#![BeginSeg 2]Charger#![EndSeg 2]"	255 247 57	0x0112	463	128	170	0	16	1
+textMiscInstructionDispSqueezeAc	"#![BeginSeg 1]3 : #![EndSeg 1]#![BeginSeg 2]Presser#![EndSeg 2]"	255 247 57	0x0112	308	128	170	0	16	1
 textMiscInstructionDonConnClose	"#![BeginSeg 1]3 : #![EndSeg 1]#![BeginSeg 2]Fermer#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
 textMiscInstructionDonConnCloseConnect	"#![BeginSeg 1]1 : #![EndSeg 1]#![BeginSeg 2]Fermer,\nconnecter#![EndSeg 2]"	255 247 57	0x0111	56	124	184	0	18	1
 textMiscInstructionDonConnCloseOpen	"#![BeginSeg 1]3 : #![EndSeg 1]#![BeginSeg 2]Fermer, ouvrir#![EndSeg 2]"	255 247 57	0x0111	424	144	184	0	18	1
@@ -1028,8 +1028,8 @@ textMiscSetIdOperatorPrompt	"#![BeginSeg 1]Le système ne reconnait pas le type 
 textMiscSplashCopyright	"#![BeginSeg 1]Copyright \x00a9 CaridianBCT, Inc.#![EndSeg 1]"	0 0 0	0x0101	100	425	540	10	14	1
 textMiscSplashProductDescription	"#![BeginSeg 1]Système automatisé de collecte de sang#![EndSeg 1]"	0 0 0	0x0100	100	325	540	30	16	1
 textMiscSysDispDontConnectAc	"#![BeginSeg 1]NE PAS connecter l'AC#![EndSeg 1]"	165 8 0	0x0111	0	386	640	35	18	1
-textMiscTlrFilterClamp	"#![BeginSeg 1]Close the clamps on the RBC filter lines#![EndSeg 2]"	255 247	57	0x0111	50	180	300	50	18	1	unapproved
-textMiscTlrFilterHang	"#![BeginSeg 2]Hang the organizer#![EndSeg 2]"	255 247	57	0x0111	50	230	300	50	18	1	unapproved
+textMiscTlrFilterClamp	"#![BeginSeg 1]Fermer les clamps sur les lignes de filtre hématies#![EndSeg 1]"	255 247 57	0x0111	35	180	330	50	18	1
+textMiscTlrFilterHang	"#![BeginSeg 2]Suspendre le support de poches#![EndSeg 2]"	255 247 57	0x0111	35	230	330	50	18	1
 textMiscTrimaVersion	"#![BeginSeg 1]Version 6.0#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	1
 textMiscTubingSetTest	"#![BeginSeg 1]NE PAS connecter l'AC lors du test du kit de collecte#![EndSeg 1]"	255 255 255	0x0111	70	195	220	0	18	1
 textMiscUnclampCrossover	"#![BeginSeg 1]Ouvrir le clamp sur\nla ligne de transfert#![EndSeg 1]"	255 247 57	0x0112	0	160	240	40	18	1
