@@ -6,7 +6,7 @@ languageCrc	"0x45cd3ca1"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Français"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"1"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Terminer l'ajout de solution signifie que :\n#![EndSeg 1]#![BeginSeg 2]- L'ajout de solution est annulé. #![EndSeg 2]#![BeginSeg 3]Déchargez et\njetez le kit de collecte.\n#![EndSeg 3]#![BeginSeg 4]- Un supplément de solution additive peut être nécessaire. #![EndSeg 4]#![BeginSeg 5]Consultez le manuel de l'opérateur pour plus d'informations.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Rétablir après bulle d'air signifie que :\n#![EndSeg 1]#![BeginSeg 2]- Vous observez de l'air dans la ligne plaquettes ou plasma.\n#![EndSeg 2]#![BeginSeg 3]- Le système suspend la collecte jusqu'à ce que\nle rétablissement soit terminé.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Terminer l'ajout de solution signifie que :\n#![EndSeg 1]#![BeginSeg 2]- L'ajout de solution est annulé. #![EndSeg 2]#![BeginSeg 3]Déchargez et jetez le kit de collecte.\n#![EndSeg 3]#![BeginSeg 4]- Un supplément de solution additive peut être nécessaire. #![EndSeg 4]#![BeginSeg 5]Consultez le manuel de l'opérateur pour plus d'informations.\n#![EndSeg 5]#![BeginSeg 6]- Vous pouvez également choisir de mettre fin à l'ajout de solution additive pour plaquettes et de poursuivre l'ajout de solution additive pour hématies.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
