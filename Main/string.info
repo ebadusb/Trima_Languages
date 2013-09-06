@@ -5,7 +5,7 @@ languageId                                                    "English"         
 languageIndex                                               "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm                           "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                                                     "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                                                 "0x413a2779"                 0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                                                 "0x1a57b0fd"                 0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                                              "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList                  "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList                                         "（(「｢［[‘“・"                 0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -684,7 +684,8 @@ textButtonLabelCfgDonLimVolWeightSettingLb                     "#![BeginSeg 2]We
 textButtonLabelCfgDonLimVolWeightSettingKg                     "#![BeginSeg 2]Weight (kg)#![EndSeg 2]"                                  255 247  57 0x0112    185    105   100     50  14    1  approved
 textButtonLabelCfgDonLimVolSmallBucketSetting                 "#![BeginSeg 1]Volume (mL)\n≤ weight#![EndSeg 1]"                 255 247  57 0x0112    333    105   100     50  14    1  approved
 textButtonLabelCfgDonLimVolLargeBucketSetting                 "#![BeginSeg 1]Volume (mL)\n> weight#![EndSeg 1]"                 255 247  57 0x0112    481    105   100     50  14    1  approved
-textButtonLabelCfgDonLimTbvSetting                                 "#![BeginSeg 2]TBV (%)#![EndSeg 2]"                                     255 247  57 0x0112    185     105   100    45  14    1  approved
+textButtonLabelCfgDonLimTbvSetting                                 "#![BeginSeg 2]TBV (%)#![EndSeg 2]"                                     255 247  57 0x0112    185     210   100    45  14    1  unapproved
+textButtonLabelCfgDonLimTbvSettingJp                                 "#![BeginSeg 2]TBV (%)#![EndSeg 2]"                                     255 247  57 0x0112    185     105   100    45  14    1  unapproved
 textButtonLabelCfgDonLimDrbcVolSetting                           "#![BeginSeg 2]Volume (L)#![EndSeg 2]"                                  255 247  57 0x0112    481    210   100     45  14    1  approved
 textButtonLabelCfgDonLimPlateletMaxVolume                     "#![BeginSeg 1]Volume (mL)#![EndSeg 1]"                  255 247  57 0x0112    185    210   100     50  14    1  approved
 textButtonLabelCfgDonLimMlPerKgSetting                             "#![BeginSeg 2]mL/kg#![EndSeg 2]"                                                                                                                 255 247  57 0x0112     185     310   100    45  14    1  approved
