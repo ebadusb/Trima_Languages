@@ -93,7 +93,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xd21a7c77"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x75f07c"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -796,6 +796,7 @@ textEmptyFormatDonDlHctInit	""	255 255 255	0x0111	416	347	171	24	18	0
 textEmptyFormatDonDlHeightInit	""	255 255 255	0x0111	416	211	171	24	18	0
 textEmptyFormatDonDlWeightInit	""	255 255 255	0x0111	416	245	171	24	18	0
 textEmptyFormatKeypadUsrEntryInit	""	0 0 0	0x0121	0	0	0	0	18	0
+textEmptyFormatKeypadAdminCodeInit	""	0 0 0	0x0121	0	0	0	0	14	0       unapproved
 textEmptyFormatListboxButton	""	255 255 255	0x0111	20	0	640	0	19	0
 textEmptyFormatOfflinePasData	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatOfflineRas1Data	""	255 255 255	0x0121	480	305	60	32	14	0
@@ -1021,7 +1022,7 @@ textMiscBloodTypeBPos	"#![BeginSeg 1]B+#![EndSeg 1]"	255 255 255	0x0111	416	313	
 textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]バッグのフランジ\nブルコネクターを\n折る。#![EndSeg 2]"	255 247 57	0x0101	177	105	160	45	15	1
 textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]バッグを架けて\nクランプを開く。#![EndSeg 2]"	255 247 57	0x0101	336	105	160	45	15	1
-textMiscCfgAdminNumDigits	"#![BeginSeg 1]回路セットコード:\n#![EndSeg 1]#![BeginSeg 2]8 桁#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]回路セットコード:\n#![EndSeg 1]#![BeginSeg 2]8 桁#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1	unapproved
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]血小板処理#![EndSeg 1]"	255 247 57	0x0101	68	110	300	25	20	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]赤血球処理#![EndSeg 1]"	255 247 57	0x0101	395	110	300	25	20	1
 textMiscCfgMachBarcode	"#![BeginSeg 1]バーコード#![EndSeg 1]"	255 247 57	0x0111	277	235	100	45	16	1
