@@ -1498,12 +1498,12 @@ CMP2textEmptyFormatRs2DatRasVol                                      ""         
 
 #################################################################################
 ###  AUTOFLOW ###
-JPHtextStatPredictScreenAFTimeout    "#![BeginSeg 1]Draw flow too low - Maximum procedure duration exceeded#![EndSeg 1]"               165   8   0 0x0101    54   146   182    14  18    1  approved
-JPHtextStatAlarmAFtenMin                  "#![BeginSeg 1]Donation time increase#![EndSeg 1]"                                                                  165   8   0 0x0101    54   146   182    14  18    1  approved
-JPHtextAlarmBodyAFtenMin                "#![BeginSeg 1]Draw flow cannot be\n maintained.#![EndSeg 1]#![BeginSeg 2]  Donation\n time has been increased \nby more than 10 minutes.\n#![EndSeg 2]#![BeginSeg 3]Verify:\n#![EndSeg 3]#![BeginSeg 4]-The needle is positioned \nin the donor's vein correctly.\n#![EndSeg 4]#![BeginSeg 5]-The donor is squeezing \nthe squeeze bulb.\n#![EndSeg 5]#![BeginSeg 6]-The donor is warm.\n#![EndSeg 6]"    165   8   0 0x0100    15   120   455    300  16  1  approved
+JPHtextStatPredictScreenAFTimeout    "#![BeginSeg 1]Draw flow too low - Maximum procedure duration exceeded#![EndSeg 1]"               165   8   0 0x0101    54   146   182    14  18    0  approved
+JPHtextStatAlarmAFtenMin                  "#![BeginSeg 1]Donation time increase#![EndSeg 1]"                                                                  165   8   0 0x0101    54   146   182    14  18    0  approved
+JPHtextAlarmBodyAFtenMin                "#![BeginSeg 1]Draw flow cannot be\n maintained.#![EndSeg 1]#![BeginSeg 2]  Donation\n time has been increased \nby more than 10 minutes.\n#![EndSeg 2]#![BeginSeg 3]Verify:\n#![EndSeg 3]#![BeginSeg 4]-The needle is positioned \nin the donor's vein correctly.\n#![EndSeg 4]#![BeginSeg 5]-The donor is squeezing \nthe squeeze bulb.\n#![EndSeg 5]#![BeginSeg 6]-The donor is warm.\n#![EndSeg 6]"    165   8   0 0x0100    15   120   455    300  16  0  approved
 
-JPHtextMiscTrimaVersion                                           "#![BeginSeg 1]Version 6.3.AF#![EndSeg 1]"                                                                                                              0   0   0 0x0102   100   350   540    70  18    1  approved
-JPHtextAutoFlowCfgBtn                                    "#![BeginSeg 1]AutoFlow#![EndSeg 1]"                                    255 247  57 0x0111    45   345   100    70  14    1  approved
+JPHtextMiscTrimaVersion                                           "#![BeginSeg 1]Version 6.3.AF#![EndSeg 1]"                                                                                                              0   0   0 0x0102   100   350   540    70  18    0  approved
+JPHtextAutoFlowCfgBtn                                    "#![BeginSeg 1]AutoFlow#![EndSeg 1]"                                    255 247  57 0x0111    45   345   100    70  14    0  approved
  
 
 #############################
