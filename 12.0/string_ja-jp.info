@@ -98,11 +98,11 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x16ae4670"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xe35e15cc"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
 textACinPlasmaVolumeUnitCurr	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0121	255	284	59	35	14	1
 textACinPlasmaVolumeUnitNext	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	338	59	35	11	1
 textACinPlasmaVolumeUnitPrev	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	209	59	35	11	1
@@ -201,8 +201,8 @@ textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]各チャネ�
 textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]抗凝固剤ラインがシールされたことを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤ラインがシールされていること。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤ラインがセンサーから取り外されていること。\n#![EndSeg 4]#![BeginSeg 5]・抗凝固剤バッグがシステムから取り外されていること。\n#![EndSeg 5]#![BeginSeg 6]［継続］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	230	300	19	1
 textAlarmBodyWithGraphicAcHallHigh	"#![BeginSeg 1]抗凝固剤ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 2]#![BeginSeg 3]黒い点の付いたポンプローターが抗凝固剤ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	19	1
 textAlarmBodyWithGraphicAcHallLow	"#![BeginSeg 1]抗凝固剤ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]抗凝固剤ポンプローターが正しく装着されていない可能性があります。#![EndSeg 2]#![BeginSeg 3]ローターを抗凝固剤ポンプに装着し直してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]抗凝固剤センサーが抗凝固剤を検出しませんでした。 #![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤バッグが空でないこと。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤バッグが正しく接続されていること。\n#![EndSeg 4]#![BeginSeg 5]・バッグのフランジブルコネクターが折れていること (存在する場合)。\n#![EndSeg 5]#![BeginSeg 6]抗凝固剤ラインをセンサーに取り付け直してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	230	300	18	1
-textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]抗凝固剤バッグが正しく接続され、バッグのフランジブルコネクターが折れていて (存在する場合)、ドリップチャンバーが液体で満たされていることを確認してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
+textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]抗凝固剤センサーが抗凝固剤を検出しませんでした。\n#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤バッグが空でないこと。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤バッグが正しく\n接続されていること。\n#![EndSeg 4]#![BeginSeg 5]・バッグにフランジブルコネクターが存在する場合、それが折れていること。\n#![EndSeg 5]#![BeginSeg 6]抗凝固剤ラインをセンサーに取り付け直してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	235	300	18	1
+textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]抗凝固剤バッグが正しく接続され、バッグに\nフランジブルコネクターが存在する場合はそれが折れていて、ドリップ\nチャンバーが液体で満たされていることを確認\nしてください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcLevel02	"#![BeginSeg 1]抗凝固剤ラインを上下させて抗凝固剤センサーにしっかり装着してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcLevel03	"#![BeginSeg 1]抗凝固剤バッグが空の場合は、バッグを交換してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcOcclusion	"#![BeginSeg 1]抗凝固剤を送液できません。#![EndSeg 1]#![BeginSeg 2]抗凝固剤ラインに折れや異物の混入がないか点検してください。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -459,7 +459,7 @@ textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]mL/kg#![EndSeg 2]"	255 247
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]容量 (mL)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	45	16	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]容量 (mL)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	45	16	1
 textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	50	16	1
-textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]循環血液総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	45	16	1
+textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]採血量 (mL)\n> 体重#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	16	1
 textButtonLabelCfgDonLimVolSmallBucketSetting	"#![BeginSeg 1]採血量 (mL)\n≦ 体重#![EndSeg 1]"	255 247 57	0x0112	333	105	100	50	16	1
 textButtonLabelCfgDonLimVolWeightSettingKg	"#![BeginSeg 2]体重 (kg)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
@@ -913,7 +913,7 @@ textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
 textEnableScreenshotButton	"#![BeginSeg 1]Screenshot capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEnableVistaCfr11Tracking	"#![BeginSeg 1]Vista tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textExtraPlasmaNoAc	"#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textJapanFeatures	"#![BeginSeg 1]日本版の機能#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textJapanFeatures	"#![BeginSeg 1]Japanese features#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
 textKeypadUnitsCm	"#![BeginSeg 1]cm#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
 textKeypadUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
@@ -1104,17 +1104,17 @@ textMiscInitDonorVitalsTbv	"#![BeginSeg 1]0 mL#![EndSeg 1]"	255 255 255	0x0111	1
 textMiscInitDonorVitalsTbvSet	"#![BeginSeg 1]#!{dataItemTbv} mL#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
 textMiscInstructionAasRemoveTubingSet	"#![BeginSeg 2]回路セットを取り外す。#![EndSeg 2]"	255 247 57	0x0101	395	105	260	42	18	1
 textMiscInstructionClose	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]閉める。#![EndSeg 2]"	255 247 57	0x0101	505	147	0	0	18	1
-textMiscInstructionDispBreakAcLuer	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]バッグのフランジブルコネクターを折る。#![EndSeg 2]"	255 247 57	0x0112	160	108	170	0	18	1
+textMiscInstructionDispBreakAcLuer	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]バッグのフランジ\nブルコネクターを\n折る。#![EndSeg 2]"	255 247 57	0x0101	172	105	150	0	15	1
 textMiscInstructionDispCloseClamp	"#![BeginSeg 1]ドナーラインの白色クランプを閉じてください。#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	20	1
 textMiscInstructionDispCloseClampJp	"#![BeginSeg 1]ドナーラインの赤色クランプを閉じてください。#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	20	1
 textMiscInstructionDispCloseClamps	"#![BeginSeg 1]ドナーラインと初流血バッグラインの各白色クランプを閉じてください。#![EndSeg 1]"	255 247 57	0x0111	5	125	635	0	18	1
 textMiscInstructionDispCloseClampsJp	"#![BeginSeg 1]ドナーラインの赤色クランプと初流血バッグラインの白色クランプを\n閉じてください。#![EndSeg 1]"	255 247 57	0x0111	0	125	640	0	20	1
 textMiscInstructionDispConnectAc	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]接続する。#![EndSeg 2]"	255 247 57	0x0101	55	128	170	0	20	1
-textMiscInstructionDispConnectAcLuer	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]接続する。#![EndSeg 2]"	255 247 57	0x0112	6	128	170	0	18	1
+textMiscInstructionDispConnectAcLuer	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]接続する。#![EndSeg 2]"	255 247 57	0x0102	18	128	145	0	18	1
 textMiscInstructionDispLoadAc	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]装着する。#![EndSeg 2]"	255 247 57	0x0101	418	128	170	0	20	1
-textMiscInstructionDispLoadAcLuer	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]装着する。#![EndSeg 2]"	255 247 57	0x0112	455	128	170	0	18	1
+textMiscInstructionDispLoadAcLuer	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]装着する。#![EndSeg 2]"	255 247 57	0x0102	477	128	145	0	18	1
 textMiscInstructionDispSqueezeAc	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]絞る。#![EndSeg 2]"	255 247 57	0x0101	236	128	170	0	20	1
-textMiscInstructionDispSqueezeAcLuer	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]絞る。#![EndSeg 2]"	255 247 57	0x0112	308	128	170	0	18	1
+textMiscInstructionDispSqueezeAcLuer	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]絞る。#![EndSeg 2]"	255 247 57	0x0102	323	128	145	0	18	1
 textMiscInstructionDonConnClose	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]閉じる。#![EndSeg 2]"	255 247 57	0x0101	430	144	210	0	18	1
 textMiscInstructionDonConnCloseConnect	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]閉じる、接続する。#![EndSeg 2]"	255 247 57	0x0101	66	144	210	0	18	1
 textMiscInstructionDonConnCloseOpen	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]閉じる、開く。#![EndSeg 2]"	255 247 57	0x0101	430	144	210	0	18	1
