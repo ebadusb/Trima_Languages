@@ -98,11 +98,11 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xe35e15cc"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x35c21d5e"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textACinPlasmaVolumeUnitCurr	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0121	255	284	59	35	14	1
 textACinPlasmaVolumeUnitNext	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	338	59	35	11	1
 textACinPlasmaVolumeUnitPrev	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	209	59	35	11	1
