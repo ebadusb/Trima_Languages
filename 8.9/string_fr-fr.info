@@ -2,7 +2,7 @@ STRING_FILE_TABLE_START
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x6f53aac9"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xe1e09529"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Français"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"1"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -1028,7 +1028,7 @@ textMiscSetIdOperatorPrompt	"#![BeginSeg 1]Le système ne reconnait pas le type 
 textMiscSplashCopyright	"#![BeginSeg 1]Copyright \x00a9 CaridianBCT, Inc.#![EndSeg 1]"	0 0 0	0x0101	100	425	540	10	14	1
 textMiscSplashProductDescription	"#![BeginSeg 1]Système automatisé de collecte de sang#![EndSeg 1]"	0 0 0	0x0100	100	325	540	30	16	1
 textMiscSysDispDontConnectAc	"#![BeginSeg 1]NE PAS connecter l'AC#![EndSeg 1]"	165 8 0	0x0111	0	386	640	35	18	1
-textMiscTlrFilterClamp	"#![BeginSeg 1]Fermer les clamps des lignes du dispositif hématies#![EndSeg 1]"	255 247 57	0x0111	35	180	330	50	18	1
+textMiscTlrFilterClamp	"#![BeginSeg 1]Fermer les clamps sur les lignes du filtre hématies#![EndSeg 1]"	255 247 57	0x0111	35	180	330	50	18	1
 textMiscTlrFilterHang	"#![BeginSeg 2]Suspendre le support de poches#![EndSeg 2]"	255 247 57	0x0111	35	230	330	50	18	1
 textMiscTrimaVersion	"#![BeginSeg 1]Version 6.0#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	1
 textMiscTubingSetTest	"#![BeginSeg 1]NE PAS connecter l'AC lors du test du kit de collecte#![EndSeg 1]"	255 255 255	0x0111	70	195	220	0	18	1
