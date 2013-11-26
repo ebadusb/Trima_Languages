@@ -5,7 +5,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x71862f1"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x691d5ac4"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1367,6 +1367,7 @@ textApsAlarmDetectPosPressure           "#![BeginSeg 1]Access pressure alert rec
 textShowPlasmaVolume           "#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
 textExtraPlasmaNoAc           "#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
 textJapanFeatures                "#![BeginSeg 1]Japanese features#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
+textAllowAutoConfPlasmaProcs     "#![BeginSeg 1]Allow auto configured plasma procedures#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textSoftOptInvalidKeyUser                                                    "#![BeginSeg 1]Invalid key: Unauthorized User#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textSoftOptInvalidKeyMachine                                                     "#![BeginSeg 1]Invalid key: Unauthorized Machine#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textSoftOptInvalidKeyFormat                                                     "#![BeginSeg 1]Invalid key: Bad Format#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
