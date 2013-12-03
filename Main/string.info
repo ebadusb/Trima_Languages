@@ -1,15 +1,13 @@
-﻿
 STRING_FILE_TABLE_START
 
 languageId                      "English"                     255 255 255 0x0001     0     0   100    50  12    0  approved
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x691d5ac4"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x8749a506"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
-
 
 ###########################################################################################################################################################################
 #                                              color:R  color:G  color:B   Style|Align    TopLeft:X  TopLeft:Y    Width   Height  Font   Localization  Tech Comm
@@ -287,6 +285,7 @@ textDataLabelPredConfFlow	      "#![BeginSeg 1]Draw flow rate#![EndSeg 1]"   	25
 textDataLabelPredConfAcRequired	      "#![BeginSeg 1]AC volume required#![EndSeg 1]"   	255 247  57 0x0101 20  173 200 24 14  1  approved
 textDataLabelPredConfDuration	      "#![BeginSeg 1]Duration#![EndSeg 1]"         	255 247  57 0x0101 20  195 200 24 14  1  approved
 textDataLabelPredConfTbvProcessed	   "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"	255 247  57 0x0101 20  217 200 24 14  1  approved
+textDataLabelPredConfPostPlt	   "#![BeginSeg 1]Post platelet count#![EndSeg 1]"	255 247  57 0x0101 20  239 200 24 14  1  unapproved
 textEmptyFormatPredConfirmPltVolData	   ""         	255 247  57 0x0121 212  63  30 24 14  0  approved
 textEmptyFormatPredConfirmPltYieldData	   ""         	255 247  57 0x0121 212  85  30 24 14  0  approved
 textEmptyFormatPredConfirmRbcVolData	   ""         	255 247  57 0x0121 212 107  30 24 14  0  approved
@@ -295,6 +294,7 @@ textEmptyFormatPredConfirmFlowData	      ""         	255 247  57 0x0121 212 151 
 textEmptyFormatPredConfirmAcData	      ""         	255 247  57 0x0121 212 173  30 24 14  0  approved
 textEmptyFormatPredConfirmTimeData	      ""         	255 247  57 0x0121 212 195  30 24 14  0  approved
 textEmptyFormatPredConfirmTbvProcessedData	   ""         	255 247  57 0x0121 212 217  30 24 14  0  approved
+textEmptyFormatPredConfPostPlt	              ""         	255 247  57 0x0121 212 239  30 24 14  0  unapproved
 textDataUnitsPredConfPltVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245  63  60 24 14  1  approved
 textDataUnitsPredConfPltYieldX10	   "#![BeginSeg 1]x 10#![EndSeg 1]"         	255 247  57 0x0101 245  85  60 24 14  0  approved
 textDataUnitsPredConfPltYieldExp	   "#![BeginSeg 1]11#![EndSeg 1]"         	255 247  57 0x0101 277  81  60 24 10  0  approved
@@ -304,6 +304,7 @@ textDataUnitsPredConfFlow	      "#![BeginSeg 1]mL/min#![EndSeg 1]"      	255 247
 textDataUnitsPredConfAcRequired	      "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245 173  60 24 14  1  approved
 textDataUnitsPredConfDuration	      "#![BeginSeg 1]min#![EndSeg 1]"         	255 247  57 0x0101 245 195  60 24 14  1  approved
 textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245 217  60 24 14  1  approved
+textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x 1000/µL#![EndSeg 1]"         	255 247  57 0x0101 245 239  80 24 14  1  unapproved
 textEmptyFormatAlarmNumberData                                    ""                                                                                                                      165   8   0 0x0102    15    70    90    30  18    0  approved
 textListboxItemCfgBloodTypeAll                                   "#![BeginSeg 1]All#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textStatConfigExitWait                                 "#![BeginSeg 2]Exiting configuration... #![EndSeg 2]#![BeginSeg 3]please wait#![EndSeg 3]"                                                                              255 247  57 0x0101     0     0     0     0  18  1  approved
@@ -745,6 +746,7 @@ textMiscBloodTypeANeg                                    "#![BeginSeg 1]A-#![End
 textMiscBloodTypeBPos                                    "#![BeginSeg 1]B+#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
 textMiscBloodTypeBNeg                                    "#![BeginSeg 1]B-#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
 textMiscBloodTypeOPos                                    "#![BeginSeg 1]O+#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
+textMiscBloodTypeONeg                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  unapproved
 textListboxItemCfgBloodTypeOn                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    0  approved
 textEmptyFormatCfgNumericTextFormatNull                            ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
 textButtonLabelCfgLeftMachAudio                                                   "#![BeginSeg 1]Audible alert volume#![EndSeg 1]"                                                                                                   255 247  57 0x0111    40   360   100    70  14    1  approved
