@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x96d29ade"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xf601e74d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -12,11 +12,13 @@ forbiddenEndCharList            "（(「｢［[‘“・"                       
 #                                              color:R  color:G  color:B   Style|Align    TopLeft:X  TopLeft:Y    Width   Height  Font   Localization  Tech Comm
 #                                              [0,255]  [0,255]  [0,255]        0x0SHV      [0,640]    [0,480]  [0,640]  [0,480]  Size   needed [0,1]  Approval
 #                                              -------  -------  -------   -----------    ---------  ---------  -------  -------  ----   ------------  -----------
-# TAG   "#![BeginSeg 1]STRING#![EndSeg 1]"         165        8        0        0x0100           15        120      227      300    18              1  approved/
-
+# TAG   "#![BeginSeg 1]STRING#![EndSeg 1]"         165        8        0        0x0100           15        120      227      300    18              1  approved/unapproved
 #                                                                         Style ---^   0=None, 1=bold,   2=italic, 3=italic+bold
 #                                                                         Horiz ----^  0=left, 1=center, 2=right
 #                                                                          Vert -----^ 0=top,  1=middle, 2=bottom
+# COLOR KEY:   YELLOW=( 255 247 57 ) RED=( 165 8 0 )
+#
+# NOTE: the enums below have to be right at the first column or the parse will skip them (very annoying)
 ###########################################################################################################################################################################
 textButtonBarcodeAc                                     "#![BeginSeg 1]AC#![EndSeg 1]"                                                                                                                      49   8 123 0x0111    10    10    85    35  14    1  approved
 textButtonBarcodeNacl                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0111    10    10    85    35  14    1  approved
@@ -89,6 +91,8 @@ textButtonFlagRbcWbcs                                  "#![BeginSeg 1]Verify the
 textButtonLabelCfgLeftProcAirRemoval                                     "#![BeginSeg 1]Product bag air removal#![EndSeg 1]"                                                                                                255 247  57 0x0111   350   295   150    70  14    1  approved
 textConfirmBodyRasConnect                                 "#![BeginSeg 1]Confirm that the connected bag is RBC additive solution#![EndSeg 1]"                                                                        255 247  57 0x0111     15     15   260   95  18    1  approved
 textConfirmBodyPasConnect                                 "#![BeginSeg 1]Confirm that the connected bag is platelet additive solution#![EndSeg 1]"                                                                   255 247  57 0x0111     15     15   260   95  18    1  approved
+textConfirmPasBarcode                                     "#![BeginSeg 1]Scan the NDC barcode on the platelet additive solution bag#![EndSeg 1]"                                                                     255 247  57 0x0111     40     40   315   100 18    1  unapproved
+textConfirmPasBarcodeInvalid                              "#![BeginSeg 1]The number scanned is invalid\n\n#![EndSeg 1]#![BeginSeg 2]Scan the NDC barcode on the platelet additive solution bag#![EndSeg 2]"            255 247  57 0x0110     40     40   315   100 18    1  unapproved
 textConfirmBodySalineConnect                                  "#![BeginSeg 1]Confirm that the connected bag is saline#![EndSeg 1]"                                                                                       255 247  57 0x0111     15     15   260   95  18    1  approved
 textConfirmBodyAcConnect                                      "#![BeginSeg 1]Confirm that the connected bag is AC#![EndSeg 1]"                                                                                           255 247  57 0x0111     15     15   260   95  18    1  approved
 textButtonLabelCfgLeftAutoProcExtraFlagMsgs                              "#![BeginSeg 1]Show additional leukoreduction messages#![EndSeg 1]"                                                                                255 247  57 0x0111   365   285   150    70  14    1  approved
@@ -1345,57 +1349,54 @@ textEmptyFormatSimScreenshotInfo                                 ""             
 
 ################################################################################################
 ##### Feature strings
-
+#####
 textEnableScreenshotButton                  "#![BeginSeg 1]Screenshot capture#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1  approved																								  
 textApsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, access pressure sensor#![EndSeg 1]"              0     0    0 0x0001     10     2   280     25  10    0  approved
 textCpsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, centrifuge pressure sensor#![EndSeg 1]"          0     0    0 0x0001     10     2   280     25  10    0  approved
 textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  approved
 textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  approved
 textConfirmAcConnection                     "#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
-textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  approved
-textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    1  approved
+textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
+textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  approved
 textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
 textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
 textComplementaryPlasmaAvailable            "#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
-textEnableVistaCfr11Tracking               "#![BeginSeg 1]Vista tracking#![EndSeg 1]"                                           0     0    0 0x0001     10     2   280     25  10    1  approved
-textAllowExtraWbcMessage           "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textServiceModePeriodicLog           "#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    0  approved
-textPumpStrokeVolumeLogging           "#![BeginSeg 1]Pump stroke volume logging#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    0  approved
-textSpecialBlackStampNeedle           "#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textPloFlag           "#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"   0     0    0 0x0001     10     2   280     25  10    1  approved
-textPloPca           "#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textApsAlarmDetectPosPressure           "#![BeginSeg 1]Access pressure alert recovery#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textShowPlasmaVolume           "#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textExtraPlasmaNoAc           "#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textJapanFeatures                "#![BeginSeg 1]Japanese features#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  approved
-textAllowAutoConfPlasmaProcs     "#![BeginSeg 1]Additional plasma only procedures#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textProcConfirmPopup     "#![BeginSeg 1]Procedure confirmation prompt#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textSoftOptInvalidKeyUser                                                    "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textSoftOptInvalidKeySerial                                                     "#![BeginSeg 1]Invalid Serial Number#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textSoftOptInvalidKeySite                                                     "#![BeginSeg 1]Invalid Site#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textSoftOptInvalidKeyCountry                                                     "#![BeginSeg 1]Invalid Country#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textSoftOptInvalidKeyCustomer                                                     "#![BeginSeg 1]Invalid Customer#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textSoftOptInvalidKeyFormat                                                     "#![BeginSeg 1]Invalid key#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textEnableVistaCfr11Tracking                "#![BeginSeg 1]Vista tracking#![EndSeg 1]"                                          0     0    0 0x0001     10     2   280     25  10    1  approved
+textAllowExtraWbcMessage                    "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"                  0     0    0 0x0001     10     2   280     25  10    1  approved
+textServiceModePeriodicLog                  "#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    0  approved
+textPumpStrokeVolumeLogging                 "#![BeginSeg 1]Pump stroke volume logging#![EndSeg 1]"                              0     0    0 0x0001     10     2   280     25  10    0  approved
+textSpecialBlackStampNeedle                 "#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"                               0     0    0 0x0001     10     2   280     25  10    1  approved
+textPloFlag                                 "#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  approved
+textPloPca                                  "#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
+textApsAlarmDetectPosPressure               "#![BeginSeg 1]Access pressure alert recovery#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    1  approved
+textShowPlasmaVolume                        "#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
+textExtraPlasmaNoAc                         "#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
+textJapanFeatures                           "#![BeginSeg 1]Japanese features#![EndSeg 1]"                                       0     0    0 0x0001     10     2   280     25  10    1  approved
+textAllowAutoConfPlasmaProcs                "#![BeginSeg 1]Additional plasma only procedures#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textProcConfirmPopup                        "#![BeginSeg 1]Procedure confirmation prompt#![EndSeg 1]"                           0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPasBagBarcodeScanFeature                "#![BeginSeg 1]PAS bag barcode scan confirmation#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
+
+textSoftOptInvalidKeyUser                   "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"                                       255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textSoftOptInvalidKeySerial                 "#![BeginSeg 1]Invalid Serial Number#![EndSeg 1]"                                   255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textSoftOptInvalidKeySite                   "#![BeginSeg 1]Invalid Site#![EndSeg 1]"                                            255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textSoftOptInvalidKeyCountry                "#![BeginSeg 1]Invalid Country#![EndSeg 1]"                                         255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textSoftOptInvalidKeyCustomer               "#![BeginSeg 1]Invalid Customer#![EndSeg 1]"                                        255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textSoftOptInvalidKeyFormat                 "#![BeginSeg 1]Invalid key#![EndSeg 1]"                                             255 247  57 0x0111     0     0   640     0  18    1  unapproved
+
 textACinPlasmaVolumeValueCurr                         ""                                   255 247  57       0x0121   238   290    45    23  14    1  approved   
 textACinPlasmaVolumeUnitCurr           "#![BeginSeg 1]mL#![EndSeg 1]"       255 247  57       0x0121   255   284    59    35  14     1  approved
 textACinPlasmaVolumeValueNext                         ""                                  74  74  74          0x0121   225   343    59    19  12   1  approved
 textACinPlasmaVolumeValuePrev                         ""                                   74  74  74         0x0121   225   209    59    19  12    1  approved
 textACinPlasmaVolumeUnitNext          "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   338    59    35  11     1  approved
 textACinPlasmaVolumeUnitPrev           "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   209    59    35  11     1  approved
+
 #########################################################################################################################################################################
-##################################################### English only Strings ##################################################################################################
-##################################################### English only Strings ##################################################################################################
-##################################################### English only Strings ##################################################################################################
-#########################################################################################################################################################################
-#########                                                                                    color       color       color    Style Horiz Vert     X      Y         W      H     Font Size     Localization needed      Tech Comm Approval
-#########                                                                                   (0..255)   (0..255)   (0..255)     x0SHV
-#########     TAG      "#![BeginSeg 1]STRING#![EndSeg 1]"             165          8            0           x0100             15    120      227   300         18                     1                          approved
-#########                                                                                                             STYLE 0=None, 1=bold, 2=italic, 3=italic&bold
-#########                                                                                                             HORIZ  0=left, 1=center, 2=right
-#########                                                                                                             VERT   0=top, 1=middle, 2=bottom
-#########  COLOR KEY   YELLOW ( 255 247  57) ;   RED (165   8   0 )
+##################################################### English only Strings ##############################################################################################
+##################################################### English only Strings ##############################################################################################
+##################################################### English only Strings ##############################################################################################
+#
 # ##  note: the enums below have to be right at the first column or the parse will skip them (very annoying)
-############################################################################################################################################################################
+#########################################################################################################################################################################
 
 ############  AMAP PLT SPECIFIC STRINGS:
 TEXT_CFG_PLT_AMAP_PRODUCT_COL_LBL     "#![BeginSeg 1]Products#![EndSeg 1]"                                    255 247  57 0x0100    40   105   45    120  12  0  approved
