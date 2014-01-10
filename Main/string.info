@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xee2407db"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xbc8443f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1370,6 +1370,7 @@ textJapanFeatures                           "#![BeginSeg 1]Japanese features#![E
 textAllowAutoConfPlasmaProcs                "#![BeginSeg 1]Additional plasma only procedures#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textProcConfirmPopup                        "#![BeginSeg 1]Procedure confirmation prompt#![EndSeg 1]"                           0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textPasBagBarcodeScanFeature                "#![BeginSeg 1]PAS bag barcode scan confirmation#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPIRPreferred                            "#![BeginSeg 1]PIR yield enhancement#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  unapproved
 
 textSoftOptInvalidKeyUser                   "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"                                       255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textSoftOptInvalidKeySerial                 "#![BeginSeg 1]Invalid Serial Number#![EndSeg 1]"                                   255 247  57 0x0111     0     0   640     0  18    1  unapproved
