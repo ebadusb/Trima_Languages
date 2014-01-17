@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xe0bbec6d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x1b1ce75c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -109,7 +109,7 @@ textProdVerifLeukLabelRbc2                                   "#![BeginSeg 1]RBC 
 textProdVerifReasonHeaderRbcQuality                                      "#![BeginSeg 1]Product quality may have been compromised for the following reasons:#![EndSeg 1]"                                                 255 255 255 0x0101   345   218   270     0  12    1  approved
 textButtonFlagRbcQuality                                "#![BeginSeg 1]Verify the RBC product quality#![EndSeg 1]"                                                                                             74  74  74 0x0101     10     10     302    40  16    1  approved
 textButtonLabelCfgLeftPltTrali                                   "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                                                                         255 247  57 0x0111   360   340   100    90  14    1  approved
-textButtonLabelCfgLeftPltAmapTrali                               "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                                                                         255 247  57 0x0111   370   356   100    90  14    1  approved
+textButtonLabelCfgLeftPltAmapTrali                               "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                                                                         255 247  57 0x0111   370   356   100    90  14    1  unapproved
 textListboxItemCfgTraliAll                                    "#![BeginSeg 1]All#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgTraliMaleOnly                              "#![BeginSeg 1]Males only#![EndSeg 1]"                                                                                                             255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgTraliMaleAndAbFemale                   "#![BeginSeg 1]Males + AB females#![EndSeg 1]"                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
@@ -214,7 +214,7 @@ textCfgColLabelCfgPltCollectConcExponent                                     "#!
 textMiscCfgMachCatNumDigits                                 "#![BeginSeg 1]Enter the 5 digit REF,\nor the last 6 digits of the 9 digit REF#![EndSeg 1]"                                                                   255 247  57 0x0101    10    25   620    75  14    1  approved
 textMiscCfgAdminNumDigits                               "#![BeginSeg 1]Tubing set code:\n#![EndSeg 1]#![BeginSeg 2]8 to 10 digits#![EndSeg 2]"                                                                                             255 247  57 0x0101    10    25   620    75  14    1  approved
 textMiscCfgPasVolInit                                     "#![BeginSeg 1]--#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0    50    20  14    0  approved
-textEmptyFormatCfgPltPasPercent                                 ""                                                                                                                      255 247  57 0x0111     0     0    50    20  14    0  approved
+textEmptyFormatCfgPltPasPercent                                 ""                                                                                                                      255 247  57 0x0111     0     0    50    20  14    0  unapproved
 textEmptyFormatCfgPltFinalConc                                 ""                                                                                                                      255 247  57 0x0111     0     0    50    20  14    0  approved
 textCfgColLabelCfgPltCollectConc                                        "#![BeginSeg 1]Collect\nconcentration\n(x 10/µL)#![EndSeg 1]"                                                                                     255 247  57 0x0112   452   105   120    60  12    1  unapproved
 textMiscClampPasLine                                      "#![BeginSeg 1]Close the clamp on the platelet additive solution line#![EndSeg 1]"                                                                  255 247  57 0x0111    15   125   610     0  18    1  approved
@@ -647,8 +647,8 @@ textEmptyFormatAlarmBmpDisplay                                    ""            
 textEmptyFormatAlarmNoBmpDisplay                                      ""                                                                                                                      165   8   0 0x0101    54   146    14   407  14    0  approved
 textMiscCfgMaxValue                                           "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    10    75   620    17  14    1  approved
 textMiscCfgMinValue                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    10    50   620    17  14    1  approved
-textMiscCfgMaxValue2                                           "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    300    35   620    17  14    1  approved
-textMiscCfgMinValue2                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    100    35   620    17  14    1  approved
+textMiscCfgMaxValue2                                           "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    300    35   620    17  14    1  unapproved
+textMiscCfgMinValue2                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    100    35   620    17  14    1  unapproved
 textMiscPasConnectMaxBagVol                           "#![BeginSeg 1]Maximum\nvalue = #![EndSeg 1]"                                                                                                       255 247  57 0x0101     5    28   100    36  12    1  approved
 textMiscPasConnectMinBagVol                           "#![BeginSeg 1]Minimum\nvalue = #![EndSeg 1]"                                                                                                       255 247  57 0x0101     5    64   100    36  12    1  approved
 textMiscCfgSplitRangeBottomLabel                              "#![BeginSeg 1]Single product range#![EndSeg 1]"                                                                                                   255 247  57 0x0101    10    46   200    17  14    1  approved
@@ -718,7 +718,7 @@ textButtonLabelCfgDonLimPlateletMaxVolume                     "#![BeginSeg 1]Vol
 textButtonLabelCfgDonLimMlPerKgSetting                             "#![BeginSeg 2]mL/kg#![EndSeg 2]"                                                                                                                 255 247  57 0x0112     185     310   100    45  14    1  approved
 textButtonLabelCfgDonLimPlasmaMaxVolume                     "#![BeginSeg 1]Volume (mL)#![EndSeg 1]"                  255 247  57 0x0112    185    310   100     50  14    1  approved
 textButtonLabelCfgLeftPltYsf                                           "#![BeginSeg 1]Yield scaling factor#![EndSeg 1]"                                                                                                   255 247  57 0x0111   120   340   100    90  14    1  approved
-textButtonLabelCfgLeftPltAmapYsf                                       "#![BeginSeg 1]Yield scaling factor#![EndSeg 1]"                                                                                                   255 247  57 0x0111   120   356   100    90  14    1  approved
+textButtonLabelCfgLeftPltAmapYsf                                       "#![BeginSeg 1]Yield scaling factor#![EndSeg 1]"                                                                                                   255 247  57 0x0111   120   356   100    90  14    1  unapproved
 textCfgRowLabelCfgPrio1                                     "#![BeginSeg 1]Procedure 1#![EndSeg 1]"                                                                                                            255 247  57 0x0101     0     0     0     0  14    1  approved
 textCfgRowLabelCfgPrio2                                     "#![BeginSeg 1]Procedure 2#![EndSeg 1]"                                                                                                            255 247  57 0x0101     0     0     0     0  14    1  approved
 textCfgRowLabelCfgPrio3                                     "#![BeginSeg 1]Procedure 3#![EndSeg 1]"                                                                                                            255 247  57 0x0101     0     0     0     0  14    1  approved
@@ -1401,21 +1401,21 @@ textACinPlasmaVolumeUnitPrev           "#![BeginSeg 1]mL#![EndSeg 1]"       74  
 #########################################################################################################################################################################
 
 ############  AMAP PLT SPECIFIC STRINGS:
-TEXT_CFG_PLT_AMAP_PRODUCT_COL_LBL     "#![BeginSeg 1]Products#![EndSeg 1]"                                    255 247  57 0x0100    40   65   45    120  12  0  approved
-TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL    "#![BeginSeg 1]Min Yield\n(x10   )#![EndSeg 1]"               255 247  57 0x0112    90   65   120    60  12    0  approved
-TEXT_CFG_PLT_AMAP_MIN_YIELD_EXP_COL_LBL  "#![BeginSeg 1]11#![EndSeg 1]"                                 255 247  57 0x0100   156   110    10    15   8    0  approved
-TEXT_CFG_PLT_AMAP_MAX_YIELD_COL_LBL        "#![BeginSeg 1]Max Yield\n(x10   )#![EndSeg 1]"              255 247  57 0x0112    180   65   120    60   12 0  approved
-TEXT_CFG_PLT_AMAP_MAX_YIELD_EXP_COL_LBL "#![BeginSeg 1]11#![EndSeg 1]"                                 255 247  57 0x0100   246   110    10    15   8    0  approved
-TEXT_CFG_PLT_AMAP_FINALCONC_EXP_COL_LBL  "#![BeginSeg 1]3#![EndSeg 1]"                                   255 247  57 0x0100   330   110    10    15   8    0  approved
-TEXT_CFG_PLT_AMAP_CONC_EXP_COL_LBL           "#![BeginSeg 1]3#![EndSeg 1]"                                      255 247  57 0x0100   510   110    10    15   8    0  approved
+TEXT_CFG_PLT_AMAP_PRODUCT_COL_LBL     "#![BeginSeg 1]Products#![EndSeg 1]"                                    255 247  57 0x0100    40   65   45    120  12  0  unapproved
+TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL    "#![BeginSeg 1]Min Yield\n(x10   )#![EndSeg 1]"               255 247  57 0x0112    90   65   120    60  12    0  unapproved
+TEXT_CFG_PLT_AMAP_MIN_YIELD_EXP_COL_LBL  "#![BeginSeg 1]11#![EndSeg 1]"                                 255 247  57 0x0100   156   110    10    15   8    0  unapproved
+TEXT_CFG_PLT_AMAP_MAX_YIELD_COL_LBL        "#![BeginSeg 1]Max Yield\n(x10   )#![EndSeg 1]"              255 247  57 0x0112    180   65   120    60   12 0  unapproved
+TEXT_CFG_PLT_AMAP_MAX_YIELD_EXP_COL_LBL "#![BeginSeg 1]11#![EndSeg 1]"                                 255 247  57 0x0100   246   110    10    15   8    0  unapproved
+TEXT_CFG_PLT_AMAP_FINALCONC_EXP_COL_LBL  "#![BeginSeg 1]3#![EndSeg 1]"                                   255 247  57 0x0100   330   110    10    15   8    0  unapproved
+TEXT_CFG_PLT_AMAP_CONC_EXP_COL_LBL           "#![BeginSeg 1]3#![EndSeg 1]"                                      255 247  57 0x0100   510   110    10    15   8    0  unapproved
 
 TEXT_CFG_PLT_AMAP_FINAL_CONC_COL_LBL  "#![BeginSeg 1]Final\nconcentration\n(x10 /µL)#![EndSeg 1]"   255 247  57 0x0112    270   65   120    60  12    0  unapproved
-TEXT_CFG_PLT_AMAP_PPCO_COL_LBL            "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                               255 247  57 0x0112   360   65   120    60  12    0  approved
+TEXT_CFG_PLT_AMAP_PPCO_COL_LBL            "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                               255 247  57 0x0112   360   65   120    60  12    0  unapproved
 TEXT_CFG_PLT_AMAP_CONC_COL_LBL            "#![BeginSeg 1]Collect\nConcentration\n(x10 /µL)#![EndSeg 1]"              255 247  57 0x0112   450   65   120    60  12  0  unapproved
-TEXT_CFG_PLT_AMAP_SS_RANGE_COL_LBL    "#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"    255 247  57 0x0112   555   65    85    60  12    0  approved
-TEXT_CFG_PLT_AMAP_SINGLE_ROW_BTN       "#![BeginSeg 1]Single#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12   0  approved
-TEXT_CFG_PLT_AMAP_DOUBLE_ROW_BTN       "#![BeginSeg 1]Double#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12    0 approved
-TEXT_CFG_PLT_AMAP_TRIPLE_ROW_BTN       "#![BeginSeg 1]Triple#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12    0 approved
+TEXT_CFG_PLT_AMAP_SS_RANGE_COL_LBL    "#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"    255 247  57 0x0112   555   65    85    60  12    0  unapproved
+TEXT_CFG_PLT_AMAP_SINGLE_ROW_BTN       "#![BeginSeg 1]Single#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12   0  unapproved
+TEXT_CFG_PLT_AMAP_DOUBLE_ROW_BTN       "#![BeginSeg 1]Double#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12    0 unapproved
+TEXT_CFG_PLT_AMAP_TRIPLE_ROW_BTN       "#![BeginSeg 1]Triple#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12    0 unapproved
 
 TEXT_CFG_PAS_MIN_VOL         "#![BeginSeg 1]--#![EndSeg 1]"              255 247  57 0x0111     0     0    50    20  14    0  approved
 TEXT_CFG_PAS_MINMAX_SEP  "#![BeginSeg 1] - #![EndSeg 1]"             255 247  57 0x0111     0     0    50    20  14    0  approved
