@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x1b1ce75c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x20e38ef6"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1362,7 +1362,7 @@ textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization
 textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
 textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
 textComplementaryPlasmaAvailable            "#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
-textEnableVistaCfr11Tracking                "#![BeginSeg 1]Vista tracking#![EndSeg 1]"                                          0     0    0 0x0001     10     2   280     25  10    1  approved
+textEnableVistaCfr11PinLogging              "#![BeginSeg 1]CFR11 pin logging#![EndSeg 1]"                                          0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textAllowExtraWbcMessage                    "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"                  0     0    0 0x0001     10     2   280     25  10    1  approved
 textServiceModePeriodicLog                  "#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    0  approved
 textPumpStrokeVolumeLogging                 "#![BeginSeg 1]Pump stroke volume logging#![EndSeg 1]"                              0     0    0 0x0001     10     2   280     25  10    0  approved
