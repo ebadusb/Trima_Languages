@@ -91,7 +91,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xa5a5d419"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x218f5c9b"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -242,7 +242,6 @@ textAlarmBodyWithGraphicDrawCycleShortOneClamp	"#![BeginSeg 1]採血サイクル
 textAlarmBodyWithGraphicDrawCycleShortThreeClamp	"#![BeginSeg 1]採血サイクルが短すぎます。#![EndSeg 1]#![BeginSeg 2]チャネルラインの各クランプが開いていることを確認してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicDrbcAasSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]片方の赤血球ラインの白色クランプを閉じてください。\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]もう一方の赤血球ラインの青色クランプを開いてください。\n#![EndSeg 4]#![BeginSeg 5]［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicDrbcPtfSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]片方の赤血球ラインの青色クランプを閉じてください。\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]もう一方の赤血球ラインの白色クランプを開いてください。\n#![EndSeg 4]#![BeginSeg 5]［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicDrbcRasEmpty	"#![BeginSeg 1]赤血球保存用添加液バッグがほとんど空になっています。#![EndSeg 1]#![BeginSeg 2]スパイク接続ラインのクランプを閉じてから、クランプが開いた状態のスパイク接続ラインに新しいバッグを接続します。#![EndSeg 2]#![BeginSeg 4]バッグのフランジブルコネクターを折ります。#![EndSeg 4]#![BeginSeg 3]［継続］を押してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicDrbcSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]赤血球が入っているバッグのラインを閉じてください。\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]空の赤血球バッグのラインを開いてください。\n#![EndSeg 4]#![BeginSeg 5]［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicFailureToRelievePressure	"#![BeginSeg 1]回路セットの圧力を解放できませんでした。#![EndSeg 1]#![BeginSeg 2]抗凝固剤ラインに折れや異物の混入がないか点検してください。#![EndSeg 2]#![BeginSeg 3]抗凝固剤フィルターが乾燥していることを確認してください。#![EndSeg 3]#![BeginSeg 4]準備ができたら、［継続］を押して手順を再開してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicFluidAtAcAas	"#![BeginSeg 1]抗凝固剤センサーが液体を検出しました。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤ラインがシールされていること。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤ラインがセンサーから取り外されていること。\n#![EndSeg 4]#![BeginSeg 5]・抗凝固剤バッグがシステムから取り外されていること。\n［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
