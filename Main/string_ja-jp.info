@@ -44,7 +44,6 @@ TEST_PREDICT_COMP_PLS_VOLM	""	255 247 57	0x0111	300	280	59	35	14	0
 TEXT_CFG_COMP_PLS_LABEL	"#![BeginSeg 1]Plasma replaced by platelet additive solution#![EndSeg 1]"	255 247 57	0x0111	352	358	175	70	14	0
 TEXT_CFG_COMP_PLS_LABEL_MAIN	"#![BeginSeg 1]Plasma processes#![EndSeg 1]"	255 247 57	0x0111	350	294	275	35	18	0
 TEXT_CFG_PAS_MAX_VOL	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
-TEXT_CFG_PAS_MINMAX_SEP	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
 TEXT_CFG_PAS_MIN_VOL	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
 TEXT_CFG_PLT_AMAP_CONC_COL_LBL	"#![BeginSeg 1]Collect\nConcentration\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	450	105	120	60	12	0
 TEXT_CFG_PLT_AMAP_CONC_EXP_COL_LBL	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	510	150	10	15	8	0
@@ -56,7 +55,6 @@ TEXT_CFG_PLT_AMAP_MAX_YIELD_EXP_COL_LBL	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 5
 TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL	"#![BeginSeg 1]Min Yield\n(x10   )#![EndSeg 1]"	255 247 57	0x0112	90	105	120	60	12	0
 TEXT_CFG_PLT_AMAP_MIN_YIELD_EXP_COL_LBL	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	150	10	15	8	0
 TEXT_CFG_PLT_AMAP_PPCO_COL_LBL	"#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"	255 247 57	0x0112	360	105	120	60	12	0
-TEXT_CFG_PLT_AMAP_PRODUCT_COL_LBL	"#![BeginSeg 1]Products#![EndSeg 1]"	255 247 57	0x0100	40	105	45	120	12	0
 TEXT_CFG_PLT_AMAP_SINGLE_ROW_BTN	"#![BeginSeg 1]Single#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	12	0
 TEXT_CFG_PLT_AMAP_SS_RANGE_COL_LBL	"#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"	255 247 57	0x0112	555	105	85	60	12	0
 TEXT_CFG_PLT_AMAP_TRIPLE_ROW_BTN	"#![BeginSeg 1]Triple#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	12	0
@@ -93,7 +91,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x75f07c"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xa5a5d419"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -194,8 +192,6 @@ textAlarmBodyWithGraphic1MinPause	"#![BeginSeg 1]各ポンプは一時停止し�
 textAlarmBodyWithGraphicAasClampClosAddition	"#![BeginSeg 1]各チャネルラインのクランプが閉じているかを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・各クランプが正しく閉じていること。\n#![EndSeg 3]#![BeginSeg 4]［継続］を押してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]各チャネルラインのクランプが閉じているかを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・各クランプが正しく閉じていること。\n#![EndSeg 3]#![BeginSeg 4]・保存用添加液が接続されていないこと。\n#![EndSeg 4]#![BeginSeg 5]［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]抗凝固剤ラインがシールされたことを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤ラインがシールされていること。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤ラインがセンサーから取り外されていること。\n#![EndSeg 4]#![BeginSeg 5]・抗凝固剤バッグがシステムから取り外されていること。\n#![EndSeg 5]#![BeginSeg 6]［継続］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	230	300	19	1
-textAlarmBodyWithGraphicAcHallHigh	"#![BeginSeg 1]抗凝固剤ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 2]#![BeginSeg 3]黒い点の付いたポンプローターが抗凝固剤ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	19	1
-textAlarmBodyWithGraphicAcHallLow	"#![BeginSeg 1]抗凝固剤ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]抗凝固剤ポンプローターが正しく装着されていない可能性があります。#![EndSeg 2]#![BeginSeg 3]ローターを抗凝固剤ポンプに装着し直してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]抗凝固剤センサーが抗凝固剤を検出しませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤バッグが空でないこと。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤バッグが正しく接続されていること。\n#![EndSeg 4]#![BeginSeg 5]抗凝固剤ラインをセンサーに取り付け直してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1	unapproved
 textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]抗凝固剤バッグが正しく接続され、ドリップチャンバーが液体で満たされていることを確認してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1	unapproved
 textAlarmBodyWithGraphicAcLevel02	"#![BeginSeg 1]抗凝固剤ラインを上下させて抗凝固剤センサーにしっかり装着してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -250,18 +246,12 @@ textAlarmBodyWithGraphicDrbcRasEmpty	"#![BeginSeg 1]赤血球保存用添加液�
 textAlarmBodyWithGraphicDrbcSplit	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]赤血球が入っているバッグのラインを閉じてください。\n#![EndSeg 2]#![BeginSeg 3]2: #![EndSeg 3]#![BeginSeg 4]空の赤血球バッグのラインを開いてください。\n#![EndSeg 4]#![BeginSeg 5]［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicFailureToRelievePressure	"#![BeginSeg 1]回路セットの圧力を解放できませんでした。#![EndSeg 1]#![BeginSeg 2]抗凝固剤ラインに折れや異物の混入がないか点検してください。#![EndSeg 2]#![BeginSeg 3]抗凝固剤フィルターが乾燥していることを確認してください。#![EndSeg 3]#![BeginSeg 4]準備ができたら、［継続］を押して手順を再開してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicFluidAtAcAas	"#![BeginSeg 1]抗凝固剤センサーが液体を検出しました。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤ラインがシールされていること。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤ラインがセンサーから取り外されていること。\n#![EndSeg 4]#![BeginSeg 5]・抗凝固剤バッグがシステムから取り外されていること。\n［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicInletHallHigh	"#![BeginSeg 1]採血ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 2]#![BeginSeg 3]黒い点の付いたポンプローターが採血ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	19	1
-textAlarmBodyWithGraphicInletHallLow	"#![BeginSeg 1]採血ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]採血ポンプローターが正しく装着されていない可能性があります。#![EndSeg 2]#![BeginSeg 3]ローターを採血ポンプに装着し直してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicLeakDetected	"#![BeginSeg 1]遠心分離器でリークが検出されました。#![EndSeg 1]#![BeginSeg 2]チャネルと遠心分離器の液漏れを点検してください。#![EndSeg 2]#![BeginSeg 3]詳しい手順は操作説明書を参照してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPasLineOpen	"#![BeginSeg 1]血小板保存用添加液ラインのクランプを閉じてください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPasPrimeEarly	"#![BeginSeg 1]保存用添加液が早めに検出されました。#![EndSeg 1]#![BeginSeg 2]チャネルラインの各クランプが閉じていることを確認して、［継続］を押してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPasPrimeLate	"#![BeginSeg 1]血小板保存用添加液が検出されませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・血小板保存用添加液が正しく接続されていること。\n#![EndSeg 3]#![BeginSeg 4]・バッグのフランジブルコネクターが折れていること。\n#![EndSeg 4]#![BeginSeg 5]・クランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]・各チャネルラインのクランプが閉じていること。\n#![EndSeg 6]#![BeginSeg 7]［継続］を押してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	230	300	19	1
 textAlarmBodyWithGraphicPauseButton	"#![BeginSeg 1]一時停止ボタンが押されました。#![EndSeg 1]#![BeginSeg 2]各ポンプは停止しますが、遠心分離器の動作は継続します。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicPlasmaHallHigh	"#![BeginSeg 1]血漿ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 2]#![BeginSeg 3]黒い点の付いたポンプローターが血漿ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	19	1
-textAlarmBodyWithGraphicPlasmaHallLow	"#![BeginSeg 1]血漿ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]血漿ポンプローターが正しく装着されていない可能性があります。#![EndSeg 2]#![BeginSeg 3]ローターを血漿ポンプに装着し直してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPlasmaValveFailure	"#![BeginSeg 1]血漿バルブの位置が正しくありません。#![EndSeg 1]#![BeginSeg 2]血漿バルブに異物がないか点検してください。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicPltHallHigh	"#![BeginSeg 1]血小板ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]すべてのポンプローターが、所定の位置に正しく装着されていることを確認してください。#![EndSeg 2]#![BeginSeg 3]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicPltHallLow	"#![BeginSeg 1]血小板ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]血小板ポンプローターが正しく装着されていないか、血小板ローターハウジングに正しくないポンプローターが装着されている可能性があります。#![EndSeg 2]#![BeginSeg 3]黒い点の付いたポンプローターが血小板ローターハウジングに装着されていることを確認してください。#![EndSeg 3]#![BeginSeg 4]ローターを血小板ポンプに装着し直してください。#![EndSeg 4]#![BeginSeg 5]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	17	1
 textAlarmBodyWithGraphicPressurizeInletFailure00	"#![BeginSeg 1]圧力を維持できません。\n#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・ドナーラインの針に近いクランプと初流血バッグラインのクランプが閉じていること。\n#![EndSeg 3]#![BeginSeg 4]・初流血バッグにエアーがないこと。\n#![EndSeg 4]#![BeginSeg 5]・各ポンプヘッダーが正しく装着されていること。\n#![EndSeg 5]#![BeginSeg 6]・カセットが正しく装着され、異物が見られないこと。#![EndSeg 6]"	165 8 0	0x0100	15	120	230	300	19	1
 textAlarmBodyWithGraphicPressurizeInletFailure01	"#![BeginSeg 1]ドナーラインのクランプ ① と初流血バッグラインのクランプ ② が正しく閉じていることを確認してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPressurizeInletFailure01Ais	"#![BeginSeg 1]初流血バッグにエアーが見られる場合は、ドナーラインのクランプ ① と初流血バッグのクランプ ② を開いてエアーを除去してください。\n#![EndSeg 1]#![BeginSeg 2]エアーを除去したら、\nドナーラインのクランプ \n① と初流血バッグのクランプ ② を閉じてください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -285,8 +275,6 @@ textAlarmBodyWithGraphicResDrawAlertRbcPl01	"#![BeginSeg 1]採血サイクルが
 textAlarmBodyWithGraphicResReturn01	"#![BeginSeg 1]返血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]すべてのチューブがバルブに正しく装着されていることを確認してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicResReturn1Clamp	"#![BeginSeg 1]返血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]チャネルラインのクランプが開いていることを確認してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicResReturn3Clamp	"#![BeginSeg 1]返血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]チャネルラインの各クランプが開いていることを確認してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicReturnHallHigh	"#![BeginSeg 1]返血ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]すべてのポンプローターが、所定の位置に正しく装着されていることを確認してください。#![EndSeg 2]#![BeginSeg 3]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
-textAlarmBodyWithGraphicReturnHallLow	"#![BeginSeg 1]返血ポンプでエラーが発生しました。#![EndSeg 1]#![BeginSeg 2]返血ポンプローターが正しく装着されていない可能性があります。#![EndSeg 2]#![BeginSeg 3]ローターを返血ポンプに装着し直してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicReturnShortNoClamp	"#![BeginSeg 1]返血サイクルが短すぎます。#![EndSeg 1]#![BeginSeg 2]返血リザーバの前面を軽くたたき気泡を完全に除去するか、状況が改善されるまでしばらくお待ちください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicReturnShortOneClamp00	"#![BeginSeg 1]返血サイクルが短すぎます。#![EndSeg 1]#![BeginSeg 2]返血リザーバの前面を軽くたたき気泡を完全に除去するか、状況が改善されるまでしばらくお待ちください。#![EndSeg 2]#![BeginSeg 3]チャネルラインのクランプが開いていることを確認してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicReturnShortOneClamp01	"#![BeginSeg 1]返血サイクルが短すぎます。#![EndSeg 1]#![BeginSeg 2]チャネルラインのクランプが開いていることを確認してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -1254,7 +1242,6 @@ textProgBarDonorPrep	"#![BeginSeg 1]準備#![EndSeg 1]"	255 247 57	0x0101	161	50
 textProgBarLoad	"#![BeginSeg 1]装着#![EndSeg 1]"	255 247 57	0x0101	25	50	0	0	18	1
 textProgBarNoAdditionUnload	"#![BeginSeg 1]取り外し#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	18	1
 textProgBarUnload	"#![BeginSeg 1]取り外し#![EndSeg 1]"	255 247 57	0x0101	355	50	0	0	18	1
-textPumpStrokeVolumeLogging	"#![BeginSeg 1]Pump stroke volume logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textShowPlasmaVolume	"#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -1280,7 +1267,6 @@ textStatAlarmAcDuringReturn	"#![BeginSeg 1]抗凝固剤ポンプ不良#![EndSeg 
 textStatAlarmAcLevel	"#![BeginSeg 1]抗凝固剤センサーでエアー検出#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmAcPrimeInletFailure	"#![BeginSeg 1]抗凝固剤プライミング不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmAcPriorToPrime	"#![BeginSeg 1]抗凝固剤の早期検出不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
-textStatAlarmAcPumpError	"#![BeginSeg 1]抗凝固剤ポンプエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	19	20	1
 textStatAlarmAcPumpFailure	"#![BeginSeg 1]抗凝固剤ポンプ不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmAcPumpMovement	"#![BeginSeg 1]抗凝固剤ポンプ作動不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmAcStilNotDetected	"#![BeginSeg 1]抗凝固剤センサーが液体を未検出#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
@@ -1315,7 +1301,6 @@ textStatAlarmFluidAtAcAas	"#![BeginSeg 1]抗凝固剤センサーが液体を検
 textStatAlarmGenericPltContam	"#![BeginSeg 1]白血球混入の可能性があります。#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmHemolysisDetected	"#![BeginSeg 1]溶血を検出しました。#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmInletPressureFailure	"#![BeginSeg 1]圧力テストエラー#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
-textStatAlarmInletPumpError	"#![BeginSeg 1]採血ポンプエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
 textStatAlarmInletPumpFailure	"#![BeginSeg 1]採血ポンプ不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmInletReliefFailure	"#![BeginSeg 1]圧力解放エラー#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmInletVolmAas	"#![BeginSeg 1]チャネル容量過多#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	21	1
@@ -1335,10 +1320,8 @@ textStatAlarmOvertemp	"#![BeginSeg 1]遠心分離器温度エラー#![EndSeg 1]"
 textStatAlarmPasPrimeEarly	"#![BeginSeg 1]血小板保存用添加液ラインプライミングエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
 textStatAlarmPasPrimeLate	"#![BeginSeg 1]血小板保存用添加液ラインプライミングエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
 textStatAlarmPauseButton	"#![BeginSeg 1]ポンプ一時停止#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
-textStatAlarmPlasmaPumpError	"#![BeginSeg 1]血漿ポンプエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
 textStatAlarmPlasmaPumpFailure	"#![BeginSeg 1]血漿ポンプ不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmPltConcLow	"#![BeginSeg 1]血小板の検出濃度が低すぎます。#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	21	1
-textStatAlarmPltPumpError	"#![BeginSeg 1]血小板ポンプエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
 textStatAlarmPltPumpFailure	"#![BeginSeg 1]血小板ポンプ不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmPowerFailureAlert	"#![BeginSeg 1]電源遮断#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmPowerTestFailure	"#![BeginSeg 1]電源テスト不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
@@ -1352,7 +1335,6 @@ textStatAlarmRasEmpty	"#![BeginSeg 1]赤血球保存用添加液バッグを交�
 textStatAlarmRasPrimeEarly	"#![BeginSeg 1]赤血球保存用添加液ラインプライミングエラー#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	21	1
 textStatAlarmRasPrimeLate	"#![BeginSeg 1]赤血球保存用添加液ラインプライミングエラー#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	21	1
 textStatAlarmRefStampMismatch	"#![BeginSeg 1]回路セットタイプエラー#![EndSeg 1]"	165 8 0	0x0111	54	146	182	14	21	1
-textStatAlarmReturnPumpError	"#![BeginSeg 1]返血ポンプエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
 textStatAlarmReturnPumpFailure	"#![BeginSeg 1]返血ポンプ不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmSafetyNotResponding	"#![BeginSeg 1]起動不良#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	21	1
 textStatAlarmSpilloverDetected	"#![BeginSeg 1]赤血球スピルオーバー#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
