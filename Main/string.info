@@ -1384,16 +1384,16 @@ textACinPlasmaVolumeUnitPrev           "#![BeginSeg 1]mL#![EndSeg 1]"       74  
 #########################################################################################################################################################################
 
 ############  AMAP PLT SPECIFIC STRINGS:
-TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL    "#![BeginSeg 1]Min Yield\n(x10   )#![EndSeg 1]"               255 247  57 0x0112    90   65   120    60  12    0  unapproved
+TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL    "#![BeginSeg 1]Min Yield\n(x 10   )#![EndSeg 1]"               255 247  57 0x0112    90   65   120    60  12    0  unapproved
 TEXT_CFG_PLT_AMAP_MIN_YIELD_EXP_COL_LBL  "#![BeginSeg 1]11#![EndSeg 1]"                                 255 247  57 0x0100   156   110    10    15   8    0  unapproved
-TEXT_CFG_PLT_AMAP_MAX_YIELD_COL_LBL        "#![BeginSeg 1]Max Yield\n(x10   )#![EndSeg 1]"              255 247  57 0x0112    180   65   120    60   12 0  unapproved
+TEXT_CFG_PLT_AMAP_MAX_YIELD_COL_LBL        "#![BeginSeg 1]Max Yield\n(x 10   )#![EndSeg 1]"              255 247  57 0x0112    180   65   120    60   12 0  unapproved
 TEXT_CFG_PLT_AMAP_MAX_YIELD_EXP_COL_LBL "#![BeginSeg 1]11#![EndSeg 1]"                                 255 247  57 0x0100   246   110    10    15   8    0  unapproved
 TEXT_CFG_PLT_AMAP_FINALCONC_EXP_COL_LBL  "#![BeginSeg 1]3#![EndSeg 1]"                                   255 247  57 0x0100   330   110    10    15   8    0  unapproved
 TEXT_CFG_PLT_AMAP_CONC_EXP_COL_LBL           "#![BeginSeg 1]3#![EndSeg 1]"                                      255 247  57 0x0100   510   110    10    15   8    0  unapproved
 
-TEXT_CFG_PLT_AMAP_FINAL_CONC_COL_LBL  "#![BeginSeg 1]Final\nconcentration\n(x10 /µL)#![EndSeg 1]"   255 247  57 0x0112    270   65   120    60  12    0  unapproved
+TEXT_CFG_PLT_AMAP_FINAL_CONC_COL_LBL  "#![BeginSeg 1]Final\nconcentration\n(x 10 /µL)#![EndSeg 1]"   255 247  57 0x0112    270   65   120    60  12    0  unapproved
 TEXT_CFG_PLT_AMAP_PPCO_COL_LBL            "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                               255 247  57 0x0112   360   65   120    60  12    0  unapproved
-TEXT_CFG_PLT_AMAP_CONC_COL_LBL            "#![BeginSeg 1]Collect\nConcentration\n(x10 /µL)#![EndSeg 1]"              255 247  57 0x0112   450   65   120    60  12  0  unapproved
+TEXT_CFG_PLT_AMAP_CONC_COL_LBL            "#![BeginSeg 1]Collect\nConcentration\n(x 10 /µL)#![EndSeg 1]"              255 247  57 0x0112   450   65   120    60  12  0  unapproved
 TEXT_CFG_PLT_AMAP_SS_RANGE_COL_LBL    "#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"    255 247  57 0x0112   555   65    85    60  12    0  unapproved
 TEXT_CFG_PLT_AMAP_SINGLE_ROW_BTN       "#![BeginSeg 1]Single#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12   0  unapproved
 TEXT_CFG_PLT_AMAP_DOUBLE_ROW_BTN       "#![BeginSeg 1]Double#![EndSeg 1]"          255 247  57  0x0101    10    15   620    25  12    0 unapproved
