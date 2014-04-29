@@ -12,16 +12,6 @@ FONT_RANGE_TABLE_START
 FONT_RANGE_TABLE_END
 
 STRING_FILE_TABLE_START
-
-fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
-forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
-forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	        "0xd1cb0dcf"	0 0 0	0x0001	0	0	0	0	18	0
-languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
-languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
-languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
-
 CMP2textDataLabelRs2PasVol	"#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"	74 74 74	0x0101	95	208	280	23	13	0
 CMP2textDataLabelRs2PlasAc	"#![BeginSeg 1]Volume of AC in plasma#![EndSeg 1]"	74 74 74	0x0101	95	305	280	23	13	0
 CMP2textDataLabelRs2PlasVol	"#![BeginSeg 1]Total volume of product#![EndSeg 1]"	74 74 74	0x0101	95	245	280	23	13	0
@@ -50,24 +40,29 @@ CMP2textEmptyFormatRs2DatPltYield	""	255 255 255	0x0121	370	148	60	23	13	0
 CMP2textEmptyFormatRs2DatRasVol	""	255 255 255	0x0121	370	398	60	23	13	0
 CMP2textEmptyFormatRs2DatRbcAc	""	255 255 255	0x0121	370	368	60	23	13	0
 CMP2textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	340	60	23	13	0
+JPHtextAlarmBodyAFtenMin	"#![BeginSeg 1]Draw flow cannot be\n maintained.#![EndSeg 1]#![BeginSeg 2]  Donation\n time has been increased \nby more than 10 minutes.\n#![EndSeg 2]#![BeginSeg 3]Verify:\n#![EndSeg 3]#![BeginSeg 4]-The needle is positioned \nin the donor's vein correctly.\n#![EndSeg 4]#![BeginSeg 5]-The donor is squeezing \nthe squeeze bulb.\n#![EndSeg 5]#![BeginSeg 6]-The donor is warm.\n#![EndSeg 6]"	165 8 0	0x0100	15	120	460	300	16	0
+JPHtextAutoFlowCfgBtn	"#![BeginSeg 1]AutoFlow#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	0
+JPHtextMiscTrimaVersion	"#![BeginSeg 1]Version 6.4.AF#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	0
+JPHtextStatAlarmAFtenMin	"#![BeginSeg 1]Donation time increase#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
+JPHtextStatPredictScreenAFTimeout	"#![BeginSeg 1]Draw flow too low - Maximum procedure duration exceeded#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
 TEST_PREDICT_COMP_PLS_VOLM	""	255 247 57	0x0111	300	280	59	35	14	0
 TEXT_CFG_COMP_PLS_LABEL	"#![BeginSeg 1]Plasma replaced by platelet additive solution#![EndSeg 1]"	255 247 57	0x0111	352	358	175	70	14	0
 TEXT_CFG_COMP_PLS_LABEL_MAIN	"#![BeginSeg 1]Plasma processes#![EndSeg 1]"	255 247 57	0x0111	350	294	275	35	18	0
 TEXT_CFG_PAS_MAX_VOL	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
 TEXT_CFG_PAS_MIN_VOL	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
-TEXT_CFG_PLT_AMAP_CONC_COL_LBL	"#![BeginSeg 1]Collect\nConcentration\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	450	105	120	60	12	0
-TEXT_CFG_PLT_AMAP_CONC_EXP_COL_LBL	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	510	150	10	15	8	0
-TEXT_CFG_PLT_AMAP_DOUBLE_ROW_BTN	"#![BeginSeg 1]Double#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	12	0
-TEXT_CFG_PLT_AMAP_FINALCONC_EXP_COL_LBL	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	330	150	10	15	8	0
-TEXT_CFG_PLT_AMAP_FINAL_CONC_COL_LBL	"#![BeginSeg 1]Final\nconcentration\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	270	105	120	60	12	0
-TEXT_CFG_PLT_AMAP_MAX_YIELD_COL_LBL	"#![BeginSeg 1]Max Yield\n(x10   )#![EndSeg 1]"	255 247 57	0x0112	180	105	120	60	12	0
-TEXT_CFG_PLT_AMAP_MAX_YIELD_EXP_COL_LBL	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	246	150	10	15	8	0
-TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL	"#![BeginSeg 1]Min Yield\n(x10   )#![EndSeg 1]"	255 247 57	0x0112	90	105	120	60	12	0
-TEXT_CFG_PLT_AMAP_MIN_YIELD_EXP_COL_LBL	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	150	10	15	8	0
-TEXT_CFG_PLT_AMAP_PPCO_COL_LBL	"#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"	255 247 57	0x0112	360	105	120	60	12	0
-TEXT_CFG_PLT_AMAP_SINGLE_ROW_BTN	"#![BeginSeg 1]Single#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	12	0
-TEXT_CFG_PLT_AMAP_SS_RANGE_COL_LBL	"#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"	255 247 57	0x0112	555	105	85	60	12	0
-TEXT_CFG_PLT_AMAP_TRIPLE_ROW_BTN	"#![BeginSeg 1]Triple#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	12	0
+TEXT_CFG_PLT_AMAP_CONC_COL_LBL	"#![BeginSeg 1]Collect\nConcentration\n(x 10 /µL)#![EndSeg 1]"	255 247 57	0x0112	450	65	120	60	12	0
+TEXT_CFG_PLT_AMAP_CONC_EXP_COL_LBL	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	510	110	10	15	8	0
+TEXT_CFG_PLT_AMAP_DOUBLE_ROW_BTN	"#![BeginSeg 1]Double#![EndSeg 1]"	255 247 57	0x0101	10	15	620	25	12	0
+TEXT_CFG_PLT_AMAP_FINALCONC_EXP_COL_LBL	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	330	110	10	15	8	0
+TEXT_CFG_PLT_AMAP_FINAL_CONC_COL_LBL	"#![BeginSeg 1]Final\nconcentration\n(x 10 /µL)#![EndSeg 1]"	255 247 57	0x0112	270	65	120	60	12	0
+TEXT_CFG_PLT_AMAP_MAX_YIELD_COL_LBL	"#![BeginSeg 1]Max Yield\n(x 10   )#![EndSeg 1]"	255 247 57	0x0112	180	65	120	60	12	0
+TEXT_CFG_PLT_AMAP_MAX_YIELD_EXP_COL_LBL	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	246	110	10	15	8	0
+TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL	"#![BeginSeg 1]Min Yield\n(x 10   )#![EndSeg 1]"	255 247 57	0x0112	90	65	120	60	12	0
+TEXT_CFG_PLT_AMAP_MIN_YIELD_EXP_COL_LBL	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	110	10	15	8	0
+TEXT_CFG_PLT_AMAP_PPCO_COL_LBL	"#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"	255 247 57	0x0112	360	65	120	60	12	0
+TEXT_CFG_PLT_AMAP_SINGLE_ROW_BTN	"#![BeginSeg 1]Single#![EndSeg 1]"	255 247 57	0x0101	10	15	620	25	12	0
+TEXT_CFG_PLT_AMAP_SS_RANGE_COL_LBL	"#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"	255 247 57	0x0112	555	65	85	60	12	0
+TEXT_CFG_PLT_AMAP_TRIPLE_ROW_BTN	"#![BeginSeg 1]Triple#![EndSeg 1]"	255 247 57	0x0101	10	15	620	25	12	0
 TEXT_COMP_PLS_ERS_LABEL	"#![BeginSeg 1]Volume replaced by PAS#![EndSeg 1]"	74 74 74	0x0101	95	275	280	23	13	0
 TEXT_COMP_PLS_ERS_VOL_DATA_EMPTY	""	255 255 255	0x0121	370	275	60	23	13	0
 TEXT_COMP_PLS_ERS_VOL_DATA_UNIT	"#![BeginSeg 1]mL#![EndSeg 1]"	255 255 255	0x0101	436	275	110	23	13	0
@@ -98,6 +93,14 @@ TEXT_PROD_NAME_AMAP_PLT1	"#![BeginSeg 1]Single#![EndSeg 1]"	255 247 57	0x0111	0	
 TEXT_PROD_NAME_AMAP_PLT2	"#![BeginSeg 1]Double#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	0
 TEXT_PROD_NAME_AMAP_PLT3	"#![BeginSeg 1]Triple#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	14	0
 TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x0101	95	323	280	23	16	0
+fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
+forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
+forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
+languageCrc	"0x985a1d89"	0 0 0	0x0001	0	0	0	0	18	0
+languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
+languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
+languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
 textACinPlasmaVolumeUnitCurr	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0121	255	284	59	35	14	1
 textACinPlasmaVolumeUnitNext	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	338	59	35	11	1
 textACinPlasmaVolumeUnitPrev	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	209	59	35	11	1
@@ -112,12 +115,14 @@ textAbortBodyRas	"#![BeginSeg 1]保存用添加液の添加終了とは、次の
 textAbortBodyRasOrPas	"#![BeginSeg 1]保存用添加液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存用添加液の添加が取り消されました。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・保存用添加液の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は操作説明書を参照してください。\n#![EndSeg 5]#![BeginSeg 6]・一方の製剤への添加を終了して、もう一方の製剤への添加を続けることもできます。#![EndSeg 6]"	165 8 0	0x0101	12	117	614	183	20	1
 textAbortBodyRinseback	"#![BeginSeg 1]リンスバックとは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・採取を終了します。\n#![EndSeg 2]#![BeginSeg 3]・回路セット内の血液がドナーに返血されます。\n\n#![EndSeg 3]#![BeginSeg 4]処理終了とは、次のことを意味します:\n#![EndSeg 4]#![BeginSeg 5]・手順が取り消されます。\n#![EndSeg 5]#![BeginSeg 6]・回路セット内の血液はドナーに返血されません。\n#![EndSeg 6]#![BeginSeg 7]・回路セットを取り外して廃棄する必要があります。#![EndSeg 7]"	165 8 0	0x0101	12	117	614	183	20	1
 textAbortBodySpillover	"#![BeginSeg 1]スピルオーバー回復とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・血小板ラインまたは血漿ライン内に赤血球が認められます。\n#![EndSeg 2]#![BeginSeg 3]・回復手順が完了するまで採血を一時中断します。#![EndSeg 3]"	165 8 0	0x0101	12	117	614	183	20	1
-textAiroutMitigation	"#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textAiroutMitigation	"#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textAlarmBodyNoGraphic10MinPause	"#![BeginSeg 1]ドナーラインに血流がない状態で採血サイクル中に、各ポンプが 10 分間一時停止しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcClosFailAas	"#![BeginSeg 1]抗凝固剤がシールされてシステムから取り外されたことを確認できません。#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 3]#![BeginSeg 4]［添加終了］を押してください。問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcClosFailAasPasOk	"#![BeginSeg 1]抗凝固剤がシールされてシステムから取り外されたことを確認できません。#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を続けるか、［添加終了］を押して終了してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicAcHallHigh	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 5]#![BeginSeg 6]黒い点の付いたポンプローターが抗凝固剤ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicAcHallLow	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]抗凝固剤ポンプローターが正しく装着されていない可能性があります。#![EndSeg 5]#![BeginSeg 6]ローターを抗凝固剤ポンプに装着し直してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcPrimeFailure	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーに穿刺していないことを確認してください。\n#![EndSeg 4]#![BeginSeg 5]・システムはプライミングを 2 回試みましたが、\n抗凝固剤センサーで液体が検出されませんでした。チューブが抗凝固剤センサーに正しく装着されなかった可能性があります。\n#![EndSeg 5]#![BeginSeg 6]・抗凝固剤プライミング中、圧力を維持できませんでした。ドナーラインと初流血バッグラインの各クランプを開くのが早すぎた可能性があります。\n\n#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	19	1
-textAlarmBodyNoGraphicAcPrimeInletOcclusion	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーからの抜針が確認されてカセットが上がります。#![EndSeg 4]#![BeginSeg 5]回路セットを廃棄してください。#![EndSeg 5]#![BeginSeg 6]その後、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicAcPrimeInletOcclusion	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーからの抜針が確認されてカセットが上がります。#![EndSeg 4]#![BeginSeg 5]回路セットを廃棄してください。#![EndSeg 5]#![BeginSeg 6]サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcPriorToAcPrime	"#![BeginSeg 1]抗凝固剤センサーが液体を検出しました。#![EndSeg 1]#![BeginSeg 2]抗凝固剤接続が早すぎた可能性があります。#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 3]#![BeginSeg 4]［処理終了］を押し、回路セットを取り外して廃棄してください。#![EndSeg 4]#![BeginSeg 5]抗凝固剤が接続されていない場合には、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicAcStillNotDetected	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]抗凝固剤センサーが抗凝固剤を検出していません。#![EndSeg 3]#![BeginSeg 4]処理を終了して、ドナーから抜針してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicApsDecoupling	"#![BeginSeg 1]警告状態が発生しました。#![EndSeg 1]#![BeginSeg 3]［リンスバック］が表示されていれば、選択してください。\n#![EndSeg 3]#![BeginSeg 4]［処理終了］を選択して手順を終了してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
@@ -125,11 +130,11 @@ textAlarmBodyNoGraphicApsHigh04	"#![BeginSeg 1]それでも警告が繰り返さ
 textAlarmBodyNoGraphicApsHighAas	"#![BeginSeg 1]システム圧が依然として高すぎます。\n#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。\n#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。\n#![EndSeg 3]#![BeginSeg 4]［添加終了］を押してください。\n問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicApsHighAasP2Ok	"#![BeginSeg 1]システム圧が依然として高すぎます。\n#![EndSeg 1]#![BeginSeg 2]赤血球製剤 2 保存用添加液の添加を完了できません。\n#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。\n#![EndSeg 3]#![BeginSeg 4]［継続］を押して製剤 1 に保存用添加液を添加してください。\n#![EndSeg 4]#![BeginSeg 5]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicApsLow05	"#![BeginSeg 1]それでも警告が繰り返される場合は、［調整］ボタンを押して必要に応じて流量を調整し、手順を継続してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicApsSensorFailure	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]その後、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicApsSensorFailure	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicBagEvacFailure	"#![BeginSeg 1]警告状態が発生しました。#![EndSeg 1]#![BeginSeg 2]ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 4]［処理終了］を押して手順を終了してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicCassetteMovement	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]ドナーから抜針してください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認し、カセットを上げようとします。#![EndSeg 4]#![BeginSeg 5]その後、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicCassetteMovement	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]ドナーから抜針してください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認し、カセットを上げようとします。#![EndSeg 4]#![BeginSeg 5]サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicCassetteUnrecognized	"#![BeginSeg 1]RBC センサーで回路セットタイプが認識されません。\n#![EndSeg 1]#![BeginSeg 2]・RBC センサーの汚れを取り除いてください。\n#![EndSeg 2]#![BeginSeg 3]・カセットまたはカセットトレイの裏側に異物がないことを確認して、回路セットを装着し直してください。\n#![EndSeg 3]#![BeginSeg 4]・回路セットで何度も不合格になる場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicCentrifugeAlert	"#![BeginSeg 1]警告状態が発生しました。#![EndSeg 1]#![BeginSeg 4]画面上のいずれかの\nボタンを押して次に進んでください。#![EndSeg 4]#![BeginSeg 5]その後、\nサービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicCentrifugeAlert	"#![BeginSeg 1]警告状態が発生しました。#![EndSeg 1]#![BeginSeg 4]画面上のいずれかのボタンを押して次に進んでください。#![EndSeg 4]#![BeginSeg 5]サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicControlSoftWatchdogAlarm	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicCpsHigh03	"#![BeginSeg 1]採血ラインにエアーがないことを確認してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicCpsHighAas	"#![BeginSeg 1]遠心分離圧が高すぎます。#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 3]#![BeginSeg 4]［添加終了］を押してください。問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
@@ -142,30 +147,40 @@ textAlarmBodyNoGraphicDrawCycleShortNoClamp	"#![BeginSeg 1]採血サイクルが
 textAlarmBodyNoGraphicDrawCycleShortOneClamp	"#![BeginSeg 1]採血サイクルが短すぎます。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・チューブがバルブに正しく装着されていること。\n#![EndSeg 3]#![BeginSeg 4]・血漿ラインと血小板ラインが液体で満たされていること。\n#![EndSeg 4]#![BeginSeg 5]・各チャネルラインのクランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]この警告が繰り返し発生する場合は、［処理終了］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicDrawCycleShortThreeClamp	"#![BeginSeg 1]採血サイクルが短すぎます。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・チューブがバルブに正しく装着されていること。\n#![EndSeg 3]#![BeginSeg 4]・血漿ラインと血小板ラインが液体で満たされていること。\n#![EndSeg 4]#![BeginSeg 5]・各チャネルラインのクランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]この警告が繰り返し発生する場合は、［処理終了］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicFirstCycleLate	"#![BeginSeg 1]最初の採血サイクルが長すぎました。\n#![EndSeg 1]#![BeginSeg 2]・リークが認められる場合は、［処理終了］を押してリンスバックせずに手順を終了してください。\n#![EndSeg 2]#![BeginSeg 3]・エアーバッグまたは製剤バッグに液体がある場合は、［リンスバック］を押してドナーに返血し、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]次の手順に進む前に、上部レベルセンサーの汚れを取り除いてください。#![EndSeg 4]#![BeginSeg 5]問題が再発する場合は、サービス員に連絡してください。\n#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	19	1
-textAlarmBodyNoGraphicGenericA1	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]#![BeginSeg 5]その後、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicGenericA2	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]ドナーから抜針してください。#![EndSeg 3]#![BeginSeg 4]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 4]#![BeginSeg 5]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。#![EndSeg 5]#![BeginSeg 6]その後、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicGenericA1	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]#![BeginSeg 5]サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicGenericA2	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]ドナーから抜針してください。#![EndSeg 3]#![BeginSeg 4]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 4]#![BeginSeg 5]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。#![EndSeg 5]#![BeginSeg 6]サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicHemolysisDetected	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]#![BeginSeg 5]血漿ラインに赤い部分が見られる場合は、回路セットの閉塞による溶血の可能性があります。#![EndSeg 5]#![BeginSeg 6]血漿ラインに赤い部分が認められない場合は、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicHypovolemia	"#![BeginSeg 1]警告状態が発生しました。#![EndSeg 1]#![BeginSeg 2]ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]#![BeginSeg 5]その後、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicHypovolemia	"#![BeginSeg 1]警告状態が発生しました。#![EndSeg 1]#![BeginSeg 2]ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]#![BeginSeg 5]サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicInletHallHigh	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 5]#![BeginSeg 6]黒い点の付いたポンプローターが採血ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicInletHallLow	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]採血ポンプローターが正しく装着されていない可能性があります。#![EndSeg 5]#![BeginSeg 6]ローターを採血ポンプに装着し直してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicInletVolAas	"#![BeginSeg 1]チャネル内の容量が多すぎます。#![EndSeg 1]#![BeginSeg 2]保存用添加液の添加を完了できません。#![EndSeg 2]#![BeginSeg 3]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 3]#![BeginSeg 4]［添加終了］を押してください。問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicLeakDetected	"#![BeginSeg 1]遠心分離器でリークが検出されました。#![EndSeg 1]#![BeginSeg 2]チャネルと遠心分離器の液漏れを点検してください。#![EndSeg 2]#![BeginSeg 3]詳しい手順は操作説明書を参照してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicLeakTestFailure	"#![BeginSeg 1]リークセンサーの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]その後、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicLeakTestFailure	"#![BeginSeg 1]リークセンサーの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicLowLevelLate	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。#![EndSeg 4]#![BeginSeg 5]返血ポンプヘッダーが正しく装着されていることを確認してください。#![EndSeg 5]#![BeginSeg 6]すべてのポンプローターが、所定の位置に正しく装着されていることを確認してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicLowLevelPriorToExpected	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]・下部レベルセンサーに液体がある場合は、抗凝固剤接続が早すぎた可能性があります。\n#![EndSeg 5]#![BeginSeg 6]・下部レベルセンサーに液体がない場合は、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicLowLevelSensor	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]処理を終了してください。#![EndSeg 3]#![BeginSeg 4]ドナーから抜針してください。\n#![EndSeg 4]#![BeginSeg 5]・下部レベルセンサーに液体がある場合は、抗凝固剤接続が早すぎた可能性があります。\n#![EndSeg 5]#![BeginSeg 6]・下部レベルセンサーに液体がない場合は、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicLowPltConc	"#![BeginSeg 1]血小板製剤濃度が設定された濃度と異なる場合があります。#![EndSeg 1]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicMaintainDonorAccess	"#![BeginSeg 1]各ポンプは一時停止してから 3 分間が経過しました。#![EndSeg 1]#![BeginSeg 2]［継続］を押して 3 mL の血液をドナーに返血し、ドナーアクセスを維持してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicMotorHwFailure	"#![BeginSeg 1]モーターの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]その後、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicOvertemp	"#![BeginSeg 1]遠心分離器温度不良が発生しました。#![EndSeg 1]#![BeginSeg 2]ドナーから抜針してください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]ドナーからの抜針が確認されてカセットが上がります。#![EndSeg 4]#![BeginSeg 5]その後、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicMotorDisabled	"#![BeginSeg 1]モーターの再テストが必要です。以下を確認してください。\n#![EndSeg 1]#![BeginSeg 2]・ポンプに異物がないこと\n#![EndSeg 2]#![BeginSeg 3]・カセットの裏側に異物がないこと\n\n#![EndSeg 3]#![BeginSeg 4]異物がある場合は、取り除きます。\n\n#![EndSeg 4]#![BeginSeg 5]［継続］を押して手順を再開してください。#![EndSeg 5]#![BeginSeg 6]再発する場合は、処理を終了してください。#![EndSeg 6]#![BeginSeg 7]サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicMotorFailedToMaintainSpeed	"#![BeginSeg 1]モーターの再テストが必要です。以下を確認してください。\n#![EndSeg 1]#![BeginSeg 2]・ポンプに異物がないこと\n#![EndSeg 2]#![BeginSeg 3]・カセットの裏側に異物がないこと\n\n#![EndSeg 3]#![BeginSeg 4]異物がある場合は、取り除きます。\n\n#![EndSeg 4]#![BeginSeg 5]［継続］を押して手順を再開してください。#![EndSeg 5]#![BeginSeg 6]再発する場合は、処理を終了してください。#![EndSeg 6]#![BeginSeg 7]サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicMotorHwFailure	"#![BeginSeg 1]モーターの再テストが必要です。以下を確認してください。\n#![EndSeg 1]#![BeginSeg 2]・ポンプに異物がないこと\n#![EndSeg 2]#![BeginSeg 3]・カセットの裏側に異物がないこと\n\n#![EndSeg 3]#![BeginSeg 4]異物がある場合は、取り除きます。\n\n#![EndSeg 4]#![BeginSeg 5]［継続］を押して手順を再開してください。#![EndSeg 5]#![BeginSeg 6]再発する場合は、処理を終了してください。#![EndSeg 6]#![BeginSeg 7]サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicMotorIntegrationError	"#![BeginSeg 1]モーターの再テストが必要です。以下を確認してください。\n#![EndSeg 1]#![BeginSeg 2]・ポンプに異物がないこと\n#![EndSeg 2]#![BeginSeg 3]・カセットの裏側に異物がないこと\n\n#![EndSeg 3]#![BeginSeg 4]異物がある場合は、取り除きます。\n\n#![EndSeg 4]#![BeginSeg 5]［継続］を押して手順を再開してください。#![EndSeg 5]#![BeginSeg 6]再発する場合は、処理を終了してください。#![EndSeg 6]#![BeginSeg 7]サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicMotorVolumeError	"#![BeginSeg 1]モーターの再テストが必要です。以下を確認してください。\n#![EndSeg 1]#![BeginSeg 2]・ポンプに異物がないこと\n#![EndSeg 2]#![BeginSeg 3]・カセットの裏側に異物がないこと\n\n#![EndSeg 3]#![BeginSeg 4]異物がある場合は、取り除きます。\n\n#![EndSeg 4]#![BeginSeg 5]［継続］を押して手順を再開してください。#![EndSeg 5]#![BeginSeg 6]再発する場合は、処理を終了してください。#![EndSeg 6]#![BeginSeg 7]サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicOvertemp	"#![BeginSeg 1]遠心分離器温度不良が発生しました。#![EndSeg 1]#![BeginSeg 2]ドナーから抜針してください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]ドナーからの抜針が確認されてカセットが上がります。#![EndSeg 4]#![BeginSeg 5]サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicPlasmaHallHigh	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]血小板ポンプローターが間違ったローターハウジングに装着されている可能性があります。#![EndSeg 5]#![BeginSeg 6]黒い点の付いたポンプローターが血漿ローターハウジングに装着されている場合は、ポンプローターを取り外して血小板ローターハウジングに装着してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicPlasmaHallLow	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]血漿ポンプローターが正しく装着されていない可能性があります。#![EndSeg 5]#![BeginSeg 6]ローターを血漿ポンプに装着し直してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]血小板ラインで検出された濃度が低すぎます。\n#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・血漿ラインと血小板ラインが液体で満たされていること。\n#![EndSeg 3]#![BeginSeg 4]・製剤バッグに血小板が入っていること。\n\n#![EndSeg 4]#![BeginSeg 5]血小板ラインまたは血漿ラインに液体が見られない場合は、エアーブロックを調整してください。\n#![EndSeg 5]#![BeginSeg 6]製剤バッグ内に血小板がない場合は、血小板凝集を調整してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]すべてのポンプローターが、所定の位置に正しく装着されていることを確認してください。#![EndSeg 5]#![BeginSeg 6]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]血小板ポンプローターが正しく装着されていないか、血小板ローターハウジングに正しくないポンプローターが装着されている可能性があります。#![EndSeg 5]#![BeginSeg 6]黒い点の付いたポンプローターが血小板ローターハウジングに装着されていることを確認してください。#![EndSeg 6]#![BeginSeg 7]ローターを血小板ポンプに装着し直してください。#![EndSeg 7]#![BeginSeg 8]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]血小板製剤への白血球混入の原因となりうる状況が発生しました。\n#![EndSeg 1]#![BeginSeg 2]画面上のいずれかのボタンを押して次に進んで\nください。#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicPowerFail	"#![BeginSeg 1]採取中に電源が遮断されました。#![EndSeg 1]#![BeginSeg 2]画面上のいずれかのボタンを押して次に進んでください。#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicPowerFailAbort	"#![BeginSeg 1]採取中に電源が遮断されました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]［処理終了］を押して手順を終了してください。#![EndSeg 3]#![BeginSeg 4]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicPowerTestFailure	"#![BeginSeg 1]電源の再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]その後、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicPowerTestFailure	"#![BeginSeg 1]電源の再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicProcedureModified	"#![BeginSeg 1]手順の選択を確認する必要があります。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順選択画面に戻ってください。#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicPtfPressureHigh	"#![BeginSeg 1]遠心分離圧が高すぎます。#![EndSeg 1]#![BeginSeg 2]処理を終了してください。#![EndSeg 2]#![BeginSeg 3]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicPumpRpmCommand	"#![BeginSeg 1]ポンプの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]その後、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicPumpRpmCommand	"#![BeginSeg 1]ポンプの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicRasPrimeEarly	"#![BeginSeg 1]下部レベルセンサーで液体が早めに検出されました。#![EndSeg 1]#![BeginSeg 2]保存用添加液の接続が早すぎた可能性があります。#![EndSeg 2]#![BeginSeg 3]以下を確認してください。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤がシールされて取り外されていること。\n#![EndSeg 4]#![BeginSeg 6]［継続］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicRasPrimeLate	"#![BeginSeg 1]下部レベルセンサーが液体を検出しませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・赤血球保存用添加液が正しく接続されていること。\n#![EndSeg 3]#![BeginSeg 4]・フランジブルコネクターが折れていること。\n#![EndSeg 4]#![BeginSeg 5]・クロスオーバーラインのクランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]［継続］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicRasPrimeLate	"#![BeginSeg 1]下部レベルセンサーが液体を検出しませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・赤血球保存用添加液が正しく接続されていること。\n#![EndSeg 3]#![BeginSeg 4]・フランジブルコネクターが折れていること。\n#![EndSeg 4]#![BeginSeg 5]・クロスオーバーラインのクランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]・各チャネルラインのクランプが閉じていること。\n#![EndSeg 6]#![BeginSeg 7]［継続］を押してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicRbcDetectorCal	"#![BeginSeg 1]RBC センサーを校正できませんでした。#![EndSeg 1]#![BeginSeg 2]手順を\n継続する場合は、白血球と血小板製剤産出高を測定する必要があります。\n#![EndSeg 2]#![BeginSeg 3]［取り外し］を押し、RBC センサーの汚れを取り除いてください。回路セットを装着し直すと、 RBC センサー校正が再テストされます。\n#![EndSeg 3]#![BeginSeg 4]再発する場合は、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	460	300	20	1
 textAlarmBodyNoGraphicRefMismatch	"#![BeginSeg 1]選択したカタログ番号は、装着されている回路セットと一致していません。#![EndSeg 1]#![BeginSeg 2]［取り外し］を押してカセットを上げてください。#![EndSeg 2]#![BeginSeg 3]使用している回路セットに一致したカタログ番号を選択して、正しい回路セットを装着してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicRefMismatchDispTest	"#![BeginSeg 1]選択したカタログ番号は、装着されている回路セットと一致していません。#![EndSeg 1]#![BeginSeg 2]［継続］を押してください。使用している回路セットに一致したカタログ番号を選択して、正しい回路セットを装着してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	455	300	20	1
@@ -177,15 +192,17 @@ textAlarmBodyNoGraphicResDrawRbcPlThreeClamp	"#![BeginSeg 1]採血サイクル�
 textAlarmBodyNoGraphicResReturnNoClamp	"#![BeginSeg 1]返血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・返血ラインにエアーがないこと。\n#![EndSeg 3]#![BeginSeg 4]・チューブがバルブに正しく装着されていること。\n#![EndSeg 4]#![BeginSeg 5]・返血ラインのチューブに折れや閉塞がないこと。\n#![EndSeg 5]#![BeginSeg 6]・エアーバッグラインに閉塞がないこと。\n\n#![EndSeg 6]#![BeginSeg 7]返血ラインにエアーが認められる場合は、［処理終了］を押してリンスバックせずに手順を終了してください。\n#![EndSeg 7]#![BeginSeg 8]バルブが正しく装着され、エアーバッグラインに閉塞がない場合は、［継続］を押してください。#![EndSeg 8]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicResReturnOneClamp	"#![BeginSeg 1]返血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・返血ラインにエアーがないこと。\n#![EndSeg 3]#![BeginSeg 4]・チューブがバルブに正しく装着されていること。\n#![EndSeg 4]#![BeginSeg 5]・返血ラインのチューブに折れや閉塞がないこと。\n#![EndSeg 5]#![BeginSeg 6]・エアーバッグラインに閉塞がないこと。\n#![EndSeg 6]#![BeginSeg 7]・各チャネルラインのクランプが開いていること。\n#![EndSeg 7]#![BeginSeg 8]返血ラインにエアーが認められる場合は、［処理終了］を押してリンスバックせずに手順を終了してください。#![EndSeg 8]#![BeginSeg 9]バルブが正しく装着され、エアーバッグラインに閉塞がない場合は、［継続］を押してください。#![EndSeg 9]"	165 8 0	0x0100	15	120	455	300	19	1
 textAlarmBodyNoGraphicResReturnThreeClamp	"#![BeginSeg 1]返血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・返血ラインにエアーがないこと。\n#![EndSeg 3]#![BeginSeg 4]・チューブがバルブに正しく装着されていること。\n#![EndSeg 4]#![BeginSeg 5]・返血ラインのチューブに折れや閉塞がないこと。\n#![EndSeg 5]#![BeginSeg 6]・エアーバッグラインに閉塞がないこと。\n#![EndSeg 6]#![BeginSeg 7]・各チャネルラインのクランプが開いていること。\n#![EndSeg 7]#![BeginSeg 8]返血ラインにエアーが認められる場合は、［処理終了］を押してリンスバックせずに手順を終了してください。#![EndSeg 8]#![BeginSeg 9]バルブが正しく装着され、エアーバッグラインに閉塞がない場合は、［継続］を押してください。#![EndSeg 9]"	165 8 0	0x0100	15	120	455	300	19	1
+textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]すべてのポンプローターが、所定の位置に正しく装着されていることを確認してください。#![EndSeg 5]#![BeginSeg 6]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]回復不能のアラームが発生しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]電源再投入後、システムはドナーからの抜針を確認するとカセットが上がります。\n#![EndSeg 4]#![BeginSeg 5]返血ポンプローターが正しく装着されていない可能性があります。#![EndSeg 5]#![BeginSeg 6]ローターを返血ポンプに装着し直してください。#![EndSeg 6]#![BeginSeg 7]問題が再発する場合は、サービス員に連絡してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyNoGraphicSafetyNotResponding	"#![BeginSeg 1]システム起動プロトコールで失敗しました。#![EndSeg 1]#![BeginSeg 2]アラーム番号と、ステータスラインのアラーム名を書き留めてください。#![EndSeg 2]#![BeginSeg 3]電源をいったんオフにしてからもう一度オンにしてください。#![EndSeg 3]#![BeginSeg 4]システムがドナーからの抜針を確認し、必要に応じてカセットが上がります。#![EndSeg 4]#![BeginSeg 5]このアラームが繰り返し発生する場合は、サービス員に連絡してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	455	300	20	1
-textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]バルブの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]その後、サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
+textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]バルブの再テストが必要です。#![EndSeg 1]#![BeginSeg 2]［継続］を押して手順を再開してください。#![EndSeg 2]#![BeginSeg 3]再発する場合は、処理を終了してください。#![EndSeg 3]#![BeginSeg 4]サービス員に連絡してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	455	300	20	1
 textAlarmBodyWithGraphic10MinPause	"#![BeginSeg 1]各ポンプは一時停止してから 10 分間が経過しました。#![EndSeg 1]#![BeginSeg 2]遠心分離器が停止しました。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphic1MinPause	"#![BeginSeg 1]各ポンプは一時停止してから 1 分間が経過しました。#![EndSeg 1]#![BeginSeg 2]遠心分離速度が低下しています。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAasClampClosAddition	"#![BeginSeg 1]各チャネルラインのクランプが閉じているかを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・各クランプが正しく閉じていること。\n#![EndSeg 3]#![BeginSeg 4]［継続］を押してください。#![EndSeg 4]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]各チャネルラインのクランプが閉じているかを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・各クランプが正しく閉じていること。\n#![EndSeg 3]#![BeginSeg 4]・保存用添加液が接続されていないこと。\n#![EndSeg 4]#![BeginSeg 5]［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]抗凝固剤ラインがシールされたことを確認できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤ラインがシールされていること。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤ラインがセンサーから取り外されていること。\n#![EndSeg 4]#![BeginSeg 5]・抗凝固剤バッグがシステムから取り外されていること。\n#![EndSeg 5]#![BeginSeg 6]［継続］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	230	300	19	1
-textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]抗凝固剤センサーが抗凝固剤を検出しませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤バッグが空でないこと。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤バッグが正しく接続されていること。\n#![EndSeg 4]#![BeginSeg 5]抗凝固剤ラインをセンサーに取り付け直してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1	unapproved
-textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]抗凝固剤バッグが正しく接続され、ドリップチャンバーが液体で満たされていることを確認してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1	unapproved
+textAlarmBodyWithGraphicAcLevel00	"#![BeginSeg 1]抗凝固剤センサーが抗凝固剤を検出しませんでした。\n#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤バッグが空でないこと。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤バッグが正しく\n接続されていること。\n#![EndSeg 4]#![BeginSeg 5]・バッグにフランジブルコネクターが存在する場合、それが折れていること。\n#![EndSeg 5]#![BeginSeg 6]抗凝固剤ラインをセンサーに取り付け直してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	235	300	18	1
+textAlarmBodyWithGraphicAcLevel01	"#![BeginSeg 1]抗凝固剤バッグが正しく接続され、バッグに\nフランジブルコネクターが存在する場合はそれが折れていて、ドリップ\nチャンバーが液体で満たされていることを確認\nしてください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcLevel02	"#![BeginSeg 1]抗凝固剤ラインを上下させて抗凝固剤センサーにしっかり装着してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcLevel03	"#![BeginSeg 1]抗凝固剤バッグが空の場合は、バッグを交換してください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicAcOcclusion	"#![BeginSeg 1]抗凝固剤を送液できません。#![EndSeg 1]#![BeginSeg 2]抗凝固剤ラインに折れや異物の混入がないか点検してください。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -239,6 +256,7 @@ textAlarmBodyWithGraphicFailureToRelievePressure	"#![BeginSeg 1]回路セット�
 textAlarmBodyWithGraphicFluidAtAcAas	"#![BeginSeg 1]抗凝固剤センサーが液体を検出しました。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・抗凝固剤ラインがシールされていること。\n#![EndSeg 3]#![BeginSeg 4]・抗凝固剤ラインがセンサーから取り外されていること。\n#![EndSeg 4]#![BeginSeg 5]・抗凝固剤バッグがシステムから取り外されていること。\n［継続］を押してください。#![EndSeg 5]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicLeakDetected	"#![BeginSeg 1]遠心分離器でリークが検出されました。#![EndSeg 1]#![BeginSeg 2]チャネルと遠心分離器の液漏れを点検してください。#![EndSeg 2]#![BeginSeg 3]詳しい手順は操作説明書を参照してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPasLineOpen	"#![BeginSeg 1]血小板保存用添加液ラインのクランプを閉じてください。#![EndSeg 1]"	165 8 0	0x0100	15	120	230	300	20	1
+textAlarmBodyWithGraphicPasMisconnected	"#![BeginSeg 1]血小板保存用添加液が検出されませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・血小板保存用添加液が正しく接続されていること。\n#![EndSeg 3]#![BeginSeg 4]・バッグのフランジブルコネクターが折れていること。\n#![EndSeg 4]#![BeginSeg 5]・クランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]［継続］を押してください。#![EndSeg 6]"	165 8 0	0x0100	15	120	230	300	19	1
 textAlarmBodyWithGraphicPasPrimeEarly	"#![BeginSeg 1]保存用添加液が早めに検出されました。#![EndSeg 1]#![BeginSeg 2]チャネルラインの各クランプが閉じていることを確認して、［継続］を押してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicPasPrimeLate	"#![BeginSeg 1]血小板保存用添加液が検出されませんでした。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・血小板保存用添加液が正しく接続されていること。\n#![EndSeg 3]#![BeginSeg 4]・バッグのフランジブルコネクターが折れていること。\n#![EndSeg 4]#![BeginSeg 5]・クランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]・各チャネルラインのクランプが閉じていること。\n#![EndSeg 6]#![BeginSeg 7]［継続］を押してください。#![EndSeg 7]"	165 8 0	0x0100	15	120	230	300	19	1
 textAlarmBodyWithGraphicPauseButton	"#![BeginSeg 1]一時停止ボタンが押されました。#![EndSeg 1]#![BeginSeg 2]各ポンプは停止しますが、遠心分離器の動作は継続します。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -254,6 +272,7 @@ textAlarmBodyWithGraphicPressurizeInletFailure06	"#![BeginSeg 1]クロスオー�
 textAlarmBodyWithGraphicPressurizeInletFailureCassette	"#![BeginSeg 1]圧力を維持できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・ドナーラインの針に近いクランプと初流血バッグラインのクランプが閉じていること。\n#![EndSeg 3]#![BeginSeg 4]・初流血バッグにエアーがないこと。\n#![EndSeg 4]#![BeginSeg 5]・各ポンプヘッダーが正しく\n装着されていること。\n#![EndSeg 5]#![BeginSeg 6]・カセットが正しく装着されていること。\n#![EndSeg 6]#![BeginSeg 8]・カセットまたはカセットトレイの裏側に異物がないこと。\n#![EndSeg 8]#![BeginSeg 7]・選択したカタログ番号が、\n装着されている回路セットに\n一致していること。#![EndSeg 7]"	165 8 0	0x0100	15	120	230	300	16	1
 textAlarmBodyWithGraphicPressurizeInletFailureCrossover	"#![BeginSeg 1]圧力を維持できません。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 3]・ドナーラインの針に近いクランプと初流血バッグラインのクランプが閉じていること。\n#![EndSeg 3]#![BeginSeg 4]・初流血バッグにエアーがないこと。\n#![EndSeg 4]#![BeginSeg 5]・各ポンプヘッダーが正しく装着されていること。\n#![EndSeg 5]#![BeginSeg 6]・カセットが正しく装着され、異物が見られないこと。\n#![EndSeg 6]#![BeginSeg 7]・選択したカタログ番号が、装着されている回路セットに一致していること。\n#![EndSeg 7]#![BeginSeg 8]・クロスオーバーラインの\nクランプが開いていること。#![EndSeg 8]"	165 8 0	0x0100	15	120	230	300	16	1
 textAlarmBodyWithGraphicPtfPressureHigh	"#![BeginSeg 1]遠心分離圧が高すぎます。#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n#![EndSeg 2]#![BeginSeg 5]・各チャネルラインのクランプが開いていること。\n#![EndSeg 5]#![BeginSeg 6]・ブラケット内の白血球除去フィルターの向きが正しいこと。\n#![EndSeg 6]#![BeginSeg 7]・フィルターラインがブラケット内にはまっていること。\n#![EndSeg 7]#![BeginSeg 8]・ラインに折れや閉塞がないこと。\n#![EndSeg 8]#![BeginSeg 9]［継続］を押してください。#![EndSeg 9]"	165 8 0	0x0100	15	120	230	300	18	1
+textAlarmBodyWithGraphicRasEmpty	"#![BeginSeg 1]赤血球保存用添加液バッグがほとんど空になっています。#![EndSeg 1]#![BeginSeg 2]新しいバッグを接続して、バッグのフランジブルコネクターを折ってから［継続］を押してください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicRbcValve	"#![BeginSeg 1]RBC バルブの位置が正しくないことが検出されました。#![EndSeg 1]#![BeginSeg 2]RBC バルブに異物がないか点検してください。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicResAlert	"#![BeginSeg 1]上部レベルセンサーでは液体が検出されましたが、下部レベルセンサーでは検出されませんでした。#![EndSeg 1]#![BeginSeg 2]返血リザーバの前面を軽くたたき気泡を完全に除去するか、状況が改善されるまでしばらくお待ちください。#![EndSeg 2]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicResDrawAlert01	"#![BeginSeg 1]採血サイクルが長すぎます。#![EndSeg 1]#![BeginSeg 2]血漿ラインと血小板ラインが液体で完全に満たされていることを確認してください。#![EndSeg 2]#![BeginSeg 3]完全に液体で満たされていない場合には、［調整］を押してから［エアーブロック］を押して回復を実行してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
@@ -278,9 +297,10 @@ textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]スピルオーバー�
 textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]非常停止ボタンが押されました。#![EndSeg 1]#![BeginSeg 2]ポンプと遠心分離器が停止しました。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]カセットを現在の位置から取り外せません。#![EndSeg 1]#![BeginSeg 2]ドナーから抜針してください。#![EndSeg 2]#![BeginSeg 3]操作説明書の指示に従って、カセットを手動で取り外してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
 textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]バルブを所定の位置に移動できません。#![EndSeg 1]#![BeginSeg 2]バルブに異物がないか確認してください。#![EndSeg 2]#![BeginSeg 3]［継続］を押して手順を再開してください。#![EndSeg 3]"	165 8 0	0x0100	15	120	230	300	20	1
-textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textAllowExtraWbcMessage	"#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textAmapPlateletsAvailable	"#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]Procedure selection: Flow rate adjustment#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAllowAutoConfPlasmaProcs	"#![BeginSeg 1]Additional plasma only procedures#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textAllowExtraWbcMessage	"#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAmapPlateletsAvailable	"#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textApsHighSpeedLogEnable	"#![BeginSeg 1]High speed logging, access pressure sensor#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textButtonAbortAasExit	"#![BeginSeg 1]保存用添加液\nの添加終了#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
@@ -354,7 +374,7 @@ textButtonFlagPlasVol	"#![BeginSeg 1]血漿製剤容量を確認します。#![E
 textButtonFlagPlasWbcs	"#![BeginSeg 1]血漿製剤に白血球がないかを\n確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagPltConc	"#![BeginSeg 1]血小板濃度を確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagPltWbcs	"#![BeginSeg 1]血小板製剤に白血球がないかを\n確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
-textButtonFlagPltYieldVol	"#![BeginSeg 1]血小板製剤、産出高、容量を確認\nします。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
+textButtonFlagPltYieldVol	"#![BeginSeg 1]血小板製剤、イールド、容量を確認\nします。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagRbcHctVol	"#![BeginSeg 1]赤血球製剤、HCT、容量を確認\nします。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagRbcQuality	"#![BeginSeg 1]赤血球製剤の品質を確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagRbcWbcs	"#![BeginSeg 1]赤血球製剤に白血球がないかを\n確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
@@ -430,7 +450,8 @@ textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]容量 (L)#![EndSeg 2]"	25
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]mL/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	16	1
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]容量 (mL)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	45	16	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]容量 (mL)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	45	16	1
-textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
+textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	50	16	1
+textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]循環血液\n総量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]採血量 (mL)\n> 体重#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	16	1
 textButtonLabelCfgDonLimVolSmallBucketSetting	"#![BeginSeg 1]採血量 (mL)\n≦ 体重#![EndSeg 1]"	255 247 57	0x0112	333	105	100	50	16	1
 textButtonLabelCfgDonLimVolWeightSettingKg	"#![BeginSeg 2]体重 (kg)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	16	1
@@ -469,6 +490,8 @@ textButtonLabelCfgLeftPlsVol3	"#![BeginSeg 1]血漿 3 の量 (mL)#![EndSeg 1]"	2
 textButtonLabelCfgLeftPlsVol4	"#![BeginSeg 1]血漿 4 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	322	100	153	70	16	1
 textButtonLabelCfgLeftPlsVol5	"#![BeginSeg 1]血漿 5 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	322	160	153	70	16	1
 textButtonLabelCfgLeftPlsVol6	"#![BeginSeg 1]血漿 6 の量 (mL)#![EndSeg 1]"	255 247 57	0x0111	322	220	153	70	16	1
+textButtonLabelCfgLeftPltAmapTrali	"#![BeginSeg 1]対象ドナー#![EndSeg 1]"	255 247 57	0x0111	360	356	100	90	16	1
+textButtonLabelCfgLeftPltAmapYsf	"#![BeginSeg 1]血小板\n産出高係数#![EndSeg 1]"	255 247 57	0x0111	120	356	100	90	16	1
 textButtonLabelCfgLeftPltTrali	"#![BeginSeg 1]対象ドナー#![EndSeg 1]"	255 247 57	0x0111	345	340	130	90	16	1
 textButtonLabelCfgLeftPltYsf	"#![BeginSeg 1]血小板\n産出高係数#![EndSeg 1]"	255 247 57	0x0111	100	340	130	90	16	1
 textButtonLabelCfgLeftProcAirRemoval	"#![BeginSeg 1]製剤バッグのエアー除去#![EndSeg 1]"	255 247 57	0x0111	310	295	200	70	16	1
@@ -481,7 +504,7 @@ textButtonLabelCfgLeftProcRbcRatio	"#![BeginSeg 1]RBC 採取時\n全血/抗凝�
 textButtonLabelCfgLeftProcReturnPressure	"#![BeginSeg 1]返血圧上限値\n(mmHg)#![EndSeg 1]"	255 247 57	0x0111	30	165	150	70	16	1
 textButtonLabelCfgLeftProcSalineRinseback	"#![BeginSeg 1]生理食塩水リンスバック#![EndSeg 1]"	255 247 57	0x0111	310	360	200	70	16	1
 textButtonLabelCfgLeftProcTime	"#![BeginSeg 1]最大処理時間 (分)#![EndSeg 1]"	255 247 57	0x0111	30	100	150	70	16	1
-textButtonLabelCfgLeftRbcSplitAlert	"#![BeginSeg 1]DRBC へ分割を\n開始する\n採取量 (mL)#![EndSeg 1]"	255 247 57	0x0111	31	357	124	70	16	1
+textButtonLabelCfgLeftRbcSplitAlert	"#![BeginSeg 1]DRBC へ\n分割を開始\nする採取量\n(mL)#![EndSeg 1]"	255 247 57	0x0111	124	357	93	70	14	1
 textButtonLabelCfgLeftRbcYsf	"#![BeginSeg 1]赤血球\n採取量係数#![EndSeg 1]"	255 247 57	0x0111	350	357	100	70	16	1
 textButtonLabelCfgTopRepFluidPercent	"#![BeginSeg 1]採取量に対する\n補充率 (%)#![EndSeg 1]"	255 247 57	0x0111	0	0	125	40	16	1
 textButtonLabelCfgTopRepFluidTotCollThreshold	"#![BeginSeg 1]置換液投与を開始\nする採取量 (mL)#![EndSeg 1]"	255 247 57	0x0111	0	0	137	40	16	1
@@ -502,15 +525,15 @@ textButtonLongStartDraw	"#![BeginSeg 1]採血開始#![EndSeg 1]"	255 247 57	0x01
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]保存用添加液\nバッグ量 (mL)#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	16	1
 textButtonSelectRef	"#![BeginSeg 1]カタログ番号#![EndSeg 1]"	255 247 57	0x0111	5	10	155	40	20	1
 textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]モード#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	16	1
-textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]採取濃度\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	16	1
+textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]採取濃度\n(x 10  /µL)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	16	1
 textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	240	148	10	15	8	0
-textCfgColLabelCfgPltFinalConc	"#![BeginSeg 1]最終濃度\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	180	105	120	60	16	1
+textCfgColLabelCfgPltFinalConc	"#![BeginSeg 1]最終濃度\n(x 10  /µL)#![EndSeg 1]"	255 247 57	0x0112	180	105	120	60	16	1
 textCfgColLabelCfgPltFinalConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	512	148	10	15	8	0
 textCfgColLabelCfgPltPasVol	"#![BeginSeg 1]保存用\n添加液量\n(mL)#![EndSeg 1]"	255 247 57	0x0112	555	105	85	60	16	1
 textCfgColLabelCfgPltPercentPlasma	"#![BeginSeg 1]保存液添加後\n血漿の\n割合(%)#![EndSeg 1]"	255 247 57	0x0112	275	105	120	60	16	1
 textCfgColLabelCfgPltVol	"#![BeginSeg 1]採取量\n(mL)#![EndSeg 1]"	255 247 57	0x0112	360	105	120	60	16	1
-textCfgColLabelCfgPltYield	"#![BeginSeg 1]イールド\n(x10   )#![EndSeg 1]"	255 247 57	0x0112	90	105	120	60	16	1
-textCfgColLabelCfgPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	158	148	10	15	8	0
+textCfgColLabelCfgPltYield	"#![BeginSeg 1]イールド\n(x 10   )#![EndSeg 1]"	255 247 57	0x0112	90	105	120	60	16	1
+textCfgColLabelCfgPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	160	148	10	15	8	0
 textCfgColLabelCfgPrioBloodType	"#![BeginSeg 1]血液型#![EndSeg 1]"	255 247 57	0x0111	400	160	100	0	16	1
 textCfgColLabelCfgPrioPls	"#![BeginSeg 1]血漿#![EndSeg 1]"	255 247 57	0x0111	170	160	100	0	16	1
 textCfgColLabelCfgPrioPlt	"#![BeginSeg 1]血小板#![EndSeg 1]"	255 247 57	0x0111	55	160	100	0	16	1
@@ -553,6 +576,9 @@ textCfgRowLabelCfgPrio9	"#![BeginSeg 1]手順 9#![EndSeg 1]"	255 247 57	0x0101	0
 textCfgRowLabelCfgRbc1	"#![BeginSeg 1]赤血球 1#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	16	1
 textCfgRowLabelCfgRbc2	"#![BeginSeg 1]赤血球 2#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	16	1
 textCfgRowLabelCfgRbc3	"#![BeginSeg 1]赤血球 3#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	16	1
+textCfgRowLabelCfgRbc4	"#![BeginSeg 1]赤血球 4#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	16	1
+textCfgRowLabelCfgRbc5	"#![BeginSeg 1]赤血球 5#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	16	1
+textCfgRowLabelCfgRbc6	"#![BeginSeg 1]赤血球 6#![EndSeg 1]"	255 247 57	0x0111	0	0	70	48	16	1
 textCfgScreenLabelAutoProc	"#![BeginSeg 1]自動プロセス#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelDonor	"#![BeginSeg 1]ドナー#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelLang	"#![BeginSeg 1]言語/単位#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
@@ -564,21 +590,21 @@ textCfgScreenLabelPrio	"#![BeginSeg 1]採取製品組み合わせ優先手順#![
 textCfgScreenLabelProc	"#![BeginSeg 1]手順#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelRbc	"#![BeginSeg 1]赤血球#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelRepFluid	"#![BeginSeg 1]置換液#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
-textCfgScreenLabelSoftOpt	"#![BeginSeg 1]Active Features#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1	unapproved
+textCfgScreenLabelSoftOpt	"#![BeginSeg 1]Active Features#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textCfgScreenLabelVolLim	"#![BeginSeg 1]最大献血量制限#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	1
-textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]Feature confirmation code#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	14	1	unapproved
+textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]Feature confirmation code#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	14	0
 textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	1
-textCfgSoftOptCountryLabel	"#![BeginSeg 1]Country:#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	14	1	unapproved
+textCfgSoftOptCountryLabel	"#![BeginSeg 1]Country:#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	14	0
 textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	1
-textCfgSoftOptCustomerLabel	"#![BeginSeg 1]Customer:#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	14	1	unapproved
+textCfgSoftOptCustomerLabel	"#![BeginSeg 1]Customer:#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	14	0
 textCfgSoftOptEmptyItem	""	0 0 0	0x0101	10	2	280	25	10	1
 textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	1
-textCfgSoftOptSerialNumberLabel "#![BeginSeg 1]Serial number:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	14	1	unapproved
-textCfgSoftOptSiteFormat	""	255	247	57	0x0001	356	170	280	25	14	1
-textCfgSoftOptSiteLabel "#![BeginSeg 1]Site:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	14	1	unapproved
-textComplementaryPlasmaAvailable	"#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textConfirmAcConnection	"#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textCfgSoftOptSerialNumberLabel	"#![BeginSeg 1]Serial number:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	14	0
+textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	1
+textCfgSoftOptSiteLabel	"#![BeginSeg 1]Site:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	14	0
+textComplementaryPlasmaAvailable	"#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textConfirmAcConnection	"#![BeginSeg 1]Solution confirmation: AC connect#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textConfirmBodyAcConnect	"#![BeginSeg 1]接続されているバッグが\n抗凝固剤であることを再確認\nしてください。#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	20	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]すべてのカタログ番号を\n削除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textConfirmBodyCfgMachRefDeleteOne	"#![BeginSeg 1]カタログ番号の削除:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
@@ -586,6 +612,8 @@ textConfirmBodyPasConnect	"#![BeginSeg 1]接続されたバッグが血小板\n�
 textConfirmBodyRasConnect	"#![BeginSeg 1]接続されたバッグが赤血球\n保存用添加液であることを\n再確認してください。#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	20	1
 textConfirmBodyRestart	"#![BeginSeg 1]次の手技に進むことを\n確認してください。#![EndSeg 1]"	255 247 57	0x0111	12	12	250	86	20	1
 textConfirmBodySalineConnect	"#![BeginSeg 1]接続されたバッグが生理\n食塩水であることを再確認\nしてください。#![EndSeg 1]"	255 247 57	0x0111	15	15	260	95	20	1
+textConfirmPasBarcode	"#![BeginSeg 1]血小板保存用添加液バッグの\nNDC バーコードを\nスキャンしてください#![EndSeg 1]"	255 247 57	0x0111	40	40	315	100	20	1
+textConfirmPasBarcodeInvalid	"#![BeginSeg 1]スキャンされたバーコードが\n正しくありません\n\n#![EndSeg 1]#![BeginSeg 2]血小板保存用添加液バッグの\nNDC バーコードを\nスキャンしてください#![EndSeg 2]"	255 247 57	0x0110	40	40	315	100	20	1
 textCpsHighSpeedLogEnable	"#![BeginSeg 1]High speed logging, centrifuge pressure sensor#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textDataCfrBloodType	"#![BeginSeg 1]血液型 #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textDataCfrGenderFemale	"#![BeginSeg 1]女性#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
@@ -615,6 +643,7 @@ textDataLabelPredConfFlow	"#![BeginSeg 1]採血速度#![EndSeg 1]"	255 247 57	0x
 textDataLabelPredConfPlasVol	"#![BeginSeg 1]血漿量#![EndSeg 1]"	255 247 57	0x0101	20	129	200	24	17	1
 textDataLabelPredConfPltVol	"#![BeginSeg 1]血小板容量#![EndSeg 1]"	255 247 57	0x0101	20	63	200	24	17	1
 textDataLabelPredConfPltYield	"#![BeginSeg 1]血小板産出高#![EndSeg 1]"	255 247 57	0x0101	20	85	200	24	17	1
+textDataLabelPredConfPostPlt	"#![BeginSeg 1]採取後血小板値#![EndSeg 1]"	255 247 57	0x0101	20	239	200	24	17	1
 textDataLabelPredConfRbcVol	"#![BeginSeg 1]赤血球量#![EndSeg 1]"	255 247 57	0x0101	20	107	200	24	17	1
 textDataLabelPredConfTbvProcessed	"#![BeginSeg 1]血液処理量#![EndSeg 1]"	255 247 57	0x0101	20	217	200	24	17	1
 textDataLabelRas1Offline	"#![BeginSeg 1]赤血球製剤 1#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	17	1
@@ -685,6 +714,7 @@ textDataUnitsPredConfPlasVol	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0101	24
 textDataUnitsPredConfPltVol	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0101	245	63	60	24	14	1
 textDataUnitsPredConfPltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0101	277	81	60	24	10	0
 textDataUnitsPredConfPltYieldX10	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 247 57	0x0101	245	85	60	24	14	0
+textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x1000/µL#![EndSeg 1]"	255 247 57	0x0101	245	239	80	24	14	1
 textDataUnitsPredConfRbcVol	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0101	245	107	60	24	14	1
 textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0101	245	217	60	24	14	1
 textDataUnitsPredDuration	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]分#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	22	1
@@ -738,7 +768,7 @@ textDataUnitsRunProcTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]分#![EndSeg 
 textDataUnitsRunProcTimeAm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]a.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
 textDataUnitsRunProcTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsRunProcTimePm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]p.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
-textDisplayResidualVolumes	"#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textDisplayResidualVolumes	"#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textEmpty	""	0 0 0	0x0111	0	0	640	0	14	0
 textEmptyFormatAlarmBmpDisplay	""	165 8 0	0x0101	54	146	182	14	14	0
 textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
@@ -755,6 +785,8 @@ textEmptyFormatCfgMachAdminCodeInit	""	255 247 57	0x0111	380	181	210	45	18	0
 textEmptyFormatCfgMachBarcodeInit	""	255 247 57	0x0111	380	236	210	45	16	0
 textEmptyFormatCfgMachSetIdInit	""	255 247 57	0x0111	380	128	210	45	18	0
 textEmptyFormatCfgNumericTextFormatNull	""	255 247 57	0x0111	0	0	640	0	14	0
+textEmptyFormatCfgPltCollectConc	""	255 247 57	0x0111	0	0	50	20	14	0
+textEmptyFormatCfgPltPasPercent	""	255 247 57	0x0111	0	0	50	20	14	0
 textEmptyFormatCfgRbcVolData	""	255 247 57	0x0111	390	0	130	48	12	0
 textEmptyFormatCfrList1Button	""	255 247 57	0x0111	0	0	640	0	14	0
 textEmptyFormatCfrList2Button	""	255 247 57	0x0111	0	0	640	0	14	0
@@ -769,8 +801,8 @@ textEmptyFormatDonDlGenderInit	""	255 255 255	0x0111	416	177	171	24	18	0
 textEmptyFormatDonDlHctInit	""	255 255 255	0x0111	416	347	171	24	18	0
 textEmptyFormatDonDlHeightInit	""	255 255 255	0x0111	416	211	171	24	18	0
 textEmptyFormatDonDlWeightInit	""	255 255 255	0x0111	416	245	171	24	18	0
+textEmptyFormatKeypadAdminCodeInit	""	0 0 0	0x0121	0	0	0	0	14	0
 textEmptyFormatKeypadUsrEntryInit	""	0 0 0	0x0121	0	0	0	0	18	0
-textEmptyFormatKeypadAdminCodeInit	""	0 0 0	0x0121	0	0	0	0	14	0       unapproved
 textEmptyFormatListboxButton	""	255 255 255	0x0111	20	0	640	0	19	0
 textEmptyFormatOfflinePasData	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatOfflineRas1Data	""	255 255 255	0x0121	480	305	60	32	14	0
@@ -778,6 +810,7 @@ textEmptyFormatOfflineRas2Data	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatPasEmptyData	""	165 8 0	0x0120	15	390	110	25	16	0
 textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
+textEmptyFormatPredConfPostPlt	""	255 247 57	0x0121	212	239	30	24	14	0
 textEmptyFormatPredConfirmAcData	""	255 247 57	0x0121	212	173	30	24	14	0
 textEmptyFormatPredConfirmFlowData	""	255 247 57	0x0121	212	151	30	24	14	0
 textEmptyFormatPredConfirmPlasVolData	""	255 247 57	0x0121	212	129	30	24	14	0
@@ -879,9 +912,10 @@ textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
 textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	16	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
-textEnableScreenshotButton	"#![BeginSeg 1]Screenshot capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textEnableVistaCfr11PinLogging	"#![BeginSeg 1]Vista tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textExtraPlasmaNoAc	"#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textEnableScreenshotButton	"#![BeginSeg 1]Screenshot capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textEnableVistaCfr11PinLogging	"#![BeginSeg 1]CFR 11 PIN logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textExtraPlasmaNoAc	"#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textJapanFeatures	"#![BeginSeg 1]Japanese features#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
 textKeypadUnitsCm	"#![BeginSeg 1]cm#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
 textKeypadUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
@@ -948,6 +982,9 @@ textListboxItemCfgPltProc9	"#![BeginSeg 1]血小板 9#![EndSeg 1]"	255 247 57	0x
 textListboxItemCfgRbcProc1	"#![BeginSeg 1]赤血球 1#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
 textListboxItemCfgRbcProc2	"#![BeginSeg 1]赤血球 2#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
 textListboxItemCfgRbcProc3	"#![BeginSeg 1]赤血球 3#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
+textListboxItemCfgRbcProc4	"#![BeginSeg 1]赤血球 4#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
+textListboxItemCfgRbcProc5	"#![BeginSeg 1]赤血球 5#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
+textListboxItemCfgRbcProc6	"#![BeginSeg 1]赤血球 6#![EndSeg 1]"	255 247 57	0x0111	0	0	0	0	16	1
 textListboxItemCfgRbcRatio11	"#![BeginSeg 1]11.0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textListboxItemCfgRbcRatio814	"#![BeginSeg 1]8.14#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textListboxItemCfgRbcUnitsCrit	"#![BeginSeg 1]ヘマト\nクリット値 (%)#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
@@ -969,9 +1006,9 @@ textMiscAasPrime	"#![BeginSeg 1]保存用添加液ライン\nプライミング�
 textMiscAasSealDetach	"#![BeginSeg 2]製剤バッグのラインを\nシールして取り外す。#![EndSeg 2]"	255 247 57	0x0101	155	105	260	42	18	1
 textMiscAcConnBag1	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	85	155	110	100	20	1
 textMiscAcConnBag2	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	268	155	110	100	20	1
-textMiscAcLuerConnBag1	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	40	155	110	100	20	1	unapproved
-textMiscAcLuerConnBag2	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	192	155	110	100	20	1	unapproved
-textMiscAcLuerConnBag3	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	344	155	110	100	20	1       unapproved
+textMiscAcLuerConnBag1	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	40	155	110	100	20	1
+textMiscAcLuerConnBag2	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	192	155	110	100	20	1
+textMiscAcLuerConnBag3	"#![BeginSeg 1]抗凝固剤#![EndSeg 1]"	57 24 132	0x0111	344	155	110	100	20	1
 textMiscAdjustDonationTimeRemaining	"#![BeginSeg 1]採血残り時間#![EndSeg 1]"	239 239 239	0x0111	111	115	416	11	16	1
 textMiscAdjustMeterLabelAcReaction	"#![BeginSeg 1]抗凝固剤\n副作用#![EndSeg 1]"	239 239 239	0x0111	252	171	104	12	15	1
 textMiscAdjustMeterLabelClumping	"#![BeginSeg 1]凝集#![EndSeg 1]"	239 239 239	0x0111	378	177	104	14	19	1
@@ -988,16 +1025,19 @@ textMiscBloodTypeAbPos	"#![BeginSeg 1]AB+#![EndSeg 1]"	255 255 255	0x0111	416	31
 textMiscBloodTypeAnBnApBp	"#![BeginSeg 1]AB-/AB+#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscBloodTypeBNeg	"#![BeginSeg 1]B-#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBloodTypeBPos	"#![BeginSeg 1]B+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
+textMiscBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]バッグのフランジ\nブルコネクターを\n折る。#![EndSeg 2]"	255 247 57	0x0101	177	105	160	45	15	1
 textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]バッグを架けて\nクランプを開く。#![EndSeg 2]"	255 247 57	0x0101	336	105	160	45	15	1
-textMiscCfgAdminNumDigits	"#![BeginSeg 1]回路セットコード:\n#![EndSeg 1]#![BeginSeg 2]8 桁#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1	unapproved
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]回路セットコード:\n#![EndSeg 1]#![BeginSeg 2]8 ～ 10 桁#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]血小板処理#![EndSeg 1]"	255 247 57	0x0101	68	110	300	25	20	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]赤血球処理#![EndSeg 1]"	255 247 57	0x0101	395	110	300	25	20	1
 textMiscCfgMachBarcode	"#![BeginSeg 1]バーコード#![EndSeg 1]"	255 247 57	0x0111	277	235	100	45	16	1
 textMiscCfgMachCatNumDigits	"#![BeginSeg 1]5 桁のカタログ番号か、または\n9 桁のカタログ番号の下 6 桁を入力してください。#![EndSeg 1]"	255 247 57	0x0101	10	25	620	75	16	1
 textMiscCfgMaxValue	"#![BeginSeg 1]最大値 = #![EndSeg 1]"	255 247 57	0x0101	10	75	620	17	15	1
+textMiscCfgMaxValue2	"#![BeginSeg 1]最大値 = #![EndSeg 1]"	255 247 57	0x0101	300	35	620	17	15	1
 textMiscCfgMinValue	"#![BeginSeg 1]最小値 = #![EndSeg 1]"	255 247 57	0x0101	10	50	620	17	15	1
+textMiscCfgMinValue2	"#![BeginSeg 1]最小値 = #![EndSeg 1]"	255 247 57	0x0101	100	35	620	17	15	1
 textMiscCfgNoVolLimSelected	"#![BeginSeg 1]手順を続けるには、最大献血量制限を選択してください。#![EndSeg 1]"	255 247 57	0x0111	0	50	640	0	20	1
 textMiscCfgPasVolInit	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
 textMiscCfgPlt10Indicator	"#![BeginSeg 1]血小板 10#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
@@ -1013,6 +1053,9 @@ textMiscCfgPlt9Indicator	"#![BeginSeg 1]血小板 9#![EndSeg 1]"	255 247 57	0x01
 textMiscCfgRbc1Indicator	"#![BeginSeg 1]赤血球 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
 textMiscCfgRbc2Indicator	"#![BeginSeg 1]赤血球 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
 textMiscCfgRbc3Indicator	"#![BeginSeg 1]赤血球 3#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
+textMiscCfgRbc4Indicator	"#![BeginSeg 1]赤血球 4#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
+textMiscCfgRbc5Indicator	"#![BeginSeg 1]赤血球 5#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
+textMiscCfgRbc6Indicator	"#![BeginSeg 1]赤血球 6#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
 textMiscCfgSplitRangeBottomLabel	"#![BeginSeg 1]シングル製剤範囲#![EndSeg 1]"	255 247 57	0x0101	10	46	200	17	15	1
 textMiscCfgSplitRangeBottomMax	"#![BeginSeg 1]最大値 = #![EndSeg 1]"	255 247 57	0x0101	10	80	200	17	15	1
 textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]最小値 = #![EndSeg 1]"	255 247 57	0x0101	10	63	200	17	15	1
@@ -1068,17 +1111,17 @@ textMiscInitDonorVitalsTbv	"#![BeginSeg 1]0 mL#![EndSeg 1]"	255 255 255	0x0111	1
 textMiscInitDonorVitalsTbvSet	"#![BeginSeg 1]#!{dataItemTbv} mL#![EndSeg 1]"	255 255 255	0x0111	111	132	416	11	18	1
 textMiscInstructionAasRemoveTubingSet	"#![BeginSeg 2]回路セットを取り外す。#![EndSeg 2]"	255 247 57	0x0101	395	105	260	42	18	1
 textMiscInstructionClose	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]閉める。#![EndSeg 2]"	255 247 57	0x0101	505	147	0	0	18	1
+textMiscInstructionDispBreakAcLuer	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]バッグのフランジ\nブルコネクターを\n折る。#![EndSeg 2]"	255 247 57	0x0101	172	105	150	0	15	1
 textMiscInstructionDispCloseClamp	"#![BeginSeg 1]ドナーラインの白色クランプを閉じてください。#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	20	1
 textMiscInstructionDispCloseClampJp	"#![BeginSeg 1]ドナーラインの赤色クランプを閉じてください。#![EndSeg 1]"	255 247 57	0x0111	15	125	610	0	20	1
 textMiscInstructionDispCloseClamps	"#![BeginSeg 1]ドナーラインと初流血バッグラインの各白色クランプを閉じてください。#![EndSeg 1]"	255 247 57	0x0111	5	125	635	0	18	1
 textMiscInstructionDispCloseClampsJp	"#![BeginSeg 1]ドナーラインの赤色クランプと初流血バッグラインの白色クランプを\n閉じてください。#![EndSeg 1]"	255 247 57	0x0111	0	125	640	0	20	1
 textMiscInstructionDispConnectAc	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]接続する。#![EndSeg 2]"	255 247 57	0x0101	55	128	170	0	20	1
+textMiscInstructionDispConnectAcLuer	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]接続する。#![EndSeg 2]"	255 247 57	0x0102	18	128	145	0	18	1
 textMiscInstructionDispLoadAc	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]装着する。#![EndSeg 2]"	255 247 57	0x0101	418	128	170	0	20	1
+textMiscInstructionDispLoadAcLuer	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]装着する。#![EndSeg 2]"	255 247 57	0x0102	477	128	145	0	18	1
 textMiscInstructionDispSqueezeAc	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]絞る。#![EndSeg 2]"	255 247 57	0x0101	236	128	170	0	20	1
-textMiscInstructionDispConnectAcLuer	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Connect#![EndSeg 2]"	255 247 57      0x0112	6	128	170	0	18	1	unapproved
-textMiscInstructionDispBreakAcLuer	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Break the bag frangible#![EndSeg 2]"	255 247 57	0x0112	160	108	170	0	18	1	unapproved
-textMiscInstructionDispSqueezeAcLuer	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Squeeze#![EndSeg 2]"	255 247 57	0x0112	308	128	170	0	18	1	unapproved
-textMiscInstructionDispLoadAcLuer	"#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]Load#![EndSeg 2]"	255 247  57	0x0112	455	128	170	0	18	1	unapproved
+textMiscInstructionDispSqueezeAcLuer	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]絞る。#![EndSeg 2]"	255 247 57	0x0102	323	128	145	0	18	1
 textMiscInstructionDonConnClose	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]閉じる。#![EndSeg 2]"	255 247 57	0x0101	430	144	210	0	18	1
 textMiscInstructionDonConnCloseConnect	"#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]閉じる、接続する。#![EndSeg 2]"	255 247 57	0x0101	66	144	210	0	18	1
 textMiscInstructionDonConnCloseOpen	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]閉じる、開く。#![EndSeg 2]"	255 247 57	0x0101	430	144	210	0	18	1
@@ -1172,24 +1215,27 @@ textMiscUnitsDonorVitalsHeightInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]i
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorVitalsWeightKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorVitalsWeightLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
-textPloFlag	"#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textPloPca	"#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPIRPreferred	"#![BeginSeg 1]Enhanced platelet inventory recovery#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPasBagBarcodeScanFeature	"#![BeginSeg 1]PAS barcode confirmation#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPloFlag	"#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textPloPca	"#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textProcConfirmPopup	"#![BeginSeg 1]Procedure confirmation prompt#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProdVerifLeukLabelPlasma	"#![BeginSeg 1]血漿製剤の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukLabelPlt	"#![BeginSeg 1]血小板製剤の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukLabelRbc	"#![BeginSeg 1]赤血球製剤の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukLabelRbc1	"#![BeginSeg 1]赤血球製剤 1 の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukLabelRbc2	"#![BeginSeg 1]赤血球製剤 2 の確認#![EndSeg 1]"	255 255 255	0x0101	16	187	0	23	20	1
 textProdVerifLeukMsgPlasLeukoreduced	"#![BeginSeg 1]血漿製剤: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしてください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
-textProdVerifLeukMsgPlasNotLeukoreduced	"#![BeginSeg 1]血漿製剤: #![EndSeg 1]#![BeginSeg 2]ラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
+textProdVerifLeukMsgPlasNotLeukoreduced	"#![BeginSeg 1]血漿製剤: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
 textProdVerifLeukMsgPltLeukoreduced	"#![BeginSeg 1]血小板製剤: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしてください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
-textProdVerifLeukMsgPltNotLeukoreduced	"#![BeginSeg 1]血小板製剤: #![EndSeg 1]#![BeginSeg 2]ラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
+textProdVerifLeukMsgPltNotLeukoreduced	"#![BeginSeg 1]血小板製剤: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
 textProdVerifLeukMsgRbc1Leukoreduced	"#![BeginSeg 1]赤血球製剤 1: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしてください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
-textProdVerifLeukMsgRbc1NotLeukoreduced	"#![BeginSeg 1]赤血球製剤 1: #![EndSeg 1]#![BeginSeg 2]ラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
+textProdVerifLeukMsgRbc1NotLeukoreduced	"#![BeginSeg 1]赤血球製剤 1: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
 textProdVerifLeukMsgRbc2Leukoreduced	"#![BeginSeg 1]赤血球製剤 2: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしてください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
-textProdVerifLeukMsgRbc2NotLeukoreduced	"#![BeginSeg 1]赤血球製剤 2: #![EndSeg 1]#![BeginSeg 2]ラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
+textProdVerifLeukMsgRbc2NotLeukoreduced	"#![BeginSeg 1]赤血球製剤 2: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
 textProdVerifLeukMsgRbcLeukoreduced	"#![BeginSeg 1]赤血球製剤: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしてください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
-textProdVerifLeukMsgRbcNotLeukoreduced	"#![BeginSeg 1]赤血球製剤: #![EndSeg 1]#![BeginSeg 2]ラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
+textProdVerifLeukMsgRbcNotLeukoreduced	"#![BeginSeg 1]赤血球製剤: #![EndSeg 1]#![BeginSeg 2]白血球除去済みとしてラベル付けしないでください。#![EndSeg 2]"	255 255 255	0x0111	15	112	610	60	20	1
 textProdVerifReasonAasPrimeError	"#![BeginSeg 1]保存用添加液ラインのプライミングエラーです。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonAasVolError	"#![BeginSeg 1]保存用添加液添加中の容量エラーです。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonAirBlockRecovery	"#![BeginSeg 1]エアーブロックの可能性があります。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
@@ -1208,13 +1254,14 @@ textProdVerifReasonHeaderRbcQuality	"#![BeginSeg 1]次の理由で、製剤の�
 textProdVerifReasonHighDeltaHct	"#![BeginSeg 1]ドナーのヘマトクリット/ヘモグロビン値の変化が大きすぎます。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonHighPltConc	"#![BeginSeg 1]血小板濃度が高すぎます。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonLowPltConc	"#![BeginSeg 1]血小板の検出濃度が低すぎます。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
-textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]予測濃度は #!{high_platelet_conc} を上回っています。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
-textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]予測濃度は #!{low_platelet_conc} を下回っています。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
+textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]予測濃度が高すぎます。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
+textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]予測濃度が低すぎます。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonPltContamDetected	"#![BeginSeg 1]白血球混入の可能性があります。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]RBC センサー校正エラーです。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonRbcSpillover	"#![BeginSeg 1]赤血球スピルオーバーです。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]リンスバックが未完了です。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonTargetVolumesNotAchieved	"#![BeginSeg 1]設定容量に達していません。#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
+textProdVerifReasonWbcNotValidated	"#![BeginSeg 1]Configured yield > 9.0#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	0
 textProgBarAddition	"#![BeginSeg 1]添加#![EndSeg 1]"	255 247 57	0x0101	308	50	0	0	18	1
 textProgBarDonate	"#![BeginSeg 1]採血#![EndSeg 1]"	255 247 57	0x0101	228	50	0	0	18	1
 textProgBarDonorInfo	"#![BeginSeg 1]情報#![EndSeg 1]"	255 247 57	0x0101	85	50	0	0	18	1
@@ -1222,10 +1269,16 @@ textProgBarDonorPrep	"#![BeginSeg 1]準備#![EndSeg 1]"	255 247 57	0x0101	161	50
 textProgBarLoad	"#![BeginSeg 1]装着#![EndSeg 1]"	255 247 57	0x0101	25	50	0	0	18	1
 textProgBarNoAdditionUnload	"#![BeginSeg 1]取り外し#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	18	1
 textProgBarUnload	"#![BeginSeg 1]取り外し#![EndSeg 1]"	255 247 57	0x0101	355	50	0	0	18	1
-textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textServiceModePeriodicLog	"#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
-textShowPlasmaVolume	"#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textSpecialBlackStampNeedle	"#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textShowPlasmaVolume	"#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textSoftOptInvalidKeyCountry	"#![BeginSeg 1]国が正しくありません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textSoftOptInvalidKeyCustomer	"#![BeginSeg 1]顧客が正しくありません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textSoftOptInvalidKeyFormat	"#![BeginSeg 1]キーが正しくありません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textSoftOptInvalidKeySerial	"#![BeginSeg 1]シリアル番号が正しくありません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textSoftOptInvalidKeySite	"#![BeginSeg 1]所在地が正しくありません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textSoftOptInvalidKeyUser	"#![BeginSeg 1]認定されていない使用者です。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textSpecialBlackStampNeedle	"#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textStatAasActiveAddition	"#![BeginSeg 1]保存液の自動添加を実行中#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	20	1
 textStatAasActivePrime	"#![BeginSeg 1]プライミング中...#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	20	1
 textStatAasClampChannel	"#![BeginSeg 1]保存液の自動添加#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	20	1
@@ -1293,7 +1346,11 @@ textStatAlarmLowLevelLate	"#![BeginSeg 1]下部レベルセンサー不良#![End
 textStatAlarmLowLevelPriorToExpected	"#![BeginSeg 1]プライミング前の液体検出不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmLowPltConc	"#![BeginSeg 1]血小板濃度が範囲外#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmMaintainDonorAccessError	"#![BeginSeg 1]一時停止 3 分経過#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
+textStatAlarmMotorDisabled	"#![BeginSeg 1]モーターの不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
+textStatAlarmMotorFailedToMaintainSpeed	"#![BeginSeg 1]モーターの不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmMotorHardwareFailure	"#![BeginSeg 1]ハードウェア不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
+textStatAlarmMotorIntegrationError	"#![BeginSeg 1]モーターの不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
+textStatAlarmMotorVolumeError	"#![BeginSeg 1]モーターの不良#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmOcclusionDetected	"#![BeginSeg 1]抗凝固剤ライン閉塞エラー#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	21	1
 textStatAlarmOvertemp	"#![BeginSeg 1]遠心分離器温度エラー#![EndSeg 1]"	165 8 0	0x0101	0	0	0	0	21	1
 textStatAlarmPasPrimeEarly	"#![BeginSeg 1]血小板保存用添加液ラインプライミングエラー#![EndSeg 1]"	255 247 57	0x0101	54	146	182	14	21	1
@@ -1338,7 +1395,7 @@ textStatBloodPrimeInProgress	"#![BeginSeg 1]血液プライミング中#![EndSeg
 textStatCfgMachBadBarcode	"#![BeginSeg 1]バーコードと回路セットのカタログ番号が一致していません。#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatCfgMachBadCatNum	"#![BeginSeg 1]カタログ番号は 5 桁または 6 桁でなければなりません。#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachBadPair	"#![BeginSeg 1]入力値が正しくありません　—　数値を確認してください。#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
-textStatCfgMachBadSetCode	"#![BeginSeg 1]回路セットコードは 8 桁でなければなりません。#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]回路セットコードは 8 ～ 10 桁でなければなりません。#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachEnterCatNum	"#![BeginSeg 1]カタログ番号/コードの入力#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachEnterSetCode	"#![BeginSeg 1]回路セットコードの入力#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachSuccess	"#![BeginSeg 1]カタログ番号入力が正常に終了#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
@@ -1388,75 +1445,5 @@ textStatSetIdInstructions	"#![BeginSeg 1]回路セットのカタログ番号を
 textStatUnscheduledPurge	"#![BeginSeg 1]白血球を検出後、LRS チャンバーをクリア中#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatValueOutOfRange	"#![BeginSeg 1]値が範囲外#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	21	1
 textStatWaitingForVista	"#![BeginSeg 1]Vista Information System を待機中...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
-
-
-
-textConfirmPasBarcode               "#![BeginSeg 1]Scan the NDC barcode on the platelet additive solution bag#![EndSeg 1]"                                                                     255 247  57 0x0111     40     40   315   100 18    1  
-textConfirmPasBarcodeInvalid        "#![BeginSeg 1]The barcode scanned is invalid\n\n#![EndSeg 1]#![BeginSeg 2]Scan the NDC barcode on the platelet additive solution bag#![EndSeg 2]"            255 247  57 0x0110     40     40   315   100 18    1
-textButtonLabelCfgLeftPltAmapTrali  "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                                                                         255 247  57 0x0111   370   356   100    90  14    1 
-textEmptyFormatKeypadAdminCodeInit  ""  0   0   0 0x0121     0     0     0     0  14    0 
-textEmptyFormatCfgPltPasPercent     ""  255 247  57 0x0111     0     0    50    20  14    0  
-textEmptyFormatCfgPltCollectConc    ""  255 247  57 0x0111     0     0    50    20  14    0 
-textDataLabelPredConfPostPlt	    "#![BeginSeg 1]Post platelet count#![EndSeg 1]"	255 247  57 0x0101 20  239 200 24 14  1
-textEmptyFormatPredConfPostPlt	    "" 255 247  57 0x0121 212 239  30 24 14  0
-textDataUnitsPredConfPostPlt	    "#![BeginSeg 1]x 1000/µL#![EndSeg 1]"         	255 247  57 0x0101 245 239  80 24 14  1
-textCfgRowLabelCfgRbc4              "#![BeginSeg 1]RBC 4#![EndSeg 1]"  255 247  57 0x0111    0     0    70    48  14    1
-textCfgRowLabelCfgRbc5              "#![BeginSeg 1]RBC 5#![EndSeg 1]"  255 247  57 0x0111    0     0    70    48  14    1
-textCfgRowLabelCfgRbc6              "#![BeginSeg 1]RBC 6#![EndSeg 1]"  255 247  57 0x0111    0     0    70    48  14    1 
-textMiscCfgRbc4Indicator            "#![BeginSeg 1]RBC 4#![EndSeg 1]"  255 247  57 0x0101    10    25   620    25  14   1
-textMiscCfgRbc5Indicator            "#![BeginSeg 1]RBC 5#![EndSeg 1]"  255 247  57 0x0101    10    25   620    25  14   1
-textMiscCfgRbc6Indicator            "#![BeginSeg 1]RBC 6#![EndSeg 1]"  255 247  57 0x0101    10    25   620    25  14   1
-textListboxItemCfgRbcProc4          "#![BeginSeg 1]RBC 4#![EndSeg 1]"  255 247  57 0x0111     0     0     0     0  14   1
-textListboxItemCfgRbcProc5          "#![BeginSeg 1]RBC 5#![EndSeg 1]"  255 247  57 0x0111     0     0     0     0  14   1
-textListboxItemCfgRbcProc6          "#![BeginSeg 1]RBC 6#![EndSeg 1]"  255 247  57 0x0111     0     0     0     0  14   1
-textMiscInstructionDispConnectAcLuer  "#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Connect#![EndSeg 2]"                  255 247  57 0x0112     6   128   170     0  18  1
-textMiscInstructionDispBreakAcLuer    "#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Break the bag frangible#![EndSeg 2]"  255 247  57 0x0112   160   108   170     0  18  1
-textMiscInstructionDispSqueezeAcLuer  "#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Squeeze#![EndSeg 2]"                  255 247  57 0x0112   308   128   170     0  18  1
-textMiscInstructionDispLoadAcLuer     "#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]Load#![EndSeg 2]"                     255 247  57 0x0112   455   128   170     0  18  1
-textMiscAcLuerConnBag1               "#![BeginSeg 1]AC#![EndSeg 1]"  57 24  132  0x0111    40   155     110     100   18    1
-textMiscAcLuerConnBag2               "#![BeginSeg 1]AC#![EndSeg 1]"  57 24  132  0x0111   192   155     110     100   18    1
-textMiscAcLuerConnBag3               "#![BeginSeg 1]AC#![EndSeg 1]"  57 24  132  0x0111   344   155     110     100   18    1
-textMiscCfgMaxValue2                 "#![BeginSeg 1]Maximum value = #![EndSeg 1]" 255 247  57 0x0101    300    35   620    17  14    1
-textMiscCfgMinValue2                 "#![BeginSeg 1]Minimum value = #![EndSeg 1]" 255 247  57 0x0101    100    35   620    17  14    1
-textButtonLabelCfgDonLimTbvSettingJp "#![BeginSeg 2]TBV (%)#![EndSeg 2]"  255 247  57 0x0112    185     105   100    45  14    1
-textButtonLabelCfgLeftPltAmapYsf     "#![BeginSeg 1]Yield scaling factor#![EndSeg 1]"  255 247  57 0x0111   120   356   100    90  14    1
-textMiscBloodTypeONeg                "#![BeginSeg 1]O-#![EndSeg 1]" 255 255 255 0x0111   416   313   171    24  18    0 
-textMiscTrimaVersion                 "#![BeginSeg 1]Version 6.4#![EndSeg 1]" 0   0   0 0x0102   100   350   540    70  18    1 
-textProdVerifReasonWbcNotValidated   "#![BeginSeg 1]Configured yield > 9.0#![EndSeg 1]" 255 255 255 0x0101    54   146   182    14  12    0 
-textStatAlarmMotorFailedToMaintainSpeed "#![BeginSeg 1]Motor hardware failure#![EndSeg 1]" 165   8   0 0x0101    54   146   182    14  18    1
-textStatAlarmMotorIntegrationError      "#![BeginSeg 1]Motor hardware failure#![EndSeg 1]" 165   8   0 0x0101    54   146   182    14  18    1
-textStatAlarmMotorVolumeError           "#![BeginSeg 1]Motor hardware failure#![EndSeg 1]" 165   8   0 0x0101    54   146   182    14  18    1
-textStatAlarmMotorDisabled              "#![BeginSeg 1]Motor hardware failure#![EndSeg 1]" 165   8   0 0x0101    54   146   182    14  18    1
-textAlarmBodyNoGraphicMotorFailedToMaintainSpeed  "#![BeginSeg 1]The motor hardware may need to be re-tested. #![EndSeg 1]Verify: \n\t- #![BeginSeg 2]Pump headers and pumps are not obstructed#![EndSeg 2]\n\t- #![BeginSeg 3]Cassette is not obstructed#![EndSeg 3]\n\n#![BeginSeg 4]Remove obstructions if present.#![EndSeg 4]\n\n#![BeginSeg 5]Touch 'Continue' to resume the procedure.  #![EndSeg 5]#![BeginSeg 6]If the motor hardware fails this test repeatedly, end the run.  #![EndSeg 6]#![BeginSeg 7]Call your service representative for assistance.#![EndSeg 7]"     165 8 0 0x0100 15 120 455 300 16 1
-textAlarmBodyNoGraphicMotorIntegrationError       "#![BeginSeg 1]The motor hardware may need to be re-tested. #![EndSeg 1]Verify: \n\t- #![BeginSeg 2]Pump headers and pumps are not obstructed#![EndSeg 2]\n\t- #![BeginSeg 3]Cassette is not obstructed#![EndSeg 3]\n\n#![BeginSeg 4]Remove obstructions if present.#![EndSeg 4]\n\n#![BeginSeg 5]Touch 'Continue' to resume the procedure.  #![EndSeg 5]#![BeginSeg 6]If the motor hardware fails this test repeatedly, end the run.  #![EndSeg 6]#![BeginSeg 7]Call your service representative for assistance.#![EndSeg 7]"     165 8 0 0x0100 15 120 455 300 16 1
-textAlarmBodyNoGraphicMotorVolumeError            "#![BeginSeg 1]The motor hardware may need to be re-tested. #![EndSeg 1]Verify: \n\t- #![BeginSeg 2]Pump headers and pumps are not obstructed#![EndSeg 2]\n\t- #![BeginSeg 3]Cassette is not obstructed#![EndSeg 3]\n\n#![BeginSeg 4]Remove obstructions if present.#![EndSeg 4]\n\n#![BeginSeg 5]Touch 'Continue' to resume the procedure.  #![EndSeg 5]#![BeginSeg 6]If the motor hardware fails this test repeatedly, end the run.  #![EndSeg 6]#![BeginSeg 7]Call your service representative for assistance.#![EndSeg 7]"     165 8 0 0x0100 15 120 455 300 16 1
-textAlarmBodyNoGraphicMotorDisabled               "#![BeginSeg 1]The motor hardware may need to be re-tested. #![EndSeg 1]Verify: \n\t- #![BeginSeg 2]Pump headers and pumps are not obstructed#![EndSeg 2]\n\t- #![BeginSeg 3]Cassette is not obstructed#![EndSeg 3]\n\n#![BeginSeg 4]Remove obstructions if present.#![EndSeg 4]\n\n#![BeginSeg 5]Touch 'Continue' to resume the procedure.  #![EndSeg 5]#![BeginSeg 6]If the motor hardware fails this test repeatedly, end the run.  #![EndSeg 6]#![BeginSeg 7]Call your service representative for assistance.#![EndSeg 7]"     165 8 0 0x0100 15 120 455 300 16 1
-
-textJapanFeatures              "#![BeginSeg 1]Japanese features#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1
-textAllowAutoConfPlasmaProcs   "#![BeginSeg 1]Additional plasma only procedures#![EndSeg 1]"    0     0    0 0x0001     10     2   280     25  10    1
-textProcConfirmPopup           "#![BeginSeg 1]Procedure confirmation prompt#![EndSeg 1]"        0     0    0 0x0001     10     2   280     25  10    1
-textPasBagBarcodeScanFeature   "#![BeginSeg 1]PAS barcode confirmation#![EndSeg 1]"             0     0    0 0x0001     10     2   280     25  10    1
-textPIRPreferred               "#![BeginSeg 1]Enhanced platelet inventory recovery#![EndSeg 1]" 0     0    0 0x0001     10     2   280     25  10    1
-textTriplePpcFlag              "#![BeginSeg 1]PPC/PAS WBC message#![EndSeg 1]"                  0     0    0 0x0001     10     2   280     25  10    1
-
-textSoftOptInvalidKeyUser      "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"       255 247  57 0x0111     0     0   640     0  18    1
-textSoftOptInvalidKeySerial    "#![BeginSeg 1]Invalid serial number#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1
-textSoftOptInvalidKeySite      "#![BeginSeg 1]Invalid site#![EndSeg 1]"            255 247  57 0x0111     0     0   640     0  18    1
-textSoftOptInvalidKeyCountry   "#![BeginSeg 1]Invalid country#![EndSeg 1]"         255 247  57 0x0111     0     0   640     0  18    1
-textSoftOptInvalidKeyCustomer  "#![BeginSeg 1]Invalid customer#![EndSeg 1]"        255 247  57 0x0111     0     0   640     0  18    1
-textSoftOptInvalidKeyFormat    "#![BeginSeg 1]Invalid key#![EndSeg 1]"             255 247  57 0x0111     0     0   640     0  18    1
-
-textAlarmBodyNoGraphicAcHallHigh     "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The platelet pump rotor may be loaded in the wrong rotor housing. #![EndSeg 5]#![BeginSeg 6]If the pump rotor with the black dot is loaded in the AC rotor housing, remove it and load it into the platelet rotor housing. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicAcHallLow      "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The AC pump rotor may not be loaded correctly. #![EndSeg 5]#![BeginSeg 6]Reload the rotor onto the AC pump. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicInletHallHigh  "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The platelet pump rotor may be loaded in the wrong rotor housing. #![EndSeg 5]#![BeginSeg 6]If the pump rotor with the black dot is loaded in the draw rotor housing, remove it and load it into the platelet rotor housing. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicInletHallLow   "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The draw pump rotor may not be loaded correctly. #![EndSeg 5]#![BeginSeg 6]Reload the rotor onto the draw pump. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicPlasmaHallHigh "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The platelet pump rotor may be loaded in the wrong rotor housing. #![EndSeg 5]#![BeginSeg 6]If the pump rotor with the black dot is loaded in the plasma rotor housing, remove it and load it into the platelet rotor housing. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicPlasmaHallLow  "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The plasma pump rotor may not be loaded correctly. #![EndSeg 5]#![BeginSeg 6]Reload the rotor onto the plasma pump. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicPltHallHigh    "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]Verify that all pump rotors are in the correct positions and are loaded correctly. #![EndSeg 5]#![BeginSeg 6]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 6]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicPltHallLow     "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The platelet pump rotor may not be loaded correctly or an incorrect pump rotor may be loaded in the platelet rotor housing. #![EndSeg 5]#![BeginSeg 6]Ensure that the pump rotor with the black dot is loaded in the platelet rotor housing. #![EndSeg 6]#![BeginSeg 7]Reload the rotor onto the platelet pump. #![EndSeg 7]#![BeginSeg 8]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 8]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicReturnHallHigh "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]Verify that all pump rotors are in the correct positions and are loaded correctly. #![EndSeg 5]#![BeginSeg 6]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 6]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyNoGraphicReturnHallLow  "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]The return pump rotor may not be loaded correctly. #![EndSeg 5]#![BeginSeg 6]Reload the rotor onto the return pump. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 165   8   0 0x0100    15   120   455    300  18  1
-textAlarmBodyWithGraphicRasEmpty     "#![BeginSeg 1]The RBC additive solution bag is almost empty. #![EndSeg 1]#![BeginSeg 2]Connect a new bag, break the bag frangible, and touch 'Continue.'#![EndSeg 2]" 165   8   0 0x0100    15   120   227    300  18  1
-
-
+textTriplePpcFlag	"#![BeginSeg 1]PPC/PAS WBC message#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 STRING_FILE_TABLE_END
