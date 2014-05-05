@@ -100,7 +100,7 @@ languageCrc	"0x985a1d89"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textACinPlasmaVolumeUnitCurr	"#![BeginSeg 1]mL#![EndSeg 1]"	255 247 57	0x0121	255	284	59	35	14	1
 textACinPlasmaVolumeUnitNext	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	338	59	35	11	1
 textACinPlasmaVolumeUnitPrev	"#![BeginSeg 1]mL#![EndSeg 1]"	74 74 74	0x0121	245	209	59	35	11	1
