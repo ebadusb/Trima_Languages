@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x4426449"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x38b70511"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -773,7 +773,7 @@ textListboxItemCfgBloodTypeBnBp                                    "#![BeginSeg 
 textMiscBloodTypeAnBnApBp                              "#![BeginSeg 1]AB-/AB+#![EndSeg 1]"                                                                                                                255 247  57 0x0111     0     0   640     0  14    0  approved
 textButtonLabelCfgLeftDonPostPlat                                     "#![BeginSeg 1]Minimum donor post platelet count#![EndSeg 1]"                                                                                      255 247  57 0x0111    50   265   100    70  14    1  approved
 textStatLoadSet                                         "#![BeginSeg 1]Load the tubing set with REF #!{currentlySelectedRef}#![EndSeg 1]"                                                                                     255 255 255 0x0111     0     0   640     0  18    1  approved
-textMiscTrimaVersion                                           "#![BeginSeg 1]Version 6.4#![EndSeg 1]"                                                                                                              0   0   0 0x0102   100   350   540    70  18    1  approved
+textMiscTrimaVersion                                           "#![BeginSeg 1]Version 6.4 New Purge#![EndSeg 1]"                                                                                                              0   0   0 0x0102   100   350   540    70  18    1  approved
 textEmptyFormatAlarmVersionLocation                                  ""                                                                                                                       255 247  57 0x0101    10   419   465    12  10    0  approved
 textButtonAlarmUnload                                        "#![BeginSeg 1]Unload#![EndSeg 1]"                                                                                                                 255 247  57 0x0111     0     0   640     0  18    1  approved
 textButtonAlarmAdjust                                        "#![BeginSeg 1]Adjust#![EndSeg 1]"                                                                                                                 255 247  57 0x0111     0     0   640     0  18    1  approved
