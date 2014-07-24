@@ -12,7 +12,7 @@ languageCrc	"0xd3ebdcc0"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Magyar"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"21"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textAbortBodyAas	"#![BeginSeg 1]Oldathozzáadás befejezése azt jelenti, hogy:\n#![EndSeg 1]#![BeginSeg 2]- Az oldathozzáadás törlésre került. #![EndSeg 2]#![BeginSeg 3]Fűzze ki és helyezze hulladékba a csőszereléket.\n#![EndSeg 3]#![BeginSeg 4]- További kiegészítő oldatra lehet szükség. #![EndSeg 4]#![BeginSeg 5]Nézze meg a Kezelői kézikönyvben a további utasításokat.#![EndSeg 5]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]Levegőakadály helyreállítása azt jelenti, hogy:\n#![EndSeg 1]#![BeginSeg 2]- A kezelő levegőt észlel a trombocita- vagy plazmacsőszárban.\n#![EndSeg 2]#![BeginSeg 3]- A rendszer elhalasztja a gyűjtést a helyreállítás végrehajtásáig.#![EndSeg 3]"	165 8 0	0x0111	12	117	614	183	18	1
 textAbortBodyPas	"#![BeginSeg 1]Oldathozzáadás befejezése azt jelenti, hogy:\n#![EndSeg 1]#![BeginSeg 2]- Az oldathozzáadás törlésre került. #![EndSeg 2]#![BeginSeg 3]Fűzze ki és helyezze hulladékba a csőszereléket.\n#![EndSeg 3]#![BeginSeg 4]- További kiegészítő oldatra lehet szükség. #![EndSeg 4]#![BeginSeg 5]Nézze meg a Kezelői kézikönyvben a további utasításokat.\n#![EndSeg 5]#![BeginSeg 6]- Választhatja a trombocitaoldat-hozzáadás befejezését is, és folytathatja a VVT-oldat hozzáadásával.#![EndSeg 6]"	165 8 0	0x0111	12	117	614	183	18	1
