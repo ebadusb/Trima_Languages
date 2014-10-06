@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x195a22ff"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xa8f2ca8e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1413,13 +1413,13 @@ textRBCConfigCollectVol1           ""       255  255  0      0x0100   440   185 
 textRBCConfigCollectVol2           ""       255  255  0      0x0100   440   250    59    35  14     1  unapproved
 textRBCConfigCollectVol3           ""       255  255  0      0x0100   440   316    59    35  14     1  unapproved
 
-textPltConfigCollectCon1           ""       255  255  0      0x0100   505   185    59    35  14     1  unapproved
-textPltConfigCollectCon2           ""       255  255  0      0x0100   505   250    59    35  14     1  unapproved
-textPltConfigCollectCon3           ""       255  255  0      0x0100   505   316    59    35  14     1  unapproved
+textPltConfigCollectCon1           ""       255  255  0      0x0110   485   183    59    35  14     1  unapproved
+textPltConfigCollectCon2           ""       255  255  0      0x0110   485   248    59    35  14     1  unapproved
+textPltConfigCollectCon3           ""       255  255  0      0x0110   485   314    59    35  14     1  unapproved
 
-textPltConfigSolutionVol1           ""       255  255  0      0x0100   585   185    59    35  14     1  unapproved
-textPltConfigSolutionVol2           ""       255  255  0      0x0100   585   250    59    35  14     1  unapproved
-textPltConfigSolutionVol3           ""       255  255  0      0x0100   585   316    59    35  14     1  unapproved
+textPltConfigSolutionVol1           ""       255  255  0      0x0110   565   183    59    35  14     1  unapproved
+textPltConfigSolutionVol2           ""       255  255  0      0x0110   565   248    59    35  14     1  unapproved
+textPltConfigSolutionVol3           ""       255  255  0      0x0110   565   314    59    35  14     1  unapproved
 
 #########################################################################################################################################################################
 ##################################################### English only Strings ##############################################################################################
