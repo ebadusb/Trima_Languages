@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xa8f2ca8e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb92b02b8"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1420,6 +1420,10 @@ textPltConfigCollectCon3           ""       255  255  0      0x0110   485   314 
 textPltConfigSolutionVol1           ""       255  255  0      0x0110   565   183    59    35  14     1  unapproved
 textPltConfigSolutionVol2           ""       255  255  0      0x0110   565   248    59    35  14     1  unapproved
 textPltConfigSolutionVol3           ""       255  255  0      0x0110   565   314    59    35  14     1  unapproved
+
+textProcPriorityLabel1           "1"       255  255  0      0x0100   22   205    59    35  14     1  unapproved
+textProcPriorityLabel2           "2"       255  255  0      0x0100   22   265    59    35  14     1  unapproved
+textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325    59    35  14     1  unapproved
 
 #########################################################################################################################################################################
 ##################################################### English only Strings ##############################################################################################
