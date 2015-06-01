@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xe4a8f60f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x23f3f33"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -245,7 +245,7 @@ textEmptyFormatPredCurrPltExpInit                         ""                    
 textEmptyFormatPredCurrPltX10Init                         ""                                                                                                                      255 247  57 0x0101    85   265    47    23  18    0  unapproved
 textFormatPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              255 247  57 0x0101   128   263    16    12  10    0  approved
 textFormatPredCurrPltX10                         "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"                                                                 255 247  57 0x0101    85   265    47    23  18    1  approved
-textEmptyFormatPredCurrPltVolLabelInit                      ""                                                                                                                      255 247  57 0x0101    85   290    47    23  14    0  approved
+textEmptyFormatPredCurrPltVolLabelInit                      "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"                                                                                                                      255 247  57 0x0101    85   290    47    23  14    0  approved
 textEmptyFormatPredCurrPltInit                                   ""                                                                                                                      255 247  57 0x0121    35   265    45    23  18    0  approved
 textEmptyFormatPredCurrPltVolInit                            ""                                                                                                                      255 247  57 0x0121    35   290    45    23  14    0  approved
 textEmptyFormatPredNextPltExpInit                            ""                                                                                                                       74  74  74 0x0101   107   324    13    11   8    0  approved
