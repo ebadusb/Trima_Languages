@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x199f98b4"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x781ab0fc"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -904,7 +904,7 @@ textButtonLabelCfgLeftDonInletFlowRamp                                     "#![B
 textMiscRunProcDate                                            "#![BeginSeg 1]00/00/0000#![EndSeg 1]"                                                                                                             255 247  57 0x0111   540    80    90    20  12    0  approved
 textButtonLabelCfgLeftRbcYsf                            "#![BeginSeg 1]RBC\n scaling factor#![EndSeg 1]"                                                                                                   255 247  57  0x0111   350   357   100    70   14    1  approved
 textEmptyFormatCfgRbcVolData                                     ""                                                                                                                       255 247  57 0x0111   390     0   130    48  12    0  approved
-textButtonFlagPltWbcs                             "#![BeginSeg 1]Verify the WBC content in the platelet product#![EndSeg 1]"                                                                                        74  74  74 0x0101     10     10     262    40  16    1  approved
+textButtonFlagPltWbcs                             "#![BeginSeg 1]Verify the WBC content in the \nplatelet product#![EndSeg 1]"                                                                                        74  74  74 0x0101     10     10     262    40  16    1  approved
 textButtonFlagPlasWbcs                               "#![BeginSeg 1]Verify the WBC content in the plasma product#![EndSeg 1]"                                                                                          74  74  74 0x0101     10     10     262    40  16    1  approved
 textButtonFlagPltYieldVol                   "#![BeginSeg 1]Verify the platelet product, yield and volume#![EndSeg 1]"                                                                              74  74  74 0x0101     10     10     302    40  16    1  approved
 textButtonFlagPlasVol                               "#![BeginSeg 1]Verify the plasma product volume#![EndSeg 1]"                                                                                           74  74  74 0x0101     10     10     302    40  16    1  approved
