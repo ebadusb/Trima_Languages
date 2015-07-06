@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xda4edce1"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb355204e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -233,7 +233,7 @@ textButtonLongPredScrollPrev                                           "#![Begin
 textButtonLongPredScrollNext                                           "#![BeginSeg 1]Less preferred#![EndSeg 1]"                                                                                                         255 247  57 0x0111     0     0   640     0  18    1  approved
 textButtonLongConfirmProduct                                "#![BeginSeg 1]Confirm procedure#![EndSeg 1]"                                                                                                      255 247  57 0x0111     0     0   640     0  18    1  approved
 textDataUnitsPredDuration                                         "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"                                                                                                                   255 255 255 0x0111     0     0   640     0  24    1  approved
-textDataUnitsPredFlowRate                                    "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"                                                                                                                255 255 255 0x0111     0     0   640     0  24    1  approved
+textDataUnitsPredFlowRate                                    "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"                                                                                                                0   0   0 0x0121     56     10     109     32  14    1  approved
 textDataUnitsPredPltYield                            "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"                                                                                                                  255 255 255 0x0111     0     0   640     0  24    0  approved
 textDataUnitsPredUnitPltYieldExp                             "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 255 255 0x0121     0     0     0     0  10    0  approved
 textEmptyFormatPredPrevPltExpInit                        ""                                                                                                                       74  74  74 0x0101   107   190    13    11   8    0  approved
