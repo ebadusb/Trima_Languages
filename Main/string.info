@@ -1599,13 +1599,13 @@ CMP2textEmptyFormatRs2DatRasVol                                      ""         
 #################################################################################
 ###  AUTOFLOW ###
 JPHtextStatPredictScreenAFTimeout    "#![BeginSeg 1]Draw flow too low - Maximum procedure duration exceeded#![EndSeg 1]"               165   8   0 0x0101    54   146   182    14  18    0  unapproved
-JPHtextStatAlarmAFtenMin                  "#![BeginSeg 1]Donation time increase#![EndSeg 1]"                                                                  165   8   0 0x0101    54   146   182    14  18    0  unapproved
+JPHtextStatAlarmAFtenMin                  "#![BeginSeg 1]Donation time increase#![EndSeg 1]"                                                                  255 255 255 0x0111     0     0   640     0  18    0  unapproved
 JPHtextAlarmBodyAFtenMin                "#![BeginSeg 1]Draw flow cannot be\n maintained.#![EndSeg 1]#![BeginSeg 2]  Donation\n time has been increased \nby more than 10 minutes.\n#![EndSeg 2]#![BeginSeg 3]Verify:\n#![EndSeg 3]#![BeginSeg 4]-The needle is positioned \nin the donor's vein correctly.\n#![EndSeg 4]#![BeginSeg 5]-The donor is squeezing \nthe squeeze bulb.\n#![EndSeg 5]#![BeginSeg 6]-The donor is warm.\n#![EndSeg 6]"    0   0   0 0x0100    15   120   455    300  16  0  unapproved
 JPHtextMiscTrimaVersion                    "#![BeginSeg 1]Version 6.4.AF#![EndSeg 1]"                                                                                                              0   0   0 0x0102   100   350   540    70  18    0  unapproved
 JPHtextAutoFlowCfgBtn                        "#![BeginSeg 1]AutoFlow#![EndSeg 1]"                                    255 247  57 0x0111    45   345   100    70  14    0  unapproved
 
 AutoFlowTextAlarmBodyTimeout                "#![BeginSeg 1]The current procedure is disqualified due to low \ndraw flow.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]-The needle is positioned in the donor's vein \ncorrectly.\n#![EndSeg 3]#![BeginSeg 4]-The donor is warm.\n#![EndSeg 4]#![BeginSeg 5]-Instruct the donor to squeeze the handgrip.\n\n#![EndSeg 5]#![BeginSeg 6]Touch 'Continue' to select a new procedure, or touch \n'Adjust' to increase draw flow.\n#![EndSeg 6]"    0   0   0 0x0100    15   120   455    300  16  0  unapproved
-AutoFlowTextStatAlarmTimeout              "#![BeginSeg 1]Maximum procedure duration exceeded#![EndSeg 1]"                                                                  165   8   0 0x0101    54   146   182    14  18    0  unapproved
+AutoFlowTextStatAlarmTimeout              "#![BeginSeg 1]Maximum procedure duration exceeded#![EndSeg 1]"                                                                  255 255 255 0x0111     0     0   640     0  18    0  unapproved
  
 
 #############################
