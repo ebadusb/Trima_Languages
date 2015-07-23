@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x83cfeb6f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x92a4cd22"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -937,7 +937,7 @@ textListboxItemCfgBloodTypeAbpAbn                                  "#![BeginSeg 
 textStatDrbcSplitAlert                                   "#![BeginSeg 1]DRBC split alert#![EndSeg 1]"                                                                                                       165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatValueOutOfRange                                      "#![BeginSeg 1]Value out of range#![EndSeg 1]"                                                                                                    255 247  57 0x0101     0     0     0     0  18    1  approved
 textStatAdjustingPltConc                        "#![BeginSeg 1]Adjusting the platelet concentration...#![EndSeg 1]"                                                                                      255 247  57 0x0111     0     0   640     0  18    1  approved
-textButtonLabelCfgLeftProcPlsRinseback                                    "#![BeginSeg 1]Plasma rinseback#![EndSeg 1]"                                                                                                       255 247  57 0x0111    30   360   150    70  14    1  approved
+textButtonLabelCfgLeftProcPlsRinseback                                    "#![BeginSeg 1]Plasma rinseback#![EndSeg 1]"                                                                                                       255 247  57 0x0111    30   295   150    70  14    1  unapproved
 textButtonLabelCfgLeftProcSalineRinseback                                    "#![BeginSeg 1]Saline rinseback#![EndSeg 1]"                                                                                                       255 247  57 0x0111   350   360   150    70  14    1  approved
 textListboxItemCfgPlsProc1                                               "#![BeginSeg 1]Plasma 1#![EndSeg 1]"                                                                                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgPlsProc2                                               "#![BeginSeg 1]Plasma 2#![EndSeg 1]"                                                                                                               255 247  57 0x0111     0     0   640     0  14    1  approved
