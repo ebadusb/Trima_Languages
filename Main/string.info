@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x5938b5e4"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x44b31f93"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -664,8 +664,8 @@ textMiscRunProcInitPltCurrentExponent                           "#![BeginSeg 1]1
 textEmptyFormatRunDonationTimeLeftInit                             ""                                                                                                                      239 239 239 0x0101   314   146    86    15  14    0  approved
 textEmptyFormatRunDonationTimeMidInit                              ""                                                                                                                      255 247  57 0x0111   403   146    86    15  14    0  approved
 textEmptyFormatRunDonationTimeRightInit                            ""                                                                                                                      239 239 239 0x0121   492   146    86    15  14    0  approved
-textButtonAdjustSpillover                                       "#![BeginSeg 1]Spillover#![EndSeg 1]"                                                                                                              255 247  57 0x0111     5     5   110     50  14    1  approved
-textButtonAdjustAirInPlasma                                   "#![BeginSeg 1]Air block#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   110     50  14    1  approved
+textButtonAdjustSpillover                                       "#![BeginSeg 1]Spillover#![EndSeg 1]"                                                                                                              255 247  57 0x0110     0     18   110     0  14    1  approved
+textButtonAdjustAirInPlasma                                   "#![BeginSeg 1]Air block#![EndSeg 1]"                                                                                                    255 247  57 0x0110     0     18   110     0  14    1  approved
 textDataUnitsAdjustTime                                          "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"                                                                                                                   239 239 239 0x0111     0     0   640     0  18    1  approved
 textMiscAdjustMeterLabelDraw                                          "#![BeginSeg 1]Draw\nflow#![EndSeg 1]"                                                                                                             239 239 239 0x0111    35   170   104    14  14    1  approved
 textMiscAdjustMeterLabelReturn                                        "#![BeginSeg 1]Return\nflow#![EndSeg 1]"                                                                                                           239 239 239 0x0111   135   170   104    14  14    1  approved
