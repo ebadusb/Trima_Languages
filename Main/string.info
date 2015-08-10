@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x38160efa"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x710c173c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -372,7 +372,7 @@ textCfgRowLabelCfgPlt6                                          "#![BeginSeg 1]P
 textCfgRowLabelCfgPlt7                                          "#![BeginSeg 1]PLT 7#![EndSeg 1]"                                                                                                                  255 247  57 0x0101     10     0    53    48  14    1  approved
 textCfgRowLabelCfgPlt8                                          "#![BeginSeg 1]PLT 8#![EndSeg 1]"                                                                                                                  255 247  57 0x0101     10     0    53    48  14    1  approved
 textCfgRowLabelCfgPlt9                                          "#![BeginSeg 1]PLT 9#![EndSeg 1]"                                                                                                                  255 247  57 0x0101     10     0    53    48  14    1  approved
-textCfgRowLabelCfgPlt10                                        "#![BeginSeg 1]PLT 10#![EndSeg 1]"                                                                                                                255 247  57 0x0111     2     0    53    48  14    1  approved
+textCfgRowLabelCfgPlt10                                         "#![BeginSeg 1]PLT 10#![EndSeg 1]"                                                                                                                 255 247  57 0x0101     10     0    53    48  14    1  approved
 textEmptyFormatPwsFactotumButton                                        ""                                                                                                                       74  74  74 0x0101     0     0     0     0  16    0  approved
 textEmptyFormatPwsFactotumPlac                                       ""                                                                                                                      255 255 255 0x0101   360   150   255   256  16    0  approved
 textCfgRowLabelCfgRbc1                                                    "#![BeginSeg 1]RBC 1#![EndSeg 1]"                                                                                                                  255 247  57 0x0101    10     0    70    48  14    1  approved
