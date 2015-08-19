@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xfd661d5b"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x3e054978"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -475,6 +475,8 @@ textEmptyFormatRs1DatTbvProcessed                               ""              
 textEmptyFormatRs1DatAasStartTime                                   ""                                                                                                                       255 255 255 0x0121   180   302    70    90  14    0  approved
 textEmptyFormatRs1DatAvgInletFlowAlt                           ""                                                                                                                       255 255 255 0x0121   180   302    50    90  14    0  approved
 textEmptyFormatRs1DatAvgInletFlow                               ""                                                                                                                       255 255 255 0x0121   180   345    50    90  14    0  approved
+textDashesRs1AvgInletFlowAlt                           "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   185   302    123    90  14    0  approved
+textDashesRs1AvgInletFlow                              "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   185   345    123    90  14    0  approved
 textDataUnitsRs1AcUsed                                         "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   130    55    90  14    1  approved
 textDataUnitsRs1TimeAm                                         "#![BeginSeg 1]a.m.#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   173    55    90  14    1  approved
 textDataUnitsRs1TimePm                                         "#![BeginSeg 1]p.m.#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   173    55    90  14    1  approved
