@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x3e054978"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x4b2a620f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1074,7 +1074,7 @@ textListboxItemRemoveAll                                 "#![BeginSeg 1]Remove a
 textListboxItemRefIdPC                                   "#![BeginSeg 1]PC#![EndSeg 1]#![BeginSeg 2] / #![EndSeg 2]"                                                             255 247  57 0x0111     0     0   640     0  12    1  unapproved
 textListboxItemRefIdPPP                                  "#![BeginSeg 1]PPP#![EndSeg 1]#![BeginSeg 2] / #![EndSeg 2]"                                                            255 247  57 0x0111     0     0   640     0  12    1  unapproved
 textConfirmBodyCfgMachRefDeleteOne                       "#![BeginSeg 1]Remove the tubing set REF:#![EndSeg 1]"                                                                  255 247  57 0x0111     0     0   640     0  18    1  approved
-textConfirmBodyCfgMachRefDeleteOneN                      "#![BeginSeg 1]Remove the tubing set\nREF:#![EndSeg 1]"                                                               255 247  57 0x0110     0     20   640     0  18    1  unapproved
+textConfirmBodyCfgMachRefDeleteOneN                      "#![BeginSeg 1]Remove the tubing set\nREF:\n\n#![EndSeg 1]"                                                               255 247  57 0x0110     0     20   640     0  18    1  unapproved
 textConfirmBodyCfgMachRefDeleteAll                       "#![BeginSeg 1]Remove all REF entries#![EndSeg 1]"                                                                      255 247  57 0x0111     0     0   640     0  18    1  approved 
 textConfirmBodyCfgMachRefDeleteAllN                      "#![BeginSeg 1]Remove all REF entries#![EndSeg 1]"                                                                      255 247  57 0x0110     0    45   640     0  18    1  unapproved
 textMiscCfgMachBarcode                                   "#![BeginSeg 1]Barcode#![EndSeg 1]"                                                                                     255 247  57 0x0111   277   235   100    45  14    1  approved
