@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x4c6d7a62"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x8e42973d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -730,8 +730,6 @@ textMiscCfgMaxValue                                           "#![BeginSeg 1]Max
 textMiscCfgMinValue                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    10    50   620    17  14    1  approved
 textMiscCfgMaxValue2                                           "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    300    35   620    17  14    1  approved
 textMiscCfgMinValue2                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    100    35   620    17  14    1  approved
-textMiscPasConnectMaxBagVol                           "#![BeginSeg 1]Maximum\nvalue = #![EndSeg 1]"                                                                                                       255 247  57 0x0101     5    28   100    36  12    1  approved
-textMiscPasConnectMinBagVol                           "#![BeginSeg 1]Minimum\nvalue = #![EndSeg 1]"                                                                                                       255 247  57 0x0101     5    64   100    36  12    1  approved
 textMiscCfgSplitRangeBottomLabel                              "#![BeginSeg 1]Single product range#![EndSeg 1]"                                                                                                   255 247  57 0x0101    10    46   200    17  14    1  approved
 textMiscCfgSplitRangeBottomMin                              "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    10    63   200    17  14    1  approved
 textMiscCfgSplitRangeBottomMax                              "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    10    80   200    17  14    1  approved
