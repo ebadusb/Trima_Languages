@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x853b0851"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xcee2ba17"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -549,9 +549,9 @@ textEmptyFormatRs1DatSalineUsed                                ""               
 textEmptyFormatRs1DatPrbcResidualLoss                               ""                                                                                                                       255 255 255 0x0121   500   302    70    90  14    0  approved
 textEmptyFormatRs1DatPlasResidualLoss                               ""                                                                                                                       255 255 255 0x0121   500   345    70    90  14    0  approved
 textDataEmptyFormatRsDurationOfRunJP                                ""                                                                                                        255 255 255 0x0121   180   130   50    90  14    1  unapproved
-textDataEmptyFormatRsTbvProcessedJP                                ""                                                                                                        255 255 255 0x0121   190   173   50    90  14    1  unapproved
+textDataEmptyFormatRsTbvProcessedJP                                ""                                                                                                        255 255 255 0x0121   180   173   50    90  14    1  unapproved
 textDataEmptyFormatRsAvgInletFlowJP                                ""                                                                                                        255 255 255 0x0121   180   216   50    90  14    1  unapproved
-textDataEmptyFormatRsAcUsedJP                                ""                                                                                                        255 255 255 0x0121   190   259   50    90  14    1  unapproved
+textDataEmptyFormatRsAcUsedJP                                ""                                                                                                        255 255 255 0x0121   180   259   50    90  14    1  unapproved
 textEmptyFormatRsDatPlsVolJP                                ""                                                                                                        255 255 255 0x0121   510   130   50    90  14    1  unapproved
 textEmptyFormatRsDatPlsAcJP                                ""                                                                                                        255 255 255 0x0121   510   160   50    90  14    1  unapproved
 textEmptyFormatRsDatPltVolJP                                ""                                                                                                        255 255 255 0x0121   510   220   50    90  14    1  unapproved
@@ -566,6 +566,7 @@ textEmptyFormatRsDatSalineUsedJP                                ""              
 textEmptyFormatRsDatRbcVolJP                                ""                                                                                                        255 255 255 0x0121   510   130   50    90  14    1  unapproved
 textEmptyFormatRsRbcAcJP                                ""                                                                                                        255 255 255 0x0121   510   160   50    90  14    1  unapproved
 textEmptyFormatRsDatRasVolJP                                ""                                                                                                        255 255 255 0x0121   510   190   50    90  14    1  unapproved
+textDashesRsDatPltYieldJP                                "#![BeginSeg 1]- -#![EndSeg 1]"                                                                          255 255 255 0x0121   510   250   50    90  14    1  unapproved
 textDataDatRs1RinsebackIncomplete                             "#![BeginSeg 1]Incomplete#![EndSeg 1]"                                                                                                             255 255 255 0x0111   505   302    125   90  14    1  approved
 textDataDatRs1RinsebackComplete                               "#![BeginSeg 1]Complete#![EndSeg 1]"                                                                                                               255 255 255 0x0111   505   302    125   90  14    1  approved
 textDataUnitsRs1AcToDonor                                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   573   130    55    90  14    1  approved
