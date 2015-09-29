@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x339ec84e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x4893146c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -460,7 +460,6 @@ textAbortBodySpillover                               "#![BeginSeg 1]Spillover re
 textAbortBodyAirInPlasmaLine                           "#![BeginSeg 1]Air block recovery means that:\n#![EndSeg 1]#![BeginSeg 2]- You observe air in the platelet line or the plasma line.\n#![EndSeg 2]#![BeginSeg 3]- The system defers collection until the recovery is complete.#![EndSeg 3]"                                                                                                                                                                                                                                     165   8   0 0x0111     12     117   614     183  18  1  approved
 textAbortBodyProc                                    "#![BeginSeg 1]End run means that:\n#![EndSeg 1]#![BeginSeg 2]- The procedure is canceled.\n#![EndSeg 2]#![BeginSeg 3]- You must unload and discard the tubing set.#![EndSeg 3]"                                                                                                                                                                                                                                                              165   8   0 0x0111     12     117   614     183  18  1  approved
 textMiscLabelRs1Procedural                                       "#![BeginSeg 1]Procedural#![EndSeg 1]"                                                                                                             239 239 239 0x0111     0   105   640    40  18    1  approved
-textMiscLabelRsProceduralJP                                       "#![BeginSeg 1]Procedural#![EndSeg 1]"                                                                                                             239 239 239 0x0111     0   105   640    40  18    1  approved
 textMiscLabelRs1Dlog                                            "#![BeginSeg 1]Data log ID: #![EndSeg 1]"                                                                                                          255 255 255 0x0121   430   110   180    20  14    0  approved
 textDataLabelRs1AcUsed                                    "#![BeginSeg 1]Total AC used#![EndSeg 1]"                                                                                                           74  74  74 0x0101   10   130    175    90  14    1  approved
 textDataLabelRs1EndOfRunTime                                  "#![BeginSeg 1]End of run time#![EndSeg 1]"                                                                                                         74  74  74 0x0101   10   173    175    90  14    1  approved
@@ -487,27 +486,6 @@ textDataUnitsRs1TimeAasAm                                      "#![BeginSeg 1]a.
 textDataUnitsRs1TimeAasPm                                      "#![BeginSeg 1]p.m.#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   302    55    90  14    1  approved
 textDataUnitsRs1AvgInletFlowAlt                          "#![BeginSeg 1]mL/min#![EndSeg 1]"                                                                                                                 255 255 255 0x0101   233   302    75    90  14    1  approved
 textDataUnitsRs1AvgInletFlow                              "#![BeginSeg 1]mL/min#![EndSeg 1]"                                                                                                                 255 255 255 0x0101   233   345    75    90  14    1  approved
-textDataUnitsRsMinLengthJP                                "#![BeginSeg 1]min#![EndSeg 1]"                                                                                                        255 255 255 0x0101   244   130   175    90  14    1  unapproved
-textDataUnitsRsTbvProcessedJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   244   173   175    90  14    1  unapproved
-textDataUnitsRsAvgInletFlowJP                                "#![BeginSeg 1]mL/min#![EndSeg 1]"                                                                                                        255 255 255 0x0101   233   216   175    90  14    1  unapproved
-textDataUnitsRsAcUsedJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   244   259   175    90  14    1  unapproved
-textDataUnitsRsPlasVolJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   564   130   175    90  14    1  unapproved
-textDataUnitsRsPlasAcJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   564   160   175    90  14    1  unapproved
-textDataUnitsRsPltVolJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   564   220   175    90  14    1  unapproved
-textDataUnitsRsPltYieldJP                                "#![BeginSeg 1]x 10#![EndSeg 1]"                                                                                                        255 255 255 0x0101   564   250   175    90  14    1  unapproved
-textDataUnitsRsPltAcJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   564   280   175    90  14    1  unapproved
-textDataUnitsRsPasVolJP                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                        255 255 255 0x0101   564   310   175    90  14    1  unapproved
-textDataUnitsRsPltYieldExpJP									 "#![BeginSeg 1]11#![EndSeg 1]"																																			 255 255 255 0x0101   594   280   110    23   7    0  unapproved
-textDataUnitsRsEndOfRunTimeAmJP									 "#![BeginSeg 1]a.m.#![EndSeg 1]"																																			 255 255 255 0x0101   250   130   175    90   14    0  unapproved
-textDataUnitsRsEndOfRunTimePmJP									 "#![BeginSeg 1]p.m.#![EndSeg 1]"																																			 255 255 255 0x0101   250   130   175    90   14    0  unapproved
-textDataUnitsRsX1000JP									 "#![BeginSeg 1]x 1000/µL#![EndSeg 1]"																																			 255 255 255 0x0101   228   173   175    90   14    0  unapproved
-textDataUnitsRsPercentJP									 "#![BeginSeg 1]%#![EndSeg 1]"																																			 255 255 255 0x0101   244   216   175    90   14    0  unapproved
-textDataUnitsRs1GPerDlJP                                          "#![BeginSeg 1]g/dL#![EndSeg 1]"                                                                                                                   255 255 255 0x0101   244   216    55    90  14    1  approved
-textDataUnitsRsAcToDonorJP									 "#![BeginSeg 1]mL#![EndSeg 1]"																																			 255 255 255 0x0101   244   259   175    90   14    0  unapproved
-textDataUnitsRsSalineUsedJP									 "#![BeginSeg 1]mL#![EndSeg 1]"																																			 255 255 255 0x0101   244   302   175    90   14    0  unapproved
-textDataUnitsRsRbcVolJP									 "#![BeginSeg 1]mL#![EndSeg 1]"																																			 255 255 255 0x0101   564   130   175    90   14    0  unapproved
-textDataUnitsRsRbcAcJP									 "#![BeginSeg 1]mL#![EndSeg 1]"																																			 255 255 255 0x0101   564   160   175    90   14    0  unapproved
-textDataUnitsRsRasVolJP									 "#![BeginSeg 1]mL#![EndSeg 1]"																																			 255 255 255 0x0101   564   190   175    90   14    0  unapproved
 textDataLabelRs1AcToDonor                               "#![BeginSeg 1]Actual AC to donor#![EndSeg 1]"                                                                                                      74  74  74 0x0101   330   130   175    90  14    1  approved
 textDataLabelRs1DurationOfRun                                    "#![BeginSeg 1]Duration of run#![EndSeg 1]"                                                                                                           74  74  74 0x0101   330   173   175    90  14    1  approved
 textDataLabelRs1PostHct                                         "#![BeginSeg 1]Post HCT#![EndSeg 1]"                                                                                                                74  74  74 0x0101   330   216   175    90  14    1  approved
@@ -517,53 +495,120 @@ textDataLabelRs1PrbcResidualLoss                               "#![BeginSeg 1]Pa
 textDataLabelRs1PlasRedidualLoss                               "#![BeginSeg 1]Plasma residual loss#![EndSeg 1]"                                                                                                    74  74  74 0x0101   330   345   175    90  14    1  approved
 textDataLabelRs1SalineRinseback                                 "#![BeginSeg 1]Saline rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
 textDataLabelRs1PlasmaRinseback                                 "#![BeginSeg 1]Plasma rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
-textDataLabelRsDurationOfRunJP                                "#![BeginSeg 1]Duration of run#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   130   175    90  14    1  unapproved
-textDataLabelRsTbvProcessedJP                                "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   173   175    90  14    1  unapproved
-textDataLabelRsAvgInletFlowJP                                "#![BeginSeg 1]Draw flow rate#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   216   175    90  14    1  unapproved
-textDataLabelRsAcUsedJP                                "#![BeginSeg 1]Total AC used#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   259   175    90  14    1  unapproved
-textDataLabelRsPlasVolJP                                "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   130   200    90  14    1  unapproved
-textDataLabelRsPlasAcJP                                "#![BeginSeg 1]Volume of AC in plasma#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   160   200    90  14    1  unapproved
-textDataLabelRsPltVolJP                                "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   220   200    90  14    1  unapproved
-textDataLabelRsPltYieldJP                                "#![BeginSeg 1]Yield of platelets#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   250   200    90  14    1  unapproved
-textDataLabelRsPltAcJP                                "#![BeginSeg 1]Volume of AC in platelets#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   280   200    90  14    1  unapproved
-textDataLabelRsPasVolJP                                "#![BeginSeg 1]Volume of Additive Solution#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   310   200    90  14    1  unapproved
-textLabelRsPlasProdJP                                "#![BeginSeg 1]Plasma product#![EndSeg 1]"                                                                                                        255 255 255 0x0101   330   110   200    90  16    1  unapproved
-textLabelRsPlatletProdJP                                "#![BeginSeg 1]Platelet product#![EndSeg 1]"                                                                                                        255 255 255 0x0101   330   200   200    90  16    1  unapproved
-textLabelRsRbcProdJP                                "#![BeginSeg 1]RBC product#![EndSeg 1]"                                                                                                        255 255 255 0x0101   330   110   200    90  16    1  unapproved
-textDataLabelRsEndOfRunTimeJP                                "#![BeginSeg 1]End of run time#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   130   175    90  14    1  unapproved
-textDataLabelRsPltPostCountJP                                "#![BeginSeg 1]Post platelet count#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   173   175    90  14    1  unapproved
-textDataLabelRsPostHctJP                                "#![BeginSeg 1]Post HCT#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   216   175    90  14    1  unapproved
-textDataLabelRs1PostHgbJP                                         "#![BeginSeg 1]Post hemoglobin#![EndSeg 1]"                                                                                                         74  74  74 0x0101   10   216   175    90  14    1  approved
-textDataLabelRsAcToDonorJP                                "#![BeginSeg 1]Actual AC to donor#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   259   175    90  14    1  unapproved
-textDataLabelRsSalineUsedJP                                "#![BeginSeg 1]Total saline used#![EndSeg 1]"                                                                                                        74  74  74 0x0101   10   302   175    90  14    1  unapproved
-textDataLabelRsRbcVoJP                                "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   135   175    90  14    1  unapproved
-textDataLabelRsRbcAcJP                                "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   165   175    90  14    1  unapproved
-textDataLabelRsRasVolJP                                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   195   175    90  14    1  unapproved
+
+#################################################################
+
+# Screen 1, Left Side, Row 1: "Duration of run"
+textDataLabelRsDurationOfRunJP         "#![BeginSeg 1]Duration of run#![EndSeg 1]"                       74  74  74 0x0101  10  138 175 35  14    1  unapproved
+textDataUnitsRsMinLengthJP             "#![BeginSeg 1]min#![EndSeg 1]"                                   255 255 255 0x0101 244 138 175 35  14    1  unapproved
+textDataEmptyFormatRsDurationOfRunJP   ""                                                                255 255 255 0x0121 190 138 50  35  14    1  unapproved
+
+# Screen 1, Left Side, Row 2: "Blood volume processed"
+textDataLabelRsTbvProcessedJP          "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"                74  74  74 0x0101  10  178 175 35  14    1  unapproved
+textDataUnitsRsTbvProcessedJP          "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 244 178 175 35  14    1  unapproved
+textDataEmptyFormatRsTbvProcessedJP    ""                                                                255 255 255 0x0121 190 178 50  35  14    1  unapproved
+
+# Screen 1, Left Side, Row 3: "Draw flow rate"
+textDataLabelRsAvgInletFlowJP          "#![BeginSeg 1]Draw flow rate#![EndSeg 1]"                        74  74  74 0x0101  10  218 175 35  14    1  unapproved
+textDataUnitsRsAvgInletFlowJP          "#![BeginSeg 1]mL/min#![EndSeg 1]"                                255 255 255 0x0101 233 218 175 35  14    1  unapproved
+textDataEmptyFormatRsAvgInletFlowJP    ""                                                                255 255 255 0x0121 180 218 50  35  14    1  unapproved
+
+# Screen 1, Left Side, Row 4: "Total AC used"
+textDataLabelRsAcUsedJP                "#![BeginSeg 1]Total AC used#![EndSeg 1]"                         74  74  74 0x0101  10  258 175 35  14    1  unapproved
+textDataUnitsRsAcToDonorJP			   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 244 258 175 35  14    0  unapproved
+textDataEmptyFormatRsAcUsedJP          ""                                                                255 255 255 0x0121 190 258 50  35  14    1  unapproved
+
+# Screen 1, Right Side, Plasma Section Label: "Plasma product"
+textLabelRsPlasProdJP                  "#![BeginSeg 1]Plasma product#![EndSeg 1]"                        255 255 255 0x0101 330 110 200 35  16    1  unapproved
+
+# Screen 1, Right Side, Plasma Section, Row 1: "Total volume of product"
+textDataLabelRsPlasVolJP               "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 200 35  14    1  unapproved
+textDataUnitsRsPlasVolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 564 138 175 35  14    1  unapproved
+textEmptyFormatRsDatPlsVolJP           ""                                                                255 255 255 0x0121 510 138 50  35  14    1  unapproved
+
+# Screen 1, Right Side, Plasma Section, Row 2: "Volume of AC in plasma"
+textDataLabelRsPlasAcJP                "#![BeginSeg 1]Volume of AC in plasma#![EndSeg 1]"                74  74  74 0x0101  330 178 200 35  14    1  unapproved
+textDataUnitsRsPlasAcJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 564 178 175 35  14    1  unapproved
+textEmptyFormatRsDatPlsAcJP            ""                                                                255 255 255 0x0121 510 178 50  35  14    1  unapproved
+
+# Screen 1, Right Side, Platelet Section Label: "Platelet product"
+textLabelRsPlatletProdJP               "#![BeginSeg 1]Platelet product#![EndSeg 1]"                      255 255 255 0x0101 330 200 200 35  16    1  unapproved
+
+# Screen 1, Right Side, Platelet Section, Row 1: "Total volume of product"
+textDataLabelRsPltVolJP                "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 247 200 35  14    1  unapproved
+textDataUnitsRsPltVolJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 564 247 175 35  14    1  unapproved
+textEmptyFormatRsDatPltVolJP           ""                                                                255 255 255 0x0121 510 247 50  35  14    1  unapproved
+
+# Screen 1, Right Side, Platelet Section, Row 2: "Yield of platelets"
+textDataLabelRsPltYieldJP              "#![BeginSeg 1]Yield of platelets#![EndSeg 1]"                    74  74  74 0x0101  330 287 200 35  14    1  unapproved
+textDataUnitsRsPltYieldJP              "#![BeginSeg 1]x 10#![EndSeg 1]"                                  255 255 255 0x0101 564 287 175 35  14    1  unapproved
+textDataUnitsRsPltYieldExpJP		   "#![BeginSeg 1]11#![EndSeg 1]"									 255 255 255 0x0101 594 287 110 35  7     0  unapproved
+textEmptyFormatRsDatPltYieldJP         ""                                                                255 255 255 0x0121 510 287 50  35  14    1  unapproved
+
+# Screen 1, Right Side, Platelet Section, Row 3: "Volume of AC in platelets"
+textDataLabelRsPltAcJP                 "#![BeginSeg 1]Volume of AC in platelets#![EndSeg 1]"             74  74  74 0x0101  330 327 200 35  14    1  unapproved
+textDataUnitsRsPltAcJP                 "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 564 327 175 35  14    1  unapproved
+textEmptyFormatRsDatPltAcJP            ""                                                                255 255 255 0x0121 510 327 50  35  14    1  unapproved
+
+# Screen 1, Right Side, Platelet Section, Row 4: "Volume of Additive Solution"
+textDataLabelRsPasVolJP                "#![BeginSeg 1]Volume of Additive Solution#![EndSeg 1]"           74  74  74 0x0101  330 367 200 35  14    1  unapproved
+textDataUnitsRsPasVolJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 564 367 175 35  14    1  unapproved
+textEmptyFormatRsDatPasVolJP           ""                                                                255 255 255 0x0121 510 367 50  35  14    1  unapproved
+
+#############################################################################################
+
+# Screen 2, Left Side, Row 1: "End of run time"
+textDataLabelRsEndOfRunTimeJP          "#![BeginSeg 1]End of run time#![EndSeg 1]"                       74  74  74 0x0101  10  138 175 35  14    1  unapproved
+textDataUnitsRsEndOfRunTimeAmJP		   "#![BeginSeg 1]a.m.#![EndSeg 1]"									 255 255 255 0x0101 250 138 175 35  14    0  unapproved
+textDataUnitsRsEndOfRunTimePmJP		   "#![BeginSeg 1]p.m.#![EndSeg 1]"									 255 255 255 0x0101 250 138 175 35  14    0  unapproved
+textEmptyFormatRsDatEndOfRunTimeJP     ""                                                                255 255 255 0x0121 195 138 50  35  14    1  unapproved
+
+# Screen 2, Left Side, Row 2: "Post platelet count"
+textDataLabelRsPltPostCountJP          "#![BeginSeg 1]Post platelet count#![EndSeg 1]"                   74  74  74 0x0101  10  178 175 35  14    1  unapproved
+textDataUnitsRsX1000JP				   "#![BeginSeg 1]x 1000/µL#![EndSeg 1]"							 255 255 255 0x0101 228 178 175 35  14    0  unapproved
+textEmptyFormatRsDatPostPltCountJP     ""                                                                255 255 255 0x0121 175 178 50  35  14    1  unapproved
+
+# Screen 2, Left Side, Row 3: "Post HCT"
+textDataLabelRsPostHctJP               "#![BeginSeg 1]Post HCT#![EndSeg 1]"                              74  74  74 0x0101  10  218 175 35  14    1  unapproved
+textDataLabelRs1PostHgbJP              "#![BeginSeg 1]Post hemoglobin#![EndSeg 1]"                       74  74  74 0x0101  10  218 175 35  14    1  approved
+textDataUnitsRsPercentJP			   "#![BeginSeg 1]%#![EndSeg 1]"									 255 255 255 0x0101 244 218 175 35  14    0  unapproved
+textDataUnitsRs1GPerDlJP               "#![BeginSeg 1]g/dL#![EndSeg 1]"                                  255 255 255 0x0101 244 218 55  35  14    1  approved
+textEmptyFormatRsDatPostHctJP          ""                                                                255 255 255 0x0121 190 218 50  35  14    1  unapproved
+
+# Screen 2, Left Side, Row 4: "Actual AC to donor"
+textDataLabelRsAcToDonorJP             "#![BeginSeg 1]Actual AC to donor#![EndSeg 1]"                    74  74  74 0x0101  10  258 175 35  14    1  unapproved
+textDataUnitsRsAcUsedJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 244 258 175 35  14    1  unapproved
+textEmptyFormatRsDatAcToDonorJP        ""                                                                255 255 255 0x0121 190 258 50  35  14    1  unapproved
+
+# Screen 2, Left Side, Row 5: "Total saline used"
+textDataLabelRsSalineUsedJP            "#![BeginSeg 1]Total saline used#![EndSeg 1]"                     74  74  74 0x0101  10  298 175 35  14    1  unapproved
+textDataUnitsRsSalineUsedJP			   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 244 298 175 35  14    0  unapproved
+textEmptyFormatRsDatSalineUsedJP       ""                                                                255 255 255 0x0121 190 298 50  35  14    1  unapproved
+
+# Screen 2, Right Side, RBC product label: "RBC product"
+textLabelRsRbcProdJP                   "#![BeginSeg 1]RBC product#![EndSeg 1]"                           255 255 255 0x0101 330 110 200 35  16    1  unapproved
+
+# Screen 2, Right Side, Row 1: "Total volume of product"
+textDataLabelRsRbcVoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 175 35  14    1  unapproved
+textDataUnitsRsRbcVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 564 138 175 35  14    0  unapproved
+textEmptyFormatRsDatRbcVolJP           ""                                                                255 255 255 0x0121 510 138 50  35  14    1  unapproved
+
+# Screen 2, Right Side, Row 2: "Volume of AC in RBC"
+textDataLabelRsRbcAcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 178 175 35  14    1  unapproved
+textDataUnitsRsRbcAcJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 564 178 175 35  14    0  unapproved
+textEmptyFormatRsRbcAcJP               ""                                                                255 255 255 0x0121 510 178 50  35  14    1  unapproved
+
+# Screen 2, Right Side, Row 3: "Volume of additive solution"
+textDataLabelRsRasVolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 218 175 35  14    1  unapproved
+textDataUnitsRsRasVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 564 218 175 35  14    0  unapproved
+textEmptyFormatRsDatRasVolJP           ""                                                                255 255 255 0x0121 510 218 50  35  14    1  unapproved
+
 textEmptyFormatRs1DatAcToDonor                               ""                                                                                                                       255 255 255 0x0121   500   130    70    90  14    0  approved
 textEmptyFormatRs1DatLengthOfRun                                    ""                                                                                                                       255 255 255 0x0121   500   173    70    90  14    0  approved
 textEmptyFormatRs1DatPostHct                                         ""                                                                                                                       255 255 255 0x0121   500   216    70    90  14    0  approved
 textEmptyFormatRs1DatSalineUsed                                ""                                                                                                                       255 255 255 0x0121   500   259    70    90  14    0  approved
 textEmptyFormatRs1DatPrbcResidualLoss                               ""                                                                                                                       255 255 255 0x0121   500   302    70    90  14    0  approved
 textEmptyFormatRs1DatPlasResidualLoss                               ""                                                                                                                       255 255 255 0x0121   500   345    70    90  14    0  approved
-textDataEmptyFormatRsDurationOfRunJP                                ""                                                                                                        255 255 255 0x0121   190   130   50    90  14    1  unapproved
-textDataEmptyFormatRsTbvProcessedJP                                ""                                                                                                        255 255 255 0x0121   190   173   50    90  14    1  unapproved
-textDataEmptyFormatRsAvgInletFlowJP                                ""                                                                                                        255 255 255 0x0121   180   216   50    90  14    1  unapproved
-textDataEmptyFormatRsAcUsedJP                                ""                                                                                                        255 255 255 0x0121   190   259   50    90  14    1  unapproved
-textEmptyFormatRsDatPlsVolJP                                ""                                                                                                        255 255 255 0x0121   510   130   50    90  14    1  unapproved
-textEmptyFormatRsDatPlsAcJP                                ""                                                                                                        255 255 255 0x0121   510   160   50    90  14    1  unapproved
-textEmptyFormatRsDatPltVolJP                                ""                                                                                                        255 255 255 0x0121   510   220   50    90  14    1  unapproved
-textEmptyFormatRsDatPltYieldJP                                ""                                                                                                        255 255 255 0x0121   510   250   50    90  14    1  unapproved
-textEmptyFormatRsDatPltAcJP                                ""                                                                                                        255 255 255 0x0121   510   280   50    90  14    1  unapproved
-textEmptyFormatRsDatPasVolJP                                ""                                                                                                        255 255 255 0x0121   510   310   50    90  14    1  unapproved
-textEmptyFormatRsDatEndOfRunTimeJP                                ""                                                                                                        255 255 255 0x0121   195   130   50    90  14    1  unapproved
-textEmptyFormatRsDatPostPltCountJP                                ""                                                                                                        255 255 255 0x0121   175   173   50    90  14    1  unapproved
-textEmptyFormatRsDatPostHctJP                                ""                                                                                                        255 255 255 0x0121   190   216   50    90  14    1  unapproved
-textEmptyFormatRsDatAcToDonorJP                                ""                                                                                                        255 255 255 0x0121   190   259   50    90  14    1  unapproved
-textEmptyFormatRsDatSalineUsedJP                                ""                                                                                                        255 255 255 0x0121   190   302   50    90  14    1  unapproved
-textEmptyFormatRsDatRbcVolJP                                ""                                                                                                        255 255 255 0x0121   510   130   50    90  14    1  unapproved
-textEmptyFormatRsRbcAcJP                                ""                                                                                                        255 255 255 0x0121   510   160   50    90  14    1  unapproved
-textEmptyFormatRsDatRasVolJP                                ""                                                                                                        255 255 255 0x0121   510   190   50    90  14    1  unapproved
-textDashesRsDatPltYieldJP                                "#![BeginSeg 1]- -#![EndSeg 1]"                                                                          255 255 255 0x0121   510   250   50    90  14    1  unapproved
 textDataDatRs1RinsebackIncomplete                             "#![BeginSeg 1]Incomplete#![EndSeg 1]"                                                                                                             255 255 255 0x0111   505   302    125   90  14    1  approved
 textDataDatRs1RinsebackComplete                               "#![BeginSeg 1]Complete#![EndSeg 1]"                                                                                                               255 255 255 0x0111   505   302    125   90  14    1  approved
 textDataUnitsRs1AcToDonor                                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   573   130    55    90  14    1  approved
