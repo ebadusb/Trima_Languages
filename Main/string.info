@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xb49ac3b7"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x1b5c98b"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1121,6 +1121,7 @@ textMiscCfrDonInfoGender                                              "#![BeginS
 textDataCfrGenderMale                                         "#![BeginSeg 1]Male#![EndSeg 1]"                                                                                                                  255 247  57 0x0111     0     0   640     0  14    1  approved
 textDataCfrGenderFemale                                       "#![BeginSeg 1]Female#![EndSeg 1]"                                                                                                                255 247  57 0x0111     0     0   640     0  14    1  approved
 textStatRecoveryProcedure                                 "#![BeginSeg 1]Recovery procedure in progress#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  approved
+textStatPIRInProgress                                 "#![BeginSeg 1]Platelet Inventory Recovery in progress#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  unapproved
 textStatSalinePrime                                       "#![BeginSeg 1]Priming the replacement solution line#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatLrsPurge                                          "#![BeginSeg 1]Clearing the LRS chamber#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatUnscheduledPurge                                  "#![BeginSeg 1]WBC content detected, clearing the LRS chamber#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   640     0  18  1  approved
