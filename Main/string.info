@@ -1664,10 +1664,7 @@ TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL    "#![BeginSeg 1]More preferred procedures a
 ############  COMP PLS STRINGS:    ##############################################################################################################################################
 TEXT_COMP_PLS_OOS_WARNING_TITLE              "#![BeginSeg 1]Replaced plasma volume Out of Range#![EndSeg 1]"     165   8   0  0x0110   22   2   255    55  16   0  approved
 TEXT_COMP_PLS_OOS_WARNING_BODY             "#![BeginSeg 1]The collected plasma product volume exceeds the volume replaced by platelet additive solution for this procedure. Verify donor eligibility for the plasma collection.#![EndSeg 1]"    255 247  57    0x0110    22   80    280    300  18    0  approved
-TEXT_PREDICT_COMP_PLS_NOTICE                     "#![BeginSeg 1]replaced by PAS is #![EndSeg 1]"           255 247  57      0x0111    165   280   166    35  14  0  approved
-TEST_PREDICT_COMP_PLS_VOLM                         ""                                                                             255 247  57      0x0111   300   280    59    35  14    0  approved
-TEXT_PREDICT_COMP_PLS_NOTICE_UNIT           "#![BeginSeg 1]mL#![EndSeg 1]"                                  255 247  57      0x0111   330   280    59    35  14    0  approved
-
+TEXT_PREDICT_COMP_PLS_NOTICE                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           255 247  57      0x0111    165   280   200    35  14  0  approved
 
 TEXT_CFG_COMP_PLS_LABEL                              "#![BeginSeg 1]Plasma replaced by platelet additive solution#![EndSeg 1]"     255 247  57   0x0111     352   358   175    70  14    0  approved
 TEXT_CFG_COMP_PLS_LABEL_MAIN                    "#![BeginSeg 1]Plasma processes#![EndSeg 1]"                                           255 247  57   0x0111     350  294   275    35  18    0  approved
