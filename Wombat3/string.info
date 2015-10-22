@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xf646d877"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x192ac59a"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -292,8 +292,8 @@ textEmptyFormatPredNextFlowRateWithAmappInit             ""                     
 textEmptyFormatPredNextFlowRateWithAmappLabelInit        ""                                                    			 74  74  74 0x0101   546   326    44    19  14    0  approved
 textFormatPredNextFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   326    44    19  14    1  approved
 
-textMiscPredConfMsg	      "#![BeginSeg 1]Confirm the selected procedure#![EndSeg 1]"	255 247  57 0x0111  2   2 311 40 18  1  approved
-textMiscPredConfDataLabel                   "#![BeginSeg 1]Estimated procedure data#![EndSeg 1]"	255 247  57 0x0111  2  41 311 24 16  1  approved
+textMiscPredConfMsg	      "#![BeginSeg 1]Confirm the selected procedure#![EndSeg 1]"	255 247  57 0x0111  2   2 396 40 18  1  approved
+textMiscPredConfDataLabel                   "#![BeginSeg 1]Estimated procedure data#![EndSeg 1]"	255 247  57 0x0111  2  41 396 24 16  1  approved
 textDataLabelPredConfPltVol	   "#![BeginSeg 1]Platelet volume#![EndSeg 1]"   	255 247  57 0x0101 20   63 200 24 14  1  approved
 textDataLabelPredConfPltYield	   "#![BeginSeg 1]Platelet yield#![EndSeg 1]"   	255 247  57 0x0101 20   85 200 24 14  1  approved
 textDataLabelPredConfRbcVol	   "#![BeginSeg 1]RBC volume#![EndSeg 1]"      	255 247  57 0x0101 20  107 200 24 14  1  approved
@@ -303,25 +303,25 @@ textDataLabelPredConfAcRequired	      "#![BeginSeg 1]AC volume required#![EndSeg
 textDataLabelPredConfDuration	      "#![BeginSeg 1]Duration#![EndSeg 1]"         	255 247  57 0x0101 20  195 200 24 14  1  approved
 textDataLabelPredConfTbvProcessed	   "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"	255 247  57 0x0101 20  217 200 24 14  1  approved
 textDataLabelPredConfPostPlt	   "#![BeginSeg 1]Post platelet count#![EndSeg 1]"	255 247  57 0x0101 20  239 200 24 14  1  approved
-textEmptyFormatPredConfirmPltVolData	   ""         	255 247  57 0x0121 212  63  30 24 14  0  approved
-textEmptyFormatPredConfirmPltYieldData	   ""         	255 247  57 0x0121 212  85  30 24 14  0  approved
-textEmptyFormatPredConfirmRbcVolData	   ""         	255 247  57 0x0121 212 107  30 24 14  0  approved
-textEmptyFormatPredConfirmPlasVolData	   ""         	255 247  57 0x0121 212 129  30 24 14  0  approved
-textEmptyFormatPredConfirmFlowData	      ""         	255 247  57 0x0121 212 151  30 24 14  0  approved
-textEmptyFormatPredConfirmAcData	      ""         	255 247  57 0x0121 212 173  30 24 14  0  approved
-textEmptyFormatPredConfirmTimeData	      ""         	255 247  57 0x0121 212 195  30 24 14  0  approved
-textEmptyFormatPredConfirmTbvProcessedData	   ""         	255 247  57 0x0121 212 217  30 24 14  0  approved
-textEmptyFormatPredConfPostPlt	              ""         	255 247  57 0x0121 212 239  30 24 14  0  approved
-textDataUnitsPredConfPltVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245  63  60 24 14  1  approved
-textDataUnitsPredConfPltYieldX10	   "#![BeginSeg 1]x 10#![EndSeg 1]"         	255 247  57 0x0101 245  85  60 24 14  0  approved
-textDataUnitsPredConfPltYieldExp	   "#![BeginSeg 1]11#![EndSeg 1]"         	255 247  57 0x0101 277  81  60 24 10  0  approved
-textDataUnitsPredConfRbcVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245 107  60 24 14  1  approved
-textDataUnitsPredConfPlasVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245 129  60 24 14  1  approved
-textDataUnitsPredConfFlow	      "#![BeginSeg 1]mL/min#![EndSeg 1]"      	255 247  57 0x0101 245 151  60 24 14  1  approved
-textDataUnitsPredConfAcRequired	      "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245 173  60 24 14  1  approved
-textDataUnitsPredConfDuration	      "#![BeginSeg 1]min#![EndSeg 1]"         	255 247  57 0x0101 245 195  60 24 14  1  approved
-textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 245 217  60 24 14  1  approved
-textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x 1000/µL#![EndSeg 1]"         	255 247  57 0x0101 245 239  80 24 14  1  approved
+textEmptyFormatPredConfirmPltVolData	   ""         	255 247  57 0x0121 270  63  30 24 14  0  approved
+textEmptyFormatPredConfirmPltYieldData	   ""         	255 247  57 0x0121 270  85  30 24 14  0  approved
+textEmptyFormatPredConfirmRbcVolData	   ""         	255 247  57 0x0121 270 107  30 24 14  0  approved
+textEmptyFormatPredConfirmPlasVolData	   ""         	255 247  57 0x0121 270 129  30 24 14  0  approved
+textEmptyFormatPredConfirmFlowData	      ""         	255 247  57 0x0121 270 151  30 24 14  0  approved
+textEmptyFormatPredConfirmAcData	      ""         	255 247  57 0x0121 270 173  30 24 14  0  approved
+textEmptyFormatPredConfirmTimeData	      ""         	255 247  57 0x0121 270 195  30 24 14  0  approved
+textEmptyFormatPredConfirmTbvProcessedData	   ""         	255 247  57 0x0121 270 217  30 24 14  0  approved
+textEmptyFormatPredConfPostPlt	              ""         	255 247  57 0x0121 270 239  30 24 14  0  approved
+textDataUnitsPredConfPltVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304  63  60 24 14  1  approved
+textDataUnitsPredConfPltYieldX10	   "#![BeginSeg 1]x 10#![EndSeg 1]"         	255 247  57 0x0101 304  85  60 24 14  0  approved
+textDataUnitsPredConfPltYieldExp	   "#![BeginSeg 1]11#![EndSeg 1]"         	255 247  57 0x0101 335  81  60 24 10  0  approved
+textDataUnitsPredConfRbcVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 107  60 24 14  1  approved
+textDataUnitsPredConfPlasVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 129  60 24 14  1  approved
+textDataUnitsPredConfFlow	      "#![BeginSeg 1]mL/min#![EndSeg 1]"      	255 247  57 0x0101 304 151  60 24 14  1  approved
+textDataUnitsPredConfAcRequired	      "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 173  60 24 14  1  approved
+textDataUnitsPredConfDuration	      "#![BeginSeg 1]min#![EndSeg 1]"         	255 247  57 0x0101 304 195  60 24 14  1  approved
+textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 217  60 24 14  1  approved
+textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x 1000/µL#![EndSeg 1]"         	255 247  57 0x0101 304 239  80 24 14  1  approved
 textEmptyFormatAlarmNumberData                                    ""                                                                                                                      165   8   0 0x0102    15    70    90    30  18    0  approved
 textListboxItemCfgBloodTypeAll                                   "#![BeginSeg 1]All#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textStatConfigExitWait                                 "#![BeginSeg 2]Exiting configuration... #![EndSeg 2]#![BeginSeg 3]please wait#![EndSeg 3]"                                                                              255 247  57 0x0101     0     0     0     0  18  1  approved
