@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xc74e4255"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xe0b3eccc"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -540,9 +540,9 @@ textEmptyFormatRsDatPltVolJP           ""                                       
 
 # Screen 1, Right Side, Platelet Section, Row 2: "Yield of platelets"
 textDataLabelRsPltYieldJP              "#![BeginSeg 1]Yield of platelets#![EndSeg 1]"                    74  74  74 0x0101  330 287 200 35  14    1  unapproved
-textDataUnitsRsPltYieldJP              "#![BeginSeg 1]x 10#![EndSeg 1]"                                  255 255 255 0x0101 569 287 175 35  14    1  unapproved
-textDataUnitsRsPltYieldExpJP		   "#![BeginSeg 1]11#![EndSeg 1]"									 255 255 255 0x0101 599 283 110 35  7     0  unapproved
-textEmptyFormatRsDatPltYieldJP         ""                                                                255 255 255 0x0121 515 287 50  35  14    1  unapproved
+textDataUnitsRsPltYieldJP              "#![BeginSeg 1]x 10#![EndSeg 1]"                                  255 255 255 0x0101 576 287 175 35  14    1  unapproved
+textDataUnitsRsPltYieldExpJP           "#![BeginSeg 1]11#![EndSeg 1]"                                    255 255 255 0x0101 606 283 110 35  7     0  unapproved
+textEmptyFormatRsDatPltYieldJP         ""                                                                255 255 255 0x0121 522 287 50  35  14    1  unapproved
 
 # Screen 1, Right Side, Platelet Section, Row 3: "Volume of AC in platelets"
 textDataLabelRsPltAcJP                 "#![BeginSeg 1]Volume of AC in platelets#![EndSeg 1]"             74  74  74 0x0101  330 327 200 35  14    1  unapproved
