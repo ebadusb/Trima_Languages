@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x44506f5d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x8a7e71f5"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -127,7 +127,7 @@ textMiscClampPltBagJp                                 "#![BeginSeg 1]Close the l
 textMiscClampPlasmaBagJp                          "#![BeginSeg 1]Close the clamp on the line between the plasma bag and the air removal bag#![EndSeg 1]"          255 247  57 0x0111    40   150   320   200  18    1  approved
 textMiscClampBloodDiversionJp                     "#![BeginSeg 1]Close the blood diversion clamp#![EndSeg 1]"                                                                                255 247  57 0x0112    15   105   610    40  18    1  approved
 textMiscConnectPas                                        "#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Connect solution#![EndSeg 2]"                                                                 255 247  57 0x0112   13   105   160    45  14  1  approved
-textMiscBreakPasLineBreakFrang                                     "#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Break the bag frangible (if present)#![EndSeg 2]"                                            255 247  57 0x0112   170   105   160    45  14  1  unapproved
+textMiscBreakPasLineBreakFrang                                     "#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Break the bag frangible (if present)#![EndSeg 2]"                                            255 247  57 0x0112   170   105   160    45  14  1  approved
 textMiscBreakPasLineFrang                                     "#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Hang the bag and open the clamp#![EndSeg 2]"                                               255 247  57 0x0112   330   105   160    45  14  1  approved
 textButtonCfgLongMachAddCassette                                   "#![BeginSeg 1]Add the tubing set REF#![EndSeg 1]"                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonCfgLongMachRemoveCassette                                "#![BeginSeg 1]Remove the tubing set REF#![EndSeg 1]"                                                                                                  255 247  57 0x0111     0     0   640     0  14    1  approved
@@ -198,18 +198,18 @@ textEmptyFormatCfgMachSetIdInit                                    ""           
 textEmptyFormatCfgMachAdminCodeInit                                  ""                                                                                                                      255 247  57 0x0111   380   181   210    45  18    0  approved
 textEmptyFormatKeypadAdminCodeInit                                   ""                                                                                                                        0   0   0 0x0121     0     0     0     0  14    0  approved
 textEmptyFormatCfgMachBarcodeInit                                   ""                                                                                                                      255 247  57 0x0111   380   236   210    45  16    0  approved
-textButtonCfgClose                                          "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                                                  255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFList                                        "#![BeginSeg 1]REF List#![EndSeg 1]"                                                                                                               255 247  57 0x0111     0     15  158     0  18    1  unapproved
-textCfgREFListItem1                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem2                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem3                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem4                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem5                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem6                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem7                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem8                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem9                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
-textCfgREFListItem10                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  unapproved
+textButtonCfgClose                                          "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                                                  255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFList                                        "#![BeginSeg 1]REF List#![EndSeg 1]"                                                                                                               255 247  57 0x0111     0     15  158     0  18    1  approved
+textCfgREFListItem1                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem2                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem3                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem4                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem5                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem6                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem7                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem8                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem9                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
+textCfgREFListItem10                                   ""                                                                                                                                                 255 247  57 0x0111     0     0   100     0  16    1  approved
 textStatSetIdInstructions                                     "#![BeginSeg 1]Select the tubing set REF#![EndSeg 1]"                                                                                                  255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatSetIdBadCode                                         "#![BeginSeg 1]Invalid REF#![EndSeg 1]"                                                                                                            255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatCfgMachBadBarcode                                    "#![BeginSeg 1]The barcode does not match the tubing set REF#![EndSeg 1]"                                                                                             255 247  57 0x0111     0     0   640     0  18  1  approved
@@ -334,7 +334,7 @@ textDataUnitsPredConfAcRequired	      "#![BeginSeg 1]mL#![EndSeg 1]"         	25
 textDataUnitsPredConfDuration	      "#![BeginSeg 1]min#![EndSeg 1]"         	255 247  57 0x0101 304 195  60 24 14  1  approved
 textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 217  60 24 14  1  approved
 textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x 1000/µL#![EndSeg 1]"         	255 247  57 0x0101 304 239  80 24 14  1  approved
-textEmptyFormatAlarmNumberData                                    ""                                                                                                                      165   8   0 0x0102    15    70    90    30  18    0  approved
+textEmptyFormatAlarmNumberData                                    ""                                                                                                                      165   8   0 0x0102    15    70    90    30  22    0  approved
 textListboxItemCfgBloodTypeAll                                   "#![BeginSeg 1]All#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textStatConfigExitWait                                 "#![BeginSeg 2]Exiting configuration... #![EndSeg 2]#![BeginSeg 3]please wait#![EndSeg 3]"                                                                              255 247  57 0x0101     0     0     0     0  18  1  approved
 textListboxItemCfgPlsProcAmap                                   "#![BeginSeg 1]Maximum concurrent#![EndSeg 1]"                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
@@ -410,6 +410,7 @@ textMultiTextListBoxBlankItem3                          ""                      
 textEmptyFormatListboxButton                          ""                                                                                                                      255 255 255 0x0111    20     0   640     0  19    0  approved
 textProgBarLoad                                               "#![BeginSeg 1]Load#![EndSeg 1]"                                                                                                                   255 247  57 0x0101    30    50     0     0  12    1  approved
 textProgBarDonorInfo                                               "#![BeginSeg 1]Info#![EndSeg 1]"                                                                                                                   255 247  57 0x0101    90    50     0     0  12    1  approved
+textButtonDonorInformation                                               "#![BeginSeg 1]Donor information#![EndSeg 1]"                                                                                                       255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textProgBarDonorPrep                                               "#![BeginSeg 1]Prepare#![EndSeg 1]"                                                                                                                255 247  57 0x0101   161    50     0     0  12    1  approved
 textProgBarDonate                                             "#![BeginSeg 1]Donate#![EndSeg 1]"                                                                                                                 255 247  57 0x0101   227    50     0     0  12    1  approved
 textProgBarUnload                                             "#![BeginSeg 1]Unload#![EndSeg 1]"                                                                                                                 255 247  57 0x0101   368    50     0     0  12    1  approved
@@ -500,126 +501,126 @@ textDataLabelRs1PlasmaRinseback                                 "#![BeginSeg 1]P
 #################################################################
 
 # Screen 1, Left Side, Row 1: "Duration of run"
-textDataLabelRsDurationOfRunJP         "#![BeginSeg 1]Duration of run#![EndSeg 1]"                       74  74  74 0x0101  10  138 175 35  14    1  unapproved
-textDataUnitsRsMinLengthJP             "#![BeginSeg 1]min#![EndSeg 1]"                                   255 255 255 0x0101 256 138 175 35  14    1  unapproved
-textDataEmptyFormatRsDurationOfRunJP   ""                                                                255 255 255 0x0121 202 138 50  35  14    1  unapproved
+textDataLabelRsDurationOfRunJP         "#![BeginSeg 1]Duration of run#![EndSeg 1]"                       74  74  74 0x0101  10  138 175 35  14    1  approved
+textDataUnitsRsMinLengthJP             "#![BeginSeg 1]min#![EndSeg 1]"                                   255 255 255 0x0101 256 138 175 35  14    1  approved
+textDataEmptyFormatRsDurationOfRunJP   ""                                                                255 255 255 0x0121 202 138 50  35  14    1  approved
 
 # Screen 1, Left Side, Row 2: "Blood volume processed"
-textDataLabelRsTbvProcessedJP          "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"                74  74  74 0x0101  10  178 175 35  14    1  unapproved
-textDataUnitsRsTbvProcessedJP          "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 256 178 175 35  14    1  unapproved
-textDataEmptyFormatRsTbvProcessedJP    ""                                                                255 255 255 0x0121 202 178 50  35  14    1  unapproved
+textDataLabelRsTbvProcessedJP          "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"                74  74  74 0x0101  10  178 175 35  14    1  approved
+textDataUnitsRsTbvProcessedJP          "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 256 178 175 35  14    1  approved
+textDataEmptyFormatRsTbvProcessedJP    ""                                                                255 255 255 0x0121 202 178 50  35  14    1  approved
 
 # Screen 1, Left Side, Row 3: "Draw flow rate"
-textDataLabelRsAvgInletFlowJP          "#![BeginSeg 1]Draw flow rate#![EndSeg 1]"                        74  74  74 0x0101  10  218 175 35  14    1  unapproved
-textDataUnitsRsAvgInletFlowJP          "#![BeginSeg 1]mL/min#![EndSeg 1]"                                255 255 255 0x0101 233 218 175 35  14    1  unapproved
-textDataEmptyFormatRsAvgInletFlowJP    ""                                                                255 255 255 0x0121 180 218 50  35  14    1  unapproved
+textDataLabelRsAvgInletFlowJP          "#![BeginSeg 1]Draw flow rate#![EndSeg 1]"                        74  74  74 0x0101  10  218 175 35  14    1  approved
+textDataUnitsRsAvgInletFlowJP          "#![BeginSeg 1]mL/min#![EndSeg 1]"                                255 255 255 0x0101 233 218 175 35  14    1  approved
+textDataEmptyFormatRsAvgInletFlowJP    ""                                                                255 255 255 0x0121 180 218 50  35  14    1  approved
 
 # Screen 1, Left Side, Row 4: "Total AC used"
-textDataLabelRsAcUsedJP                "#![BeginSeg 1]Total AC used#![EndSeg 1]"                         74  74  74 0x0101  10  258 175 35  14    1  unapproved
-textDataUnitsRsAcUsedJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 256 258 175 35  14    1  unapproved
-textDataEmptyFormatRsAcUsedJP          ""                                                                255 255 255 0x0121 202 258 50  35  14    1  unapproved
+textDataLabelRsAcUsedJP                "#![BeginSeg 1]Total AC used#![EndSeg 1]"                         74  74  74 0x0101  10  258 175 35  14    1  approved
+textDataUnitsRsAcUsedJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 256 258 175 35  14    1  approved
+textDataEmptyFormatRsAcUsedJP          ""                                                                255 255 255 0x0121 202 258 50  35  14    1  approved
 
 # Screen 1, Right Side, Plasma Section Label: "Plasma product"
-textLabelRsPlasProdJP                  "#![BeginSeg 1]Plasma product#![EndSeg 1]"                        255 255 255 0x0101 330 110 200 35  16    1  unapproved
+textLabelRsPlasProdJP                  "#![BeginSeg 1]Plasma product#![EndSeg 1]"                        255 255 255 0x0101 330 110 200 35  16    1  approved
 
 # Screen 1, Right Side, Plasma Section, Row 1: "Total volume of product"
-textDataLabelRsPlasVolJP               "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 200 35  14    1  unapproved
-textDataUnitsRsPlasVolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 138 175 35  14    1  unapproved
-textEmptyFormatRsDatPlsVolJP           ""                                                                255 255 255 0x0121 522 138 50  35  14    1  unapproved
+textDataLabelRsPlasVolJP               "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 200 35  14    1  approved
+textDataUnitsRsPlasVolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 138 175 35  14    1  approved
+textEmptyFormatRsDatPlsVolJP           ""                                                                255 255 255 0x0121 522 138 50  35  14    1  approved
 
 # Screen 1, Right Side, Plasma Section, Row 2: "Volume of AC in plasma"
-textDataLabelRsPlasAcJP                "#![BeginSeg 1]Volume of AC in plasma#![EndSeg 1]"                74  74  74 0x0101  330 178 200 35  14    1  unapproved
-textDataUnitsRsPlasAcJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 178 175 35  14    1  unapproved
-textEmptyFormatRsDatPlsAcJP            ""                                                                255 255 255 0x0121 522 178 50  35  14    1  unapproved
+textDataLabelRsPlasAcJP                "#![BeginSeg 1]Volume of AC in plasma#![EndSeg 1]"                74  74  74 0x0101  330 178 200 35  14    1  approved
+textDataUnitsRsPlasAcJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 178 175 35  14    1  approved
+textEmptyFormatRsDatPlsAcJP            ""                                                                255 255 255 0x0121 522 178 50  35  14    1  approved
 
 # Screen 1, Right Side, Platelet Section Label: "Platelet product"
-textLabelRsPlatletProdJP               "#![BeginSeg 1]Platelet product#![EndSeg 1]"                      255 255 255 0x0101 330 219 200 35  16    1  unapproved
+textLabelRsPlatletProdJP               "#![BeginSeg 1]Platelet product#![EndSeg 1]"                      255 255 255 0x0101 330 219 200 35  16    1  approved
 
 # Screen 1, Right Side, Platelet Section, Row 1: "Total volume of product"
-textDataLabelRsPltVolJP                "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 247 200 35  14    1  unapproved
-textDataUnitsRsPltVolJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 247 175 35  14    1  unapproved
-textEmptyFormatRsDatPltVolJP           ""                                                                255 255 255 0x0121 522 247 50  35  14    1  unapproved
+textDataLabelRsPltVolJP                "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 247 200 35  14    1  approved
+textDataUnitsRsPltVolJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 247 175 35  14    1  approved
+textEmptyFormatRsDatPltVolJP           ""                                                                255 255 255 0x0121 522 247 50  35  14    1  approved
 
 # Screen 1, Right Side, Platelet Section, Row 2: "Yield of platelets"
-textDataLabelRsPltYieldJP              "#![BeginSeg 1]Yield of platelets#![EndSeg 1]"                    74  74  74 0x0101  330 287 200 35  14    1  unapproved
-textDataUnitsRsPltYieldJP              "#![BeginSeg 1]x 10#![EndSeg 1]"                                  255 255 255 0x0101 576 287 175 35  14    1  unapproved
-textDataUnitsRsPltYieldExpJP		   "#![BeginSeg 1]11#![EndSeg 1]"									 255 255 255 0x0101 606 283 110 35  7     0  unapproved
-textEmptyFormatRsDatPltYieldJP         ""                                                                255 255 255 0x0121 522 287 50  35  14    1  unapproved
+textDataLabelRsPltYieldJP              "#![BeginSeg 1]Yield of platelets#![EndSeg 1]"                    74  74  74 0x0101  330 287 200 35  14    1  approved
+textDataUnitsRsPltYieldJP              "#![BeginSeg 1]x 10#![EndSeg 1]"                                  255 255 255 0x0101 576 287 175 35  14    1  approved
+textDataUnitsRsPltYieldExpJP		   "#![BeginSeg 1]11#![EndSeg 1]"									 255 255 255 0x0101 606 283 110 35  7     0  approved
+textEmptyFormatRsDatPltYieldJP         ""                                                                255 255 255 0x0121 522 287 50  35  14    1  approved
 
 # Screen 1, Right Side, Platelet Section, Row 3: "Volume of AC in platelets"
-textDataLabelRsPltAcJP                 "#![BeginSeg 1]Volume of AC in platelets#![EndSeg 1]"             74  74  74 0x0101  330 327 200 35  14    1  unapproved
-textDataUnitsRsPltAcJP                 "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 327 175 35  14    1  unapproved
-textEmptyFormatRsDatPltAcJP            ""                                                                255 255 255 0x0121 522 327 50  35  14    1  unapproved
+textDataLabelRsPltAcJP                 "#![BeginSeg 1]Volume of AC in platelets#![EndSeg 1]"             74  74  74 0x0101  330 327 200 35  14    1  approved
+textDataUnitsRsPltAcJP                 "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 327 175 35  14    1  approved
+textEmptyFormatRsDatPltAcJP            ""                                                                255 255 255 0x0121 522 327 50  35  14    1  approved
 
 # Screen 1, Right Side, Platelet Section, Row 4: "Volume of Additive Solution"
-textDataLabelRsPasVolJP                "#![BeginSeg 1]Volume of Additive Solution#![EndSeg 1]"           74  74  74 0x0101  330 367 200 35  14    1  unapproved
-textDataUnitsRsPasVolJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 367 175 35  14    1  unapproved
-textEmptyFormatRsDatPasVolJP           ""                                                                255 255 255 0x0121 522 367 50  35  14    1  unapproved
+textDataLabelRsPasVolJP                "#![BeginSeg 1]Volume of Additive Solution#![EndSeg 1]"           74  74  74 0x0101  330 367 200 35  14    1  approved
+textDataUnitsRsPasVolJP                "#![BeginSeg 1]mL#![EndSeg 1]"                                    255 255 255 0x0101 576 367 175 35  14    1  approved
+textEmptyFormatRsDatPasVolJP           ""                                                                255 255 255 0x0121 522 367 50  35  14    1  approved
 
 #############################################################################################
 
 # Screen 2, Left Side, Row 1: "End of run time"
-textDataLabelRsEndOfRunTimeJP          "#![BeginSeg 1]End of run time#![EndSeg 1]"                       74  74  74 0x0101  10  138 175 35  14    1  unapproved
-textDataUnitsRsEndOfRunTimeAmJP		   "#![BeginSeg 1]a.m.#![EndSeg 1]"									 255 255 255 0x0101 258 138 175 35  14    0  unapproved
-textDataUnitsRsEndOfRunTimePmJP		   "#![BeginSeg 1]p.m.#![EndSeg 1]"									 255 255 255 0x0101 258 138 175 35  14    0  unapproved
-textEmptyFormatRsDatEndOfRunTimeJP     ""                                                                255 255 255 0x0121 203 138 50  35  14    1  unapproved
+textDataLabelRsEndOfRunTimeJP          "#![BeginSeg 1]End of run time#![EndSeg 1]"                       74  74  74 0x0101  10  138 175 35  14    1  approved
+textDataUnitsRsEndOfRunTimeAmJP		   "#![BeginSeg 1]a.m.#![EndSeg 1]"									 255 255 255 0x0101 258 138 175 35  14    0  approved
+textDataUnitsRsEndOfRunTimePmJP		   "#![BeginSeg 1]p.m.#![EndSeg 1]"									 255 255 255 0x0101 258 138 175 35  14    0  approved
+textEmptyFormatRsDatEndOfRunTimeJP     ""                                                                255 255 255 0x0121 203 138 50  35  14    1  approved
 
 # Screen 2, Left Side, Row 2: "Post platelet count"
-textDataLabelRsPltPostCountJP          "#![BeginSeg 1]Post platelet count#![EndSeg 1]"                   74  74  74 0x0101  10  178 175 35  14    1  unapproved
-textDataUnitsRsX1000JP				   "#![BeginSeg 1]x 1000/µL#![EndSeg 1]"							 255 255 255 0x0101 232 178 175 35  14    0  unapproved
-textEmptyFormatRsDatPostPltCountJP     ""                                                                255 255 255 0x0121 179 178 50  35  14    1  unapproved
+textDataLabelRsPltPostCountJP          "#![BeginSeg 1]Post platelet count#![EndSeg 1]"                   74  74  74 0x0101  10  178 175 35  14    1  approved
+textDataUnitsRsX1000JP				   "#![BeginSeg 1]x 1000/µL#![EndSeg 1]"							 255 255 255 0x0101 232 178 175 35  14    0  approved
+textEmptyFormatRsDatPostPltCountJP     ""                                                                255 255 255 0x0121 179 178 50  35  14    1  approved
 
 # Screen 2, Left Side, Row 3: "Post HCT"
-textDataLabelRsPostHctJP               "#![BeginSeg 1]Post HCT#![EndSeg 1]"                              74  74  74 0x0101  10  218 175 35  14    1  unapproved
+textDataLabelRsPostHctJP               "#![BeginSeg 1]Post HCT#![EndSeg 1]"                              74  74  74 0x0101  10  218 175 35  14    1  approved
 textDataLabelRs1PostHgbJP              "#![BeginSeg 1]Post hemoglobin#![EndSeg 1]"                       74  74  74 0x0101  10  218 175 35  14    1  approved
-textDataUnitsRsPercentJP			   "#![BeginSeg 1]%#![EndSeg 1]"									 255 255 255 0x0101 260 218 175 35  14    0  unapproved
+textDataUnitsRsPercentJP			   "#![BeginSeg 1]%#![EndSeg 1]"									 255 255 255 0x0101 260 218 175 35  14    0  approved
 textDataUnitsRs1GPerDlJP               "#![BeginSeg 1]g/dL#![EndSeg 1]"                                  255 255 255 0x0101 260 218 55  35  14    1  approved
-textEmptyFormatRsDatPostHctJP          ""                                                                255 255 255 0x0121 206 218 50  35  14    1  unapproved
+textEmptyFormatRsDatPostHctJP          ""                                                                255 255 255 0x0121 206 218 50  35  14    1  approved
 
 # Screen 2, Left Side, Row 4: "Actual AC to donor"
-textDataLabelRsAcToDonorJP             "#![BeginSeg 1]Actual AC to donor#![EndSeg 1]"                    74  74  74 0x0101  10  258 175 35  14    1  unapproved
-textDataUnitsRsAcToDonorJP			   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 260 258 175 35  14    0  unapproved
-textEmptyFormatRsDatAcToDonorJP        ""                                                                255 255 255 0x0121 206 258 50  35  14    1  unapproved
+textDataLabelRsAcToDonorJP             "#![BeginSeg 1]Actual AC to donor#![EndSeg 1]"                    74  74  74 0x0101  10  258 175 35  14    1  approved
+textDataUnitsRsAcToDonorJP			   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 260 258 175 35  14    0  approved
+textEmptyFormatRsDatAcToDonorJP        ""                                                                255 255 255 0x0121 206 258 50  35  14    1  approved
 
 # Screen 2, Left Side, Row 5: "Total saline used"
-textDataLabelRsSalineUsedJP            "#![BeginSeg 1]Total saline used#![EndSeg 1]"                     74  74  74 0x0101  10  298 175 35  14    1  unapproved
-textDataUnitsRsSalineUsedJP			   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 260 298 175 35  14    0  unapproved
-textEmptyFormatRsDatSalineUsedJP       ""                                                                255 255 255 0x0121 206 298 50  35  14    1  unapproved
+textDataLabelRsSalineUsedJP            "#![BeginSeg 1]Total saline used#![EndSeg 1]"                     74  74  74 0x0101  10  298 175 35  14    1  approved
+textDataUnitsRsSalineUsedJP			   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 260 298 175 35  14    0  approved
+textEmptyFormatRsDatSalineUsedJP       ""                                                                255 255 255 0x0121 206 298 50  35  14    1  approved
 
 # Screen 2, Right Side, RBC product label: "RBC product"
-textLabelRsRbcProdJP                   "#![BeginSeg 1]RBC product#![EndSeg 1]"                           255 255 255 0x0101 330 110 200 35  16    1  unapproved
-textLabelRsRbc1ProdJP               "#![BeginSeg 1]RBC product 1#![EndSeg 1]"                         255 255 255 0x0101 330 110 200 35  16    1  unapproved
-textLabelRsRbc2ProdJP               "#![BeginSeg 1]RBC product 2#![EndSeg 1]"                         255 255 255 0x0101 330 260 200 35  16    1  unapproved
+textLabelRsRbcProdJP                   "#![BeginSeg 1]RBC product#![EndSeg 1]"                           255 255 255 0x0101 330 110 200 35  16    1  approved
+textLabelRsRbc1ProdJP               "#![BeginSeg 1]RBC product 1#![EndSeg 1]"                         255 255 255 0x0101 330 110 200 35  16    1  approved
+textLabelRsRbc2ProdJP               "#![BeginSeg 1]RBC product 2#![EndSeg 1]"                         255 255 255 0x0101 330 260 200 35  16    1  approved
 
 # Screen 2, Right Side, Row 1: "Total volume of product"
-textDataLabelRsRbcVoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 175 35  14    1  unapproved
-textDataUnitsRsRbcVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 138 175 35  14    0  unapproved
-textEmptyFormatRsDatRbcVolJP           ""                                                                255 255 255 0x0121 522 138 50  35  14    1  unapproved
+textDataLabelRsRbcVoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 175 35  14    1  approved
+textDataUnitsRsRbcVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 138 175 35  14    0  approved
+textEmptyFormatRsDatRbcVolJP           ""                                                                255 255 255 0x0121 522 138 50  35  14    1  approved
 
 # Screen 2, Right Side, Row 2: "Volume of AC in RBC"
-textDataLabelRsRbcAcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 178 175 35  14    1  unapproved
-textDataUnitsRsRbcAcJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 178 175 35  14    0  unapproved
-textEmptyFormatRsRbcAcJP               ""                                                                255 255 255 0x0121 522 178 50  35  14    1  unapproved
+textDataLabelRsRbcAcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 178 175 35  14    1  approved
+textDataUnitsRsRbcAcJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 178 175 35  14    0  approved
+textEmptyFormatRsRbcAcJP               ""                                                                255 255 255 0x0121 522 178 50  35  14    1  approved
 
 # Screen 2, Right Side, Row 3: "Volume of additive solution"
-textDataLabelRsRasVolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 218 175 35  14    1  unapproved
-textDataUnitsRsRasVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 218 175 35  14    0  unapproved
-textEmptyFormatRsDatRasVolJP           ""                                                                255 255 255 0x0121 522 218 50  35  14    1  unapproved
+textDataLabelRsRasVolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 218 175 35  14    1  approved
+textDataUnitsRsRasVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 218 175 35  14    0  approved
+textEmptyFormatRsDatRasVolJP           ""                                                                255 255 255 0x0121 522 218 50  35  14    1  approved
 
 # Screen 2, Right Side, Row 4: "Total volume of product"
-textDataLabelRsRbc2VoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 288 175 35  14    1  unapproved
-textDataUnitsRsRbc2VolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 288 175 35  14    0  unapproved
-textEmptyFormatRsDatRbc2VolJP           ""                                                                255 255 255 0x0121 522 288 50  35  14    1  unapproved
+textDataLabelRsRbc2VoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 288 175 35  14    1  approved
+textDataUnitsRsRbc2VolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 288 175 35  14    0  approved
+textEmptyFormatRsDatRbc2VolJP           ""                                                                255 255 255 0x0121 522 288 50  35  14    1  approved
 
 # Screen 2, Right Side, Row 5: "Volume of AC in RBC"
-textDataLabelRsRbc2AcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 328 175 35  14    1  unapproved
-textDataUnitsRsRbc2AcJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 328 175 35  14    0  unapproved
-textEmptyFormatRsRbc2AcJP               ""                                                                255 255 255 0x0121 522 328 50  35  14    1  unapproved
+textDataLabelRsRbc2AcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 328 175 35  14    1  approved
+textDataUnitsRsRbc2AcJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 328 175 35  14    0  approved
+textEmptyFormatRsRbc2AcJP               ""                                                                255 255 255 0x0121 522 328 50  35  14    1  approved
 
 # Screen 2, Right Side, Row 6: "Volume of additive solution"
-textDataLabelRsRas2VolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 368 175 35  14    1  unapproved
-textDataUnitsRsRas2VolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 368 175 35  14    0  unapproved
-textEmptyFormatRsDatRas2VolJP           ""                                                                255 255 255 0x0121 522 368 50  35  14    1  unapproved
+textDataLabelRsRas2VolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 368 175 35  14    1  approved
+textDataUnitsRsRas2VolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 368 175 35  14    0  approved
+textEmptyFormatRsDatRas2VolJP           ""                                                                255 255 255 0x0121 522 368 50  35  14    1  approved
 
 
 
@@ -1126,9 +1127,9 @@ textStatRecoveryProcedure                                 "#![BeginSeg 1]Recover
 textStatPIRInProgress                                 "#![BeginSeg 1]Platelet Inventory Recovery in progress#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  unapproved
 textStatSalinePrime                                       "#![BeginSeg 1]Priming the replacement solution line#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatLrsPurge                                          "#![BeginSeg 1]Clearing LRS chamber#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   640     0  18  1  approved
-textLRSscheduledPurgeBody                               "#![BeginSeg 1]The system is clearing the LRS chamber as scheduled.\n\n#![EndSeg 1]#![BeginSeg 2]No action is necessary.\n\n#![EndSeg 2]#![BeginSeg 3]Platelet collection will resume when complete.\n\n#![EndSeg 3]" 0   0   0 0x0100    15   120   227    300  18  1  unapproved
+textLRSscheduledPurgeBody                               "#![BeginSeg 1]The system is clearing the LRS chamber as scheduled.\n\n#![EndSeg 1]#![BeginSeg 2]No action is necessary.\n\n#![EndSeg 2]#![BeginSeg 3]Platelet collection will resume when complete.\n\n#![EndSeg 3]" 0   0   0 0x0100    15   120   227    300  18  1  approved
 textStatUnscheduledPurge                                  "#![BeginSeg 1]WBC content detected, clearing LRS chamber#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   640     0  18  1  approved
-textLRSUnscheduledPurgeBody                               "#![BeginSeg 1]The system has detected possible WBC contamination and is clearing the LRS chamber.\n\n#![EndSeg 1]#![BeginSeg 2]No action is necessary.\n\n#![EndSeg 2]#![BeginSeg 3]Platelet collection will resume when complete.\n\n#![EndSeg 3]" 0   0   0 0x0100    15   120   227    300  18  1  unapproved
+textLRSUnscheduledPurgeBody                               "#![BeginSeg 1]The system has detected possible WBC contamination and is clearing the LRS chamber.\n\n#![EndSeg 1]#![BeginSeg 2]No action is necessary.\n\n#![EndSeg 2]#![BeginSeg 3]Platelet collection will resume when complete.\n\n#![EndSeg 3]" 0   0   0 0x0100    15   120   227    300  18  1  approved
 textButtonLongClose                                       "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                                               255 247  57 0x0111     0     0   640     0  18    1  approved
 textButtonLongResetMachine                                   "#![BeginSeg 1]Reset machine#![EndSeg 1]"                                                                                                            0   0   0 0x0111     0     0   640     0  18    1  approved
 textBlank                                                   ""                                                                                                                      255 247  57 0x0111     0     0   100     0  14    0  approved
@@ -1215,13 +1216,13 @@ textListboxItemRemoveAll                                 "#![BeginSeg 1]Remove a
 textListboxItemRefIdPC                                   "#![BeginSeg 1]PC#![EndSeg 1]#![BeginSeg 2] / #![EndSeg 2]"                                                             255 247  57 0x0111     0     0   640     0  12    0  unapproved
 textListboxItemRefIdPPP                                  "#![BeginSeg 1]PPP#![EndSeg 1]#![BeginSeg 2] / #![EndSeg 2]"                                                            255 247  57 0x0111     0     0   640     0  12    0  unapproved
 textConfirmBodyCfgMachRefDeleteOne                       "#![BeginSeg 1]Remove the tubing set REF:#![EndSeg 1]"                                                                  255 247  57 0x0111     0     0   640     0  18    1  approved
-textConfirmBodyCfgMachRefDeleteOneN                      "#![BeginSeg 1]Remove the tubing set\nREF:\n\n#![EndSeg 1]"                                                             255 247  57 0x0110     0     20   640    0  18    1  unapproved
+textConfirmBodyCfgMachRefDeleteOneN                      "#![BeginSeg 1]Remove the tubing set\nREF:\n\n#![EndSeg 1]"                                                             255 247  57 0x0110     0     20   640    0  18    1  approved
 textConfirmBodyCfgMachRefDeleteAll                       "#![BeginSeg 1]Remove all REF entries#![EndSeg 1]"                                                                      255 247  57 0x0111     0     0   640     0  18    1  approved 
-textConfirmBodyCfgMachRefDeleteAllN                      "#![BeginSeg 1]Remove all REF entries#![EndSeg 1]"                                                                      255 247  57 0x0110     0    45   640     0  18    1  unapproved
+textConfirmBodyCfgMachRefDeleteAllN                      "#![BeginSeg 1]Remove all REF entries#![EndSeg 1]"                                                                      255 247  57 0x0110     0    45   640     0  18    1  approved
 textMiscCfgMachBarcode                                   "#![BeginSeg 1]Barcode#![EndSeg 1]"                                                                                     255 247  57 0x0111   277   235   100    45  14    1  approved
-textMiscCfgMachCurrentREFlist                                    "#![BeginSeg 1]Current REF list#![EndSeg 1]"                                                                                     255 247  57 0x0101   270   337   200   19  14    1  unapproved
-textMiscCfgMachView                                   "#![BeginSeg 1]View#![EndSeg 1]"                                                                                           255 247  57 0x0111   0   0   143    32  14    1  unapproved
-textMiscCfgMachRemove                                   "#![BeginSeg 1]Remove#![EndSeg 1]"                                                                                       255 247  57 0x0111   0   0   143    32  14    1  unapproved
+textMiscCfgMachCurrentREFlist                                    "#![BeginSeg 1]Current REF list#![EndSeg 1]"                                                                                     255 247  57 0x0101   270   337   200   19  14    1  approved
+textMiscCfgMachView                                   "#![BeginSeg 1]View#![EndSeg 1]"                                                                                           255 247  57 0x0111   0   0   143    32  14    1  approved
+textMiscCfgMachRemove                                   "#![BeginSeg 1]Remove#![EndSeg 1]"                                                                                       255 247  57 0x0111   0   0   143    32  14    1  approved
 textEmptyFormatSetIdRef                                  ""                                                                                                                      255 247  57 0x0102   400   310    97    48  18    0  approved
 textButtonAlarmUnloadSet                                 "#![BeginSeg 1]Unload set#![EndSeg 1]"                                                                                                             255 247  57 0x0111     0     0   640     0  18    1  approved
 textProdVerifLeukMsgPltNotLeukoreduced                                          "#![BeginSeg 1]Platelet product: #![EndSeg 1]#![BeginSeg 2]DO NOT label as leukoreduced#![EndSeg 2]"                                                                                         255 255 255 0x0111    15   112   610    60  18  1  approved
@@ -1333,7 +1334,7 @@ textStatAlarmPltConcLow                   "#![BeginSeg 1]Low platelet concentrat
 textStatAlarmPowerTestFailure                                 "#![BeginSeg 1]Power test failure#![EndSeg 1]"                                                                                                     165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmPowerFailureAlert                                    "#![BeginSeg 1]Power interrupted#![EndSeg 1]"                                                                                                      165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmPrimeTooSoon                                     "#![BeginSeg 1]Prime failure#![EndSeg 1]"                                                                                                          165   8   0 0x0101    0   0   182    14  18    1  approved
-textStatAlarmProcedureModified                                 "#![BeginSeg 1]Action required#![EndSeg 1]"                                                                                                     165   8   0 0x0101    0   0   182    14  18    1  unapproved
+textStatAlarmProcedureModified                                 "#![BeginSeg 1]Action required#![EndSeg 1]"                                                                                                     165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmPumpRpmCommand                           "#![BeginSeg 1]Pump error#![EndSeg 1]"                                                                                                           165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmRasEmpty                                    "#![BeginSeg 1]Replace the RBC additive solution bag#![EndSeg 1]"                                                                                      255 247  57 0x0101    0   0   182    14  18  1  approved
 textStatAlarmCalDetectorFailure                           "#![BeginSeg 1]RBC detector error#![EndSeg 1]"                                                                                                     165   8   0 0x0101    0   0   182    14  18    1  approved
@@ -1385,7 +1386,7 @@ textAlarmBodyNoGraphicHemolysisDetected                                "#![Begin
 textAlarmBodyNoGraphicHypovolemia                                       "#![BeginSeg 1]The system has encountered an alert condition. #![EndSeg 1]#![BeginSeg 2]Record the status line text. #![EndSeg 2]#![BeginSeg 3]End the run. #![EndSeg 3]#![BeginSeg 4]Disconnect the donor. #![EndSeg 4]#![BeginSeg 5]Call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicCassetteMovement                         "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Disconnect the donor. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and attempt to raise the cassette when it is powered back on. #![EndSeg 4]#![BeginSeg 5]Call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicLeakTestFailure                                       "#![BeginSeg 1]The leak detector may need to be re-tested. #![EndSeg 1]#![BeginSeg 2]Touch 'Continue' to resume the procedure. #![EndSeg 2]#![BeginSeg 3]If the leak detector fails this test repeatedly, end the run. #![EndSeg 3]#![BeginSeg 4]Call your service representative for assistance. #![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
-textAlarmBodyNoGraphicLeakDetected                                "#![BeginSeg 1]The leak detector may be damaged or disconnected.\n\n#![EndSeg 1]#![BeginSeg 2]Touch 'Continue' to resume the procedure. If this alert occurs repeatedly, call your service representative.#![EndSeg 2]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+textAlarmBodyNoGraphicLeakDetected                                "#![BeginSeg 1]The leak detector may be damaged or disconnected.\n\n#![EndSeg 1]#![BeginSeg 2]Touch 'Continue' to resume the procedure. If this alert occurs repeatedly, call your service representative.#![EndSeg 2]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicLowLevelPriorToExpected                    "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Power off the system, then power it back on. #![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on.\n#![EndSeg 4]#![BeginSeg 5]- If you see fluid at the low-level sensor, the AC was spiked too soon.\n#![EndSeg 5]#![BeginSeg 6]- If you do not see fluid at the low-level sensor, call your service representative for assistance.#![EndSeg 6]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicLowLevelLate                  "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]End the run. #![EndSeg 3]#![BeginSeg 4]Disconnect the donor. #![EndSeg 4]#![BeginSeg 5]Verify that the return pump header is loaded correctly. #![EndSeg 5]#![BeginSeg 6]Verify that all pump rotors are in the correct positions and are loaded correctly. #![EndSeg 6]#![BeginSeg 7]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 7]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicMaintainDonorAccess                             "#![BeginSeg 1]The pumps have been paused for three minutes.\n\n#![EndSeg 1]#![BeginSeg 2]Touch 'Continue' to return 3 mL of blood to the donor to the donor.\n\n#![EndSeg 2]#![BeginSeg 3]Returning blood ensures that the blood in the needle line is anticoagulated and donor access is maintained.#![EndSeg 3]" 0   0   0 0x0100    15   120   455    300  18  1  approved
@@ -1409,7 +1410,7 @@ textAlarmBodyNoGraphicPltConcLow                        "#![BeginSeg 1]The syste
 textAlarmBodyNoGraphicPowerTestFailure                                      "#![BeginSeg 1]The power supply may need to be re-tested. #![EndSeg 1]#![BeginSeg 2]Touch 'Continue' to resume the procedure. #![EndSeg 2]#![BeginSeg 3]If the power supply fails this test repeatedly, end the run. #![EndSeg 3]#![BeginSeg 4]Call your service representative for assistance.#![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicPowerFailAbort                                   "#![BeginSeg 1]Power to the system was interrupted during the collection procedure. #![EndSeg 1]#![BeginSeg 2]Record the alarm number and status line text. #![EndSeg 2]#![BeginSeg 3]Touch 'End run' to end the procedure. #![EndSeg 3]#![BeginSeg 4]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicPowerFail                                         "#![BeginSeg 1]Power to the system was interrupted during the collection procedure. #![EndSeg 1]#![BeginSeg 2]Touch one of the buttons on the screen to proceed.#![EndSeg 2]" 0   0   0 0x0100    15   120   455    300  18  1  approved
-textAlarmBodyNoGraphicProcedureModified                                      "#![BeginSeg 1]Touch 'Continue' to return to the previous screen.#![EndSeg 1]"     0   0   0 0x0100    15   120   455    300  18  1  unapproved
+textAlarmBodyNoGraphicProcedureModified                                      "#![BeginSeg 1]Touch 'Continue' to return to the previous screen.#![EndSeg 1]"     0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicPumpRpmCommand                                "#![BeginSeg 1]A pump may need to be re-tested. #![EndSeg 1]#![BeginSeg 2]Touch 'Continue' to resume the procedure. #![EndSeg 2]#![BeginSeg 3]If the pump fails this test repeatedly, end the run. #![EndSeg 3]#![BeginSeg 4]Call your service representative for assistance.#![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicRbcDetectorCal                                "#![BeginSeg 1]The system was unable to calibrate the RBC detector. #![EndSeg 1]#![BeginSeg 2]If you continue the procedure, you must measure the WBC content and the yield of the platelet product.\n#![EndSeg 2]#![BeginSeg 3]Touch 'Unload' and clean the RBC detector. Reload the tubing set and the RBC detector calibration will be re-tested.\n#![EndSeg 3]#![BeginSeg 4]If the detector fails this test repeatedly, call your service representative for assistance.#![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
 textAlarmBodyNoGraphicRefMismatch                                 "#![BeginSeg 1]The REF selected does not match the tubing set loaded. #![EndSeg 1]#![BeginSeg 2]Touch 'Unload' to raise the cassette. #![EndSeg 2]#![BeginSeg 3]Choose the REF that matches your tubing set or load the appropriate tubing set.#![EndSeg 3]" 0   0   0 0x0100    15   120   455    300  18  1  approved
@@ -1507,8 +1508,8 @@ textAlarmBodyWithGraphicApsHighPtf                             "#![BeginSeg 1]Th
 textAlarmBodyWithGraphicAasClampClosAddition                      "#![BeginSeg 1]The system cannot verify that the channel line clamps are closed. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The clamps are closed correctly.\n#![EndSeg 3]#![BeginSeg 4]Touch 'Continue.'#![EndSeg 4]" 0   0   0 0x0100    15   120   227    300  18  1  approved
 textAlarmBodyWithGraphicAasClampClosAdditionFailure                               "#![BeginSeg 1]The system cannot verify that the channel line clamps are closed. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The clamps are closed correctly.\n#![EndSeg 3]#![BeginSeg 4]- No additive solution is connected.\n#![EndSeg 4]#![BeginSeg 5]Touch 'Continue.'#![EndSeg 5]" 0   0   0 0x0100    15   120   227    300  18  1  approved
 textAlarmBodyWithGraphicFluidAtAcAas                                   "#![BeginSeg 1]The system detected fluid at the AC sensor. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The AC line was sealed.\n#![EndSeg 3]#![BeginSeg 4]- The AC line was removed from the sensor.\n#![EndSeg 4]#![BeginSeg 5]- The AC bag was removed from the system. \nTouch 'Continue.'#![EndSeg 5]" 0   0   0 0x0100    15   120   227    300  18  1  approved
-textAlarmBodyWithGraphicPasMisconnected                      "#![BeginSeg 1]The system has not detected PAS. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The PAS is connected correctly\n#![EndSeg 3]#![BeginSeg 4]- The bag frangible is broken (if present)\n#![EndSeg 4]#![BeginSeg 5]- The clamp is open\n#![EndSeg 5]#![BeginSeg 6]Touch 'Continue.'#![EndSeg 6]" 0   0   0 0x0100    15   120   227    300  18  1  approved
-textAlarmBodyWithGraphicPasPrimeLate                            "#![BeginSeg 1]The system has not detected PAS. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The PAS is connected correctly\n#![EndSeg 3]#![BeginSeg 4]- The bag frangible is broken (if present)\n#![EndSeg 4]#![BeginSeg 5]- The clamp is open\n#![EndSeg 5]#![BeginSeg 6]- The channel line clamps are closed\n#![EndSeg 6]#![BeginSeg 7]Touch 'Continue.'#![EndSeg 7]" 0   0   0 0x0100    15   120   227    300  18  1  unapproved
+textAlarmBodyWithGraphicPasMisconnected                      "#![BeginSeg 1]The system has not detected PAS.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The PAS is connected correctly\n#![EndSeg 3]#![BeginSeg 4]- The bag frangible is broken (if present)\n#![EndSeg 4]#![BeginSeg 5]- The clamp is open\n#![EndSeg 5]#![BeginSeg 6]Touch 'Continue.'#![EndSeg 6]" 0   0   0 0x0100    15   120   227    300  18  1  approved
+textAlarmBodyWithGraphicPasPrimeLate                            "#![BeginSeg 1]The system has not detected PAS.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The PAS is connected correctly\n#![EndSeg 3]#![BeginSeg 4]- The bag frangible is broken (if present)\n#![EndSeg 4]#![BeginSeg 5]- The clamp is open\n#![EndSeg 5]#![BeginSeg 6]- The channel line clamps are closed\n#![EndSeg 6]#![BeginSeg 7]Touch 'Continue.'#![EndSeg 7]" 0   0   0 0x0100    15   120   227    300  18  1  unapproved
 textAlarmBodyWithGraphicPasPrimeEarly                         "#![BeginSeg 1]The system has detected additive solution too soon. #![EndSeg 1]#![BeginSeg 2]Verify that the channel line clamps are closed and touch 'Continue.'#![EndSeg 2]"  0   0   0 0x0100    15   120   227    300  18  1  approved
 textAlarmBodyWithGraphic1MinPause                                  "#![BeginSeg 1]The pumps have been paused for one minute.\n\n#![EndSeg 1]#![BeginSeg 2]- The centrifuge speed is decreased\n\n#![EndSeg 2]#![BeginSeg 3]Touch 'Continue' to resume the procedure.#![EndSeg 3]" 0   0   0 0x0100    15   120   227    300  18  1  approved
 textAlarmBodyWithGraphicPauseButton                                      "#![BeginSeg 1]The pause button was pressed.\n\n#![EndSeg 1]#![BeginSeg 2]- The pumps are stopped\n#![EndSeg 2]#![BeginSeg 3]- The centrifuge may continue to spin\n\n#![EndSeg 2]#![BeginSeg 3]Touch 'Continue' to resume the procedure.#![EndSeg 3]" 0   0   0 0x0100    15   120   227    300  18  1  approved
@@ -1610,9 +1611,9 @@ textPltConfigSolutionVol1           ""       255  255  0      0x0110   565   183
 textPltConfigSolutionVol2           ""       255  255  0      0x0110   565   248    59    35  14     1  approved
 textPltConfigSolutionVol3           ""       255  255  0      0x0110   565   314    59    35  14     1  approved
 
-textProcPriorityLabel1           "1"       255  255  0      0x0100   22   205    59    35  14     1  unapproved
-textProcPriorityLabel2           "2"       255  255  0      0x0100   22   265    59    35  14     1  unapproved
-textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325    59    35  14     1  unapproved
+textProcPriorityLabel1           "1"       255  255  0      0x0100   22   205    59    35  14     1  approved
+textProcPriorityLabel2           "2"       255  255  0      0x0100   22   265    59    35  14     1  approved
+textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325    59    35  14     1  approved
 
 #########################################################################################################################################################################
 ##################################################### English only Strings ##############################################################################################
