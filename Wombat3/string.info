@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x85def2df"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x34dec45b"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -403,8 +403,6 @@ textMultiTextListBoxBlankItem3                          ""                      
 textEmptyFormatListboxButton                          ""                                                                                                                      255 255 255 0x0111    20     0   640     0  19    0  approved
 textEmptyFormatBloodTypeButton14Pt                          ""                                                                                                                      255 255 255 0x0111    0     0   100     48  14    0  approved
 textEmptyFormatBloodTypeButton12Pt                          ""                                                                                                                      255 255 255 0x0111    0     0   100     48  12    0  approved
-textEmptyFormatBloodTypeButton10Pt                          ""                                                                                                                      255 255 255 0x0111    0     0   100     48  10    0  approved
-textEmptyFormatBloodTypeButton8Pt                           ""                                                                                                                      255 255 255 0x0111    0     0   100     48  8     0  approved
 textProgBarLoad                                               "#![BeginSeg 1]Load#![EndSeg 1]"                                                                                                                   255 247  57 0x0101    30    50     0     0  12    1  approved
 textProgBarDonorInfo                                               "#![BeginSeg 1]Info#![EndSeg 1]"                                                                                                                   255 247  57 0x0101    90    50     0     0  12    1  approved
 textButtonDonorInformation                                               "#![BeginSeg 1]Donor information#![EndSeg 1]"                                                                                                       255 247  57 0x0111     0     0   640     0  18    1  unapproved
@@ -808,7 +806,6 @@ textButtonKeypadEnter                                              "#![BeginSeg 
 textEmptyFormatKeypadUsrEntryInit                                    ""                                                                                                                        0   0   0 0x0121     56     10     109     32  18    0  approved
 textEmptyFormatKeypadUsrEntry16Pt                                    ""                                                                                                                        0   0   0 0x0121     56     10     109     32  16    0  approved
 textEmptyFormatKeypadUsrEntry14Pt                                    ""                                                                                                                        0   0   0 0x0121     56     10     109     32  14    0  approved
-textEmptyFormatKeypadUsrEntry12Pt                                    ""                                                                                                                        0   0   0 0x0121     56     10     109     32  12    0  approved
 textKeypadUnitsFeet                               "#![BeginSeg 1]ft#![EndSeg 1]"                                                                                                                       0   0   0 0x0121     0     0     0     0  18    1  approved
 textKeypadUnitsInches                             "#![BeginSeg 1]in#![EndSeg 1]"                                                                                                                       0   0   0 0x0121     0     0     0     0  18    1  approved
 textKeypadUnitsCm                                    "#![BeginSeg 1]cm#![EndSeg 1]"                                                                                                                       0   0   0 0x0121     0     0     0     0  18    1  approved
