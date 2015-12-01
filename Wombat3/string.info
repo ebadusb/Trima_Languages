@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xf1eafeb9"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xd31472ce"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1628,6 +1628,7 @@ textCpsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, c
 textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  approved
 textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Configuration: Flow Rate Limit#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textRunScreenPlateletVolumeToggle           "#![BeginSeg 1]Run Screen: Platelet Volume Toggle#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textProcedureAdjustDrawFlowDisplay          "#![BeginSeg 1]Procedure: Adjust Draw Flow Display#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  unapproved
 textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
 textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  approved
 textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
