@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xf465b5b"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x2d4c8583"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1845,14 +1845,13 @@ AutoFlowTextAlarmBodyTimeout04                              "#![BeginSeg 1]3.  D
 AutoFlowTextAlarmBodyTimeoutBodyNoGraphic05                              "#![BeginSeg 1]Touch 'Procedure selection' to proceed.\n\n#![EndSeg 1]#![BeginSeg 2]If access issues are resolved, draw flow may be increased.\n\n#![EndSeg 2]"  0   0   0 0x0100    15   120   455    300  18  1  unapproved
 
 textEmptyFormatExtraAlarmLabel           ""									57 24  132  0x0111   307   181     26     13   32    1  approved
-textMiscAcBagLvlAlrm00                   "#![BeginSeg 1]AC#![EndSeg 1]"		57 24  132  0x0111   318   141     87     41   32    1  approved
+textMiscAcBagLvlAlrm00                   "#![BeginSeg 1]AC#![EndSeg 1]"		57 24  132  0x0111   318   141     87     41   26    1  approved
 textMiscAcBagLvlAlrm01                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   141    137     90   32    1  approved
 textMiscAcBagLvlAlrm03                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   304   170    122    150   32    1  approved
 textMiscAcBagOcclusion                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   330   191     52     29   20    1  approved
 textMiscAcBagDisconnectTestAlert03       "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   20    1  approved
-textMiscAcBagMssDisconnectTestAlert02    "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   32    1  approved
-textMiscAcBagClosureFailed               "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   330   191     52     29   20    1  approved
-textMiscAcBagNotRemoved                  "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   330   191     52     29   20    1  approved
+textMiscAcBagClosureFailed               "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   20    1  approved
+textMiscAcBagNotRemoved                  "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   20    1  approved
 
 #############################
 STRING_FILE_TABLE_END
