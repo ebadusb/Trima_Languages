@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x76d89ae3"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x905b6798"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -513,11 +513,11 @@ textListboxItemPcxNone                                         "#![BeginSeg 1]No
 textListboxItemPcxNoLabel                                         "#![BeginSeg 1]No Label#![EndSeg 1]"                                                  255 247  57 0x0111     0     0   640     0  14    1  unapproved
 textListboxItemPcxNonePas                                         "#![BeginSeg 1]No Label#![EndSeg 1]"                                                  255 247  57 0x0101     30     0   640     0  14    1  unapproved
 
-textMiscNewPredNoProductAvailable                               "#![BeginSeg 1]No product available#![EndSeg 1]"                                                                                                   255 247  57 0x0111    54   262   532    46  18  1  unapproved
-textEmptyFormatNewPredCurrPltInit                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 255 247  57 0x0121    0   368    125    23  18    1  unapproved
-textFormatNewPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              255 247  57 0x0101   128   366    16    12  10    0  unapproved
+textMiscNewPredNoProductAvailable                               "#![BeginSeg 1]No product available#![EndSeg 1]"                                                                                                   255 247  57 0x0111    22  228   532    46  18  1  unapproved
+textEmptyFormatNewPredCurrPltInit                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 255 247  57 0x0121    0   368    120    23  18    1  unapproved
+textFormatNewPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              255 247  57 0x0101   123   366    16    12  10    0  unapproved
 textEmptyFormatNewPredCurrPlasInit                                                              "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    255 247  57 0x0121   165   368    150    23  18    1  unapproved
-textNewPredACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   215   387    100    35  14     1  unapproved
+textNewPredACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   200   387    100    35  14     1  unapproved
 textEmptyFormatNewPredCurrRbcInit                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      255 247  57 0x0121   300   368    150    23  18    0  unapproved
 textFormatNewPredCurrFlowRateUnit                          "#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"                                                                                                                   255 247  57 0x0101   515   384    150    23  16    1  unapproved
 textFormatNewPredCurrTimeUnit                           "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                                                                                                                            255 247  57 0x0101   530   367    150    23  16    1  unapproved
@@ -526,14 +526,14 @@ textEmptyFormatNewPredCurrPltVolInit                            "#![BeginSeg 1]#
 
 textEmptyFormatNewPredProdPltInit                                                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                   255 255 255 0x0120    473    10    120    19  14    1  unapproved
 textFormatNewPredProdPltExp                        "#![BeginSeg 1]11#![EndSeg 1]"                                                                                               255 255 255 0x0100    80     7    13    11   8    0  unapproved
-textEmptyFormatNewPredProdPlasInit                                 "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                     255 255 255 0x0120   305   10    100    19  14    1  unapproved
+textEmptyFormatNewPredProdPlasInit                                 "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                     255 255 255 0x0120   277   10    100    19  14    1  unapproved
 textEmptyFormatNewPredProdRbcInit                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                       255 255 255 0x0120   180   10    150    19  14    0  unapproved
 textFormatNewPredProdFlowRateUnit                         "#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"                                                               255 255 255 0x0100   466    17    150    19  14    1  unapproved
 textFormatNewPredProdTimeUnit                         "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                                                                       255 255 255 0x0100   481    5    150    19  14    1  unapproved
 
-textFormatNewPredPlasmaLabel                           "#![BeginSeg 1]Plasma#![EndSeg 1]"                                                                                           255 247  57  0x0100   205    133    640    0  14    1  unapproved
+textFormatNewPredPlasmaLabel                           "#![BeginSeg 1]Plasma#![EndSeg 1]"                                                                                           255 247  57  0x0100   233    133    640    0  14    1  unapproved
 textFormatNewPredRbcLabel                           "#![BeginSeg 1]RBC#![EndSeg 1]"                                                                                                 255 247  57  0x0100   352    133    640    0  14    1  unapproved
-textFormatNewPredPcxLabel                           "#![BeginSeg 1]PC Label#![EndSeg 1]"                                                                                                 255 247  57  0x0100   342    133    640    0  14    1  unapproved
+textFormatNewPredPcxLabel                           "#![BeginSeg 1]PC Label#![EndSeg 1]"                                                                                                 255 247  57  0x0100   339    133    640    0  14    1  unapproved
 textFormatNewPredPlateletButtLabel                 "#![BeginSeg 1]Platelet#![EndSeg 1]"                                            255 247  57  0x0111    0    0    640    0  14    1  unapproved
 textCnfPlateletProdBtnLabel                 ""                                                 255 255 255 0x0111    0    0    44    19  18    1  unapproved
 textStatEndOfRunPcx                              "#![BeginSeg 1]Platelet product verification and labeling#![EndSeg 1]"                                                                               255 255 255 0x0111     0     0   640     0  18    1  unapproved
