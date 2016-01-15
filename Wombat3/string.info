@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xac32b597"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xf611f9c0"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -465,9 +465,11 @@ textDataLabelRs1AvgInletFlowAlt                           "#![BeginSeg 1]Draw fl
 textDataLabelRs1AvgInletFlow                               "#![BeginSeg 1]Draw flow rate#![EndSeg 1]"                                                                                                      74  74  74 0x0101   10   345    175    90  14    1  approved
 textEmptyFormatRs1DatTotAcUsed                                    ""                                                                                                                       255 255 255 0x0121   180   130    70    90  14    0  approved
 textEmptyFormatRs1DatEndOfRunTime                                  ""                                                                                                                       255 255 255 0x0121   180   173    70    90  14    0  approved
+textEmptyFormatRs1DatEndOfRunTime24                                  ""                                                                                                                       255 255 255 0x0121   192   173    70    90  14    0  approved
 textEmptyFormatRs1DatPostPltCount                              ""                                                                                                                       255 255 255 0x0121   180   216    44    90  14    0  approved
 textEmptyFormatRs1DatTbvProcessed                               ""                                                                                                                       255 255 255 0x0121   180   259    70    90  14    0  approved
 textEmptyFormatRs1DatAasStartTime                                   ""                                                                                                                       255 255 255 0x0121   180   302    70    90  14    0  approved
+textEmptyFormatRs1DatAasStartTime24                                   ""                                                                                                                       255 255 255 0x0121   192   302    70    90  14    0  approved
 textEmptyFormatRs1DatAvgInletFlowAlt                           ""                                                                                                                       255 255 255 0x0121   180   302    50    90  14    0  approved
 textEmptyFormatRs1DatAvgInletFlow                               ""                                                                                                                       255 255 255 0x0121   180   345    50    90  14    0  approved
 textDashesRs1AvgInletFlowAlt                           "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   185   302    123    90  14    0  approved
@@ -604,6 +606,7 @@ textDataLabelRsEndOfRunTimeJP          "#![BeginSeg 1]End of run time#![EndSeg 1
 textDataUnitsRsEndOfRunTimeAmJP		   "#![BeginSeg 1]a.m.#![EndSeg 1]"									 255 255 255 0x0101 258 138 175 35  14    0  approved
 textDataUnitsRsEndOfRunTimePmJP		   "#![BeginSeg 1]p.m.#![EndSeg 1]"									 255 255 255 0x0101 258 138 175 35  14    0  approved
 textEmptyFormatRsDatEndOfRunTimeJP     ""                                                                255 255 255 0x0121 203 138 50  35  14    1  approved
+textEmptyFormatRsDatEndOfRunTimeJP24     ""                                                                255 255 255 0x0121 215 138 50  35  14    1  approved
 
 # Screen 2, Left Side, Row 2: "Post platelet count"
 textDataLabelRsPltPostCountJP          "#![BeginSeg 1]Post platelet count#![EndSeg 1]"                   74  74  74 0x0101  10  178 175 35  14    1  approved
