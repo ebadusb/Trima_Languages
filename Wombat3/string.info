@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xf611f9c0"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x3d5455f5"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1643,36 +1643,37 @@ textAlarmBodyNoGraphicCollectValveOpenTooLong          "#![BeginSeg 1]The collec
 ################################################################################################
 ##### Feature strings
 #####
-textEnableScreenshotButton                  "#![BeginSeg 1]Screenshot capture#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1  approved																								  
-textApsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, access pressure sensor#![EndSeg 1]"              0     0    0 0x0001     10     2   280     25  10    0  approved
-textCpsHighSpeedLogEnable                   "#![BeginSeg 1]High speed logging, centrifuge pressure sensor#![EndSeg 1]"          0     0    0 0x0001     10     2   280     25  10    0  approved
-textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Procedure selection: Platelet product volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  approved
-textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Configuration: Flow Rate Limit#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textRunScreenPlateletVolumeToggle           "#![BeginSeg 1]Run Screen: Platelet Volume Toggle#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textProcedureAdjustDrawFlowDisplay          "#![BeginSeg 1]Procedure: Adjust Draw Flow Display#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textDisplayResidualVolumes                  "#![BeginSeg 1]Procedural summary: Residual volumes#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
-textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Platelet mobilization#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  approved
-textAiroutMitigation                        "#![BeginSeg 1]Air reduction mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
-textAmapPlateletsAvailable                  "#![BeginSeg 1]Configuration: Platelet optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
-textComplementaryPlasmaAvailable            "#![BeginSeg 1]Configuration: Plasma replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
-textEnableVistaCfr11PinLogging              "#![BeginSeg 1]CFR 11 PIN logging#![EndSeg 1]"                                          0     0    0 0x0001     10     2   280     25  10    0  approved
-textAllowExtraWbcMessage                    "#![BeginSeg 1]Configuration: Additional WBC messages#![EndSeg 1]"                  0     0    0 0x0001     10     2   280     25  10    1  approved
-textServiceModePeriodicLog                  "#![BeginSeg 1]Service mode: Periodic logging#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    0  approved
-textSpecialBlackStampNeedle                 "#![BeginSeg 1]Custom black stamp needle#![EndSeg 1]"                               0     0    0 0x0001     10     2   280     25  10    1  approved
+textEnableScreenshotButton                  "#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1  approved																								  
+textApsHighSpeedLogEnable                   "#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"              0     0    0 0x0001     10     2   280     25  10    0  approved
+textCpsHighSpeedLogEnable                   "#![BeginSeg 1]RD: High Speed Logging, CPS#![EndSeg 1]"          0     0    0 0x0001     10     2   280     25  10    0  approved
+textSelectScreenDisplayPlateletVolume       "#![BeginSeg 1]Pred: Platelet Product Volume#![EndSeg 1]"            0     0    0 0x0001     10     2   280     25  10    1  approved
+textAllowAdjustFlowRatesOnProcedureSelect   "#![BeginSeg 1]Pred: Flow Rate Adjustment#![EndSeg 1]"               0     0    0 0x0001     10     2   280     25  10    1  approved
+textRunScreenPlateletVolumeToggle           "#![BeginSeg 1]Run: Platelet Volume Toggle#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  approved
+textProcedureAdjustDrawFlowDisplay          "#![BeginSeg 1]Conf: Flow Rate Deltamode#![EndSeg 1]"                     0     0    0 0x0001     10     2   280     25  10    1  approved
+textDisplayResidualVolumes                  "#![BeginSeg 1]Post: Residual Volumes#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
+textPostcountPlateletMobilizationAlgorithm  "#![BeginSeg 1]Pred: Platelet Mobilization#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  approved
+textAiroutMitigation                        "#![BeginSeg 1]Run: Air Reduction Mitigation#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
+textAmapPlateletsAvailable                  "#![BeginSeg 1]Conf: Platelet Optimization#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
+textComplementaryPlasmaAvailable            "#![BeginSeg 1]Conf: Plasma Replaced by PAS#![EndSeg 1]"                   0     0    0 0x0001     10     2   280     25  10    1  approved
+textEnableVistaCfr11PinLogging              "#![BeginSeg 1]RD: Vista Tracking#![EndSeg 1]"                                          0     0    0 0x0001     10     2   280     25  10    0  approved
+textAllowExtraWbcMessage                    "#![BeginSeg 1]Conf: Additional WBC Messages#![EndSeg 1]"                  0     0    0 0x0001     10     2   280     25  10    1  approved
+textServiceModePeriodicLog                  "#![BeginSeg 1]RD: Periodic Logging#![EndSeg 1]"                          0     0    0 0x0001     10     2   280     25  10    0  approved
+textSpecialBlackStampNeedle                 "#![BeginSeg 1]Set: Black Stamp Needle#![EndSeg 1]"                               0     0    0 0x0001     10     2   280     25  10    1  approved
 textPloFlag                                 "#![BeginSeg 1]Plasma line occlusion message EPCA#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  approved
 textPloPca                                  "#![BeginSeg 1]Plasma line occlusion message PCA#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
-textShowPlasmaVolume                        "#![BeginSeg 1]Plasma volume without AC#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
-textExtraPlasmaNoAc                         "#![BeginSeg 1]Additional plasma volumes without AC#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
-textJapanFeatures                           "#![BeginSeg 1]Japanese features#![EndSeg 1]"                                       0     0    0 0x0001     10     2   280     25  10    1  approved
-textLowYieldConcentrationMessage            "#![BeginSeg 1]Low yield/concentration message#![EndSeg 1]"                         0     0    0 0x0001     10     2   280     25  10    1  unapproved
-textAllowAutoConfPlasmaProcs                "#![BeginSeg 1]Additional plasma only procedures#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
-textProcConfirmPopup                        "#![BeginSeg 1]Procedure confirmation prompt#![EndSeg 1]"                           0     0    0 0x0001     10     2   280     25  10    1  approved
-textPasBagBarcodeScanFeature                "#![BeginSeg 1]PAS barcode confirmation#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
-textPIRPreferred                            "#![BeginSeg 1]Enhanced platelet inventory recovery#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  approved
-textTriplePpcFlag                           "#![BeginSeg 1]PPC/PAS WBC message#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
+textShowPlasmaVolume                        "#![BeginSeg 1]Pred: Show Plasma Volume No AC#![EndSeg 1]"                                0     0    0 0x0001     10     2   280     25  10    1  approved
+textExtraPlasmaNoAc                         "#![BeginSeg 1]Pred: Additional Plasma Volumes No AC#![EndSeg 1]"                    0     0    0 0x0001     10     2   280     25  10    1  approved
+textJapanFeatures                           "#![BeginSeg 1]Japanese Features#![EndSeg 1]"                                       0     0    0 0x0001     10     2   280     25  10    1  approved
+textLowYieldConcentrationMessage            "#![BeginSeg 1]Run: Low Conc. Message#![EndSeg 1]"                         0     0    0 0x0001     10     2   280     25  10    1  approved
+textAllowAutoConfPlasmaProcs                "#![BeginSeg 1]Pred: Additional Plasma Only Procedures#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
+textProcConfirmPopup                        "#![BeginSeg 1]Pred: Procedure Confirmation#![EndSeg 1]"                           0     0    0 0x0001     10     2   280     25  10    1  approved
+textPasBagBarcodeScanFeature                "#![BeginSeg 1]Run: PAS Barcode Confirmation#![EndSeg 1]"                       0     0    0 0x0001     10     2   280     25  10    1  approved
+textPIRPreferred                            "#![BeginSeg 1]Pred: Enhanced PIR#![EndSeg 1]"                                   0     0    0 0x0001     10     2   280     25  10    1  approved
+textTriplePpcFlag                           "#![BeginSeg 1]Post: PPC/PAS WBC Message#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 textTier1ConcentrationLimit                 "#![BeginSeg 1]Tier 1 Concentration Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 textTier2ConcentrationLimit                 "#![BeginSeg 1]Tier 2 Concentration Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
-textLRDrawFlowLimit                 "#![BeginSeg 1]LR draw flow limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textLRDrawFlowLimit                         "#![BeginSeg 1]LR Draw Flow Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
+textDRBCNoPlasma                            "#![BeginSeg 1]Pred: DRBC No Plasma#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 
 textSoftOptInvalidKeyUser                   "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"                                       255 247  57 0x0111     0     0   640     0  18    1  approved
 textSoftOptInvalidKeySerial                 "#![BeginSeg 1]Invalid serial number#![EndSeg 1]"                                   255 247  57 0x0111     0     0   640     0  18    1  approved
