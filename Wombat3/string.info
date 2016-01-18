@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xdbf81074"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x83faf1a2"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1103,7 +1103,7 @@ textButtonLabelCfgLeftMachTime                                                  
 textButtonLabelCfgLeftMachDate                                                    "#![BeginSeg 1]Date#![EndSeg 1]"                                                                                                                   255 247  57 0x0111    40   165   100    70  14    1  approved
 textButtonLabelCfgLeftDonMaxDrawFlow                                           "#![BeginSeg 1]Maximum draw flow#![EndSeg 1]"                                                                                                      255 247  57 0x0111   350   105   100    70  14    1  approved
 textButtonLabelCfgLeftDonPostCrit                                     "#![BeginSeg 1]Minimum donor post hematocrit (%)#![EndSeg 1]"                                                                                      255 247  57 0x0111    50   185   100    70  14    1  approved
-textMiscSplashProductDescription                                  "#![BeginSeg 1]Automated blood collection system#![EndSeg 1]"                                                                                        0   0   0 0x0100   100   325   540    30  16    1  approved
+textMiscSplashProductDescription                                  "#![BeginSeg 1]Automated blood collection system#![EndSeg 1]"                                                                                        0   0   0 0x0010   0   288   640    30  16    1  approved
 textButtonLabelCfgLeftProcCustomRatio                                   "#![BeginSeg 1]Inlet/AC ratio#![EndSeg 1]"                                                                                                         255 247  57 0x0111   350   100   150    70  14    1  approved
 textCfgScreenLabelVolLim                                       "#![BeginSeg 1]Donor volume limits#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved
 textButtonCfgMainVolLim                              "#![BeginSeg 1]Donor volume\nlimits#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   190     55  18    1  approved
@@ -1227,7 +1227,7 @@ textProdVerifLeukMsgPltLeukoreduced                                       "#![Be
 textEmptyFormatRs2DatPasVol                                      ""                                                                                                                       255 255 255 0x0121   370   218    60    23  14    0  approved
 textDataUnitsRs2PasVol                                     "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   218   110    23  14    1  approved
 textMiscInstructionAasRemoveTubingSet                                              "#![BeginSeg 2]Remove the tubing set#![EndSeg 2]"                                                                                                   255 247  57 0x0112   375   105   260    42  18    1  approved
-textMiscSplashCopyright                                         "#![BeginSeg 1] \x00a9 Terumo BCT, Inc. #![EndSeg 1]"                                                                                       0   0   0 0x0101   312   446   540    10  12    1  approved
+textMiscSplashCopyright                                         "#![BeginSeg 1]Version 7.0 \x00a9 Terumo BCT, Inc. #![EndSeg 1]"                                                                                       0   0   0 0x0011   0   446   640    10  12    1  approved
 textListboxItemCfgTimeFmt24                                      "#![BeginSeg 1]hh:mm#![EndSeg 1]"                                                                                                                  255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgTimeFmt12                                      "#![BeginSeg 1]hh:mm\na.m./p.m.#![EndSeg 1]"                                                                                                           255 247  57 0x0111     0     0   640     0  14    1  approved
 textMiscInstructionDispCloseClamps                                        "#![BeginSeg 1]Close the white clamps on the donor line and sample bag line#![EndSeg 1]"                                                                                255 247  57 0x0111    15   125   610     0  18    1  approved
@@ -1711,7 +1711,7 @@ textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325   
 #
 # ##  note: the enums below have to be right at the first column or the parse will skip them (very annoying)
 #########################################################################################################################################################################
-textMiscTrimaVersionClinicalTestBuild                                           "#![BeginSeg 1]Version 7.0#![EndSeg 1]"                                                                                                              0   0   0 0x0102      233   446    70  12    0  approved
+textMiscTrimaVersionClinicalTestBuild                                           ""                                                                                                              0   0   0 0x0011   0  420  640   20  12    0  approved
 
 ############  AMAP PLT SPECIFIC STRINGS:
 TEXT_CFG_PLT_AMAP_MIN_YIELD_COL_LBL    "#![BeginSeg 1]Min Yield\n(x 10   )#![EndSeg 1]"               255 247  57 0x0112    90   65   120    60  12    0  approved
