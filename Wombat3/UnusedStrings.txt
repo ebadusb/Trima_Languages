@@ -1,0 +1,38 @@
+The ff strings were removed from the string info
+These are the strings that do not have any reference in GU2
+
+--------Removed on 2/15/2016-----------
+textMiscPredTimeLabel                      "#![BeginSeg 1]Duration#![EndSeg 1]"   255 255 255 0x0111   510   240   100    20  18    1  approved
+textAlarmBodyNoGraphicFirstCycleSoon                  "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the upper level reservoir sensor before expected. #![EndSeg 2]#![BeginSeg 3]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 3]#![BeginSeg 4]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor\n\n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicTooManyDrawCycleErrors                           "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Too many reservoir draw cycle errors occured during the run.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor#![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicGenericRepeatProblemA2                           "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 2]#![BeginSeg 3]- Disconnect the donor\n#![EndSeg 2]#![BeginSeg 3]- Power off the system and then power it back on\n\n#![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on. #![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicFirstReturnLong                           "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the low-level sensor before expected. #![EndSeg 2]#![BeginSeg 3]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 3]#![BeginSeg 4]- Unload and discard the tubing set\n\n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicReturnLong                          "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]The first return cycle took longer than expected.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor[EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
+
+textAlarmBodyNoGraphicDisconnectTestFailx3BloodDivClamp                                   "#![BeginSeg 1]The system cannot verify that the donor is disconnected.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed completely\n#![EndSeg 3]#![BeginSeg 4]- The AC bag is sealed and detached\n#![EndSeg 4]#![BeginSeg 5]- The donor is disconnected\n\n#![EndSeg 5]#![BeginSeg 6]Touch 'Continue' to proceed.#![EndSeg 6]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicDisconnectTestFailx3MSSBloodDivClamp                                "#![BeginSeg 1]The system cannot verify that the donor is disconnected.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed completely\n#![EndSeg 3]#![BeginSeg 4]- The donor is disconnected\n\n#![EndSeg 4]#![BeginSeg 5]Touch 'Continue' to proceed.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyWithGraphicAcLevel00NoFrangible                                    "#![BeginSeg 1]AC was not detected.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n\n#![EndSeg 2]#![BeginSeg 3]1.  AC line is loaded\n\n#![EndSeg 3]#![BeginSeg 4]2.  AC bag is connected correctly\n\n#![EndSeg 4]#![BeginSeg 5]3.  AC bag is not empty#![EndSeg 5]" 0   0   0 0x0100    15   120   227    300  18  1  approved
+
+textAlarmBodyWithGraphicAcLevel02NoFrangible                                       "#![BeginSeg 1]2.  AC bag is connected correctly\n\n#![EndSeg 1]#![BeginSeg 2]- Verify AC bag is connected correctly\n#![EndSeg 2]#![BeginSeg 3]- Ensure drip chamber is primed#![EndSeg 3]"                                              0   0   0 0x0100    15   120   227    300  18  1  approved
+
+textAlarmBodyWithGraphicDisconnectTest01BloodDivClamp                         "#![BeginSeg 1]1.  Clamp is closed\n\n#![EndSeg 1]#![BeginSeg 2]- Verify that the blood diversion clamp is closed completely#![EndSeg 2]"                                                         0   0   0 0x0100    15   120   227    300  18  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailure00OneClamp                             "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly and there are no obstructions#![EndSeg 6]" 0   0   0 0x0100    15   120   227    300  16  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailure01OneClamp                          "#![BeginSeg 1]Verify that the blood diversion clamp is closed completely.#![EndSeg 1]"                                                         0   0   0 0x0100    15   120   227    300  18  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailure01AisOneClamp                      "#![BeginSeg 1]If air is in the sample bag express the air.\n\n#![EndSeg 1]" 0   0   0 0x0100    15   120   227    300  18  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailureCrossoverOneClamp   "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly and there are no obstructions\n#![EndSeg 9]#![BeginSeg 7]- The REF selected matches tubing set loaded\n#![EndSeg 7]#![BeginSeg 8]- The clamp on the crossover line is open#![EndSeg 8]" 0   0   0 0x0100    15   120   227    300  14  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailureCassetteOneClamp          "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly\n#![EndSeg 6]#![BeginSeg 7]- There are no obstructions behind the cassette or cassette tray\n#![EndSeg 7]#![BeginSeg 8]- The REF selected matches tubing set loaded#![EndSeg 8]" 0   0   0 0x0100    15   120   227    300  14  1  unapproved
+
+
+
+
