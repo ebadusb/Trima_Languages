@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x71cf7bba"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x2509e6c3"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -705,7 +705,7 @@ textEmptyFormatRbcAc                                 ""                         
 textDataUnitsRs2PltYield                              "#![BeginSeg 1]x 10#![EndSeg 1]"                                                                                                                   255 255 255 0x0101   436   158   110    23  14    0  approved
 textDataUnitsRs2PltYieldExp                                        "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   466   154   110    23   8    0  approved
 textCfgColLabelCfgPltYieldExponent                                      "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 247  57 0x0100   158   150    10    15   8    0  approved
-textMiscInstructionSealDetachProd                                        "#![BeginSeg 1]Seal and detach lines#![EndSeg 1]"                                                                255 247  57 0x0112   115   105     210     55   18    1  approved
+textMiscInstructionSealDetachProd                                        "#![BeginSeg 1]Seal and detach lines#![EndSeg 1]"                                                                255 247  57 0x0112   217   105     210     55   18    1  unapproved
 textMiscInstructionRemoveTubingSet                                        "#![BeginSeg 2]Remove the tubing set#![EndSeg 2]"                                                                                                   255 247  57 0x0112   325   105     210     55   18    1  approved
 textMiscDisconnAcBag                                      "#![BeginSeg 1]AC#![EndSeg 1]"                                                                                                   57 24  132  0x0111   307   181     26     13   10    1  approved
 textMiscAcConnBag1                                        "#![BeginSeg 1]AC#![EndSeg 1]"                                                                                                   57 24  132  0x0111    85   155     110     100   18    1  approved
