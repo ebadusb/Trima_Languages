@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x8dca0254"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x75e374d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -54,6 +54,7 @@ textProdVerifReasonAasPrimeError                                  "#![BeginSeg 1
 textProdVerifReasonChannelClampError                              "#![BeginSeg 1]Channel line clamp error#![EndSeg 1]"                                                                                                    255 255 255 0x0101    54   146   182    14  12    1  approved
 textProdVerifReasonPcoDeviates                          "#![BeginSeg 1]Plasma Carryover Out Of Range#![EndSeg 1]"                                                                                                    255 255 255 0x0101    54   146   182    14  12    1 unapproved 
 textProdVerifReasonPasStartTimeDelay                          "#![BeginSeg 1]Solution addition start time delay#![EndSeg 1]"                                                                                                    255 255 255 0x0101    54   146   182    14  12    1 unapproved 
+textProdVerifReasonSolutionAbortedByOperator                  "#![BeginSeg 1]Automated solution addition ended early#![EndSeg 1]"                                                                                                    255 255 255 0x0101    54   146   182    14  12    1 unapproved 
 textButtonLabelCfgTopRepFluidTotCollThreshold                                   "#![BeginSeg 1]Replacement threshold (mL)#![EndSeg 1]"                                                                                             255 247  57 0x0111     175    120  125    40  14    1  approved
 textButtonLabelCfgLeftAutoProcRasBagVol                                      "#![BeginSeg 1]Volume (mL) of the RBC additive solution bag#![EndSeg 1]"                                                                               255 247  57 0x0111  365   210   150    70  14    1  approved
 textButtonLabelCfgLeftAutoProcRasToggle                                            "#![BeginSeg 1]Leukoreduction\nand\nsolution addition#![EndSeg 1]"                                                                                 255 247  57 0x0111  365   135   150    70  14    1  approved
