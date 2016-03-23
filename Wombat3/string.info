@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x897f72af"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xe313f519"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1667,6 +1667,16 @@ textPltConfigSolutionVol3           ""       255  255  0      0x0110   565   314
 textProcPriorityLabel1           "1"       255  255  0      0x0100   22   205    59    35  14     1  approved
 textProcPriorityLabel2           "2"       255  255  0      0x0100   22   265    59    35  14     1  approved
 textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325    59    35  14     1  approved
+
+textStatConfigDeviceNetwork                           "#![BeginSeg 1]Device Network#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
+
+textLabelCfgDeviceIpAddress      "#![BeginSeg 1]IP address#![EndSeg 1]"                                                    255 255  255 0x0121    210  164   150     20  14    1  unapproved
+textLabelCfgDeviceSubnetMask     "#![BeginSeg 1]Subnet mask#![EndSeg 1]"                                                   255 255  255 0x0121    210  232   150     20  14    1  unapproved
+textLabelCfgDeviceGateway        "#![BeginSeg 1]Default gateway#![EndSeg 1]"                                               255 255  255 0x0121    210  300   150     20  14    1  unapproved
+
+textLabelCfgDeviceDhcp           "#![BeginSeg 1]DHCP#![EndSeg 1]"                                                    255 255  255 0x0121    60   156   60     20  14    1  unapproved
+textLabelCfgDeviceDhcpOf         "#![BeginSeg 1]Off#![EndSeg 1]"                                                    255 255  255 0x0101    176   156   60     20  14    1  unapproved
+textLabelCfgDeviceDhcpOn         "#![BeginSeg 1]On#![EndSeg 1]"                                                    255 255  255 0x0101    176   200   60     20  14    1  unapproved
 
 #########################################################################################################################################################################
 ##################################################### English only Strings ##############################################################################################
