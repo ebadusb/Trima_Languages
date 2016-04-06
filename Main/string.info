@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x3064e1f6"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xcdc79860"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1700,13 +1700,13 @@ textButtonCfgAppServers          "#![BeginSeg 1]Terumo BCT\nServers#![EndSeg 1]"
 
 textStatNetworkInvalidEntry      "#![BeginSeg 1]Invalid entry#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  unapproved
 
-textProgBarLoadBarcode           "#!{dataItem1}"                             255 247  57 0x0101    50    20     0     0  12    1  unapproved
-textProgBarDonorInfoBarcode      "#!{dataItem1}"                             255 247  57 0x0101   110    20     0     0  12    1  unapproved
-textProgBarDonorPrepBarcode      "#!{dataItem1}"                             255 247  57 0x0101   181    20     0     0  12    1  unapproved
-textProgBarDonateBarcode         "#!{dataItem1}"                             255 247  57 0x0101   247    20     0     0  12    1  unapproved
-textProgBarUnloadBarcode         "#!{dataItem1}"                             255 247  57 0x0101   388    20     0     0  12    1  unapproved
-textProgBarNoAdditionUnloadBarcode "#!{dataItem1}"                           255 247  57 0x0101   352    20     0     0  12    1  unapproved
-textProgBarAdditionBarcode        "#!{dataItem1}"                            255 247  57 0x0101   316    20     0     0  12    1  unapproved
+textProgBarLoadBarcode           ""                             255 247  57 0x0101    67    15     0     0  14    1  unapproved
+textProgBarDonorInfoBarcode      ""                             255 247  57 0x0101   129    15     0     0  14    1  unapproved
+textProgBarDonorPrepBarcode      ""                             255 247  57 0x0101   181    15     0     0  14    1  unapproved
+textProgBarDonateBarcode         ""                             255 247  57 0x0101   273    15     0     0  14    1  unapproved
+textProgBarUnloadBarcode         ""                             255 247  57 0x0101   414    15     0     0  14    1  unapproved
+textProgBarNoAdditionUnloadBarcode ""                           255 247  57 0x0101   383    15     0     0  14    1  unapproved
+textProgBarAdditionBarcode        ""                            255 247  57 0x0101   354    15     0     0  14    1  unapproved
 
 #########################################################################################################################################################################
 ##################################################### English only Strings ##############################################################################################
