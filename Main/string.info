@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x465655fb"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb67b3668"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -312,18 +312,18 @@ textDataLabelPredConfAcRequired	      "#![BeginSeg 1]AC volume required#![EndSeg
 textDataLabelPredConfDuration	      "#![BeginSeg 1]Duration#![EndSeg 1]"         	255 247  57 0x0101 20  195 200 24 14  1  approved
 textDataLabelPredConfTbvProcessed	   "#![BeginSeg 1]Blood volume processed#![EndSeg 1]"	255 247  57 0x0101 20  217 200 24 14  1  approved
 textDataLabelPredConfPostPlt	   "#![BeginSeg 1]Post platelet count#![EndSeg 1]"	255 247  57 0x0101 20  239 200 24 14  1  approved
-textEmptyFormatPredConfirmPltVolData	   ""         	255 247  57 0x0121 270  63  30 24 14  0  approved
-textEmptyFormatPredConfirmPltYieldData	   ""         	255 247  57 0x0121 270  85  30 24 14  0  approved
-textEmptyFormatPredConfirmRbcVolData	   ""         	255 247  57 0x0121 270 107  30 24 14  0  approved
-textEmptyFormatPredConfirmPlasVolData	   ""         	255 247  57 0x0121 270 129  30 24 14  0  approved
-textEmptyFormatPredConfirmFlowData	      ""         	255 247  57 0x0121 270 151  30 24 14  0  approved
-textEmptyFormatPredConfirmAcData	      ""         	255 247  57 0x0121 270 173  30 24 14  0  approved
-textEmptyFormatPredConfirmTimeData	      ""         	255 247  57 0x0121 270 195  30 24 14  0  approved
-textEmptyFormatPredConfirmTbvProcessedData	   ""         	255 247  57 0x0121 270 217  30 24 14  0  approved
-textEmptyFormatPredConfPostPlt	              ""         	255 247  57 0x0121 270 239  30 24 14  0  approved
+textEmptyFormatPredConfirmPltVolDataUnit	   "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"         	255 247  57 0x0101 260  63  120 24 14  0  approved
+textEmptyFormatPredConfirmPltYieldDataUnit	"#![BeginSeg 1]#!{dataItem} X 10 #![EndSeg 1]"         	255 247  57 0x0101 260  85  120 24 14  0  approved
+textEmptyFormatPredConfirmRbcVolDataUnit	   "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"         	255 247  57 0x0101 260 107  120 24 14  0  approved
+textEmptyFormatPredConfirmPlasVolDataUnit	   "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"         	255 247  57 0x0101 260 129  120 24 14  0  approved
+textEmptyFormatPredConfirmFlowDataUnit	      "#![BeginSeg 1]#!{dataItem} mL/min #![EndSeg 1]"         	255 247  57 0x0101 260 151  120 24 14  0  approved
+textEmptyFormatPredConfirmAcDataUnit	      "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"         	255 247  57 0x0101 260 173  120 24 14  0  approved
+textEmptyFormatPredConfirmTimeDataUnit	      "#![BeginSeg 1]#!{dataItem} min #![EndSeg 1]"         	255 247  57 0x0101 260 195  120 24 14  0  approved
+textEmptyFormatPredConfirmTbvProcessedDataUnit	   "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"         	255 247  57 0x0101 260 217  120 24 14  0  approved
+textEmptyFormatPredConfPostPltDataUnit	      "#![BeginSeg 1]#!{dataItem} X 1000/uL #![EndSeg 1]"         	255 247  57 0x0101 260 239  120 24 14  0  approved
 textDataUnitsPredConfPltVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304  63  60 24 14  1  approved
 textDataUnitsPredConfPltYieldX10	   "#![BeginSeg 1]x 10#![EndSeg 1]"         	255 247  57 0x0101 304  85  60 24 14  0  approved
-textDataUnitsPredConfPltYieldExp	   "#![BeginSeg 1]11#![EndSeg 1]"         	255 247  57 0x0101 335  81  60 24 10  0  approved
+textDataUnitsPredConfPltYieldExp	   "#![BeginSeg 1]11#![EndSeg 1]"         	255 247  57 0x0101 320  81  60 24 9  0  approved
 textDataUnitsPredConfRbcVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 107  60 24 14  1  approved
 textDataUnitsPredConfPlasVol	   "#![BeginSeg 1]mL#![EndSeg 1]"         	255 247  57 0x0101 304 129  60 24 14  1  approved
 textDataUnitsPredConfFlow	      "#![BeginSeg 1]mL/min#![EndSeg 1]"      	255 247  57 0x0101 304 151  60 24 14  1  approved
