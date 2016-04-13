@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x146182f2"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xbc79bbba"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -806,6 +806,7 @@ textButtonKeyboardW                                                  "#![BeginSe
 textButtonKeyboardX                                                  "#![BeginSeg 1]X#![EndSeg 1]"                                                                                                                      255 247  57 0x0111     0     0   640     0  18    0  approved
 textButtonKeyboardY                                                  "#![BeginSeg 1]Y#![EndSeg 1]"                                                                                                                      255 247  57 0x0111     0     0   640     0  18    0  approved
 textButtonKeyboardZ                                                  "#![BeginSeg 1]Z#![EndSeg 1]"                                                                                                                      255 247  57 0x0111     0     0   640     0  18    0  approved
+textButtonKeyboardPT                                                  "#![BeginSeg 1].#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  18    0  unapproved
 textButtonKeyboardCLR                                                "#![BeginSeg 1]C#![EndSeg 1]"                                                                                                                      255 0    0  0x0111     0     0   640     0  18    0  approved
 
 textButtonKeypadBloodTypeAbPos                                             "#![BeginSeg 1]AB+#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  18    0  approved
