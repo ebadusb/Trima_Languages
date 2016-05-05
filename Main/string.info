@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xd22d0f7d"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x2c3eaf78"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -162,8 +162,8 @@ textMiscPtfMountDontConnectAc                               "#![BeginSeg 1]DO NO
 textStatPasEmpty                                   "#![BeginSeg 1]Replace the PAS bag#![EndSeg 1]"                                                                                 255 247  57 0x0101    0   0   182    14  18    1  approved
 textMiscPasEmpty                                        "#![BeginSeg 1]The PAS bag is almost empty.\n\n#![EndSeg 1]#![BeginSeg 2]1.  Connect a new bag\n#![EndSeg 2]#![BeginSeg 3]2.  Break the bag frangible\n#![EndSeg 3]#![BeginSeg 4]3.  Verify that the clamp on the PAS line is open\n\n#![EndSeg 4]#![BeginSeg 5]Touch 'Continue.'#![EndSeg 2]"                            0   0   0 0x0100    15   120   304   300  18    1  approved
 textDataLabelPasVolRemaining                               "#![BeginSeg 1]PAS remaining to be added:#![EndSeg 1]"                                                                               0   0   0 0x0000    15   370   303    60  16    1  unapproved
-textEmptyFormatPasEmptyData                            ""                                                                                                                                                                 0   0   0 0x0122    15   350   60    60  16    0  unapproved
-textDataUnitsPasVolRemaining                             "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     0   0   0 0x0102   80   350   152    60  16    1  unapproved
+textEmptyFormatPasEmptyData                            ""                                                                                                                                                                 0   0   0 0x0122    15   350   35    60  16    0  unapproved
+textDataUnitsPasVolRemaining                             "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     0   0   0 0x0102   55   350   152    60  16    1  unapproved
 textListboxItemCfgOn                                                      "#![BeginSeg 1]On#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgOff                                                     "#![BeginSeg 1]Off#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textCfgColLabelCfgPltPasVol                                         "#![BeginSeg 1]Solution\nvolume\n(mL)#![EndSeg 1]"                                                                                                 255 247  57 0x0112   555   105    85    60  12    1  approved
@@ -443,11 +443,11 @@ textMiscInstructionDispBreakAcLuer                       "#![BeginSeg 1]2: #![En
 textMiscInstructionDispSqueezeAcLuer                     "#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Squeeze#![EndSeg 2]"                                                                                   255 247  57 0x0110   308   108   170     40  18  1  approved
 textMiscInstructionDispLoadAcLuer                        "#![BeginSeg 1]4: #![EndSeg 1]#![BeginSeg 2]Load#![EndSeg 2]"                                                                                      255 247  57 0x0110   455   108   170     40  18  1  approved
 textButtonLongBeginDonorPrep                                               "#![BeginSeg 1]Prepare donor#![EndSeg 1]"                                                                                                       255 247  57 0x0111     0     0   640     0  18    1  approved
-textButtonAbortReturnToPrev                     "#![BeginSeg 1]Return to\nprevious\nscreen#![EndSeg 1]"                                                                                            255 247  57 0x0111     1     1   142    93  18    1  approved
-textButtonAbortProcExit                                  "#![BeginSeg 1]End run#![EndSeg 1]"                                                                                                                255 247  57 0x0111     5     5   142    93  18    1  approved
-textButtonAbortRinsebackExit                             "#![BeginSeg 1]Rinseback#![EndSeg 1]"                                                                                                               74  74  74 0x0111     5     5   142    93  18    1  approved
-textButtonAbortSpilloverExit                             "#![BeginSeg 1]Spillover\nrecovery#![EndSeg 1]"                                                                                                    255 247  57 0x0111     5     5   142    93  18    1  approved
-textButtonAbortAirInPlasmaLineExit                         "#![BeginSeg 1]Air block recovery#![EndSeg 1]"                                                                                                   255 247  57 0x0111     5     5   142    93  18    1  approved
+textButtonAbortReturnToPrev                     "#![BeginSeg 1]Return to\nprevious\nscreen#![EndSeg 1]"                                                                                            255 247  57 0x0111     0     0   142    93  18    1  approved
+textButtonAbortProcExit                                  "#![BeginSeg 1]End run#![EndSeg 1]"                                                                                                                255 247  57 0x0111     0     0   142    93  18    1  approved
+textButtonAbortRinsebackExit                             "#![BeginSeg 1]Rinseback#![EndSeg 1]"                                                                                                               74  74  74 0x0111     0     0   142    93  18    1  approved
+textButtonAbortSpilloverExit                             "#![BeginSeg 1]Spillover\nrecovery#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   142    93  18    1  approved
+textButtonAbortAirInPlasmaLineExit                         "#![BeginSeg 1]Air block recovery#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   142    93  18    1  approved
 textButtonAbortAasExit                            "#![BeginSeg 1]End\nsolution\naddition#![EndSeg 1]"                                                                                    255 247  57 0x0111     5     5   142    93  18    1  approved
 textButtonAbortRasExit                               "#![BeginSeg 1]End RBC\nsolution\naddition#![EndSeg 1]"                                                                                            255 247  57 0x0111     5     5   142    93  18    1  approved
 textButtonAbortPasExit                               "#![BeginSeg 1]End platelet\nsolution\naddition#![EndSeg 1]"                                                                                       255 247  57 0x0111     5     5   142    93  18    1  approved
@@ -1220,7 +1220,7 @@ textMiscCfrActionAdvisory                                            "#![BeginSe
 textMiscCfrActionVolumeConfirm                                       "#![BeginSeg 1]Volume to be added confirmed#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionRinsebackInitiated                                  "#![BeginSeg 1]Rinseback initiated#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionCollectionEnded                                     "#![BeginSeg 1]Collection ended#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
-textMiscCfrActionSolutionAborted                                     "#![BeginSeg 1]Solution addition aborted#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  unapproved
+textMiscCfrActionSolutionAborted                                     "#![BeginSeg 1]Solution addition aborted#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionProductBagsSealed                                   "#![BeginSeg 1]Product bags sealed#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionTubingSetUnloaded                                   "#![BeginSeg 1]Tubing set unloaded#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionEORSummaryReviewed                                  "#![BeginSeg 1]Procedure summary reviewed#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
@@ -1736,13 +1736,13 @@ textButtonCfgAppServers          "#![BeginSeg 1]Terumo BCT\nServers#![EndSeg 1]"
 textStatNetworkInvalidEntry      "#![BeginSeg 1]Invalid entry#![EndSeg 1]"                                              255 247 57 0x0111     0     0   640     0  18    1  unapproved
 textStatNetworkInvalidAddress    "#![BeginSeg 1]Valid value is between #!{dataItem1} and #!{dataItem2}#![EndSeg 1]"     255 247 57 0x0111     0     0   640     0  18    1  unapproved
 
-textProgBarLoadBarcode           ""                             255 247  57 0x0101    70    10     0     0  14    1  unapproved
-textProgBarDonorInfoBarcode      ""                             255 247  57 0x0101   130    10     0     0  14    1  unapproved
-textProgBarDonorPrepBarcode      ""                             255 247  57 0x0101   184    10     0     0  14    1  unapproved
-textProgBarDonateBarcode         ""                             255 247  57 0x0101   273    10     0     0  14    1  unapproved
-textProgBarUnloadBarcode         ""                             255 247  57 0x0101   417    10     0     0  14    1  unapproved
-textProgBarNoAdditionUnloadBarcode ""                           255 247  57 0x0101   383    10     0     0  14    1  unapproved
-textProgBarAdditionBarcode        ""                            255 247  57 0x0101   356    10     0     0  14    1  unapproved
+textProgBarLoadBarcode           ""                             255 247  57 0x0101    70    10     0     0  14    1  approved
+textProgBarDonorInfoBarcode      ""                             255 247  57 0x0101   130    10     0     0  14    1  approved
+textProgBarDonorPrepBarcode      ""                             255 247  57 0x0101   184    10     0     0  14    1  approved
+textProgBarDonateBarcode         ""                             255 247  57 0x0101   273    10     0     0  14    1  approved
+textProgBarUnloadBarcode         ""                             255 247  57 0x0101   417    10     0     0  14    1  approved
+textProgBarNoAdditionUnloadBarcode ""                           255 247  57 0x0101   383    10     0     0  14    1  approved
+textProgBarAdditionBarcode        ""                            255 247  57 0x0101   356    10     0     0  14    1  approved
 
 textStatOperatorIDBarcodeAccepted   "#![BeginSeg 1]Barcode accepted#![EndSeg 1]"   255 255 255 0x0111     0     0   640     0  18    1  approved
 textStatTubingSetBarcodeAccepted   "#![BeginSeg 1]Barcode accepted#![EndSeg 1]"   255 255 255 0x0111     0     0   640     0  18    1  approved
