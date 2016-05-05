@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x2c3eaf78"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xc8a2acc5"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1668,6 +1668,8 @@ textTier1ConcentrationLimit                 "#![BeginSeg 1]Tier 1 Concentration 
 textLRDrawFlowLimit                         "#![BeginSeg 1]LR Draw Flow Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 textAdjustDrawTickMarks                     "#![BeginSeg 1]Run: Increment Display#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 textVistaEnabled                            "#![BeginSeg 1]Vista enabled#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textNoNeedleLineClamp                       "#![BeginSeg 1]Tubing set: No needle line clamp#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textJapanPASGraphics                       "#![BeginSeg 1]Japan PAS Graphics#![EndSeg 1]"                                     0     0    0 0x0001     10     2   280     25  10    1  unapproved
 
 textSoftOptInvalidKeyUser                   "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"                                       255 247  57 0x0111     0     0   640     0  18    1  approved
 textSoftOptInvalidKeySerial                 "#![BeginSeg 1]Invalid serial number#![EndSeg 1]"                                   255 247  57 0x0111     0     0   640     0  18    1  approved
@@ -1924,7 +1926,7 @@ textEmptyFormatExtraAlarmLabel           ""									57 24  132  0x0111   307   1
 textMiscAcBagLvlAlrm00                   "#![BeginSeg 1]AC#![EndSeg 1]"		57 24  132  0x0111   318   141     87     41   26    1  approved
 textMiscAcBagLvlAlrm01                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   141    137     90   32    1  approved
 textMiscAcBagLvlAlrm03                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   304   170    122    150   32    1  approved
-textMiscAcBagOcclusion                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   330   191     52     29   20    1  approved
+textMiscAcBagOcclusion                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   322   81     52     29   20    1  approved
 textMiscAcBagDisconnectTestAlert03       "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   20    1  approved
 textMiscAcBagClosureFailed               "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   20    1  approved
 textMiscAcBagNotRemoved                  "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   295   165     50     50   20    1  approved
