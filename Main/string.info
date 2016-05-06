@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x826ff0c"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x52ec1d29"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1636,6 +1636,7 @@ textEmptyFormatSimScreenshotInfo                                 ""             
 
 textStatAlarmCollectValveOpenTooLong                   "#![BeginSeg 1]Collect Valve Open Too Long#![EndSeg 1]"                                                                                                       0   0   0 0x0101    0   0   182    14  18    1  approved
 textAlarmBodyNoGraphicCollectValveOpenTooLong          "#![BeginSeg 1]The collect valve has been open for too long. #![EndSeg 1]#![BeginSeg 2]Close the clamp to the platelet product. #![EndSeg 2]#![BeginSeg 3]Record the alarm number and status line text. #![EndSeg 3]#![BeginSeg 4]End the run. #![EndSeg 4]#![BeginSeg 5]Disconnect the donor.#![EndSeg 5]"                              0   0   0 0x0100    15   120   455    300  18  1  approved
+textDonorBMIOutOfRange          "#![BeginSeg 1]The donor height and\n weight combination is\n outside of typical range \n\n#![EndSeg 1]#![BeginSeg 2]  Verify donor information #![EndSeg 2]"                              255 247  57 0x0110    62   50   220    200  16  1  unapproved
 	
 ################################################################################################
 ##### Feature strings
