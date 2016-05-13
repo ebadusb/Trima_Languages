@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x4bd82003"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x8ef1a86d"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -231,7 +231,10 @@ textMiscCfgPasVolInit                                     "#![BeginSeg 1]--#![En
 textEmptyFormatCfgPltPasPercent                                 ""                                                                                                                      255 247  57 0x0111     0     0    50    20  14    0  approved
 textEmptyFormatCfgPltCollectConc                                 ""                                                                                                                      255 247  57 0x0111     0     0    50    20  14    0  approved
 textCfgColLabelCfgPltCollectConc                                        "#![BeginSeg 1]Collect\nconcentration\n(x 10  /µL)#![EndSeg 1]"                                                                                     255 247  57 0x0112   452   105   120    60  12    1  approved
+textMiscTlrFilterClamp                                    "#![BeginSeg 1]Close the clamps on the RBC filter lines#![EndSeg 2]"                                                         255 247  57 0x0111    50   180   300    50  18    1  unapproved
+textMiscTlrFilterHang                                     "#![BeginSeg 2]Hang the organizer#![EndSeg 2]"                                                                               255 247  57 0x0111    50   230   300    50  18    1  unapproved
 textMiscClampPasLine                                      "#![BeginSeg 1]Close the clamp on the PAS line#![EndSeg 1]"                                                                  255 247  57 0x0111    15   125   610     0  18    1  approved
+textMiscClampPltFilter                                    "#![BeginSeg 1]Close the white clamp on the platelet filter line#![EndSeg 1]"                                                                                   255 247  57 0x0111    15   125   610     0  18    1  unapproved
 textMiscClampSampleBag                                "#![BeginSeg 1]Close the clamp on the sample bag line#![EndSeg 1]"                                                                            255 247  57 0x0111    15   125   610     0  18    1  approved
 textMiscDonConnNoDiversion                            "#![BeginSeg 1]1: #![EndSeg 1]#![BeginSeg 2]Connect#![EndSeg 2]"                                                                                                             255 247  57 0x0111    56   144   184     0  18  1  approved
 textProdVerifLeukLabelPlt                                         "#![BeginSeg 1]Platelet product verification#![EndSeg 1]"                                                                                          255 255 255 0x0101    16   187     0    23  18    1  approved
