@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xc4a6a8fd"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb675dff4"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1440,6 +1440,7 @@ textStatAlarmCalDetectorFailure                           "#![BeginSeg 1]RBC det
 textStatAlarmRefStampMismatch                            "#![BeginSeg 1]Tubing set type error#![EndSeg 1]"                                                                                          165   8   0 0x0111    0   0   182    14  18  1  approved
 textStatAlarmSafetyNotResponding                         "#![BeginSeg 1]Startup failure#![EndSeg 1]"                                                                                                        165   8   0 0x0101     0     0     0     0  18    1  approved
 textStatAlarmSpilloverDetected                                 "#![BeginSeg 1]RBC spillover#![EndSeg 1]"                                                                                                          165   8   0 0x0101    0   0   182    14  18    1  approved
+textStatAlarmRBCDetected                                 "#![BeginSeg 1]RBC Detected#![EndSeg 1]"                                                                                                          165   8   0 0x0101    0   0   182    14  18    1  unapproved
 textStatAlarmStopButton                                  "#![BeginSeg 1]Centrifuge stopped#![EndSeg 1]"                                                                                                     165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarm10MinPauseFailure                             "#![BeginSeg 1]Ten minute pause#![EndSeg 1]"                                                                                                       165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarm10MinPause                             "#![BeginSeg 1]Ten minute pause#![EndSeg 1]"                                                                                                       165   8   0 0x0101    0   0   182    14  18    1  approved
