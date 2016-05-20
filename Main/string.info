@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x52c00d1f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x9cbfdf06"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1836,6 +1836,8 @@ TEXT_PROD_NAME_AMAP_PLT3        "#![BeginSeg 1]Triple#![EndSeg 1]"         255 2
 TEXT_PREDICT_AMAPP_PRED_PLT_LABEL         "#![BeginSeg 1]Platelets#![EndSeg 1]"      255 255 255 0x0101    35   227   124    20  18    0  approved
 TEXT_PREDICT_AMAPP_PRED_PLS_LABEL           "#![BeginSeg 1]Plasma#![EndSeg 1]"      255 255 255 0x0111   245   227   105    20  18    0  approved
 TEXT_PREDICT_AMAPP_PRED_RBC_LABEL          "#![BeginSeg 1]RBC#![EndSeg 1]"           255 255 255 0x0111   425  227   100    20  18    0  approved
+
+textButtonPredFlowRateUnit                 "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"               255 247 57 0x0021     0     0   110     32  12    1  unapproved
 
 textMiscPredPltLabel                       "#![BeginSeg 1]Platelets#![EndSeg 1]"  255 255 255 0x0101    35   240   124    20  18    1  approved
 textMiscPredPlasLabel                      "#![BeginSeg 1]Plasma#![EndSeg 1]"     255 255 255 0x0111   225   240   105    20  18    1  approved
