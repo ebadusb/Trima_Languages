@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x1d9c6a38"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x7d8297ed"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -312,7 +312,7 @@ textButtonPredConfCancel                               "#![BeginSeg 1]Cancel#![E
 textMiscPredConfMsg	      "#![BeginSeg 1]Confirm the selected procedure#![EndSeg 1]"					255 255 255 0x0111  2   7   396 40  18  1  approved
 textMiscPredConfDataLabel                   "#![BeginSeg 1]Estimated procedure data#![EndSeg 1]"	255 255 255 0x0111  2   53  396 24  16  1  approved
 textDataLabelPredConfPltVol	   "#![BeginSeg 1]Platelet collect volume#![EndSeg 1]"   				255 255 255 0x0101  20  75  200 24  14  1  unapproved
-textDataLabelPredConfPasVol	   "#![BeginSeg 1]Pas volume#![EndSeg 1]"   									255 255 255 0x0101  20  97  200 24  14  1  unapproved
+textDataLabelPredConfPasVol	   "#![BeginSeg 1]PAS volume#![EndSeg 1]"   									255 255 255 0x0101  20  97  200 24  14  1  unapproved
 textDataLabelPredConfPltTotalVol	   "#![BeginSeg 1]Total platelet product volume#![EndSeg 1]"   	255 255 255 0x0101  20  119 240 24  14  1  unapproved
 textDataLabelPredConfPltYield	   "#![BeginSeg 1]Platelet yield#![EndSeg 1]"   							255 255 255 0x0101  20  141 200 24  14  1  unapproved
 textDataLabelPredConfPlasVol	   "#![BeginSeg 1]Plasma collect volume#![EndSeg 1]"      				255 255 255 0x0101  20  163 200 24  14  1  unapproved
