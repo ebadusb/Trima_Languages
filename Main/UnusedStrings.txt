@@ -39,5 +39,11 @@ textMiscOfflineInstructionsSrbcAbovePas    "#![BeginSeg 1]- The solution additio
 textEmptyFormatNewPredProdRbcInit                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                       255 255 255 0x0120   180   10    150    19  14    0  unapproved
 textCnfPlateletProdBtnLabel                 ""                                                 255 255 255 0x0111    0    0    44    19  18    1  unapproved
 
+textConfirmBodyRestart                                          "#![BeginSeg 1]Confirm restart for the next procedure#![EndSeg 1]"                                                                                 255 247  57 0x0111    12    12   250    86  18    1  approved
+textStatAlarmLevelSensorError                    "#![BeginSeg 1]Low-level sensor error#![EndSeg 1]"                                                                                                 165   8   0 0x0101    0   0   182    14  18    1  approved
+textStatAlarmCpsHighRbcCollect        "#![BeginSeg 1]Centrifuge pressure high#![EndSeg 1]"                                                                                               255 247  57 0x0111     0     0   100     0  18    1  approved
+textStatAlarmBagEvacFailure               "#![BeginSeg 1]Air removal failure#![EndSeg 1]"                                                                                              255 255 255 0x0111     0     0   640     0  18  1  approved
+textStatAlarmCpsHighAasP2Ok                                   "#![BeginSeg 1]Centrifuge pressure error#![EndSeg 1]"                                                                                              255 247  57 0x0101    0   0   182    14  18    1  approved
+textLRDrawFlowLimit                         "#![BeginSeg 1]LR Draw Flow Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 
 
