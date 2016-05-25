@@ -36,6 +36,8 @@ textAlarmBodyWithGraphicPressurizeInletFailureCassetteOneClamp          "#![Begi
 
 removed 5/25/2016
 textMiscOfflineInstructionsSrbcAbovePas    "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal the RBC product line between the filter and the product bag\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  unapproved
+textEmptyFormatNewPredProdRbcInit                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                       255 255 255 0x0120   180   10    150    19  14    0  unapproved
+textCnfPlateletProdBtnLabel                 ""                                                 255 255 255 0x0111    0    0    44    19  18    1  unapproved
 
 
 
