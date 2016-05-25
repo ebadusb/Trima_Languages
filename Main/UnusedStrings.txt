@@ -34,5 +34,8 @@ textAlarmBodyWithGraphicPressurizeInletFailureCrossoverOneClamp   "#![BeginSeg 1
 textAlarmBodyWithGraphicPressurizeInletFailureCassetteOneClamp          "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly\n#![EndSeg 6]#![BeginSeg 7]- There are no obstructions behind the cassette or cassette tray\n#![EndSeg 7]#![BeginSeg 8]- The REF selected matches tubing set loaded#![EndSeg 8]" 0   0   0 0x0100    15   120   227    300  14  1  unapproved
 
 
+removed 5/25/2016
+textMiscOfflineInstructionsSrbcAbovePas    "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal the RBC product line between the filter and the product bag\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  unapproved
+
 
 
