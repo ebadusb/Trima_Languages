@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xa92a844c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xabf746fe"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1988,6 +1988,7 @@ textButtonAlarmEndRinseback      "#![BeginSeg 1]End Rinseback#![EndSeg 1]"    25
 textButtonTimerStart             "#![BeginSeg 1]Start#![EndSeg 1]"    255 247  57 0x0111     0     0   90     32  14    1  unapproved
 textButtonTimerStop              "#![BeginSeg 1]Close#![EndSeg 1]"    255 247  57 0x0111      0     0   90     32  14    1  unapproved
 textButtonTimerReset             "#![BeginSeg 1]Reset#![EndSeg 1]"    255 247  57 0x0111      0     0   90     32  14    1  unapproved
+textButtonTimerOK                "#![BeginSeg 1]Ok#![EndSeg 1]"    255 247  57 0x0111      0     0   90     32  14    1  unapproved
 
 textTitlePopupTimer              "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"  255 247 57 0x0111     0     0   400     32  18    1  unapproved
 textPopupTimerTime               "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"  255 255 255 0x0111     9   26   367     120  36    1  unapproved
