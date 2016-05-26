@@ -46,4 +46,20 @@ textStatAlarmBagEvacFailure               "#![BeginSeg 1]Air removal failure#![E
 textStatAlarmCpsHighAasP2Ok                                   "#![BeginSeg 1]Centrifuge pressure error#![EndSeg 1]"                                                                                              255 247  57 0x0101    0   0   182    14  18    1  approved
 textLRDrawFlowLimit                         "#![BeginSeg 1]LR Draw Flow Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 
+----------removed 5/26/16
+textLabelRsRbc2ProdJP               "#![BeginSeg 1]RBC product 2#![EndSeg 1]"                         255 255 255 0x0101 330 260 200 35  16    1  approved
+textDataLabelRsRbc2VoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 288 175 35  14    1  approved
+textDataUnitsRsRbc2VolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                            255 255 255 0x0101 576 288 175 35  14    0  approved
+textEmptyFormatRsDatRbc2VolJP           ""                                                                255 255 255 0x0121 522 288 50  35  14    1  approved
+
+# Screen 2, Right Side, Row 5: "Volume of AC in RBC"
+textDataLabelRsRbc2AcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 328 175 35  14    1  approved
+textDataUnitsRsRbc2AcJP             "#![BeginSeg 1]mL#![EndSeg 1]"                            255 255 255 0x0101 576 328 175 35  14    0  approved
+textEmptyFormatRsRbc2AcJP               ""                                                                255 255 255 0x0121 522 328 50  35  14    1  approved
+
+# Screen 2, Right Side, Row 6: "Volume of additive solution"
+textDataLabelRsRas2VolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 368 175 35  14    1  approved
+textDataUnitsRsRas2VolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                            255 255 255 0x0101 576 368 175 35  14    0  approved
+textEmptyFormatRsDatRas2VolJP           ""                                                                255 255 255 0x0121 522 368 50  35  14    1  approved
+
 

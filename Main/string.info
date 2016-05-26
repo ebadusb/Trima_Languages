@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x32dcf261"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x9a0f7ecb"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -649,7 +649,6 @@ textEmptyFormatRsDatSalineUsedJP       ""                                       
 # Screen 2, Right Side, RBC product label: "RBC product"
 textLabelRsRbcProdJP                   "#![BeginSeg 1]RBC product#![EndSeg 1]"                           255 255 255 0x0101 330 110 200 35  16    1  approved
 textLabelRsRbc1ProdJP               "#![BeginSeg 1]RBC product 1#![EndSeg 1]"                         255 255 255 0x0101 330 110 200 35  16    1  approved
-textLabelRsRbc2ProdJP               "#![BeginSeg 1]RBC product 2#![EndSeg 1]"                         255 255 255 0x0101 330 260 200 35  16    1  approved
 
 # Screen 2, Right Side, Row 1: "Total volume of product"
 textDataLabelRsRbcVoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 138 175 35  14    1  approved
@@ -665,23 +664,6 @@ textEmptyFormatRsRbcAcJP               ""                                       
 textDataLabelRsRasVolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 218 175 35  14    1  approved
 textDataUnitsRsRasVolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 218 175 35  14    0  approved
 textEmptyFormatRsDatRasVolJP           ""                                                                255 255 255 0x0121 522 218 50  35  14    1  approved
-
-# Screen 2, Right Side, Row 4: "Total volume of product"
-textDataLabelRsRbc2VoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 288 175 35  14    1  approved
-textDataUnitsRsRbc2VolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 288 175 35  14    0  approved
-textEmptyFormatRsDatRbc2VolJP           ""                                                                255 255 255 0x0121 522 288 50  35  14    1  approved
-
-# Screen 2, Right Side, Row 5: "Volume of AC in RBC"
-textDataLabelRsRbc2AcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 328 175 35  14    1  approved
-textDataUnitsRsRbc2AcJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 328 175 35  14    0  approved
-textEmptyFormatRsRbc2AcJP               ""                                                                255 255 255 0x0121 522 328 50  35  14    1  approved
-
-# Screen 2, Right Side, Row 6: "Volume of additive solution"
-textDataLabelRsRas2VolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 368 175 35  14    1  approved
-textDataUnitsRsRas2VolJP				   "#![BeginSeg 1]mL#![EndSeg 1]"									 255 255 255 0x0101 576 368 175 35  14    0  approved
-textEmptyFormatRsDatRas2VolJP           ""                                                                255 255 255 0x0121 522 368 50  35  14    1  approved
-
-
 
 
 
