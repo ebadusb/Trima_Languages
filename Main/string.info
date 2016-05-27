@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x35efcc25"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x51a9d31e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1990,7 +1990,36 @@ textCfgPltAmapTripleRowBtn       "#![BeginSeg 1]Range 3#![EndSeg 1]"          25
 textCfgPltAmapTriplePasRowBtn    "#![BeginSeg 1]Range 3#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  unapproved
 textCfgPltAmapCollectInOneBagOn  "#![BeginSeg 1]On#![EndSeg 1]"               255 247  57  0x0111     0     0    59    36  14    1  unapproved
 textCfgPltAmapCollectInOneBagOff "#![BeginSeg 1]Off#![EndSeg 1]"              255 247  57  0x0111     0     0    59    36  14    1  unapproved
-textCfgPltAmapNumericDataEmpty    "#![BeginSeg 1]--#![EndSeg 1]"               255 247  57  0x0111     0     0    59    36  14    1  unapproved
+textCfgPltAmapNumericDataEmpty    "#![BeginSeg 1]--#![EndSeg 1]"               255 247  57  0x0111     0     0    59    36  14    0  unapproved
+
+textCfgPltAmapNumericDataFormat   ""                255 247  57  0x0111     0     0    59    36  14    0  unapproved
+
+textCfgPltAmapPlsPctFormat1        "35"               255 247  57  0x0111     392    124    59    36  14    0  unapproved
+textCfgPltAmapPlsPctFormat2        "45"               255 247  57  0x0111     392    210    59    36  14    0  unapproved
+textCfgPltAmapPlsPctFormat3        "55"               255 247  57  0x0111     392    294    59    36  14    0  unapproved
+
+textCfgPltAmapMinYldPasFormat1        "3.0"               255 247  57  0x0111     120    167    59    36  14    0  unapproved
+textCfgPltAmapMinYldPasFormat2        "5.5"               255 247  57  0x0111     120    252    59    36  14    0  unapproved
+textCfgPltAmapMinYldPasFormat3        "9.3"               255 247  57  0x0111     120    336    59    36  14    0  unapproved
+
+textCfgPltAmapMaxYldPasFormat1        "5.4"               255 247  57  0x0111     210    167    59    36  14    0  unapproved
+textCfgPltAmapMaxYldPasFormat2        "9.2"               255 247  57  0x0111     210    252    59    36  14    0  unapproved
+textCfgPltAmapMaxYldPasFormat3        "11.2"              255 247  57  0x0111     210    336    59    36  14    0  unapproved
+
+textCfgPltAmapColConFormat1        "- -"               255 247  57  0x0111     483    124    59    36  14    0  unapproved
+textCfgPltAmapColConPasFormat1     "4000"              255 247  57  0x0111     483    167    59    36  14    0  unapproved
+textCfgPltAmapColConFormat2        "- -"               255 247  57  0x0111     483    210    59    36  14    0  unapproved
+textCfgPltAmapColConPasFormat2     "4000"              255 247  57  0x0111     483    252    59    36  14    0  unapproved
+textCfgPltAmapColConFormat3        "- -"               255 247  57  0x0111     483    294    59    36  14    0  unapproved
+textCfgPltAmapColConPasFormat3     "4000"              255 247  57  0x0111     483    336    59    36  14    0  unapproved
+
+textCfgPltAmapSolRangeFormat1        "- -"               255 247  57  0x0111     570    124    59    36  14    0  unapproved
+textCfgPltAmapSolRangePasFormat1     "140 - 251"         255 247  57  0x0111     570    167    59    36  14    0  unapproved
+textCfgPltAmapSolRangeFormat2        "- -"               255 247  57  0x0111     570    210    59    36  14    0  unapproved
+textCfgPltAmapSolRangePasFormat2     "256 - 428"         255 247  57  0x0111     570    252    59    36  14    0  unapproved
+textCfgPltAmapSolRangeFormat3        "- -"               255 247  57  0x0111     570    294    59    36  14    0  unapproved
+textCfgPltAmapSolRangePasFormat3     "432 - 520"         255 247  57  0x0111     570    336    59    36  14    0  unapproved
+
 
 #############################
 STRING_FILE_TABLE_END
