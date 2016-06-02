@@ -63,3 +63,10 @@ textDataUnitsRsRas2VolJP               "#![BeginSeg 1]mL#![EndSeg 1]"           
 textEmptyFormatRsDatRas2VolJP           ""                                                                255 255 255 0x0121 522 368 50  35  14    1  approved
 
 
+-------6/2/16
+textFormatNewPredRbcLabel                           "#![BeginSeg 1]RBC#![EndSeg 1]"                                                                                                 255 247  57  0x0100   352    133    640    0  14    1  unapproved
+textEmptyFormatPredCurrRbcInitAltColor                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      222 222 222 0x0121   321   265    100    23  18    1  approved
+textDataUnitsMl                            "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"                                                                                                                    255 255 255 0x0111     0     0   640     0  24    1  approved
+textKeypadUnitsFlow                               "#![BeginSeg 1]mL/min#![EndSeg 1]"                                                                                                         0   0   0 0x0121  0   0   0  0 16  1  approved
+
+
