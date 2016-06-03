@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x27ecc13d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x2b53c9db"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -955,7 +955,7 @@ textListboxItemCfgAdjNoPlatelets                                    "#![BeginSeg
 textListboxItemCfgAdjNoPlama                                       "#![BeginSeg 1]No plasma#![EndSeg 1]"                                                                                                              255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgAdjNoRbcs                                         "#![BeginSeg 1]No RBC#![EndSeg 1]"                                                                                                                255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgAdjPossible                                        "#![BeginSeg 1]As much as possible#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   100     0  14    1  approved
-textCfgColLabelCfgPrioDefaultSelection                              "#![BeginSeg 1]Default\nSelection#![EndSeg 1]"                                                                                                     255 247  57 0x0111    174  43     100     48  14    1  unapproved
+textCfgColLabelCfgPrioDefaultSelection                              "#![BeginSeg 1]Default\nselection#![EndSeg 1]"                                                                                                     255 247  57 0x0111    174  43     100     48  14    1  unapproved
 textCfgColLabelCfgPrioPlt                                           "#![BeginSeg 1]Platelets#![EndSeg 1]"                                                                                                              255 247  57 0x0111    55   160     100     0  14    1  approved
 textCfgColLabelCfgPrioPltAmap                                       "#![BeginSeg 1]Platelets\n(x10  )#![EndSeg 1]"                                                                                                    255 247  57 0x0111    55   145     100     0  14    1  unapproved
 textCfgColLabelCfgPrioPltAmapExp                                    "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 247  57 0x0111    114   160     10     15  8    1  unapproved
@@ -1964,17 +1964,17 @@ textBodyPopupTimer               "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"  255 
 textPopupTimerTime               "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"  255 255 255 0x0111     9   26   367     120  36    1  unapproved
 
 
-textCftPrdRangeColLbl            "#![BeginSeg 1]Product\nRange#![EndSeg 1]"					        255 247  57 0x0112    10   65   120    60  12    1  unapproved
-textCftPltMinYieldColLbl         "#![BeginSeg 1]Min Yield\n(x 10   )#![EndSeg 1]"					255 247  57 0x0112    90    65   120    60  12    1  unapproved
+textCftPrdRangeColLbl            "#![BeginSeg 1]Product\nRange#![EndSeg 1]"					        255 247  57 0x0112    20   65   80    60  12    1  unapproved
+textCftPltMinYieldColLbl         "#![BeginSeg 1]Min yield\n (x10  )#![EndSeg 1]"					255 247  57 0x0112    90    65   120    60  12    1  unapproved
 textCftPltAmapMinYieldExpColLbl  "#![BeginSeg 1]11#![EndSeg 1]"										255 247  57 0x0100   156   110    10    15   8    1  unapproved
-textCftPltAmapMaxYieldColLbl     "#![BeginSeg 1]Max Yield\n(x 10   )#![EndSeg 1]"					255 247  57 0x0112   180    65   120    60  12    1  unapproved
+textCftPltAmapMaxYieldColLbl     "#![BeginSeg 1]Max yield\n (x10   )#![EndSeg 1]"					255 247  57 0x0112   180    65   120    60  12    1  unapproved
 textCfgPltAmapMaxYieldExpColLbl  "#![BeginSeg 1]11#![EndSeg 1]"										255 247  57 0x0100   246   110    10    15   8    1  unpproved
 textCftPltAmapFinalConcExpColLbl "#![BeginSeg 1]3#![EndSeg 1]"										255 247  57 0x0100   330   110    10    15   8    1  unapproved
 textCfgPltAmapConcExpColLbl      "#![BeginSeg 1]3#![EndSeg 1]"										255 247  57 0x0100   510   110    10    15   8    1  unapproved
-textCfgPltAmapFinalConcColLbl    "#![BeginSeg 1]Final\nconcentration\n(x 10 /µL)#![EndSeg 1]"       255 247  57 0x0112   270   65    120    60  12    1  unapproved
+textCfgPltAmapFinalConcColLbl    "#![BeginSeg 1]Final\nconcentration\n (x10 /µL)#![EndSeg 1]"       255 247  57 0x0112   270   65    120    60  12    1  unapproved
 textCfgPltAmapPpcoColLbl         "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                            255 247  57 0x0112   360   65     120    60  12   1  unapproved
-textCfgPltAmapConcColLbl         "#![BeginSeg 1]Collect\nConcentration\n(x 10 /µL)#![EndSeg 1]"     255 247  57 0x0112   450   65     120    60  12   1  unapproved
-textCfgPltAmapSsRangeColLbl      "#![BeginSeg 1]Solution Volume\nRange\n(mL)#![EndSeg 1]"           255 247  57 0x0112   555   65     85    60  12    1  unapproved
+textCfgPltAmapConcColLbl         "#![BeginSeg 1]Collect\nconcentration\n (x10 /µL)#![EndSeg 1]"     255 247  57 0x0112   450   65     120    60  12   1  unapproved
+textCfgPltAmapSsRangeColLbl      "#![BeginSeg 1]Solution volume\nrange\n(mL)#![EndSeg 1]"           255 247  57 0x0112   555   65     85    60  12    1  unapproved
 textCfgPltAmapSingleRowBtn       "#![BeginSeg 1]RNG 1#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  unapproved
 textCfgPltAmapSinglePasRowBtn    "#![BeginSeg 1]RNG 1#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  unapproved
 textCfgPltAmapDoubleRowBtn       "#![BeginSeg 1]RNG 2#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  unapproved
@@ -2015,20 +2015,27 @@ textCfgPltAmapSolRangeFormat2        "- -"               255 247  57  0x0111    
 textCfgPltAmapSolRangePasFormat2     "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2} #![EndSeg 1]"         255 247  57  0x0111     570    252    59    36  14    0  unapproved
 textCfgPltAmapSolRangeFormat3        "- -"               255 247  57  0x0111     570    294    59    36  14    0  unapproved
 textCfgPltAmapSolRangePasFormat3     "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2} #![EndSeg 1]"         255 247  57  0x0111     570    336    59    36  14    0  unapproved
-textCfgPltAmapProductNumberFormat    "#![BeginSeg 1]PLT #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     9    23    150    36  14    1  unapproved
+textCfgPltAmapProductNumberFormat    "#![BeginSeg 1]RNG #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     9    23    150    36  14    1  unapproved
 textCfgPltAmapMinNumberFormat    "#![BeginSeg 1]Minimum = #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     216    23    150    36  14    1  unapproved
 textCfgPltAmapMaxNumberFormat    "#![BeginSeg 1]Maximum = #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     418    23    150    36  14    1  unapproved
 
 textProdNameAmapPlt1             "#![BeginSeg 1]RNG 1#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
-textProdNameAmapPlt2			 "#![BeginSeg 1]RNG 2#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapPlt3			 "#![BeginSeg 1]RNG 2#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapPlt2			 "#![BeginSeg 1]RNG 2#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
+textProdNameAmapPlt3			 "#![BeginSeg 1]RNG 3#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
 
-textPredictProdNameAmapPlt   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textPredictProdNameAmapNoPlt   	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textPredictProdNameAmapPls   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textPredictProdNameAmapNoPls   	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textPredictProdNameAmapRbc   	 "#![BeginSeg 1]Rbc#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textPredictProdNameAmapNoRbc   	 "#![BeginSeg 1]No Rbc#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textCfgProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"		255 247  57 0x0111     27    0    73   48  14    1  unapproved
+textCfgProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"   255 247  57 0x0111     0     0    100   48  14    1  unapproved
+textCfgProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
+textCfgProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"      255 247  57 0x0111     0     0    100   48  14    1  unapproved
+textCfgProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
+textCfgProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
+
+textProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 
 textAmapFormatPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                     255 247  57 0x0101   128   263    16    12  10    0  unapproved
 textAmapEmptyFormatPredCurrPltInit                   "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                     255 247  57 0x0121    0   265    125    23  18    1  unapproved
@@ -2036,12 +2043,12 @@ textAmapEmptyFormatPredCurrPltVolInit                "#![BeginSeg 1]#!{dataItem1
 textAmapEmptyFormatPredCurrPlasInit                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    255 247  57 0x0121   166   265    150    23  18    1  approved
 textAmapACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   204   284    100    35  14     1  approved
 textAmapEmptyFormatPredCurrRbcInit                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      255 247  57 0x0121   321   265    100    23  18    1  approved
-textAmapFormatPredCurrTimeUnit                       "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                      255 247  57 0x0101   520   270  150    23  16    1  unapproved
+textAmapFormatPredCurrTimeUnit                       "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                      255 247  57 0x0101   520   267  150    23  16    1  unapproved
 textAmapButtonPredFlowRateUnit                       "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"                  255 247 57 0x0021     0     0   110     32  12    1  unapproved
 textAmapButtonPredTimeUnit                           "#![BeginSeg 1]#!{dataItem1} min #![EndSeg 1]"                     255 247 57 0x0021     0     0   110     32  12    1  unapproved
 textAmapPredictCompPlsNotice                         "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"    255 247 57 0x0111    165   280   200    35  14  1  unapproved
 
-textProdNameAmapPltRngFormat    "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2}#![EndSeg 1]"           255 247  57 0x0121     32   33     0    0   10     0  unapproved
+textProdNameAmapPltRngFormat    "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2}#![EndSeg 1]"           255 247  57 0x0111     0   31     100    48   10     0  unapproved
 
 textGenericDataFomat     "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"         255 247  57  0x0111     0    0    60    36  14    0  unapproved
 
