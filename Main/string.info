@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x2b53c9db"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xd495c2e0"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -2023,18 +2023,22 @@ textProdNameAmapPlt1             "#![BeginSeg 1]RNG 1#![EndSeg 1]"         255 2
 textProdNameAmapPlt2			 "#![BeginSeg 1]RNG 2#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
 textProdNameAmapPlt3			 "#![BeginSeg 1]RNG 3#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
 
-textCfgProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"		255 247  57 0x0111     27    0    73   48  14    1  unapproved
+textCfgProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"		255 247  57 0x0111     0     0    0    48  14    1  unapproved
+textCfgProdNameAmapPltPasSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"	255 247  57 0x0111     27    0    73   48  14    1  unapproved
 textCfgProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"   255 247  57 0x0111     0     0    100   48  14    1  unapproved
 textCfgProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
 textCfgProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"      255 247  57 0x0111     0     0    100   48  14    1  unapproved
 textCfgProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
+textCfgProdNameAmapRbcRasSelection	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
 textCfgProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
 
 textProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapPltPasSelection	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapRbcRasSelection  "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 
 textAmapFormatPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                     255 247  57 0x0101   128   263    16    12  10    0  unapproved
@@ -2042,8 +2046,8 @@ textAmapEmptyFormatPredCurrPltInit                   "#![BeginSeg 1]#!{dataItem1
 textAmapEmptyFormatPredCurrPltVolInit                "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                       255 247  57 0x0121    0   290    100    23  14    0  unapproved
 textAmapEmptyFormatPredCurrPlasInit                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    255 247  57 0x0121   166   265    150    23  18    1  approved
 textAmapACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   204   284    100    35  14     1  approved
-textAmapEmptyFormatPredCurrRbcInit                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      255 247  57 0x0121   321   265    100    23  18    1  approved
-textAmapFormatPredCurrTimeUnit                       "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                      255 247  57 0x0101   520   267  150    23  16    1  unapproved
+textAmapEmptyFormatPredCurrRbcInit                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                       255 247  57 0x0121   351   265    100    23  18    1  approved
+textAmapFormatPredCurrTimeUnit                       "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                      255 247  57 0x0101   550   267  150    23  16    1  unapproved
 textAmapButtonPredFlowRateUnit                       "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"                  255 247 57 0x0021     0     0   110     32  12    1  unapproved
 textAmapButtonPredTimeUnit                           "#![BeginSeg 1]#!{dataItem1} min #![EndSeg 1]"                     255 247 57 0x0021     0     0   110     32  12    1  unapproved
 textAmapPredictCompPlsNotice                         "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"    255 247 57 0x0111    165   280   200    35  14  1  unapproved
