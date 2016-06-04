@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x70904860"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xd2b4bab8"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -292,13 +292,10 @@ textEmptyFormatPredNextTimeInitAlt                                 ""           
 textEmptyFormatPredNextTimeLabelInitAlt                           ""                                                                                                                       74  74  74 0x0101   546   338    44    19  14    0  approved
 textEmptyFormatPredPrevFlowRateWithAmappInit             ""                                                        		 74  74  74 0x0121   490   193    54    19  14    0  approved
 textEmptyFormatPredPrevFlowRateWithAmappLabelInit        ""                                                        		 74  74  74 0x0101   546   193    44    19  14    0  approved
-textFormatPredPrevFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   193    44    19  14    1  approved
 textEmptyFormatPredCurrFlowRateWithAmappInit             ""                                                       		 255 247 57 0x0121   480   265    54    23  18    0  approved
 textEmptyFormatPredCurrFlowRateWithAmappLabelInit        ""                                                       		 255 247 57 0x0101   536   265    44    23  18    0  approved
-textFormatPredCurrFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   255 247 57 0x0101   536   265    44    23  18    1  approved
 textEmptyFormatPredNextFlowRateWithAmappInit             ""                                                    			 74  74  74 0x0121   490   326    54    19  14    0  approved
 textEmptyFormatPredNextFlowRateWithAmappLabelInit        ""                                                    			 74  74  74 0x0101   546   326    44    19  14    0  approved
-textFormatPredNextFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   326    44    19  14    1  approved
 
 textButtonPredConfConfirm                              "#![BeginSeg 1]Confirm#![EndSeg 1]"         255 255 255 0x0111  0   0   640  0  18  1  approved
 textButtonPredConfCancel                               "#![BeginSeg 1]Cancel#![EndSeg 1]"          255 255 255 0x0111  0   0   640  0  18  1  approved

@@ -69,4 +69,8 @@ textEmptyFormatPredCurrRbcInitAltColor                                   "#![Beg
 textDataUnitsMl                            "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"                                                                                                                    255 255 255 0x0111     0     0   640     0  24    1  approved
 textKeypadUnitsFlow                               "#![BeginSeg 1]mL/min#![EndSeg 1]"                                                                                                         0   0   0 0x0121  0   0   0  0 16  1  approved
 
+---- 6/4/16
+textFormatPredPrevFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   193    44    19  14    1  approved
+textFormatPredCurrFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   255 247 57 0x0101   536   265    44    23  18    1  approved
+textFormatPredNextFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   326    44    19  14    1  approved
 
