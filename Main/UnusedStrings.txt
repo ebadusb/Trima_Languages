@@ -74,3 +74,7 @@ textFormatPredPrevFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndS
 textFormatPredCurrFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   255 247 57 0x0101   536   265    44    23  18    1  approved
 textFormatPredNextFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   326    44    19  14    1  approved
 
+----there are new ids for these
+textMiscRunProcStatusDraw                                    "#![BeginSeg 1]Draw#![EndSeg 1]"                                                                                                                   255 255 255 0x0111    60   209    94    24  24    1  approved
+textMiscRunProcStatusReturn                                  "#![BeginSeg 1]Return#![EndSeg 1]"                                                                                                                 255 255 255 0x0111    60   209    94    24  24    1  approved
+textMiscRunProcPressureLabel                                      "#![BeginSeg 1]Pressure#![EndSeg 1]"                                                                                                               239 239 239 0x0111    60   193    94    14  14    1  approved
