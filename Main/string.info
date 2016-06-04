@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x733e2ce3"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x70904860"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -2031,9 +2031,8 @@ textCfgProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"      2
 textCfgProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
 textCfgProdNameAmapRbcRasSelection	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
 textCfgProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
-
 textProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapPltPasSelection	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapPltPasSelection	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0011     10     0     100    48  14    1  unapproved
 textProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
 textProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
