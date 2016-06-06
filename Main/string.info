@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x3ab926fb"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x128971eb"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -256,11 +256,8 @@ textEmptyFormatPredPrevPltInit                                                  
 textEmptyFormatPredCurrPltExpInit                         ""                                                                                                                      255 247  57 0x0101   128   263    16    12  10    0  approved
 textEmptyFormatPredCurrPltX10Init                         ""                                                                                                                      255 247  57 0x0101    85   265    47    23  18    0  approved
 textFormatPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              255 247  57 0x0101   128   263    16    12  10    0  approved
-textFormatPredCurrPltExpAltColor                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              222 222 222 0x0101   128   263    16    12  10    0  approved
 textEmptyFormatPredCurrPltInit                                                            "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 255 247  57 0x0121    0   265    125    23  18    1  approved
-textEmptyFormatPredCurrPltInitAltColor                                                            "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 222 222 222  0x0121    0   265    125    23  18    1  approved
 textEmptyFormatPredCurrPltVolInit                                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      255 247  57 0x0121    0   290    100    23  14    0  approved
-textEmptyFormatPredCurrPltVolInitAltColor                                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      222 222 222 0x0121    0   290    100    23  14    0  approved
 textEmptyFormatPredNextPltExpInit                            ""                                                                                                                       74  74  74 0x0101   107   324    13    11   8    0  approved
 textEmptyFormatPredNextPltX10Init                            ""                                                                                                                       74  74  74 0x0101    75   326    41    19  14    0  approved
 textFormatPredNextPltExp                            "#![BeginSeg 1]11#![EndSeg 1]"                                                                                               74  74  74 0x0101   107   324    13    11   8    1  approved
@@ -269,7 +266,6 @@ textEmptyFormatPredPrevPlasLabelInit                           ""               
 textEmptyFormatPredPrevPlasInit                                                             "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                     74  74  74 0x0121   206   193    100    19  14    1  approved
 textEmptyFormatPredCurrPlasLabelInit                            ""                                                                                                                      255 247  57 0x0101   286   265    44    23  18    0  approved
 textEmptyFormatPredCurrPlasInit                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    255 247  57 0x0121   166   265    150    23  18    1  approved
-textEmptyFormatPredCurrPlasInitAltColor                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    222 222 222 0x0121   166   265    150    23  18    1  approved
 textEmptyFormatPredNextPlasLabelInit                               ""                                                                                                                       74  74  74 0x0101   286   326    44    19  14    0  approved
 textEmptyFormatPredNextPlasInit                                                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                       74  74  74 0x0121   206   326    100    19  14    1  approved
 textEmptyFormatPredPrevRbcLabelInit                            ""                                                                                                                       74  74  74 0x0101   391   193    39    19  14    0  approved
@@ -515,26 +511,17 @@ textListboxItemPcxNonePas                                         "#![BeginSeg 1
 
 textMiscNewPredNoProductAvailable                               "#![BeginSeg 1]No product available#![EndSeg 1]"                                                                                                   255 247  57 0x0111    22  228   532    46  18  1  approved
 textEmptyFormatNewPredCurrPltInit                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 255 247  57 0x0121    0   368    120    23  18    1  approved
-textEmptyFormatNewPredCurrPltInitAltColor                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 222 222 222 0x0121    0   368    120    23  18    1  approved
 textFormatNewPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              255 247  57 0x0101   123   366    16    12  10    0  approved
-textFormatNewPredCurrPltExpAltColor                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              222 222 222 0x0101   123   366    16    12  10    0  approved
 textEmptyFormatNewPredCurrPlasInit                                                              "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    255 247  57 0x0121   165   368    150    23  18    1  approved
-textEmptyFormatNewPredCurrPlasInitAltColor                                                              "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    222 222 222 0x0121   165   368    150    23  18    1  approved
 textNewPredACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   200   387    100    35  14     1  approved
-textNewPredACinPlasmaVolumeValueCurrAltColor                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       222 222 222       0x0121   200   387    100    35  14     1  approved
 textFormatNewPredCurrFlowRateUnit                          "#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"                                                                                                                   255 247  57 0x0101   515   384    150    23  16    1  approved
 textFormatNewPredCurrTimeUnit                           "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                                                                                                                            255 247  57 0x0101   530   367    150    23  16    1  approved
 TEXT_NEW_PREDICT_COMP_PLS_NOTICE                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           255 247  57      0x0111    165   280   200    35  14  0  unapproved
-TEXT_NEW_PREDICT_COMP_PLS_NOTICE_AltColor                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           222 222 22      0x0111    165   280   200    35  14  0  unapproved
 textEmptyFormatNewPredCurrPltVolInit                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      255 247  57 0x0121    0   393    100    23  14    0  approved
-textEmptyFormatNewPredCurrPltVolInitAltColor                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      222 222 222 0x0121    0   393    100    23  14    0  approved
 
 textEmptyFormatNewPredProdPltInit                                                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                   255 255 255 0x0120    473    10    120    19  14    1  approved
-textEmptyFormatNewPredProdPltInitAltColor                                                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                   181 181 189 0x0120    473    10    120    19  14    1  approved
 textFormatNewPredProdPltExp                        "#![BeginSeg 1]11#![EndSeg 1]"                                                                                               255 255 255 0x0100    80     7    13    11   8    0  approved
-textFormatNewPredProdPltExpAltColor                        "#![BeginSeg 1]11#![EndSeg 1]"                                                                                               181 181 189 0x0100    80     7    13    11   8    0  approved
 textEmptyFormatNewPredProdPlasInit                                 "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                     255 255 255 0x0120   277   10    100    19  14    1  approved
-textEmptyFormatNewPredProdPlasInitAltColor                                 "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                     181 181 189 0x0120   277   10    100    19  14    1  approved
 textFormatNewPredProdFlowRateUnit                         "#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"                                                               255 255 255 0x0100   466    17    150    19  14    1  approved
 textFormatNewPredProdTimeUnit                         "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                                                                       255 255 255 0x0100   481    5    150    19  14    1  approved
 
@@ -1648,7 +1635,6 @@ textSoftOptInvalidKeyCustomer               "#![BeginSeg 1]Invalid customer#![En
 textSoftOptInvalidKeyFormat                 "#![BeginSeg 1]Invalid key#![EndSeg 1]"                                             255 247  57 0x0111     0     0   640     0  18    1  approved
 
 textACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   204   284    100    35  14     1  approved
-textACinPlasmaVolumeValueCurrAltColor                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       222 222 222       0x0121   204   284    100    35  14     1  unapproved
 textACinPlasmaVolumeValueNext                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   335    100    35  11     1  approved
 textACinPlasmaVolumeValuePrev                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   200    100    35  11     1  approved
 textButtonLongRunSumm                  "#![BeginSeg 1]Summary#![EndSeg 1]"      0   0   0 0x0111     0     0   640     0  18    1  approved
@@ -1814,8 +1800,6 @@ TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL    "#![BeginSeg 1]More preferred procedures a
 TEXT_COMP_PLS_OOS_WARNING_TITLE              "#![BeginSeg 1]Replaced plasma volume Out of Range#![EndSeg 1]"     165   8   0  0x0110   22   2   255    55  16   0  approved
 TEXT_COMP_PLS_OOS_WARNING_BODY             "#![BeginSeg 1]The collected plasma product volume exceeds the volume replaced by PAS for this procedure. Verify donor eligibility for the plasma collection.#![EndSeg 1]"    255 247  57    0x0110    22   80    280    300  18    0  approved
 TEXT_PREDICT_COMP_PLS_NOTICE                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           255 247  57      0x0111    165   280   200    35  14  0  approved
-TEXT_PREDICT_COMP_PLS_NOTICE_AltColor                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           222 222 222      0x0111    165   280   200    35  14  0  unapproved
-
 TEXT_CFG_COMP_PLS_LABEL                              "#![BeginSeg 1]Plasma replaced\nby PAS#![EndSeg 1]"     255 217  57   0x0111     365   314   135   150  14    0  approved
 TEXT_CFG_COMP_PLS_LABEL_MAIN                    "#![BeginSeg 1]Plasma processes#![EndSeg 1]"                                           255 247  57   0x0111     350  294   275    35  18    0  approved
 
