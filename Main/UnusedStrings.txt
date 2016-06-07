@@ -96,3 +96,6 @@ textEmptyFormatNewPredProdPlasInitAltColor                                 "#![B
 textACinPlasmaVolumeValueCurrAltColor                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       222 222 222       0x0121   204   284    100    35  14     1  unapproved
 TEXT_PREDICT_COMP_PLS_NOTICE_AltColor                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           222 222 222      0x0111    165   280   200    35  14  0  unapproved
 
+//6/7/16
+textStatAlarmPreWatchdogAlarm                         "#![BeginSeg 1]Re-establishing processor communication...#![EndSeg 1]#![BeginSeg 2]please wait#![EndSeg 2]"                                                                                             165   8   0 0x0101    0   0   182    14  18    1  approved
+AutoFlowTextAlarmBodyTimeoutUnschedPurge                              "#![BeginSeg 1]The current procedure has been disqualified due to decreased draw flow.\n\n#![EndSeg 1]#![BeginSeg 2]If access issues are resolved, draw flow may be increased.\n\n#![EndSeg 2]"  0   0   0 0x0110    15   120   455    300  18  1  approved
