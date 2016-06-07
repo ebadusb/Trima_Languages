@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xb484d7f9"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x57d45156"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1657,10 +1657,10 @@ textProcPriorityLabel2           "2"       255  255  0      0x0100   22   265   
 textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325    59    35  14     1  approved
 
 
-textConfigControlledBox                                     "#![BeginSeg 1]Configuration is controlled by the managing app#![EndSeg 1]"                                                                     255 247  57 0x0110     0     20   640   0 18    1  unapproved
+textConfigControlledBox           "#![BeginSeg 1]Configuration is controlled \n by the managing app#![EndSeg 1]"                      255 247  57 0x0110    5   35   202 200   18    1  unapproved
+textConfigControlledBoxConfirm    "#![BeginSeg 1]Confirm to clear configuration received \n from the managing app#![EndSeg 1]"        255 247  57 0x0110   16   30   200 200   18    1  unapproved
 textButtonControlBoxClose                              "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textButtonControlBoxOverride                               "#![BeginSeg 1]Override#![EndSeg 1]"                                                                                      255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textConfigControlledBoxConfirm                                     "#![BeginSeg 1]Confirm to clear configuration received from the managing app#![EndSeg 1]"                                                                     255 247  57 0x0110     0     20   640   0 18    1  unapproved
 textButtonOverrideBoxClose                              "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textButtonOverrideBoxConfirm                               "#![BeginSeg 1]Confirm#![EndSeg 1]"                                                                                      255 247  57 0x0111     0     0   640     0  18    1  unapproved
 
