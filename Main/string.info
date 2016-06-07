@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x57d45156"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb484d7f9"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -105,6 +105,7 @@ textDataUnitsRs2Rbc2Ac                          "#![BeginSeg 1]mL#![EndSeg 1]"  
 textDataUnitsRs2Ras2Vol                                "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   398   110    23  14    1  approved
 textStatRbc1Runsum                           "#![BeginSeg 1]Verification for RBC product 1#![EndSeg 1]"                                                                                         255 255 255 0x0111     0     0   640     0  18    1  approved
 textStatRbc2Runsum                           "#![BeginSeg 1]Verification for RBC product 2#![EndSeg 1]"                                                                                         255 255 255 0x0111     0     0   640     0  18    1  approved
+textStatBarcodeRunsum                        "#![BeginSeg 1]Barcode review#![EndSeg 1]"                                                                                         255 255 255 0x0111     0     0   640     0  18    1 unapproved
 textProdVerifLeukLabelRbc1                                   "#![BeginSeg 1]RBC product 1 verification#![EndSeg 1]"                                                                                             255 255 255 0x0101    16   187     0    23  18    1  approved
 textProdVerifLeukLabelRbc2                                   "#![BeginSeg 1]RBC product 2 verification#![EndSeg 1]"                                                                                             255 255 255 0x0101    16   187     0    23  18    1  approved
 textProdVerifReasonHeaderRbcQuality                                      "#![BeginSeg 1]Product quality may have been compromised for the following reasons:#![EndSeg 1]"                                                 255 255 255 0x0101   345   218   270     0  12    1  approved
@@ -955,6 +956,13 @@ textMiscBloodTypeOPos                                    "#![BeginSeg 1]O+#![End
 textMiscBloodTypeONeg                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
 textListboxItemCfgBloodTypeOn                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    0  approved
 textEmptyFormatCfgNumericTextFormatNull                            ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatStatOperatorPrompt                        ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatAlarmOperatorPrompt                       ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatOperatorPromptButton1                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatOperatorPromptButton2                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatOperatorPromptButton3                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatOperatorPromptButton4                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
+textEmptyFormatOperatorPromptButton5                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
 textButtonLabelCfgLeftMachAudio                                                   "#![BeginSeg 1]Audible alert volume#![EndSeg 1]"                                                                                                   255 247  57 0x0111    40   360   100    70  14    1  approved
 textListboxItemCfgMachLow                                            "#![BeginSeg 1]Low#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgMachMed                                            "#![BeginSeg 1]Medium#![EndSeg 1]"                                                                                                                 255 247  57 0x0111     0     0   640     0  14    1  approved
@@ -1689,6 +1697,9 @@ textLabelCfgDeviceDhcpOff        "#![BeginSeg 1]Off#![EndSeg 1]"                
 textButtonCfgAppServerIpAddress     ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonCfgAppServerPortNumber    ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 
+textButtonCfgCadenceServerIpAddress     ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
+textButtonCfgCadenceServerPortNumber    ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
+
 textButtonLongConfigReturnToPrevious                                                  "#![BeginSeg 1]Return to previos screen#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved
 
 textStatConfigAppServers                           "#![BeginSeg 1]Application servers#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
@@ -1701,11 +1712,11 @@ textLabelCfgAppServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                  
 textLabelCfgAppServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                                    255 255  255 0x0101    176   200   60     20  14    1  approved
 
 textLabelCfgCadenceServer           "#![BeginSeg 1]Cadence Connection#![EndSeg 1]"                                                    255 255  255 0x0101    60   252   60     20  14    1  unapproved
-textLabelCfgCadenceServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                                                    255 255  255 0x0101    176   296   60     20  14    1  unapproved
-textLabelCfgCadenceServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                                    255 255  255 0x0101    176   340   60     20  14    1  unapproved
+textLabelCfgCadenceServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                                     255 255  255 0x0101    176  300   60     20  14    1  unapproved
+textLabelCfgCadenceServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                    255 255  255 0x0101    176  345   60     20  14    1  unapproved
 
 textLabelCfgCadenceServerIpAddress      "#![BeginSeg 1]Server or IP address#![EndSeg 1]"                                                    255 255  255 0x0121    210  304   150     20  14    1  unapproved
-textLabelCfgCadenceServerPortNumber     "#![BeginSeg 1]TCP port number#![EndSeg 1]"                                                   255 255  255 0x0121    210  372   150     20  14    1  unapproved
+textLabelCfgCadenceServerPortNumber     "#![BeginSeg 1]TCP port number#![EndSeg 1]"                    255 255  255 0x0121    210  345   150     20  14    1  unapproved
 
 textStatConfigNetwork            "#![BeginSeg 1]Network configuration#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
 textButtonCfgDeviceNetwork       "#![BeginSeg 1]Device network#![EndSeg 1]"          255 247  57 0x0111     5     5   190     55  18    1  approved
