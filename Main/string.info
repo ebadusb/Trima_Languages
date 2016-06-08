@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x7c11946f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x4478436e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -786,8 +786,8 @@ textEmptyFormatKeypadUsrEntry16Pt                                    ""         
 textEmptyFormatKeypadUsrEntry14Pt                                    ""                                                                                                                        0   0   0 0x0121     56     10     109     32  14    0  approved
 textKeypadUnitsFeetIn                             "#![BeginSeg 1]#!{dataItem1} ft #!{dataItem2} in#![EndSeg 1]"                                                                                        0   0   0 0x0121     56     10     109     32  18    1  unapproved
 textKeypadUnitsCm                                    "#![BeginSeg 1]#!{dataItem1} cm#![EndSeg 1]"                                                                                                           0   0   0 0x0121     56     10     109     32  18    1  unapproved
-textKeypadUnitsLbs                                    "#![BeginSeg 1]lbs#![EndSeg 1]"                                                                                                                      0   0   0 0x0121     0     0     0     0  18    1  approved
-textKeypadUnitsKg                                       "#![BeginSeg 1]kg#![EndSeg 1]"                                                                                                                       0   0   0 0x0121     0     0     0     0  18    1  approved
+textKeypadUnitsLbs                                    "#![BeginSeg 1]#!{dataItem1} lbs#![EndSeg 1]"                                                                                                                      0   0   0 0x0121     56     10     109     32  18    1  unapproved
+textKeypadUnitsKg                                       "#![BeginSeg 1]#!{dataItem1} kg#![EndSeg 1]"                                                                                                                      0   0   0 0x0121     56     10     109     32  18    1  unapproved
 textKeypadUnitsCrit                                   "#![BeginSeg 1]%#![EndSeg 1]"                                                                                                                        0   0   0 0x0121     0     0     0     0  18    0  approved
 textKeypadUnitsHemoglobin                                   "#![BeginSeg 1]g/dL#![EndSeg 1]"                                                                                                                        0   0   0 0x0121     0     0     0     0  18    1  approved
 textKeypadUnitsPltPrecount                            "#![BeginSeg 1]x1000#![EndSeg 1]"                                                                                                                    0   0   0 0x0121     0     0     0     0  18    0  approved
