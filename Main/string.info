@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x4478436e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xab778118"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -36,9 +36,9 @@ textEmptyFormatOfflineVolumeRow2                    ""                          
 textDataUnitsOfflineVolumeRow1                      "#![BeginSeg 1]mL#![EndSeg 1]"                                                                         		 255 255 255 0x0101   545   305    60    32  14    1  approved
 textDataUnitsOfflineVolumeRow2                      "#![BeginSeg 1]mL#![EndSeg 1]"                                                                         		 255 255 255 0x0101   545   338    60    32  14    1  approved
 textMiscOfflineInstructionsDrbcAbove                     "#![BeginSeg 1]- Seal both RBC lines between the filters and the RBC bags\n#![EndSeg 1]#![BeginSeg 2]- Remove air from the RBC bags#![EndSeg 2]"                                                                          239 239 239 0x0101   240   120   373   130  18    1  approved
-textMiscOfflineInstructionsDrbcBelow                     "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal both RBC product lines below the filter near the cassette\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  unapproved
+textMiscOfflineInstructionsDrbcBelow                     "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal both RBC product lines below the filter near the cassette\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  approved
 textMiscOfflineInstructionsSrbcAbove                     "#![BeginSeg 1]- Seal the RBC product line between the filter and the RBC bag\n#![EndSeg 1]#![BeginSeg 2]- Remove air from the RBC bag#![EndSeg 2]"                                                                            239 239 239 0x0101   240   120   373   130  18    1  approved
-textMiscOfflineInstructionsSrbcBelow                     "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal the RBC product line below the filter near the cassette\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  unapproved
+textMiscOfflineInstructionsSrbcBelow                     "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal the RBC product line below the filter near the cassette\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  approved
 textMiscOfflineInstructionsNoSealInstructions           "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Refer to the Operator's Manual for further instructions\n#![EndSeg 2]"          239 239 239 0x0101   240   120   373   130  18  1  approved
 textDataLabelAasRunsumm                                  "#![BeginSeg 1]Manual additive solution volume#![EndSeg 1]"                                                                                       239 239 239 0x0111   230   270   395    35  18    1  approved
 textEmptyFormatButtonCfgLang                                       ""                                                                                                                       255 247  57 0x0111     0     0     0     0  14    0  approved
@@ -468,7 +468,7 @@ textEmptyFormatRs1DatAvgInletFlowAlt                           ""               
 textEmptyFormatRs1DatAvgInletFlow                               ""                                                                                                                       255 255 255 0x0121   180   345    50    90  14    0  approved
 textDashesRs1AvgInletFlowAlt                           "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   185   302    123    90  14    0  approved
 textDashesRs1AvgInletFlow                              "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   185   345    123    90  14    0  approved
-textDashesRs1PltPostCount                              "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   180   216    130    90  14    0  unapproved
+textDashesRs1PltPostCount                              "#![BeginSeg 1]- -#![EndSeg 1]"                                                                                                                 255 255 255 0x0111   180   216    130    90  14    0  approved
 textDataUnitsRs1AcUsed                                         "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   130    55    90  14    1  approved
 textDataUnitsRs1TimeAm                                         "#![BeginSeg 1]am#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   173    55    90  14    1  approved
 textDataUnitsRs1TimePm                                         "#![BeginSeg 1]pm#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   253   173    55    90  14    1  approved
@@ -603,7 +603,7 @@ textEmptyFormatRsDatEndOfRunTimeJP24     ""                                     
 textDataLabelRsPltPostCountJP          "#![BeginSeg 1]Post platelet count#![EndSeg 1]"                   74  74  74 0x0101  10  178 175 35  14    1  approved
 textDataUnitsRsX1000JP				   "#![BeginSeg 1]x 1000/µL#![EndSeg 1]"							 255 255 255 0x0101 232 178 175 35  14    0  approved
 textEmptyFormatRsDatPostPltCountJP     ""                                                                255 255 255 0x0121 179 178 50  35  14    1  approved
-textDashesRsPltPostCountJP          "#![BeginSeg 1]- -#![EndSeg 1]"                                      255 255 255 0x0121 179 178 80 35  14    0  unapproved 
+textDashesRsPltPostCountJP          "#![BeginSeg 1]- -#![EndSeg 1]"                                      255 255 255 0x0121 179 178 80 35  14    0  approved 
 
 # Screen 2, Left Side, Row 3: "Post HCT"
 textDataLabelRsPostHctJP               "#![BeginSeg 1]Post HCT#![EndSeg 1]"                              74  74  74 0x0101  10  218 175 35  14    1  approved
@@ -935,7 +935,7 @@ textListboxItemCfgAdjPossible                                        "#![BeginSe
 textCfgColLabelCfgPrioDefaultSelection                              "#![BeginSeg 1]Default\nselection#![EndSeg 1]"                                                                                                     255 247  57 0x0111    174  43     100     48  14    1  approved
 textCfgColLabelCfgPrioPlt                                           "#![BeginSeg 1]Platelets#![EndSeg 1]"                                                                                                              255 247  57 0x0111    55   160     100     0  14    1  approved
 textCfgColLabelCfgPrioPltAmap                                       "#![BeginSeg 1]Platelets\n(x 10  )#![EndSeg 1]"                                                                                                    255 247  57 0x0111    55   145     100     0  14    1  unapproved
-textCfgColLabelCfgPrioPltAmapExp                                    "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 247  57 0x0111    117   160     10     15  8    1  unapproved
+textCfgColLabelCfgPrioPltAmapExp                                    "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 247  57 0x0111    116   160     10     15  8    1  unapproved
 textCfgColLabelCfgPrioPls                                           "#![BeginSeg 1]Plasma#![EndSeg 1]"                                                                                                                 255 247  57 0x0111   170   160     100     0  14    1  approved
 textCfgColLabelCfgPrioRbc                                             "#![BeginSeg 1]RBC#![EndSeg 1]"                                                                                                                    255 247  57 0x0111   285   160     100     0  14    1  approved
 textCfgColLabelCfgPrioBloodType                                    "#![BeginSeg 1]Type#![EndSeg 1]"                                                                                                                   255 247  57 0x0111   400   160   100     0  14    1  approved
@@ -1028,7 +1028,7 @@ textButtonLabelCfgTopRepFluidPercent                           "#![BeginSeg 1]Fl
 textStatAwaitingAp2Xmit                                       "#![BeginSeg 1]Waiting for transfer of donor information...#![EndSeg 1]"                                                                                 255 255 255 0x0111     0     0   640     0  18    1  approved
 textEmptyFormatCatButton                                            ""                                                                                                                      255 247  57 0x0102     7     7     90     69  18    0  approved
 textMiscBarcodeMoreCategoriesElipses                                         "#![BeginSeg 1]...#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  24    0  approved
-textButtonBarcodeMiscCustom                                    ""                                                                                                                    255 247  57 0x0111     10    10    84    63  24    0  unapproved
+textButtonBarcodeMiscCustom                                    ""                                                                                                                    255 247  57 0x0111     10    10    84    63  24    0  approved
 textButtonBarcodeMisc1                                         "#![BeginSeg 1]1#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     10    10    84    63  24    0  approved
 textButtonBarcodeMisc2                                         "#![BeginSeg 1]2#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     10    10    84    63  24    0  approved
 textButtonBarcodeMisc3                                         "#![BeginSeg 1]3#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     10    10    84    63  24    0  approved
@@ -1284,7 +1284,7 @@ textStatAlarmCentDoorUnlatched                                 "#![BeginSeg 1]Ce
 textAlarmBodyCentDoorUnlatched                "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has encountered a non-recoverable alarm. \n\n#![EndSeg 2]#![BeginSeg 3]- Disconnect the donor\n#![EndSeg 3]#![BeginSeg 4]- Power off the system, then power it back on\n\n#![EndSeg 4]#![BeginSeg 5]The system will verify that the donor is disconnected and raise the cassette when it is powered back on. #![EndSeg 5]#![BeginSeg 6]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 6]"     0   0   0 0x0100    15   110   455    300  18    1  approved
 textStatAlarmCassetteError                                   "#![BeginSeg 1]Cassette error#![EndSeg 1]"                                                                                                         165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmSysTestFailure                              "#![BeginSeg 1]System test failure#![EndSeg 1]"                                                                                                 165   8   0 0x0101    0   0   182    14  18    1  approved
-textAlarmBodyNoGraphicReservoirFailedT0Test      "#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the low-level sensor before expected.\n\n#![EndSeg 2]#![BeginSeg 3]- Disconnect the donor\n#![EndSeg 3]#![BeginSeg 4]- Power off the system, then power it back on\n#![EndSeg 4]#![BeginSeg 5]- If a tubing set is loaded, unload and discard the tubing set\n\n#![EndSeg 5]#![BeginSeg 6]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 6]"     0   0   0 0x0100    15   110   455    300  18    1  approved
+textAlarmBodyNoGraphicReservoirFailedT0Test      "#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the low-level sensor before expected.\n\n#![EndSeg 2]#![BeginSeg 3]- Disconnect the donor\n#![EndSeg 3]#![BeginSeg 4]- Power off the system, then power it back on\n\n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]"     0   0   0 0x0100    15   110   455    300  18    1  approved
 textAlarmBodyNoGraphicReturnTooLongAlarmA1       "#![BeginSeg 1]Record the alarm number and the status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The first return cycle took longer than expected.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor#![EndSeg 4]"     0   0   0 0x0100    15   110   455    300  18    1  approved
 textStatAlarmAcPumpFailure                              "#![BeginSeg 1]AC pump failure#![EndSeg 1]"                                                                                                          165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmInletPumpFailure                            "#![BeginSeg 1]Draw pump failure#![EndSeg 1]"                                                                                                        165   8   0 0x0101    0   0   182    14  18    1  approved
@@ -1329,7 +1329,7 @@ textStatAlarmInletPressureFailure                        "#![BeginSeg 1]Pressure
 textStatAlarmInletReliefFailure                        "#![BeginSeg 1]Pressure relief error#![EndSeg 1]"                                                                                            165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarm1stCycleLate                     "#![BeginSeg 1]First cycle error#![EndSeg 1]"                                                                                                      165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarm1stCycleEarly                     "#![BeginSeg 1]First cycle failure#![EndSeg 1]"                                                                                                      165   8   0 0x0101    0   0   182    14  18    1  approved
-textAlarmBody1stCycleEarly                    "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the upper level reservoir sensor before expected. #![EndSeg 2]#![BeginSeg 3]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 3]#![BeginSeg 4]- Touch 'End run' \n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]"     0   0   0 0x0100    15   110   455    300  18    1  approved
+textAlarmBody1stCycleEarly                    "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the high-level sensor before expected. #![EndSeg 2]#![BeginSeg 3]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 3]#![BeginSeg 4]- Touch 'End run' \n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]"     0   0   0 0x0100    15   110   455    300  18    1  approved
 textStatAlarm1stDrawCycleShort                         "#![BeginSeg 1]First cycle failure#![EndSeg 1]"                                                                                                      165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmGenericPltContam                      "#![BeginSeg 1]Potential WBC contamination detected#![EndSeg 1]"                                                                                   165   8   0 0x0101    0   0   182    14  18    1  approved
 textStatAlarmGenericPlsContam                      "#![BeginSeg 1]Potential WBC contamination detected#![EndSeg 1]"                                                                                   165   8   0 0x0101    0   0   182    14  18    1  approved
@@ -1877,7 +1877,7 @@ textBodyPopupTimer               "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"  255 
 textPopupTimerTime               "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"  255 255 255 0x0111     9   26   367     120  36    1  approved
 
 
-textCftPrdRangeColLbl            "#![BeginSeg 1]Product\nrange#![EndSeg 1]"					        255 247  57 0x0112    20   65   80    60  12    1  unapproved
+textCftPrdRangeColLbl            "#![BeginSeg 1]Product\nrange#![EndSeg 1]"					        255 247  57 0x0112    20   65   80    60  12    1  approved
 textCftPltMinYieldColLbl         "#![BeginSeg 1]Min yield\n (x10  )#![EndSeg 1]"					255 247  57 0x0112    90    65   120    60  12    1  unapproved
 textCftPltAmapMinYieldExpColLbl  "#![BeginSeg 1]11#![EndSeg 1]"										255 247  57 0x0100   156   110    10    15   8    1  unapproved
 textCftPltAmapMaxYieldColLbl     "#![BeginSeg 1]Max yield\n (x10   )#![EndSeg 1]"					255 247  57 0x0112   180    65   120    60  12    1  unapproved
@@ -1885,9 +1885,9 @@ textCfgPltAmapMaxYieldExpColLbl  "#![BeginSeg 1]11#![EndSeg 1]"										255 247
 textCftPltAmapFinalConcExpColLbl "#![BeginSeg 1]3#![EndSeg 1]"										255 247  57 0x0100   330   110    10    15   8    1  unapproved
 textCfgPltAmapConcExpColLbl      "#![BeginSeg 1]3#![EndSeg 1]"										255 247  57 0x0100   510   110    10    15   8    1  unapproved
 textCfgPltAmapFinalConcColLbl    "#![BeginSeg 1]Final\nconcentration\n (x10 /µL)#![EndSeg 1]"       255 247  57 0x0112   270   65    120    60  12    1  unapproved
-textCfgPltAmapPpcoColLbl         "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                            255 247  57 0x0112   360   65     120    60  12   1  unapproved
+textCfgPltAmapPpcoColLbl         "#![BeginSeg 1]Plasma\n(%)#![EndSeg 1]"                            255 247  57 0x0112   360   65     120    60  12   1  approved
 textCfgPltAmapConcColLbl         "#![BeginSeg 1]Collect\nconcentration\n (x10 /µL)#![EndSeg 1]"     255 247  57 0x0112   450   65     120    60  12   1  unapproved
-textCfgPltAmapSsRangeColLbl      "#![BeginSeg 1]Solution volume\nrange\n(mL)#![EndSeg 1]"           255 247  57 0x0112   555   65     85    60  12    1  unapproved
+textCfgPltAmapSsRangeColLbl      "#![BeginSeg 1]Solution volume\nrange\n(mL)#![EndSeg 1]"           255 247  57 0x0112   555   65     85    60  12    1  approved
 textCfgPltAmapSingleRowBtn       "#![BeginSeg 1]RNG 1#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  approved
 textCfgPltAmapSinglePasRowBtn    "#![BeginSeg 1]RNG 1#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  approved
 textCfgPltAmapDoubleRowBtn       "#![BeginSeg 1]RNG 2#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  approved
@@ -1928,41 +1928,41 @@ textCfgPltAmapSolRangeFormat2        "- -"               255 247  57  0x0111    
 textCfgPltAmapSolRangePasFormat2     "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2} #![EndSeg 1]"         255 247  57  0x0111     570    252    59    36  14    0  approved
 textCfgPltAmapSolRangeFormat3        "- -"               255 247  57  0x0111     570    294    59    36  14    0  approved
 textCfgPltAmapSolRangePasFormat3     "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2} #![EndSeg 1]"         255 247  57  0x0111     570    336    59    36  14    0  approved
-textCfgPltAmapProductNumberFormat    "#![BeginSeg 1]RNG #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     9    23    150    36  14    1  unapproved
+textCfgPltAmapProductNumberFormat    "#![BeginSeg 1]RNG #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     9    23    150    36  14    1  approved
 textCfgPltAmapMinNumberFormat    "#![BeginSeg 1]Minimum = #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     216    23    150    36  14    1  approved
 textCfgPltAmapMaxNumberFormat    "#![BeginSeg 1]Maximum = #!{dataItem1}#![EndSeg 1]" 255 247  57  0x0011     418    23    150    36  14    1  approved
 
-textProdNameAmapPlt1             "#![BeginSeg 1]RNG 1#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
-textProdNameAmapPlt2			 "#![BeginSeg 1]RNG 2#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
-textProdNameAmapPlt3			 "#![BeginSeg 1]RNG 3#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  unapproved
+textProdNameAmapPlt1             "#![BeginSeg 1]RNG 1#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  approved
+textProdNameAmapPlt2			 "#![BeginSeg 1]RNG 2#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  approved
+textProdNameAmapPlt3			 "#![BeginSeg 1]RNG 3#![EndSeg 1]"         255 247  57 0x0111     0     0     100   48  14    1  approved
 
-textCfgProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"		255 247  57 0x0111     0     0    0    48  14    1  unapproved
-textCfgProdNameAmapPltPasSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"	255 247  57 0x0111     27    0    73   48  14    1  unapproved
-textCfgProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"   255 247  57 0x0111     0     0    100   48  14    1  unapproved
-textCfgProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
-textCfgProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"      255 247  57 0x0111     0     0    100   48  14    1  unapproved
-textCfgProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
-textCfgProdNameAmapRbcRasSelection	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  unapproved
-textCfgProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  unapproved
-textProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textCfgProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"		255 247  57 0x0111     0     0    0    48  14    1  approved
+textCfgProdNameAmapPltPasSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"	255 247  57 0x0111     27    0    73   48  14    1  approved
+textCfgProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"   255 247  57 0x0111     0     0    100   48  14    1  approved
+textCfgProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  approved
+textCfgProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"      255 247  57 0x0111     0     0    100   48  14    1  approved
+textCfgProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  approved
+textCfgProdNameAmapRbcRasSelection	 "#![BeginSeg 1]RBC#![EndSeg 1]"            255 247  57 0x0111     0     0    100   48  14    1  approved
+textCfgProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0    100   48  14    1  approved
+textProdNameAmapPltSelection   	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
 textProdNameAmapPltPasSelection	 "#![BeginSeg 1]Platelets#![EndSeg 1]"         255 247  57 0x0011     10     0     100    48  14    1  unapproved
 textProdNameAmapNoPltSelection	 "#![BeginSeg 1]No Platelets#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapRbcRasSelection  "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
-textProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  unapproved
+textProdNameAmapPlsSelection   	 "#![BeginSeg 1]Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
+textProdNameAmapNoPlsSelection 	 "#![BeginSeg 1]No Plasma#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
+textProdNameAmapRbcSelection   	 "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
+textProdNameAmapRbcRasSelection  "#![BeginSeg 1]RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
+textProdNameAmapNoRbcSelection 	 "#![BeginSeg 1]No RBC#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
 
-textAmapFormatPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                     255 247  57 0x0101   128   263    16    12  10    0  unapproved
-textAmapEmptyFormatPredCurrPltInit                   "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                     255 247  57 0x0121    0   265    125    23  18    1  unapproved
-textAmapEmptyFormatPredCurrPltVolInit                "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                       255 247  57 0x0121    0   290    100    23  14    1  unapproved
+textAmapFormatPredCurrPltExp                         "#![BeginSeg 1]11#![EndSeg 1]"                                     255 247  57 0x0101   128   263    16    12  10    0  approved
+textAmapEmptyFormatPredCurrPltInit                   "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                     255 247  57 0x0121    0   265    125    23  18    1  approved
+textAmapEmptyFormatPredCurrPltVolInit                "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                       255 247  57 0x0121    0   290    100    23  14    1  approved
 textAmapEmptyFormatPredCurrPlasInit                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    255 247  57 0x0121   166   265    150    23  18    1  approved
 textAmapACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   204   284    100    35  14     1  approved
 textAmapEmptyFormatPredCurrRbcInit                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                       255 247  57 0x0121   351   265    100    23  18    1  approved
-textAmapFormatPredCurrTimeUnit                       "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                      255 247  57 0x0101   550   267  150    23  16    1  unapproved
-textAmapButtonPredFlowRateUnit                       "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"                  255 247 57 0x0021     0     0   110     32  12    1  unapproved
-textAmapButtonPredTimeUnit                           "#![BeginSeg 1]#!{dataItem1} min #![EndSeg 1]"                     255 247 57 0x0021     0     0   110     32  12    1  unapproved
-textAmapPredictCompPlsNotice                         "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"    255 247 57 0x0111    165   280   200    35  14  1  unapproved
+textAmapFormatPredCurrTimeUnit                       "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"                      255 247  57 0x0101   550   267  150    23  16    1  approved
+textAmapButtonPredFlowRateUnit                       "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"                  255 247 57 0x0021     0     0   110     32  12    1  approved
+textAmapButtonPredTimeUnit                           "#![BeginSeg 1]#!{dataItem1} min #![EndSeg 1]"                     255 247 57 0x0021     0     0   110     32  12    1  approved
+textAmapPredictCompPlsNotice                         "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"    255 247 57 0x0111    165   280   200    35  14  1  approved
 
 textProdNameAmapPltRngFormat    "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2}#![EndSeg 1]"           255 247  57 0x0111     0   31     100    48   10     0  unapproved
 
