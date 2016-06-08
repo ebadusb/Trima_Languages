@@ -1760,13 +1760,7 @@ textMiscTrimaVersionClinicalTestBuild                                           
 
 ############  AMAP PLT SPECIFIC STRINGS:
 
-TEXT_PROD_NAME_AMAP_PLT1        "#![BeginSeg 1]Single#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
-TEXT_PROD_NAME_AMAP_PLT2        "#![BeginSeg 1]Double#![EndSeg 1]"        255 247  57 0x0111     0     0     0     0  14    1  approved
-TEXT_PROD_NAME_AMAP_PLT3        "#![BeginSeg 1]Triple#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
-
-TEXT_PREDICT_AMAPP_PRED_PLT_LABEL         "#![BeginSeg 1]Platelets#![EndSeg 1]"      255 255 255 0x0101    35   227   124    20  18    1  approved
-TEXT_PREDICT_AMAPP_PRED_PLS_LABEL           "#![BeginSeg 1]Plasma#![EndSeg 1]"      255 255 255 0x0111   245   227   105    20  18    1  approved
-TEXT_PREDICT_AMAPP_PRED_RBC_LABEL          "#![BeginSeg 1]RBC#![EndSeg 1]"           255 255 255 0x0111   425  227   100    20  18    1  approved
+TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL    "#![BeginSeg 1]More preferred procedures are available. Touch the + button to display.#![EndSeg 1]"        255 247  57 0x0111    45   187   570    40  14  1  approved
 
 textButtonPredFlowRateUnit                 "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"               255 247 57 0x0021     0     0   110     32  12    1  approved
 
@@ -1774,30 +1768,6 @@ textMiscPredPltLabel                       "#![BeginSeg 1]Platelets#![EndSeg 1]"
 textMiscPredPlasLabel                      "#![BeginSeg 1]Plasma#![EndSeg 1]"     255 255 255 0x0111   225   240   105    20  18    1  approved
 textMiscPredRbcLabel                       "#![BeginSeg 1]RBC#![EndSeg 1]"        255 255 255 0x0111   330   240   100    20  18    1  approved
 
-TEXT_PREDICT_AMAPP_AND_FLOW_PRED_PLT_LABEL "#![BeginSeg 1]Platelets#![EndSeg 1]"  255 255 255 0x0101    35   227   124    20  18    1  approved
-TEXT_PREDICT_AMAPP_AND_FLOW_PRED_PLS_LABEL "#![BeginSeg 1]Plasma#![EndSeg 1]"     255 255 255 0x0111   225   227   105    20  18    1  approved
-TEXT_PREDICT_AMAPP_AND_FLOW_PRED_RBC_LABEL "#![BeginSeg 1]RBC#![EndSeg 1]"        255 255 255 0x0111   330  227   100    20  18    1  approved
-
-TEXT_PREDICT_AMAPP_EMPTY_PREVPLTVOLM                ""      74  74    74 0x0121    30   205    45    23  12    0  approved
-TEXT_PREDICT_AMAPP_EMPTY_PREVPLTVOLM_UNITS     ""      74  74    74 0x0101    78   205    47    23  12    0  approved
-
-TEXT_PREDICT_AMAPP_EMPTY_NEXTPLTVOLM                ""      74  74    74 0x0121    30  338    45    23  12    0  approved
-TEXT_PREDICT_AMAPP_EMPTY_NEXTPLTVOLM_UNITS     ""      74  74    74 0x0101    78   338    47    23  12    0  approved
-                                                                                                                                                                
-TEXT_PREDICT_NAME_AMAP_PREV_PLT_SIZE         ""         74  74    74 0x0111      30     175   90    23  11    0  approved
-TEXT_PREDICT_NAME_AMAP_CURR_PLT_SIZE        ""         255 247  57 0x0111      33     248    90    23  14    0  approved
-TEXT_PREDICT_NAME_AMAP_NEXT_PLT_SIZE         ""         74  74    74 0x0111      30     310   90     23  11    0  approved
-
-TEXT_PREDICT_AMAPP_EMPTY_PREV_RBC                  ""           74  74    74  0x0121    430   193    59    19  14    0  approved
-TEXT_PREDICT_AMAPP_EMPTY_PREV_RBC_LABEL               ""          74  74    74  0x0101     491   193    39    19  14    0  approved
-
-TEXT_PREDICT_AMAPP_EMPTY_CURR_RBC                  ""          255 247  57  0x0121    430   265    59    23  18    0  approved
-TEXT_PREDICT_AMAPP_EMPTY_CURR_RBC_LABEL               ""          255 247  57  0x0101      491   265    39    23  18    0  approved
-
-TEXT_PREDICT_AMAPP_EMPTY_NEXT_RBC                   ""         74  74    74   0x0121        430   326    59    19  14    0  approved
-TEXT_PREDICT_AMAPP_EMPTY_NEXT_RBC_LABEL                ""         74  74    74   0x0101        491   326    39    19  14    0  approved
-                                                                           
-TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL    "#![BeginSeg 1]More preferred procedures are available. Touch the + button to display.#![EndSeg 1]"        255 247  57 0x0111    45   187   570    40  14  1  approved
 
 ############  COMP PLS STRINGS:    ##############################################################################################################################################
 TEXT_COMP_PLS_OOS_WARNING_TITLE              "#![BeginSeg 1]Replaced plasma volume Out of Range#![EndSeg 1]"     165   8   0  0x0110   22   2   255    55  16   0  approved
