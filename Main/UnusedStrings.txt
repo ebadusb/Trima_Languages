@@ -133,3 +133,11 @@ textMiscTrimaVersion                                           "#![BeginSeg 1]Ve
 textMiscCfgMaxValue2                                           "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    300    35   620    17  14    1  approved
 textMiscCfgMinValue2                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    100    35   620    17  14    1  approved
 textCfgColLabelCfgPrioTime                                            "#![BeginSeg 1]Duration#![EndSeg 1]"                                                                                                                   255 247  57 0x0111   515   160     100     0  14    1  approved
+
+
+//---------------------------6/8/2016
+textListboxItemCfgBloodTypeAll                                   "#![BeginSeg 1]All#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
+textStatConfigExitWait                                 "#![BeginSeg 2]Exiting configuration... #![EndSeg 2]#![BeginSeg 3]please wait#![EndSeg 3]"                                                                              255 247  57 0x0101     0     0     0     0  18  1  approved
+textListboxItemCfgSalineYes                               "#![BeginSeg 1]Yes#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
+textListboxItemCfgSalineNo                                "#![BeginSeg 1]No#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
+textStatMaxEntriesExceeded                                    "#![BeginSeg 1]Maximum number of entries exceeded#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18  1  approved
