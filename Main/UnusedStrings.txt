@@ -141,3 +141,9 @@ textStatConfigExitWait                                 "#![BeginSeg 2]Exiting co
 textListboxItemCfgSalineYes                               "#![BeginSeg 1]Yes#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
 textListboxItemCfgSalineNo                                "#![BeginSeg 1]No#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
 textStatMaxEntriesExceeded                                    "#![BeginSeg 1]Maximum number of entries exceeded#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18  1  approved
+
+
+//---------------------------6/9/2016
+textDataLabelRs1SalineRinseback                                 "#![BeginSeg 1]Saline rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
+textDataLabelRs1PlasmaRinseback                                 "#![BeginSeg 1]Plasma rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
+textDataDatRs1RinsebackComplete                               "#![BeginSeg 1]Complete#![EndSeg 1]"                                                                                                               255 255 255 0x0111   505   302    125   90  14    1  approved
