@@ -147,3 +147,9 @@ textStatMaxEntriesExceeded                                    "#![BeginSeg 1]Max
 textDataLabelRs1SalineRinseback                                 "#![BeginSeg 1]Saline rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
 textDataLabelRs1PlasmaRinseback                                 "#![BeginSeg 1]Plasma rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
 textDataDatRs1RinsebackComplete                               "#![BeginSeg 1]Complete#![EndSeg 1]"                                                                                                               255 255 255 0x0111   505   302    125   90  14    1  approved
+
+
+//---------------------------6/10/2016
+textDataUnitsRs2Rbc2VolSplitLayout                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   334   110    23  14    1  approved
+textDataUnitsRs2Rbc2AcSplitLayout                  "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   364   110    23  14    1  approved
+textDataUnitsRs2Ras2VolSplitLayout                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   394   110    23  14    1  approved
