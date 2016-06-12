@@ -153,3 +153,10 @@ textDataDatRs1RinsebackComplete                               "#![BeginSeg 1]Com
 textDataUnitsRs2Rbc2VolSplitLayout                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   334   110    23  14    1  approved
 textDataUnitsRs2Rbc2AcSplitLayout                  "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   364   110    23  14    1  approved
 textDataUnitsRs2Ras2VolSplitLayout                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   394   110    23  14    1  approved
+
+
+//--------------------------6/12/2016
+textButtonLabelCfgLeftPlsTrali                                "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                         255 247  57 0x0111   380   290   100    70  14    1  approved
+textACinPlasmaVolumeValueNext                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   335    100    35  11     1  approved
+textACinPlasmaVolumeValuePrev                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   200    100    35  11     1  approved
+textButtonLongConfigReturnToPrevious                                                  "#![BeginSeg 1]Return to previos screen#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved

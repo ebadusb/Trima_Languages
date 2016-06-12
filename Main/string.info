@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xdb7402ae"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xe5755b0c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1224,7 +1224,6 @@ textButtonLabelCfgLeftPlsVol5                                        "#![BeginSe
 textButtonLabelCfgLeftPlsVol6                                        "#![BeginSeg 1]Plasma 6 volume (mL)#![EndSeg 1]"                                                                                                   255 247  57 0x0111   380   220   100    70  14    1  approved
 textButtonLabelCfgLeftPlsAmapMin                                        "#![BeginSeg 1]As much as possible minimum (mL)#![EndSeg 1]"           255 247  57 0x0111     30   290   110    70  14    1  approved
 textButtonLabelCfgLeftPlsAmapMax                                        "#![BeginSeg 1]As much as possible maximum (mL)#![EndSeg 1]"         255 247  57 0x0111     30   350   110    70  14    1  approved
-textButtonLabelCfgLeftPlsTrali                                "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                         255 247  57 0x0111   380   290   100    70  14    1  approved
 textButtonLabelCfgLeftFfpVolume                            "#![BeginSeg 1]Custom volume (mL)#![EndSeg 1]"                                                    255 247  57 0x0111   380   350   100    70  14    1  approved
 textDataLabelRs2PltVol                                  "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                                                                                                    74  74  74 0x0101    95   129   280    23  14    1  approved
 textDataLabelRs2PlasVol                                    "#![BeginSeg 1]Total volume of product#![EndSeg 1]"                                                                                                    74  74  74 0x0101    95   264   280    23  14    1  approved
@@ -1628,8 +1627,6 @@ textSoftOptInvalidKeyCustomer               "#![BeginSeg 1]Invalid customer#![En
 textSoftOptInvalidKeyFormat                 "#![BeginSeg 1]Invalid key#![EndSeg 1]"                                             255 247  57 0x0111     0     0   640     0  18    1  approved
 
 textACinPlasmaVolumeValueCurr                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       255 247  57       0x0121   204   284    100    35  14     1  approved
-textACinPlasmaVolumeValueNext                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   335    100    35  11     1  approved
-textACinPlasmaVolumeValuePrev                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   200    100    35  11     1  approved
 textButtonLongRunSumm                  "#![BeginSeg 1]Summary#![EndSeg 1]"      0   0   0 0x0111     0     0   640     0  18    1  approved
 
 textConfigProcNumber               ""       255  255  0      0x0100   265    70    100   30  14     1  approved
@@ -1685,8 +1682,6 @@ textButtonCfgAppServerPortNumber    ""                                          
 
 textButtonCfgCadenceServerIpAddress     ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonCfgCadenceServerPortNumber    ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
-
-textButtonLongConfigReturnToPrevious                                                  "#![BeginSeg 1]Return to previos screen#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved
 
 textStatConfigAppServers                           "#![BeginSeg 1]Application servers#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
 
@@ -1746,7 +1741,7 @@ textMiscTrimaVersionClinicalTestBuild                                           
 
 ############  AMAP PLT SPECIFIC STRINGS:
 
-TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL    "#![BeginSeg 1]More preferred procedures are available. Touch the + button to display.#![EndSeg 1]"        255 247  57 0x0111    45   187   570    40  14  1  approved
+TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL    "#![BeginSeg 1]More preferred procedures are available. Touch the + button to display.#![EndSeg 1]"        255 247  57 0x0111    45   187   570    40  14  0  approved
 
 textButtonPredFlowRateUnit                 "#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"               255 247 57 0x0021     0     0   110     32  12    1  approved
 
