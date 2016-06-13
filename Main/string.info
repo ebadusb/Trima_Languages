@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xbbda2eca"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x13a95e86"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -523,6 +523,7 @@ textFormatNewPredProdTimeUnit                         "#![BeginSeg 1]#!{dataItem
 textFormatNewPredPlasmaLabel                           "#![BeginSeg 1]Plasma#![EndSeg 1]"                                                                                           255 247  57  0x0100   233    133    640    0  14    1  approved
 textFormatNewPredPcxLabel                           "#![BeginSeg 1]PC Label#![EndSeg 1]"                                                                                                 255 247  57  0x0100   339    133    640    0  14    1  approved
 textFormatNewPredPlateletButtLabel                 "#![BeginSeg 1]Platelet#![EndSeg 1]"                                            255 247  57  0x0111    0    0    640    0  14    1  approved
+textFormatNewPredSelectAllButtLabel                 "#![BeginSeg 1]Select All#![EndSeg 1]"                                          255 247  57  0x0111    0    0    640    0  14    1  unapproved
 textStatEndOfRunPcx                              "#![BeginSeg 1]Platelet product verification and labeling#![EndSeg 1]"                                                                               0 0 0 0x0111     0     0   640     0  18    1  approved
 textProdVerifPc15SplitLabel                                         "#![BeginSeg 1]Platelet product: Label as 15 unit split#![EndSeg 1]"                                                                                          255 255 255 0x0111    10   165     619    55  30    1  approved
 textProdVerifPc20SplitLabel                                         "#![BeginSeg 1]Platelet product: Label as 20 unit split#![EndSeg 1]"                                                                                          255 255 255 0x0111    10   165     619    55  30    1  approved
@@ -1851,9 +1852,8 @@ textMiscAcBagNotRemoved                  "#![BeginSeg 1]AC#![EndSeg 1]"     57 2
 
 
 textPlasmaDrainAlertBody         "#![BeginSeg 1]The system has not detected fluid at the low-level sensor during plasma transfer.\n\n#![EndSeg 1]#![BeginSeg 2]- Verify plasma line is not occluded#![EndSeg 2]"   0   0   0 0x0100    15   120   227    300  18  1  approved
-textBodyAlarmDrawLineOcclusion   "#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End rinseback'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor#![EndSeg 3]" 0 0 0  0x0100     15 110 455 300 18  1  approved
+textBodyAlarmDrawLineOcclusion   "#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor#![EndSeg 3]" 0 0 0  0x0100     15 110 455 300 18  1  approved
 textStatAlarmDrawLineOcclusion   "#![BeginSeg 1]Draw line occlusion detected#![EndSeg 1]"      255 247 57 0x0111     0     0   640     0  18    1  approved
-textButtonAlarmEndRinseback      "#![BeginSeg 1]End rinseback#![EndSeg 1]"    255 247  57 0x0111     0     0   640     0  18    1  unapproved
 
 textButtonTimerStart             "#![BeginSeg 1]Start#![EndSeg 1]"    255 247  57 0x0111     0     0   90     32  14    1  approved
 textButtonTimerClose             "#![BeginSeg 1]Close#![EndSeg 1]"    255 247  57 0x0111      0     0   90     32  14    1  approved
