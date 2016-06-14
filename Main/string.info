@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xfeaae984"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x24b3e368"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -22,7 +22,7 @@ forbiddenEndCharList            "（(「｢［[‘“・"                       
 ###########################################################################################################################################################################
 textButtonBarcodeAc                                     "#![BeginSeg 1]AC#![EndSeg 1]"                                                                                                                      49   8 123 0x0111    10    10    85    35  14    1  approved
 textButtonBarcodeNacl                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0111    10    10    85    35  14    1  approved
-textButtonBarcodeNaclMini                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0111    6    6    35    35  10    1  unapproved
+textButtonBarcodeNaclMini                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0100    18    7    35    35  10    1  unapproved
 textMiscSalineConnBagLabel                                  "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              41  49  90 0x0111   315   143   102    61  18    1  approved
 textMiscPowerdownMsg	                 "#![BeginSeg 1]Process End.\n#![EndSeg 1]#![BeginSeg 2]Please wait while the machine prepares for the next procedure...#![EndSeg 2]"                                           255 255 255 0x0110     0   200   640   200  18    1  approved
 textMiscPowerdownWatchdogFailure	              "#![BeginSeg 1]The machine failed to restart. #![EndSeg 1]#![BeginSeg 2]Call your service representative for assistance.#![EndSeg 2]"                                                                 255 255 255 0x0110     0   200   640   200  18  1  approved
