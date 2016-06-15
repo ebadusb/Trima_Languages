@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x1c238029"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x2122efcf"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1738,24 +1738,26 @@ textButtonOverrideBoxConfirm                               "#![BeginSeg 1]Confir
 textButtonCfgDeviceIpAddress     ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonCfgDeviceSubnetMask    ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonCfgDeviceGateway       ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
-textButtonCfgPrimaryDNS          ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
-textButtonCfgSecondaryDNS        ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
+textButtonCfgPrimaryDns          ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
+textButtonCfgSecondaryDns        ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 
 textStatConfigDeviceNetwork                           "#![BeginSeg 1]Device network#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
 
-textLabelCfgDeviceIpAddress      "#![BeginSeg 1]IP address#![EndSeg 1]"                                                    255 255  255 0x0121    210  143   150     20  14    1  approved
-textLabelCfgDeviceSubnetMask     "#![BeginSeg 1]Subnet mask#![EndSeg 1]"                                                   255 255  255 0x0121    210  193   150     20  14    1  approved
-textLabelCfgDeviceGateway        "#![BeginSeg 1]Default gateway#![EndSeg 1]"                                               255 255  255 0x0121    210  243   150     20  14    1  approved
-textLabelCfgPrimaryDNS           "#![BeginSeg 1]Preferred DNS#![EndSeg 1]"                                                   255 255  255 0x0121    210  293   150     20  14    1  approved
-textLabelCfgSecondaryDNS         "#![BeginSeg 1]Alternate DNS#![EndSeg 1]"                                                 255 255  255 0x0121    210  343   150     20  14    1  approved
+textLabelCfgDeviceDhcp           "#![BeginSeg 1]DHCP#![EndSeg 1]"                       255 255 255 0x0101     60  120    60 20  14    1  approved
 
-textLabelCfgAutoDNS              "#![BeginSeg 1]Automatic DNS#![EndSeg 1]"                                      255 255  255 0x0121   62  285   60     20  14    1  approved
-textLabelCfgDeviceAutoDNSOn      "#![BeginSeg 1]On#![EndSeg 1]"                                                 255 255  255 0x0101  176  285   20     20  14    1  approved
-textLabelCfgDeviceAutoDNSOff     "#![BeginSeg 1]Off#![EndSeg 1]"                                                255 255  255 0x0101  176  335   20     20  14    1  approved
+textLabelCfgDeviceIpAddress      "#![BeginSeg 1]IP address#![EndSeg 1]"                 255 255 255 0x0121    210  160   150 20  14    1  approved
+textLabelCfgDeviceSubnetMask     "#![BeginSeg 1]Subnet mask#![EndSeg 1]"                255 255 255 0x0121    210  205   150 20  14    1  approved
+textLabelCfgDeviceGateway        "#![BeginSeg 1]Default gateway#![EndSeg 1]"            255 255 255 0x0121    210  250   150 20  14    1  approved
 
-textLabelCfgDeviceDhcp           "#![BeginSeg 1]DHCP#![EndSeg 1]"                                                  255 255  255 0x0121    60   136   60     20  14    1  approved
-textLabelCfgDeviceDhcpOn         "#![BeginSeg 1]On#![EndSeg 1]"                                                    255 255  255 0x0101   176   136   60     20  14    1  approved
-textLabelCfgDeviceDhcpOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                                   255 255  255 0x0101   176   180   60     20  14    1  approved
+textLabelCfgPrimaryDns           "#![BeginSeg 1]Preferred DNS#![EndSeg 1]"              255 255 255 0x0121    210  325   150 20  14    1  approved
+textLabelCfgSecondaryDns         "#![BeginSeg 1]Alternate DNS#![EndSeg 1]"              255 255 255 0x0121    210  370   150 20  14    1  approved
+
+textLabelCfgAutoDns              "#![BeginSeg 1]Automatic DNS#![EndSeg 1]"              255 255 255 0x0101     60  285     60 20  14    1  approved
+textLabelCfgDeviceAutoDnsOn      "#![BeginSeg 1]On#![EndSeg 1]"                         255 255 255 0x0111      0    0     60 20  14    1  approved
+textLabelCfgDeviceAutoDnsOff     "#![BeginSeg 1]Off#![EndSeg 1]"                        255 255 255 0x0111      0    0     60 20  14    1  approved
+
+textLabelCfgDeviceDhcpOn         "#![BeginSeg 1]On#![EndSeg 1]"                         255 255 255 0x0111      0    0     60 20  14    1  approved
+textLabelCfgDeviceDhcpOff        "#![BeginSeg 1]Off#![EndSeg 1]"                        255 255 255 0x0111      0    0     60 20  14    1  approved
 
 textButtonCfgAppServerIpAddress     ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonCfgAppServerPortNumber    ""                                               255 247  57 0x0111     0     0   640     0  14    1  approved
@@ -1765,19 +1767,20 @@ textButtonCfgCadenceServerPortNumber    ""                                      
 
 textStatConfigAppServers                           "#![BeginSeg 1]Application servers#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
 
-textLabelCfgAppServerIpAddress      "#![BeginSeg 1]Server or IP address#![EndSeg 1]"                                                    255 255  255 0x0121    210  164   150     20  14    1  approved
-textLabelCfgAppServerPortNumber     "#![BeginSeg 1]TCP port number#![EndSeg 1]"                                                   255 255  255 0x0121    210  232   150     20  14    1  approved
+textLabelCfgAppServerIpAddress      "#![BeginSeg 1]Server or IP address#![EndSeg 1]"       255 255  255 0x0121    210  160   150     20  14    1  approved
+textLabelCfgAppServerPortNumber     "#![BeginSeg 1]TCP port number#![EndSeg 1]"            255 255  255 0x0121    210  205   150     20  14    1  approved
 
-textLabelCfgAppServer           "#![BeginSeg 1]Managing App connection#![EndSeg 1]"                                                    255 255  255 0x0101    60   112   60     20  14    1  approved
-textLabelCfgAppServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                                                    255 255  255 0x0101    176   156   60     20  14    1  approved
-textLabelCfgAppServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                                    255 255  255 0x0101    176   200   60     20  14    1  approved
+textLabelCfgAppServer           "#![BeginSeg 1]Managing App connection#![EndSeg 1]"     255 255 255 0x0101   60 120   60 20  14    1  approved
 
-textLabelCfgCadenceServer           "#![BeginSeg 1]Cadence Connection#![EndSeg 1]"                                                    255 255  255 0x0101    60   252   60     20  14    1  unapproved
-textLabelCfgCadenceServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                                     255 255  255 0x0101    176  300   60     20  14    1  unapproved
-textLabelCfgCadenceServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                    255 255  255 0x0101    176  345   60     20  14    1  unapproved
+textLabelCfgAppServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                          255 255 255 0x0111    0  0   60 20  14    1  approved
+textLabelCfgAppServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                         255 255 255 0x0111    0  0   60 20  14    1  approved
 
-textLabelCfgCadenceServerIpAddress      "#![BeginSeg 1]Server or IP address#![EndSeg 1]"                                                    255 255  255 0x0121    210  304   150     20  14    1  unapproved
-textLabelCfgCadenceServerPortNumber     "#![BeginSeg 1]TCP port number#![EndSeg 1]"                    255 255  255 0x0121    210  345   150     20  14    1  unapproved
+textLabelCfgCadenceServer           "#![BeginSeg 1]Cadence Connection#![EndSeg 1]"                     255 255  255 0x0101    60   270   60     20  14    1  unapproved
+textLabelCfgCadenceServerOn         "#![BeginSeg 1]On#![EndSeg 1]"                                     255 255  255 0x0111    0 0   60 20  14    1  unapproved
+textLabelCfgCadenceServerOff        "#![BeginSeg 1]Off#![EndSeg 1]"                                    255 255  255 0x0111    0 0   60 20  14    1  unapproved
+
+textLabelCfgCadenceServerIpAddress      "#![BeginSeg 1]Server or IP address#![EndSeg 1]"     255 255 255 0x0121    210  305   150     20  14    1  unapproved
+textLabelCfgCadenceServerPortNumber     "#![BeginSeg 1]TCP port number#![EndSeg 1]"          255 255 255 0x0121    210  350   150     20  14    1  unapproved
 
 textStatConfigNetwork            "#![BeginSeg 1]Network configuration#![EndSeg 1]"   255 247 57 0x0111     0     0   640     0  18    1  approved
 textButtonCfgDeviceNetwork       "#![BeginSeg 1]Device network#![EndSeg 1]"          255 247  57 0x0111     5     5   190     55  18    1  approved
