@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x30fe1127"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xf79a9705"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -22,7 +22,7 @@ forbiddenEndCharList            "（(「｢［[‘“・"                       
 ###########################################################################################################################################################################
 textButtonBarcodeAc                                     "#![BeginSeg 1]AC#![EndSeg 1]"                                                                                                                      49   8 123 0x0111    10    10    85    35  14    1  approved
 textButtonBarcodeNacl                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0111    10    10    85    35  14    1  approved
-textButtonBarcodeNaclMini                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0100    18    7    35    35  10    1  unapproved
+textButtonBarcodeNaclMini                                   "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              49   8 123 0x0100    18    7    35    35  10    1  approved
 textMiscSalineConnBagLabel                                  "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                                                                                                              41  49  90 0x0111   315   143   102    61  18    1  approved
 textMiscPowerdownMsg	                 "#![BeginSeg 1]Process End.\n#![EndSeg 1]#![BeginSeg 2]Please wait while the machine prepares for the next procedure...#![EndSeg 2]"                                           255 255 255 0x0110     0   200   640   200  18    1  approved
 textMiscPowerdownWatchdogFailure	              "#![BeginSeg 1]The machine failed to restart. #![EndSeg 1]#![BeginSeg 2]Call your service representative for assistance.#![EndSeg 2]"                                                                 255 255 255 0x0110     0   200   640   200  18  1  approved
@@ -440,8 +440,8 @@ textButtonLongBeginDonorPrep                                               "#![B
 textButtonAbortReturnToPrev                     "#![BeginSeg 1]Return to\nprevious\nscreen#![EndSeg 1]"                                                                                            255 247  57 0x0111     0     0   142    93  18    1  approved
 textButtonAbortProcExit                                  "#![BeginSeg 1]End run#![EndSeg 1]"                                                                                                                255 247  57 0x0111     0     0   142    93  18    1  approved
 textButtonAbortRinsebackExit                             "#![BeginSeg 1]Rinseback#![EndSeg 1]"                                                                                                               74  74  74 0x0111     0     0   142    93  18    1  approved
-textButtonAbortSpilloverExit                             "#![BeginSeg 1]Spillover\nrecovery#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   142    93  18    1  approved
-textButtonAbortAirInPlasmaLineExit                         "#![BeginSeg 1]Air block recovery#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   142    93  18    1  approved
+textButtonAbortSpilloverExit                             "#![BeginSeg 1]Perform\nspillover\nrecovery#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   142    93  18    1  approved
+textButtonAbortAirInPlasmaLineExit                         "#![BeginSeg 1]Perform\nair block\nrecovery#![EndSeg 1]"                                                                                                   255 247  57 0x0111     0     0   142    93  18    1  approved
 textButtonAbortAasExit                            "#![BeginSeg 1]End\nsolution\naddition#![EndSeg 1]"                                                                                    255 247  57 0x0111     0     0   142    93  18    1  approved
 textButtonAbortRasExit                               "#![BeginSeg 1]End RBC\nsolution\naddition#![EndSeg 1]"                                                                                            255 247  57 0x0111     0     0   142    93  18    1  approved
 textButtonAbortPasExit                               "#![BeginSeg 1]End platelet\nsolution\naddition#![EndSeg 1]"                                                                                       255 247  57 0x0111     0     0   142    93  18    1  approved
@@ -1219,7 +1219,7 @@ textMiscCfrActionEORSummaryReviewed                                  "#![BeginSe
 textMiscCfrActionLabelReviewed                                       "#![BeginSeg 1]Product verification reviewed#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionBarcodesReviewed                                    "#![BeginSeg 1]Procedure barcodes reviewed#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textMiscCfrActionBarcodesModified                                    "#![BeginSeg 1]Procedure barcodes modified#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
-textMiscCfrActionConfigCleared                                       "#![BeginSeg 1]Managing app configuration cleared#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
+textMiscCfrActionConfigCleared                                       "#![BeginSeg 1]Managing App configuration cleared#![EndSeg 1]"                                                                                                 255 247  57 0x0111     0     0   640     0  14  1  approved
 textButtonCfgPrioExtraPltX10                                        "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                                                                   255 247  57 0x0120     32   33     0     0  10    1  approved
 textStatRecoveryProcedure                                 "#![BeginSeg 1]Recovery procedure in progress#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatSalinePrime                                       "#![BeginSeg 1]Priming the replacement solution line#![EndSeg 1]"                                                                                         255 247  57 0x0111     0     0   640     0  18  1  approved
@@ -1239,9 +1239,9 @@ textStatIdVerified                                        "#![BeginSeg 1]Identit
 textStatIdNotVerified                                    "#![BeginSeg 1]Unable to verify identity#![EndSeg 1]"                                                                                              255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatWaitingForVista                                  "#![BeginSeg 1]Waiting for the Managing App...#![EndSeg 1]"                                                                                                      255 247  57 0x0111     0     0   640     0  18  1  approved
 textStatEnterPin                                          "#![BeginSeg 1]Enter your personal identification number#![EndSeg 1]"                                                                                   255 247  57 0x0111     0     0   640     0  18  1  approved
-textSelectBarcodeCategory                                          "#![BeginSeg 1]Select barcode category#![EndSeg 1]"                                                                                   255 247  57 0x0111    100     10   300     50  20  1  unapproved
-textBarcodePopupEmpty                                          ""                                                                                   0 0 0  0x0111     10     40   400   100  14  1  unapproved
-textBarcodePopupEmptyAlt                                          ""                                                                                   0 0 0  0x0111     10    40   400     100  10  1  unapproved
+textSelectBarcodeCategory                                          "#![BeginSeg 1]Select barcode category#![EndSeg 1]"                                                                                   255 247  57 0x0111    100     10   300     50  20  1  approved
+textBarcodePopupEmpty                                          ""                                                                                   0 0 0  0x0111     10     40   400   100  14  0  approved
+textBarcodePopupEmptyAlt                                          ""                                                                                   0 0 0  0x0111     10    40   400     100  10  0  approved
 textButtonCfgPrioExtraPltExponent                                "#![BeginSeg 1]11#![EndSeg 1]"                                                                                                                     255 247  57 0x0100     68     31     8     8   6    0  approved
 textEmptyFormatPlasListboxVolInit                             ""                                                                                                                       255 247  57 0x0121     0     0     0     0  10    0  approved
 textButtonCfgPrioExtraPlasUnits                             "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 247  57 0x0110      0     33     0     0  10    1  approved
@@ -1261,8 +1261,8 @@ textMiscInstructionDispCloseBlueClamp                                        "#!
 
 textMiscInstructionJpWhiteNoPasNeedle "#![BeginSeg 1]- Close the red clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the line to one of the platelet bags\n#![EndSeg 3]#![BeginSeg 4]- Close both of the lines to both of the platelet samplers#![EndSeg 4]" 255 247  57 0x0100    15   105   400  400  18    1  approved
 textMiscInstructionJpWhiteNoPasNoNeedle "#![BeginSeg 1]- Close the yellow clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the line to one of the platelet bags\n#![EndSeg 3]#![BeginSeg 4]- Close both of the lines to both of the platelet samplers#![EndSeg 4]" 255 247  57 0x0100    15   105   400  400  18    1  approved
-textMiscInstructionJpWhitePasNeedle	"#![BeginSeg 1]- Close the red clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the line to one of the platelet bags\n#![EndSeg 3]#![BeginSeg 4]- Close both clamps between the platelet bags and air removal bags#![EndSeg 4]"	255 247  57 0x0100    15   105   400  400  18    1  unapproved
-textMiscInstructionJpWhitePasNoNeedle "#![BeginSeg 1]- Close the yellow clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the line to one of the platelet bags\n#![EndSeg 3]#![BeginSeg 4]- Close both clamps between the platelet bags and air removal bags#![EndSeg 4]" 255 247  57 0x0100    15   105   400  400  18    1  unapproved
+textMiscInstructionJpWhitePasNeedle	"#![BeginSeg 1]- Close the red clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the line to one of the platelet bags\n#![EndSeg 3]#![BeginSeg 4]- Close both clamps between the platelet bags and air removal bags#![EndSeg 4]"	255 247  57 0x0100    15   105   400  400  18    1  approved
+textMiscInstructionJpWhitePasNoNeedle "#![BeginSeg 1]- Close the yellow clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the line to one of the platelet bags\n#![EndSeg 3]#![BeginSeg 4]- Close both clamps between the platelet bags and air removal bags#![EndSeg 4]" 255 247  57 0x0100    15   105   400  400  18    1  approved
 textMiscInstructionJpBlackNeedle	"#![BeginSeg 1]- Close the red clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the clamp on the line between the plasma bag and the air removal bag#![EndSeg 3]" 255 247  57 0x0100    15   105   400  400  18    1  approved
 textMiscInstructionJpBlackNoNeedle "#![BeginSeg 1]- Close the yellow clamp on the donor line\n#![EndSeg 1]#![BeginSeg 2]- Close the white clamp on the sample bag line\n#![EndSeg 2]#![BeginSeg 3]- Close the clamp on the line between the plasma bag and the air removal bag#![EndSeg 3]"	255 247  57 0x0100    15   105   400  400  18    1  approved
 
@@ -1723,8 +1723,8 @@ textProcPriorityLabel2           "2"       255  255  0      0x0100   22   265   
 textProcPriorityLabel3           "3"       255  255  0      0x0100   22   325    59    35  14     1  approved
 
 
-textConfigControlledBox           "#![BeginSeg 1]Configuration is controlled \n by the managing app#![EndSeg 1]"                      255 247  57 0x0110    5   35   202 200   18    1  unapproved
-textConfigControlledBoxConfirm    "#![BeginSeg 1]Confirm to clear configuration received \n from the managing app#![EndSeg 1]"        255 247  57 0x0110   16   30   200 200   18    1  unapproved
+textConfigControlledBox           "#![BeginSeg 1]Configuration is controlled\nby the Managing App#![EndSeg 1]"                      255 247  57 0x0110    5   35   202 200   18    1  unapproved
+textConfigControlledBoxConfirm    "#![BeginSeg 1]Confirm to clear configuration received\nfrom the Managing App#![EndSeg 1]"        255 247  57 0x0110   16   30   200 200   18    1  unapproved
 textButtonControlBoxClose                              "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textButtonControlBoxOverride                               "#![BeginSeg 1]Override#![EndSeg 1]"                                                                                      255 247  57 0x0111     0     0   640     0  18    1  unapproved
 textButtonOverrideBoxClose                              "#![BeginSeg 1]Close#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18    1  unapproved
@@ -1804,10 +1804,10 @@ textStatRASEmptyWarnBarcodeAccepted   "#![BeginSeg 1]Barcode accepted#![EndSeg 1
 textStatBarcodeOK                        "#![BeginSeg 1]{dataItem1} OK#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
 textStatBarcodeNotRecognized             "#![BeginSeg 1]Barcode scan not recognized#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
 textStatBarcodeRuleBroken                "#![BeginSeg 1]{dataItem1} not correct#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
-textStatAppTransferSuccessful            "#![BeginSeg 1]Managing App information received#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textStatAppTransferUnsuccessful          "#![BeginSeg 1]Transfer from Managing App unsuccessful#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textStatDonorInfoTransferUnsuccessful    "#![BeginSeg 1]Donor information transfer unsuccessful#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textStatProcListTransferUnsuccessful     "#![BeginSeg 1]Procedure list transfer unsuccessful#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  unapproved
+textStatAppTransferSuccessful            "#![BeginSeg 1]Managing App information received#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
+textStatAppTransferUnsuccessful          "#![BeginSeg 1]Transfer from Managing App unsuccessful#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
+textStatDonorInfoTransferUnsuccessful    "#![BeginSeg 1]Donor information transfer unsuccessful#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
+textStatProcListTransferUnsuccessful     "#![BeginSeg 1]Procedure list transfer unsuccessful#![EndSeg 1]"   255 247  57 0x0111     0     0   640     0  18    1  approved
 
 textAppAlarmStatusActive   "#![BeginSeg 1]Yes#![EndSeg 1]"   0 0  0 0x0111     0     0   0    0  18    1  approved
 textAppAlarmStatusInactive   "#![BeginSeg 1]--#![EndSeg 1]"   0 0  0 0x0111     0     0   0     0  18    1  approved
@@ -1961,7 +1961,7 @@ textCfgPltAmapTripleRowBtn       "#![BeginSeg 1]RNG 3#![EndSeg 1]"          255 
 textCfgPltAmapTriplePasRowBtn    "#![BeginSeg 1]RNG 3#![EndSeg 1]"          255 247  57  0x0101    7    0   80    36  12   1  approved
 textCfgPltAmapCollectInOneBagOn  "#![BeginSeg 1]On#![EndSeg 1]"               255 247  57  0x0111     0     0    59    36  14    1  approved
 textCfgPltAmapCollectInOneBagOff "#![BeginSeg 1]Off#![EndSeg 1]"              255 247  57  0x0111     0     0    59    36  14    1  approved
-textCfgPltAmapNumericDataEmpty    "#![BeginSeg 1]--#![EndSeg 1]"               255 247  57  0x0111     0     0    59    36  14    0  unapproved
+textCfgPltAmapNumericDataEmpty    "#![BeginSeg 1]--#![EndSeg 1]"               255 247  57  0x0111     0     0    59    36  14    0  approved
 
 textButtonLabelCfgCollectOneBagAmap "#![BeginSeg 1]Collect in one bag#![EndSeg 1]"      255 247  57 0x0111   360   356   100    90  14    1  approved
 textButtonLabelCfgLeftPltAmapYsf    "#![BeginSeg 1]Yield scaling factor#![EndSeg 1]"    255 247  57 0x0111   120   356   100    90  14    1  approved
@@ -2031,8 +2031,8 @@ textAmapPredictCompPlsNotice                         "#![BeginSeg 1]replaced by 
 
 textProdNameAmapPltRngFormat    "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2}#![EndSeg 1]"           255 247  57 0x0111     0   31     100    48   10     0  approved
 
-textGenericDataFomat     "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"         255 247  57  0x0111     0    0    60    36  14    0  unapproved
+textGenericDataFomat     "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"         255 247  57  0x0111     0    0    60    36  14    0  approved
 
-textEmptyFormatPlasmaRinsebackVol          "#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"   0 0 0 0x0111   0   0    34    30  12    0  unapproved
+textEmptyFormatPlasmaRinsebackVol          "#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"   0 0 0 0x0111   0   0    34    30  12    0  approved
 #############################
 STRING_FILE_TABLE_END
