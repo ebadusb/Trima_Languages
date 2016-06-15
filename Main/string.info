@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xf79a9705"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xc38fb5e3"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -2034,5 +2034,24 @@ textProdNameAmapPltRngFormat    "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2}#![E
 textGenericDataFomat     "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"         255 247  57  0x0111     0    0    60    36  14    0  approved
 
 textEmptyFormatPlasmaRinsebackVol          "#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"   0 0 0 0x0111   0   0    34    30  12    0  approved
+
+#################### COLOR PLACEHOLDERS ###################
+
+textEmptyColorGreyDark          ""   74 74 74 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorGreyLight          ""   239 239 239 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorYellow          ""   255 247 57 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorWhite          ""   255 255 255 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorBlack          ""   0 0 0 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorRed          ""   239 8 0 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorMaroon          ""   165 8 16 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorNavyBlue          ""   49 8 123 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorMeterYellow          ""   255 255 0 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorMeterGreen          ""   165 214 165 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorGreyPredCurr          ""   222 222 222 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorGreyPredJp          ""   181 181 189 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorPurple          ""  57 24  132 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorGold          ""   255 217  57 0x0111   0   0    0    0  0    0  unapproved
+textEmptyColorDarkRed          ""  165   8   0 0x0111   0   0    0    0  0    0  unapproved
+
 #############################
 STRING_FILE_TABLE_END
