@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xd8ca40ff"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb5408cb9"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -203,6 +203,7 @@ textStatAasActivePrime                                        "#![BeginSeg 1]Pri
 textStatAasActiveAddition                                          "#![BeginSeg 1]Automated solution addition in progress#![EndSeg 1]"                                                                        255 255 255 0x0111     0     0   100     0  18  1  approved
 textProdVerifReasonRinsebackNotCompleted                          "#![BeginSeg 1]Rinseback not completed#![EndSeg 1]"                                                                                                255 255 255 0x0101    54   146   182    14  12  1  approved
 textProdVerifReasonPlasmaRinsebackNotCompleted                    "#![BeginSeg 1]Plasma rinseback not completed#![EndSeg 1]"                                                                                                255 255 255 0x0101    54   146   182    14  12  1  approved
+textProdVerifReasonSalineRinsebackNotCompleted                    "#![BeginSeg 1]Saline rinseback not completed#![EndSeg 1]"                                                                                                255 255 255 0x0101    54   146   182    14  12  1  approved
 textProdVerifReasonAasVolError                             "#![BeginSeg 1]Volume error during solution addition#![EndSeg 1]"                                                                               255 255 255 0x0101    54   146   182    14  12    1  approved
 textDataLabelRs2PasVol                                      "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"                                                                                             74  74  74 0x0101    95   218   280    23  14    1  approved
 textEmptyFormatCfgMachSetIdInit                                    ""                                                                                                                      255 247  57 0x0111   380   128   210    45  18    0  approved
