@@ -9,3 +9,8 @@ textProdVerifReasonSalineRinsebackNotCompleted                    "#![BeginSeg 1
 textDataLabelRs1PostHgbJP                                         "#![BeginSeg 1]Post hemoglobin#![EndSeg 1]"                                                                                                       74  74  74 0x0101  10  218 175 35  14    1  approved
 textDataUnitsRs1GPerDlJP                                          "#![BeginSeg 1]g/dL#![EndSeg 1]"                                                                                                                  255 255 255 0x0101 260 218 55  35  14    1  approved
 textMiscClampSampleBag                                            "#![BeginSeg 1]Close the clamp on the sample bag line#![EndSeg 1]"                                                                                255 247  57 0x0111    15   125   610     0  18    1  approved
+
+
+//--------------------------7/12/2016
+textMiscInstructionAasRemoveTubingSet
+textMiscPowerdownWatchdogFailure
