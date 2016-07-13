@@ -14,3 +14,16 @@ textMiscClampSampleBag                                            "#![BeginSeg 1
 //--------------------------7/12/2016
 textMiscInstructionAasRemoveTubingSet
 textMiscPowerdownWatchdogFailure
+
+
+//--------------------------7/13/2016
+textStatAasSealDetach                                    "#![BeginSeg 1]Seal and detach the product and additive solution bags#![EndSeg 1]"                                                                     255 255 255 0x0111     0     0   640     0  18  1  approved
+textStatAasRemoveDisp                                    "#![BeginSeg 1]Remove the tubing set#![EndSeg 1]"                                                                                                      255 255 255 0x0111     0     0   640     0  18  1  approved
+textButtonLabelCfgLeftProcBloodDiversion                 "#![BeginSeg 1]Blood diversion#![EndSeg 1]"                                                                                                            255 247  57 0x0111    30   295   150    70  14    1  approved
+textMiscUnitsDonorVitalsTbv                              "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"                                                                                              255 255 255 0x0111     0     0   640     0  18    1  approved
+textStatDoseRangeError                                   "#![BeginSeg 1]The RBC dose is outside the recommended storage range#![EndSeg 1]"                                                                      165   8   0 0x0111     0     0   640     0  18    1  approved
+textDataLabelDonDlHgb                                    "#![BeginSeg 1]Hemoglobin#![EndSeg 1]"                                                                                                                 255 255 255 0x0121   242   347   164    24  18    1  approved
+textStatBarcodeReview                                    "#![BeginSeg 1]Review values#![EndSeg 1]"                                                                                                              255 255 255 0x0111     0     0   640     0  18    1  approved
+textMiscCfgNoVolLimSelected                              "#![BeginSeg 1]Select a volume limit to proceed#![EndSeg 1]"                                                                                           255 247  57 0x0111     0    50   640     0  18  1  approved
+textStatDispTestComplete                                 "#![BeginSeg 1]Test completed#![EndSeg 1]"                                                                                                             255 255 255 0x0111     0     0   640     0  18  1  approved
+
