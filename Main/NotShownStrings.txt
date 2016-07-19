@@ -27,3 +27,6 @@ textStatBarcodeReview                                    "#![BeginSeg 1]Review v
 textMiscCfgNoVolLimSelected                              "#![BeginSeg 1]Select a volume limit to proceed#![EndSeg 1]"                                                                                           255 247  57 0x0111     0    50   640     0  18  1  approved
 textStatDispTestComplete                                 "#![BeginSeg 1]Test completed#![EndSeg 1]"                                                                                                             255 255 255 0x0111     0     0   640     0  18  1  approved
 textButtonAlarmDisabledContinue                          "#![BeginSeg 1]Continue#![EndSeg 1]"                                                                                                                     239 239 239 0x0111   488   155   106    40  18    1  approved
+
+7/19/16
+textDataUnitsPredDuration
