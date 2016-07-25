@@ -30,3 +30,7 @@ textButtonAlarmDisabledContinue                          "#![BeginSeg 1]Continue
 
 7/19/16
 textDataUnitsPredDuration
+
+//--------------------------7/25/2016
+textAppAlarmStatusActive   "#![BeginSeg 1]Yes#![EndSeg 1]"   0 0  0 0x0111     0     0   0    0  18    1  approved
+textAppAlarmStatusInactive   "#![BeginSeg 1]--#![EndSeg 1]"   0 0  0 0x0111     0     0   0     0  18    1  approved
