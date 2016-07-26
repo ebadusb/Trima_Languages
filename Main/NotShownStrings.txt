@@ -34,3 +34,6 @@ textDataUnitsPredDuration
 //--------------------------7/25/2016
 textAppAlarmStatusActive   "#![BeginSeg 1]Yes#![EndSeg 1]"   0 0  0 0x0111     0     0   0    0  18    1  approved
 textAppAlarmStatusInactive   "#![BeginSeg 1]--#![EndSeg 1]"   0 0  0 0x0111     0     0   0     0  18    1  approved
+
+//--------------------------7/26/2016
+textMiscCfgPltIndicator                                      "#![BeginSeg 1]PLT #![EndSeg 1]"                                                                                                                  255 247  57 0x0111     2     0    53    48  14    1  approved
