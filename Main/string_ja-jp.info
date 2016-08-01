@@ -422,19 +422,21 @@ textButtonFlagPltYieldVol	"#![BeginSeg 1]血小板製剤、イールド、容量
 textButtonFlagRbcHctVol	"#![BeginSeg 1]赤血球製剤、HCT、容量を確認\nします。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagRbcQuality	"#![BeginSeg 1]赤血球製剤の品質を確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
 textButtonFlagRbcWbcs	"#![BeginSeg 1]赤血球製剤に白血球がないかを\n確認します。#![EndSeg 1]"	74 74 74	0x0101	10	10	302	40	18	1
-textButtonGiantDonorInfoBloodType	"#![BeginSeg 1]血液型#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	20	1
-textButtonGiantDonorInfoCrit	"#![BeginSeg 1]ヘマトクリット\n値#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	20	1
-textButtonGiantDonorInfoCritSet	"#![BeginSeg 1]ヘマトクリット\n値\n#!{dataItem1}%#![EndSeg 1]"	255 247 57	0x0110	0	50	159	210	15	1
-textButtonGiantDonorInfoHemoglobin	"#![BeginSeg 1]ヘモグロビン#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	20	1
-textButtonGiantDonorInfoHemoglobinSet	"#![BeginSeg 1]ヘモグロビン値\n#!{dataItem1} g/dL#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
-textButtonGiantDonorInfoPltPrecount	"#![BeginSeg 1]血小板\nプリカウント値#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	20	1
-textButtonGiantDonorInfoPltPrecountSet	"#![BeginSeg 1]血小板\nプリカウント値\n#!{dataItem1}x1000#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
-textButtonGiantDonorVitalsHeight	"#![BeginSeg 1]ドナー身長#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	20	1
-textButtonGiantDonorVitalsHeightCmSet	"#![BeginSeg 1]ドナー身長\n#!{dataItemHeightCm} cm#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	21	1
-textButtonGiantDonorVitalsHeightFtSet	"#![BeginSeg 1]ドナー身長\n#!{dataItemHeightFeet} ft  #!{dataItemHeightInches} in#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	21	1
-textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]ドナー体重#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	20	1
-textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]ドナー体重\n#!{dataItemWeightKg} kg#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	21	1
-textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]ドナー体重\n#!{dataItemWeightLb} lb#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	21	1
+
+textButtonGiantDonorInfoBloodType   "#![BeginSeg 1]血液型#![EndSeg 1]"                                                                    255 247 57  0x0110   12 10    159 210 20   1
+textButtonGiantDonorInfoCrit  "#![BeginSeg 1]ヘマトクリット\n値#![EndSeg 1]"                                                         255 247 57  0x0110   12 10    159 210 20   1
+textButtonGiantDonorInfoCritSet  "#![BeginSeg 1]ヘマトクリット\n値\n#!{dataItem1}%#![EndSeg 1]"                                      255 247 57  0x0110   0  50    159 210 15   1
+textButtonGiantDonorInfoHemoglobin  "#![BeginSeg 1]ヘモグロビン#![EndSeg 1]"                                                           255 247 57  0x0110   12 10    159 210 20   1
+textButtonGiantDonorInfoHemoglobinSet  "#![BeginSeg 1]ヘモグロビン値\n#!{dataItem1} g/dL#![EndSeg 1]"                                 255 247 57  0x0110    0 100   159 210 10   1
+textButtonGiantDonorInfoPltPrecount "#![BeginSeg 1]血小板\nプリカウント値#![EndSeg 1]"                                             255 247 57  0x0110   12 10    159 210 20   1
+textButtonGiantDonorInfoPltPrecountSet "#![BeginSeg 1]血小板\nプリカウント値\n#!{dataItem1}x1000#![EndSeg 1]"                      255 247 57  0x0110   12 10    159 210 18   1
+textButtonGiantDonorVitalsHeight "#![BeginSeg 1]ドナー身長#![EndSeg 1]"                                                                 255 247 57  0x0110   12 10    159 210 20   1
+textButtonGiantDonorVitalsHeightCmSet  "#![BeginSeg 1]ドナー身長\n#!{dataItemHeightCm} cm#![EndSeg 1]"                                  255 247 57  0x0110   12 10    159 210 21   1
+textButtonGiantDonorVitalsHeightFtSet  "#![BeginSeg 1]ドナー身長\n#!{dataItemHeightFeet} ft  #!{dataItemHeightInches} in#![EndSeg 1]"   255 247 57  0x0110   12 10    159 210 21   1
+textButtonGiantDonorVitalsWeight "#![BeginSeg 1]ドナー体重#![EndSeg 1]"                                                                 255 247 57  0x0110   12 10    159 210 20   1
+textButtonGiantDonorVitalsWeightKgSet  "#![BeginSeg 1]ドナー体重\n#!{dataItemWeightKg} kg#![EndSeg 1]"                                  255 247 57  0x0110   12 10    159 210 21   1
+textButtonGiantDonorVitalsWeightLbSet  "#![BeginSeg 1]ドナー体重\n#!{dataItemWeightLb} lb#![EndSeg 1]"                                  255 247 57  0x0110   12 10    159 210 21   1
+
 textButtonGiantLoadSystem	"#![BeginSeg 1]システムへの装着#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	20	1
 textButtonKeyboard0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
@@ -778,8 +780,10 @@ textCftPrdRangeColLbl	"#![BeginSeg 1]製剤の範囲#![EndSeg 1]"	255 247 57	0x0
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]Conf: Plasma Replaced by PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textConfigControlledBox	"#![BeginSeg 1]設定は Managing App で管理されます。\n#![EndSeg 1]"	255 247 57	0x0110	5	35	202	200	20	1
 textConfigControlledBoxConfirm	"#![BeginSeg 1]Managing App から受信\nした設定をクリアすることを\n確認してください。#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	20	1
-textConfigProcNumber	""	255 255 0	0x0100	265	70	100	30	14	0
-textConfigProcNumberAmap	""	255 255 0	0x0100	10	70	100	30	14	0
+
+textConfigProcNumber "Japanese placeholder #!{dataItem1}"            255 255 0   0x0112   150  60  300 30  14   0
+textConfigProcNumberAmap   "Japanese AMAP placeholder #!{dataItem1}" 255 255 0   0x0112   100 100  100 30  14   0
+
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]すべてのカタログ番号を\n削除#![EndSeg 1]"	255 247 57	0x0110	0	45	640	0	21	1
 textConfirmBodyCfgMachRefDeleteOne	"#![BeginSeg 1]カタログ番号を削除:\n\n#![EndSeg 1]"	255 247 57	0x0110	0	20	640	0	21	1
 textConfirmBodyPasConnect	"#![BeginSeg 1]接続されているバッグが\nPAS であることを\n再確認してください。#![EndSeg 1]"	255 247 57	0x0110	1	25	260	95	20	1
