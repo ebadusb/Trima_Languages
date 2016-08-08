@@ -11,6 +11,18 @@ FONT_RANGE_TABLE_START
 
 FONT_RANGE_TABLE_END
 STRING_FILE_TABLE_START
+
+fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
+forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
+forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
+languageCrc	"0x2f23879c"	0 0 0	0x0001	0	0	0	0	18	0
+languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
+languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
+languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
+
+
+textACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"	255 247 57	0x0121	204	284	100	35	14	1
 AutoFlowTextAlarmBodyTimeout	"#![BeginSeg 1]採血流量が低減したため、現在の手順は不適切と判断されました。\n\n#![EndSeg 1]#![BeginSeg 2]以下を確認してください。\n\n#![EndSeg 2]#![BeginSeg 3]1.  穿刺針の位置\n\n#![EndSeg 3]#![BeginSeg 4]2.  ドナーがこぶしを握っていること。\n\n#![EndSeg 4]#![BeginSeg 5]3.  ドナーの体が冷えていないこと。\n\n#![EndSeg 5]#![BeginSeg 6]［手順選択］を押して、手順選択画面にアクセスしてください。#![EndSeg 6]"	0 0 0	0x0100	15	120	227	300	16	1
 AutoFlowTextAlarmBodyTimeout02	"#![BeginSeg 1]1.  穿刺針の位置\n\n#![EndSeg 1]#![BeginSeg 2]・穿刺針がドナーの静脈に正しく固定されていることを確認してください。\n#![EndSeg 2]#![BeginSeg 3]・ドナー上腕の位置を調整することを検討してください。\n#![EndSeg 3]#![BeginSeg 4]・必要に応じて、ドナーの穿刺部位を調整してください。#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	20	1
 AutoFlowTextAlarmBodyTimeout03	"#![BeginSeg 1]2.  ドナーがこぶしを握っていること。\n\n#![EndSeg 1]#![BeginSeg 2]・ドナーにこぶしを握るように指示してください。軽くこぶしを握るだけで、血流が促進されます。#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	20	1
@@ -59,15 +71,6 @@ TEXT_PLT_LABEL_COMP_PLS	"#![BeginSeg 1]Platelet product#![EndSeg 1]"	239 239 239
 TEXT_PREDICT_AMAP_PLT_BETTER_AVAIL	"#![BeginSeg 1]More preferred procedures are available. Touch the + button to display.#![EndSeg 1]"	255 247 57	0x0111	45	187	570	40	14	0
 TEXT_PREDICT_COMP_PLS_NOTICE	"#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"	255 247 57	0x0111	165	280	200	35	14	0
 TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x0101	95	323	280	23	16	0
-fontName	"Sans MT 932"	0 0 0	0x0001	0	0	0	0	18	0
-forbiddenEndCharList	"［（【“"	0 0 0	0x0000	520	110	380	20	10	0
-forbiddenStartCharList	"、。］）】%:.,ーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ”"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xf02b47c1"	0 0 0	0x0001	0	0	0	0	18	0
-languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
-languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
-languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
-textACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"	255 247 57	0x0121	204	284	100	35	14	1
 textAbortBodyAas	"#![BeginSeg 1]保存液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存液の添加が取り消されました。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・保存液の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は取扱説明書を参照してください。#![EndSeg 5]"	0 0 0	0x0101	12	117	614	183	20	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]エアーブロック回復とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・血小板ラインまたは血漿ラインにエアーが認められます。\n#![EndSeg 2]#![BeginSeg 3]・回復手順が完了するまで採血を一時中断します。#![EndSeg 3]"	0 8 0	0x0101	12	117	614	183	20	1
 textAbortBodyPas	"#![BeginSeg 1]保存液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存液の添加が取り消されました。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・PAS の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は取扱説明書を参照してください。\n#![EndSeg 5]#![BeginSeg 6]・PAS の添加を終了して、赤血球保存液の添加を続けることもできます。#![EndSeg 6]"	0 0 0	0x0101	12	117	614	183	20	1
@@ -1376,7 +1379,7 @@ textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]バッグ�
 textMiscCfgAdminNumDigits	"#![BeginSeg 1]回路セットコード:\n#![EndSeg 1]#![BeginSeg 2]8 ～ 10 桁#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]血小板処理#![EndSeg 1]"	255 247 57	0x0101	68	110	300	25	20	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]赤血球処理#![EndSeg 1]"	255 247 57	0x0101	395	110	300	25	20	1
-textMiscCfgMachBarcode	"#![BeginSeg 1]バーコード#![EndSeg 1]"	255 247 57	0x0111	277	235	100	45	16	1
+textMiscCfgMachBarcode	"#![BeginSeg 1]バーコード#![EndSeg 1]"	255 247 57	0x0111	270	235	100	45	16	1
 textMiscCfgMachCatNumDigits	"#![BeginSeg 1]5 桁のカタログ番号を入力してください。#![EndSeg 1]"	255 247 57	0x0101	10	25	620	75	16	1
 textMiscCfgMachCurrentREFlist	"#![BeginSeg 1]現在のカタログ番号リスト#![EndSeg 1]"	255 247 57	0x0101	270	337	200	19	16	1
 textMiscCfgMachRemove	"#![BeginSeg 1]削除#![EndSeg 1]"	255 247 57	0x0111	0	0	143	32	16	1
