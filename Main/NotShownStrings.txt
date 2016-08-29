@@ -41,3 +41,7 @@ textMiscCfgPltIndicator                                      "#![BeginSeg 1]PLT 
 //--------------------------7/27/2016
 //Will not display for japanese volume limits screen because jp units are metric 
 textButtonLabelCfgDonLimVolWeightSettingLb                     "#![BeginSeg 2]Weight (lb)#![EndSeg 2]"                                   255 247  57 0x0112   185    105   100     50  14    1  approved
+
+8/26/16
+textAlarmBodyNoGraphicPlsWbcContaminationVerify2
+textAlarmBodyNoGraphicPltWbcContaminationContinue2
