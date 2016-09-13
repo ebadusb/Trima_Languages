@@ -66,7 +66,7 @@ languageCrc	"0x122b0a59"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"日本語"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"4"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
-readyForRelease	"0"	0 0 0	0x0001	0	0	0	0	18	0
+readyForRelease	"1"	0 0 0	0x0001	0	0	0	0	18	0
 textACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"	255 247 57	0x0121	204	284	100	35	14	1
 textAbortBodyAas	"#![BeginSeg 1]保存液の添加終了とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・保存液の添加が取り消されます。#![EndSeg 2]#![BeginSeg 3]回路セットを取り外して廃棄してください。\n#![EndSeg 3]#![BeginSeg 4]・保存液の追加が必要な場合があります。#![EndSeg 4]#![BeginSeg 5]詳しい手順は取扱説明書を参照してください。#![EndSeg 5]"	0 0 0	0x0101	12	117	614	183	20	1
 textAbortBodyAirInPlasmaLine	"#![BeginSeg 1]エアーブロック回復とは、次のことを意味します:\n#![EndSeg 1]#![BeginSeg 2]・血小板ラインまたは血漿ラインにエアーが認められます。\n#![EndSeg 2]#![BeginSeg 3]・回復手順が完了するまで採血を一時中断します。#![EndSeg 3]"	0 8 0	0x0101	12	117	614	183	20	1
