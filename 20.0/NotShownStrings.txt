@@ -1,0 +1,47 @@
+Strings below are no longer used, but the string.info file is frozen.
+
+7/8/16
+textStatDispTestComplete
+
+
+//--------------------------7/11/2016
+textProdVerifReasonSalineRinsebackNotCompleted                    "#![BeginSeg 1]Saline rinseback not completed#![EndSeg 1]"                                                                                        255 255 255 0x0101    54   146   182    14  12  1  approved
+textDataLabelRs1PostHgbJP                                         "#![BeginSeg 1]Post hemoglobin#![EndSeg 1]"                                                                                                       74  74  74 0x0101  10  218 175 35  14    1  approved
+textDataUnitsRs1GPerDlJP                                          "#![BeginSeg 1]g/dL#![EndSeg 1]"                                                                                                                  255 255 255 0x0101 260 218 55  35  14    1  approved
+textMiscClampSampleBag                                            "#![BeginSeg 1]Close the clamp on the sample bag line#![EndSeg 1]"                                                                                255 247  57 0x0111    15   125   610     0  18    1  approved
+
+
+//--------------------------7/12/2016
+textMiscInstructionAasRemoveTubingSet
+textMiscPowerdownWatchdogFailure
+
+
+//--------------------------7/13/2016
+textStatAasSealDetach                                    "#![BeginSeg 1]Seal and detach the product and additive solution bags#![EndSeg 1]"                                                                     255 255 255 0x0111     0     0   640     0  18  1  approved
+textStatAasRemoveDisp                                    "#![BeginSeg 1]Remove the tubing set#![EndSeg 1]"                                                                                                      255 255 255 0x0111     0     0   640     0  18  1  approved
+textButtonLabelCfgLeftProcBloodDiversion                 "#![BeginSeg 1]Blood diversion#![EndSeg 1]"                                                                                                            255 247  57 0x0111    30   295   150    70  14    1  approved
+textMiscUnitsDonorVitalsTbv                              "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"                                                                                              255 255 255 0x0111     0     0   640     0  18    1  approved
+textStatDoseRangeError                                   "#![BeginSeg 1]The RBC dose is outside the recommended storage range#![EndSeg 1]"                                                                      165   8   0 0x0111     0     0   640     0  18    1  approved
+textDataLabelDonDlHgb                                    "#![BeginSeg 1]Hemoglobin#![EndSeg 1]"                                                                                                                 255 255 255 0x0121   242   347   164    24  18    1  approved
+textStatBarcodeReview                                    "#![BeginSeg 1]Review values#![EndSeg 1]"                                                                                                              255 255 255 0x0111     0     0   640     0  18    1  approved
+textMiscCfgNoVolLimSelected                              "#![BeginSeg 1]Select a volume limit to proceed#![EndSeg 1]"                                                                                           255 247  57 0x0111     0    50   640     0  18  1  approved
+textStatDispTestComplete                                 "#![BeginSeg 1]Test completed#![EndSeg 1]"                                                                                                             255 255 255 0x0111     0     0   640     0  18  1  approved
+textButtonAlarmDisabledContinue                          "#![BeginSeg 1]Continue#![EndSeg 1]"                                                                                                                     239 239 239 0x0111   488   155   106    40  18    1  approved
+
+7/19/16
+textDataUnitsPredDuration
+
+//--------------------------7/25/2016
+textAppAlarmStatusActive   "#![BeginSeg 1]Yes#![EndSeg 1]"   0 0  0 0x0111     0     0   0    0  18    1  approved
+textAppAlarmStatusInactive   "#![BeginSeg 1]--#![EndSeg 1]"   0 0  0 0x0111     0     0   0     0  18    1  approved
+
+//--------------------------7/26/2016
+textMiscCfgPltIndicator                                      "#![BeginSeg 1]PLT #![EndSeg 1]"                                                                                                                  255 247  57 0x0111     2     0    53    48  14    1  approved
+
+//--------------------------7/27/2016
+//Will not display for japanese volume limits screen because jp units are metric 
+textButtonLabelCfgDonLimVolWeightSettingLb                     "#![BeginSeg 2]Weight (lb)#![EndSeg 2]"                                   255 247  57 0x0112   185    105   100     50  14    1  approved
+
+8/26/16
+textAlarmBodyNoGraphicPlsWbcContaminationVerify2
+textAlarmBodyNoGraphicPltWbcContaminationContinue2
