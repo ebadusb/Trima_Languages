@@ -50,7 +50,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Albany AMT Custom"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xf9b356be"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x7f1f41e"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Türkçe"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"15"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -1637,8 +1637,8 @@ textProdVerifReasonHighDeltaHct	"#![BeginSeg 1]Donör hematokrit/hemoglobin değ
 textProdVerifReasonHighPltConc	"#![BeginSeg 1]Trombosit konsantrasyonu çok yüksek#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonLowPltConc	"#![BeginSeg 1]Saptanan konsantrasyon çok düşük#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPasStartTimeDelay	"#![BeginSeg 1]Solüsyon ekleme gecikti#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
-textProdVerifReasonPcoDeviates	"#![BeginSeg 1]Plazma kontaminasyonu aralığın dışında#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
-textProdVerifReasonPcoMayDeviate	"#![BeginSeg 1]Öngörülen plazma kontaminasyonu aralığın dışında olabilir#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPcoDeviates	"#![BeginSeg 1]Plazma içeriği aralığın dışında#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPcoMayDeviate	"#![BeginSeg 1]Öngörülen plazma içeriği aralığın dışında olabilir#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPlasmaRinsebackNotCompleted	"#![BeginSeg 1]Plazma geri verişi tamamlanmadı#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]Öngörülen konsantrasyon çok yüksek#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]Öngörülen konsantrasyon çok düşük#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
