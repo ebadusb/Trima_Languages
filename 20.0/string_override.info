@@ -3,7 +3,7 @@ languageId                      "Override"                     255 255 255 0x000
 languageIndex                   "10000"                         0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x17a7e331"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "7ba1560d"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -21,7 +21,7 @@ forbiddenEndCharList            "（(「｢［[‘“・"                       
 # NOTE: the enums below have to be right at the first column or the parse will skip them (very annoying)
 ###########################################################################################################################################################################
 
-textProgBarLoad                                               "#![BeginSeg 1]Load#![EndSeg 1]"     255 247  57 0x0101    30    50     0     0  16    1  approved
+textProgBarLoad                                               "#![BeginSeg 1]Load#![EndSeg 1]"       255 247  57 0x0101    30    50     0     0  12    1  approved
 
 
 ######################################
@@ -41,4 +41,20 @@ textOverrideEORBarcodeAlt2                                            ""     255
 textOverrideEORBarcodeAlt3                                            ""     255 247  57 0x0101    110    240     400     50   9    0  approved
 textOverrideEORBarcodeAlt4                                            ""     255 247  57 0x0101    110    290     400     50   9    0  approved
 textOverrideEORBarcodeAlt5                                            ""     255 247  57 0x0101    110    340     400     50   9    0  approved
+
+textOverrideBarcodeCategory1                                           ""     255 247  57 0x0101   110    140     400     20   9    0  approved
+textOverrideBarcodeCategory2                                           ""     255 247  57 0x0101   110    190     400     20   9    0  approved
+textOverrideBarcodeCategory3                                           ""     255 247  57 0x0101   110    240     400     20   9    0  approved
+textOverrideBarcodeCategory4                                           ""     255 247  57 0x0101   110    290     400     20   9    0  approved
+textOverrideBarcodeCategory5                                           ""     255 247  57 0x0101   110    340     400     20   9    0  approved
+
+textOverrideBarcodeCategoryOperator1                                   ""     255 247  57 0x0101   340    140     175     20   9    0  approved
+textOverrideBarcodeCategoryOperator2                                   ""     255 247  57 0x0101   340    190     175     20   9    0  approved
+textOverrideBarcodeCategoryOperator3                                   ""     255 247  57 0x0101   340    240     175     20   9    0  approved
+textOverrideBarcodeCategoryOperator4                                   ""     255 247  57 0x0101   340    290     175     20   9    0  approved
+textOverrideBarcodeCategoryOperator5                                   ""     255 247  57 0x0101   340    340     175     20   9    0  approved
+
+textOverrideBarcodeCategoryPopup                                       ""     255 247  57 0x0111   115     15     412     20   9    0  approved
+textOverrideBarcodeScanPopup                                           ""     255 247  57 0x0111   115     44     410     77  14    0  approved
+
 STRING_FILE_TABLE_END
