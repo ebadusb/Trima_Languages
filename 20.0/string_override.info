@@ -3,7 +3,7 @@ languageId                      "Override"                     255 255 255 0x000
 languageIndex                   "10000"                         0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "2b5a2c78"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "aa6f1a15"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -58,5 +58,10 @@ textOverrideBarcodeCategoryOperator5                                   ""     25
 
 textOverrideBarcodeCategoryPopup                                       ""     255 247  57 0x0111   115     15     412     20   9    0  approved
 textOverrideBarcodeScanPopup                                           ""     255 247  57 0x0111   115     44     410     77  14    0  approved
+
+textOverrideButtonLabelCfgDonLimPltFemaleDonor                         "#![BeginSeg 2]Volume (mL)\nFemale donors#![EndSeg 2]"                                     255 247  57 0x0112    166     210   135    45  14    1  unapproved
+textOverrideButtonLabelCfgDonLimPlsFemaleDonor                         "#![BeginSeg 2]Volume (mL)\nFemale donors#![EndSeg 2]"                                     255 247  57 0x0112    166     310   135    45  14    1  unapproved
+textOverrideButtonLabelCfgDonLimPltMaleDonor                           "#![BeginSeg 2]Volume (mL)\nMale donors#![EndSeg 2]"                                     255 247  57 0x0112    310     210   135    45  14    1  unapproved
+textOverrideButtonLabelCfgDonLimPlsMaleDonor                           "#![BeginSeg 2]Volume (mL)\nMale donors#![EndSeg 2]"                                     255 247  57 0x0112    310     310   135    45  14    1  unapproved
 
 STRING_FILE_TABLE_END
