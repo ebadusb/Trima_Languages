@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x6df1d92c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "ea6850cc"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1948,7 +1948,7 @@ textButtonTimerOk                "#![BeginSeg 1]OK#![EndSeg 1]"       255 247  5
 
 textTitlePopupTimer              "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"  255 247 57 0x0111     0     0   400     32  18    0  approved
 textBodyPopupTimer               "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"  255 247 57 0x0111     20   20   335    115  18    0  approved
-textPopupTimerTime               "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"  255 255 255 0x0111     9   26   367     120  36    1  approved
+textPopupTimerTime               "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"  255 255 255 0x0111     140   90   100     65  36    1  approved
 
 
 textCftPrdRangeColLbl            "#![BeginSeg 1]Product\nrange#![EndSeg 1]"					        255 247  57 0x0112    20   65   80    60  12    1  approved
@@ -2043,6 +2043,37 @@ textProdNameAmapPltRngFormat    "#![BeginSeg 1]#!{dataItem1} - #!{dataItem2}#![E
 textGenericDataFomat     "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"         255 247  57  0x0111     0    0    60    36  14    0  approved
 
 textEmptyFormatPlasmaRinsebackVol          "#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"   0 0 0 0x0111   0   0    34    30  12    0  approved
+
+textEORBarcode1                                               ""     255 247  57 0x0101    110    140     400     50  14    0  approved
+textEORBarcode2                                               ""     255 247  57 0x0101    110    190     400     50  14    0  approved
+textEORBarcode3                                               ""     255 247  57 0x0101    110    240     400     50  14    0  approved
+textEORBarcode4                                               ""     255 247  57 0x0101    110    290     400     50  14    0  approved
+textEORBarcode5                                               ""     255 247  57 0x0101    110    340     400     50  14    0  approved
+textEORBarcodeAlt1                                            ""     255 247  57 0x0101    110    140     400     50   9    0  approved
+textEORBarcodeAlt2                                            ""     255 247  57 0x0101    110    190     400     50   9    0  approved
+textEORBarcodeAlt3                                            ""     255 247  57 0x0101    110    240     400     50   9    0  approved
+textEORBarcodeAlt4                                            ""     255 247  57 0x0101    110    290     400     50   9    0  approved
+textEORBarcodeAlt5                                            ""     255 247  57 0x0101    110    340     400     50   9    0  approved
+
+textBarcodeCategory1                                           ""     255 247  57 0x0101   110    140     400     20   9    0  approved
+textBarcodeCategory2                                           ""     255 247  57 0x0101   110    190     400     20   9    0  approved
+textBarcodeCategory3                                           ""     255 247  57 0x0101   110    240     400     20   9    0  approved
+textBarcodeCategory4                                           ""     255 247  57 0x0101   110    290     400     20   9    0  approved
+textBarcodeCategory5                                           ""     255 247  57 0x0101   110    340     400     20   9    0  approved
+
+textBarcodeCategoryOperator1                                   ""     255 247  57 0x0101   340    140     175     20   9    0  approved
+textBarcodeCategoryOperator2                                   ""     255 247  57 0x0101   340    190     175     20   9    0  approved
+textBarcodeCategoryOperator3                                   ""     255 247  57 0x0101   340    240     175     20   9    0  approved
+textBarcodeCategoryOperator4                                   ""     255 247  57 0x0101   340    290     175     20   9    0  approved
+textBarcodeCategoryOperator5                                   ""     255 247  57 0x0101   340    340     175     20   9    0  approved
+
+textBarcodeCategoryPopup                                       ""     255 247  57 0x0111   115     15     412     20   9    0  approved
+textBarcodeScanPopup                                           ""     255 247  57 0x0111   115     44     410     77  14    0  approved
+
+textButtonLabelCfgDonLimPltFemaleDonor                         "#![BeginSeg 2]Volume (mL)\nFemale donors#![EndSeg 2]"                                     255 247  57 0x0112    166     210   135    45  14    1  unapproved
+textButtonLabelCfgDonLimPlsFemaleDonor                         "#![BeginSeg 2]Volume (mL)\nFemale donors#![EndSeg 2]"                                     255 247  57 0x0112    166     310   135    45  14    1  unapproved
+textButtonLabelCfgDonLimPltMaleDonor                           "#![BeginSeg 2]Volume (mL)\nMale donors#![EndSeg 2]"                                     255 247  57 0x0112    310     210   135    45  14    1  unapproved
+textButtonLabelCfgDonLimPlsMaleDonor                           "#![BeginSeg 2]Volume (mL)\nMale donors#![EndSeg 2]"                                     255 247  57 0x0112    310     310   135    45  14    1  unapproved
 
 #################### COLOR PLACEHOLDERS ###################
 
