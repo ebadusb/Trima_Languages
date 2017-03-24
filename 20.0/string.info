@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "ea6850cc"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x6e21ca25"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1699,6 +1699,8 @@ textTier1ConcentrationLimit                 "#![BeginSeg 1]Tier 1 Concentration 
 textAdjustDrawTickMarks                     "#![BeginSeg 1]Run: Increment Display#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
 textNoNeedleLineClamp                       "#![BeginSeg 1]Set: No needle line clamp#![EndSeg 1]"                      0     0    0 0x0001     10     2   280     25  10    1  approved
 textJapanPASGraphics                        "#![BeginSeg 1]Set: Japan PAS Graphics#![EndSeg 1]"                                     0     0    0 0x0001     10     2   280     25  10    1  approved
+textChamberClearingLimit                    "#![BeginSeg 1]Pred: Chamber Clearing Limit#![EndSeg 1]"                                     0     0    0 0x0001     10     2   280     25  10    1  unapproved
+textPPCCollectTiming                        "#![BeginSeg 1]Pred: PPC Collect Timing#![EndSeg 1]"                                     0     0    0 0x0001     10     2   280     25  10    1  unapproved
 
 textSoftOptInvalidKeyUser                   "#![BeginSeg 1]Unauthorized User#![EndSeg 1]"                                       255 247  57 0x0111     0     0   640     0  18    1  approved
 textSoftOptInvalidKeySerial                 "#![BeginSeg 1]Invalid serial number#![EndSeg 1]"                                   255 247  57 0x0111     0     0   640     0  18    1  approved
