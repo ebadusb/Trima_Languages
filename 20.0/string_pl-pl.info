@@ -50,7 +50,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Albany AMT Custom"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x1bfcb9af"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x2d571293"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Polski"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"12"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -298,6 +298,17 @@ textAppAlarmStatusActive	"#![BeginSeg 1]Tak#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18
 textAppAlarmStatusInactive	"#![BeginSeg 1]--#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textAutoFlowCfgBtn	"#![BeginSeg 1]Automatyczny przepływ#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	1
+textBarcodeCategory1	""	255 247 57	0x0101	110	140	400	20	9	0
+textBarcodeCategory2	""	255 247 57	0x0101	110	190	400	20	9	0
+textBarcodeCategory3	""	255 247 57	0x0101	110	240	400	20	9	0
+textBarcodeCategory4	""	255 247 57	0x0101	110	290	400	20	9	0
+textBarcodeCategory5	""	255 247 57	0x0101	110	340	400	20	9	0
+textBarcodeCategoryOperator1	""	255 247 57	0x0101	340	140	175	20	9	0
+textBarcodeCategoryOperator2	""	255 247 57	0x0101	340	190	175	20	9	0
+textBarcodeCategoryOperator3	""	255 247 57	0x0101	340	240	175	20	9	0
+textBarcodeCategoryOperator4	""	255 247 57	0x0101	340	290	175	20	9	0
+textBarcodeCategoryOperator5	""	255 247 57	0x0101	340	340	175	20	9	0
+textBarcodeCategoryPopup	""	255 247 57	0x0111	115	15	412	20	9	0
 textBarcodePopupEmpty	""	0 0 0	0x0111	10	40	400	100	14	0
 textBarcodePopupEmptyAlt	""	0 0 0	0x0111	10	40	400	100	10	0
 textBarcodeReview1	""	255 255 255	0x0111	0	0	640	0	18	0
@@ -310,6 +321,7 @@ textBarcodeReview4	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview4Alt	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5Alt	""	255 255 255	0x0111	0	0	640	0	18	0
+textBarcodeScanPopup	""	255 247 57	0x0111	115	44	410	77	14	0
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textBodyAlarmDrawLineOcclusion	"#![BeginSeg 1]Zapisz numer alarmu i tekst opisujący stan.\n\n#![EndSeg 1]#![BeginSeg 2]System wykrył nieusuwalną przyczynę alarmu.\n\n#![EndSeg 2]#![BeginSeg 3]- Dotknij 'Zakończ procedurę'\n#![EndSeg 3]"	0 0 0	0x0100	15	110	455	300	18	1
 textBodyPopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	20	20	335	115	18	0
@@ -552,6 +564,10 @@ textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]Objętość (l)#![EndSeg 2
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]ml/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]Objętość (ml)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	50	14	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]Objętość (ml)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	50	14	1
+textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
+textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
+textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
+textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
 textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]Całkowita objętość krwi (%)#![EndSeg 2]"	255 247 57	0x0112	170	210	135	45	14	1
 textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]Całkowita objętość krwi (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	110	45	13	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]Objętość (ml)\n> waga#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	14	1
@@ -956,6 +972,16 @@ textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#!
 textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
 textDisplayResidualVolumes	"#![BeginSeg 1]Po: Objętości rezydualne#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textDonorBMIOutOfRange	"#![BeginSeg 1]Sprawdź, czy nie ma błędów we wprowadzonych wartościach wzrostu\ni wagi#![EndSeg 1]"	255 247 57	0x0110	85	45	220	200	18	1
+textEORBarcode1	""	255 247 57	0x0101	110	140	400	50	14	0
+textEORBarcode2	""	255 247 57	0x0101	110	190	400	50	14	0
+textEORBarcode3	""	255 247 57	0x0101	110	240	400	50	14	0
+textEORBarcode4	""	255 247 57	0x0101	110	290	400	50	14	0
+textEORBarcode5	""	255 247 57	0x0101	110	340	400	50	14	0
+textEORBarcodeAlt1	""	255 247 57	0x0101	110	140	400	50	9	0
+textEORBarcodeAlt2	""	255 247 57	0x0101	110	190	400	50	9	0
+textEORBarcodeAlt3	""	255 247 57	0x0101	110	240	400	50	9	0
+textEORBarcodeAlt4	""	255 247 57	0x0101	110	290	400	50	9	0
+textEORBarcodeAlt5	""	255 247 57	0x0101	110	340	400	50	9	0
 textEmpty	""	0 0 0	0x0111	0	0	640	0	14	0
 textEmptyColorBlack	""	0 0 0	0x0111	0	0	0	0	0	0
 textEmptyColorDarkRed	""	165 8 0	0x0111	0	0	0	0	0	0
@@ -1583,7 +1609,7 @@ textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	0
 textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	0
 textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	0
 textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	0
-textPopupTimerTime	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 255 255	0x0111	9	26	367	120	36	1
+textPopupTimerTime	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 255 255	0x0111	140	90	100	65	36	1
 textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]Przew: Uwalnianie płytek krwi#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProcConfirmPopup	"#![BeginSeg 1]Przew: Potwierdzenie procedury#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProcPriorityLabel1	"1"	255 255 0	0x0100	22	205	59	35	14	1
