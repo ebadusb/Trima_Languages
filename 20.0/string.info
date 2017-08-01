@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xed9a0dbf"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xc81a1c4c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1025,8 +1025,8 @@ textMiscBloodTypeOPos                                    "#![BeginSeg 1]O+#![End
 textMiscBloodTypeONeg                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 255 255 0x0111   416   313   171    24  18    0  approved
 textListboxItemCfgBloodTypeOn                                    "#![BeginSeg 1]O-#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    0  approved
 textEmptyFormatCfgNumericTextFormatNull                            ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
-textEmptyFormatStatOperatorPrompt                        ""                                                                                                                       255 247  57 0x0111     0     0   640     25  18  0  approved
-textEmptyFormatAlarmOperatorPrompt                       ""                                                                                                                       255 247  57 0x0100    15   145   455    300  18  0   approved
+textEmptyFormatStatOperatorPrompt                        ""                                                                                                                       255 247  57 0x0111     0     0   477    32  16  0  unapproved
+textEmptyFormatAlarmOperatorPrompt                       ""                                                                                                                       255 247  57 0x0100    16    40   455   150  14   0   unapproved
 textEmptyFormatOperatorPromptButton1                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
 textEmptyFormatOperatorPromptButton2                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
 textEmptyFormatOperatorPromptButton3                     ""                                                                                                                       255 247  57 0x0111     0     0   640     0  14    0  approved
