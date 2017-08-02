@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xc81a1c4c"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x1ea1a879"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1827,23 +1827,26 @@ textBoxBarcodeLookupErrorDefault         "#![BeginSeg 1]Barcode lookup unsuccess
 textSBoxBarcodeUnableDonorEligibility    "#![BeginSeg 1]Unable to confirm donor eligibility#![EndSeg 1]"      255 247  57 0x0111     16   30   200 200  16    1  unapproved
 textBoxInvalidREFError                   "#![BeginSeg 1]Invalid REF#![EndSeg 1]"                              255 247  57 0x0111     16   30   200 200  16    1  unapproved
 textStatREFNotAMatch                     "#![BeginSeg 1]The REF does not match the selected procedure#![EndSeg 1]"   255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textButtonSkip                           "#![BeginSeg 1]Skip#![EndSeg 1]"                                     255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                
+textButtonSkip                           "#![BeginSeg 1]Skip#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  14    1  unapproved                                                                                
 textBarcodeDeleteBox                     "#![BeginSeg 1]Confirm barcode deletion#![EndSeg 1]"                 255 247  57 0x0110     16    30    200 200   18    1  unapproved
 textBarcodeDeleteBoxConfirmButton        "#![BeginSeg 1]Confirm#![EndSeg 1]"                                    255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                    
 textBarcodeDelteBoxCancelButton          "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                     
 textBarcodeSkipBoxConfirm                "#![BeginSeg 1]Confirm barcode skip#![EndSeg 1]"                 255 247  57 0x0110     16    30    200 200   18    1  unapproved
 textBarcodeSkipBoxConfirmButton        "#![BeginSeg 1]Close#![EndSeg 1]"                                    255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                    
 textBarcodeSkipBoxCancelButton          "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                     
-textMultiBarcodeCount                    "#![BeginSeg 1]#!{dataItem1} of {dataItem2}#![EndSeg 1]"             255 247  57 0x0111     300   200   640     0  18    1  unapproved
+textMultiBarcodeCount                    "#![BeginSeg 1]#!{dataItem1} of {dataItem2}#![EndSeg 1]"             255 247  57 0x0111     380   40   115    30  14    1  unapproved
 textBarcodeStatusSkipped                 "#![BeginSeg 1]Skipped#![EndSeg 1]"                                  255 247  57 0x0112     0     0     640    15  14    1  unapproved                                                                                
 textEmptyFormatBarcodeTimeStamp          "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"              255 247  57 0x0112     0     0     86     15  14    1  unapproved
 textBoxEditBarcode                       "#![BeginSeg 1]Edit barcode#![EndSeg 1]"                             255 247  57 0x0111     0     0     640    30  18    1  unapproved
-textBoxScanBarcode                       "#![BeginSeg 1]Scan barcode#![EndSeg 1]"                             255 247  57 0x0111     0     0     640    30  18    1  unapproved
+textBoxScanBarcode                       "#![BeginSeg 1]Scan barcode#![EndSeg 1]"                             255 247  57 0x0111     0     0     502    29  18    1  unapproved
 textBarcodeEditBoxCancelButton           "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                     
 textBarcodeScanBoxCancelButton           "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                     
 textBarcodeEditBoxDeleteButton           "#![BeginSeg 1]Delete#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                     
 textInfoEventLookupFail                  "#![BeginSeg 1][Lookup failed]#![EndSeg 1]"                          255 247  57 0x0111     0     0     640     0  14    1  unapproved                                                                                     
 textStatAuthEventsScan                   "#![BeginSeg 1]Scan the operator ID#![EndSeg 1]"                     255 247  57 0x0111     0     0     640     0  18  1  unapproved
+textBarcodeScanCategoryFormat            ""																	  255 247  57 0x0001    20    40     375    30  14  0  unapproved
+textBarcodeScanNameFormat                ""		    													      255 247  57 0x0001    20    70     375    30  14  0  unapproved
+textBarcodeScanErrorFormat               ""		    													      255 247  57 0x0111    85    75     350    60  16  0  unapproved
 
 textAppAlarmStatusActive   "#![BeginSeg 1]Yes#![EndSeg 1]"   0 0  0 0x0111     0     0   0    0  18    1  approved
 textAppAlarmStatusInactive   "#![BeginSeg 1]--#![EndSeg 1]"   0 0  0 0x0111     0     0   0     0  18    1  approved
