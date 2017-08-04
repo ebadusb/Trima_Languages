@@ -45,3 +45,21 @@ textButtonLabelCfgDonLimVolWeightSettingLb                     "#![BeginSeg 2]We
 8/26/16
 textAlarmBodyNoGraphicPlsWbcContaminationVerify2
 textAlarmBodyNoGraphicPltWbcContaminationContinue2
+
+---------------------7/31/2017
+textEORBarcode2                                               ""     255 247  57 0x0101    110    190     400     50  14    0  approved
+textEORBarcode3                                               ""     255 247  57 0x0101    110    240     400     50  14    0  approved
+textEORBarcode4                                               ""     255 247  57 0x0101    110    290     400     50  14    0  approved
+textEORBarcode5                                               ""     255 247  57 0x0101    110    340     400     50  14    0  approved
+textEORBarcodeAlt2                                            ""     255 247  57 0x0101    110    190     400     50   9    0  approved
+textEORBarcodeAlt3                                            ""     255 247  57 0x0101    110    240     400     50   9    0  approved
+textEORBarcodeAlt4                                            ""     255 247  57 0x0101    110    290     400     50   9    0  approved
+textEORBarcodeAlt5                                            ""     255 247  57 0x0101    110    340     400     50   9    0  approved
+textBarcodeCategory2                                           ""     255 247  57 0x0101   110    190     400     20   9    0  approved
+textBarcodeCategory3                                           ""     255 247  57 0x0101   110    240     400     20   9    0  approved
+textBarcodeCategory4                                           ""     255 247  57 0x0101   110    290     400     20   9    0  approved
+textBarcodeCategory5                                           ""     255 247  57 0x0101   110    340     400     20   9    0  approved
+textBarcodeCategoryOperator2                                   ""     255 247  57 0x0101   340    190     175     20   9    0  approved
+textBarcodeCategoryOperator3                                   ""     255 247  57 0x0101   340    240     175     20   9    0  approved
+textBarcodeCategoryOperator4                                   ""     255 247  57 0x0101   340    290     175     20   9    0  approved
+textBarcodeCategoryOperator5                                   ""     255 247  57 0x0101   340    340     175     20   9    0  approved

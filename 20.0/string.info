@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x1cdb5951"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xa1aa86af"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -2079,28 +2079,36 @@ textGenericDataFomat     "#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"         255 2
 
 textEmptyFormatPlasmaRinsebackVol          "#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"   0 0 0 0x0111   0   0    34    30  12    0  approved
 
-textEORBarcode1                                               ""     255 247  57 0x0101    110    140     400     50  14    0  approved
+textEORBarcode1                                               ""     255 247  57 0x0101    115    140     400     50  14    0  approved
 textEORBarcode2                                               ""     255 247  57 0x0101    110    190     400     50  14    0  approved
 textEORBarcode3                                               ""     255 247  57 0x0101    110    240     400     50  14    0  approved
 textEORBarcode4                                               ""     255 247  57 0x0101    110    290     400     50  14    0  approved
 textEORBarcode5                                               ""     255 247  57 0x0101    110    340     400     50  14    0  approved
-textEORBarcodeAlt1                                            ""     255 247  57 0x0101    110    140     400     50   9    0  approved
+textEORBarcodeAlt1                                            ""     255 247  57 0x0101    115    140     400     50   9    0  approved
 textEORBarcodeAlt2                                            ""     255 247  57 0x0101    110    190     400     50   9    0  approved
 textEORBarcodeAlt3                                            ""     255 247  57 0x0101    110    240     400     50   9    0  approved
 textEORBarcodeAlt4                                            ""     255 247  57 0x0101    110    290     400     50   9    0  approved
 textEORBarcodeAlt5                                            ""     255 247  57 0x0101    110    340     400     50   9    0  approved
 
-textBarcodeCategory1                                           ""     255 247  57 0x0101   110    140     400     20   9    0  approved
+textBarcodeCategory1                                           ""     255 247  57 0x0101   115    140     400     20   9    0  approved
 textBarcodeCategory2                                           ""     255 247  57 0x0101   110    190     400     20   9    0  approved
 textBarcodeCategory3                                           ""     255 247  57 0x0101   110    240     400     20   9    0  approved
 textBarcodeCategory4                                           ""     255 247  57 0x0101   110    290     400     20   9    0  approved
 textBarcodeCategory5                                           ""     255 247  57 0x0101   110    340     400     20   9    0  approved
 
-textBarcodeCategoryOperator1                                   ""     255 247  57 0x0101   340    140     175     20   9    0  approved
+textBarcodeCategoryOperator1                                   ""     255 247  57 0x0111   410    140     175     20   9    0  approved
 textBarcodeCategoryOperator2                                   ""     255 247  57 0x0101   340    190     175     20   9    0  approved
 textBarcodeCategoryOperator3                                   ""     255 247  57 0x0101   340    240     175     20   9    0  approved
 textBarcodeCategoryOperator4                                   ""     255 247  57 0x0101   340    290     175     20   9    0  approved
 textBarcodeCategoryOperator5                                   ""     255 247  57 0x0101   340    340     175     20   9    0  approved
+
+
+textBarcodeObjectTimeStampAm12Hr                                    "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"     255 247  57 0x0101   340    140     175     20   9    0  unapproved
+textBarcodeObjectTimeStampPm12Hr                                    "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"     255 247  57 0x0101   340    140     175     20   9    0  unapproved
+textBarcodeObjectTimeStamp24Hr                                     "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"     255 247  57 0x0101   340    140     175     20   9    0  unapproved
+textBarcodeObjectCount                                         ""     255 247  57 0x0101   8    2     175     20   9    0  unapproved
+textBarcodeObjectSkipped                                         "SKIPPED"     255 247  57 0x0101   340    140     175     20   9    0  unapproved
+textBarcodeObjectRemaining                                         ""     255 247  57 0x0101   340    340     175     20   9    0  unapproved
 
 textBarcodeCategoryPopup                                       ""     255 247  57 0x0111   115     15     412     20   9    0  approved
 textBarcodeScanPopup                                           ""     255 247  57 0x0111   115     44     410     77  14    0  approved
