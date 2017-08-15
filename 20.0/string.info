@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x4065c98"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x47eb6824"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1979,6 +1979,7 @@ textButtonTimerOk                "#![BeginSeg 1]OK#![EndSeg 1]"       255 247  5
 textButtonTimerPause             "#![BeginSeg 1]Pause#![EndSeg 1]"       255 247  57 0x0111      0     0   90     32  14    1  approved
 textButtonTimerResume            "#![BeginSeg 1]Resume#![EndSeg 1]"       255 247  57 0x0111      0     0   90     32  14    1  approved
 textButtonTimerCancel            "#![BeginSeg 1]Cancel#![EndSeg 1]"       255 247  57 0x0111      0     0   90     32  14    1  approved
+textButtonTimerContinue          "#![BeginSeg 1]Continue#![EndSeg 1]"    255 247  57 0x0111     0     0   90     32  14    1  unapproved
 
 textButtonIntervalTimerContinue          "#![BeginSeg 1]Continue#![EndSeg 1]"       255 247  57 0x0111      0     0   90     32  14    1  approved
 
