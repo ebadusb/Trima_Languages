@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x47eb6824"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xf9081049"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1162,7 +1162,7 @@ textProdVerifReasonLowPltConc                                "#![BeginSeg 1]Dete
 textProdVerifReasonPltConcBelowStorageRange    "#![BeginSeg 1]Predicted concentration too low#![EndSeg 1]"                                                                        255 255 255 0x0101    54   146   182    14  12    1  approved
 textProdVerifReasonPltConcAboveStorageRange    "#![BeginSeg 1]Predicted concentration too high#![EndSeg 1]"                                                                       255 255 255 0x0101    54   146   182    14  12    1  approved
 textProdVerifReasonWbcNotValidated                    "#![BeginSeg 1]Configured yield > 9.0#![EndSeg 1]"                                                                          255 255 255 0x0101    54   146   182    14  12    0  approved
-textProdVerifReasonPredictedVolmTooHigh             "#![BeginSeg 1]Reservoir monitoring indicates product volume may exceed configured volume#![EndSeg 1]"                        255 255 255 0x0101    54   146   182    14  12    1  unapproved
+textProdVerifReasonPredictedVolmTooHigh             "#![BeginSeg 1]Predicted volume too high#![EndSeg 1]"                                                                         255 255 255 0x0101    54   146   182    14  12    1  unapproved
 textMiscRunsumProdMoreInfo                                     "#![BeginSeg 1]Touch the text bars for more information#![EndSeg 1]"                                                                                 255 255 255 0x0101   345   218   270     0  12  1  approved
 textProdVerifReasonHeaderPurity                           "#![BeginSeg 1]Product purity may have been compromised for the following reasons:#![EndSeg 1]"                                                  255 255 255 0x0101   345   218   270     0  12    1  approved
 textProdVerifReasonHeaderPltYieldVol                 "#![BeginSeg 1]The platelet yield may not meet the configured value for the following reasons:#![EndSeg 1]"                                                    255 255 255 0x0101   345   218   270     0  12    1  approved
