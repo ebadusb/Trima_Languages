@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x827aa591"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xddc7ab6e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1853,6 +1853,7 @@ textStatAuthEventsScan                   "#![BeginSeg 1]Scan the operator ID#![E
 textBarcodeScanCategoryFormat            ""																	  255 247  57 0x0001    20     0     375    30  14  0  unapproved
 textBarcodeScanNameFormat                ""		    													      255 247  57 0x0001    20    20     375    30  14  0  unapproved
 textBarcodeScanErrorFormat               ""		    													      255 247  57 0x0111    85    25     350    60  16  0  unapproved
+textCategoryIconText                        ""                         49   8 123 0x0111   12    45    50    50  10    0  unapproved
 
 textAppAlarmStatusActive   "#![BeginSeg 1]Yes#![EndSeg 1]"   0 0  0 0x0111     0     0   0    0  18    1  approved
 textAppAlarmStatusInactive   "#![BeginSeg 1]--#![EndSeg 1]"   0 0  0 0x0111     0     0   0     0  18    1  approved
