@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xddc7ab6e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xb804eab7"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1825,15 +1825,16 @@ textStatAppTransferUnsuccessful          "#![BeginSeg 1]Transfer from Managing A
 textStatDonorInfoTransferUnsuccessful    "#![BeginSeg 1]Donor information transfer unsuccessful#![EndSeg 1]"  255 247  57 0x0111     0     0   640     0  18    1  approved
 textStatProcListTransferUnsuccessful     "#![BeginSeg 1]Procedure list transfer unsuccessful#![EndSeg 1]"     255 247  57 0x0111     0     0   640     0  18    1  approved
 textStatActionNotAllowed                 "#![BeginSeg 1]Action not allowed#![EndSeg 1]"                       255 247  57 0x0111     0     0   640     0  18    1  unapproved
-textBoxIncorrectSequence                 "#![BeginSeg 1]Incorrect barcode sequence#![EndSeg 1]"               255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textStatBarcodeNotRecognized             "#![BeginSeg 1]Barcode not recognized#![EndSeg 1]"                   255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textBoxBarcodeMatchError                 "#![BeginSeg 1]Barcode matching error#![EndSeg 1]"                   255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textBoxBarcodeLookupError                "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]"              255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textBoxBarcodeLookupErrorDefault         "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], default count used#![EndSeg 2]"              255 247  57 0x0111     16   30   200 200  16    1  unapproved
+textBoxIncorrectSequence                 "#![BeginSeg 1]Incorrect barcode sequence#![EndSeg 1]"               255 247  57 0x0110     85   55   350  60  16    1  unapproved
+textStatBarcodeNotRecognized             "#![BeginSeg 1]Barcode not recognized#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1  unapproved
+textBoxBarcodeMatchError                 "#![BeginSeg 1]Barcode matching error#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1  unapproved
+textBoxBarcodeLookupError                "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]"              255 247  57 0x0110     85   55   350  60  16    1  unapproved
+textBoxBarcodeLookupErrorDefault         "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], default count used#![EndSeg 2]"              255 247  57 0x0110     85   55   350  60  16    1  unapproved
 textSBoxBarcodeUnableDonorEligibility    "#![BeginSeg 1]Unable to confirm donor eligibility#![EndSeg 1]"      255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textBoxInvalidREFError                   "#![BeginSeg 1]Invalid REF#![EndSeg 1]"                              255 247  57 0x0111     16   30   200 200  16    1  unapproved
+textBoxInvalidREFError                   "#![BeginSeg 1]Invalid REF#![EndSeg 1]"                              255 247  57 0x0110     85   55   350  60  16    1  unapproved
 textStatREFNotAMatch                     "#![BeginSeg 1]The REF does not match the selected procedure#![EndSeg 1]"   255 247  57 0x0111     16   30   200 200  16    1  unapproved
-textButtonSkip                           "#![BeginSeg 1]Skip#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  14    1  unapproved                                                                                
+textButtonBarcodeCancel                  "#![BeginSeg 1]Cancel#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  18    1  unapproved                                                                                
+textButtonSkip                           "#![BeginSeg 1]Skip#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  18    1  unapproved                                                                                
 textBarcodeDeleteBox                     "#![BeginSeg 1]Confirm barcode deletion#![EndSeg 1]"                 255 247  57 0x0110     16    30    200 200   18    1  unapproved
 textBarcodeDeleteBoxConfirmButton        "#![BeginSeg 1]Confirm#![EndSeg 1]"                                    255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                    
 textBarcodeDelteBoxCancelButton          "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  unapproved                                                                                     
