@@ -50,7 +50,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xcac90d05"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xb6bce523"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Deutsch"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"2"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -138,7 +138,8 @@ textAlarmBodyNoGraphicPlsWbcContamination	"#![BeginSeg 1]Ein unerwartetes Ereign
 textAlarmBodyNoGraphicPlsWbcContaminationContinue	"#![BeginSeg 1]Taste 'Weiter' drücken, um den Verfahrensauswahlbildschirm aufzurufen.#![EndSeg 1]"	0 0 0	0x0100	15	240	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify	"#![BeginSeg 1]- Den Leukozytengehalt des Plasmapräparats überprüfen.#![EndSeg 1]"	239 74 16	0x0100	35	190	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify2	"#![BeginSeg 1]- Den Leukozytengehalt des Plasmapräparats überprüfen.#![EndSeg 1]"	239 74 16	0x0100	35	230	455	300	18	1
-textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]Das System hat eine niedrige Konzentration im Thrombozytenschlauch entdeckt.\n\n#![EndSeg 1]#![BeginSeg 2]- Wenn sich im Plasma- oder Thrombozytenschlauch keine Flüssigkeit befindet, Anpassungen für Luft im Schlauch vornehmen.\n\n#![EndSeg 2]#![BeginSeg 3]- Wenn im Präparatbeutel keine Thrombozyten zu sehen sind, die AK-Einstellung erhöhen.#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]Das System hat eine niedrige Konzentration im Thrombozytenschlauch entdeckt.\n\n#![EndSeg 1]#![BeginSeg 2]- Sicherstellen, dass die Schläuche von der Kassette zu den Präparatbeuteln nicht abgeklemmt oder blockiert sind.\n\n#![EndSeg 2]#![BeginSeg 3]- Wenn sich im Plasma- oder Thrombozytenschlauch keine Flüssigkeit befindet, Anpassungen für Luft im Schlauch vornehmen.\n\n#![EndSeg 3]#![BeginSeg 4]- Wenn im Präparatbeutel keine Thrombozyten zu sehen sind, die AK-Einstellung erhöhen.#![EndSeg 4]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLowForPPC	"#![BeginSeg 1]Das System hat eine niedrige Konzentration im Thrombozytenschlauch entdeckt.\n\n#![EndSeg 1]#![BeginSeg 2]- Sicherstellen, dass die Schläuche von der Kassette zu den Präparatbeuteln nicht abgeklemmt oder blockiert sind.\n\n#![EndSeg 2]#![BeginSeg 3]- Wenn sich im Plasma- oder Thrombozytenschlauch keine Flüssigkeit befindet, Anpassungen für Luft im Schlauch vornehmen.#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
 textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Möglicherweise ist der Rotor der Thrombozytenpumpe nicht richtig geladen oder es befindet sich ein falscher Pumpenrotor im Gehäuse des Thrombozytenpumpenrotors.\n\n#![EndSeg 2]#![BeginSeg 3]- Das System aus- und wieder einschalten.\n#![EndSeg 3]#![BeginSeg 4]- Den Rotor erneut auf die Thrombozytenpumpe laden.\n\n#![EndSeg 4]#![BeginSeg 5]Falls das Problem wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Möglicherweise ist der Rotor der Thrombozytenpumpe nicht richtig geladen oder es befindet sich ein falscher Pumpenrotor im Gehäuse des Thrombozytenpumpenrotors.\n\n#![EndSeg 2]#![BeginSeg 3]- Das System aus- und wieder einschalten.\n#![EndSeg 3]#![BeginSeg 4]- Sicherstellen, dass sich der Pumpenrotor mit dem schwarzen Punkt im Gehäuse des Thrombozytenpumpenrotors befindet.\n\n#![EndSeg 4]#![BeginSeg 5]Falls das Problem wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	17	1
 textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]Ein unerwartetes Ereignis hat möglicherweise eine Leukozytenkontamination verursacht.#![EndSeg 1]"	0 0 0	0x0100	15	120	455	300	18	1
@@ -165,8 +166,8 @@ textAlarmBodyNoGraphicResReturnNoClamp	"#![BeginSeg 1]Der Rückflusszyklus war z
 textAlarmBodyNoGraphicResReturnOneClamp	"#![BeginSeg 1]Der Rückflusszyklus war zu lang. #![EndSeg 1]#![BeginSeg 2]Überprüfen:\n#![EndSeg 2]#![BeginSeg 3]- Der Rückflussschlauch ist luftfrei\n#![EndSeg 3]#![BeginSeg 4]- Alle Schläuche sitzen richtig in den Ventilen\n#![EndSeg 4]#![BeginSeg 5]- Der Rückflussschlauch ist nicht geknickt oder blockiert\n#![EndSeg 5]#![BeginSeg 6]- Der Schlauch des Entlüftungsbeutels ist nicht blockiert\n#![EndSeg 6]#![BeginSeg 7]- Die Klemme am Kanalschlauch ist offen\n#![EndSeg 7]#![BeginSeg 8]Falls im Rückflussschlauch Luft entdeckt wird, die Taste 'Beenden' drücken, um das Verfahren ohne Blutrückführung abzubrechen. #![EndSeg 8]#![BeginSeg 9]Wenn die Ventile richtig geladen sind und der Schlauch des Entlüftungsbeutels nicht blockiert ist, Taste 'Weiter' drücken.#![EndSeg 9]"	0 0 0	0x0100	15	120	455	300	17	1
 textAlarmBodyNoGraphicResReturnThreeClamp	"#![BeginSeg 1]Der Rückflusszyklus war zu lang. #![EndSeg 1]#![BeginSeg 2]Überprüfen:\n#![EndSeg 2]#![BeginSeg 3]- Der Rückflussschlauch ist luftfrei\n#![EndSeg 3]#![BeginSeg 4]- Alle Schläuche sitzen richtig in den Ventilen\n#![EndSeg 4]#![BeginSeg 5]- Der Rückflussschlauch ist nicht geknickt oder blockiert\n#![EndSeg 5]#![BeginSeg 6]- Der Schlauch des Entlüftungsbeutels ist nicht blockiert\n#![EndSeg 6]#![BeginSeg 7]- Die Klemmen an den Kanalschläuchen sind offen\n\n#![EndSeg 7]#![BeginSeg 8]Falls im Rückflussschlauch Luft entdeckt wird, die Taste 'Beenden' drücken, um das Verfahren ohne Blutrückführung abzubrechen. #![EndSeg 8]#![BeginSeg 9]Wenn die Ventile richtig geladen sind und der Schlauch des Entlüftungsbeutels nicht blockiert ist, Taste 'Weiter' drücken.#![EndSeg 9]"	0 0 0	0x0100	15	120	455	300	17	1
 textAlarmBodyNoGraphicReservoirFailedT0Test	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Das System hat früher als erwartet Flüssigkeit am unteren Füllstandsensor festgestellt.\n\n#![EndSeg 2]#![BeginSeg 3]- Spender abnehmen\n#![EndSeg 3]#![BeginSeg 4]- Das System aus- und wieder einschalten\n\n#![EndSeg 4]#![BeginSeg 5]Wenn der Alarm wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
-textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Möglicherweise ist der Rotor der Rückflusspumpe nicht richtig geladen.\n\n#![EndSeg 2]#![BeginSeg 3]- Das System aus- und wieder einschalten.\n#![EndSeg 3]#![BeginSeg 4]- Den Rotor erneut auf die Rückflusspumpe laden.\n\n#![EndSeg 4]#![BeginSeg 5]Falls das Problem wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
-textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Möglicherweise ist der Rotor der Rückflusspumpe nicht richtig geladen.\n\n#![EndSeg 2]#![BeginSeg 3]- Das System aus- und wieder einschalten.\n#![EndSeg 3]#![BeginSeg 4]- Den Rotor erneut auf die Rückflusspumpe laden.\n\n#![EndSeg 4]#![BeginSeg 5]Falls das Problem wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
+textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The return pump rotor may not be loaded correctly.\n\n#![EndSeg 2]#![BeginSeg 3]- Power off the system, then power it back on \n#![EndSeg 3]#![BeginSeg 4]- Reload the rotor onto the return pump\n\n#![EndSeg 4]#![BeginSeg 5]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 6]"	0 0 0	0x0100	15	110	455	300	18	1
+textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The return pump rotor may not be loaded correctly.\n\n#![EndSeg 2]#![BeginSeg 3]- Power off the system, then power it back on \n#![EndSeg 3]#![BeginSeg 4]- Reload the rotor onto the return pump\n\n#![EndSeg 4]#![BeginSeg 5]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 6]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicReturnTooLongAlarmA1	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Der erste Rückflusszyklus hat länger gedauert als erwartet.\n\n#![EndSeg 2]#![BeginSeg 3]- Taste 'Beenden' drücken.\n\n#![EndSeg 3]#![BeginSeg 4]Wenn der Alarm wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 4]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicSafetyNotResponding	"#![BeginSeg 1]Fehler beim Starten des Systems. #![EndSeg 1]#![BeginSeg 2]Alarmnummer und Statuszeilentext notieren. #![EndSeg 2]#![BeginSeg 3]Das System aus- und wieder einschalten. #![EndSeg 3]#![BeginSeg 4]Das System überprüft, ob der Spender abgenommen wurde, und hebt ggf. die Kassette an. #![EndSeg 4]#![BeginSeg 5]Wenn der Alarm wiederholt auftritt, den Kundendienst kontaktieren.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]Möglicherweise muss ein Ventil neu getestet werden. #![EndSeg 1]#![BeginSeg 2]Taste 'Weiter' drücken, um das Verfahren fortzusetzen. #![EndSeg 2]#![BeginSeg 3]Wenn das Ventil diesen Test wiederholt nicht besteht, das Verfahren beenden. #![EndSeg 3]#![BeginSeg 4]Den Kundendienst kontaktieren.#![EndSeg 4]"	0 0 0	0x0100	15	110	455	300	18	1
@@ -278,7 +279,7 @@ textAlarmBodyWithGraphicSalineEmpty	"#![BeginSeg 1]NaCl-Beutel anschließen und 
 textAlarmBodyWithGraphicSalineRinsebackConnect	"#![BeginSeg 1]Für die Blutrückführung ist NaCl-Lösung erforderlich.\n\n#![EndSeg 1]#![BeginSeg 2]Den NaCl-Beutel anschließen und Taste 'Weiter' drücken.#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]Das System hat einen Überlauf festgestellt und führt ein automatisches Fehlerbehebungsverfahren durch.\n\n#![EndSeg 1]#![BeginSeg 2]- Sicherstellen, dass der richtige HKT/Hb-Wert eingegeben wurde.#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	16	1
 textAlarmBodyWithGraphicSpilloverDetectedNoRec	"#![BeginSeg 1]Das System hat Erythrozyten im Thrombozytenschlauch entdeckt.\n\n#![EndSeg 1]#![BeginSeg 2]- Sicherstellen, dass der richtige HKT/Hb-Wert eingegeben wurde.#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]Die Stopptaste wurde gedrückt.\n\n#![EndSeg 1]#![BeginSeg 2]- Die Pumpen und die Zentrifuge wurden angehalten\n\n#![EndSeg 2]#![BeginSeg 3]Taste 'Weiter' drücken, um das Verfahren fortzusetzen.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]Die Stopptaste wurde gedrückt.\n\n#![EndSeg 1]#![BeginSeg 2]- Die Pumpen und die Zentrifuge wurden angehalten\n\n#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]Das System kann die Kassette nicht entladen. #![EndSeg 1]#![BeginSeg 2]Spender abnehmen. #![EndSeg 2]#![BeginSeg 3]Zum manuellen Entladen der Kassette die Anweisungen in der Bedienungsanleitung beachten.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]Das System kann eines der Ventile nicht an seine richtige Position bewegen. #![EndSeg 1]#![BeginSeg 2]Die Ventile auf Behinderungen prüfen. #![EndSeg 2]#![BeginSeg 3]Taste 'Weiter' drücken, um das Verfahren fortzusetzen.#![EndSeg 3]"	0 0 0	0x0100	15	120	240	300	18	1
 textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]Vorhersage: Flussratenanpassung#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -298,17 +299,31 @@ textAppAlarmStatusActive	"#![BeginSeg 1]Ja#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	
 textAppAlarmStatusInactive	"#![BeginSeg 1]--#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textAutoFlowCfgBtn	"#![BeginSeg 1]AutoFlow#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	1
-textBarcodeCategory1	""	255 247 57	0x0101	110	140	400	20	9	0
+textBarcodeAcCategoryIcon	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	0
+textBarcodeCategory1	""	255 247 57	0x0101	115	140	350	20	9	0
 textBarcodeCategory2	""	255 247 57	0x0101	110	190	400	20	9	0
 textBarcodeCategory3	""	255 247 57	0x0101	110	240	400	20	9	0
 textBarcodeCategory4	""	255 247 57	0x0101	110	290	400	20	9	0
 textBarcodeCategory5	""	255 247 57	0x0101	110	340	400	20	9	0
-textBarcodeCategoryOperator1	""	255 247 57	0x0101	340	140	175	20	9	0
+textBarcodeCategoryOperator1	""	255 247 57	0x0111	410	140	175	20	9	0
 textBarcodeCategoryOperator2	""	255 247 57	0x0101	340	190	175	20	9	0
 textBarcodeCategoryOperator3	""	255 247 57	0x0101	340	240	175	20	9	0
 textBarcodeCategoryOperator4	""	255 247 57	0x0101	340	290	175	20	9	0
 textBarcodeCategoryOperator5	""	255 247 57	0x0101	340	340	175	20	9	0
 textBarcodeCategoryPopup	""	255 247 57	0x0111	115	15	412	20	9	0
+textBarcodeCustomCategoryIcon	""	255 247 57	0x0111	9	0	50	50	20	0
+textBarcodeDeleteBox	"#![BeginSeg 1]Confirm barcode deletion#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeDeleteBoxConfirmButton	"#![BeginSeg 1]Confirm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeDelteBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxDeleteButton	"#![BeginSeg 1]Delete#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeNaclCategoryIcon	"#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	0
+textBarcodeObjectOverridden	"OVERRIDDEN"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectRemaining	""	255 247 57	0x0101	340	340	175	20	9	0
+textBarcodeObjectSkipped	"SKIPPED"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStamp24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStampAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStampPm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
 textBarcodePopupEmpty	""	0 0 0	0x0111	10	40	400	100	14	0
 textBarcodePopupEmptyAlt	""	0 0 0	0x0111	10	40	400	100	10	0
 textBarcodeReview1	""	255 255 255	0x0111	0	0	640	0	18	0
@@ -321,10 +336,25 @@ textBarcodeReview4	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview4Alt	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5Alt	""	255 255 255	0x0111	0	0	640	0	18	0
+textBarcodeScanBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeScanCategoryFormat	""	255 247 57	0x0001	20	0	375	30	14	0
+textBarcodeScanErrorFormat	""	255 247 57	0x0111	85	25	350	60	16	0
+textBarcodeScanNameFormat	""	255 247 57	0x0001	20	20	375	30	14	0
 textBarcodeScanPopup	""	255 247 57	0x0111	115	44	410	77	14	0
+textBarcodeSkipBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeSkipBoxConfirm	"#![BeginSeg 1]Confirm barcode skip#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeSkipBoxConfirmButton	"#![BeginSeg 1]Close#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeStatusSkipped	"#![BeginSeg 1]Skipped#![EndSeg 1]"	255 247 57	0x0112	0	0	640	15	14	1
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textBodyAlarmDrawLineOcclusion	"#![BeginSeg 1]Alarmnummer und Statuszeilentext notieren.\n\n#![EndSeg 1]#![BeginSeg 2]Nicht zu behebender Alarmzustand.\n\n#![EndSeg 2]#![BeginSeg 3]- Taste 'Beenden' drücken.\n#![EndSeg 3]"	0 0 0	0x0100	15	110	455	300	18	1
 textBodyPopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	20	20	335	115	18	0
+textBoxBarcodeLookupError	"#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupErrorDefault	"#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], default count used#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeMatchError	"#![BeginSeg 1]Barcode matching error#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxEditBarcode	"#![BeginSeg 1]Edit barcode#![EndSeg 1]"	255 247 57	0x0111	0	0	640	30	18	1
+textBoxIncorrectSequence	"#![BeginSeg 1]Incorrect barcode sequence#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxInvalidREFError	"#![BeginSeg 1]Invalid REF#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxScanBarcode	"#![BeginSeg 1]Scan barcode#![EndSeg 1]"	255 247 57	0x0111	0	0	502	29	18	1
 textButtonAbortAasExit	"#![BeginSeg 1]Zugabe der\nLagerlösungen\nbeenden#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]Luft\nim Schlauch\nbeseitigen#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortPasExit	"#![BeginSeg 1]Zugabe der\nTK-Lagerlösung\nbeenden#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
@@ -348,6 +378,7 @@ textButtonAlarmUnload	"#![BeginSeg 1]Entladen#![EndSeg 1]"	255 247 57	0x0111	0	0
 textButtonAlarmUnloadSet	"#![BeginSeg 1]Set entladen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeACMini	"#![BeginSeg 1]AK#![EndSeg 1]"	49 8 123	0x0100	18	7	35	35	10	1
 textButtonBarcodeAc	"#![BeginSeg 1]AK#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
+textButtonBarcodeCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
 textButtonBarcodeCategoryClear	"#![BeginSeg 1]Löschen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeInputClear	"#![BeginSeg 1]Löschen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
@@ -409,6 +440,7 @@ textButtonConfirmBoxCancel	"#![BeginSeg 1]Abbrechen#![EndSeg 1]"	255 247 57	0x01
 textButtonConfirmBoxConfirm	"#![BeginSeg 1]Bestätigen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
 textButtonConfirmInfo	"#![BeginSeg 1]Info bestätigen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonContinueSalineConnect	"#![BeginSeg 1]Weiter#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonControlBoxCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxClose	"#![BeginSeg 1]Schließen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxOverride	"#![BeginSeg 1]Über-\nschreiben#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonDonorInfo	"#![BeginSeg 1]Spenderinfo#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
@@ -436,6 +468,7 @@ textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]Gewicht des\nSpenders#![EndSeg 1
 textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]Gewicht des Spenders\n#!{dataItemWeightKg} kg#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]Gewicht des Spenders\n#!{dataItemWeightLb} lbs#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantLoadSystem	"#![BeginSeg 1]Set laden#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonIntervalTimerContinue	"#![BeginSeg 1]Continue#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonKeyboard0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
@@ -564,12 +597,12 @@ textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]Volumen (l)#![EndSeg 2]"	2
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]ml/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]Volumen (ml)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	50	14	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]Volumen (ml)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	50	14	1
-textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
-textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
-textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
-textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
+textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Volumen für weibliche\nSpender (ml)#![EndSeg 2]"	255 247 57	0x0112	166	314	135	45	12	1
+textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Volumen für männliche\nSpender (ml)#![EndSeg 2]"	255 247 57	0x0112	310	314	135	45	12	1
+textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Volumen für weibliche\nSpender (ml)#![EndSeg 2]"	255 247 57	0x0112	166	214	135	45	12	1
+textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Volumen für männliche\nSpender (ml)#![EndSeg 2]"	255 247 57	0x0112	310	214	135	45	12	1
 textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]GBV (%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	45	14	1
-textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]GBV (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	45	14	1
+textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]GBV (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	14	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]Volumen (ml)\n> Gewicht #![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	14	1
 textButtonLabelCfgDonLimVolSmallBucketSetting	"#![BeginSeg 1]Volumen (ml)\n≤ Gewicht #![EndSeg 1]"	255 247 57	0x0112	333	105	100	50	14	1
 textButtonLabelCfgDonLimVolWeightSettingKg	"#![BeginSeg 2]Gewicht (kg)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	50	14	1
@@ -606,7 +639,7 @@ textButtonLabelCfgLeftPlsVol3	"#![BeginSeg 1]Volumen des Plasmapräparats 3\n(ml
 textButtonLabelCfgLeftPlsVol4	"#![BeginSeg 1]Volumen des Plasmapräparats 4\n(ml)#![EndSeg 1]"	255 247 57	0x0111	345	100	135	70	14	1
 textButtonLabelCfgLeftPlsVol5	"#![BeginSeg 1]Volumen des Plasmapräparats 5\n(ml)#![EndSeg 1]"	255 247 57	0x0111	345	160	135	70	14	1
 textButtonLabelCfgLeftPlsVol6	"#![BeginSeg 1]Volumen des Plasmapräparats 6\n(ml)#![EndSeg 1]"	255 247 57	0x0111	345	220	135	70	14	1
-textButtonLabelCfgLeftPltAmapYsf	"#![BeginSeg 1]Ertragsbestimmungsfaktor#![EndSeg 1]"	255 247 57	0x0111	60	356	100	90	14	1
+textButtonLabelCfgLeftPltAmapYsf	"#![BeginSeg 1]Ertragskorrekturfaktor#![EndSeg 1]"	255 247 57	0x0111	60	356	100	90	14	1
 textButtonLabelCfgLeftPltYsf	"#![BeginSeg 1]Ertrags-\nkorrektur-\nfaktor#![EndSeg 1]"	255 247 57	0x0111	115	340	110	90	14	1
 textButtonLabelCfgLeftProcAirRemoval	"#![BeginSeg 1]Entlüftung des Präparatbeutels#![EndSeg 1]"	255 247 57	0x0111	350	295	150	70	14	1
 textButtonLabelCfgLeftProcBloodDiversion	"#![BeginSeg 1]Aufforderung zur Ableitung des Initialblutes#![EndSeg 1]"	255 247 57	0x0111	30	295	150	70	14	1
@@ -641,6 +674,7 @@ textButtonLongPredScrollPrev	"#![BeginSeg 1]Vorheriges Verfahren#![EndSeg 1]"	25
 textButtonLongResetMachine	"#![BeginSeg 1]Gerät zurücksetzen#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongRunSumm	"#![BeginSeg 1]Zusammen-\nfassung#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	14	1
 textButtonLongStartDraw	"#![BeginSeg 1]Entnahme starten#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonOverrideBoxCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxClose	"#![BeginSeg 1]Schließen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxConfirm	"#![BeginSeg 1]Bestätigen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]Volumen (ml) des Beutels mit Lagerlösung#![EndSeg 1]"	255 247 57	0x0111	503	158	110	80	14	1
@@ -648,11 +682,17 @@ textButtonPredConfCancel	"#![BeginSeg 1]Abbrechen#![EndSeg 1]"	255 247 57	0x0111
 textButtonPredConfConfirm	"#![BeginSeg 1]Bestätigen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonPredFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} ml/Min#![EndSeg 1]"	255 247 57	0x0021	2	0	110	32	12	1
 textButtonSelectRef	"#![BeginSeg 1]Artikelnummer\n(REF)#![EndSeg 1]"	255 247 57	0x0110	5	10	155	40	18	1
+textButtonSkip	"#![BeginSeg 1]Skip#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textButtonTimerCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerClose	"#![BeginSeg 1]Schließen#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerContinue	"#![BeginSeg 1]Continue#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerOk	"#![BeginSeg 1]OK#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerPause	"#![BeginSeg 1]Pause#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerRestart	"#![BeginSeg 1]Neu starten#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerResume	"#![BeginSeg 1]Resume#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStart	"#![BeginSeg 1]Start#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStop	"#![BeginSeg 1]Stopp#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textCategoryIconText	""	49 8 123	0x0111	12	45	50	50	10	0
 textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]Modus#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	14	1
 textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]Konzentration des Sammel-\npräparats\n(x 10  /µl)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	12	1
 textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	514	150	10	15	8	0
@@ -779,9 +819,10 @@ textCftPltAmapMaxYieldColLbl	"#![BeginSeg 1]Höchst-\nertrag\n(x 10   )#![EndSeg
 textCftPltAmapMinYieldExpColLbl	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	110	10	15	8	1
 textCftPltMinYieldColLbl	"#![BeginSeg 1]Mindest-\nertrag\n(x 10   )#![EndSeg 1]"	255 247 57	0x0112	90	65	120	60	12	1
 textCftPrdRangeColLbl	"#![BeginSeg 1]Präparat-\nbereich#![EndSeg 1]"	255 247 57	0x0112	20	65	80	60	12	1
+textChamberClearingLimit	"#![BeginSeg 1]Vorhersage: Grenzwert für Kammerspülung#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]Konfig.: TK-Lagerlösung als Plasmaersatz#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textConfigControlledBox	"#![BeginSeg 1]Konfiguration wird von der\nVerwaltungsanwendung gesteuert#![EndSeg 1]"	255 247 57	0x0110	5	35	202	200	18	1
-textConfigControlledBoxConfirm	"#![BeginSeg 1]'Bestätigen' drücken, um die von\nder Verwaltungsanwendung\nempfangene Konfiguration\nzu löschen#![EndSeg 1]"	255 247 57	0x0110	4	30	200	200	14	1
+textConfigControlledBox	"#![BeginSeg 1]Configuration is controlled by the Managing App#![EndSeg 1]"	255 247 57	0x0110	5	35	315	200	18	1
+textConfigControlledBoxConfirm	"#![BeginSeg 1]Confirm to clear configuration received from the Managing App#![EndSeg 1]"	255 247 57	0x0110	4	30	315	200	14	1
 textConfigProcNumber	"#![BeginSeg 1]Verfahren #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	265	70	100	30	14	1
 textConfigProcNumberAmap	"#![BeginSeg 1]Verfahren #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	10	70	100	30	14	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]Alle Artikelnummer-Einträge entfernen#![EndSeg 1]"	255 247 57	0x0110	0	45	640	0	18	1
@@ -972,12 +1013,12 @@ textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#!
 textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
 textDisplayResidualVolumes	"#![BeginSeg 1]Nachher: Restvolumina#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textDonorBMIOutOfRange	"#![BeginSeg 1]Größen- und Gewichtsangaben auf Fehler überprüfen#![EndSeg 1]"	255 247 57	0x0110	85	50	220	200	18	1
-textEORBarcode1	""	255 247 57	0x0101	110	140	400	50	14	0
+textEORBarcode1	"#![BeginSeg 1]#!{dataItem1} (#!{dataItem2})#![EndSeg 1]"	255 247 57	0x0101	115	140	335	30	14	0
 textEORBarcode2	""	255 247 57	0x0101	110	190	400	50	14	0
 textEORBarcode3	""	255 247 57	0x0101	110	240	400	50	14	0
 textEORBarcode4	""	255 247 57	0x0101	110	290	400	50	14	0
 textEORBarcode5	""	255 247 57	0x0101	110	340	400	50	14	0
-textEORBarcodeAlt1	""	255 247 57	0x0101	110	140	400	50	9	0
+textEORBarcodeAlt1	""	255 247 57	0x0101	115	140	350	50	9	0
 textEORBarcodeAlt2	""	255 247 57	0x0101	110	190	400	50	9	0
 textEORBarcodeAlt3	""	255 247 57	0x0101	110	240	400	50	9	0
 textEORBarcodeAlt4	""	255 247 57	0x0101	110	290	400	50	9	0
@@ -1003,12 +1044,13 @@ textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
 textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
 textEmptyFormatAlarmNumberData	"ALARMNUMMER #!{dataItem1}"	165 8 0	0x0111	15	0	230	30	18	1
 textEmptyFormatAlarmNumberDataFull	"ALARMNUMMER #!{dataItem1}"	165 8 0	0x0111	15	0	460	30	18	1
-textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	15	145	455	300	18	0
+textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	16	40	455	150	14	0
 textEmptyFormatAlarmVersionLocation	""	255 247 57	0x0101	10	419	465	12	10	0
 textEmptyFormatBarcodeScan	""	255 247 57	0x0101	77	132	390	31	14	0
 textEmptyFormatBarcodeScanAlt	""	255 247 57	0x0101	77	132	390	31	10	0
 textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	77	380	390	31	14	0
 textEmptyFormatBarcodeScanBottomAlt	""	255 247 57	0x0101	77	380	390	31	10	0
+textEmptyFormatBarcodeTimeStamp	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0112	400	20	86	15	14	1
 textEmptyFormatBloodTypeButton12Pt	""	255 255 255	0x0111	0	0	100	48	12	0
 textEmptyFormatBloodTypeButton14Pt	""	255 255 255	0x0111	0	0	100	48	14	0
 textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
@@ -1186,7 +1228,7 @@ textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
 textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
-textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	640	25	18	0
+textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	477	32	16	0
 textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textEnableVistaCfr11PinLogging	"#![BeginSeg 1]RD: Vista Tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textExtraPlasmaNoAc	"#![BeginSeg 1]Vorhersage: Volumina zusätzlicher Multiplasma-Verfahren ohne AK#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -1210,6 +1252,7 @@ textFormatPredPrevFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} ml/Min#![EndSeg 1]"	
 textFormatPredPrevPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	74 74 74	0x0101	107	190	13	11	8	0
 textFormatPredPrevTimeUnit	"#![BeginSeg 1]#!{dataItem1} Min#![EndSeg 1]"	74 74 74	0x0101	520	181	150	19	14	1
 textGenericDataFomat	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	60	36	14	0
+textInfoEventLookupFail	"#![BeginSeg 1][Lookup failed]#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textJapanFeatures	"#![BeginSeg 1]Japan-spezifische Funktionen#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textJapanPASGraphics	"#![BeginSeg 1]Set: Japan-spezifische TK-Lagerlösungsgrafiken#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	0
@@ -1595,12 +1638,14 @@ textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1]%#![EndSeg 1]"	239 239 239	0x011
 textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]g/dl#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textMultiBarcodeCount	"#![BeginSeg 1]#!{dataItem1} of #!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	380	0	120	30	14	1
 textMultiTextListBoxBlankItem1	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem2	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem3	""	255 255 255	0x0111	20	0	640	0	19	0
 textNewPredACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	200	387	100	35	14	1
 textNoNeedleLineClamp	"#![BeginSeg 1]Set: Keine Klemme am Nadelschlauch#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPIRPreferred	"#![BeginSeg 1]Vorhersage: Erweiterte Thrombozytenrückgewinnung#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPPCCollectTiming	"#![BeginSeg 1]Vorhersage: Sammlungsbeginn für plasmareduziertes Thrombozytenpräparat#![EndSeg 1]"	0 0 0	0x0001	10	2	265	25	10	1
 textPasBagBarcodeScanFeature	"#![BeginSeg 1]Verf.: Bestätigung des TK-Lagerlösungsbarcodes#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPlasmaDrainAlertBody	"#![BeginSeg 1]Das System hat bei der Plasmaübertragung keine Flüssigkeit am unteren Füllstandsensor festgestellt.\n\n#![EndSeg 1]#![BeginSeg 2]- Sicherstellen, dass der Plasmaschlauch nicht verstopft ist.#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	0
@@ -1669,6 +1714,7 @@ textProdVerifReasonPlasmaRinsebackNotCompleted	"#![BeginSeg 1]Blutrückführung 
 textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]Vorhergesagte Konzentration zu hoch#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]Vorhergesagte Konzentration zu niedrig#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltContamDetected	"#![BeginSeg 1]Mögliche Leukozytenkontamination vorhanden#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPredictedVolmTooHigh	"#![BeginSeg 1]Vorhergesagtes Volumen zu hoch#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]Kalibrationsfehler des Erythrozytendetektors#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcSpillover	"#![BeginSeg 1]Erythrozyten-Überlauf#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]Blutrückführung wurde nicht abgeschlossen#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
@@ -1694,6 +1740,7 @@ textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	0
 textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	0
 textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	0
 textRunScreenPlateletVolumeToggle	"#![BeginSeg 1]Verf.: TK-Ertrag/Volumen-Wahl#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textSBoxBarcodeUnableDonorEligibility	"#![BeginSeg 1]Unable to confirm donor eligibility#![EndSeg 1]"	255 247 57	0x0111	16	30	200	200	16	1
 textSelectBarcodeCategory	"#![BeginSeg 1]Barcodekategorie wählen#![EndSeg 1]"	255 247 57	0x0111	100	10	300	50	20	1
 textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Vorhersage: Volumen des Thrombozytenpräparats#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]RD: Periodic Logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
@@ -1713,6 +1760,7 @@ textStatAasClampChannel	"#![BeginSeg 1]Automatische Zugabe der Lagerlösung#![En
 textStatAasRemoveDisp	"#![BeginSeg 1]Schlauchset entfernen#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAasSealDetach	"#![BeginSeg 1]Präparat- und Lagerlösungsbeutel versiegeln und abnehmen#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAcPriming	"#![BeginSeg 1]AK-Vorfüllung...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatActionNotAllowed	"#![BeginSeg 1]Action not allowed#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAdjustingPltConc	"#![BeginSeg 1]Thrombozytenkonzentration wird eingestellt...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAlarm10MinPause	"#![BeginSeg 1]Zehn Minuten Pause#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarm10MinPauseFailure	"#![BeginSeg 1]Zehn Minuten Pause#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
@@ -1814,12 +1862,13 @@ textStatAppTransferSuccessful	"#![BeginSeg 1]Informationen von Verwaltungsanwend
 textStatAppTransferUnsuccessful	"#![BeginSeg 1]Übertragung der Informationen von der Verwaltungsanwendung fehlgeschlagen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	15	1
 textStatApsLow	"#![BeginSeg 3]Entnahmedruck zu niedrig#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAuthEvents	"#![BeginSeg 1]Barcode der Anwenderkennung eingeben#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAuthEventsScan	"#![BeginSeg 1]Scan the operator ID#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAwaitingAp2Xmit	"#![BeginSeg 1]Spenderinformationen werden übertragen...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcode2ManyScans	"#![BeginSeg 1]Eingabe kann nicht akzeptiert werden, da Wert bereits vorhanden#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeBadScan	"#![BeginSeg 1]Fehler beim Einlesen des Barcodes#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]Wert darf nicht gelöscht werden#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeMoveInput	"#![BeginSeg 1]Barcode-Wert identifizieren#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatBarcodeNotRecognized	"#![BeginSeg 1]Barcode nicht erkannt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatBarcodeNotRecognized	"#![BeginSeg 1]Barcode not recognized#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textStatBarcodeOK	"#![BeginSeg 1]Richtig: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatBarcodeReview	"#![BeginSeg 1]Werte überprüfen#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeRuleBroken	"#![BeginSeg 1]Falsch: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1876,6 +1925,7 @@ textStatPasEmpty	"#![BeginSeg 1]Den Beutel mit TK-Lagerlösung austauschen#![End
 textStatPasPause	"#![BeginSeg 1]Separate Zugabe von TK-Lagerlösung#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
 textStatProcListTransferUnsuccessful	"#![BeginSeg 1]Übertragung der Verfahrensliste fehlgeschlagen#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatRASEmptyWarnBarcodeAccepted	"#![BeginSeg 1]Barcode akzeptiert#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatREFNotAMatch	"#![BeginSeg 1]The REF does not match the selected procedure#![EndSeg 1]"	255 247 57	0x0111	16	30	200	200	16	1
 textStatRbc1Runsum	"#![BeginSeg 1]Überprüfung des Erythrozytenpräparats 1#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRbc2Runsum	"#![BeginSeg 1]Überprüfung des Erythrozytenpräparats 2#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRecoveryProcedure	"#![BeginSeg 1]Fehlerbehebungsverfahren wird ausgeführt#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
