@@ -1,0 +1,164 @@
+The ff strings were removed from the string info
+These are the strings that do not have any reference in GU2
+
+--------Removed on 2/15/2016-----------
+textMiscPredTimeLabel                      "#![BeginSeg 1]Duration#![EndSeg 1]"   255 255 255 0x0111   510   240   100    20  18    1  approved
+textAlarmBodyNoGraphicFirstCycleSoon                  "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the upper level reservoir sensor before expected. #![EndSeg 2]#![BeginSeg 3]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 3]#![BeginSeg 4]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor\n\n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicTooManyDrawCycleErrors                           "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]Too many reservoir draw cycle errors occured during the run.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor#![EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicGenericRepeatProblemA2                           "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 2]#![BeginSeg 3]- Disconnect the donor\n#![EndSeg 2]#![BeginSeg 3]- Power off the system and then power it back on\n\n#![EndSeg 3]#![BeginSeg 4]The system will verify that the donor is disconnected and raise the cassette when it is powered back on. #![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicFirstReturnLong                           "#![BeginSeg 1]Record the alarm number and status line text. #![EndSeg 1]#![BeginSeg 2]The system has detected fluid at the low-level sensor before expected. #![EndSeg 2]#![BeginSeg 3]The system has encountered a non-recoverable alarm.\n\n#![EndSeg 3]#![BeginSeg 4]- Unload and discard the tubing set\n\n#![EndSeg 4]#![BeginSeg 5]If the alarm occurs repeatedly, call your service representative for assistance.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicReturnLong                          "#![BeginSeg 1]The system has encountered a non-recoverable alarm. #![EndSeg 1]#![BeginSeg 2]The first return cycle took longer than expected.\n\n#![EndSeg 2]#![BeginSeg 3]- Touch 'End run'\n#![EndSeg 3]#![BeginSeg 4]- Disconnect the donor[EndSeg 4]" 0   0   0 0x0100    15   120   455    300  18  1  approved
+
+textAlarmBodyNoGraphicDisconnectTestFailx3BloodDivClamp                                   "#![BeginSeg 1]The system cannot verify that the donor is disconnected.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed completely\n#![EndSeg 3]#![BeginSeg 4]- The AC bag is sealed and detached\n#![EndSeg 4]#![BeginSeg 5]- The donor is disconnected\n\n#![EndSeg 5]#![BeginSeg 6]Touch 'Continue' to proceed.#![EndSeg 6]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyNoGraphicDisconnectTestFailx3MSSBloodDivClamp                                "#![BeginSeg 1]The system cannot verify that the donor is disconnected.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed completely\n#![EndSeg 3]#![BeginSeg 4]- The donor is disconnected\n\n#![EndSeg 4]#![BeginSeg 5]Touch 'Continue' to proceed.#![EndSeg 5]" 0   0   0 0x0100    15   120   455    300  18  1  unapproved
+
+textAlarmBodyWithGraphicAcLevel00NoFrangible                                    "#![BeginSeg 1]AC was not detected.\n\n#![EndSeg 1]#![BeginSeg 2]Verify:\n\n#![EndSeg 2]#![BeginSeg 3]1.  AC line is loaded\n\n#![EndSeg 3]#![BeginSeg 4]2.  AC bag is connected correctly\n\n#![EndSeg 4]#![BeginSeg 5]3.  AC bag is not empty#![EndSeg 5]" 0   0   0 0x0100    15   120   227    300  18  1  approved
+
+textAlarmBodyWithGraphicAcLevel02NoFrangible                                       "#![BeginSeg 1]2.  AC bag is connected correctly\n\n#![EndSeg 1]#![BeginSeg 2]- Verify AC bag is connected correctly\n#![EndSeg 2]#![BeginSeg 3]- Ensure drip chamber is primed#![EndSeg 3]"                                              0   0   0 0x0100    15   120   227    300  18  1  approved
+
+textAlarmBodyWithGraphicDisconnectTest01BloodDivClamp                         "#![BeginSeg 1]1.  Clamp is closed\n\n#![EndSeg 1]#![BeginSeg 2]- Verify that the blood diversion clamp is closed completely#![EndSeg 2]"                                                         0   0   0 0x0100    15   120   227    300  18  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailure00OneClamp                             "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly and there are no obstructions#![EndSeg 6]" 0   0   0 0x0100    15   120   227    300  16  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailure01OneClamp                          "#![BeginSeg 1]Verify that the blood diversion clamp is closed completely.#![EndSeg 1]"                                                         0   0   0 0x0100    15   120   227    300  18  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailure01AisOneClamp                      "#![BeginSeg 1]If air is in the sample bag express the air.\n\n#![EndSeg 1]" 0   0   0 0x0100    15   120   227    300  18  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailureCrossoverOneClamp   "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly and there are no obstructions\n#![EndSeg 9]#![BeginSeg 7]- The REF selected matches tubing set loaded\n#![EndSeg 7]#![BeginSeg 8]- The clamp on the crossover line is open#![EndSeg 8]" 0   0   0 0x0100    15   120   227    300  14  1  unapproved
+
+textAlarmBodyWithGraphicPressurizeInletFailureCassetteOneClamp          "#![BeginSeg 1]The system cannot maintain pressure. #![EndSeg 1]#![BeginSeg 2]Verify:\n#![EndSeg 2]#![BeginSeg 3]- The blood diversion clamp is closed\n#![EndSeg 3]#![BeginSeg 4]- No air is in the sample bag\n#![EndSeg 4]#![BeginSeg 5]- The pump headers are loaded correctly\n#![EndSeg 5]#![BeginSeg 6]- The cassette is loaded correctly\n#![EndSeg 6]#![BeginSeg 7]- There are no obstructions behind the cassette or cassette tray\n#![EndSeg 7]#![BeginSeg 8]- The REF selected matches tubing set loaded#![EndSeg 8]" 0   0   0 0x0100    15   120   227    300  14  1  unapproved
+
+
+removed 5/25/2016
+textMiscOfflineInstructionsSrbcAbovePas    "#![BeginSeg 1]- The solution addition was ended\n#![EndSeg 1]#![BeginSeg 2]- Seal the RBC product line between the filter and the product bag\n#![EndSeg 2]#![BeginSeg 3]- Refer to the Operator's Manual for further instructions#![EndSeg 3]"          239 239 239 0x0101   240   120   373   130  18  1  unapproved
+textEmptyFormatNewPredProdRbcInit                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                       255 255 255 0x0120   180   10    150    19  14    0  unapproved
+textCnfPlateletProdBtnLabel                 ""                                                 255 255 255 0x0111    0    0    44    19  18    1  unapproved
+
+textConfirmBodyRestart                                          "#![BeginSeg 1]Confirm restart for the next procedure#![EndSeg 1]"                                                                                 255 247  57 0x0111    12    12   250    86  18    1  approved
+textStatAlarmLevelSensorError                    "#![BeginSeg 1]Low-level sensor error#![EndSeg 1]"                                                                                                 165   8   0 0x0101    0   0   182    14  18    1  approved
+textStatAlarmCpsHighRbcCollect        "#![BeginSeg 1]Centrifuge pressure high#![EndSeg 1]"                                                                                               255 247  57 0x0111     0     0   100     0  18    1  approved
+textStatAlarmBagEvacFailure               "#![BeginSeg 1]Air removal failure#![EndSeg 1]"                                                                                              255 255 255 0x0111     0     0   640     0  18  1  approved
+textStatAlarmCpsHighAasP2Ok                                   "#![BeginSeg 1]Centrifuge pressure error#![EndSeg 1]"                                                                                              255 247  57 0x0101    0   0   182    14  18    1  approved
+textLRDrawFlowLimit                         "#![BeginSeg 1]LR Draw Flow Limit#![EndSeg 1]"                                         0     0    0 0x0001     10     2   280     25  10    1  approved
+
+----------removed 5/26/16
+textLabelRsRbc2ProdJP               "#![BeginSeg 1]RBC product 2#![EndSeg 1]"                         255 255 255 0x0101 330 260 200 35  16    1  approved
+textDataLabelRsRbc2VoJP                 "#![BeginSeg 1]Total volume of product#![EndSeg 1]"               74  74  74 0x0101  330 288 175 35  14    1  approved
+textDataUnitsRsRbc2VolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                            255 255 255 0x0101 576 288 175 35  14    0  approved
+textEmptyFormatRsDatRbc2VolJP           ""                                                                255 255 255 0x0121 522 288 50  35  14    1  approved
+
+# Screen 2, Right Side, Row 5: "Volume of AC in RBC"
+textDataLabelRsRbc2AcJP                 "#![BeginSeg 1]Volume of AC in RBC#![EndSeg 1]"                   74  74  74 0x0101  330 328 175 35  14    1  approved
+textDataUnitsRsRbc2AcJP             "#![BeginSeg 1]mL#![EndSeg 1]"                            255 255 255 0x0101 576 328 175 35  14    0  approved
+textEmptyFormatRsRbc2AcJP               ""                                                                255 255 255 0x0121 522 328 50  35  14    1  approved
+
+# Screen 2, Right Side, Row 6: "Volume of additive solution"
+textDataLabelRsRas2VolJP                "#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"           74  74  74 0x0101  330 368 175 35  14    1  approved
+textDataUnitsRsRas2VolJP               "#![BeginSeg 1]mL#![EndSeg 1]"                            255 255 255 0x0101 576 368 175 35  14    0  approved
+textEmptyFormatRsDatRas2VolJP           ""                                                                255 255 255 0x0121 522 368 50  35  14    1  approved
+
+
+-------6/2/16
+textFormatNewPredRbcLabel                           "#![BeginSeg 1]RBC#![EndSeg 1]"                                                                                                 255 247  57  0x0100   352    133    640    0  14    1  unapproved
+textEmptyFormatPredCurrRbcInitAltColor                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      222 222 222 0x0121   321   265    100    23  18    1  approved
+textDataUnitsMl                            "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"                                                                                                                    255 255 255 0x0111     0     0   640     0  24    1  approved
+textKeypadUnitsFlow                               "#![BeginSeg 1]mL/min#![EndSeg 1]"                                                                                                         0   0   0 0x0121  0   0   0  0 16  1  approved
+
+---- 6/4/16
+textFormatPredPrevFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   193    44    19  14    1  approved
+textFormatPredCurrFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   255 247 57 0x0101   536   265    44    23  18    1  approved
+textFormatPredNextFlowRateWithAmappUnit                  "#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]mL/min#![EndSeg 2]"   74  74  74 0x0101   546   326    44    19  14    1  approved
+
+----there are new ids for these
+textMiscRunProcStatusDraw                                    "#![BeginSeg 1]Draw#![EndSeg 1]"                                                                                                                   255 255 255 0x0111    60   209    94    24  24    1  approved
+textMiscRunProcStatusReturn                                  "#![BeginSeg 1]Return#![EndSeg 1]"                                                                                                                 255 255 255 0x0111    60   209    94    24  24    1  approved
+
+----------------6/6/16
+textMiscRunProcPressureLabel                                      "#![BeginSeg 1]Pressure#![EndSeg 1]"                                                                                                               239 239 239 0x0111    60   193    94    14  14    1  approved
+textFormatPredCurrPltExpAltColor                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              222 222 222 0x0101   128   263    16    12  10    0  approved
+textEmptyFormatPredCurrPltInitAltColor                                                            "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 222 222 222  0x0121    0   265    125    23  18    1  approved
+textEmptyFormatPredCurrPltVolInitAltColor                                                  "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      222 222 222 0x0121    0   290    100    23  14    0  approved
+textEmptyFormatPredCurrPlasInitAltColor                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    222 222 222 0x0121   166   265    150    23  18    1  approved
+textEmptyFormatNewPredCurrPltInitAltColor                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                 222 222 222 0x0121    0   368    120    23  18    1  approved
+textFormatNewPredCurrPltExpAltColor                         "#![BeginSeg 1]11#![EndSeg 1]"                                                                                              222 222 222 0x0101   123   366    16    12  10    0  approved
+textEmptyFormatNewPredCurrPlasInitAltColor                                                              "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                    222 222 222 0x0121   165   368    150    23  18    1  approved
+textNewPredACinPlasmaVolumeValueCurrAltColor                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       222 222 222       0x0121   200   387    100    35  14     1  approved
+TEXT_NEW_PREDICT_COMP_PLS_NOTICE_AltColor                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           222 222 22      0x0111    165   280   200    35  14  0  unapproved
+textEmptyFormatNewPredCurrPltVolInitAltColor                            "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                                                                      222 222 222 0x0121    0   393    100    23  14    0  approved
+textEmptyFormatNewPredProdPltInitAltColor                                                         "#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"                                                                   181 181 189 0x0120    473    10    120    19  14    1  approved
+textFormatNewPredProdPltExpAltColor                        "#![BeginSeg 1]11#![EndSeg 1]"                                                                                               181 181 189 0x0100    80     7    13    11   8    0  approved
+textEmptyFormatNewPredProdPlasInitAltColor                                 "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"                                                                     181 181 189 0x0120   277   10    100    19  14    1  approved
+textACinPlasmaVolumeValueCurrAltColor                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       222 222 222       0x0121   204   284    100    35  14     1  unapproved
+TEXT_PREDICT_COMP_PLS_NOTICE_AltColor                     "#![BeginSeg 1]replaced by PAS is #!{dataItem1} mL#![EndSeg 1]"           222 222 222      0x0111    165   280   200    35  14  0  unapproved
+
+//6/7/16
+textStatAlarmPreWatchdogAlarm                         "#![BeginSeg 1]Re-establishing processor communication...#![EndSeg 1]#![BeginSeg 2]please wait#![EndSeg 2]"                                                                                             165   8   0 0x0101    0   0   182    14  18    1  approved
+AutoFlowTextAlarmBodyTimeoutUnschedPurge                              "#![BeginSeg 1]The current procedure has been disqualified due to decreased draw flow.\n\n#![EndSeg 1]#![BeginSeg 2]If access issues are resolved, draw flow may be increased.\n\n#![EndSeg 2]"  0   0   0 0x0110    15   120   455    300  18  1  approved
+TEXT_PROD_NAME_AMAP_PLT1        "#![BeginSeg 1]Single#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
+TEXT_PROD_NAME_AMAP_PLT2        "#![BeginSeg 1]Double#![EndSeg 1]"        255 247  57 0x0111     0     0     0     0  14    1  approved
+TEXT_PROD_NAME_AMAP_PLT3        "#![BeginSeg 1]Triple#![EndSeg 1]"         255 247  57 0x0111     0     0     0     0  14    1  approved
+
+TEXT_PREDICT_AMAPP_PRED_PLT_LABEL         "#![BeginSeg 1]Platelets#![EndSeg 1]"      255 255 255 0x0101    35   227   124    20  18    1  approved
+TEXT_PREDICT_AMAPP_PRED_PLS_LABEL           "#![BeginSeg 1]Plasma#![EndSeg 1]"      255 255 255 0x0111   245   227   105    20  18    1  approved
+TEXT_PREDICT_AMAPP_PRED_RBC_LABEL          "#![BeginSeg 1]RBC#![EndSeg 1]"           255 255 255 0x0111   425  227   100    20  18    1  approved
+TEXT_PREDICT_AMAPP_AND_FLOW_PRED_PLT_LABEL "#![BeginSeg 1]Platelets#![EndSeg 1]"  255 255 255 0x0101    35   227   124    20  18    1  approved
+TEXT_PREDICT_AMAPP_AND_FLOW_PRED_PLS_LABEL "#![BeginSeg 1]Plasma#![EndSeg 1]"     255 255 255 0x0111   225   227   105    20  18    1  approved
+TEXT_PREDICT_AMAPP_AND_FLOW_PRED_RBC_LABEL "#![BeginSeg 1]RBC#![EndSeg 1]"        255 255 255 0x0111   330  227   100    20  18    1  approved
+
+TEXT_PREDICT_AMAPP_EMPTY_PREVPLTVOLM                ""      74  74    74 0x0121    30   205    45    23  12    0  approved
+TEXT_PREDICT_AMAPP_EMPTY_PREVPLTVOLM_UNITS     ""      74  74    74 0x0101    78   205    47    23  12    0  approved
+
+TEXT_PREDICT_AMAPP_EMPTY_NEXTPLTVOLM                ""      74  74    74 0x0121    30  338    45    23  12    0  approved
+TEXT_PREDICT_AMAPP_EMPTY_NEXTPLTVOLM_UNITS     ""      74  74    74 0x0101    78   338    47    23  12    0  approved
+                                                                                                                                                                
+TEXT_PREDICT_NAME_AMAP_PREV_PLT_SIZE         ""         74  74    74 0x0111      30     175   90    23  11    0  approved
+TEXT_PREDICT_NAME_AMAP_CURR_PLT_SIZE        ""         255 247  57 0x0111      33     248    90    23  14    0  approved
+TEXT_PREDICT_NAME_AMAP_NEXT_PLT_SIZE         ""         74  74    74 0x0111      30     310   90     23  11    0  approved
+
+TEXT_PREDICT_AMAPP_EMPTY_PREV_RBC                  ""           74  74    74  0x0121    430   193    59    19  14    0  approved
+TEXT_PREDICT_AMAPP_EMPTY_PREV_RBC_LABEL               ""          74  74    74  0x0101     491   193    39    19  14    0  approved
+
+TEXT_PREDICT_AMAPP_EMPTY_CURR_RBC                  ""          255 247  57  0x0121    430   265    59    23  18    0  approved
+TEXT_PREDICT_AMAPP_EMPTY_CURR_RBC_LABEL               ""          255 247  57  0x0101      491   265    39    23  18    0  approved
+
+TEXT_PREDICT_AMAPP_EMPTY_NEXT_RBC                   ""         74  74    74   0x0121        430   326    59    19  14    0  approved
+TEXT_PREDICT_AMAPP_EMPTY_NEXT_RBC_LABEL                ""         74  74    74   0x0101        491   326    39    19  14    0  approved
+                                                                           
+textMiscTrimaVersion                                           "#![BeginSeg 1]Version 7.0#![EndSeg 1]"                                                                                                              0   0   0 0x0102   233   445   540    70  12    1  approved
+textMiscCfgMaxValue2                                           "#![BeginSeg 1]Maximum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    300    35   620    17  14    1  approved
+textMiscCfgMinValue2                                           "#![BeginSeg 1]Minimum value = #![EndSeg 1]"                                                                                                       255 247  57 0x0101    100    35   620    17  14    1  approved
+textCfgColLabelCfgPrioTime                                            "#![BeginSeg 1]Duration#![EndSeg 1]"                                                                                                                   255 247  57 0x0111   515   160     100     0  14    1  approved
+
+
+//---------------------------6/8/2016
+textListboxItemCfgBloodTypeAll                                   "#![BeginSeg 1]All#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
+textStatConfigExitWait                                 "#![BeginSeg 2]Exiting configuration... #![EndSeg 2]#![BeginSeg 3]please wait#![EndSeg 3]"                                                                              255 247  57 0x0101     0     0     0     0  18  1  approved
+textListboxItemCfgSalineYes                               "#![BeginSeg 1]Yes#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  14    1  approved
+textListboxItemCfgSalineNo                                "#![BeginSeg 1]No#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
+textStatMaxEntriesExceeded                                    "#![BeginSeg 1]Maximum number of entries exceeded#![EndSeg 1]"                                                                                     255 247  57 0x0111     0     0   640     0  18  1  approved
+
+
+//---------------------------6/9/2016
+textDataLabelRs1SalineRinseback                                 "#![BeginSeg 1]Saline rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
+textDataLabelRs1PlasmaRinseback                                 "#![BeginSeg 1]Plasma rinseback#![EndSeg 1]"                                                                                                        74  74  74 0x0101   330   302   175    90  14    1  approved
+textDataDatRs1RinsebackComplete                               "#![BeginSeg 1]Complete#![EndSeg 1]"                                                                                                               255 255 255 0x0111   505   302    125   90  14    1  approved
+
+
+//---------------------------6/10/2016
+textDataUnitsRs2Rbc2VolSplitLayout                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   334   110    23  14    1  approved
+textDataUnitsRs2Rbc2AcSplitLayout                  "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   364   110    23  14    1  approved
+textDataUnitsRs2Ras2VolSplitLayout                        "#![BeginSeg 1]mL#![EndSeg 1]"                                                                                                                     255 255 255 0x0101   436   394   110    23  14    1  approved
+
+
+//--------------------------6/12/2016
+textButtonLabelCfgLeftPlsTrali                                "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                         255 247  57 0x0111   380   290   100    70  14    1  approved
+textACinPlasmaVolumeValueNext                                   "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   335    100    35  11     1  approved
+textACinPlasmaVolumeValuePrev                                    "#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"       74  74  74      0x0121   202   200    100    35  11     1  approved
+textButtonLongConfigReturnToPrevious                                                  "#![BeginSeg 1]Return to previos screen#![EndSeg 1]"                                                                                                    255 247  57 0x0111     0     0   640     0  18    1  approved
+textButtonLabelCfgLeftPltTrali                                   "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                                                                         255 247  57 0x0111   360   340   100    90  14    1  approved
+textButtonLabelCfgLeftPltAmapTrali                               "#![BeginSeg 1]Donors allowed#![EndSeg 1]"                                                                                                         255 247  57 0x0111   370   356   100    90  14    1  approved
