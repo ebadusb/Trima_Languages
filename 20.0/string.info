@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x50d02f"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x20394828"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -331,8 +331,8 @@ textEmptyFormatPredConfirmFlowDataUnit	      "#![BeginSeg 1]#!{dataItem} mL/min 
 textEmptyFormatPredConfirmAcDataUnit	      "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"         	74 74 74 0x0101 260  247  120 24 14  1  approved
 textEmptyFormatPredConfirmTimeDataUnit	      "#![BeginSeg 1]#!{dataItem} min #![EndSeg 1]"         74 74 74 0x0101 260  269  120 24 14  1  approved
 textEmptyFormatPredConfirmTbvProcessedDataUnit	   "#![BeginSeg 1]#!{dataItem} mL #![EndSeg 1]"    74 74 74 0x0101 260  291  120 24 14  1  approved
-textEmptyFormatPredConfPostPltDataUnit	      "#![BeginSeg 1]#!{dataItem} x 1000/uL #![EndSeg 1]"   74 74 74 0x0101 260  335  120 24 14  1  approved
-textEmptyFormatPredConfPostPltDataUnitBold	      "#![BeginSeg 1]#!{dataItem} x 1000/uL #![EndSeg 1]"   74 74 74 0x0101 260  335  120 24 20  1  approved
+textEmptyFormatPredConfPostPltDataUnit	      "#![BeginSeg 1]#!{dataItem} x 1000/µL #![EndSeg 1]"   74 74 74 0x0101 260  335  120 24 14  1  approved
+textEmptyFormatPredConfPostPltDataUnitBold	      "#![BeginSeg 1]#!{dataItem} x 1000/µL #![EndSeg 1]"   74 74 74 0x0101 260  335  120 24 20  1  approved
 textDataUnitsPredConfPltYieldExp	   "#![BeginSeg 1]11#![EndSeg 1]"									   	74 74 74 0x0101 317  66  60 24 9  0  approved
 textEmptyFormatAlarmNumberData                                    "ALARM NUMBER #!{dataItem1}"                                                                                                                      165   8   0 0x0111    15     0   230    30  18    1  approved
 textEmptyFormatAlarmNumberDataFull                                "ALARM NUMBER #!{dataItem1}"                                                                                                                      165   8   0 0x0111    15     0   460    30  18    1  approved
