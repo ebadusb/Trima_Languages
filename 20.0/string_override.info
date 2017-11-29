@@ -3,7 +3,7 @@ languageId                      "Override"                     255 255 255 0x000
 languageIndex                   "10000"                         0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "b5a42cc4"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "a8b1f40a"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -21,11 +21,6 @@ forbiddenEndCharList            "（(「｢［[‘“・"                       
 # NOTE: the enums below have to be right at the first column or the parse will skip them (very annoying)
 ###########################################################################################################################################################################
 
-textEORBarcode1                                               ""     255 247  57 0x0101    72    22    400     25   9    0  approved
-textBarcodeCategory1                                           ""     255 247  57 0x0101   72     1      400     20   14   0  approved
-textBarcodeCategoryOperator1                                   ""     255 247  57 0x0101   360    1     175     20   9    0  approved
-textBarcodeMatchError                          "#![BeginSeg 1]Incorrect barcode#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1 unapproved
-textBoxBarcodeLookupErrorDefault         "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], default barcode count used#![EndSeg 2]"              255 247  57 0x0110     85   55   350  60  16    1  unapproved
 
 ######################################
 # All new strings are here
@@ -34,10 +29,5 @@ textBoxBarcodeLookupErrorDefault         "#![BeginSeg 1]Barcode lookup unsuccess
 #######################################
 
 textOverrideUnitTestText                                               "#![BeginSeg 1]Load#![EndSeg 1]"     255 247  57 0x0101    30    50     0     0  16    1  approved
-textOverrideCustomCategoryIcon                                      ""     255 247  57 0x0111   9    40    50     50   20    0  approved
-textOverrideBoxBarcodeLookupDonorError         "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], verify donor info and eligibility#![EndSeg 2]"              255 247  57 0x0110     85   55   350  60  16    1  unapproved
-textOverrideBoxBarcodeLookupFailed                          "#![BeginSeg 1]#!{dataItem1} failed#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1 unapproved
-textOverrideBoxBarcodeRuleError                 "#![BeginSeg 1]Not correct: #!{dataItem1}#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1 unapproved
-textOverrideBarcodeParseError                          "#![BeginSeg 1]Incorrect barcode#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1 unapproved
 
 STRING_FILE_TABLE_END
