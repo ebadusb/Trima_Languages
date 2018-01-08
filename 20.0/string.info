@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xbd4a58e"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x9b181a74"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1849,7 +1849,7 @@ textBoxScanBarcode                       "#![BeginSeg 1]Scan barcode#![EndSeg 1]
 textBarcodeEditBoxCancelButton           "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  approved                                                                                     
 textBarcodeScanBoxCancelButton           "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  approved                                                                                     
 textBarcodeEditBoxDeleteButton           "#![BeginSeg 1]Delete#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  approved                                                                                     
-textInfoEventLookupFail                  "#![BeginSeg 1][Lookup]: Failed#![EndSeg 1]"                          255 247  57 0x0111     0     0     640     0  14    1  approved                                                                                     
+textInfoEventLookupFail                  "#![BeginSeg 1]#!{dataItem1}: Failed#![EndSeg 1]"                          255 247  57 0x0111     0     0     640     0  14    1  unapproved                                                                                     
 textStatAuthEventsScan                   "#![BeginSeg 1]Scan the operator ID#![EndSeg 1]"                     255 247  57 0x0101     95     2     0     0  18  1  unapproved
 textBarcodeScanCategoryFormat            ""																	  255 247  57 0x0001    20     0     375    30  14  0  approved
 textBarcodeScanNameFormat                ""		    													      255 247  57 0x0001    20    20     375    30  14  0  approved
