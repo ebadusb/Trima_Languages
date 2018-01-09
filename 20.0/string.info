@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0x9b181a74"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xf9678cf2"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1101,6 +1101,7 @@ textButtonLabelInletFlowRampYes                               "#![BeginSeg 1]Yes
 textButtonLabelInletFlowRampNo                              "#![BeginSeg 1]No#![EndSeg 1]"                                                                                                                     255 247  57 0x0111     0     0   640     0  14    1  approved
 textButtonLabelCfgTopRepFluidPercent                           "#![BeginSeg 1]Fluid balance (%)#![EndSeg 1]"                                                                                                      255 247  57 0x0111     330    120   100     40  14    1  approved
 textStatAwaitingAp2Xmit                                       "#![BeginSeg 1]Waiting for transfer of donor information...#![EndSeg 1]"                                                                                 255 255 255 0x0111     0     0   640     0  18    1  approved
+textStatVistaDonorName                                       "#![BeginSeg 1]#!{donorNameFromVista}#![EndSeg 1]"                                                                                 255 255 255 0x0111     0     0   640     0  18    1  approved
 textEmptyFormatCatButton                                            ""                                                                                                                      255 247  57 0x0102     7     7     90     69  18    0  approved
 textMiscBarcodeMoreCategoriesElipses                                         "#![BeginSeg 1]...#![EndSeg 1]"                                                                                                                    255 247  57 0x0111     0     0   640     0  24    0  approved
 textButtonBarcodeMiscCustom                                    ""                                                                                                                    255 247  57 0x0111     10    10    84    63  24    0  approved
