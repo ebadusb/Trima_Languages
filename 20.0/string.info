@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xf9678cf2"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0xaabef260"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1831,7 +1831,7 @@ textStatBarcodeNotRecognized             "#![BeginSeg 1]Barcode not recognized#!
 textBoxBarcodeMatchError                 "#![BeginSeg 1]Barcode matching error#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1  unapproved
 textBoxBarcodeLookupError                "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]"              255 247  57 0x0110     85   55   350  60  16    1  approved
 textBoxBarcodeLookupErrorDefault         "#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], default barcode count used#![EndSeg 2]"              255 247  57 0x0110     85   55   350  60  16    1  approved
-textSBoxBarcodeUnableDonorEligibility    "#![BeginSeg 1]Unable to verify donor eligibility#![EndSeg 1]"      255 247  57 0x0111     16   30   200 200  16    1  approved
+textSBoxBarcodeUnableDonorEligibility    "#![BeginSeg 1]Unable to verify donor eligibility#![EndSeg 1]"      255 247  57 0x0110     85   55   350  60  16    1  approved
 textBoxInvalidREFError                   "#![BeginSeg 1]Invalid REF#![EndSeg 1]"				      255 247  57 0x0111    85    25     350    60  16  0  approved
 textStatREFNotAMatch                     "#![BeginSeg 1]The REF does not match the selected procedure#![EndSeg 1]"                            255 247  57 0x0111    85    30     350    60  16  0  approved
 textButtonBarcodeCancel                  "#![BeginSeg 1]Cancel#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  18    1  approved                                                                                
@@ -1849,8 +1849,9 @@ textBoxEditBarcode                       "#![BeginSeg 1]Edit barcode#![EndSeg 1]
 textBoxScanBarcode                       "#![BeginSeg 1]Scan barcode#![EndSeg 1]"                             255 247  57 0x0111     0     0     502    29  18    1  approved
 textBarcodeEditBoxCancelButton           "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  approved                                                                                     
 textBarcodeScanBoxCancelButton           "#![BeginSeg 1]Cancel#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  approved                                                                                     
-textBarcodeEditBoxDeleteButton           "#![BeginSeg 1]Delete#![EndSeg 1]"                                   255 247  57 0x0111     0     0     640     0  18    1  approved                                                                                     
-textInfoEventLookupFail                  "#![BeginSeg 1]#!{dataItem1}: Failed#![EndSeg 1]"                          255 247  57 0x0111     0     0     640     0  14    1  unapproved                                                                                     
+textBarcodeEditBoxDeleteButton                            "#![BeginSeg 1]Delete#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  18    1  unapproved 
+textBarcodeEditBoxOverrideButton                            "#![BeginSeg 1]Override#![EndSeg 1]"                                     255 247  57 0x0111      0     0   90     32  18    1  unapproved                                                                               
+textInfoEventLookupFail                  "#![BeginSeg 1]#!{dataItem1}: Failed#![EndSeg 1]"                          255 247  57 0x0100    16    40   455   150  14   1   unapproved
 textStatAuthEventsScan                   "#![BeginSeg 1]Scan the operator ID#![EndSeg 1]"                     255 247  57 0x0101     95     2     0     0  18  1  unapproved
 textBarcodeScanCategoryFormat            ""																	  255 247  57 0x0001    20     0     375    30  14  0  approved
 textBarcodeScanNameFormat                ""		    													      255 247  57 0x0001    20    20     375    30  14  0  approved
@@ -2120,8 +2121,8 @@ textBarcodeObjectSkipped                                         "Skipped"    25
 textBarcodeObjectOverridden                                         "Overridden"    255 247  57 0x0121   419    0     70     20   9    1  approved
 textBarcodeObjectRemaining                                         ""     255 247  57 0x0101   340    340     175     20   9    0  approved
 textBarcodeCustomCategoryIcon                                      ""     255 247  57 0x0111   9    0     50     50   20    0  approved
-textBarcodeAcCategoryIcon                                          "#![BeginSeg 1]AC#![EndSeg 1]"                                49   8 123 0x0111    13    0    50    50  10    0  approved   
-textBarcodeNaclCategoryIcon                                        "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                         49   8 123 0x0111   13    0    50    50  10    0  approved
+textBarcodeAcCategoryIcon                                          "#![BeginSeg 1]AC#![EndSeg 1]"                                49   8 123 0x0111    13    0    50    50  10    1  approved   
+textBarcodeNaclCategoryIcon                                        "#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"                         49   8 123 0x0111   13    0    50    50  10    1  approved
 
 textBarcodeCategoryPopup                                       ""     255 247  57 0x0111   115     15     412     20   9    0  approved
 textBarcodeScanPopup                                           ""     255 247  57 0x0111   115     44     410     77  14    0  approved
@@ -2139,35 +2140,31 @@ textBarcodeParseError                          "#![BeginSeg 1]Incorrect barcode#
 textBoxBarcodeDataTransferProgress                          "#![BeginSeg 1]Data transfer in progress...#![EndSeg 1]"                   255 247  57 0x0110     85   55   350  60  16    1 approved
 textVerifyRuleBox                     "#![BeginSeg 1]Verify: #!{dataItem1}#![EndSeg 1]"                 255 247  57 0x0110     16    30    200 200   18    1  approved
 
-textAuthEventAdvisory                  "#![BeginSeg 1]Advisory acknowledged#![EndSeg 1]"                  255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventAirblock                  "#![BeginSeg 1]Air block recovery performed#![EndSeg 1]"           255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventAlarm                  "#![BeginSeg 1]Alarm acknowledged#![EndSeg 1]"                        255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventAlert                  "#![BeginSeg 1]Alert acknowledged#![EndSeg 1]"                        255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventCollectionEnded                  "#![BeginSeg 1]Collection ended#![EndSeg 1]"                255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventDonorConfirmed                  "#![BeginSeg 1]Donor confirmation#![EndSeg 1]"               255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventDonorConnected                  "#![BeginSeg 1]Donor connected#![EndSeg 1]"                  255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventDonorDisconnected                  "#![BeginSeg 1]Donor disconnected#![EndSeg 1]"            255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventDonorInfoChange                  "#![BeginSeg 1]Donor information changed#![EndSeg 1]"       255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventProcAdjustment                  "#![BeginSeg 1]Procedure adjustment#![EndSeg 1]"             255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventBarcodesReviewed                  "#![BeginSeg 1]Procedure barcodes reviewed#![EndSeg 1]"    255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventNewProcedureSelected                  "#![BeginSeg 1]Procedure selected#![EndSeg 1]"         255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventEORSummaryReviewed                  "#![BeginSeg 1]Procedure summary reviewed#![EndSeg 1]"   255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventLabelReviewed                  "#![BeginSeg 1]Product verification reviewed#![EndSeg 1]"     255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventProductBagsSealed                  "#![BeginSeg 1]Product bags sealed#![EndSeg 1]"           255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventRinsebackInitiated                  "#![BeginSeg 1]Rinseback initiated#![EndSeg 1]"          255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventSalineBolus                  "#![BeginSeg 1]Saline bolus delivered#![EndSeg 1]"              255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventSpillover                  "#![BeginSeg 1]Spillover recovery performed#![EndSeg 1]"          255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventSolutionAborted                  "#![BeginSeg 1]Solution addition aborted#![EndSeg 1]"       255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventTubingAction                  "#![BeginSeg 1]Tubing set action completed#![EndSeg 1]"        255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventTubingSetLoaded                  "#![BeginSeg 1]Tubing set loaded#![EndSeg 1]"               255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventTubingSetUnloaded                  "#![BeginSeg 1]Tubing set unloaded#![EndSeg 1]"           255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textAuthEventVolumeConfirm                  "#![BeginSeg 1]Volume to be added confirmed#![EndSeg 1]"      255 247 57 0x0111     20   20   335    115  18    0  unapproved
+textAuthEventAdvisory                  "#![BeginSeg 1]Advisory acknowledged#![EndSeg 1]"                  255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventAirblock                  "#![BeginSeg 1]Air block recovery performed#![EndSeg 1]"           255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventAlarm                  "#![BeginSeg 1]Alarm acknowledged#![EndSeg 1]"                        255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventAlert                  "#![BeginSeg 1]Alert acknowledged#![EndSeg 1]"                        255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventCollectionEnded                  "#![BeginSeg 1]Collection ended#![EndSeg 1]"                255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventDonorConfirmed                  "#![BeginSeg 1]Donor confirmation#![EndSeg 1]"               255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventDonorConnected                  "#![BeginSeg 1]Donor connected#![EndSeg 1]"                  255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventDonorDisconnected                  "#![BeginSeg 1]Donor disconnected#![EndSeg 1]"            255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventDonorInfoChange                  "#![BeginSeg 1]Donor information changed#![EndSeg 1]"       255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventProcAdjustment                  "#![BeginSeg 1]Procedure adjustment#![EndSeg 1]"             255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventBarcodesReviewed                  "#![BeginSeg 1]Procedure barcodes reviewed#![EndSeg 1]"    255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventNewProcedureSelected                  "#![BeginSeg 1]Procedure selected#![EndSeg 1]"         255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventEORSummaryReviewed                  "#![BeginSeg 1]Procedure summary reviewed#![EndSeg 1]"   255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventLabelReviewed                  "#![BeginSeg 1]Product verification reviewed#![EndSeg 1]"     255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventProductBagsSealed                  "#![BeginSeg 1]Product bags sealed#![EndSeg 1]"           255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventRinsebackInitiated                  "#![BeginSeg 1]Rinseback initiated#![EndSeg 1]"          255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventSalineBolus                  "#![BeginSeg 1]Saline bolus delivered#![EndSeg 1]"              255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventSpillover                  "#![BeginSeg 1]Spillover recovery performed#![EndSeg 1]"          255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventSolutionAborted                  "#![BeginSeg 1]Solution addition aborted#![EndSeg 1]"       255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventTubingAction                  "#![BeginSeg 1]Tubing set action completed#![EndSeg 1]"        255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventTubingSetLoaded                  "#![BeginSeg 1]Tubing set loaded#![EndSeg 1]"               255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventTubingSetUnloaded                  "#![BeginSeg 1]Tubing set unloaded#![EndSeg 1]"           255 247 57 0x0111     20   20   335    115  18    1  unapproved
+textAuthEventVolumeConfirm                  "#![BeginSeg 1]Volume to be added confirmed#![EndSeg 1]"      255 247 57 0x0111     20   20   335    115  18    1  unapproved
 
 textBadgeAuthDescription               ""  255 247 57 0x0111     20   20   335    115  18    0  unapproved
-textBadgeAuthTimeAm12Hr                      "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"  255 247 57 0x0111     20   10   335    115  18    0  unapproved
-textBadgeAuthTimePm12Hr                       "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"  255 247 57 0x0111     20   10   335    115  18    0  unapproved
-textBadgeAuthTime24Hr                       "#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"  255 247 57 0x0111     20   10   335    115  18    0  unapproved
-
 
 #################### COLOR PLACEHOLDERS ###################
 
