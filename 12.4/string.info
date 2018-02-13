@@ -3,7 +3,7 @@ languageId                      "English"                     255 255 255 0x0001
 languageIndex                   "0"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "0xb909f6e8"                    0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "0x6274962a"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -1376,6 +1376,9 @@ textACinPlasmaVolumeValueNext                         ""                        
 textACinPlasmaVolumeValuePrev                         ""                                   74  74  74         0x0121   225   209    59    19  12    1  approved
 textACinPlasmaVolumeUnitNext          "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   338    59    35  11     1  approved
 textACinPlasmaVolumeUnitPrev           "#![BeginSeg 1]mL#![EndSeg 1]"       74  74  74      0x0121   245   209    59    35  11     1  approved
+textMiscAcBagLvlAlrm                   "#![BeginSeg 1]AC#![EndSeg 1]"		57 24  132  0x0111   322   149     87     41   26    1  approved
+textMiscAcBagOcclusion                   "#![BeginSeg 1]AC#![EndSeg 1]"     57 24  132  0x0111   333   197     52     29   20    1  approved
+textEmptyACBag                   "#![BeginSeg 1]AC#![EndSeg 1]"		57 24  132  0x0111   322   149     87     41   26    1  approved
 
 #########################################################################################################################################################################
 ##################################################### English only Strings ##############################################################################################
