@@ -1531,5 +1531,6 @@ AutoFlowTextAlarmBodyTimeout04                              "#![BeginSeg 1]3.  D
 AutoFlowTextAlarmBodyTimeoutBodyNoGraphic05                 "#![BeginSeg 1]Touch 'Procedure selection' to proceed.\n\n#![EndSeg 1]#![BeginSeg 2]If access issues are resolved, draw flow may be increased.\n\n#![EndSeg 2]"  165   8   0 0x0100    15   120   455    300  18  1  approved
 
 textButtonAlarmProcedureSelection                        "#![BeginSeg 1]Procedure selection#![EndSeg 1]"                                                                                                   255 247 57 0x0111     0     0   640     0  18    1  approved
+NonAutoFlowTextAlarmBodyTimeout                          "#![BeginSeg 1]The current procedure has been disqualified. The maximum procedure duration has been exceeded.\n\n#![EndSeg 1]#![BeginSeg 2]Touch 'Procedure selection' to access the procedure selection screen.#![EndSeg 2]"    165   8   0 0x0100    15   120   455    300  18  1  approved
 #############################
 STRING_FILE_TABLE_END
