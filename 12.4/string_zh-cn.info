@@ -12,6 +12,11 @@ FONT_RANGE_TABLE_START
 FONT_RANGE_TABLE_END
 
 STRING_FILE_TABLE_START
+AutoFlowTextAlarmBodyTimeout	"#![BeginSeg 1]由于抽血速度下降，当前程序已被取消。\n\n#![EndSeg 1]#![BeginSeg 2]核实：\n\n#![EndSeg 2]#![BeginSeg 3]1.  针位置\n\n#![EndSeg 3]#![BeginSeg 4]2.  献血者正在握紧松开拳头\n\n#![EndSeg 4]#![BeginSeg 5]3.  献血者身体温暖\n\n#![EndSeg 5]#![BeginSeg 6]触摸‘程序选择’以进入程序选择屏幕。#![EndSeg 6]"	165   8   0 0x0100    15   120   227    300  16  1
+AutoFlowTextAlarmBodyTimeout02	"#![BeginSeg 1]1.  针位置\n\n#![EndSeg 1]#![BeginSeg 2]- 核实针在献血者静脉里的位置正确\n#![EndSeg 2]#![BeginSeg 3]- 考虑调整献血者的手臂位置\n#![EndSeg 3]#![BeginSeg 4]- 如果需要，重新定位针#![EndSeg 4]"	165   8   0 0x0100    15   120   227    300  18  1
+AutoFlowTextAlarmBodyTimeout03	"#![BeginSeg 1]2.  献血者正在握紧松开拳头\n\n#![EndSeg 1]#![BeginSeg 2]- 指导献血者握紧松开拳头，只需轻轻握紧松开拳头就可以帮助献血者静脉内的血液流动#![EndSeg 2]"	165   8   0 0x0100    15   120   227    300  18  1
+AutoFlowTextAlarmBodyTimeout04	"#![BeginSeg 1]3.  献血者身体温暖\n\n#![EndSeg 1]#![BeginSeg 2]- 确保献血者身体温暖以防止血管收缩#![EndSeg 2]" 	165   8   0 0x0100    15   120   227    300  18  1
+AutoFlowTextAlarmBodyTimeoutBodyNoGraphic05	"#![BeginSeg 1]触摸‘程序选择’以继续。\n\n#![EndSeg 1]#![BeginSeg 2]如果解决了进血问题，抽血速度可以加快。\n\n#![EndSeg 2]"	165   8   0 0x0100    15   120   455    300  18  1
 CMP2textDataLabelRs2PasVol	"#![BeginSeg 1]Volume of additive solution#![EndSeg 1]"	74 74 74	0x0101	95	208	280	23	13	0
 CMP2textDataLabelRs2PlasAc	"#![BeginSeg 1]Volume of AC in plasma#![EndSeg 1]"	74 74 74	0x0101	95	305	280	23	13	0
 CMP2textDataLabelRs2PlasVol	"#![BeginSeg 1]Total volume of product#![EndSeg 1]"	74 74 74	0x0101	95	245	280	23	13	0
@@ -45,6 +50,7 @@ JPHtextAutoFlowCfgBtn	"#![BeginSeg 1]AutoFlow#![EndSeg 1]"	255 247 57	0x0111	45	
 JPHtextMiscTrimaVersion	"#![BeginSeg 1]Version 6.4.AF#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	0
 JPHtextStatAlarmAFtenMin	"#![BeginSeg 1]Donation time increase#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
 JPHtextStatPredictScreenAFTimeout	"#![BeginSeg 1]Draw flow too low - Maximum procedure duration exceeded#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
+NonAutoFlowTextAlarmBodyTimeout  "#![BeginSeg 1]当前程序已被取消。已超出最长程序持续时间。\n\n#![EndSeg 1]#![BeginSeg 2]触摸‘程序选择’以进入程序选择屏幕。#![EndSeg 2]"    165   8   0 0x0100    15   120   455    300  20  1  approved
 TEST_PREDICT_COMP_PLS_VOLM	""	255 247 57	0x0111	300	280	59	35	14	0
 TEXT_CFG_COMP_PLS_LABEL	"#![BeginSeg 1]Plasma replaced by platelet additive solution#![EndSeg 1]"	255 247 57	0x0111	352	358	175	70	14	0
 TEXT_CFG_COMP_PLS_LABEL_MAIN	"#![BeginSeg 1]Plasma processes#![EndSeg 1]"	255 247 57	0x0111	350	294	275	35	18	0
@@ -125,6 +131,7 @@ textAlarmBodyNoGraphicAcPrimeFailure	"#![BeginSeg 1]系统遇到了无法恢复�
 textAlarmBodyNoGraphicAcPrimeInletOcclusion	"#![BeginSeg 1]系统遇到了无法恢复的警报。#![EndSeg 1]#![BeginSeg 2]记录警报编号和状态行文字。#![EndSeg 2]#![BeginSeg 3]结束运行。#![EndSeg 3]#![BeginSeg 4]系统将核实献血者已脱离，然后升起卡匣。#![EndSeg 4]#![BeginSeg 5]丢弃管路套件。#![EndSeg 5]#![BeginSeg 6]请致电维修服务人员。#![EndSeg 6]"	165 8 0	0x0100	15	120	460	300	20	1
 textAlarmBodyNoGraphicAcPriorToAcPrime	"#![BeginSeg 1]系统的抗凝剂感应器探测到液体。#![EndSeg 1]#![BeginSeg 2]可能过早穿刺连接抗凝剂。#![EndSeg 2]#![BeginSeg 3]记录警报编号和状态行文字。#![EndSeg 3]#![BeginSeg 4]触摸‘结束运行’。卸载并丢弃管路套件。#![EndSeg 4]#![BeginSeg 5]如果没有连接抗凝剂，则致电维修服务人员。#![EndSeg 5]"	165 8 0	0x0100	15	120	460	300	20	1
 textAlarmBodyNoGraphicAcStillNotDetected	"#![BeginSeg 1]系统遇到了无法恢复的警报。#![EndSeg 1]#![BeginSeg 2]记录警报编号和状态行文字。#![EndSeg 2]#![BeginSeg 3]系统的抗凝剂感应器没有探测到抗凝剂。#![EndSeg 3]#![BeginSeg 4]结束运行并脱离献血者。#![EndSeg 4]"	165 8 0	0x0100	15	120	460	300	20	1
+textAlarmBodyNoGraphicAFtenMin05 "#![BeginSeg 1]触摸‘继续’以继续下一步。\n\n#![EndSeg 1]#![BeginSeg 2]如果解决了进血问题，抽血速度可以加快。\n\n#![EndSeg 2]"  165   8   0 0x0100    15   120   455    300  20  1
 textAlarmBodyNoGraphicApsDecoupling	"#![BeginSeg 1]系统遇到了警示情况。#![EndSeg 1]#![BeginSeg 3]如果可以，请选择‘回冲’。\n#![EndSeg 3]#![BeginSeg 4]选择‘结束运行’以结束程序。#![EndSeg 4]"	165 8 0	0x0100	15	120	460	300	20	1
 textAlarmBodyNoGraphicApsHigh04	"#![BeginSeg 1]如果警示重复出现，触摸‘调整’按钮并做出必要的速率调整以继续执行程序。#![EndSeg 1]"	165 8 0	0x0100	15	120	460	300	20	1
 textAlarmBodyNoGraphicApsHighAas	"#![BeginSeg 1]系统压力仍然太高。\n#![EndSeg 1]#![BeginSeg 2]系统无法完成液体添加。\n#![EndSeg 2]#![BeginSeg 3]记录警报编号和状态行文字。\n#![EndSeg 3]#![BeginSeg 4]触摸‘结束添加’。\n如果问题重复出现，请致电维修服务人员。#![EndSeg 4]"	165 8 0	0x0100	15	120	460	300	20	1
@@ -198,6 +205,9 @@ textAlarmBodyNoGraphicSafetyNotResponding	"#![BeginSeg 1]系统启动操作程�
 textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]阀门可能需要重新测试。#![EndSeg 1]#![BeginSeg 2]触摸‘继续’以恢复程序。#![EndSeg 2]#![BeginSeg 3]如果阀门的此项测试重复失败，则结束运行。#![EndSeg 3]#![BeginSeg 4]请致电维修服务人员。#![EndSeg 4]"	165 8 0	0x0100	15	120	460	300	20	1
 textAlarmBodyWithGraphic10MinPause	"#![BeginSeg 1]泵已暂停十分钟。#![EndSeg 1]#![BeginSeg 2]离心机已停止。#![EndSeg 2]#![BeginSeg 3]触摸‘继续’以恢复程序。#![EndSeg 3]"	165 8 0	0x0100	15	120	232	300	20	1
 textAlarmBodyWithGraphic1MinPause	"#![BeginSeg 1]泵已暂停一分钟。#![EndSeg 1]#![BeginSeg 2]离心机速度已降低。#![EndSeg 2]#![BeginSeg 3]触摸‘继续’以恢复程序。#![EndSeg 3]"	165 8 0	0x0100	15	120	232	300	20	1
+textAlarmBodyWithGraphicAFtenMin02	"#![BeginSeg 1]1.  针位置\n\n#![EndSeg 1]#![BeginSeg 2]- 核实针在献血者静脉里的位置正确\n#![EndSeg 2]#![BeginSeg 3]- 考虑调整献血者的手臂位置\n#![EndSeg 3]#![BeginSeg 4]- 如果需要，重新定位针#![EndSeg 4]"	165   8   0 0x0100    15   120   227    300  18  1
+textAlarmBodyWithGraphicAFtenMin03	"#![BeginSeg 1]2.  献血者正在握紧松开拳头\n\n#![EndSeg 1]#![BeginSeg 2]- 指导献血者握紧松开拳头，只需轻轻握紧松开拳头就可以帮助献血者静脉内的血液流动#![EndSeg 2]"	165   8   0 0x0100    15   120   227    300  18  1
+textAlarmBodyWithGraphicAFtenMin04	"#![BeginSeg 1]3.  献血者身体温暖\n\n#![EndSeg 1]#![BeginSeg 2]- 确保献血者身体温暖以防止血管收缩#![EndSeg 2]"	165   8   0 0x0100    15   120   227    300  18  1
 textAlarmBodyWithGraphicAasClampClosAddition	"#![BeginSeg 1]系统无法核实分离带管道夹子已关闭。#![EndSeg 1]#![BeginSeg 2]核实：\n#![EndSeg 2]#![BeginSeg 3]- 夹子已正确关闭。\n#![EndSeg 3]#![BeginSeg 4]触摸‘继续’。#![EndSeg 4]"	165 8 0	0x0100	15	120	232	300	20	1
 textAlarmBodyWithGraphicAasClampClosAdditionFailure	"#![BeginSeg 1]系统无法核实分离带管道夹子已关闭。#![EndSeg 1]#![BeginSeg 2]核实：\n#![EndSeg 2]#![BeginSeg 3]- 夹子已正确关闭。\n#![EndSeg 3]#![BeginSeg 4]- 未连接添加液。\n#![EndSeg 4]#![BeginSeg 5]触摸‘继续’。#![EndSeg 5]"	165 8 0	0x0100	15	120	232	300	20	1
 textAlarmBodyWithGraphicAcClosFailAas	"#![BeginSeg 1]系统无法确认抗凝剂管道已封闭。#![EndSeg 1]#![BeginSeg 2]核实：\n#![EndSeg 2]#![BeginSeg 3]- 抗凝剂管道已封闭。\n#![EndSeg 3]#![BeginSeg 4]- 已从感应器上取出抗凝剂管道。\n#![EndSeg 4]#![BeginSeg 5]- 已从系统取走抗凝剂袋。\n#![EndSeg 5]#![BeginSeg 6]触摸‘继续’。#![EndSeg 6]"	165 8 0	0x0100	15	120	232	300	20	1
@@ -302,11 +312,13 @@ textAllowAutoConfPlasmaProcs	"#![BeginSeg 1]更多仅限血浆的程序#![EndSeg
 textAllowExtraWbcMessage	"#![BeginSeg 1]配置：更多白细胞讯息#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textAmapPlateletsAvailable	"#![BeginSeg 1]配置：血小板优化#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]High speed logging, access pressure sensor#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAutoFlowFlag "#![BeginSeg 1]自动流速#![EndSeg 1]"  0     0    0 0x0001     10     2   280     25  10    1
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textButtonAbortAasExit	"#![BeginSeg 1]结束液体添加#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]空气堵塞恢复#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortPasExit	"#![BeginSeg 1]结束血小板\n液体添加#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortProcExit	"#![BeginSeg 1]结束运行#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
+textButtonAlarmProcedureSelection "#![BeginSeg 1]程序选择#![EndSeg 1]" 255 247 57 0x0111 0 0 640 0 18 1
 textButtonAbortRasExit	"#![BeginSeg 1]结束红细胞\n液体添加#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortReturnToPrev	"#![BeginSeg 1]返回到前一\n屏幕#![EndSeg 1]"	255 247 57	0x0111	5	5	142	93	21	1
 textButtonAbortRinsebackExit	"#![BeginSeg 1]回冲#![EndSeg 1]"	74 74 74	0x0111	5	5	142	93	21	1
@@ -770,6 +782,7 @@ textDataUnitsRunProcTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	
 textDataUnitsRunProcTimePm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]p.m.#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	1
 textDisplayResidualVolumes	"#![BeginSeg 1]程序摘要：残留量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEmpty	""	0 0 0	0x0111	0	0	640	0	14	0
+textEmptyACBag "#![BeginSeg 1]抗凝剂#![EndSeg 1]"	 57 24  132  0x0111   322   149     87     41   24    1
 textEmptyFormatAlarmBmpDisplay	""	165 8 0	0x0101	54	146	182	14	14	0
 textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
 textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
@@ -1004,6 +1017,8 @@ textMiscAasDisconnect	"#![BeginSeg 2]\n封闭和断开献血者管道#![EndSeg 2
 textMiscAasDontSealProducts	"#![BeginSeg 1]切勿封闭产品管道或排气袋管道#![EndSeg 1]"	165 8 0	0x0111	0	365	640	25	20	1
 textMiscAasPrime	"#![BeginSeg 1]添加液预冲在进行中...#![EndSeg 1]"	255 247 57	0x0111	30	150	320	210	20	1
 textMiscAasSealDetach	"#![BeginSeg 2]封闭并分断管道#![EndSeg 2]"	255 247 57	0x0102	155	105	260	42	18	1
+textMiscAcBagLvlAlrm	"#![BeginSeg 1]抗凝剂#![EndSeg 1]"	57 24 132	0x0111	322	149	87	41	24	1
+textMiscAcBagOcclusion "#![BeginSeg 1]抗凝剂#![EndSeg 1]" 57 24  132  0x0111   333   197     52     29   20    1
 textMiscAcConnBag1	"#![BeginSeg 1]抗凝剂#![EndSeg 1]"	57 24 132	0x0111	85	155	110	100	20	1
 textMiscAcConnBag2	"#![BeginSeg 1]抗凝剂#![EndSeg 1]"	57 24 132	0x0111	268	155	110	100	20	1
 textMiscAcLuerConnBag1	"#![BeginSeg 1]抗凝剂#![EndSeg 1]"	57 24 132	0x0111	40	155	110	100	20	1
