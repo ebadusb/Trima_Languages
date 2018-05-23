@@ -50,7 +50,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Lucida Sans BOLD"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xfba1d849"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x9a045e"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Français"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"1"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -166,8 +166,8 @@ textAlarmBodyNoGraphicResReturnNoClamp	"#![BeginSeg 1]La phase de retour a été
 textAlarmBodyNoGraphicResReturnOneClamp	"#![BeginSeg 1]La phase de retour a été trop longue. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la ligne de retour ne contient pas d'air.\n#![EndSeg 3]#![BeginSeg 4]- les tubulures sont chargées correctement dans les valves.\n#![EndSeg 4]#![BeginSeg 5]- la ligne de retour n'est ni pliée ni obstruée.\n#![EndSeg 5]#![BeginSeg 6]- la poche d'évent n'est pas obstruée.\n#![EndSeg 6]#![BeginSeg 7]- le clamp de la ligne de l'anneau est ouvert.\n#![EndSeg 7]#![BeginSeg 8]Si la ligne de retour contient de l'air, sélectionnez Terminer le don pour mettre fin au don sans restitution. #![EndSeg 8]#![BeginSeg 9]Si les valves sont correctement chargées et si la poche d'évent ne présente aucune obstruction, sélectionnez Continuer.#![EndSeg 9]"	0 0 0	0x0100	15	120	455	300	17	1
 textAlarmBodyNoGraphicResReturnThreeClamp	"#![BeginSeg 1]La phase de retour a été trop longue. #![EndSeg 1]#![BeginSeg 2]Vérifiez que :\n#![EndSeg 2]#![BeginSeg 3]- la ligne de retour ne contient pas d'air.\n#![EndSeg 3]#![BeginSeg 4]- les tubulures sont chargées correctement dans les valves.\n#![EndSeg 4]#![BeginSeg 5]- la ligne de retour n'est ni pliée ni obstruée.\n#![EndSeg 5]#![BeginSeg 6]- la poche d'évent n'est pas obstruée.\n#![EndSeg 6]#![BeginSeg 7]- les clamps des lignes de l'anneau sont ouverts.\n#![EndSeg 7]#![BeginSeg 8]Si la ligne de retour contient de l'air, sélectionnez Terminer le don pour mettre fin au don sans restitution. #![EndSeg 8]#![BeginSeg 9]Si les valves sont correctement chargées et si la poche d'évent ne présente aucune obstruction, sélectionnez Continuer.#![EndSeg 9]"	0 0 0	0x0100	15	120	455	300	17	1
 textAlarmBodyNoGraphicReservoirFailedT0Test	"#![BeginSeg 1]Notez le numéro d'alarme et le texte de la ligne d'état.\n\n#![EndSeg 1]#![BeginSeg 2]Le système a détecté du liquide trop tôt à la hauteur du détecteur de niveau bas.\n\n#![EndSeg 2]#![BeginSeg 3]- Déconnectez le donneur.\n#![EndSeg 3]#![BeginSeg 4]- Mettez le système hors, puis sous tension.\n\n#![EndSeg 4]#![BeginSeg 5]Si l'alarme se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
-textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The return pump rotor may not be loaded correctly.\n\n#![EndSeg 2]#![BeginSeg 3]- Power off the system, then power it back on \n#![EndSeg 3]#![BeginSeg 4]- Reload the rotor onto the return pump\n\n#![EndSeg 4]#![BeginSeg 5]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 6]"	0 0 0	0x0100	15	110	455	300	18	1
-textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]Record the alarm number and status line text.\n\n#![EndSeg 1]#![BeginSeg 2]The return pump rotor may not be loaded correctly.\n\n#![EndSeg 2]#![BeginSeg 3]- Power off the system, then power it back on \n#![EndSeg 3]#![BeginSeg 4]- Reload the rotor onto the return pump\n\n#![EndSeg 4]#![BeginSeg 5]If the problem occurs repeatedly, call your service representative for assistance.#![EndSeg 6]"	0 0 0	0x0100	15	110	455	300	18	1
+textAlarmBodyNoGraphicReturnHallHigh	"#![BeginSeg 1]Notez le numéro d'alarme et le texte de la ligne d'état.\n\n#![EndSeg 1]#![BeginSeg 2]Le rotor de la pompe de retour n'est peut-être pas chargé correctement.\n\n#![EndSeg 2]#![BeginSeg 3]- Mettez le système hors, puis sous tension. \n#![EndSeg 3]#![BeginSeg 4]- Rechargez le rotor sur la pompe de retour.\n\n#![EndSeg 4]#![BeginSeg 5]Si le problème se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
+textAlarmBodyNoGraphicReturnHallLow	"#![BeginSeg 1]Notez le numéro d'alarme et le texte de la ligne d'état.\n\n#![EndSeg 1]#![BeginSeg 2]Le rotor de la pompe de retour n'est peut-être pas chargé correctement.\n\n#![EndSeg 2]#![BeginSeg 3]- Mettez le système hors, puis sous tension. \n#![EndSeg 3]#![BeginSeg 4]- Rechargez le rotor sur la pompe de retour.\n\n#![EndSeg 4]#![BeginSeg 5]Si le problème se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicReturnTooLongAlarmA1	"#![BeginSeg 1]Notez le numéro d'alarme et le texte de la ligne d'état.\n\n#![EndSeg 1]#![BeginSeg 2]Le premier cycle de retour a duré plus longtemps que prévu.\n\n#![EndSeg 2]#![BeginSeg 3]- Sélectionnez Terminer le don.\n\n#![EndSeg 3]#![BeginSeg 4]Si l'alarme se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 4]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicSafetyNotResponding	"#![BeginSeg 1]Le protocole de démarrage du système a échoué. #![EndSeg 1]#![BeginSeg 2]Notez le numéro d'alarme et le texte de la ligne d'état. #![EndSeg 2]#![BeginSeg 3]Mettez le système hors, puis sous tension. #![EndSeg 3]#![BeginSeg 4]Le système vérifie que le donneur est déconnecté et relève la cassette au besoin. #![EndSeg 4]#![BeginSeg 5]Si l'alarme se répète, contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicValveHwFailure	"#![BeginSeg 1]Il est possible qu'une valve ait besoin d'être testée à nouveau. #![EndSeg 1]#![BeginSeg 2]Sélectionnez Continuer pour poursuivre le don. #![EndSeg 2]#![BeginSeg 3]Si le test de la valve échoue plusieurs fois de suite, terminez le don. #![EndSeg 3]#![BeginSeg 4]Contactez le technicien de maintenance pour obtenir l'aide nécessaire.#![EndSeg 4]"	0 0 0	0x0100	15	110	455	300	18	1
@@ -288,7 +288,7 @@ textAmapACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	
 textAmapButtonPredFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} ml/min#![EndSeg 1]"	255 247 57	0x0021	3	0	110	32	12	1
 textAmapButtonPredTimeUnit	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	255 247 57	0x0021	3	0	110	32	12	1
 textAmapEmptyFormatPredCurrPlasInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	166	265	150	23	18	1
-textAmapEmptyFormatPredCurrPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	0	265	125	23	18	1
+textAmapEmptyFormatPredCurrPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	0	265	125	23	18	1
 textAmapEmptyFormatPredCurrPltVolInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	0	290	100	23	14	1
 textAmapEmptyFormatPredCurrRbcInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	351	265	100	23	18	1
 textAmapFormatPredCurrPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0101	128	263	16	12	10	0
@@ -298,32 +298,58 @@ textAmapPredictCompPlsNotice	"#![BeginSeg 1]remplacé par #!{dataItem1} ml\nde s
 textAppAlarmStatusActive	"#![BeginSeg 1]Oui#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textAppAlarmStatusInactive	"#![BeginSeg 1]--#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAuthEventAdvisory	"#![BeginSeg 1]Message pris en compte#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAirblock	"#![BeginSeg 1]Rétablissement après bulle d'air réalisé#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	17	1
+textAuthEventAlarm	"#![BeginSeg 1]Alarme prise en compte#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlert	"#![BeginSeg 1]Alerte prise en compte#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventBarcodesReviewed	"#![BeginSeg 1]Codes à barres de procédure vérifiés#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventCollectionEnded	"#![BeginSeg 1]Collecte terminée#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConfirmed	"#![BeginSeg 1]Confirmation du donneur#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConnected	"#![BeginSeg 1]Donneur connecté#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorDisconnected	"#![BeginSeg 1]Donneur déconnecté#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorInfoChange	"#![BeginSeg 1]Infos donneur modifiées#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventEORSummaryReviewed	"#![BeginSeg 1]Résumé de procédure vérifié#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventLabelReviewed	"#![BeginSeg 1]Vérification du produit confirmée#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventNewProcedureSelected	"#![BeginSeg 1]Procédure sélectionnée#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProcAdjustment	"#![BeginSeg 1]Ajustement de la procédure#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProductBagsSealed	"#![BeginSeg 1]Poches de produit soudées#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventRinsebackInitiated	"#![BeginSeg 1]Restitution initiée#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSalineBolus	"#![BeginSeg 1]Bolus de sérum physiologique délivré#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSolutionAborted	"#![BeginSeg 1]Ajout de solution abandonné#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSpillover	"#![BeginSeg 1]Rétablissement après débordement réalisé#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	16	1
+textAuthEventTubingAction	"#![BeginSeg 1]Action du kit de collecte terminée#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetLoaded	"#![BeginSeg 1]Kit de collecte chargé#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetUnloaded	"#![BeginSeg 1]Kit de collecte déchargé#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventVolumeConfirm	"#![BeginSeg 1]Volume à ajouter confirmé#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
 textAutoFlowCfgBtn	"#![BeginSeg 1]Débit auto#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	1
-textBarcodeAcCategoryIcon	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	0
-textBarcodeCategory1	""	255 247 57	0x0101	115	140	350	20	9	0
+textBadgeAuthDescription	""	255 247 57	0x0111	20	2	360	0	18	0
+textBarcodeAcCategoryIcon	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeCategory1	""	255 247 57	0x0101	72	1	400	20	14	0
 textBarcodeCategory2	""	255 247 57	0x0101	110	190	400	20	9	0
 textBarcodeCategory3	""	255 247 57	0x0101	110	240	400	20	9	0
 textBarcodeCategory4	""	255 247 57	0x0101	110	290	400	20	9	0
 textBarcodeCategory5	""	255 247 57	0x0101	110	340	400	20	9	0
-textBarcodeCategoryOperator1	""	255 247 57	0x0111	410	140	175	20	9	0
+textBarcodeCategoryOperator1	""	255 247 57	0x0101	360	1	175	20	9	0
 textBarcodeCategoryOperator2	""	255 247 57	0x0101	340	190	175	20	9	0
 textBarcodeCategoryOperator3	""	255 247 57	0x0101	340	240	175	20	9	0
 textBarcodeCategoryOperator4	""	255 247 57	0x0101	340	290	175	20	9	0
 textBarcodeCategoryOperator5	""	255 247 57	0x0101	340	340	175	20	9	0
 textBarcodeCategoryPopup	""	255 247 57	0x0111	115	15	412	20	9	0
 textBarcodeCustomCategoryIcon	""	255 247 57	0x0111	9	0	50	50	20	0
-textBarcodeDeleteBox	"#![BeginSeg 1]Confirm barcode deletion#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
-textBarcodeDeleteBoxConfirmButton	"#![BeginSeg 1]Confirm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textBarcodeDelteBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textBarcodeEditBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textBarcodeEditBoxDeleteButton	"#![BeginSeg 1]Delete#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textBarcodeNaclCategoryIcon	"#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	0
-textBarcodeObjectOverridden	"OVERRIDDEN"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeDeleteBox	"#![BeginSeg 1]Appuyez sur Confirmer pour supprimer le code à barres.#![EndSeg 1]"	255 247 57	0x0110	3	30	200	200	18	1
+textBarcodeDeleteBoxConfirmButton	"#![BeginSeg 1]Confirmer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeDelteBoxCancelButton	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxCancelButton	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxDeleteButton	"#![BeginSeg 1]Supprimer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeEditBoxOverrideButton	"#![BeginSeg 1]Écraser#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeNaclCategoryIcon	"#![BeginSeg 1]NaCl\n0,9 %#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeObjectOverridden	"Écrasé"	255 247 57	0x0121	419	0	70	20	9	1
 textBarcodeObjectRemaining	""	255 247 57	0x0101	340	340	175	20	9	0
-textBarcodeObjectSkipped	"SKIPPED"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectSkipped	"Ignoré"	255 247 57	0x0121	419	0	70	20	9	1
 textBarcodeObjectTimeStamp24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
-textBarcodeObjectTimeStampAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
-textBarcodeObjectTimeStampPm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStampAm12Hr	"#![BeginSeg 1]#!{dataItem1} :#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStampPm12Hr	"#![BeginSeg 1]#!{dataItem1} :#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeParseError	"#![BeginSeg 1]Code à barres incorrect#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textBarcodePopupEmpty	""	0 0 0	0x0111	10	40	400	100	14	0
 textBarcodePopupEmptyAlt	""	0 0 0	0x0111	10	40	400	100	10	0
 textBarcodeReview1	""	255 255 255	0x0111	0	0	640	0	18	0
@@ -336,25 +362,29 @@ textBarcodeReview4	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview4Alt	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5Alt	""	255 255 255	0x0111	0	0	640	0	18	0
-textBarcodeScanBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeScanBoxCancelButton	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textBarcodeScanCategoryFormat	""	255 247 57	0x0001	20	0	375	30	14	0
 textBarcodeScanErrorFormat	""	255 247 57	0x0111	85	25	350	60	16	0
 textBarcodeScanNameFormat	""	255 247 57	0x0001	20	20	375	30	14	0
 textBarcodeScanPopup	""	255 247 57	0x0111	115	44	410	77	14	0
-textBarcodeSkipBoxCancelButton	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textBarcodeSkipBoxConfirm	"#![BeginSeg 1]Confirm barcode skip#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
-textBarcodeSkipBoxConfirmButton	"#![BeginSeg 1]Close#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textBarcodeStatusSkipped	"#![BeginSeg 1]Skipped#![EndSeg 1]"	255 247 57	0x0112	0	0	640	15	14	1
+textBarcodeSkipBoxCancelButton	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeSkipBoxConfirm	"#![BeginSeg 1]Confirmer que le code à barres doit être ignoré#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeSkipBoxConfirmButton	"#![BeginSeg 1]Fermer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeStatusSkipped	"#![BeginSeg 1]Ignoré#![EndSeg 1]"	255 247 57	0x0112	0	0	640	15	14	1
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textBodyAlarmDrawLineOcclusion	"#![BeginSeg 1]Notez le numéro d'alarme et le texte de la ligne d'état.\n\n#![EndSeg 1]#![BeginSeg 2]Le système a rencontré une alarme irrémédiable.\n\n#![EndSeg 2]#![BeginSeg 3]- Sélectionnez Terminer le don.\n#![EndSeg 3]"	0 0 0	0x0100	15	110	455	300	18	1
 textBodyPopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	20	20	335	115	18	0
-textBoxBarcodeLookupError	"#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
-textBoxBarcodeLookupErrorDefault	"#![BeginSeg 1]Barcode lookup unsuccessful#![EndSeg 1]#![BeginSeg 2], default count used#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
-textBoxBarcodeMatchError	"#![BeginSeg 1]Barcode matching error#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
-textBoxEditBarcode	"#![BeginSeg 1]Edit barcode#![EndSeg 1]"	255 247 57	0x0111	0	0	640	30	18	1
-textBoxIncorrectSequence	"#![BeginSeg 1]Incorrect barcode sequence#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
-textBoxInvalidREFError	"#![BeginSeg 1]Invalid REF#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
-textBoxScanBarcode	"#![BeginSeg 1]Scan barcode#![EndSeg 1]"	255 247 57	0x0111	0	0	502	29	18	1
+textBoxBarcodeDataTransferProgress	"#![BeginSeg 1]Transfert de données en cours...#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupDonorError	"#![BeginSeg 1]Échec de la recherche du code à barres#![EndSeg 1]#![BeginSeg 2], vérifiez les Infos donneur et l'éligibilité.#![EndSeg 2]"	255 247 57	0x0110	80	55	350	60	16	1
+textBoxBarcodeLookupError	"#![BeginSeg 1]Échec de la recherche du code à barres.#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupErrorDefault	"#![BeginSeg 1]Échec de la recherche du code à barres#![EndSeg 1]#![BeginSeg 2], nombre de codes à barres par défaut utilisés.#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupFailed	"#![BeginSeg 1]#!{dataItem1} : échec#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeMatchError	"#![BeginSeg 1]Erreur, le code à barres ne correspond pas.#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeRuleError	"#![BeginSeg 1]Incorrect : #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxEditBarcode	"#![BeginSeg 1]Modifier le code à barres#![EndSeg 1]"	255 247 57	0x0111	0	0	640	30	18	1
+textBoxIncorrectSequence	"#![BeginSeg 1]Séquence de code à barres incorrect#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxInvalidREFError	"#![BeginSeg 1]REF non valide#![EndSeg 1]"	255 247 57	0x0111	85	25	350	60	16	1
+textBoxScanBarcode	"#![BeginSeg 1]Scanner le code à barres#![EndSeg 1]"	255 247 57	0x0111	0	0	502	29	18	1
 textButtonAbortAasExit	"#![BeginSeg 1]Terminer\nl'ajout de\nsolution#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]Réaliser un rétablissement après\nbulle d'air\n#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortPasExit	"#![BeginSeg 1]Terminer\nl'ajout de\nsolution de plaquettes#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
@@ -378,7 +408,7 @@ textButtonAlarmUnload	"#![BeginSeg 1]Décharger#![EndSeg 1]"	255 247 57	0x0111	0
 textButtonAlarmUnloadSet	"#![BeginSeg 1]Décharger\nle kit#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeACMini	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0100	18	7	35	35	10	1
 textButtonBarcodeAc	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
-textButtonBarcodeCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textButtonBarcodeCancel	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
 textButtonBarcodeCategoryClear	"#![BeginSeg 1]Effacer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeInputClear	"#![BeginSeg 1]Effacer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
@@ -388,21 +418,21 @@ textButtonBarcodeMisc4	"#![BeginSeg 1]4#![EndSeg 1]"	255 247 57	0x0111	10	10	84	
 textButtonBarcodeMisc5	"#![BeginSeg 1]5#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
 textButtonBarcodeMiscCustom	""	255 247 57	0x0111	10	10	84	63	24	0
 textButtonBarcodeMiscCustomMini	""	255 247 57	0x0111	1	3	62	63	10	0
-textButtonBarcodeNacl	"#![BeginSeg 1]NaCl\n0.9 %#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	0
+textButtonBarcodeNacl	"#![BeginSeg 1]NaCl\n0,9 %#![EndSeg 1]"	49 8 123	0x0111	6	4	85	35	14	1
 textButtonBarcodeNaclMini	"#![BeginSeg 1]NaCl\n0,9 %#![EndSeg 1]"	49 8 123	0x0100	18	7	35	35	10	1
 textButtonCancel	"#![BeginSeg 1]Terminer\nle don#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textButtonCancelSalineConnect	"#![BeginSeg 1]Annuler#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	18	1
 textButtonCategoryRankSwitch	"#![BeginSeg 1]Plus...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textButtonCfgAppServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgAppServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgAppServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgAppServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgAppServers	"#![BeginSeg 1]Serveurs\nd'application#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
-textButtonCfgCadenceServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgCadenceServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgCadenceServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgCadenceServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgClose	"#![BeginSeg 1]Fermer#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	16	1
-textButtonCfgDeviceGateway	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgDeviceIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgDeviceGateway	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgDeviceIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgDeviceNetwork	"#![BeginSeg 1]Réseau périphériques#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
-textButtonCfgDeviceSubnetMask	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgDeviceSubnetMask	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgDonLimDrbcVolToggle	"#![BeginSeg 1]VST min\ndCGR#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
 textButtonCfgDonLimPlasmaVolMaxToggle	"#![BeginSeg 1]Procédures avec plasma#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
 textButtonCfgDonLimPlateletVolMaxToggle	"#![BeginSeg 1]Procédures avec plaquettes#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	13	1
@@ -425,13 +455,13 @@ textButtonCfgMainRepFluid	"#![BeginSeg 1]Solution de\nremplacement#![EndSeg 1]"	
 textButtonCfgMainSoftOpt	"#![BeginSeg 1]Menu régional#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
 textButtonCfgMainVolLim	"#![BeginSeg 1]Limites de volume\npour le donneur#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
 textButtonCfgNonDisplayedNumber	"#![BeginSeg 1]---#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	0
-textButtonCfgPrimaryDns	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgPrimaryDns	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgPrioExtraDoseUnits	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0110	0	33	0	0	10	1
 textButtonCfgPrioExtraPlasUnits	"#![BeginSeg 1]ml#![EndSeg 1]"	255 247 57	0x0110	0	33	0	0	10	1
 textButtonCfgPrioExtraPltExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	68	31	8	8	6	0
-textButtonCfgPrioExtraPltX10	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0120	32	33	0	0	10	1
+textButtonCfgPrioExtraPltX10	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0120	32	33	0	0	10	1
 textButtonCfgRepFluidRbc	"#![BeginSeg 1]Liquide de\nremplacement#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	11	1
-textButtonCfgSecondaryDns	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgSecondaryDns	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfrClear	"#![BeginSeg 1]Effacer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonCfrSelected	"#![BeginSeg 1]Accepter#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonClearDonorInfo	"#![BeginSeg 1]Effacer infos#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -440,7 +470,7 @@ textButtonConfirmBoxCancel	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111
 textButtonConfirmBoxConfirm	"#![BeginSeg 1]Confirmer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonConfirmInfo	"#![BeginSeg 1]Confirmer les informations#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonContinueSalineConnect	"#![BeginSeg 1]Continuer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textButtonControlBoxCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonControlBoxCancel	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxClose	"#![BeginSeg 1]Fermer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxOverride	"#![BeginSeg 1]Écraser#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonDonorInfo	"#![BeginSeg 1]Infos donneur#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
@@ -468,7 +498,7 @@ textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]Poids donneur#![EndSeg 1]"	255 2
 textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]Poids donneur\n#!{dataItemWeightKg} kg#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]Poids donneur\n#!{dataItemWeightLb} lb#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantLoadSystem	"#![BeginSeg 1]Charger le système#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
-textButtonIntervalTimerContinue	"#![BeginSeg 1]Continue#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonIntervalTimerContinue	"#![BeginSeg 1]Continuer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonKeyboard0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
@@ -674,7 +704,7 @@ textButtonLongPredScrollPrev	"#![BeginSeg 1]Proc. optimale#![EndSeg 1]"	255 247 
 textButtonLongResetMachine	"#![BeginSeg 1]Réinitialiser l'appareil#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongRunSumm	"#![BeginSeg 1]Résumé#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongStartDraw	"#![BeginSeg 1]Démarrer le prélèvement#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
-textButtonOverrideBoxCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonOverrideBoxCancel	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxClose	"#![BeginSeg 1]Fermer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxConfirm	"#![BeginSeg 1]Confirmer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]Volume de la poche de solution additive (ml)#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	14	1
@@ -682,14 +712,14 @@ textButtonPredConfCancel	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0
 textButtonPredConfConfirm	"#![BeginSeg 1]Confirmer#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonPredFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} ml/min#![EndSeg 1]"	255 247 57	0x0021	3	0	110	32	12	1
 textButtonSelectRef	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0110	5	10	155	40	17	1
-textButtonSkip	"#![BeginSeg 1]Skip#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
-textButtonTimerCancel	"#![BeginSeg 1]Cancel#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonSkip	"#![BeginSeg 1]Ignorer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textButtonTimerCancel	"#![BeginSeg 1]Annuler#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerClose	"#![BeginSeg 1]Fermer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
-textButtonTimerContinue	"#![BeginSeg 1]Continue#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerContinue	"#![BeginSeg 1]Continuer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerOk	"#![BeginSeg 1]OK#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerPause	"#![BeginSeg 1]Pause#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerRestart	"#![BeginSeg 1]Redémarrer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
-textButtonTimerResume	"#![BeginSeg 1]Resume#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerResume	"#![BeginSeg 1]Continuer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStart	"#![BeginSeg 1]Démarrer#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStop	"#![BeginSeg 1]Arrêter#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textCategoryIconText	""	49 8 123	0x0111	12	45	50	50	10	0
@@ -764,16 +794,16 @@ textCfgProdNameAmapPltSelection	"#![BeginSeg 1]Plaquettes#![EndSeg 1]"	255 247 5
 textCfgProdNameAmapRbcRasSelection	"#![BeginSeg 1]Hématies#![EndSeg 1]"	255 247 57	0x0111	23	0	100	48	14	1
 textCfgProdNameAmapRbcSelection	"#![BeginSeg 1]Hématies#![EndSeg 1]"	255 247 57	0x0111	0	0	100	48	14	1
 textCfgREFList	"#![BeginSeg 1]Liste REF#![EndSeg 1]"	255 247 57	0x0111	0	15	158	0	18	1
-textCfgREFListItem1	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem10	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem2	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem3	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem4	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem5	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem6	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem7	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem8	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem9	""	255 247 57	0x0111	0	0	100	0	16	0
+textCfgREFListItem1	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem10	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem2	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem3	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem4	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem5	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem6	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem7	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem8	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem9	""	255 247 57	0x0111	0	0	100	0	16	1
 textCfgRowLabelCfgPlt1	"#![BeginSeg 1]PLQ 1#![EndSeg 1]"	255 247 57	0x0100	10	0	53	48	14	1
 textCfgRowLabelCfgPlt10	"#![BeginSeg 1]PLQ 10#![EndSeg 1]"	255 247 57	0x0100	4	0	53	48	14	1
 textCfgRowLabelCfgPlt2	"#![BeginSeg 1]PLQ 2#![EndSeg 1]"	255 247 57	0x0100	10	0	53	48	14	1
@@ -803,16 +833,16 @@ textCfgScreenLabelRbc	"#![BeginSeg 1]Hématies#![EndSeg 1]"	255 247 57	0x0111	0	
 textCfgScreenLabelRepFluid	"#![BeginSeg 1]Liquide de remplacement#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelSoftOpt	"#![BeginSeg 1]Spécifications actives#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelVolLim	"#![BeginSeg 1]Limites de volume pour le donneur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	0
+textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	1
 textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]Code de confirmation de la spécification#![EndSeg 1]"	255 255 255	0x0011	341	285	290	25	12	1
-textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	0
+textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	1
 textCfgSoftOptCountryLabel	"#![BeginSeg 1]Pays :#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	14	1
-textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	0
+textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	1
 textCfgSoftOptCustomerLabel	"#![BeginSeg 1]Client :#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	14	1
 textCfgSoftOptEmptyItem	""	0 0 0	0x0101	10	2	280	25	10	0
-textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	0
+textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	1
 textCfgSoftOptSerialNumberLabel	"#![BeginSeg 1]Nº de série :#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	14	1
-textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	0
+textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	1
 textCfgSoftOptSiteLabel	"#![BeginSeg 1]Site :#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	14	1
 textCftPltAmapFinalConcExpColLbl	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	331	110	10	15	8	1
 textCftPltAmapMaxYieldColLbl	"#![BeginSeg 1]Rendement\nmax.\n (x10   )#![EndSeg 1]"	255 247 57	0x0112	180	65	120	60	12	1
@@ -821,8 +851,8 @@ textCftPltMinYieldColLbl	"#![BeginSeg 1]Rendement\nmin.\n (x10  )#![EndSeg 1]"	2
 textCftPrdRangeColLbl	"#![BeginSeg 1]Plage de\nproduits#![EndSeg 1]"	255 247 57	0x0112	20	65	80	60	12	1
 textChamberClearingLimit	"#![BeginSeg 1]Prév. : limite de purge de la chambre#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]Config. : Substitution du plasma par une solution\nde conservation#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textConfigControlledBox	"#![BeginSeg 1]Configuration is controlled by the Managing App#![EndSeg 1]"	255 247 57	0x0110	5	35	315	200	18	1
-textConfigControlledBoxConfirm	"#![BeginSeg 1]Confirm to clear configuration received from the Managing App#![EndSeg 1]"	255 247 57	0x0110	6	15	315	200	18	1
+textConfigControlledBox	"#![BeginSeg 1]La configuration est contrôlée par l'application.#![EndSeg 1]"	255 247 57	0x0110	5	35	315	200	18	1
+textConfigControlledBoxConfirm	"#![BeginSeg 1]Appuyez sur Confirmer pour effacer la configuration.#![EndSeg 1]"	255 247 57	0x0110	6	35	315	200	18	1
 textConfigProcNumber	"#![BeginSeg 1]Procédure #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	265	70	100	30	14	1
 textConfigProcNumberAmap	"#![BeginSeg 1]Procédure #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	10	70	100	30	14	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]Retirer toutes\nles REF entrées#![EndSeg 1]"	255 247 57	0x0110	0	45	640	0	18	1
@@ -834,18 +864,22 @@ textConfirmBodySalineConnect	"#![BeginSeg 1]Confirmer que la poche connectée es
 textConfirmPasBarcode	"#![BeginSeg 1]Scanner le code à barres NDC sur la poche de solution additive pour plaquettes#![EndSeg 1]"	255 247 57	0x0111	83	0	315	100	18	1
 textConfirmPasBarcodeInvalid	"#![BeginSeg 1]Le code à barres scanné est non valide.\n\n#![EndSeg 1]#![BeginSeg 2]Scanner le code à barres NDC sur la poche de solution additive pour plaquettes#![EndSeg 2]"	255 247 57	0x0110	40	20	315	100	18	1
 textCpsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, CPS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textCustomCategoryIcon	""	255 247 57	0x0111	9	40	50	50	20	0
 textDashesRs1AvgInletFlow	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	345	123	90	14	0
 textDashesRs1AvgInletFlowAlt	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	302	123	90	14	0
 textDashesRs1PltPostCount	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	180	216	130	90	14	0
 textDashesRsPltPostCountJP	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0121	179	178	80	35	14	0
+textDataCfrBloodType	"#![BeginSeg 1]Blood type: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderFemale	"#![BeginSeg 1]Female#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderMale	"#![BeginSeg 1]Male#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataDatRs1RinsebackIncomplete	"#![BeginSeg 1]Non terminée#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackPlasma	"#![BeginSeg 1]Plasma#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackSaline	"#![BeginSeg 1]Sérum physiologique#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackStandard	"#![BeginSeg 1]Standard#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
-textDataEmptyFormatRsAcUsedJP	""	255 255 255	0x0121	202	258	50	35	14	0
-textDataEmptyFormatRsAvgInletFlowJP	""	255 255 255	0x0121	180	218	50	35	14	0
-textDataEmptyFormatRsDurationOfRunJP	""	255 255 255	0x0121	202	138	50	35	14	0
-textDataEmptyFormatRsTbvProcessedJP	""	255 255 255	0x0121	202	178	50	35	14	0
+textDataEmptyFormatRsAcUsedJP	""	255 255 255	0x0121	202	258	50	35	14	1
+textDataEmptyFormatRsAvgInletFlowJP	""	255 255 255	0x0121	180	218	50	35	14	1
+textDataEmptyFormatRsDurationOfRunJP	""	255 255 255	0x0121	202	138	50	35	14	1
+textDataEmptyFormatRsTbvProcessedJP	""	255 255 255	0x0121	202	178	50	35	14	1
 textDataInitDonDlTbv	"#![BeginSeg 1]0 ml#![EndSeg 1]"	255 255 255	0x0111	416	279	171	24	18	1
 textDataLabelAasRunsumm	"#![BeginSeg 1]Volume de solution additive à ajouter manuellement#![EndSeg 1]"	239 239 239	0x0111	230	273	395	35	15	1
 textDataLabelDonDlBloodType	"#![BeginSeg 1]Groupe sanguin#![EndSeg 1]"	255 255 255	0x0121	242	313	164	24	18	1
@@ -934,7 +968,15 @@ textDataRunProcEstRbc	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 255 255	
 textDataUnitsAdjustTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textDataUnitsCfr24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textDataUnitsCfrAm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrHgb	"#![BeginSeg 1]g/dL#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsCfrPm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsDonDlCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]pi#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlHct	"#![BeginSeg 1] %#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
@@ -1013,7 +1055,7 @@ textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#!
 textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
 textDisplayResidualVolumes	"#![BeginSeg 1]Post-collecte : pertes résiduelles#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textDonorBMIOutOfRange	"#![BeginSeg 1]Vérifier la taille et le poids#![EndSeg 1]"	255 247 57	0x0110	85	50	220	200	18	1
-textEORBarcode1	"#![BeginSeg 1]#!{dataItem1} (#!{dataItem2})#![EndSeg 1]"	255 247 57	0x0101	115	140	335	30	14	0
+textEORBarcode1	"#![BeginSeg 1]#!{dataItem1} (#!{dataItem2})#![EndSeg 1]"	255 247 57	0x0101	72	22	400	25	9	0
 textEORBarcode2	""	255 247 57	0x0101	110	190	400	50	14	0
 textEORBarcode3	""	255 247 57	0x0101	110	240	400	50	14	0
 textEORBarcode4	""	255 247 57	0x0101	110	290	400	50	14	0
@@ -1050,7 +1092,7 @@ textEmptyFormatBarcodeScan	""	255 247 57	0x0101	77	132	390	31	14	0
 textEmptyFormatBarcodeScanAlt	""	255 247 57	0x0101	77	132	390	31	10	0
 textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	77	380	390	31	14	0
 textEmptyFormatBarcodeScanBottomAlt	""	255 247 57	0x0101	77	380	390	31	10	0
-textEmptyFormatBarcodeTimeStamp	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0112	400	20	86	15	14	1
+textEmptyFormatBarcodeTimeStamp	"#![BeginSeg 1]#!{dataItem1} :#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0112	400	20	86	15	14	1
 textEmptyFormatBloodTypeButton12Pt	""	255 255 255	0x0111	0	0	100	48	12	0
 textEmptyFormatBloodTypeButton14Pt	""	255 255 255	0x0111	0	0	100	48	14	0
 textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
@@ -1085,13 +1127,13 @@ textEmptyFormatKeypadUsrEntryInit	""	0 0 0	0x0121	60	10	105	32	18	0
 textEmptyFormatListboxButton	""	255 255 255	0x0111	20	0	640	0	19	0
 textEmptyFormatNewPredCurrPcxInit	""	255 247 57	0x0102	350	368	150	23	13	0
 textEmptyFormatNewPredCurrPlasInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	165	368	150	23	18	1
-textEmptyFormatNewPredCurrPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	0	368	120	23	18	1
+textEmptyFormatNewPredCurrPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	0	368	120	23	18	1
 textEmptyFormatNewPredCurrPltVolInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	0	393	100	23	14	1
 textEmptyFormatNewPredProdPcxInit	""	255 255 255	0x0100	330	10	59	19	13	0
 textEmptyFormatNewPredProdPlasInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 255 255	0x0120	277	10	100	19	14	1
-textEmptyFormatNewPredProdPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0120	473	10	120	19	14	1
-textEmptyFormatOfflineVolumeDataLabelRow1	""	74 74 74	0x0101	240	305	230	32	14	0
-textEmptyFormatOfflineVolumeDataLabelRow2	""	74 74 74	0x0101	240	338	230	32	14	0
+textEmptyFormatNewPredProdPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0120	473	10	120	19	14	1
+textEmptyFormatOfflineVolumeDataLabelRow1	""	74 74 74	0x0101	240	305	230	32	14	1
+textEmptyFormatOfflineVolumeDataLabelRow2	""	74 74 74	0x0101	240	338	230	32	14	1
 textEmptyFormatOfflineVolumeRow1	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatOfflineVolumeRow2	""	255 255 255	0x0121	480	338	60	32	14	0
 textEmptyFormatOperatorPromptButton1	""	255 247 57	0x0111	0	0	640	0	14	0
@@ -1104,14 +1146,14 @@ textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPlasmaRinsebackVol	"#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"	0 0 0	0x0111	0	0	34	30	12	0
 textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPredConfPostPltDataUnit	"#![BeginSeg 1]#!{dataItem} x 1000/µl #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	14	1
-textEmptyFormatPredConfPostPltDataUnitBold	"#![BeginSeg 1]#!{dataItem} x 1000/µl#![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	20	1
+textEmptyFormatPredConfPostPltDataUnitBold	"#![BeginSeg 1]#!{dataItem} x 1000/µl #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	20	1
 textEmptyFormatPredConfirmAcDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	247	120	24	14	1
 textEmptyFormatPredConfirmFlowDataUnit	"#![BeginSeg 1]#!{dataItem} ml/min#![EndSeg 1]"	74 74 74	0x0101	260	313	120	24	14	1
 textEmptyFormatPredConfirmPasVolDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	119	120	24	14	1
 textEmptyFormatPredConfirmPlasVolDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	163	120	24	14	1
 textEmptyFormatPredConfirmPltTotalVolDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	141	120	24	14	1
 textEmptyFormatPredConfirmPltVolDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	97	120	24	14	1
-textEmptyFormatPredConfirmPltYieldDataUnit	"#![BeginSeg 1]#!{dataItem} x 10#![EndSeg 1]"	74 74 74	0x0101	260	75	120	24	14	1
+textEmptyFormatPredConfirmPltYieldDataUnit	"#![BeginSeg 1]#!{dataItem} x 10#![EndSeg 1]"	74 74 74	0x0101	260	75	120	24	14	1
 textEmptyFormatPredConfirmRasVolDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	207	120	24	14	1
 textEmptyFormatPredConfirmRbcVolDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	185	120	24	14	1
 textEmptyFormatPredConfirmTbvProcessedDataUnit	"#![BeginSeg 1]#!{dataItem} ml#![EndSeg 1]"	74 74 74	0x0101	260	291	120	24	14	1
@@ -1121,7 +1163,7 @@ textEmptyFormatPredCurrFlowRateWithAmappLabelInit	""	255 247 57	0x0101	536	265	4
 textEmptyFormatPredCurrPlasInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	166	265	150	23	18	1
 textEmptyFormatPredCurrPlasLabelInit	""	255 247 57	0x0101	286	265	44	23	18	0
 textEmptyFormatPredCurrPltExpInit	""	255 247 57	0x0101	128	263	16	12	10	0
-textEmptyFormatPredCurrPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	0	265	125	23	18	1
+textEmptyFormatPredCurrPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	0	265	125	23	18	1
 textEmptyFormatPredCurrPltVolInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	0	290	100	23	14	1
 textEmptyFormatPredCurrPltX10Init	""	255 247 57	0x0101	85	265	47	23	18	0
 textEmptyFormatPredCurrRbcInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0121	321	265	100	23	18	1
@@ -1133,7 +1175,7 @@ textEmptyFormatPredNextFlowRateWithAmappLabelInit	""	74 74 74	0x0101	546	326	44	
 textEmptyFormatPredNextPlasInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	74 74 74	0x0121	206	326	100	19	14	1
 textEmptyFormatPredNextPlasLabelInit	""	74 74 74	0x0101	286	326	44	19	14	0
 textEmptyFormatPredNextPltExpInit	""	74 74 74	0x0101	107	324	13	11	8	0
-textEmptyFormatPredNextPltInit	"#![BeginSeg 1]#!{dataItem1}  x 10#![EndSeg 1]"	74 74 74	0x0121	5	326	100	19	14	1
+textEmptyFormatPredNextPltInit	"#![BeginSeg 1]#!{dataItem1}  x 10#![EndSeg 1]"	74 74 74	0x0121	5	326	100	19	14	1
 textEmptyFormatPredNextPltX10Init	""	74 74 74	0x0101	75	326	41	19	14	0
 textEmptyFormatPredNextRbcInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	74 74 74	0x0121	296	326	100	19	14	1
 textEmptyFormatPredNextRbcLabelInit	""	74 74 74	0x0101	391	326	39	19	14	0
@@ -1144,7 +1186,7 @@ textEmptyFormatPredPrevFlowRateWithAmappLabelInit	""	74 74 74	0x0101	546	193	44	
 textEmptyFormatPredPrevPlasInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	74 74 74	0x0121	206	193	100	19	14	1
 textEmptyFormatPredPrevPlasLabelInit	""	74 74 74	0x0101	286	193	44	19	14	0
 textEmptyFormatPredPrevPltExpInit	""	74 74 74	0x0101	107	190	13	11	8	0
-textEmptyFormatPredPrevPltInit	"#![BeginSeg 1]#!{dataItem1}  x 10#![EndSeg 1]"	74 74 74	0x0121	5	193	100	19	14	1
+textEmptyFormatPredPrevPltInit	"#![BeginSeg 1]#!{dataItem1}  x 10#![EndSeg 1]"	74 74 74	0x0121	5	193	100	19	14	1
 textEmptyFormatPredPrevPltX10Init	""	74 74 74	0x0101	75	193	41	19	14	0
 textEmptyFormatPredPrevRbcInit	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	74 74 74	0x0121	296	193	100	19	14	1
 textEmptyFormatPredPrevRbcLabelInit	""	74 74 74	0x0101	391	193	39	19	14	0
@@ -1188,21 +1230,21 @@ textEmptyFormatRs2DatRbcAcSplitLayout	""	255 255 255	0x0121	370	246	60	23	14	0
 textEmptyFormatRs2DatRbcRasSplitLayout	""	255 255 255	0x0121	370	276	60	23	14	0
 textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	338	60	23	14	0
 textEmptyFormatRs2DatRbcVolSplitLayout	""	255 255 255	0x0121	370	216	60	23	14	0
-textEmptyFormatRsDatAcToDonorJP	""	255 255 255	0x0121	206	258	50	35	14	0
-textEmptyFormatRsDatEndOfRunTimeJP	""	255 255 255	0x0121	203	138	50	35	14	0
-textEmptyFormatRsDatEndOfRunTimeJP24	""	255 255 255	0x0121	215	138	50	35	14	0
-textEmptyFormatRsDatPasVolJP	""	255 255 255	0x0121	522	367	50	35	14	0
-textEmptyFormatRsDatPlsAcJP	""	255 255 255	0x0121	522	178	50	35	14	0
-textEmptyFormatRsDatPlsVolJP	""	255 255 255	0x0121	522	138	50	35	14	0
-textEmptyFormatRsDatPltAcJP	""	255 255 255	0x0121	522	327	50	35	14	0
-textEmptyFormatRsDatPltVolJP	""	255 255 255	0x0121	522	247	50	35	14	0
-textEmptyFormatRsDatPltYieldJP	""	255 255 255	0x0121	522	287	50	35	14	0
-textEmptyFormatRsDatPostHctJP	""	255 255 255	0x0121	206	218	50	35	14	0
-textEmptyFormatRsDatPostPltCountJP	""	255 255 255	0x0121	179	178	50	35	14	0
-textEmptyFormatRsDatRasVolJP	""	255 255 255	0x0121	522	218	50	35	14	0
-textEmptyFormatRsDatRbcVolJP	""	255 255 255	0x0121	522	138	50	35	14	0
-textEmptyFormatRsDatSalineUsedJP	""	255 255 255	0x0121	206	298	50	35	14	0
-textEmptyFormatRsRbcAcJP	""	255 255 255	0x0121	522	178	50	35	14	0
+textEmptyFormatRsDatAcToDonorJP	""	255 255 255	0x0121	206	258	50	35	14	1
+textEmptyFormatRsDatEndOfRunTimeJP	""	255 255 255	0x0121	203	138	50	35	14	1
+textEmptyFormatRsDatEndOfRunTimeJP24	""	255 255 255	0x0121	215	138	50	35	14	1
+textEmptyFormatRsDatPasVolJP	""	255 255 255	0x0121	522	367	50	35	14	1
+textEmptyFormatRsDatPlsAcJP	""	255 255 255	0x0121	522	178	50	35	14	1
+textEmptyFormatRsDatPlsVolJP	""	255 255 255	0x0121	522	138	50	35	14	1
+textEmptyFormatRsDatPltAcJP	""	255 255 255	0x0121	522	327	50	35	14	1
+textEmptyFormatRsDatPltVolJP	""	255 255 255	0x0121	522	247	50	35	14	1
+textEmptyFormatRsDatPltYieldJP	""	255 255 255	0x0121	522	287	50	35	14	1
+textEmptyFormatRsDatPostHctJP	""	255 255 255	0x0121	206	218	50	35	14	1
+textEmptyFormatRsDatPostPltCountJP	""	255 255 255	0x0121	179	178	50	35	14	1
+textEmptyFormatRsDatRasVolJP	""	255 255 255	0x0121	522	218	50	35	14	1
+textEmptyFormatRsDatRbcVolJP	""	255 255 255	0x0121	522	138	50	35	14	1
+textEmptyFormatRsDatSalineUsedJP	""	255 255 255	0x0121	206	298	50	35	14	1
+textEmptyFormatRsRbcAcJP	""	255 255 255	0x0121	522	178	50	35	14	1
 textEmptyFormatRunDonationTimeLeft24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
 textEmptyFormatRunDonationTimeLeftAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
 textEmptyFormatRunDonationTimeLeftMinutes	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
@@ -1229,7 +1271,7 @@ textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
 textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	477	32	16	0
-textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEnableVistaCfr11PinLogging	"#![BeginSeg 1]RD: Vista Tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textExtraPlasmaNoAc	"#![BeginSeg 1]Prév. : procédures supplémentaires de collecte\nsimple de plasma hors AC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textFormatNewPredCurrFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} ml/min#![EndSeg 1]"	255 247 57	0x0101	515	384	150	23	16	1
@@ -1252,10 +1294,10 @@ textFormatPredPrevFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} ml/min#![EndSeg 1]"
 textFormatPredPrevPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	74 74 74	0x0101	107	190	13	11	8	0
 textFormatPredPrevTimeUnit	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	74 74 74	0x0101	520	181	150	19	14	1
 textGenericDataFomat	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	60	36	14	0
-textInfoEventLookupFail	"#![BeginSeg 1][Lookup failed]#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textInfoEventLookupFail	"#![BeginSeg 1]#!{dataItem1} : échec#![EndSeg 1]"	255 247 57	0x0100	16	40	455	150	14	1
 textJapanFeatures	"#![BeginSeg 1]Spécifications japonaises#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textJapanPASGraphics	"#![BeginSeg 1]Kit : écran solution additive (Japon)#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	0
+textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
 textKeypadUnitsCm	"#![BeginSeg 1]#!{dataItem1} cm#![EndSeg 1]"	0 0 0	0x0121	56	10	109	32	18	1
 textKeypadUnitsCrit	"#![BeginSeg 1] %#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
 textKeypadUnitsExponentInit	"#![BeginSeg 1]0#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	12	0
@@ -1267,7 +1309,7 @@ textKeypadUnitsPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	0 0 0	0x0121	0	0	0	
 textKeypadUnitsTime	"#![BeginSeg 1]min#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
 textLRSUnscheduledPurgeBody	"#![BeginSeg 1]Le système a détecté une contamination leucocytaire possible et purge la chambre LRS.\n\n#![EndSeg 1]#![BeginSeg 2]Le rétablissement après débordement d'hématies n'est pas nécessaire.\n\n#![EndSeg 2]#![BeginSeg 3]Vérifiez que la poche de plaquettes est toujours suspendue sur la potence.\n\n#![EndSeg 3]#![BeginSeg 4]La collecte de plaquettes reprendra lorsque l'opération sera terminée.\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	16	1
 textLRSscheduledPurgeBody	"#![BeginSeg 1]Le système purge la chambre LRS comme prévu.\n\n#![EndSeg 1]#![BeginSeg 2]Le rétablissement après débordement d'hématies n'est pas nécessaire.\n\n#![EndSeg 2]#![BeginSeg 3]Vérifiez que la poche de plaquettes est toujours suspendue sur la potence.\n\n#![EndSeg 3]#![BeginSeg 4]La collecte de plaquettes reprendra lorsque l'opération sera terminée.\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	16	1
-textLabelCfgAppServer	"#![BeginSeg 1]Connexion à l'application de gestion#![EndSeg 1]"	255 255 255	0x0101	60	120	60	20	14	1
+textLabelCfgAppServer	"#![BeginSeg 1]Connexion de l'application#![EndSeg 1]"	255 255 255	0x0101	60	120	60	20	14	1
 textLabelCfgAppServerIpAddress	"#![BeginSeg 1]Serveur ou adresse IP#![EndSeg 1]"	255 255 255	0x0121	180	160	180	20	14	1
 textLabelCfgAppServerOff	"#![BeginSeg 1]Désactivée#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
 textLabelCfgAppServerOn	"#![BeginSeg 1]Activée#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
@@ -1426,7 +1468,7 @@ textMiscBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 255 255	0x0111	416	313	
 textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2 : #![EndSeg 1]#![BeginSeg 2]Casser le raccord sécable de la poche (s'il est présent)#![EndSeg 2]"	255 247 57	0x0112	170	100	160	55	14	1
 textMiscBreakPasLineFrang	"#![BeginSeg 1]3 : #![EndSeg 1]#![BeginSeg 2]Suspendre\nla poche et ouvrir\nle clamp#![EndSeg 2]"	255 247 57	0x0112	330	100	160	55	14	1
-textMiscCfgAdminNumDigits	"#![BeginSeg 1]Code du kit de collecte :\n#![EndSeg 1]#![BeginSeg 2]8 à 10 chiffres#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]Code du kit de collecte :\n#![EndSeg 1]#![BeginSeg 2]6 à 10 chiffres#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]Processus de plaquettes#![EndSeg 1]"	255 247 57	0x0111	25	110	300	25	18	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]Processus d'hématies#![EndSeg 1]"	255 247 57	0x0111	335	110	300	25	18	1
 textMiscCfgMachBarcode	"#![BeginSeg 1]Code à\nbarres#![EndSeg 1]"	255 247 57	0x0111	270	235	100	45	14	1
@@ -1438,7 +1480,7 @@ textMiscCfgMaxValue	"#![BeginSeg 1]Valeur maximum = #![EndSeg 1]"	255 247 57	0x0
 textMiscCfgMinValue	"#![BeginSeg 1]Valeur minimum = #![EndSeg 1]"	255 247 57	0x0101	10	50	620	17	14	1
 textMiscCfgNoVolLimSelected	"#![BeginSeg 1]Sélectionner une limite de volume pour continuer#![EndSeg 1]"	255 247 57	0x0111	0	50	640	0	18	1
 textMiscCfgPasVolInit	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
-textMiscCfgPcxIndicator	""	255 247 57	0x0102	2	5	620	25	10	0
+textMiscCfgPcxIndicator	""	255 247 57	0x0102	2	5	620	25	10	1
 textMiscCfgPlt10Indicator	"#![BeginSeg 1]PLQ 10#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
 textMiscCfgPlt1Indicator	"#![BeginSeg 1]PLQ 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
 textMiscCfgPlt2Indicator	"#![BeginSeg 1]PLQ 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
@@ -1462,24 +1504,32 @@ textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]Valeur minimum = #![EndSeg 1]"	255
 textMiscCfgSplitRangeTopLabel	"#![BeginSeg 1]Plage de produit double#![EndSeg 1]"	255 247 57	0x0101	200	46	200	17	14	1
 textMiscCfgSplitRangeTopMax	"#![BeginSeg 1]Valeur maximum = #![EndSeg 1]"	255 247 57	0x0101	200	80	200	17	14	1
 textMiscCfgSplitRangeTopMin	"#![BeginSeg 1]Valeur minimum = #![EndSeg 1]"	255 247 57	0x0101	200	63	200	17	14	1
+textMiscCfrActionAcReactionDown	"#![BeginSeg 1]AC reaction down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionAcReactionUp	"#![BeginSeg 1]AC reaction up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionAdvisory	"#![BeginSeg 1]Message pris en compte#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAirblock	"#![BeginSeg 1]Rétablissement après bulle d'air réalisé#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlarm	"#![BeginSeg 1]Alarme prise en compte#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlert	"#![BeginSeg 1]Alerte prise en compte#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesModified	"#![BeginSeg 1]Codes à barres de procédure modifiés#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesReviewed	"#![BeginSeg 1]Codes à barres de procédure vérifiés#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingDown	"#![BeginSeg 1]Clumping down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionClumpingUp	"#![BeginSeg 1]Clumping up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionCollectionEnded	"#![BeginSeg 1]Collecte terminée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textMiscCfrActionConfigCleared	"#![BeginSeg 1]Configuration de l'application de gestion effacée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionConfigCleared	"#![BeginSeg 1]Configuration de l'application effacée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionConfigModified	"#![BeginSeg 1]Configuration modifiée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConfirmed	"#![BeginSeg 1]Confirmation du donneur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConnected	"#![BeginSeg 1]Donneur connecté#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorInfoChange	"#![BeginSeg 1]Infos donneur modifiées#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawDown	"#![BeginSeg 1]Draw flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionDrawUp	"#![BeginSeg 1]Draw flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionEORSummaryReviewed	"#![BeginSeg 1]Résumé de procédure vérifié#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionFlowRate	"#![BeginSeg 1]Débit saisi#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionLabelReviewed	"#![BeginSeg 1]Vérification du produit confirmée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionNewProcedureSelected	"#![BeginSeg 1]Procédure sélectionnée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textMiscCfrActionProcAdjustment	"#![BeginSeg 1]Réglage de la procédure#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionProcAdjustment	"#![BeginSeg 1]Ajustement de la procédure#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionProductBagsSealed	"#![BeginSeg 1]Poches de produit soudées#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnDown	"#![BeginSeg 1]Return flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionReturnUp	"#![BeginSeg 1]Return flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionRinsebackInitiated	"#![BeginSeg 1]Restitution initiée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSalineBolus	"#![BeginSeg 1]Bolus de sérum physiologique délivré#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSolutionAborted	"#![BeginSeg 1]Ajout de solution abandonné#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
@@ -1489,7 +1539,15 @@ textMiscCfrActionTubingAction	"#![BeginSeg 1]Action du kit de collecte terminée
 textMiscCfrActionTubingSetLoaded	"#![BeginSeg 1]Kit de collecte chargé#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionTubingSetUnloaded	"#![BeginSeg 1]Kit de collecte déchargé#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionVolumeConfirm	"#![BeginSeg 1]Volume à ajouter confirmé#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrCommaDelim	"#![BeginSeg 1], #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoCrit	"#![BeginSeg 1]HCT: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoGender	"#![BeginSeg 1]Gender: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHeight	"#![BeginSeg 1]Height: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHgb	"#![BeginSeg 1]Hgb: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoPltPrecount	"#![BeginSeg 1]Platelet precount: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoWeight	"#![BeginSeg 1]Weight: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrOpIdLabel	"#![BeginSeg 1]Identification opérateur#![EndSeg 1]"	255 255 255	0x0101	70	110	0	0	20	1
+textMiscCfrTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrTimeEventSeparator	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscChannelTest	"#![BeginSeg 1]NE PAS connecter la solution additive au cours du test#![EndSeg 1]"	255 247 57	0x0111	10	150	340	210	18	1
 textMiscClampBloodDiversionJp	"#![BeginSeg 1]Fermer le clamp de dérivation du sang#![EndSeg 1]"	255 247 57	0x0112	15	105	610	40	18	1
@@ -1596,11 +1654,11 @@ textMiscRunProcDate	"#![BeginSeg 1]00/00/0000#![EndSeg 1]"	255 247 57	0x0111	540
 textMiscRunProcInitPltCurrentExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0121	321	388	15	12	10	0
 textMiscRunProcInitPltEstExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	321	209	15	12	10	0
 textMiscRunProcInitPltVolBtnYieldCurrentExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0120	1	3	14	12	8	0
-textMiscRunProcPltCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	200	388	128	24	24	1
-textMiscRunProcPltEst	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0111	200	209	128	24	24	1
-textMiscRunProcPltPcxLabel	""	255 255 255	0x0111	202	209	128	24	20	0
+textMiscRunProcPltCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	200	388	128	24	24	1
+textMiscRunProcPltEst	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0111	200	209	128	24	24	1
+textMiscRunProcPltPcxLabel	""	255 255 255	0x0111	202	209	128	24	20	1
 textMiscRunProcPltVolBtnVolCurrent	"#![BeginSeg 1]#!{dataItem1} ml#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
-textMiscRunProcPltVolBtnYieldCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
+textMiscRunProcPltVolBtnYieldCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
 textMiscRunProcPressureLabelN	"#![BeginSeg 1]Pression#![EndSeg 1]"	239 239 239	0x0110	0	12	130	14	14	1
 textMiscRunProcPressureLabelNProc	"#![BeginSeg 1]Pression#![EndSeg 1]"	239 239 239	0x0111	6	9	94	14	14	1
 textMiscRunProcPressureLabelReturnN	"#![BeginSeg 1]Pression#![EndSeg 1]"	239 247 57	0x0110	0	12	130	14	14	1
@@ -1613,7 +1671,7 @@ textMiscRunProcStatusDrawNProc	"#![BeginSeg 1]Prélèvement#![EndSeg 1]"	255 255
 textMiscRunProcStatusReturnN	"#![BeginSeg 1]Retour#![EndSeg 1]"	255 247 57	0x0110	0	30	130	24	24	1
 textMiscRunProcStatusReturnNProc	"#![BeginSeg 1]Retour#![EndSeg 1]"	255 247 57	0x0111	6	25	94	24	24	1
 textMiscRunsumProdMoreInfo	"#![BeginSeg 1]Sélectionnez les barres de texte pour plus d'informations#![EndSeg 1]"	255 255 255	0x0101	345	218	270	0	12	1
-textMiscSalineConnBagLabel	"#![BeginSeg 1]NaCl\n0.9 %#![EndSeg 1]"	41 49 90	0x0111	315	143	102	61	18	0
+textMiscSalineConnBagLabel	"#![BeginSeg 1]NaCl\n0,9 %#![EndSeg 1]"	41 49 90	0x0111	315	143	102	61	18	1
 textMiscSealDetachAc	"#![BeginSeg 2]Souder et détacher l'AC#![EndSeg 2]"	255 247 57	0x0111	230	122	180	0	14	1
 textMiscServiceCentrifugeOnTime	"Centrifuge on time -"	0 0 0	0x0101	5	390	0	0	24	0
 textMiscServiceDontConnectDonor	"DO NOT connect donor during this mode!"	239 8 0	0x0111	0	0	640	0	24	0
@@ -1638,7 +1696,7 @@ textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1] %#![EndSeg 1]"	239 239 239	0x01
 textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]g/dl#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ml#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
-textMultiBarcodeCount	"#![BeginSeg 1]#!{dataItem1} of #!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	380	0	120	30	14	1
+textMultiBarcodeCount	"#![BeginSeg 1]#!{dataItem1}/#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	380	0	120	30	14	1
 textMultiTextListBoxBlankItem1	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem2	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem3	""	255 255 255	0x0111	20	0	640	0	19	0
@@ -1648,12 +1706,12 @@ textPIRPreferred	"#![BeginSeg 1]Prév. : activation de la récupération des\npl
 textPPCCollectTiming	"#![BeginSeg 1]Prév. : heure de collecte du PPC#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPasBagBarcodeScanFeature	"#![BeginSeg 1]Proc. : confirmation par lecture du code à barres\nde la solution additive#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPlasmaDrainAlertBody	"#![BeginSeg 1]Le système n'a pas détecté de liquide à la hauteur du détecteur de niveau bas pendant le transfert de plasma.\n\n#![EndSeg 1]#![BeginSeg 2]- Vérifiez que la ligne plasma n'est pas obstruée.#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	0
-textPltConfigCollectCon2	""	255 255 0	0x0110	485	248	59	35	14	0
-textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	0
-textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	0
-textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	0
-textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	0
+textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	1
+textPltConfigCollectCon2	""	255 255 0	0x0110	485	248	59	35	14	1
+textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	1
+textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	1
+textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	1
+textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	1
 textPopupTimerTime	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 255 255	0x0111	140	90	100	65	36	1
 textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]Prév. : mobilisation plaquettaire#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProcConfirmPopup	"#![BeginSeg 1]Prév. : confirmation de la procédure#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -1723,24 +1781,24 @@ textProdVerifReasonSolutionAbortedByOperator	"#![BeginSeg 1]Ajout automatique de
 textProdVerifReasonTargetVolumesNotAchieved	"#![BeginSeg 1]Volume configuré non atteint#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonWbcNotValidated	"#![BeginSeg 1]Configured yield > 9.0#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	0
 textProgBarAddition	"#![BeginSeg 1]Ajout#![EndSeg 1]"	255 247 57	0x0101	306	50	0	0	12	1
-textProgBarAdditionBarcode	""	255 247 57	0x0101	356	10	0	0	14	0
+textProgBarAdditionBarcode	""	255 247 57	0x0101	356	10	0	0	14	1
 textProgBarDonate	"#![BeginSeg 1]Don#![EndSeg 1]"	255 247 57	0x0101	230	50	0	0	12	1
-textProgBarDonateBarcode	""	255 247 57	0x0101	273	10	0	0	14	0
+textProgBarDonateBarcode	""	255 247 57	0x0101	273	10	0	0	14	1
 textProgBarDonorInfo	"#![BeginSeg 1]Infos#![EndSeg 1]"	255 247 57	0x0101	88	50	0	0	12	1
-textProgBarDonorInfoBarcode	""	255 247 57	0x0101	130	10	0	0	14	0
+textProgBarDonorInfoBarcode	""	255 247 57	0x0101	130	10	0	0	14	1
 textProgBarDonorPrep	"#![BeginSeg 1]Préparer#![EndSeg 1]"	255 247 57	0x0101	161	50	0	0	12	1
-textProgBarDonorPrepBarcode	""	255 247 57	0x0101	184	10	0	0	14	0
+textProgBarDonorPrepBarcode	""	255 247 57	0x0101	184	10	0	0	14	1
 textProgBarLoad	"#![BeginSeg 1]Charger#![EndSeg 1]"	255 247 57	0x0101	12	50	0	0	12	1
-textProgBarLoadBarcode	""	255 247 57	0x0101	70	10	0	0	14	0
+textProgBarLoadBarcode	""	255 247 57	0x0101	70	10	0	0	14	1
 textProgBarNoAdditionUnload	"#![BeginSeg 1]Décharger#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	12	1
-textProgBarNoAdditionUnloadBarcode	""	255 247 57	0x0101	383	10	0	0	14	0
+textProgBarNoAdditionUnloadBarcode	""	255 247 57	0x0101	383	10	0	0	14	1
 textProgBarUnload	"#![BeginSeg 1]Décharger#![EndSeg 1]"	255 247 57	0x0101	360	50	0	0	12	1
-textProgBarUnloadBarcode	""	255 247 57	0x0101	417	10	0	0	14	0
-textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	0
-textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	0
-textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	0
+textProgBarUnloadBarcode	""	255 247 57	0x0101	417	10	0	0	14	1
+textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	1
+textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	1
+textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	1
 textRunScreenPlateletVolumeToggle	"#![BeginSeg 1]Proc. : basculer vers Volume plaquettes#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textSBoxBarcodeUnableDonorEligibility	"#![BeginSeg 1]Unable to confirm donor eligibility#![EndSeg 1]"	255 247 57	0x0111	16	30	200	200	16	1
+textSBoxBarcodeUnableDonorEligibility	"#![BeginSeg 1]Impossible de vérifier la validité de la procédure pour le donneur.#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textSelectBarcodeCategory	"#![BeginSeg 1]Sélectionner la catégorie de codes à barres#![EndSeg 1]"	255 247 57	0x0111	100	10	300	50	20	1
 textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Prév. : volume de CPA#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]RD: Periodic Logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
@@ -1760,7 +1818,7 @@ textStatAasClampChannel	"#![BeginSeg 1]Ajout automatique de solution#![EndSeg 1]
 textStatAasRemoveDisp	"#![BeginSeg 1]Retirer le kit de collecte#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAasSealDetach	"#![BeginSeg 1]Souder et détacher les poches produit et de solution additive#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAcPriming	"#![BeginSeg 1]Amorçage de l'AC...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatActionNotAllowed	"#![BeginSeg 1]Action not allowed#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatActionNotAllowed	"#![BeginSeg 1]Action non autorisée#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAdjustingPltConc	"#![BeginSeg 1]Réglage de la concentration plaquettaire...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAlarm10MinPause	"#![BeginSeg 1]Pause de dix minutes#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarm10MinPauseFailure	"#![BeginSeg 1]Pause de dix minutes#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
@@ -1858,17 +1916,17 @@ textStatAlarmUnloadingBagCassettePosition	"#![BeginSeg 1]Erreur lié au décharg
 textStatAlarmValveError	"#![BeginSeg 1]Erreur de valve#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarmValveLedError	"#![BeginSeg 1]Échec lié à un détecteur de valve ou de porte#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarmVoltageFailure	"#![BeginSeg 1]Échec lié à la tension électrique#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
-textStatAppTransferSuccessful	"#![BeginSeg 1]Infos sur l'application de gestion reçues#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textStatAppTransferUnsuccessful	"#![BeginSeg 1]Échec du transfert depuis l'application de gestion#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferSuccessful	"#![BeginSeg 1]Infos sur l'application reçues#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferUnsuccessful	"#![BeginSeg 1]Échec du transfert depuis l'application#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatApsLow	"#![BeginSeg 3]Pression de prélèvement basse#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAuthEvents	"#![BeginSeg 1]Saisie du code à barres d'identification de l'opérateur#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textStatAuthEventsScan	"#![BeginSeg 1]Scan the operator ID#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAuthEventsScan	"#![BeginSeg 1]Scanner l'identifiant de l'opérateur#![EndSeg 1]"	255 247 57	0x0111	22	20	355	115	18	1
 textStatAwaitingAp2Xmit	"#![BeginSeg 1]Transfert des infos donneur en cours...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcode2ManyScans	"#![BeginSeg 1]Entrée inacceptable, une valeur existe déjà#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeBadScan	"#![BeginSeg 1]Erreur liée à la lecture du code à barres#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]La valeur ne peut pas être supprimée#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeMoveInput	"#![BeginSeg 1]Identifier la valeur de code à barres#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatBarcodeNotRecognized	"#![BeginSeg 1]Barcode not recognized#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textStatBarcodeNotRecognized	"#![BeginSeg 1]Code à barres non reconnu#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textStatBarcodeOK	"#![BeginSeg 1]Correct : #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatBarcodeReview	"#![BeginSeg 1]Revoir les valeurs#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeRuleBroken	"#![BeginSeg 1]Incorrect : #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1879,7 +1937,7 @@ textStatBloodPrimeInProgress	"#![BeginSeg 1]Amorçage en cours#![EndSeg 1]"	255 
 textStatCfgMachBadBarcode	"#![BeginSeg 1]Le code à barres ne correspond pas à la REF du kit de collecte#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatCfgMachBadCatNum	"#![BeginSeg 1]La REF doit se composer de 5 ou 6 chiffres#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachBadPair	"#![BeginSeg 1]Entrée non valide - Vérifiez les numéros#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatCfgMachBadSetCode	"#![BeginSeg 1]Le code du kit de collecte doit comporter 8 à 10 chiffres#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]Le code du kit de collecte doit comporter 6 à 10 chiffres#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachEnterCatNum	"#![BeginSeg 1]Entrer la REF du kit de collecte#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachEnterSetCode	"#![BeginSeg 1]Entrer le code du kit de collecte#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachSuccess	"#![BeginSeg 1]Saisie réussie de la REF#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -1925,7 +1983,7 @@ textStatPasEmpty	"#![BeginSeg 1]Remplacement de la poche de solution additive po
 textStatPasPause	"#![BeginSeg 1]Ajout séparé de solution additive pour plaquettes#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
 textStatProcListTransferUnsuccessful	"#![BeginSeg 1]Échec du transfert de la liste de procédures#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatRASEmptyWarnBarcodeAccepted	"#![BeginSeg 1]Code à barres accepté#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textStatREFNotAMatch	"#![BeginSeg 1]The REF does not match the selected procedure#![EndSeg 1]"	255 247 57	0x0111	16	30	200	200	16	1
+textStatREFNotAMatch	"#![BeginSeg 1]La REF ne correspond pas à la procédure sélectionnée.#![EndSeg 1]"	255 247 57	0x0111	85	30	350	60	16	1
 textStatRbc1Runsum	"#![BeginSeg 1]Vérification du produit hématies 1#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRbc2Runsum	"#![BeginSeg 1]Vérification du produit hématies 2#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRecoveryProcedure	"#![BeginSeg 1]Procédure de rétablissement en cours#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1945,8 +2003,10 @@ textStatSetIdInstructions	"#![BeginSeg 1]Sélection de la REF du kit de collecte
 textStatTubingSetBarcodeAccepted	"#![BeginSeg 1]Code à barres accepté#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatUnscheduledPurge	"#![BeginSeg 1]Leucocytes détectés, purge de la chambre LRS#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatValueOutOfRange	"#![BeginSeg 1]Valeur hors limites#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
-textStatWaitingForVista	"#![BeginSeg 1]En attente de l'application de gestion...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatVistaDonorName	"#![BeginSeg 1]#!{donorNameFromVista}#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatWaitingForVista	"#![BeginSeg 1]En attente de l'application...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textTier1ConcentrationLimit	"#![BeginSeg 1]Limite de concentration de niveau 1#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textTitlePopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	400	32	18	0
 textTriplePpcFlag	"#![BeginSeg 1]Post-collecte : message pour leucocytes dans CPA réduit en plasma/solution additive plaquettes#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textVerifyRuleBox	"#![BeginSeg 1]Vérifier : #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
 STRING_FILE_TABLE_END

@@ -50,7 +50,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT 949"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"("	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	",.)"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x312fdc9e"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x24abbc0f"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"한국어"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"9"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -138,7 +138,8 @@ textAlarmBodyNoGraphicPlsWbcContamination	"#![BeginSeg 1]백혈구 혼입을 초
 textAlarmBodyNoGraphicPlsWbcContaminationContinue	"#![BeginSeg 1]'계속 진행' 버튼을 눌러 Procedure 선택 화면을 표시하십시오.#![EndSeg 1]"	0 0 0	0x0100	15	240	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify	"#![BeginSeg 1]- 혈장 제제 내 백혈구 잔존량을 검사하십시오#![EndSeg 1]"	239 74 16	0x0100	55	190	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify2	"#![BeginSeg 1]- 혈장 제제 내 백혈구 잔존량을 검사하십시오#![EndSeg 1]"	239 74 16	0x0100	75	230	455	300	18	1
-textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]시스템이 혈소판 라인 내 농도가 낮음을 감지했습니다.\n\n#![EndSeg 1]#![BeginSeg 2]- 혈소판이나 혈장 라인 내에서 용액이 보이지 않는 경우, Air block에 대해 조정하십시오.\n\n#![EndSeg 2]#![BeginSeg 3]- 제제 Bag 내에서 혈소판이 보이지 않는 경우,\nSystem AC 미터가 올라가게 조정하십시오.#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]시스템이 혈소판 라인 내 농도가 낮음을 감지했습니다.\n\n#![EndSeg 1]#![BeginSeg 2]-카세트에서 제제 Bag까지의 튜빙이 물려 있거나 막혀있지 않음을 확인하십시오.\n\n#![EndSeg 2]#![BeginSeg 3]- 혈소판이나 혈장 라인 내에서 용액이 보이지 않는 경우, Air block에 대해 조정하십시오.\n\n#![EndSeg 3]#![BeginSeg 4]- 제제 Bag 내에서 혈소판이 보이지 않는 경우,\nSystem AC 미터가 올라가게 조정하십시오.#![EndSeg 4]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLowForPPC	"#![BeginSeg 1]시스템이 혈소판 라인 내 농도가 낮음을 감지했습니다.\n\n#![EndSeg 1]#![BeginSeg 2]-카세트에서 제제 Bag까지의 튜빙이 물려 있거나 막혀있지 않음을 확인하십시오.\n\n#![EndSeg 2]#![BeginSeg 3]- 혈소판이나 혈장 라인 내에서 용액이 보이지 않는 경우, Air block에 대해 조정하십시오.#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
 textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]알람 번호와 상태 표시줄 메시지를 기록하십시오.\n\n#![EndSeg 1]#![BeginSeg 2]혈소판 펌프 로터가 올바르게 장착되지 않았거나 부정확한 펌프 로터가 혈소판 로터 하우징에 장착되어 있을 수 있습니다.\n\n#![EndSeg 2]#![BeginSeg 3]- 시스템의 전원을 끈 다음, 다시 켜십시오\n#![EndSeg 3]#![BeginSeg 4]- 혈소판 펌프에 로터를 다시 장착하십시오\n\n#![EndSeg 4]#![BeginSeg 5]문제가 반복해서 발생할 경우, 서비스 담당자에게 연락하여 도움을 요청하십시오.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]알람 번호와 상태 표시줄 메시지를 기록하십시오.\n\n#![EndSeg 1]#![BeginSeg 2]혈소판 펌프 로터가 올바르게 장착되지 않았거나 부정확한 펌프 로터가 혈소판 로터 하우징에 장착되어 있을 수 있습니다.\n\n#![EndSeg 2]#![BeginSeg 3]- 시스템의 전원을 끈 다음, 다시 켜십시오\n#![EndSeg 3]#![BeginSeg 4]- 검정색 점이 있는 펌프 로터가 혈소판 로터 하우징 내에 장착되도록 하십시오\n\n#![EndSeg 4]#![BeginSeg 5]문제가 반복해서 발생할 경우, 서비스 담당자에게 연락하여 도움을 요청하십시오.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]백혈구 혼입을 초래했을 가능성이 있는 상황이 발생했습니다.#![EndSeg 1]"	0 0 0	0x0100	15	120	455	300	18	1
@@ -278,7 +279,7 @@ textAlarmBodyWithGraphicSalineEmpty	"#![BeginSeg 1]생리식염수 Bag을 연결
 textAlarmBodyWithGraphicSalineRinsebackConnect	"#![BeginSeg 1]현 Procedure의 린스백\n과정은 생리식염수 용액을\n필요로 합니다.\n\n#![EndSeg 1]#![BeginSeg 2]생리식염수 Bag을 연결한 다음 '계속 진행' 버튼을 누르십시오.#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]시스템이 적혈구 유출을 감지했고, 자동 적혈구 유출 복구 작업을 수행하고 있습니다.\n\n#![EndSeg 1]#![BeginSeg 2]- 정확한 헌혈자 헤마토크릿/헤모글로빈이 입력되어 있음을 확인하십시오#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicSpilloverDetectedNoRec	"#![BeginSeg 1]시스템이 혈소판 라인 내 적혈구를 감지했습니다.\n\n#![EndSeg 1]#![BeginSeg 2]- 정확한 헌혈자 헤마토크릿/헤모글로빈이 입력되어 있음을 확인하십시오#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]정지 버튼이 눌러졌습니다.\n\n#![EndSeg 1]#![BeginSeg 2]- 펌프와 원심분리기가 정지되었습니다\n\n#![EndSeg 2]#![BeginSeg 3]'계속 진행' 버튼을 눌러\nProcedure를 재개하십시오.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
+textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]정지 버튼이 눌러졌습니다.\n\n#![EndSeg 1]#![BeginSeg 2]- 펌프와 원심분리기가\n정지되었습니다\n\n#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]시스템이 카세트를 현재 위치로부터 제거할 수 없습니다. #![EndSeg 1]#![BeginSeg 2]헌혈자를 분리하십시오. #![EndSeg 2]#![BeginSeg 3]카세트를 수동으로 제거하는 방법에 관한 지침은\n운영자 설명서를 참조하십시오.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]시스템이 밸브를 올바른 위치로 옮길 수 없습니다. #![EndSeg 1]#![BeginSeg 2]밸브에 장애물이 있는지 확인하십시오. #![EndSeg 2]#![BeginSeg 3]'계속 진행' 버튼을 눌러 Procedure를 재개하십시오.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
 textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]Pred: Flow Rate 조정#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -297,18 +298,58 @@ textAmapPredictCompPlsNotice	"#![BeginSeg 1]PAS로 대체된 양은 #!{dataItem1
 textAppAlarmStatusActive	"#![BeginSeg 1]예#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textAppAlarmStatusInactive	"#![BeginSeg 1]--#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAuthEventAdvisory	"#![BeginSeg 1]권고 인정됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAirblock	"#![BeginSeg 1]Air block 복구 수행됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlarm	"#![BeginSeg 1]알람 인정됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlert	"#![BeginSeg 1]경고 인정됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventBarcodesReviewed	"#![BeginSeg 1]Procedure 바코드 검토됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventCollectionEnded	"#![BeginSeg 1]채집 종료됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConfirmed	"#![BeginSeg 1]헌혈자 확인#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConnected	"#![BeginSeg 1]헌혈자 연결됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorDisconnected	"#![BeginSeg 1]헌혈자 분리됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorInfoChange	"#![BeginSeg 1]헌혈자 정보 변경됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventEORSummaryReviewed	"#![BeginSeg 1]Procedure 요약 검토됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventLabelReviewed	"#![BeginSeg 1]제제 검증 검토됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventNewProcedureSelected	"#![BeginSeg 1]Procedure 선택됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProcAdjustment	"#![BeginSeg 1]Procedure 조정#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProductBagsSealed	"#![BeginSeg 1]제제 Bag Sealing됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventRinsebackInitiated	"#![BeginSeg 1]린스백 시작됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSalineBolus	"#![BeginSeg 1]생리식염수 Bolus 전달됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSolutionAborted	"#![BeginSeg 1]용액 첨가 중단됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSpillover	"#![BeginSeg 1]적혈구 유출 복구 수행됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingAction	"#![BeginSeg 1]튜빙 세트 조치 완료됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetLoaded	"#![BeginSeg 1]튜빙 세트 장착됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetUnloaded	"#![BeginSeg 1]튜빙 세트 제거됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventVolumeConfirm	"#![BeginSeg 1]첨가될 용량 확인됨#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
 textAutoFlowCfgBtn	"#![BeginSeg 1]AutoFlow#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	1
-textBarcodeCategory1	""	255 247 57	0x0101	110	140	400	20	9	0
+textBadgeAuthDescription	""	255 247 57	0x0111	20	2	360	0	18	0
+textBarcodeAcCategoryIcon	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeCategory1	""	255 247 57	0x0101	72	1	400	20	14	0
 textBarcodeCategory2	""	255 247 57	0x0101	110	190	400	20	9	0
 textBarcodeCategory3	""	255 247 57	0x0101	110	240	400	20	9	0
 textBarcodeCategory4	""	255 247 57	0x0101	110	290	400	20	9	0
 textBarcodeCategory5	""	255 247 57	0x0101	110	340	400	20	9	0
-textBarcodeCategoryOperator1	""	255 247 57	0x0101	340	140	175	20	9	0
+textBarcodeCategoryOperator1	""	255 247 57	0x0101	360	1	175	20	9	0
 textBarcodeCategoryOperator2	""	255 247 57	0x0101	340	190	175	20	9	0
 textBarcodeCategoryOperator3	""	255 247 57	0x0101	340	240	175	20	9	0
 textBarcodeCategoryOperator4	""	255 247 57	0x0101	340	290	175	20	9	0
 textBarcodeCategoryOperator5	""	255 247 57	0x0101	340	340	175	20	9	0
 textBarcodeCategoryPopup	""	255 247 57	0x0111	115	15	412	20	9	0
+textBarcodeCustomCategoryIcon	""	255 247 57	0x0111	9	0	50	50	20	0
+textBarcodeDeleteBox	"#![BeginSeg 1]바코드를 삭제하려면 '확인’ \n버튼을 누르십시오.#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeDeleteBoxConfirmButton	"#![BeginSeg 1]확인#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeDelteBoxCancelButton	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxCancelButton	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxDeleteButton	"#![BeginSeg 1]삭제#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeEditBoxOverrideButton	"#![BeginSeg 1]오버라이드#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeNaclCategoryIcon	"#![BeginSeg 1]NaCl\n0.9%#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeObjectOverridden	"Overridden"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectRemaining	""	255 247 57	0x0101	340	340	175	20	9	0
+textBarcodeObjectSkipped	"생략됨"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStamp24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStampAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStampPm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeParseError	"#![BeginSeg 1]부정확한 바코드#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textBarcodePopupEmpty	""	0 0 0	0x0111	10	40	400	100	14	0
 textBarcodePopupEmptyAlt	""	0 0 0	0x0111	10	40	400	100	10	0
 textBarcodeReview1	""	255 255 255	0x0111	0	0	640	0	18	0
@@ -321,10 +362,29 @@ textBarcodeReview4	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview4Alt	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5Alt	""	255 255 255	0x0111	0	0	640	0	18	0
+textBarcodeScanBoxCancelButton	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeScanCategoryFormat	""	255 247 57	0x0001	20	0	375	30	14	0
+textBarcodeScanErrorFormat	""	255 247 57	0x0111	85	25	350	60	16	0
+textBarcodeScanNameFormat	""	255 247 57	0x0001	20	20	375	30	14	0
 textBarcodeScanPopup	""	255 247 57	0x0111	115	44	410	77	14	0
+textBarcodeSkipBoxCancelButton	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeSkipBoxConfirm	"#![BeginSeg 1]바코드 확인 생략#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeSkipBoxConfirmButton	"#![BeginSeg 1]닫기#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeStatusSkipped	"#![BeginSeg 1]생략됨#![EndSeg 1]"	255 247 57	0x0112	0	0	640	15	14	1
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textBodyAlarmDrawLineOcclusion	"#![BeginSeg 1]알람 번호와 상태 표시줄 메시지를 기록하십시오.\n\n#![EndSeg 1]#![BeginSeg 2]시스템에 복구 불가능한 알람이 발생했습니다.\n\n#![EndSeg 2]#![BeginSeg 3]- '실행 종료' 버튼을 누르십시오\n#![EndSeg 3]"	0 0 0	0x0100	15	110	455	300	18	1
 textBodyPopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	20	20	335	115	18	0
+textBoxBarcodeDataTransferProgress	"#![BeginSeg 1]데이터 전송 진행 중...#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupDonorError	"#![BeginSeg 1]바코드 검색 실패#![EndSeg 1]#![BeginSeg 2], 헌혈자 정보 및 자격 확인#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupError	"#![BeginSeg 1]바코드 검색 실패#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupErrorDefault	"#![BeginSeg 1]바코드 검색 실패#![EndSeg 1]#![BeginSeg 2], 기본 바코드 카운트 사용됨#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupFailed	"#![BeginSeg 1]#!{dataItem1}: 실패함#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeMatchError	"#![BeginSeg 1]바코드 일치 오류#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeRuleError	"#![BeginSeg 1]부정확: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxEditBarcode	"#![BeginSeg 1]바코드 편집#![EndSeg 1]"	255 247 57	0x0111	0	0	640	30	18	1
+textBoxIncorrectSequence	"#![BeginSeg 1]부정확한 바코드 순서#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxInvalidREFError	"#![BeginSeg 1]유효하지 않은 제품번호(REF)#![EndSeg 1]"	255 247 57	0x0111	85	25	350	60	16	1
+textBoxScanBarcode	"#![BeginSeg 1]바코드 스캔#![EndSeg 1]"	255 247 57	0x0111	0	0	502	29	18	1
 textButtonAbortAasExit	"#![BeginSeg 1]용액\n첨가 종료#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]\nAir block\n복구 수행#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortPasExit	"#![BeginSeg 1]혈소판\n용액\n첨가 종료#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
@@ -348,6 +408,7 @@ textButtonAlarmUnload	"#![BeginSeg 1]제거#![EndSeg 1]"	255 247 57	0x0111	0	0	0
 textButtonAlarmUnloadSet	"#![BeginSeg 1]세트 제거#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeACMini	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0100	18	7	35	35	10	1
 textButtonBarcodeAc	"#![BeginSeg 1]AC#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
+textButtonBarcodeCancel	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
 textButtonBarcodeCategoryClear	"#![BeginSeg 1]삭제#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeInputClear	"#![BeginSeg 1]삭제#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
@@ -409,8 +470,9 @@ textButtonConfirmBoxCancel	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	
 textButtonConfirmBoxConfirm	"#![BeginSeg 1]확인#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonConfirmInfo	"#![BeginSeg 1]정보 확인#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonContinueSalineConnect	"#![BeginSeg 1]계속 진행#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonControlBoxCancel	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxClose	"#![BeginSeg 1]닫기#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textButtonControlBoxOverride	"#![BeginSeg 1]변경#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonControlBoxOverride	"#![BeginSeg 1]오버라이드#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonDonorInfo	"#![BeginSeg 1]헌혈자 정보#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
 textButtonDonorInformation	"#![BeginSeg 1]헌혈자 정보#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonEndAddition	"#![BeginSeg 1]첨가 종료#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -436,6 +498,7 @@ textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]헌혈자 몸무게#![EndSeg 1]"
 textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]헌혈자 몸무게\n#!{dataItemWeightKg} kg#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]헌혈자 몸무게\n#!{dataItemWeightLb} lbs#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantLoadSystem	"#![BeginSeg 1]시스템 장착#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonIntervalTimerContinue	"#![BeginSeg 1]계속 진행#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonKeyboard0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
@@ -564,10 +627,10 @@ textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]용량(L)#![EndSeg 2]"	255
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]mL/kg#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]용량(mL)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	50	14	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]용량(mL)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	50	14	1
-textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
-textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
-textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
-textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
+textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]여성용\n용량(ml)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
+textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]남성용\n용량(ml)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
+textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]여성용\n용량(ml)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
+textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]남성용\n용량(ml)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
 textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]TBV(%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	45	14	1
 textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]TBV(%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	45	14	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]용량(mL)\n> 몸무게#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	14	1
@@ -641,6 +704,7 @@ textButtonLongPredScrollPrev	"#![BeginSeg 1]상위 선택#![EndSeg 1]"	255 247 5
 textButtonLongResetMachine	"#![BeginSeg 1]장비 재설정#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongRunSumm	"#![BeginSeg 1]요약#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongStartDraw	"#![BeginSeg 1]채혈 시작#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonOverrideBoxCancel	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxClose	"#![BeginSeg 1]닫기#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxConfirm	"#![BeginSeg 1]확인#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]보존액 Bag의\n용량(mL)#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	14	1
@@ -648,11 +712,17 @@ textButtonPredConfCancel	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	
 textButtonPredConfConfirm	"#![BeginSeg 1]확인#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonPredFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min #![EndSeg 1]"	255 247 57	0x0021	0	0	110	32	12	1
 textButtonSelectRef	"#![BeginSeg 1]제품번호(REF)#![EndSeg 1]"	255 247 57	0x0110	5	10	155	40	18	1
+textButtonSkip	"#![BeginSeg 1]생략#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textButtonTimerCancel	"#![BeginSeg 1]취소#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerClose	"#![BeginSeg 1]닫기#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerContinue	"#![BeginSeg 1]계속 진행#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerOk	"#![BeginSeg 1]확인#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerPause	"#![BeginSeg 1]일시 정지#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerRestart	"#![BeginSeg 1]다시 시작#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerResume	"#![BeginSeg 1]재개#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStart	"#![BeginSeg 1]시작#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStop	"#![BeginSeg 1]정지#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textCategoryIconText	""	49 8 123	0x0111	12	45	50	50	10	0
 textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]모드#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	14	1
 textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]Collect\nconcentration\n(x 10  /μL)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	12	1
 textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	508	151	10	15	8	0
@@ -762,7 +832,7 @@ textCfgScreenLabelProc	"#![BeginSeg 1]Procedure#![EndSeg 1]"	255 247 57	0x0111	0
 textCfgScreenLabelRbc	"#![BeginSeg 1]적혈구#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelRepFluid	"#![BeginSeg 1]대체 용액#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelSoftOpt	"#![BeginSeg 1]활성화된 기능#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textCfgScreenLabelVolLim	"#![BeginSeg 1]Donor volume limits#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textCfgScreenLabelVolLim	"#![BeginSeg 1]헌혈자 채집량 한도#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	1
 textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]기능 확인 코드#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	14	1
 textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	1
@@ -779,9 +849,10 @@ textCftPltAmapMaxYieldColLbl	"#![BeginSeg 1]최대 Yield\n (x10   )#![EndSeg 1]"
 textCftPltAmapMinYieldExpColLbl	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	156	110	10	15	8	1
 textCftPltMinYieldColLbl	"#![BeginSeg 1]최소 Yield\n (x10  )#![EndSeg 1]"	255 247 57	0x0112	90	65	120	60	12	1
 textCftPrdRangeColLbl	"#![BeginSeg 1]제제\n범위#![EndSeg 1]"	255 247 57	0x0112	20	65	80	60	12	1
+textChamberClearingLimit	"#![BeginSeg 1]Pred: 챔버 비우기 한도#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]Conf: PAS로 대체된 혈장#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textConfigControlledBox	"#![BeginSeg 1]환경설정은\n관리 앱에 의해 제어됨#![EndSeg 1]"	255 247 57	0x0110	5	35	202	200	18	1
-textConfigControlledBoxConfirm	"#![BeginSeg 1]관리 앱에서 받은 환경설정\n삭제 확인#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textConfigControlledBox	"#![BeginSeg 1]환경설정은 애플리케이션에 의해\n조절됩니다.#![EndSeg 1]"	255 247 57	0x0110	5	35	315	200	18	1
+textConfigControlledBoxConfirm	"#![BeginSeg 1]환경설정을 삭제하려면 '확인’ \n버튼을 누르십시오.#![EndSeg 1]"	255 247 57	0x0110	16	30	315	200	18	1
 textConfigProcNumber	"#![BeginSeg 1]Procedure #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	265	70	100	30	14	1
 textConfigProcNumberAmap	"#![BeginSeg 1]Procedure #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	10	70	100	30	14	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]모든 제품번호(REF)\n입력사항 제거#![EndSeg 1]"	255 247 57	0x0110	0	45	640	0	18	1
@@ -793,10 +864,14 @@ textConfirmBodySalineConnect	"#![BeginSeg 1]연결된 Bag이\n생리식염수임
 textConfirmPasBarcode	"#![BeginSeg 1]PAS Bag의\nNDC 바코드 스캔#![EndSeg 1]"	255 247 57	0x0111	83	0	315	100	18	1
 textConfirmPasBarcodeInvalid	"#![BeginSeg 1]스캔된 바코드가 올바르지 않음\n\n#![EndSeg 1]#![BeginSeg 2]PAS Bag의 NDC 바코드 스캔#![EndSeg 2]"	255 247 57	0x0110	60	40	315	100	16	1
 textCpsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, CPS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textCustomCategoryIcon	""	255 247 57	0x0111	9	40	50	50	20	0
 textDashesRs1AvgInletFlow	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	345	123	90	14	0
 textDashesRs1AvgInletFlowAlt	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	302	123	90	14	0
 textDashesRs1PltPostCount	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	180	216	130	90	14	0
 textDashesRsPltPostCountJP	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0121	179	178	80	35	14	0
+textDataCfrBloodType	"#![BeginSeg 1]Blood type: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderFemale	"#![BeginSeg 1]Female#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderMale	"#![BeginSeg 1]Male#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataDatRs1RinsebackIncomplete	"#![BeginSeg 1]완료 안됨#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackPlasma	"#![BeginSeg 1]혈장#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackSaline	"#![BeginSeg 1]생리식염수#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
@@ -893,7 +968,15 @@ textDataRunProcEstRbc	"#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"	255 255 255	0
 textDataUnitsAdjustTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]min#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textDataUnitsCfr24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textDataUnitsCfrAm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrHgb	"#![BeginSeg 1]g/dL#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsCfrPm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsDonDlCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlHct	"#![BeginSeg 1]%#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
@@ -972,12 +1055,12 @@ textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#!
 textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
 textDisplayResidualVolumes	"#![BeginSeg 1]Post: 잔여량#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textDonorBMIOutOfRange	"#![BeginSeg 1]키와 몸무게 입력사항에 오류가 있는지 확인#![EndSeg 1]"	255 247 57	0x0110	85	50	220	200	18	1
-textEORBarcode1	""	255 247 57	0x0101	110	140	400	50	14	0
+textEORBarcode1	"#![BeginSeg 1]#!{dataItem1} (#!{dataItem2})#![EndSeg 1]"	255 247 57	0x0101	72	22	400	25	9	0
 textEORBarcode2	""	255 247 57	0x0101	110	190	400	50	14	0
 textEORBarcode3	""	255 247 57	0x0101	110	240	400	50	14	0
 textEORBarcode4	""	255 247 57	0x0101	110	290	400	50	14	0
 textEORBarcode5	""	255 247 57	0x0101	110	340	400	50	14	0
-textEORBarcodeAlt1	""	255 247 57	0x0101	110	140	400	50	9	0
+textEORBarcodeAlt1	""	255 247 57	0x0101	115	140	350	50	9	0
 textEORBarcodeAlt2	""	255 247 57	0x0101	110	190	400	50	9	0
 textEORBarcodeAlt3	""	255 247 57	0x0101	110	240	400	50	9	0
 textEORBarcodeAlt4	""	255 247 57	0x0101	110	290	400	50	9	0
@@ -1003,12 +1086,13 @@ textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
 textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
 textEmptyFormatAlarmNumberData	"알람 번호 #!{dataItem1}"	165 8 0	0x0111	15	0	230	30	18	1
 textEmptyFormatAlarmNumberDataFull	"알람 번호 #!{dataItem1}"	165 8 0	0x0111	15	0	460	30	18	1
-textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	15	145	455	300	18	0
+textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	16	40	455	150	14	0
 textEmptyFormatAlarmVersionLocation	""	255 247 57	0x0101	10	419	465	12	10	0
 textEmptyFormatBarcodeScan	""	255 247 57	0x0101	77	132	390	31	14	0
 textEmptyFormatBarcodeScanAlt	""	255 247 57	0x0101	77	132	390	31	10	0
 textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	77	380	390	31	14	0
 textEmptyFormatBarcodeScanBottomAlt	""	255 247 57	0x0101	77	380	390	31	10	0
+textEmptyFormatBarcodeTimeStamp	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0112	400	20	86	15	14	1
 textEmptyFormatBloodTypeButton12Pt	""	255 255 255	0x0111	0	0	100	48	12	0
 textEmptyFormatBloodTypeButton14Pt	""	255 255 255	0x0111	0	0	100	48	14	0
 textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
@@ -1186,8 +1270,8 @@ textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
 textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
-textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	640	25	18	0
-textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	477	32	16	0
+textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEnableVistaCfr11PinLogging	"#![BeginSeg 1]RD: Vista Tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textExtraPlasmaNoAc	"#![BeginSeg 1]Pred: 항응고제 제외한 추가 혈장 양#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textFormatNewPredCurrFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	255 247 57	0x0101	515	384	150	23	16	1
@@ -1200,16 +1284,17 @@ textFormatNewPredProdFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1
 textFormatNewPredProdPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0100	80	7	13	11	8	0
 textFormatNewPredProdTimeUnit	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	255 255 255	0x0100	481	5	150	19	14	1
 textFormatNewPredSelectAllButtLabel	"#![BeginSeg 1]모두 선택#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textFormatPredCurrFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	255 247 57	0x0101	520	268	150	23	14	0
+textFormatPredCurrFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	255 247 57	0x0101	520	268	150	23	14	1
 textFormatPredCurrPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0101	128	263	16	12	10	0
 textFormatPredCurrTimeUnit	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	255 247 57	0x0101	520	244	150	23	16	1
-textFormatPredNextFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	74 74 74	0x0101	520	338	150	19	14	0
+textFormatPredNextFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	74 74 74	0x0101	520	338	150	19	14	1
 textFormatPredNextPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	74 74 74	0x0101	107	324	13	11	8	1
 textFormatPredNextTimeUnit	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	74 74 74	0x0101	520	318	150	19	14	1
-textFormatPredPrevFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	74 74 74	0x0101	520	197	150	19	14	0
+textFormatPredPrevFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} mL/min#![EndSeg 1]"	74 74 74	0x0101	520	197	150	19	14	1
 textFormatPredPrevPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	74 74 74	0x0101	107	190	13	11	8	0
 textFormatPredPrevTimeUnit	"#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"	74 74 74	0x0101	520	181	150	19	14	1
 textGenericDataFomat	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	60	36	14	0
+textInfoEventLookupFail	"#![BeginSeg 1]#!{dataItem1}: 실패함#![EndSeg 1]"	255 247 57	0x0100	16	40	455	150	14	1
 textJapanFeatures	"#![BeginSeg 1]일본용 기능#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textJapanPASGraphics	"#![BeginSeg 1]Set: 일본 PAS 그래픽#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
@@ -1224,7 +1309,7 @@ textKeypadUnitsPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	0 0 0	0x0121	0	0	0	
 textKeypadUnitsTime	"#![BeginSeg 1]min#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
 textLRSUnscheduledPurgeBody	"#![BeginSeg 1]시스템이 백혈구 혼입 가능성을 감지하였고 LRS 챔버를 비우고 있습니다.\n\n#![EndSeg 1]#![BeginSeg 2]적혈구 유출 복구는 필요하지 않습니다.\n\n#![EndSeg 2]#![BeginSeg 3]혈소판 Bag이 IV 폴에 여전히 걸려 있도록 하십시오.\n\n#![EndSeg 3]#![BeginSeg 4]완료되면 혈소판 채집이 재개될 것입니다.\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	16	1
 textLRSscheduledPurgeBody	"#![BeginSeg 1]시스템이 일정대로 LRS 챔버를\n비우고 있습니다.\n\n#![EndSeg 1]#![BeginSeg 2]적혈구 유출 복구는 필요하지 않습니다.\n\n#![EndSeg 2]#![BeginSeg 3]혈소판 Bag이 IV 폴에 여전히 걸려 있도록 하십시오.\n\n#![EndSeg 3]#![BeginSeg 4]완료되면 혈소판 채집이 재개될 것입니다.\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	16	1
-textLabelCfgAppServer	"#![BeginSeg 1]관리 앱 연결#![EndSeg 1]"	255 255 255	0x0101	60	120	90	20	14	1
+textLabelCfgAppServer	"#![BeginSeg 1]애플리케이션 연결#![EndSeg 1]"	255 255 255	0x0101	60	120	150	20	14	1
 textLabelCfgAppServerIpAddress	"#![BeginSeg 1]서버 또는 IP 주소#![EndSeg 1]"	255 255 255	0x0121	210	160	150	20	14	1
 textLabelCfgAppServerOff	"#![BeginSeg 1]끄기#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
 textLabelCfgAppServerOn	"#![BeginSeg 1]켜기#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
@@ -1383,7 +1468,7 @@ textMiscBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 255 255	0x0111	416	313	
 textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]Bag 프랜저블\n부러뜨리기(있을 경우)#![EndSeg 2]"	255 247 57	0x0112	170	105	160	45	14	1
 textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Bag을 걸고\n클램프 열기#![EndSeg 2]"	255 247 57	0x0112	330	105	160	45	14	1
-textMiscCfgAdminNumDigits	"#![BeginSeg 1]튜빙 세트 코드:\n#![EndSeg 1]#![BeginSeg 2]8 - 10자리#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]튜빙 세트 코드:\n#![EndSeg 1]#![BeginSeg 2]6 - 10자리#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]혈소판 프로세스#![EndSeg 1]"	255 247 57	0x0111	15	110	300	25	18	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]적혈구 프로세스#![EndSeg 1]"	255 247 57	0x0111	325	110	300	25	18	1
 textMiscCfgMachBarcode	"#![BeginSeg 1]바코드#![EndSeg 1]"	255 247 57	0x0111	270	235	100	45	14	1
@@ -1419,24 +1504,32 @@ textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]최소 값 = #![EndSeg 1]"	255 247
 textMiscCfgSplitRangeTopLabel	"#![BeginSeg 1]이중 제제 범위#![EndSeg 1]"	255 247 57	0x0101	200	46	200	17	14	1
 textMiscCfgSplitRangeTopMax	"#![BeginSeg 1]최대 값 = #![EndSeg 1]"	255 247 57	0x0101	200	80	200	17	14	1
 textMiscCfgSplitRangeTopMin	"#![BeginSeg 1]최소 값 = #![EndSeg 1]"	255 247 57	0x0101	200	63	200	17	14	1
+textMiscCfrActionAcReactionDown	"#![BeginSeg 1]AC reaction down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionAcReactionUp	"#![BeginSeg 1]AC reaction up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionAdvisory	"#![BeginSeg 1]권고 인정됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAirblock	"#![BeginSeg 1]Air block 복구 수행됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlarm	"#![BeginSeg 1]알람 인정됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlert	"#![BeginSeg 1]경고 인정됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesModified	"#![BeginSeg 1]Procedure 바코드 수정됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesReviewed	"#![BeginSeg 1]Procedure 바코드 검토됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingDown	"#![BeginSeg 1]Clumping down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionClumpingUp	"#![BeginSeg 1]Clumping up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionCollectionEnded	"#![BeginSeg 1]채집 종료됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textMiscCfrActionConfigCleared	"#![BeginSeg 1]관리 앱 환경설정 삭제됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionConfigCleared	"#![BeginSeg 1]애플리케이션 환경설정이 삭제됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionConfigModified	"#![BeginSeg 1]환경설정 수정됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConfirmed	"#![BeginSeg 1]헌혈자 확인#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConnected	"#![BeginSeg 1]헌혈자 연결됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorInfoChange	"#![BeginSeg 1]헌혈자 정보 변경됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawDown	"#![BeginSeg 1]Draw flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionDrawUp	"#![BeginSeg 1]Draw flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionEORSummaryReviewed	"#![BeginSeg 1]Procedure 요약 검토됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionFlowRate	"#![BeginSeg 1]Flow Rate 입력됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionLabelReviewed	"#![BeginSeg 1]제제 검증 검토됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionNewProcedureSelected	"#![BeginSeg 1]Procedure 선택됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionProcAdjustment	"#![BeginSeg 1]Procedure 조정#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionProductBagsSealed	"#![BeginSeg 1]제제 Bag Sealing됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnDown	"#![BeginSeg 1]Return flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionReturnUp	"#![BeginSeg 1]Return flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionRinsebackInitiated	"#![BeginSeg 1]린스백 시작됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSalineBolus	"#![BeginSeg 1]생리식염수 Bolus 전달됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSolutionAborted	"#![BeginSeg 1]용액 첨가 중단됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
@@ -1446,7 +1539,15 @@ textMiscCfrActionTubingAction	"#![BeginSeg 1]튜빙 세트 조치 완료됨#![En
 textMiscCfrActionTubingSetLoaded	"#![BeginSeg 1]튜빙 세트 장착됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionTubingSetUnloaded	"#![BeginSeg 1]튜빙 세트 제거됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionVolumeConfirm	"#![BeginSeg 1]첨가될 용량 확인됨#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrCommaDelim	"#![BeginSeg 1], #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoCrit	"#![BeginSeg 1]HCT: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoGender	"#![BeginSeg 1]Gender: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHeight	"#![BeginSeg 1]Height: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHgb	"#![BeginSeg 1]Hgb: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoPltPrecount	"#![BeginSeg 1]Platelet precount: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoWeight	"#![BeginSeg 1]Weight: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrOpIdLabel	"#![BeginSeg 1]운영자 ID#![EndSeg 1]"	255 255 255	0x0101	70	110	0	0	20	1
+textMiscCfrTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrTimeEventSeparator	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscChannelTest	"#![BeginSeg 1]검사 중에는 보존액을 연결하지\n마십시오#![EndSeg 1]"	255 247 57	0x0111	10	150	340	210	18	1
 textMiscClampBloodDiversionJp	"#![BeginSeg 1]혈액 전환 클램프를 닫으십시오#![EndSeg 1]"	255 247 57	0x0112	15	105	610	40	18	1
@@ -1595,12 +1696,14 @@ textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1]%#![EndSeg 1]"	239 239 239	0x011
 textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1]#![EndSeg 1]#![BeginSeg 2]g/dL#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1]#![EndSeg 1]#![BeginSeg 2]mL#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textMultiBarcodeCount	"#![BeginSeg 1]#!{dataItem1} / #!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	380	0	120	30	14	1
 textMultiTextListBoxBlankItem1	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem2	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem3	""	255 255 255	0x0111	20	0	640	0	19	0
 textNewPredACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} mL#![EndSeg 1]"	255 247 57	0x0121	200	387	100	35	14	1
 textNoNeedleLineClamp	"#![BeginSeg 1]Set: 니들 라인 클램프 제거#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPIRPreferred	"#![BeginSeg 1]Pred: 강화된 PIR#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPPCCollectTiming	"#![BeginSeg 1]Pred: PPC 채집 타이밍#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPasBagBarcodeScanFeature	"#![BeginSeg 1]Run: PAS 바코드 확인#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPlasmaDrainAlertBody	"#![BeginSeg 1] 시스템이 혈장 이동 중 하위 레벨 센서에서 용액을 감지하지 못했습니다.\n\n#![EndSeg 1]#![BeginSeg 2]- 혈장 라인이 막히지 않았음을 확인하십시오#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	1
@@ -1669,6 +1772,7 @@ textProdVerifReasonPlasmaRinsebackNotCompleted	"#![BeginSeg 1]혈장 린스백�
 textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]예상 농도 너무 높음#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]예상 농도 너무 낮음#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltContamDetected	"#![BeginSeg 1]백혈구 혼입 가능성이 감지되었습니다#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPredictedVolmTooHigh	"#![BeginSeg 1]예상 용량이 너무 높습니다.#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]적혈구 감지센서 교정 오류#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcSpillover	"#![BeginSeg 1]적혈구 유출#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]린스백이 완료되지 않았습니다#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
@@ -1694,6 +1798,7 @@ textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	1
 textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	1
 textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	1
 textRunScreenPlateletVolumeToggle	"#![BeginSeg 1]Run: 혈소판 양 전환#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textSBoxBarcodeUnableDonorEligibility	"#![BeginSeg 1]헌혈자 자격을 확인할 수 없습니다.#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textSelectBarcodeCategory	"#![BeginSeg 1]바코드 카테고리 선택#![EndSeg 1]"	255 247 57	0x0111	100	10	300	50	20	1
 textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Pred: 혈소판 제제 양#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]RD: Periodic Logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
@@ -1713,6 +1818,7 @@ textStatAasClampChannel	"#![BeginSeg 1]자동 용액 첨가#![EndSeg 1]"	255 255
 textStatAasRemoveDisp	"#![BeginSeg 1]튜빙 세트 제거#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAasSealDetach	"#![BeginSeg 1]제제와 보존액 Bag들을 Sealing하고 분리하십시오#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAcPriming	"#![BeginSeg 1]항응고제 프라임 중입니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatActionNotAllowed	"#![BeginSeg 1]조치가 허용되지 않습니다.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAdjustingPltConc	"#![BeginSeg 1]혈소판 농도 조절 중입니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAlarm10MinPause	"#![BeginSeg 1]10분간 일시 정지#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarm10MinPauseFailure	"#![BeginSeg 1]10분간 일시 정지#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
@@ -1810,16 +1916,17 @@ textStatAlarmUnloadingBagCassettePosition	"#![BeginSeg 1]카세트 제거 오류
 textStatAlarmValveError	"#![BeginSeg 1]밸브 오류#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarmValveLedError	"#![BeginSeg 1]밸브 센서 실패 또는 도어 센서 실패#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarmVoltageFailure	"#![BeginSeg 1]전압 실패#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
-textStatAppTransferSuccessful	"#![BeginSeg 1]관리 앱 정보가 수령되었습니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textStatAppTransferUnsuccessful	"#![BeginSeg 1]관리 앱으로부터의 이전이 성공하지 못했습니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferSuccessful	"#![BeginSeg 1]애플리케이션 정보가 수신되었습니다.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferUnsuccessful	"#![BeginSeg 1]애플리케이션으로부터의 전송이 실패했습니다.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatApsLow	"#![BeginSeg 3]Draw 압력이 낮습니다#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAuthEvents	"#![BeginSeg 1]운영자 ID 바코드 입력#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAuthEventsScan	"#![BeginSeg 1]운영자 ID 스캔#![EndSeg 1]"	255 247 57	0x0111	22	20	355	115	18	1
 textStatAwaitingAp2Xmit	"#![BeginSeg 1]헌혈자 정보 이전 대기 중입니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcode2ManyScans	"#![BeginSeg 1]입력사항 수락 불가, 값이 이미 존재합니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeBadScan	"#![BeginSeg 1]바코드 읽기 중 오류#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]값 삭제가 허용되지 않습니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeMoveInput	"#![BeginSeg 1]바코드 값 식별#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatBarcodeNotRecognized	"#![BeginSeg 1]바코드 스캔이 인식되지 않습니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatBarcodeNotRecognized	"#![BeginSeg 1]바코드 인식이 안됩니다.#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textStatBarcodeOK	"#![BeginSeg 1]정확: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatBarcodeReview	"#![BeginSeg 1]값 검토#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeRuleBroken	"#![BeginSeg 1]부정확: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1830,7 +1937,7 @@ textStatBloodPrimeInProgress	"#![BeginSeg 1]혈액 프라임 중입니다#![EndS
 textStatCfgMachBadBarcode	"#![BeginSeg 1]바코드가 튜빙 세트 제품번호(REF)와 일치하지 않습니다.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatCfgMachBadCatNum	"#![BeginSeg 1]제품번호(REF)는 반드시 5나 6자릿수가 되어야 합니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachBadPair	"#![BeginSeg 1]유효하지 않은 입력 - 번호를 확인해 주십시오#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatCfgMachBadSetCode	"#![BeginSeg 1]튜빙 세트 코드는 반드시 8에서 10자릿수가 되어야 합니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]튜빙 세트 코드는 반드시 6에서 10자릿수가 되어야 합니다.#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachEnterCatNum	"#![BeginSeg 1]튜빙 세트 제품번호(REF) 입력#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachEnterSetCode	"#![BeginSeg 1]튜빙 세트 코드 입력#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachSuccess	"#![BeginSeg 1]제품번호(REF) 입력 성공#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -1876,6 +1983,7 @@ textStatPasEmpty	"#![BeginSeg 1]PAS Bag 교체#![EndSeg 1]"	255 247 57	0x0101	0	
 textStatPasPause	"#![BeginSeg 1]PAS 개별 첨가#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
 textStatProcListTransferUnsuccessful	"#![BeginSeg 1]Procedure 목록 이전이 성공하지 못했습니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatRASEmptyWarnBarcodeAccepted	"#![BeginSeg 1]바코드가 수락되었습니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatREFNotAMatch	"#![BeginSeg 1]제품번호(REF)가 선택된 Procedure와 일치하지 않습니다.#![EndSeg 1]"	255 247 57	0x0111	85	30	350	60	16	1
 textStatRbc1Runsum	"#![BeginSeg 1]적혈구 제제 1에 대한 확인#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRbc2Runsum	"#![BeginSeg 1]적혈구 제제 2에 대한 확인#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRecoveryProcedure	"#![BeginSeg 1]복구 Procedure 진행 중입니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1895,8 +2003,10 @@ textStatSetIdInstructions	"#![BeginSeg 1]튜빙 세트 제품번호(REF) 선택#
 textStatTubingSetBarcodeAccepted	"#![BeginSeg 1]바코드가 수락되었습니다#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatUnscheduledPurge	"#![BeginSeg 1]백혈구 잔존량 감지됨, LRS 챔버 비우는 중입니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatValueOutOfRange	"#![BeginSeg 1]값이 범위를 벗어났습니다#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
-textStatWaitingForVista	"#![BeginSeg 1]관리 앱을 기다리는 중입니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatVistaDonorName	"#![BeginSeg 1]#!{donorNameFromVista}#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatWaitingForVista	"#![BeginSeg 1]애플리케이션을 기다리는 중입니다#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textTier1ConcentrationLimit	"#![BeginSeg 1]Tier 1 농도 제한#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textTitlePopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	400	32	18	0
 textTriplePpcFlag	"#![BeginSeg 1]Post: PPC/PAS WBC 메시지#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textVerifyRuleBox	"#![BeginSeg 1]확인 사항: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
 STRING_FILE_TABLE_END

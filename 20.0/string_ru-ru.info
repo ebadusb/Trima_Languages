@@ -50,7 +50,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Albany AMT Custom"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xfdc7e844"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x9104742c"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"Русский"	255 255 255	0x0001	0	0	100	50	12	0
 languageIndex	"10"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"WordBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -138,7 +138,8 @@ textAlarmBodyNoGraphicPlsWbcContamination	"#![BeginSeg 1]В ходе проце�
 textAlarmBodyNoGraphicPlsWbcContaminationContinue	"#![BeginSeg 1]Нажмите «Продолжить», чтобы открыть экран выбора процедуры.#![EndSeg 1]"	0 0 0	0x0100	15	240	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify	"#![BeginSeg 1]- Проверьте содержание лейкоцитов в продукте плазмы#![EndSeg 1]"	239 74 16	0x0100	35	190	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify2	"#![BeginSeg 1]- Проверьте содержание лейкоцитов в продукте плазмы#![EndSeg 1]"	239 74 16	0x0100	35	230	455	300	18	1
-textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]В линии тромбоцитов системой обнаружена низкая концентрация.\n\n#![EndSeg 1]#![BeginSeg 2]- Если вы не видите жидкость в линии тромбоцитов или в линии плазмы, выберите в настройках функцию «Воздушная пробка».\n\n#![EndSeg 2]#![BeginSeg 3]- Если вы не видите тромбоциты в мешке для продукта, повысьте значение на шкале «АК в системе».#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]В линии тромбоцитов системой обнаружена низкая концентрация.\n\n#![EndSeg 1]#![BeginSeg 2]- Убедитесь, что линия, идущая от кассеты к мешкам для продуктов, не закрыта зажимом и не заблокирована.\n\n#![EndSeg 2]#![BeginSeg 3]- Если вы не видите жидкость в линии тромбоцитов или в линии плазмы, нажмите кнопку «Настроить» и воспользуйтесь функцией «Воздушная пробка».\n\n#![EndSeg 3]#![BeginSeg 4]- Если вы не видите тромбоциты в мешке для продукта, нажмите кнопку «Настроить» и повысьте значение на шкале «АК в системе».#![EndSeg 4]"	0 0 0	0x0100	15	120	455	300	17	1
+textAlarmBodyNoGraphicPltConcLowForPPC	"#![BeginSeg 1]В линии тромбоцитов системой обнаружена низкая концентрация.\n\n#![EndSeg 1]#![BeginSeg 2]- Убедитесь, что линия, идущая от кассеты к мешкам для продуктов, не закрыта зажимом и не заблокирована.\n\n#![EndSeg 2]#![BeginSeg 3]- Если вы не видите жидкость в линии тромбоцитов или в линии плазмы, нажмите кнопку «Настроить» и воспользуйтесь функцией «Воздушная пробка».#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	17	1
 textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]Запишите номер и описание сигнала тревоги из строки статуса.\n\n#![EndSeg 1]#![BeginSeg 2]Возможно, неправильно загружен ротор насоса тромбоцитов либо в роторный корпус тромбоцитов загружен ротор несоответствующего насоса.\n\n#![EndSeg 2]#![BeginSeg 3]- Выключите, затем вновь включите электропитание системы\n#![EndSeg 3]#![BeginSeg 4]- Заново загрузите ротор в насос тромбоцитов\n\n#![EndSeg 4]#![BeginSeg 5]В случае многократного повторения этой проблемы обратитесь за помощью к сервисному инженеру.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	16	1
 textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]Запишите номер и описание сигнала тревоги из строки статуса.\n\n#![EndSeg 1]#![BeginSeg 2]Возможно, неправильно загружен ротор насоса тромбоцитов либо в роторный корпус тромбоцитов загружен ротор несоответствующего насоса.\n\n#![EndSeg 2]#![BeginSeg 3]- Выключите, затем вновь включите электропитание системы\n#![EndSeg 3]#![BeginSeg 4]- Удостоверьтесь, что в роторный корпус тромбоцитов загружен ротор насоса с черной точкой\n\n#![EndSeg 4]#![BeginSeg 5]В случае многократного повторения этой проблемы обратитесь за помощью к сервисному инженеру.#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	15	1
 textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]В ходе процедуры возникло событие, которое могло стать причиной загрязнения лейкоцитами.#![EndSeg 1]"	0 0 0	0x0100	15	120	455	300	18	1
@@ -278,7 +279,7 @@ textAlarmBodyWithGraphicSalineEmpty	"#![BeginSeg 1]Подсоедините ме
 textAlarmBodyWithGraphicSalineRinsebackConnect	"#![BeginSeg 1]В процедуре возврата крови требуется использование физ. раствора.\n\n#![EndSeg 1]#![BeginSeg 2]Подсоедините мешок с физ.раствором и нажмите «Продолжить».#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]Системой обнаружено загрязнение эритроцитами. Выполняется автоматическое устранение этого загрязнения.\n\n#![EndSeg 1]#![BeginSeg 2]- Убедитесь, что введено правильное значение гематокрита/гемоглобина донора#![EndSeg 2]"	0 0 0	0x0100	15	120	233	300	17	1
 textAlarmBodyWithGraphicSpilloverDetectedNoRec	"#![BeginSeg 1]В линии тромбоцитов системой обнаружены эритроциты.\n\n#![EndSeg 1]#![BeginSeg 2]- Убедитесь, что введено правильное значение гематокрита/\nгемоглобина донора#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]Была нажата кнопка остановки.\n\n#![EndSeg 1]#![BeginSeg 2]- Насосы и центрифуга остановлены\n\n#![EndSeg 2]#![BeginSeg 3]Чтобы возобновить процедуру, нажмите «Продолжить».#![EndSeg 3]"	0 0 0	0x0100	15	120	233	300	18	1
+textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]Была нажата кнопка остановки.\n\n#![EndSeg 1]#![BeginSeg 2]- Насосы и центрифуга остановлены\n\n#![EndSeg 2]"	0 0 0	0x0100	15	120	233	300	18	1
 textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]Системе не удается выгрузить кассету из занимаемого ею положения. #![EndSeg 1]#![BeginSeg 2]Отсоедините донора. #![EndSeg 2]#![BeginSeg 3]Инструкции по извлечению кассеты вручную приведены в руководстве по эксплуатации.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
 textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]Системе не удается поместить клапан в правильное положение. #![EndSeg 1]#![BeginSeg 2]Осмотрите клапаны и убедитесь, что их работе ничто не мешает. #![EndSeg 2]#![BeginSeg 3]Нажмите «Продолжить», чтобы возобновить процедуру.#![EndSeg 3]"	0 0 0	0x0100	15	120	227	300	18	1
 textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]Пред-: Корректировка скорости потока#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -297,18 +298,58 @@ textAmapPredictCompPlsNotice	"#![BeginSeg 1]раствором PAS замеще�
 textAppAlarmStatusActive	"#![BeginSeg 1]Да#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textAppAlarmStatusInactive	"#![BeginSeg 1]--#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAuthEventAdvisory	"#![BeginSeg 1]Подтверждено рекомендательное сообщение#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	16	1
+textAuthEventAirblock	"#![BeginSeg 1]Выполнено устранение воздуха#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlarm	"#![BeginSeg 1]Подтвержден сигнал тревоги#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlert	"#![BeginSeg 1]Подтверждено предупреждение#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventBarcodesReviewed	"#![BeginSeg 1]Проверены штрих-коды процедуры#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventCollectionEnded	"#![BeginSeg 1]Завершен сбор#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConfirmed	"#![BeginSeg 1]Подтверждение донора#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConnected	"#![BeginSeg 1]Донор подсоединен#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorDisconnected	"#![BeginSeg 1]Донор отсоединен#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorInfoChange	"#![BeginSeg 1]Изменены сведения о доноре#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventEORSummaryReviewed	"#![BeginSeg 1]Проверены процедурные данные#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventLabelReviewed	"#![BeginSeg 1]Выполнена проверка продукта#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventNewProcedureSelected	"#![BeginSeg 1]Выбрана процедура#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProcAdjustment	"#![BeginSeg 1]Корректировка процедуры#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProductBagsSealed	"#![BeginSeg 1]Запаяны мешки с продуктами#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventRinsebackInitiated	"#![BeginSeg 1]Инициирован возврат крови#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSalineBolus	"#![BeginSeg 1]Введен болюс физ.раствора#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSolutionAborted	"#![BeginSeg 1]Прервано добавление раствора#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSpillover	"#![BeginSeg 1]Выполнено устранение загрязнения эритроцитами#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	14	1
+textAuthEventTubingAction	"#![BeginSeg 1]Выполнено действие, связанное с комплектом магистралей#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	12	1
+textAuthEventTubingSetLoaded	"#![BeginSeg 1]Загружен комплект магистралей#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetUnloaded	"#![BeginSeg 1]Выгружен комплект магистралей#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventVolumeConfirm	"#![BeginSeg 1]Подтвержден добавляемый объем#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
 textAutoFlowCfgBtn	"#![BeginSeg 1]Автоподача#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	1
-textBarcodeCategory1	""	255 247 57	0x0101	110	140	400	20	9	0
+textBadgeAuthDescription	""	255 247 57	0x0111	20	2	360	0	18	0
+textBarcodeAcCategoryIcon	"#![BeginSeg 1]АК#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeCategory1	""	255 247 57	0x0101	72	1	400	20	14	0
 textBarcodeCategory2	""	255 247 57	0x0101	110	190	400	20	9	0
 textBarcodeCategory3	""	255 247 57	0x0101	110	240	400	20	9	0
 textBarcodeCategory4	""	255 247 57	0x0101	110	290	400	20	9	0
 textBarcodeCategory5	""	255 247 57	0x0101	110	340	400	20	9	0
-textBarcodeCategoryOperator1	""	255 247 57	0x0101	340	140	175	20	9	0
+textBarcodeCategoryOperator1	""	255 247 57	0x0101	360	1	175	20	9	0
 textBarcodeCategoryOperator2	""	255 247 57	0x0101	340	190	175	20	9	0
 textBarcodeCategoryOperator3	""	255 247 57	0x0101	340	240	175	20	9	0
 textBarcodeCategoryOperator4	""	255 247 57	0x0101	340	290	175	20	9	0
 textBarcodeCategoryOperator5	""	255 247 57	0x0101	340	340	175	20	9	0
 textBarcodeCategoryPopup	""	255 247 57	0x0111	115	15	412	20	9	0
+textBarcodeCustomCategoryIcon	""	255 247 57	0x0111	9	0	50	50	20	0
+textBarcodeDeleteBox	"#![BeginSeg 1]Для удаления штрих-кода нажмите «Подтвердить»#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeDeleteBoxConfirmButton	"#![BeginSeg 1]Подтвер-дить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeDelteBoxCancelButton	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxCancelButton	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxDeleteButton	"#![BeginSeg 1]Удалить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeEditBoxOverrideButton	"#![BeginSeg 1]Переопределить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	16	1
+textBarcodeNaclCategoryIcon	"#![BeginSeg 1]NaCl\n0,9%#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeObjectOverridden	"Переопределено"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectRemaining	""	255 247 57	0x0101	340	340	175	20	9	0
+textBarcodeObjectSkipped	"Пропущено"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStamp24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStampAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} a.m.#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStampPm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} p.m.#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeParseError	"#![BeginSeg 1]Неверный штрих-код#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textBarcodePopupEmpty	""	0 0 0	0x0111	10	40	400	100	14	0
 textBarcodePopupEmptyAlt	""	0 0 0	0x0111	10	40	400	100	10	0
 textBarcodeReview1	""	255 255 255	0x0111	0	0	640	0	18	0
@@ -321,10 +362,29 @@ textBarcodeReview4	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview4Alt	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5Alt	""	255 255 255	0x0111	0	0	640	0	18	0
+textBarcodeScanBoxCancelButton	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeScanCategoryFormat	""	255 247 57	0x0001	20	0	375	30	14	0
+textBarcodeScanErrorFormat	""	255 247 57	0x0111	85	25	350	60	16	0
+textBarcodeScanNameFormat	""	255 247 57	0x0001	20	20	375	30	14	0
 textBarcodeScanPopup	""	255 247 57	0x0111	115	44	410	77	14	0
+textBarcodeSkipBoxCancelButton	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeSkipBoxConfirm	"#![BeginSeg 1]Подтвердить пропуск штрих-кода#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeSkipBoxConfirmButton	"#![BeginSeg 1]Закрыть#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeStatusSkipped	"#![BeginSeg 1]Пропущено#![EndSeg 1]"	255 247 57	0x0112	0	0	640	15	14	1
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textBodyAlarmDrawLineOcclusion	"#![BeginSeg 1]Запишите номер и описание сигнала тревоги из строки статуса.\n\n#![EndSeg 1]#![BeginSeg 2]Зарегистрирован неустранимый сигнал тревоги.\n\n#![EndSeg 2]#![BeginSeg 3]- Нажмите «Прекратить процедуру»\n#![EndSeg 3]"	0 0 0	0x0100	15	110	455	300	18	1
 textBodyPopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	20	20	335	115	18	0
+textBoxBarcodeDataTransferProgress	"#![BeginSeg 1]Выполняется пересылка данных...#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupDonorError	"#![BeginSeg 1]Поиск штрих-кода безуспешен#![EndSeg 1]#![BeginSeg 2], проверьте сведения и пригодность донора#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupError	"#![BeginSeg 1]Поиск штрих-кода безуспешен#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupErrorDefault	"#![BeginSeg 1]Поиск штрих-кода безуспешен#![EndSeg 1]#![BeginSeg 2], использовано число штрих-кодов по умолчанию#![EndSeg 2]"	255 247 57	0x0110	85	45	350	60	16	1
+textBoxBarcodeLookupFailed	"#![BeginSeg 1]#!{dataItem1}: Отказ#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeMatchError	"#![BeginSeg 1]Ошибка при определении соответствия штрих-кода#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeRuleError	"#![BeginSeg 1]Неправильно: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxEditBarcode	"#![BeginSeg 1]Редактировать штрих-код#![EndSeg 1]"	255 247 57	0x0111	0	0	640	30	18	1
+textBoxIncorrectSequence	"#![BeginSeg 1]Неправильная последовательность штрих-кода#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxInvalidREFError	"#![BeginSeg 1]Неправильный REF#![EndSeg 1]"	255 247 57	0x0111	85	25	350	60	16	1
+textBoxScanBarcode	"#![BeginSeg 1]Отсканируйте штрих-код#![EndSeg 1]"	255 247 57	0x0111	0	0	502	29	18	1
 textButtonAbortAasExit	"#![BeginSeg 1]Прекратить\nдобавление\nраствора#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]Выполнить\nустранение\nвоздуха#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	18	1
 textButtonAbortPasExit	"#![BeginSeg 1]Прекратить добавление\nраствора\nдля тромбоцитов#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	16	1
@@ -348,6 +408,7 @@ textButtonAlarmUnload	"#![BeginSeg 1]Выгрузить#![EndSeg 1]"	255 247 57	
 textButtonAlarmUnloadSet	"#![BeginSeg 1]Выгрузить\nкомплект\nмагистралей#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textButtonBarcodeACMini	"#![BeginSeg 1]АК#![EndSeg 1]"	49 8 123	0x0100	18	7	35	35	10	1
 textButtonBarcodeAc	"#![BeginSeg 1]АК#![EndSeg 1]"	49 8 123	0x0111	10	10	85	35	14	1
+textButtonBarcodeCancel	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
 textButtonBarcodeCategoryClear	"#![BeginSeg 1]Сбросить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeInputClear	"#![BeginSeg 1]Сбросить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
@@ -362,16 +423,16 @@ textButtonBarcodeNaclMini	"#![BeginSeg 1]NaCl\n0,9%#![EndSeg 1]"	49 8 123	0x0100
 textButtonCancel	"#![BeginSeg 1]Прекратить\nпроцедуру#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	16	1
 textButtonCancelSalineConnect	"#![BeginSeg 1]Отменить#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	18	1
 textButtonCategoryRankSwitch	"#![BeginSeg 1]Дополнит.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textButtonCfgAppServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgAppServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgAppServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgAppServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgAppServers	"#![BeginSeg 1]Серверы\nприложения#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
-textButtonCfgCadenceServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgCadenceServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgCadenceServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgCadenceServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgClose	"#![BeginSeg 1]Закрыть#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	16	1
-textButtonCfgDeviceGateway	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgDeviceIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgDeviceGateway	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgDeviceIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgDeviceNetwork	"#![BeginSeg 1]Сеть устройства#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
-textButtonCfgDeviceSubnetMask	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgDeviceSubnetMask	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgDonLimDrbcVolToggle	"#![BeginSeg 1]2xЭД миним.ОЦК#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
 textButtonCfgDonLimPlasmaVolMaxToggle	"#![BeginSeg 1]Процедуры с плазмой#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
 textButtonCfgDonLimPlateletVolMaxToggle	"#![BeginSeg 1]Процедуры с тромбоцитами#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	12	1
@@ -394,13 +455,13 @@ textButtonCfgMainRepFluid	"#![BeginSeg 1]Восполняющий\nраство�
 textButtonCfgMainSoftOpt	"#![BeginSeg 1]Региональное меню#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
 textButtonCfgMainVolLim	"#![BeginSeg 1]Пределы\nобъемов для донора#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
 textButtonCfgNonDisplayedNumber	"#![BeginSeg 1]---#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	0
-textButtonCfgPrimaryDns	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgPrimaryDns	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgPrioExtraDoseUnits	"#![BeginSeg 1]мл#![EndSeg 1]"	255 247 57	0x0110	0	33	0	0	10	1
 textButtonCfgPrioExtraPlasUnits	"#![BeginSeg 1]мл#![EndSeg 1]"	255 247 57	0x0110	0	33	0	0	10	1
 textButtonCfgPrioExtraPltExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	68	31	8	8	6	0
 textButtonCfgPrioExtraPltX10	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0120	32	33	0	0	10	1
 textButtonCfgRepFluidRbc	"#![BeginSeg 1]Восполняющий раствор#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	12	1
-textButtonCfgSecondaryDns	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgSecondaryDns	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfrClear	"#![BeginSeg 1]Сбросить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonCfrSelected	"#![BeginSeg 1]Принять#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonClearDonorInfo	"#![BeginSeg 1]Сбросить свед-я#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -409,8 +470,9 @@ textButtonConfirmBoxCancel	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 
 textButtonConfirmBoxConfirm	"#![BeginSeg 1]Подтвер-\nдить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textButtonConfirmInfo	"#![BeginSeg 1]Подтвердить данные#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonContinueSalineConnect	"#![BeginSeg 1]Продолжить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonControlBoxCancel	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxClose	"#![BeginSeg 1]Закрыть#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textButtonControlBoxOverride	"#![BeginSeg 1]Пере-\nопределить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	15	1
+textButtonControlBoxOverride	"#![BeginSeg 1]Переопределить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	12	1
 textButtonDonorInfo	"#![BeginSeg 1]Сведения о доноре#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
 textButtonDonorInformation	"#![BeginSeg 1]Сведения о доноре#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonEndAddition	"#![BeginSeg 1]Прекратить\nдобавление#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	16	1
@@ -436,6 +498,7 @@ textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]Вес донора#![EndSeg 1]"
 textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]Вес донора\n#!{dataItemWeightKg} кг#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]Вес донора\n#!{dataItemWeightLb} lbs#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	18	1
 textButtonGiantLoadSystem	"#![BeginSeg 1]Загрузить систему#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	18	1
+textButtonIntervalTimerContinue	"#![BeginSeg 1]Продолжить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonKeyboard0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
@@ -564,10 +627,10 @@ textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]Объем (л)#![EndSeg 2
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]мл/кг#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]Объем (мл)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	50	14	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]Объем (мл)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	50	14	1
-textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
-textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
-textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
-textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
+textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Объем для\nдоноров-женщин (мл)#![EndSeg 2]"	255 247 57	0x0112	146	310	175	45	14	1
+textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Объем для\nдоноров-мужчин (мл)#![EndSeg 2]"	255 247 57	0x0112	310	310	175	45	14	1
+textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Объем для\nдоноров-женщин (мл)#![EndSeg 2]"	255 247 57	0x0112	146	210	175	45	14	1
+textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Объем для\nдоноров-мужчин (мл)#![EndSeg 2]"	255 247 57	0x0112	310	210	175	45	14	1
 textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]ОЦК (%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	45	14	1
 textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]ОЦК (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	45	14	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]Объем (мл)\n> вес#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	14	1
@@ -641,6 +704,7 @@ textButtonLongPredScrollPrev	"#![BeginSeg 1]Более предпочтител�
 textButtonLongResetMachine	"#![BeginSeg 1]Перезагрузить аппарат#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongRunSumm	"#![BeginSeg 1]Отчет#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongStartDraw	"#![BeginSeg 1]Начать забор крови#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textButtonOverrideBoxCancel	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxClose	"#![BeginSeg 1]Закрыть#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxConfirm	"#![BeginSeg 1]Подтвер-\nдить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	17	1
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]Объем (мл) мешка с консервирующим раствором#![EndSeg 1]"	255 247 57	0x0111	497	158	128	80	14	1
@@ -648,11 +712,17 @@ textButtonPredConfCancel	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57
 textButtonPredConfConfirm	"#![BeginSeg 1]Подтвер-\nдить#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonPredFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} мл/мин#![EndSeg 1]"	255 247 57	0x0021	3	0	110	32	12	1
 textButtonSelectRef	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0110	5	10	155	40	18	1
+textButtonSkip	"#![BeginSeg 1]Пропустить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textButtonTimerCancel	"#![BeginSeg 1]Отменить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerClose	"#![BeginSeg 1]Закрыть#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerContinue	"#![BeginSeg 1]Продолжить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerOk	"#![BeginSeg 1]OK#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerPause	"#![BeginSeg 1]Пауза#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerRestart	"#![BeginSeg 1]Перезапуск#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerResume	"#![BeginSeg 1]Возобновить#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStart	"#![BeginSeg 1]Старт#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStop	"#![BeginSeg 1]Стоп#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textCategoryIconText	""	49 8 123	0x0111	12	45	50	50	10	0
 textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]Режим#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	14	1
 textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]Концентрат\nпосле сбора\n(x 10  /мкл)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	12	1
 textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	508	149	10	15	8	0
@@ -724,16 +794,16 @@ textCfgProdNameAmapPltSelection	"#![BeginSeg 1]Тромбоциты#![EndSeg 1]"
 textCfgProdNameAmapRbcRasSelection	"#![BeginSeg 1]Эритроциты#![EndSeg 1]"	255 247 57	0x0111	27	0	100	48	11	1
 textCfgProdNameAmapRbcSelection	"#![BeginSeg 1]Эритроциты#![EndSeg 1]"	255 247 57	0x0111	0	0	100	48	14	1
 textCfgREFList	"#![BeginSeg 1]Список REF#![EndSeg 1]"	255 247 57	0x0111	0	15	158	0	18	1
-textCfgREFListItem1	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem10	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem2	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem3	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem4	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem5	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem6	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem7	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem8	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem9	""	255 247 57	0x0111	0	0	100	0	16	0
+textCfgREFListItem1	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem10	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem2	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem3	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem4	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem5	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem6	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem7	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem8	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem9	""	255 247 57	0x0111	0	0	100	0	16	1
 textCfgRowLabelCfgPlt1	"#![BeginSeg 1]Тромб. 1#![EndSeg 1]"	255 247 57	0x0100	3	0	53	48	13	1
 textCfgRowLabelCfgPlt10	"#![BeginSeg 1]Тромб. 10#![EndSeg 1]"	255 247 57	0x0100	2	0	53	48	12	1
 textCfgRowLabelCfgPlt2	"#![BeginSeg 1]Тромб. 2#![EndSeg 1]"	255 247 57	0x0100	3	0	53	48	13	1
@@ -763,25 +833,26 @@ textCfgScreenLabelRbc	"#![BeginSeg 1]Эритроциты#![EndSeg 1]"	255 247 5
 textCfgScreenLabelRepFluid	"#![BeginSeg 1]Восполняющий раствор#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelSoftOpt	"#![BeginSeg 1]Активные функции#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelVolLim	"#![BeginSeg 1]Пределы объемов для донора#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	0
+textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	1
 textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]Код подтверждения функции#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	14	1
-textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	0
+textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	1
 textCfgSoftOptCountryLabel	"#![BeginSeg 1]Страна:#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	14	1
-textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	0
+textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	1
 textCfgSoftOptCustomerLabel	"#![BeginSeg 1]Клиент:#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	14	1
 textCfgSoftOptEmptyItem	""	0 0 0	0x0101	10	2	280	25	10	0
-textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	0
+textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	1
 textCfgSoftOptSerialNumberLabel	"#![BeginSeg 1]Серийный номер:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	14	1
-textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	0
+textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	1
 textCfgSoftOptSiteLabel	"#![BeginSeg 1]Центр:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	14	1
 textCftPltAmapFinalConcExpColLbl	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	327	110	10	15	8	1
 textCftPltAmapMaxYieldColLbl	"#![BeginSeg 1]Макс. выход\n (x10   )#![EndSeg 1]"	255 247 57	0x0112	180	65	120	60	12	1
 textCftPltAmapMinYieldExpColLbl	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	157	110	10	15	8	1
 textCftPltMinYieldColLbl	"#![BeginSeg 1]Миним. выход\n (x10   )#![EndSeg 1]"	255 247 57	0x0112	90	65	120	60	12	1
 textCftPrdRangeColLbl	"#![BeginSeg 1]Диапазон\nпродукта#![EndSeg 1]"	255 247 57	0x0112	20	65	80	60	12	1
+textChamberClearingLimit	"#![BeginSeg 1]Пред-: Предел для вымывания из камеры#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]Конф: Замещение плазмы раствором PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textConfigControlledBox	"#![BeginSeg 1]Конфигурация под контролем\nуправляющего приложения#![EndSeg 1]"	255 247 57	0x0110	2	35	202	200	18	1
-textConfigControlledBoxConfirm	"#![BeginSeg 1]Подтвердите команду очистить конфигурацию, полученную\nот управляющего приложения#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	16	1
+textConfigControlledBox	"#![BeginSeg 1]Конфигурация контролируется приложением#![EndSeg 1]"	255 247 57	0x0110	2	35	315	200	18	1
+textConfigControlledBoxConfirm	"#![BeginSeg 1]Для очистки конфигурации нажмите «Подтвердить»#![EndSeg 1]"	255 247 57	0x0110	16	30	315	200	16	1
 textConfigProcNumber	"#![BeginSeg 1]Процедура #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	265	70	100	30	14	1
 textConfigProcNumberAmap	"#![BeginSeg 1]Процедура #!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	10	70	100	30	14	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]Удалить все введенные значения REF#![EndSeg 1]"	255 247 57	0x0110	0	45	640	0	18	1
@@ -793,18 +864,22 @@ textConfirmBodySalineConnect	"#![BeginSeg 1]Подтвердите, что по�
 textConfirmPasBarcode	"#![BeginSeg 1]Отсканируйте штрих-код NDC на мешке с PAS#![EndSeg 1]"	255 247 57	0x0111	83	0	315	100	18	1
 textConfirmPasBarcodeInvalid	"#![BeginSeg 1]Отсканирован неверный штрих-код\n\n#![EndSeg 1]#![BeginSeg 2]Отсканируйте штрих-код NDC на мешке с PAS#![EndSeg 2]"	255 247 57	0x0110	40	35	315	100	18	1
 textCpsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, CPS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textCustomCategoryIcon	""	255 247 57	0x0111	9	40	50	50	20	0
 textDashesRs1AvgInletFlow	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	345	123	90	14	0
 textDashesRs1AvgInletFlowAlt	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	302	123	90	14	0
 textDashesRs1PltPostCount	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	180	216	130	90	14	0
 textDashesRsPltPostCountJP	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0121	179	178	80	35	14	0
+textDataCfrBloodType	"#![BeginSeg 1]Blood type: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderFemale	"#![BeginSeg 1]Female#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderMale	"#![BeginSeg 1]Male#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataDatRs1RinsebackIncomplete	"#![BeginSeg 1]Не завершен#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackPlasma	"#![BeginSeg 1]Плазма#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackSaline	"#![BeginSeg 1]Физ. раствор#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackStandard	"#![BeginSeg 1]Стандартный#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
-textDataEmptyFormatRsAcUsedJP	""	255 255 255	0x0121	202	258	50	35	14	0
-textDataEmptyFormatRsAvgInletFlowJP	""	255 255 255	0x0121	180	218	50	35	14	0
-textDataEmptyFormatRsDurationOfRunJP	""	255 255 255	0x0121	202	138	50	35	14	0
-textDataEmptyFormatRsTbvProcessedJP	""	255 255 255	0x0121	202	178	50	35	14	0
+textDataEmptyFormatRsAcUsedJP	""	255 255 255	0x0121	202	258	50	35	14	1
+textDataEmptyFormatRsAvgInletFlowJP	""	255 255 255	0x0121	180	218	50	35	14	1
+textDataEmptyFormatRsDurationOfRunJP	""	255 255 255	0x0121	202	138	50	35	14	1
+textDataEmptyFormatRsTbvProcessedJP	""	255 255 255	0x0121	202	178	50	35	14	1
 textDataInitDonDlTbv	"#![BeginSeg 1]0 мл#![EndSeg 1]"	255 255 255	0x0111	416	279	171	24	18	1
 textDataLabelAasRunsumm	"#![BeginSeg 1]Объем консервирующего раствора для добавления вручную#![EndSeg 1]"	239 239 239	0x0111	230	270	395	35	14	1
 textDataLabelDonDlBloodType	"#![BeginSeg 1]Группа крови#![EndSeg 1]"	255 255 255	0x0121	242	313	164	24	18	1
@@ -893,7 +968,15 @@ textDataRunProcEstRbc	"#![BeginSeg 1]#!{dataItem1} мл#![EndSeg 1]"	255 255 255
 textDataUnitsAdjustTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]мин#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	17	1
 textDataUnitsCfr24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textDataUnitsCfrAm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} a.m.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrHgb	"#![BeginSeg 1]g/dL#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsCfrPm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} p.m.#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsDonDlCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]см#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlHct	"#![BeginSeg 1]%#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
@@ -972,12 +1055,12 @@ textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#!
 textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
 textDisplayResidualVolumes	"#![BeginSeg 1]Пост-: Остаточные объемы#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textDonorBMIOutOfRange	"#![BeginSeg 1]Проверьте, правильно ли введены значения роста и веса#![EndSeg 1]"	255 247 57	0x0110	85	50	220	200	18	1
-textEORBarcode1	""	255 247 57	0x0101	110	140	400	50	14	0
+textEORBarcode1	"#![BeginSeg 1]#!{dataItem1} (#!{dataItem2})#![EndSeg 1]"	255 247 57	0x0101	72	22	400	25	9	0
 textEORBarcode2	""	255 247 57	0x0101	110	190	400	50	14	0
 textEORBarcode3	""	255 247 57	0x0101	110	240	400	50	14	0
 textEORBarcode4	""	255 247 57	0x0101	110	290	400	50	14	0
 textEORBarcode5	""	255 247 57	0x0101	110	340	400	50	14	0
-textEORBarcodeAlt1	""	255 247 57	0x0101	110	140	400	50	9	0
+textEORBarcodeAlt1	""	255 247 57	0x0101	115	140	350	50	9	0
 textEORBarcodeAlt2	""	255 247 57	0x0101	110	190	400	50	9	0
 textEORBarcodeAlt3	""	255 247 57	0x0101	110	240	400	50	9	0
 textEORBarcodeAlt4	""	255 247 57	0x0101	110	290	400	50	9	0
@@ -1003,12 +1086,13 @@ textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
 textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
 textEmptyFormatAlarmNumberData	"НОМЕР СИГНАЛА ТРЕВОГИ #!{dataItem1}"	165 8 0	0x0111	15	0	230	30	18	1
 textEmptyFormatAlarmNumberDataFull	"НОМЕР СИГНАЛА ТРЕВОГИ #!{dataItem1}"	165 8 0	0x0111	15	0	460	30	18	1
-textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	15	145	455	300	18	0
+textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	16	40	455	150	14	0
 textEmptyFormatAlarmVersionLocation	""	255 247 57	0x0101	10	419	465	12	10	0
 textEmptyFormatBarcodeScan	""	255 247 57	0x0101	77	132	390	31	14	0
 textEmptyFormatBarcodeScanAlt	""	255 247 57	0x0101	77	132	390	31	10	0
 textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	77	380	390	31	14	0
 textEmptyFormatBarcodeScanBottomAlt	""	255 247 57	0x0101	77	380	390	31	10	0
+textEmptyFormatBarcodeTimeStamp	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0112	400	20	86	15	14	1
 textEmptyFormatBloodTypeButton12Pt	""	255 255 255	0x0111	0	0	100	48	12	0
 textEmptyFormatBloodTypeButton14Pt	""	255 255 255	0x0111	0	0	100	48	14	0
 textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
@@ -1048,8 +1132,8 @@ textEmptyFormatNewPredCurrPltVolInit	"#![BeginSeg 1]#!{dataItem1} мл#![EndSeg 
 textEmptyFormatNewPredProdPcxInit	""	255 255 255	0x0100	330	10	59	19	14	0
 textEmptyFormatNewPredProdPlasInit	"#![BeginSeg 1]#!{dataItem1} мл#![EndSeg 1]"	255 255 255	0x0120	277	10	100	19	14	1
 textEmptyFormatNewPredProdPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0120	473	10	120	19	14	1
-textEmptyFormatOfflineVolumeDataLabelRow1	""	74 74 74	0x0101	240	305	230	32	14	0
-textEmptyFormatOfflineVolumeDataLabelRow2	""	74 74 74	0x0101	240	338	230	32	14	0
+textEmptyFormatOfflineVolumeDataLabelRow1	""	74 74 74	0x0101	240	305	230	32	14	1
+textEmptyFormatOfflineVolumeDataLabelRow2	""	74 74 74	0x0101	240	338	230	32	14	1
 textEmptyFormatOfflineVolumeRow1	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatOfflineVolumeRow2	""	255 255 255	0x0121	480	338	60	32	14	0
 textEmptyFormatOperatorPromptButton1	""	255 247 57	0x0111	0	0	640	0	14	0
@@ -1062,7 +1146,7 @@ textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPlasmaRinsebackVol	"#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"	0 0 0	0x0111	0	0	34	30	12	0
 textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPredConfPostPltDataUnit	"#![BeginSeg 1]#!{dataItem} x 1000/мкл #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	14	1
-textEmptyFormatPredConfPostPltDataUnitBold	"#![BeginSeg 1]#!{dataItem} x 1000/мкл#![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	20	1
+textEmptyFormatPredConfPostPltDataUnitBold	"#![BeginSeg 1]#!{dataItem} x 1000/мкл #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	20	1
 textEmptyFormatPredConfirmAcDataUnit	"#![BeginSeg 1]#!{dataItem} мл#![EndSeg 1]"	74 74 74	0x0101	260	247	120	24	14	1
 textEmptyFormatPredConfirmFlowDataUnit	"#![BeginSeg 1]#!{dataItem} мл/мин#![EndSeg 1]"	74 74 74	0x0101	260	313	120	24	14	1
 textEmptyFormatPredConfirmPasVolDataUnit	"#![BeginSeg 1]#!{dataItem} мл#![EndSeg 1]"	74 74 74	0x0101	260	119	120	24	14	1
@@ -1146,21 +1230,21 @@ textEmptyFormatRs2DatRbcAcSplitLayout	""	255 255 255	0x0121	370	246	60	23	14	0
 textEmptyFormatRs2DatRbcRasSplitLayout	""	255 255 255	0x0121	370	276	60	23	14	0
 textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	338	60	23	14	0
 textEmptyFormatRs2DatRbcVolSplitLayout	""	255 255 255	0x0121	370	216	60	23	14	0
-textEmptyFormatRsDatAcToDonorJP	""	255 255 255	0x0121	206	258	50	35	14	0
-textEmptyFormatRsDatEndOfRunTimeJP	""	255 255 255	0x0121	203	138	50	35	14	0
-textEmptyFormatRsDatEndOfRunTimeJP24	""	255 255 255	0x0121	215	138	50	35	14	0
-textEmptyFormatRsDatPasVolJP	""	255 255 255	0x0121	522	367	50	35	14	0
-textEmptyFormatRsDatPlsAcJP	""	255 255 255	0x0121	522	178	50	35	14	0
-textEmptyFormatRsDatPlsVolJP	""	255 255 255	0x0121	522	138	50	35	14	0
-textEmptyFormatRsDatPltAcJP	""	255 255 255	0x0121	522	327	50	35	14	0
-textEmptyFormatRsDatPltVolJP	""	255 255 255	0x0121	522	247	50	35	14	0
-textEmptyFormatRsDatPltYieldJP	""	255 255 255	0x0121	522	287	50	35	14	0
-textEmptyFormatRsDatPostHctJP	""	255 255 255	0x0121	206	218	50	35	14	0
-textEmptyFormatRsDatPostPltCountJP	""	255 255 255	0x0121	179	178	50	35	14	0
-textEmptyFormatRsDatRasVolJP	""	255 255 255	0x0121	522	218	50	35	14	0
-textEmptyFormatRsDatRbcVolJP	""	255 255 255	0x0121	522	138	50	35	14	0
-textEmptyFormatRsDatSalineUsedJP	""	255 255 255	0x0121	206	298	50	35	14	0
-textEmptyFormatRsRbcAcJP	""	255 255 255	0x0121	522	178	50	35	14	0
+textEmptyFormatRsDatAcToDonorJP	""	255 255 255	0x0121	206	258	50	35	14	1
+textEmptyFormatRsDatEndOfRunTimeJP	""	255 255 255	0x0121	203	138	50	35	14	1
+textEmptyFormatRsDatEndOfRunTimeJP24	""	255 255 255	0x0121	215	138	50	35	14	1
+textEmptyFormatRsDatPasVolJP	""	255 255 255	0x0121	522	367	50	35	14	1
+textEmptyFormatRsDatPlsAcJP	""	255 255 255	0x0121	522	178	50	35	14	1
+textEmptyFormatRsDatPlsVolJP	""	255 255 255	0x0121	522	138	50	35	14	1
+textEmptyFormatRsDatPltAcJP	""	255 255 255	0x0121	522	327	50	35	14	1
+textEmptyFormatRsDatPltVolJP	""	255 255 255	0x0121	522	247	50	35	14	1
+textEmptyFormatRsDatPltYieldJP	""	255 255 255	0x0121	522	287	50	35	14	1
+textEmptyFormatRsDatPostHctJP	""	255 255 255	0x0121	206	218	50	35	14	1
+textEmptyFormatRsDatPostPltCountJP	""	255 255 255	0x0121	179	178	50	35	14	1
+textEmptyFormatRsDatRasVolJP	""	255 255 255	0x0121	522	218	50	35	14	1
+textEmptyFormatRsDatRbcVolJP	""	255 255 255	0x0121	522	138	50	35	14	1
+textEmptyFormatRsDatSalineUsedJP	""	255 255 255	0x0121	206	298	50	35	14	1
+textEmptyFormatRsRbcAcJP	""	255 255 255	0x0121	522	178	50	35	14	1
 textEmptyFormatRunDonationTimeLeft24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
 textEmptyFormatRunDonationTimeLeftAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} a.m.#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
 textEmptyFormatRunDonationTimeLeftMinutes	"#![BeginSeg 1]#!{dataItem1} мин#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
@@ -1186,8 +1270,8 @@ textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
 textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
-textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	640	25	18	0
-textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	477	32	16	0
+textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEnableVistaCfr11PinLogging	"#![BeginSeg 1]RD: Vista Tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textExtraPlasmaNoAc	"#![BeginSeg 1]Пред-: Дополнительные объемы плазмы без АК#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textFormatNewPredCurrFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} мл/мин#![EndSeg 1]"	255 247 57	0x0101	515	384	150	23	16	1
@@ -1210,9 +1294,10 @@ textFormatPredPrevFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} мл/мин#![EndSeg
 textFormatPredPrevPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	74 74 74	0x0101	107	190	13	11	8	0
 textFormatPredPrevTimeUnit	"#![BeginSeg 1]#!{dataItem1} мин#![EndSeg 1]"	74 74 74	0x0101	520	181	150	19	14	1
 textGenericDataFomat	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	60	36	14	0
+textInfoEventLookupFail	"#![BeginSeg 1]#!{dataItem1}: Отказ#![EndSeg 1]"	255 247 57	0x0100	16	40	455	150	14	1
 textJapanFeatures	"#![BeginSeg 1]Функции для Японии#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textJapanPASGraphics	"#![BeginSeg 1]Комплект: Изображение японского комплекта PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	0
+textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
 textKeypadUnitsCm	"#![BeginSeg 1]#!{dataItem1} см#![EndSeg 1]"	0 0 0	0x0121	56	10	109	32	18	1
 textKeypadUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
 textKeypadUnitsExponentInit	"#![BeginSeg 1]0#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	12	0
@@ -1224,7 +1309,7 @@ textKeypadUnitsPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	0 0 0	0x0121	0	0	0	
 textKeypadUnitsTime	"#![BeginSeg 1]мин#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	1
 textLRSUnscheduledPurgeBody	"#![BeginSeg 1]Обнаружено потенциальное загрязнение лейкоцитами. Выполняется вымывание лейкоцитов из камеры LRS.\n\n#![EndSeg 1]#![BeginSeg 2]Нет необходимости устранять загрязнение эритроцитами.\n\n#![EndSeg 2]#![BeginSeg 3]Убедитесь, что мешок с тромбоцитами по-прежнему висит на стойке для внутривенных растворов.\n\n#![EndSeg 3]#![BeginSeg 4]Сбор тромбоцитов возобновится после завершения.\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	14	1
 textLRSscheduledPurgeBody	"#![BeginSeg 1]В рабочем порядке выполняется вымывание лейкоцитов из камеры LRS.\n\n#![EndSeg 1]#![BeginSeg 2]Нет необходимости устранять загрязнение эритроцитами.\n\n#![EndSeg 2]#![BeginSeg 3]Убедитесь, что мешок с тромбоцитами по-прежнему висит на стойке для внутривенных растворов.\n\n#![EndSeg 3]#![BeginSeg 4]Сбор тромбоцитов возобновится после завершения.\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	15	1
-textLabelCfgAppServer	"#![BeginSeg 1]Связь с управляющим\nприложением#![EndSeg 1]"	255 255 255	0x0101	60	110	260	40	14	1
+textLabelCfgAppServer	"#![BeginSeg 1]Подсоединение приложения#![EndSeg 1]"	255 255 255	0x0101	60	110	260	40	14	1
 textLabelCfgAppServerIpAddress	"#![BeginSeg 1]Сервер или IP-адрес#![EndSeg 1]"	255 255 255	0x0121	210	160	150	20	14	1
 textLabelCfgAppServerOff	"#![BeginSeg 1]Выкл.#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
 textLabelCfgAppServerOn	"#![BeginSeg 1]Вкл.#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
@@ -1383,7 +1468,7 @@ textMiscBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 255 255	0x0111	416	313	
 textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2:#![EndSeg 1]#![BeginSeg 2]Сломайте хрупкий соединитель (если он есть) на мешке#![EndSeg 2]"	255 247 57	0x0112	170	105	160	55	14	1
 textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]Подвесьте мешок и откройте зажим#![EndSeg 2]"	255 247 57	0x0112	330	105	160	45	14	1
-textMiscCfgAdminNumDigits	"#![BeginSeg 1]Код комплекта магистралей:\n#![EndSeg 1]#![BeginSeg 2]8-10 цифр#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]Код комплекта магистралей:\n#![EndSeg 1]#![BeginSeg 2]6-10 цифр#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	14	1
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]Процессы для тромбоцитов#![EndSeg 1]"	255 247 57	0x0111	60	110	256	25	17	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]Процессы для эритроцитов#![EndSeg 1]"	255 247 57	0x0111	385	110	256	25	17	1
 textMiscCfgMachBarcode	"#![BeginSeg 1]Штрих-код#![EndSeg 1]"	255 247 57	0x0111	270	235	100	45	14	1
@@ -1395,7 +1480,7 @@ textMiscCfgMaxValue	"#![BeginSeg 1]Максимальное значение = #
 textMiscCfgMinValue	"#![BeginSeg 1]Минимальное значение = #![EndSeg 1]"	255 247 57	0x0101	10	50	620	17	14	1
 textMiscCfgNoVolLimSelected	"#![BeginSeg 1]Для продолжения выберите предел объема#![EndSeg 1]"	255 247 57	0x0111	0	50	640	0	18	1
 textMiscCfgPasVolInit	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
-textMiscCfgPcxIndicator	""	255 247 57	0x0102	4	3	620	25	10	0
+textMiscCfgPcxIndicator	""	255 247 57	0x0102	4	3	620	25	10	1
 textMiscCfgPlt10Indicator	"#![BeginSeg 1]Тромбоциты 10#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
 textMiscCfgPlt1Indicator	"#![BeginSeg 1]Тромбоциты 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
 textMiscCfgPlt2Indicator	"#![BeginSeg 1]Тромбоциты 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	14	1
@@ -1419,24 +1504,32 @@ textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]Минимальное значе�
 textMiscCfgSplitRangeTopLabel	"#![BeginSeg 1]Диапазон значений для двойного продукта#![EndSeg 1]"	255 247 57	0x0101	325	46	305	17	12	1
 textMiscCfgSplitRangeTopMax	"#![BeginSeg 1]Максимальное значение = #![EndSeg 1]"	255 247 57	0x0101	325	80	305	17	12	1
 textMiscCfgSplitRangeTopMin	"#![BeginSeg 1]Минимальное значение = #![EndSeg 1]"	255 247 57	0x0101	325	63	305	17	12	1
+textMiscCfrActionAcReactionDown	"#![BeginSeg 1]AC reaction down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionAcReactionUp	"#![BeginSeg 1]AC reaction up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionAdvisory	"#![BeginSeg 1]Подтверждено рекомендательное сообщение#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAirblock	"#![BeginSeg 1]Выполнено устранение воздуха#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlarm	"#![BeginSeg 1]Подтвержден сигнал тревоги#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlert	"#![BeginSeg 1]Подтверждено предупреждение#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesModified	"#![BeginSeg 1]Изменены штрих-коды процедуры#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesReviewed	"#![BeginSeg 1]Проверены штрих-коды процедуры#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingDown	"#![BeginSeg 1]Clumping down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionClumpingUp	"#![BeginSeg 1]Clumping up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionCollectionEnded	"#![BeginSeg 1]Завершен сбор#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textMiscCfrActionConfigCleared	"#![BeginSeg 1]Очищена конфигурация управляющего приложения#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionConfigCleared	"#![BeginSeg 1]Очищена конфигурация приложения#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionConfigModified	"#![BeginSeg 1]Изменена конфигурация#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConfirmed	"#![BeginSeg 1]Подтверждение донора#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textMiscCfrActionDonorConnected	"#![BeginSeg 1]Подсоединение донора#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDonorConnected	"#![BeginSeg 1]Донор подсоединен#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorInfoChange	"#![BeginSeg 1]Изменены сведения о доноре#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawDown	"#![BeginSeg 1]Draw flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionDrawUp	"#![BeginSeg 1]Draw flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionEORSummaryReviewed	"#![BeginSeg 1]Проверены процедурные данные#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionFlowRate	"#![BeginSeg 1]Введена скорость потока#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionLabelReviewed	"#![BeginSeg 1]Выполнена проверка продукта#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionNewProcedureSelected	"#![BeginSeg 1]Выбрана процедура#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionProcAdjustment	"#![BeginSeg 1]Корректировка процедуры#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionProductBagsSealed	"#![BeginSeg 1]Запаяны мешки с продуктами#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnDown	"#![BeginSeg 1]Return flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionReturnUp	"#![BeginSeg 1]Return flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionRinsebackInitiated	"#![BeginSeg 1]Инициирован возврат крови#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSalineBolus	"#![BeginSeg 1]Введен болюс физ.раствора#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSolutionAborted	"#![BeginSeg 1]Прервано добавление раствора#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
@@ -1446,7 +1539,15 @@ textMiscCfrActionTubingAction	"#![BeginSeg 1]Выполнено действие
 textMiscCfrActionTubingSetLoaded	"#![BeginSeg 1]Загружен комплект магистралей#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionTubingSetUnloaded	"#![BeginSeg 1]Выгружен комплект магистралей#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionVolumeConfirm	"#![BeginSeg 1]Подтвержден добавляемый объем#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrCommaDelim	"#![BeginSeg 1], #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoCrit	"#![BeginSeg 1]HCT: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoGender	"#![BeginSeg 1]Gender: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHeight	"#![BeginSeg 1]Height: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHgb	"#![BeginSeg 1]Hgb: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoPltPrecount	"#![BeginSeg 1]Platelet precount: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoWeight	"#![BeginSeg 1]Weight: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrOpIdLabel	"#![BeginSeg 1]ID оператора#![EndSeg 1]"	255 255 255	0x0101	70	110	0	0	20	1
+textMiscCfrTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrTimeEventSeparator	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscChannelTest	"#![BeginSeg 1]НЕ ПОДСОЕДИНЯЙТЕ консервирующий раствор во время выполнения теста#![EndSeg 1]"	255 247 57	0x0111	10	150	340	210	18	1
 textMiscClampBloodDiversionJp	"#![BeginSeg 1]Закройте зажим на линии донора для отвода крови в пакет для образцов#![EndSeg 1]"	255 247 57	0x0112	15	110	610	40	18	1
@@ -1555,7 +1656,7 @@ textMiscRunProcInitPltEstExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0
 textMiscRunProcInitPltVolBtnYieldCurrentExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0120	1	3	14	12	8	0
 textMiscRunProcPltCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	200	388	128	24	24	1
 textMiscRunProcPltEst	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0111	200	209	128	24	24	1
-textMiscRunProcPltPcxLabel	""	255 255 255	0x0111	202	209	128	24	20	0
+textMiscRunProcPltPcxLabel	""	255 255 255	0x0111	202	209	128	24	20	1
 textMiscRunProcPltVolBtnVolCurrent	"#![BeginSeg 1]#!{dataItem1} мл#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
 textMiscRunProcPltVolBtnYieldCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
 textMiscRunProcPressureLabelN	"#![BeginSeg 1]Давление#![EndSeg 1]"	239 239 239	0x0110	0	12	130	14	14	1
@@ -1595,20 +1696,22 @@ textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1]%#![EndSeg 1]"	239 239 239	0x011
 textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]г/дл#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]мл#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textMultiBarcodeCount	"#![BeginSeg 1]#!{dataItem1} из #!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	380	0	120	30	14	1
 textMultiTextListBoxBlankItem1	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem2	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem3	""	255 255 255	0x0111	20	0	640	0	19	0
 textNewPredACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} мл#![EndSeg 1]"	255 247 57	0x0121	200	387	100	35	14	1
 textNoNeedleLineClamp	"#![BeginSeg 1]Комплект: Без зажима на линии с иглой#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPIRPreferred	"#![BeginSeg 1]Пред-: Повышенное ВЗТ#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPPCCollectTiming	"#![BeginSeg 1]Пред-: Время сбора КТПС#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPasBagBarcodeScanFeature	"#![BeginSeg 1]Процедура: Подтверждение штрих-кода PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPlasmaDrainAlertBody	"#![BeginSeg 1]Во время переноса плазмы датчиком низкого уровня не обнаружена жидкость.\n\n#![EndSeg 1]#![BeginSeg 2]- Убедитесь, что нет окклюзии линии плазмы#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	0
-textPltConfigCollectCon2	""	255 255 0	0x0110	485	248	59	35	14	0
-textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	0
-textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	0
-textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	0
-textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	0
+textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	1
+textPltConfigCollectCon2	""	255 255 0	0x0110	485	248	59	35	14	1
+textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	1
+textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	1
+textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	1
+textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	1
 textPopupTimerTime	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 255 255	0x0111	140	90	100	65	36	1
 textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]Пред-: Мобилизация тромбоцитов#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProcConfirmPopup	"#![BeginSeg 1]Пред-: Подтверждение процедуры#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -1669,6 +1772,7 @@ textProdVerifReasonPlasmaRinsebackNotCompleted	"#![BeginSeg 1]Возврат п�
 textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]Рассчитанная концентрация слишком высока#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]Рассчитанная концентрация слишком низка#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltContamDetected	"#![BeginSeg 1]Обнаружено потенциальное загрязнение лейкоцитами#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
+textProdVerifReasonPredictedVolmTooHigh	"#![BeginSeg 1]Рассчитанный объем слишком высок#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]Ошибка при калибровке детектора эритроцитов#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcSpillover	"#![BeginSeg 1]Загрязнение эритроцитами#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]Возврат крови не завершен#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
@@ -1677,23 +1781,24 @@ textProdVerifReasonSolutionAbortedByOperator	"#![BeginSeg 1]Автоматизи
 textProdVerifReasonTargetVolumesNotAchieved	"#![BeginSeg 1]Заданный объем не достигнут#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonWbcNotValidated	"#![BeginSeg 1]Configured yield > 9.0#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	0
 textProgBarAddition	"#![BeginSeg 1]Добавление#![EndSeg 1]"	255 247 57	0x0101	286	50	0	0	12	1
-textProgBarAdditionBarcode	""	255 247 57	0x0101	356	10	0	0	14	0
+textProgBarAdditionBarcode	""	255 247 57	0x0101	356	10	0	0	14	1
 textProgBarDonate	"#![BeginSeg 1]Кроводача#![EndSeg 1]"	255 247 57	0x0101	215	50	0	0	12	1
-textProgBarDonateBarcode	""	255 247 57	0x0101	273	10	0	0	14	0
+textProgBarDonateBarcode	""	255 247 57	0x0101	273	10	0	0	14	1
 textProgBarDonorInfo	"#![BeginSeg 1]Сведения#![EndSeg 1]"	255 247 57	0x0101	72	50	0	0	12	1
-textProgBarDonorInfoBarcode	""	255 247 57	0x0101	130	10	0	0	14	0
+textProgBarDonorInfoBarcode	""	255 247 57	0x0101	130	10	0	0	14	1
 textProgBarDonorPrep	"#![BeginSeg 1]Подготовка#![EndSeg 1]"	255 247 57	0x0101	137	50	0	0	12	1
-textProgBarDonorPrepBarcode	""	255 247 57	0x0101	184	10	0	0	14	0
+textProgBarDonorPrepBarcode	""	255 247 57	0x0101	184	10	0	0	14	1
 textProgBarLoad	"#![BeginSeg 1]Загрузить#![EndSeg 1]"	255 247 57	0x0101	0	50	0	0	12	1
-textProgBarLoadBarcode	""	255 247 57	0x0101	70	10	0	0	14	0
+textProgBarLoadBarcode	""	255 247 57	0x0101	70	10	0	0	14	1
 textProgBarNoAdditionUnload	"#![BeginSeg 1]Выгрузить#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	12	1
-textProgBarNoAdditionUnloadBarcode	""	255 247 57	0x0101	383	10	0	0	14	0
+textProgBarNoAdditionUnloadBarcode	""	255 247 57	0x0101	383	10	0	0	14	1
 textProgBarUnload	"#![BeginSeg 1]Выгрузить#![EndSeg 1]"	255 247 57	0x0101	368	50	0	0	12	1
-textProgBarUnloadBarcode	""	255 247 57	0x0101	417	10	0	0	14	0
-textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	0
-textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	0
-textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	0
+textProgBarUnloadBarcode	""	255 247 57	0x0101	417	10	0	0	14	1
+textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	1
+textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	1
+textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	1
 textRunScreenPlateletVolumeToggle	"#![BeginSeg 1]Процедура: Переключение между измерениями\nобъема тромбоцитов#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textSBoxBarcodeUnableDonorEligibility	"#![BeginSeg 1]Пригодность донора проверить не удалось#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textSelectBarcodeCategory	"#![BeginSeg 1]Выберите категорию штрих-кода#![EndSeg 1]"	255 247 57	0x0111	100	10	300	50	20	1
 textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]Пред-: Объем продукта тромбоцитов#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]RD: Periodic Logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
@@ -1713,6 +1818,7 @@ textStatAasClampChannel	"#![BeginSeg 1]Автоматизированное до
 textStatAasRemoveDisp	"#![BeginSeg 1]Извлеките комплект магистралей#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatAasSealDetach	"#![BeginSeg 1]Запаяйте и отделите линии к мешку с продуктом и с конс.раствором#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	17	1
 textStatAcPriming	"#![BeginSeg 1]Выполняется заполнение АК...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatActionNotAllowed	"#![BeginSeg 1]Недопустимое действие#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAdjustingPltConc	"#![BeginSeg 1]Доведение уровня концентрации тромбоцитов...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAlarm10MinPause	"#![BeginSeg 1]Пауза на десять минут#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarm10MinPauseFailure	"#![BeginSeg 1]Пауза на десять минут#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
@@ -1810,16 +1916,17 @@ textStatAlarmUnloadingBagCassettePosition	"#![BeginSeg 1]Ошибка при в�
 textStatAlarmValveError	"#![BeginSeg 1]Ошибка клапана#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarmValveLedError	"#![BeginSeg 1]Отказ датчика клапана или датчика дверцы#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
 textStatAlarmVoltageFailure	"#![BeginSeg 1]Отказ из-за высокого напряжения#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	18	1
-textStatAppTransferSuccessful	"#![BeginSeg 1]Данные управляющего приложения получены#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textStatAppTransferUnsuccessful	"#![BeginSeg 1]Пересылка данных от управляющего приложения не удалась#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferSuccessful	"#![BeginSeg 1]Получены данные от приложения#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferUnsuccessful	"#![BeginSeg 1]Пересылка данных от приложения не удалась#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatApsLow	"#![BeginSeg 3]Низкое давление забора#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAuthEvents	"#![BeginSeg 1]Введите штрих-код ID оператора#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAuthEventsScan	"#![BeginSeg 1]Отсканируйте ID оператора#![EndSeg 1]"	255 247 57	0x0111	22	20	355	115	18	1
 textStatAwaitingAp2Xmit	"#![BeginSeg 1]Ожидание передачи сведений о доноре...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcode2ManyScans	"#![BeginSeg 1]Значение не принято; введенное вами значение уже существует#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeBadScan	"#![BeginSeg 1]Ошибка при считывании штрих-кода#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]Значение нельзя удалить#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeMoveInput	"#![BeginSeg 1]Определите значение штрих-кода#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatBarcodeNotRecognized	"#![BeginSeg 1]Отсканированный штрих-код не распознан#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatBarcodeNotRecognized	"#![BeginSeg 1]Штрих-код не распознан#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textStatBarcodeOK	"#![BeginSeg 1]Правильно: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatBarcodeReview	"#![BeginSeg 1]Просмотрите значения#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatBarcodeRuleBroken	"#![BeginSeg 1]Неправильно: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1830,7 +1937,7 @@ textStatBloodPrimeInProgress	"#![BeginSeg 1]Выполняется заполн�
 textStatCfgMachBadBarcode	"#![BeginSeg 1]Штрих-код не соответствует REF комплекта магистралей#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatCfgMachBadCatNum	"#![BeginSeg 1]REF должен содержать 5 или 6 цифр#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachBadPair	"#![BeginSeg 1]Ошибка при вводе; проверьте правильность введенных цифр#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
-textStatCfgMachBadSetCode	"#![BeginSeg 1]Код комплекта магистралей должен содержать 8-10 цифр#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]Код комплекта магистралей должен содержать 6-10 цифр#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachEnterCatNum	"#![BeginSeg 1]Введите REF комплекта магистралей#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachEnterSetCode	"#![BeginSeg 1]Введите код комплекта магистралей#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatCfgMachSuccess	"#![BeginSeg 1]Введенное значение REF принято#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -1876,6 +1983,7 @@ textStatPasEmpty	"#![BeginSeg 1]Замените мешок с PAS#![EndSeg 1]"	
 textStatPasPause	"#![BeginSeg 1]Отдельное добавление PAS#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	18	1
 textStatProcListTransferUnsuccessful	"#![BeginSeg 1]Пересылка списка процедур не удалась#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatRASEmptyWarnBarcodeAccepted	"#![BeginSeg 1]Штрих-код принят#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatREFNotAMatch	"#![BeginSeg 1]REF не соответствует выбранной процедуре#![EndSeg 1]"	255 247 57	0x0111	85	30	350	60	16	1
 textStatRbc1Runsum	"#![BeginSeg 1]Проверка продукта эритроцитов 1#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRbc2Runsum	"#![BeginSeg 1]Проверка продукта эритроцитов 2#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatRecoveryProcedure	"#![BeginSeg 1]Выполняется процедура восстановления#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1895,8 +2003,10 @@ textStatSetIdInstructions	"#![BeginSeg 1]Выберите REF комплекта
 textStatTubingSetBarcodeAccepted	"#![BeginSeg 1]Штрих-код принят#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatUnscheduledPurge	"#![BeginSeg 1]Обнаружены лейкоциты; выполняется вымывание лейкоцитов из камеры LRS#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	15	1
 textStatValueOutOfRange	"#![BeginSeg 1]Значение вне диапазона#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	18	1
-textStatWaitingForVista	"#![BeginSeg 1]Ожидание управляющего приложения...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatVistaDonorName	"#![BeginSeg 1]#!{donorNameFromVista}#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatWaitingForVista	"#![BeginSeg 1]Ожидание отклика приложения...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textTier1ConcentrationLimit	"#![BeginSeg 1]1-й уровень ограничения концентрации#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textTitlePopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	400	32	18	0
 textTriplePpcFlag	"#![BeginSeg 1]Пост-: Сообщение о лейкоцитах в КТПСП/PAS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textVerifyRuleBox	"#![BeginSeg 1]Проверьте: #!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
 STRING_FILE_TABLE_END
