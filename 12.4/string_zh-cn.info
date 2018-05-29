@@ -48,7 +48,7 @@ CMP2textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	340	60	23	13	0
 JPHtextAlarmBodyAFtenMin	"#![BeginSeg 1]抽血速度下降。\n\n#![EndSeg 1]#![BeginSeg 2]核实：\n\n#![EndSeg 2]#![BeginSeg 3]1.  针位置\n\n#![EndSeg 3]#![BeginSeg 4]2.  献血者正在握紧松开拳头\n\n#![EndSeg 4]#![BeginSeg 5]3.  献血者身体温暖\n\n#![EndSeg 5]#![BeginSeg 6]如果解决了进血问题，抽血速度可以加快。#![EndSeg 6]"	165 8 0	0x0100	15	120	227	300	18	1
 JPHtextAutoFlowCfgBtn	"#![BeginSeg 1]AutoFlow#![EndSeg 1]"	255 247 57	0x0111	45	345	100	70	14	0
 JPHtextMiscTrimaVersion	"#![BeginSeg 1]Version 6.4.AF#![EndSeg 1]"	0 0 0	0x0102	100	350	540	70	18	0
-JPHtextStatAlarmAFtenMin	"#![BeginSeg 1]Donation time increase#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
+JPHtextStatAlarmAFtenMin	"#![BeginSeg 1]献血时间延长#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
 JPHtextStatPredictScreenAFTimeout	"#![BeginSeg 1]Draw flow too low - Maximum procedure duration exceeded#![EndSeg 1]"	165 8 0	0x0101	54	146	182	14	18	0
 NonAutoFlowTextAlarmBodyTimeout	"#![BeginSeg 1]当前程序已被取消。已超出最长程序持续时间。\n\n#![EndSeg 1]#![BeginSeg 2]触摸‘程序选择’以进入程序选择屏幕。#![EndSeg 2]"	0 0 0	0x0100	15	120	455	300	20	1
 TEST_PREDICT_COMP_PLS_VOLM	""	255 247 57	0x0111	300	280	59	35	14	0
