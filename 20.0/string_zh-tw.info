@@ -62,7 +62,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans MT950HKSCS 900"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"「("	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"，。:」)%、"	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xf2e4638c"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xca33c6a"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"繁體中文"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"20"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -150,7 +150,8 @@ textAlarmBodyNoGraphicPlsWbcContamination	"#![BeginSeg 1]發生了一起事件�
 textAlarmBodyNoGraphicPlsWbcContaminationContinue	"#![BeginSeg 1]點觸「繼續」以顯示程序選項畫面。#![EndSeg 1]"	0 0 0	0x0100	15	240	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify	"#![BeginSeg 1]－確認血漿產品中的白血球#![EndSeg 1]"	239 74 16	0x0100	75	190	455	300	18	1
 textAlarmBodyNoGraphicPlsWbcContaminationVerify2	"#![BeginSeg 1]－確認血漿產品中的白血球#![EndSeg 1]"	239 74 16	0x0100	75	230	455	300	18	1
-textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]系統偵測到血小板管路中的濃度偏低。\n\n#![EndSeg 1]#![BeginSeg 2]－如果血小板管路或血漿管路中沒有液體，請為空氣阻塞做調整。\n\n#![EndSeg 2]#![BeginSeg 3]－如果產品袋中沒有血小板，請調高系統的抗凝血劑儀。#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLow	"#![BeginSeg 1]系統偵測到血小板管路中的濃度偏低。\n\n#![EndSeg 1]#![BeginSeg 2]－確認從卡匣到產品袋的這一段管路沒有夾緊或阻塞。\n\n#![EndSeg 2]#![BeginSeg 3]－如果血小板管路或血漿管路中沒有液體，請為空氣阻塞做調整。\n\n#![EndSeg 3]#![BeginSeg 4]－如果產品袋中沒有血小板，請調高系統的抗凝血劑儀。#![EndSeg 4]"	0 0 0	0x0100	15	120	455	300	18	1
+textAlarmBodyNoGraphicPltConcLowForPPC	"#![BeginSeg 1]系統偵測到血小板管路中的濃度偏低。\n\n#![EndSeg 1]#![BeginSeg 2]－確認從卡匣到產品袋的這一段管路沒有夾緊或阻塞。\n\n#![EndSeg 2]#![BeginSeg 3]－如果血小板管路或血漿管路中沒有液體，請為空氣阻塞做調整。#![EndSeg 3]"	0 0 0	0x0100	15	120	455	300	18	1
 textAlarmBodyNoGraphicPltHallHigh	"#![BeginSeg 1]記錄警報號碼以及狀態行文字。\n\n#![EndSeg 1]#![BeginSeg 2]血小板泵轉子可能安裝不正確，或是將錯誤的泵轉子安裝在血小板轉子軸套中。\n\n#![EndSeg 2]#![BeginSeg 3]－關閉系統電源，然後重新開啟電源\n#![EndSeg 3]#![BeginSeg 4]－將轉子重新安裝到血小板泵上\n\n#![EndSeg 4]#![BeginSeg 5]如果問題一再發生，請打電話給您的服務代表尋求協助。#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicPltHallLow	"#![BeginSeg 1]記錄警報號碼以及狀態行文字。\n\n#![EndSeg 1]#![BeginSeg 2]血小板泵轉子可能安裝不正確，或是將錯誤的泵轉子安裝在血小板轉子軸套中。\n\n#![EndSeg 2]#![BeginSeg 3]－關閉系統電源，然後重新開啟電源\n#![EndSeg 3]#![BeginSeg 4]－確保帶有黑點的泵轉子安裝在血小板轉子軸套中。\n\n#![EndSeg 4]#![BeginSeg 5]如果問題一再發生，請打電話給您的服務代表尋求協助。#![EndSeg 5]"	0 0 0	0x0100	15	110	455	300	18	1
 textAlarmBodyNoGraphicPltWbcContamination	"#![BeginSeg 1]發生了一起事件，可能造成白血球汙染。#![EndSeg 1]"	0 0 0	0x0100	15	120	455	300	18	1
@@ -290,7 +291,7 @@ textAlarmBodyWithGraphicSalineEmpty	"#![BeginSeg 1]連接鹽水袋，然後點�
 textAlarmBodyWithGraphicSalineRinsebackConnect	"#![BeginSeg 1]回沖程序需要生理食鹽水。\n\n#![EndSeg 1]#![BeginSeg 2]連接鹽水袋，然後點觸「繼續」。#![EndSeg 2]"	0 0 0	0x0100	15	120	232	300	20	1
 textAlarmBodyWithGraphicSpilloverDetected	"#![BeginSeg 1]系統偵測到衝紅，並已執行衝紅自動復原程序。\n\n#![EndSeg 1]#![BeginSeg 2]－確認輸入了正確的捐血者血比容/血紅素#![EndSeg 2]"	0 0 0	0x0100	15	120	232	300	19	1
 textAlarmBodyWithGraphicSpilloverDetectedNoRec	"#![BeginSeg 1]系統在血小板管路中偵測到紅血球。\n\n#![EndSeg 1]#![BeginSeg 2]－確認輸入了正確的捐血者血比容/血紅素#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]已按下停止鍵。\n\n#![EndSeg 1]#![BeginSeg 2]－泵和離心機停止運轉\n\n#![EndSeg 2]#![BeginSeg 3]點觸「繼續」以恢復程序。#![EndSeg 3]"	0 0 0	0x0100	15	120	232	300	20	1
+textAlarmBodyWithGraphicStopButtonAlert	"#![BeginSeg 1]已按下停止鍵。\n\n#![EndSeg 1]#![BeginSeg 2]－泵和離心機停止運轉\n\n#![EndSeg 2]"	0 0 0	0x0100	15	120	232	300	20	1
 textAlarmBodyWithGraphicUnloadingBadSetPosition	"#![BeginSeg 1]系統無法將卡匣從目前的位置卸載下來。#![EndSeg 1]#![BeginSeg 2]切斷捐血者的連接。#![EndSeg 2]#![BeginSeg 3]如需手動卸載卡匣的說明，請參閱操作手冊。#![EndSeg 3]"	0 0 0	0x0100	15	120	232	300	20	1
 textAlarmBodyWithGraphicValveTestFailure	"#![BeginSeg 1]系統無法將閥門移到正確的位置。#![EndSeg 1]#![BeginSeg 2]檢查閥門是否阻塞。#![EndSeg 2]#![BeginSeg 3]點觸「繼續」以恢復程序。#![EndSeg 3]"	0 0 0	0x0100	15	120	232	300	20	1
 textAllowAdjustFlowRatesOnProcedureSelect	"#![BeginSeg 1]預測:流速調整#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -309,18 +310,58 @@ textAmapPredictCompPlsNotice	"#![BeginSeg 1]由 PAS 取代了 #!{dataItem1} 毫�
 textAppAlarmStatusActive	"#![BeginSeg 1]是#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textAppAlarmStatusInactive	"#![BeginSeg 1]--#![EndSeg 1]"	0 0 0	0x0111	0	0	0	0	18	1
 textApsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, APS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textAuthEventAdvisory	"#![BeginSeg 1]建議已接收#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAirblock	"#![BeginSeg 1]空氣阻塞復原已執行#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlarm	"#![BeginSeg 1]警報已接收#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventAlert	"#![BeginSeg 1]警示已接收#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventBarcodesReviewed	"#![BeginSeg 1]程序條碼已審查#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventCollectionEnded	"#![BeginSeg 1]收集已結束#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConfirmed	"#![BeginSeg 1]捐血者確認#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorConnected	"#![BeginSeg 1]捐血者已連接#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorDisconnected	"#![BeginSeg 1]捐血者已切斷連接#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventDonorInfoChange	"#![BeginSeg 1]捐血者資訊已變更#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventEORSummaryReviewed	"#![BeginSeg 1]程序摘要已審查#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventLabelReviewed	"#![BeginSeg 1]產品確認已審查#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventNewProcedureSelected	"#![BeginSeg 1]程序已選取#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProcAdjustment	"#![BeginSeg 1]程序調整#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventProductBagsSealed	"#![BeginSeg 1]產品袋已密封#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventRinsebackInitiated	"#![BeginSeg 1]回沖已啟動#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSalineBolus	"#![BeginSeg 1]已輸送大量生理食鹽水#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSolutionAborted	"#![BeginSeg 1]添加溶液已中止#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventSpillover	"#![BeginSeg 1]衝紅復原已執行#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingAction	"#![BeginSeg 1]管路組行動已完成#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetLoaded	"#![BeginSeg 1]管路組已安裝#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventTubingSetUnloaded	"#![BeginSeg 1]管路組已卸載#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
+textAuthEventVolumeConfirm	"#![BeginSeg 1]添加容量已確認#![EndSeg 1]"	255 247 57	0x0111	20	2	360	0	18	1
 textAutoFlowCfgBtn	"#![BeginSeg 1]自動調整流速#![EndSeg 1]"	255 247 57	0x0111	10	345	135	70	16	1
-textBarcodeCategory1	""	255 247 57	0x0101	110	140	400	20	9	0
+textBadgeAuthDescription	""	255 247 57	0x0111	20	2	360	0	18	0
+textBarcodeAcCategoryIcon	"#![BeginSeg 1]抗凝血劑#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeCategory1	""	255 247 57	0x0101	72	1	400	20	14	0
 textBarcodeCategory2	""	255 247 57	0x0101	110	190	400	20	9	0
 textBarcodeCategory3	""	255 247 57	0x0101	110	240	400	20	9	0
 textBarcodeCategory4	""	255 247 57	0x0101	110	290	400	20	9	0
 textBarcodeCategory5	""	255 247 57	0x0101	110	340	400	20	9	0
-textBarcodeCategoryOperator1	""	255 247 57	0x0101	340	140	175	20	9	0
+textBarcodeCategoryOperator1	""	255 247 57	0x0101	360	1	175	20	9	0
 textBarcodeCategoryOperator2	""	255 247 57	0x0101	340	190	175	20	9	0
 textBarcodeCategoryOperator3	""	255 247 57	0x0101	340	240	175	20	9	0
 textBarcodeCategoryOperator4	""	255 247 57	0x0101	340	290	175	20	9	0
 textBarcodeCategoryOperator5	""	255 247 57	0x0101	340	340	175	20	9	0
 textBarcodeCategoryPopup	""	255 247 57	0x0111	115	15	412	20	9	0
+textBarcodeCustomCategoryIcon	""	255 247 57	0x0111	9	0	50	50	20	0
+textBarcodeDeleteBox	"#![BeginSeg 1]點觸「確認」刪除條碼#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeDeleteBoxConfirmButton	"#![BeginSeg 1]確認#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeDelteBoxCancelButton	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxCancelButton	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeEditBoxDeleteButton	"#![BeginSeg 1]刪除#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeEditBoxOverrideButton	"#![BeginSeg 1]取代#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textBarcodeNaclCategoryIcon	"#![BeginSeg 1]氯化鈉\n0.9%#![EndSeg 1]"	49 8 123	0x0111	13	0	50	50	10	1
+textBarcodeObjectOverridden	"已取代"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectRemaining	""	255 247 57	0x0101	340	340	175	20	9	0
+textBarcodeObjectSkipped	"已跳過"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStamp24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	0
+textBarcodeObjectTimeStampAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeObjectTimeStampPm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0121	419	0	70	20	9	1
+textBarcodeParseError	"#![BeginSeg 1]條碼不正確#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textBarcodePopupEmpty	""	0 0 0	0x0111	10	40	400	100	14	0
 textBarcodePopupEmptyAlt	""	0 0 0	0x0111	10	40	400	100	10	0
 textBarcodeReview1	""	255 255 255	0x0111	0	0	640	0	18	0
@@ -333,10 +374,29 @@ textBarcodeReview4	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview4Alt	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5	""	255 255 255	0x0111	0	0	640	0	18	0
 textBarcodeReview5Alt	""	255 255 255	0x0111	0	0	640	0	18	0
+textBarcodeScanBoxCancelButton	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeScanCategoryFormat	""	255 247 57	0x0001	20	0	375	30	14	0
+textBarcodeScanErrorFormat	""	255 247 57	0x0111	85	25	350	60	16	0
+textBarcodeScanNameFormat	""	255 247 57	0x0001	20	20	375	30	14	0
 textBarcodeScanPopup	""	255 247 57	0x0111	115	44	410	77	14	0
+textBarcodeSkipBoxCancelButton	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeSkipBoxConfirm	"#![BeginSeg 1]確認條碼跳過#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
+textBarcodeSkipBoxConfirmButton	"#![BeginSeg 1]關閉#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textBarcodeStatusSkipped	"#![BeginSeg 1]已跳過#![EndSeg 1]"	255 247 57	0x0112	0	0	640	15	14	1
 textBlank	""	255 247 57	0x0111	0	0	100	0	14	0
 textBodyAlarmDrawLineOcclusion	"#![BeginSeg 1]記錄警報號碼以及狀態行文字。\n\n#![EndSeg 1]#![BeginSeg 2]系統遇到了無法復原的警報狀況。\n\n#![EndSeg 2]#![BeginSeg 3]－點觸「結束運行」\n#![EndSeg 3]"	0 0 0	0x0100	15	110	455	300	18	1
 textBodyPopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	20	20	335	115	18	0
+textBoxBarcodeDataTransferProgress	"#![BeginSeg 1]資料傳輸中…#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupDonorError	"#![BeginSeg 1]條碼查閱不成功#![EndSeg 1]#![BeginSeg 2]，確認捐血者資訊和資格#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupError	"#![BeginSeg 1]條碼查閱不成功#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupErrorDefault	"#![BeginSeg 1]條碼查閱不成功#![EndSeg 1]#![BeginSeg 2]，已使用預設條碼計數#![EndSeg 2]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeLookupFailed	"#![BeginSeg 1]#!{dataItem1}:失敗#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeMatchError	"#![BeginSeg 1]條碼匹配錯誤#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxBarcodeRuleError	"#![BeginSeg 1]不正確:#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxEditBarcode	"#![BeginSeg 1]編輯條碼#![EndSeg 1]"	255 247 57	0x0111	0	0	640	30	18	1
+textBoxIncorrectSequence	"#![BeginSeg 1]條碼順序不正確#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
+textBoxInvalidREFError	"#![BeginSeg 1]REF 無效#![EndSeg 1]"	255 247 57	0x0111	85	25	350	60	16	1
+textBoxScanBarcode	"#![BeginSeg 1]掃描條碼#![EndSeg 1]"	255 247 57	0x0111	0	0	502	29	18	1
 textButtonAbortAasExit	"#![BeginSeg 1]結束添加溶液#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	21	1
 textButtonAbortAirInPlasmaLineExit	"#![BeginSeg 1]執行\n空氣阻塞\n復原#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	21	1
 textButtonAbortPasExit	"#![BeginSeg 1]結束添加\n血小板溶液#![EndSeg 1]"	255 247 57	0x0111	0	0	142	93	21	1
@@ -360,6 +420,7 @@ textButtonAlarmUnload	"#![BeginSeg 1]卸載#![EndSeg 1]"	255 247 57	0x0111	0	0	0
 textButtonAlarmUnloadSet	"#![BeginSeg 1]卸載管路組#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	19	1
 textButtonBarcodeACMini	"#![BeginSeg 1]抗凝血劑#![EndSeg 1]"	49 8 123	0x0100	11	7	35	35	10	1
 textButtonBarcodeAc	"#![BeginSeg 1]抗凝血劑#![EndSeg 1]"	49 8 123	0x0111	5	0	85	35	16	1
+textButtonBarcodeCancel	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
 textButtonBarcodeCategoryClear	"#![BeginSeg 1]清除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonBarcodeInputClear	"#![BeginSeg 1]清除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonBarcodeMisc1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	10	10	84	63	24	0
@@ -374,16 +435,16 @@ textButtonBarcodeNaclMini	"#![BeginSeg 1]氯化鈉\n0.9%#![EndSeg 1]"	49 8 123	0
 textButtonCancel	"#![BeginSeg 1]結束運行#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	20	1
 textButtonCancelSalineConnect	"#![BeginSeg 1]取消#![EndSeg 1]"	74 74 74	0x0111	0	0	640	0	20	1
 textButtonCategoryRankSwitch	"#![BeginSeg 1]其他...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
-textButtonCfgAppServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgAppServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgAppServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgAppServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgAppServers	"#![BeginSeg 1]應用程式\n伺服器#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
-textButtonCfgCadenceServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgCadenceServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgCadenceServerIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgCadenceServerPortNumber	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgClose	"#![BeginSeg 1]關閉#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	16	1
-textButtonCfgDeviceGateway	""	255 247 57	0x0111	0	0	640	0	14	0
-textButtonCfgDeviceIpAddress	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgDeviceGateway	""	255 247 57	0x0111	0	0	640	0	14	1
+textButtonCfgDeviceIpAddress	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgDeviceNetwork	"#![BeginSeg 1]裝置網路#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
-textButtonCfgDeviceSubnetMask	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgDeviceSubnetMask	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgDonLimDrbcVolToggle	"#![BeginSeg 1]雙份紅血球的最低總血容量#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	15	1
 textButtonCfgDonLimPlasmaVolMaxToggle	"#![BeginSeg 1]血漿程序#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
 textButtonCfgDonLimPlateletVolMaxToggle	"#![BeginSeg 1]血小板程序#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	1
@@ -406,13 +467,13 @@ textButtonCfgMainRepFluid	"#![BeginSeg 1]置換液\n#![EndSeg 1]"	255 247 57	0x0
 textButtonCfgMainSoftOpt	"#![BeginSeg 1]區域選單#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	18	1
 textButtonCfgMainVolLim	"#![BeginSeg 1]捐血量\n極限值#![EndSeg 1]"	255 247 57	0x0111	5	5	190	55	20	1
 textButtonCfgNonDisplayedNumber	"#![BeginSeg 1]---#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	14	0
-textButtonCfgPrimaryDns	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgPrimaryDns	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfgPrioExtraDoseUnits	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0110	0	33	0	0	10	1
 textButtonCfgPrioExtraPlasUnits	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0110	0	33	0	0	10	1
 textButtonCfgPrioExtraPltExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	68	31	8	8	6	0
 textButtonCfgPrioExtraPltX10	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0120	32	33	0	0	10	1
 textButtonCfgRepFluidRbc	"#![BeginSeg 1]置換液#![EndSeg 1]"	255 247 57	0x0111	0	0	100	0	16	1
-textButtonCfgSecondaryDns	""	255 247 57	0x0111	0	0	640	0	14	0
+textButtonCfgSecondaryDns	""	255 247 57	0x0111	0	0	640	0	14	1
 textButtonCfrClear	"#![BeginSeg 1]清除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonCfrSelected	"#![BeginSeg 1]接受#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonClearDonorInfo	"#![BeginSeg 1]清除資訊#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
@@ -421,6 +482,7 @@ textButtonConfirmBoxCancel	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	
 textButtonConfirmBoxConfirm	"#![BeginSeg 1]確認#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textButtonConfirmInfo	"#![BeginSeg 1]確認資訊#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textButtonContinueSalineConnect	"#![BeginSeg 1]繼續#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textButtonControlBoxCancel	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxClose	"#![BeginSeg 1]關閉#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonControlBoxOverride	"#![BeginSeg 1]取代#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonDonorInfo	"#![BeginSeg 1]捐血者資訊#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	20	1
@@ -448,6 +510,7 @@ textButtonGiantDonorVitalsWeight	"#![BeginSeg 1]捐血者體重#![EndSeg 1]"	255
 textButtonGiantDonorVitalsWeightKgSet	"#![BeginSeg 1]捐血者體重\n#!{dataItemWeightKg} 公斤#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	21	1
 textButtonGiantDonorVitalsWeightLbSet	"#![BeginSeg 1]捐血者體重\n#!{dataItemWeightLb} 磅#![EndSeg 1]"	255 247 57	0x0110	12	10	159	210	21	1
 textButtonGiantLoadSystem	"#![BeginSeg 1]載入系統#![EndSeg 1]"	255 247 57	0x0110	0	20	0	20	20	1
+textButtonIntervalTimerContinue	"#![BeginSeg 1]繼續#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonKeyboard0	"#![BeginSeg 1]0#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard1	"#![BeginSeg 1]1#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
 textButtonKeyboard2	"#![BeginSeg 1]2#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	0
@@ -576,10 +639,10 @@ textButtonLabelCfgDonLimDrbcVolSetting	"#![BeginSeg 2]容量 (升)#![EndSeg 2]"	
 textButtonLabelCfgDonLimMlPerKgSetting	"#![BeginSeg 2]毫升/公斤#![EndSeg 2]"	255 247 57	0x0112	185	310	100	45	14	1
 textButtonLabelCfgDonLimPlasmaMaxVolume	"#![BeginSeg 1]容量 (毫升)#![EndSeg 1]"	255 247 57	0x0112	185	310	100	50	14	1
 textButtonLabelCfgDonLimPlateletMaxVolume	"#![BeginSeg 1]容量 (毫升)#![EndSeg 1]"	255 247 57	0x0112	185	210	100	50	14	1
-textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
-textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
-textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]Volume for\nfemales (mL)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
-textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]Volume for\nmales (mL)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
+textButtonLabelCfgDonLimPlsFemaleDonor	"#![BeginSeg 2]女性容量\n(毫升)#![EndSeg 2]"	255 247 57	0x0112	166	310	135	45	14	1
+textButtonLabelCfgDonLimPlsMaleDonor	"#![BeginSeg 2]男性容量\n(毫升)#![EndSeg 2]"	255 247 57	0x0112	310	310	135	45	14	1
+textButtonLabelCfgDonLimPltFemaleDonor	"#![BeginSeg 2]女性容量\n(毫升)#![EndSeg 2]"	255 247 57	0x0112	166	210	135	45	14	1
+textButtonLabelCfgDonLimPltMaleDonor	"#![BeginSeg 2]男性容量\n(毫升)#![EndSeg 2]"	255 247 57	0x0112	310	210	135	45	14	1
 textButtonLabelCfgDonLimTbvSetting	"#![BeginSeg 2]總血容量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	210	100	50	16	1
 textButtonLabelCfgDonLimTbvSettingJp	"#![BeginSeg 2]總血容量 (%)#![EndSeg 2]"	255 247 57	0x0112	185	105	100	45	14	1
 textButtonLabelCfgDonLimVolLargeBucketSetting	"#![BeginSeg 1]容量 (毫升)\n> 體重#![EndSeg 1]"	255 247 57	0x0112	481	105	100	50	16	1
@@ -653,6 +716,7 @@ textButtonLongPredScrollPrev	"#![BeginSeg 1]較優先#![EndSeg 1]"	255 247 57	0x
 textButtonLongResetMachine	"#![BeginSeg 1]重設機器#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	20	1
 textButtonLongRunSumm	"#![BeginSeg 1]摘要#![EndSeg 1]"	0 0 0	0x0111	0	0	640	0	18	1
 textButtonLongStartDraw	"#![BeginSeg 1]開始抽血#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
+textButtonOverrideBoxCancel	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxClose	"#![BeginSeg 1]關閉#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideBoxConfirm	"#![BeginSeg 1]確認#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonOverrideDefaultPasBagVol	"#![BeginSeg 1]添加液袋容量 (毫升)#![EndSeg 1]"	255 247 57	0x0111	497	158	120	80	16	1
@@ -660,11 +724,17 @@ textButtonPredConfCancel	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	
 textButtonPredConfConfirm	"#![BeginSeg 1]確認#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textButtonPredFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} 毫升/分鐘 #![EndSeg 1]"	255 247 57	0x0021	0	0	105	32	12	1
 textButtonSelectRef	"#![BeginSeg 1]REF#![EndSeg 1]"	255 247 57	0x0110	5	10	155	40	20	1
+textButtonSkip	"#![BeginSeg 1]跳過#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	18	1
+textButtonTimerCancel	"#![BeginSeg 1]取消#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerClose	"#![BeginSeg 1]關閉#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerContinue	"#![BeginSeg 1]繼續#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerOk	"#![BeginSeg 1]確定#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerPause	"#![BeginSeg 1]暫停#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerRestart	"#![BeginSeg 1]重新啟動#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textButtonTimerResume	"#![BeginSeg 1]恢復#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStart	"#![BeginSeg 1]開始#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
 textButtonTimerStop	"#![BeginSeg 1]停止#![EndSeg 1]"	255 247 57	0x0111	0	0	90	32	14	1
+textCategoryIconText	""	49 8 123	0x0111	12	45	50	50	10	0
 textCfgColLabelCfgDonLimMode	"#![BeginSeg 2]模式#![EndSeg 2]"	255 247 57	0x0112	37	105	100	50	16	1
 textCfgColLabelCfgPltCollectConc	"#![BeginSeg 1]收集\n濃度\n(x10  /µL)#![EndSeg 1]"	255 247 57	0x0112	452	105	120	60	16	1
 textCfgColLabelCfgPltCollectConcExponent	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	514	148	10	15	8	0
@@ -736,16 +806,16 @@ textCfgProdNameAmapPltSelection	"#![BeginSeg 1]血小板#![EndSeg 1]"	255 247 57
 textCfgProdNameAmapRbcRasSelection	"#![BeginSeg 1]紅血球#![EndSeg 1]"	255 247 57	0x0111	0	0	100	48	14	1
 textCfgProdNameAmapRbcSelection	"#![BeginSeg 1]紅血球#![EndSeg 1]"	255 247 57	0x0111	0	0	100	48	14	1
 textCfgREFList	"#![BeginSeg 1]REF 清單#![EndSeg 1]"	255 247 57	0x0111	0	15	158	0	18	1
-textCfgREFListItem1	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem10	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem2	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem3	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem4	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem5	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem6	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem7	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem8	""	255 247 57	0x0111	0	0	100	0	16	0
-textCfgREFListItem9	""	255 247 57	0x0111	0	0	100	0	16	0
+textCfgREFListItem1	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem10	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem2	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem3	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem4	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem5	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem6	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem7	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem8	""	255 247 57	0x0111	0	0	100	0	16	1
+textCfgREFListItem9	""	255 247 57	0x0111	0	0	100	0	16	1
 textCfgRowLabelCfgPlt1	"#![BeginSeg 1]血小板 1#![EndSeg 1]"	255 247 57	0x0101	4	3	53	48	12	1
 textCfgRowLabelCfgPlt10	"#![BeginSeg 1]血小板 10#![EndSeg 1]"	255 247 57	0x0101	3	3	53	48	11	1
 textCfgRowLabelCfgPlt2	"#![BeginSeg 1]血小板 2#![EndSeg 1]"	255 247 57	0x0101	4	3	53	48	12	1
@@ -775,25 +845,26 @@ textCfgScreenLabelRbc	"#![BeginSeg 1]紅血球#![EndSeg 1]"	255 247 57	0x0111	0	
 textCfgScreenLabelRepFluid	"#![BeginSeg 1]置換液#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
 textCfgScreenLabelSoftOpt	"#![BeginSeg 1]啟用的功能#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textCfgScreenLabelVolLim	"#![BeginSeg 1]捐血量極限值#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	20	1
-textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	0
+textCfgSoftOptConfirmationCodeFormat	""	0 0 0	0x0011	346	305	280	50	14	1
 textCfgSoftOptConfirmationCodeLabel	"#![BeginSeg 1]功能確認代碼#![EndSeg 1]"	255 255 255	0x0011	346	285	280	25	14	1
-textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	0
+textCfgSoftOptCountryFormat	""	255 247 57	0x0001	356	260	280	25	14	1
 textCfgSoftOptCountryLabel	"#![BeginSeg 1]國家:#![EndSeg 1]"	255 255 255	0x0001	346	240	280	20	14	1
-textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	0
+textCfgSoftOptCustomerFormat	""	255 247 57	0x0001	356	215	280	25	14	1
 textCfgSoftOptCustomerLabel	"#![BeginSeg 1]客戶:#![EndSeg 1]"	255 255 255	0x0001	346	195	280	20	14	1
 textCfgSoftOptEmptyItem	""	0 0 0	0x0101	10	2	280	25	10	0
-textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	0
+textCfgSoftOptSerialNumberFormat	""	255 247 57	0x0001	356	130	280	25	14	1
 textCfgSoftOptSerialNumberLabel	"#![BeginSeg 1]序號:#![EndSeg 1]"	255 255 255	0x0001	346	110	280	20	14	1
-textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	0
+textCfgSoftOptSiteFormat	""	255 247 57	0x0001	356	170	280	25	14	1
 textCfgSoftOptSiteLabel	"#![BeginSeg 1]地點:#![EndSeg 1]"	255 255 255	0x0001	346	155	280	20	14	1
 textCftPltAmapFinalConcExpColLbl	"#![BeginSeg 1]3#![EndSeg 1]"	255 247 57	0x0100	330	108	10	15	8	1
 textCftPltAmapMaxYieldColLbl	"#![BeginSeg 1]最大產量\n (x10   )#![EndSeg 1]"	255 247 57	0x0112	180	65	120	60	14	1
 textCftPltAmapMinYieldExpColLbl	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0100	160	108	10	15	8	1
 textCftPltMinYieldColLbl	"#![BeginSeg 1]最小產量\n (x10   )#![EndSeg 1]"	255 247 57	0x0112	90	65	120	60	14	1
 textCftPrdRangeColLbl	"#![BeginSeg 1]產品範圍#![EndSeg 1]"	255 247 57	0x0112	20	65	80	60	14	1
+textChamberClearingLimit	"#![BeginSeg 1]預測:收集室清除限制#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textComplementaryPlasmaAvailable	"#![BeginSeg 1]設定:由 PAS 取代血漿#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textConfigControlledBox	"#![BeginSeg 1]設定由管理應用程式控制\n#![EndSeg 1]"	255 247 57	0x0110	5	35	202	200	18	1
-textConfigControlledBoxConfirm	"#![BeginSeg 1]確認清除從管理應用程式\n收到的設定#![EndSeg 1]"	255 247 57	0x0110	16	30	190	200	18	1
+textConfigControlledBox	"#![BeginSeg 1]設定由應用程式控制#![EndSeg 1]"	255 247 57	0x0110	5	35	315	200	18	1
+textConfigControlledBoxConfirm	"#![BeginSeg 1]點觸「確認」清除設定#![EndSeg 1]"	255 247 57	0x0110	16	30	315	200	18	1
 textConfigProcNumber	"#![BeginSeg 1]程序#!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	265	70	100	30	14	1
 textConfigProcNumberAmap	"#![BeginSeg 1]程序#!{dataItem1}#![EndSeg 1]"	255 255 0	0x0100	10	70	100	30	14	1
 textConfirmBodyCfgMachRefDeleteAll	"#![BeginSeg 1]移除所有的 REF 輸入項目#![EndSeg 1]"	255 247 57	0x0110	0	45	640	0	21	1
@@ -805,18 +876,22 @@ textConfirmBodySalineConnect	"#![BeginSeg 1]確認連接的是生理食鹽水袋
 textConfirmPasBarcode	"#![BeginSeg 1]掃描 PAS 袋上的\nNDC 條碼#![EndSeg 1]"	255 247 57	0x0111	83	0	315	100	18	1
 textConfirmPasBarcodeInvalid	"#![BeginSeg 1]掃描的條碼無效\n\n#![EndSeg 1]#![BeginSeg 2]掃描 PAS 袋上的 NDC 條碼#![EndSeg 2]"	255 247 57	0x0110	40	40	315	100	18	1
 textCpsHighSpeedLogEnable	"#![BeginSeg 1]RD: High Speed Logging, CPS#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textCustomCategoryIcon	""	255 247 57	0x0111	9	40	50	50	20	0
 textDashesRs1AvgInletFlow	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	345	123	90	14	0
 textDashesRs1AvgInletFlowAlt	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	185	302	123	90	14	0
 textDashesRs1PltPostCount	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0111	180	216	130	90	14	0
 textDashesRsPltPostCountJP	"#![BeginSeg 1]- -#![EndSeg 1]"	255 255 255	0x0121	179	178	80	35	14	0
+textDataCfrBloodType	"#![BeginSeg 1]Blood type: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderFemale	"#![BeginSeg 1]Female#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataCfrGenderMale	"#![BeginSeg 1]Male#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataDatRs1RinsebackIncomplete	"#![BeginSeg 1]未完成#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	16	1
 textDataDatRs1RinsebackPlasma	"#![BeginSeg 1]血漿#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackSaline	"#![BeginSeg 1]鹽水#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
 textDataDatRs1RinsebackStandard	"#![BeginSeg 1]標準#![EndSeg 1]"	255 255 255	0x0111	505	302	125	90	14	1
-textDataEmptyFormatRsAcUsedJP	""	255 255 255	0x0121	202	258	50	35	14	0
-textDataEmptyFormatRsAvgInletFlowJP	""	255 255 255	0x0121	180	218	50	35	14	0
-textDataEmptyFormatRsDurationOfRunJP	""	255 255 255	0x0121	202	138	50	35	14	0
-textDataEmptyFormatRsTbvProcessedJP	""	255 255 255	0x0121	202	178	50	35	14	0
+textDataEmptyFormatRsAcUsedJP	""	255 255 255	0x0121	202	258	50	35	14	1
+textDataEmptyFormatRsAvgInletFlowJP	""	255 255 255	0x0121	180	218	50	35	14	1
+textDataEmptyFormatRsDurationOfRunJP	""	255 255 255	0x0121	202	138	50	35	14	1
+textDataEmptyFormatRsTbvProcessedJP	""	255 255 255	0x0121	202	178	50	35	14	1
 textDataInitDonDlTbv	"#![BeginSeg 1]0 毫升#![EndSeg 1]"	255 255 255	0x0111	416	279	171	24	18	1
 textDataLabelAasRunsumm	"#![BeginSeg 1]手動添加液容量#![EndSeg 1]"	239 239 239	0x0111	230	270	395	35	20	1
 textDataLabelDonDlBloodType	"#![BeginSeg 1]血型#![EndSeg 1]"	255 255 255	0x0121	242	313	164	24	20	1
@@ -833,13 +908,13 @@ textDataLabelPasVolRemaining	"#![BeginSeg 1]尚需添加的 PAS 量:#![EndSeg 1]
 textDataLabelPredConfAcRequired	"#![BeginSeg 1]需要的抗凝血劑量#![EndSeg 1]"	74 74 74	0x0101	20	247	200	24	17	1
 textDataLabelPredConfDuration	"#![BeginSeg 1]持續時間#![EndSeg 1]"	74 74 74	0x0101	20	269	200	24	17	1
 textDataLabelPredConfFlow	"#![BeginSeg 1]抽血流速#![EndSeg 1]"	74 74 74	0x0101	20	313	200	24	17	1
-textDataLabelPredConfPasVol	"#![BeginSeg 1]PAS 量#![EndSeg 1]"	74 74 74	0x0101	20	119	200	24	14	1
+textDataLabelPredConfPasVol	"#![BeginSeg 1]PAS 量#![EndSeg 1]"	74 74 74	0x0101	20	119	200	24	17	1
 textDataLabelPredConfPlasVol	"#![BeginSeg 1]血漿收集量#![EndSeg 1]"	74 74 74	0x0101	20	163	200	24	17	1
-textDataLabelPredConfPltTotalVol	"#![BeginSeg 1]血小板產品總容量#![EndSeg 1]"	74 74 74	0x0101	20	141	240	24	14	1
+textDataLabelPredConfPltTotalVol	"#![BeginSeg 1]血小板產品總容量#![EndSeg 1]"	74 74 74	0x0101	20	141	240	24	17	1
 textDataLabelPredConfPltVol	"#![BeginSeg 1]血小板收集量#![EndSeg 1]"	74 74 74	0x0101	20	97	200	24	17	1
 textDataLabelPredConfPltYield	"#![BeginSeg 1]血小板產量#![EndSeg 1]"	74 74 74	0x0101	20	75	200	24	17	1
-textDataLabelPredConfPostPlt	"#![BeginSeg 1]收集後血小板計數#![EndSeg 1]"	74 74 74	0x0101	20	335	200	24	14	1
-textDataLabelPredConfRasVol	"#![BeginSeg 1]紅血球添加液容量#![EndSeg 1]"	74 74 74	0x0101	20	207	240	24	14	1
+textDataLabelPredConfPostPlt	"#![BeginSeg 1]收集後血小板計數#![EndSeg 1]"	74 74 74	0x0101	20	335	200	24	17	1
+textDataLabelPredConfRasVol	"#![BeginSeg 1]紅血球添加液容量#![EndSeg 1]"	74 74 74	0x0101	20	207	240	24	17	1
 textDataLabelPredConfRbcVol	"#![BeginSeg 1]紅血球收集量#![EndSeg 1]"	74 74 74	0x0101	20	185	200	24	17	1
 textDataLabelPredConfTbvProcessed	"#![BeginSeg 1]處理的血量#![EndSeg 1]"	74 74 74	0x0101	20	291	200	24	17	1
 textDataLabelRas1Offline	"#![BeginSeg 1]紅血球產品 1#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	17	1
@@ -857,10 +932,10 @@ textDataLabelRs1PlasRedidualLoss	"#![BeginSeg 1]血漿耗損量#![EndSeg 1]"	74 
 textDataLabelRs1PltPostCount	"#![BeginSeg 1]收集後血小板計數#![EndSeg 1]"	74 74 74	0x0101	10	216	175	90	17	1
 textDataLabelRs1PostHct	"#![BeginSeg 1]收集後血比容#![EndSeg 1]"	74 74 74	0x0101	330	216	175	90	17	1
 textDataLabelRs1PostHgb	"#![BeginSeg 1]收集後血紅素#![EndSeg 1]"	74 74 74	0x0101	330	216	175	90	17	1
-textDataLabelRs1PostHgbJP	"#![BeginSeg 1]收集後血紅素#![EndSeg 1]"	74 74 74	0x0101	10	218	175	35	14	1
+textDataLabelRs1PostHgbJP	"#![BeginSeg 1]收集後血紅素#![EndSeg 1]"	74 74 74	0x0101	10	218	175	35	17	1
 textDataLabelRs1PrbcResidualLoss	"#![BeginSeg 1]紅血球濃厚液耗損量#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	17	1
 textDataLabelRs1SalineUsed	"#![BeginSeg 1]輸給捐血者的生理食鹽水#![EndSeg 1]"	74 74 74	0x0101	330	259	175	90	17	1
-textDataLabelRs1StandardRinseback	"#![BeginSeg 1]回沖#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	14	1
+textDataLabelRs1StandardRinseback	"#![BeginSeg 1]回沖#![EndSeg 1]"	74 74 74	0x0101	330	302	175	90	17	1
 textDataLabelRs1TbvProcessed	"#![BeginSeg 1]處理的血量#![EndSeg 1]"	74 74 74	0x0101	10	259	175	90	17	1
 textDataLabelRs2PasVol	"#![BeginSeg 1]添加液容量#![EndSeg 1]"	74 74 74	0x0101	95	218	280	23	17	1
 textDataLabelRs2PlasAc	"#![BeginSeg 1]血漿中的抗凝血劑容量#![EndSeg 1]"	74 74 74	0x0101	95	294	280	23	17	1
@@ -905,7 +980,15 @@ textDataRunProcEstRbc	"#![BeginSeg 1]#!{dataItem1} 毫升#![EndSeg 1]"	255 255 2
 textDataUnitsAdjustTime	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]分鐘#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	19	1
 textDataUnitsCfr24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textDataUnitsCfrAm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCfrCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]cm#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]ft#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrHgb	"#![BeginSeg 1]g/dL#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrInches	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]in#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrKg	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]kg#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrLbs	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]lbs#![EndSeg 2]"	255 247 57	0x0111	0	0	640	0	14	0
+textDataUnitsCfrPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsCfrPm	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} pm#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textDataUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textDataUnitsDonDlCm	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]公分#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlFeet	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]英呎#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
 textDataUnitsDonDlHct	"#![BeginSeg 1]%#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	0
@@ -984,12 +1067,12 @@ textDataUnitsRunProcEstPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#!
 textDataUnitsRunProcEstPltYieldExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0121	0	0	0	0	10	0
 textDisplayResidualVolumes	"#![BeginSeg 1]收集後:殘餘量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textDonorBMIOutOfRange	"#![BeginSeg 1]檢查身高與體重輸入值\n是否有誤#![EndSeg 1]"	255 247 57	0x0110	85	50	220	200	18	1
-textEORBarcode1	""	255 247 57	0x0101	110	140	400	50	14	0
+textEORBarcode1	"#![BeginSeg 1]#!{dataItem1} (#!{dataItem2})#![EndSeg 1]"	255 247 57	0x0101	72	22	400	25	9	0
 textEORBarcode2	""	255 247 57	0x0101	110	190	400	50	14	0
 textEORBarcode3	""	255 247 57	0x0101	110	240	400	50	14	0
 textEORBarcode4	""	255 247 57	0x0101	110	290	400	50	14	0
 textEORBarcode5	""	255 247 57	0x0101	110	340	400	50	14	0
-textEORBarcodeAlt1	""	255 247 57	0x0101	110	140	400	50	9	0
+textEORBarcodeAlt1	""	255 247 57	0x0101	115	140	350	50	9	0
 textEORBarcodeAlt2	""	255 247 57	0x0101	110	190	400	50	9	0
 textEORBarcodeAlt3	""	255 247 57	0x0101	110	240	400	50	9	0
 textEORBarcodeAlt4	""	255 247 57	0x0101	110	290	400	50	9	0
@@ -1015,12 +1098,13 @@ textEmptyFormatAlarmNameLiteral	""	239 239 239	0x0101	0	468	0	0	10	0
 textEmptyFormatAlarmNoBmpDisplay	""	165 8 0	0x0101	54	146	14	407	14	0
 textEmptyFormatAlarmNumberData	"警報號碼#!{dataItem1}"	165 8 0	0x0111	15	0	230	30	18	1
 textEmptyFormatAlarmNumberDataFull	"警報號碼#!{dataItem1}"	165 8 0	0x0111	15	0	460	30	18	1
-textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	15	145	455	300	18	0
+textEmptyFormatAlarmOperatorPrompt	""	255 247 57	0x0100	16	40	455	150	14	0
 textEmptyFormatAlarmVersionLocation	""	255 247 57	0x0101	10	419	465	12	10	0
 textEmptyFormatBarcodeScan	""	255 247 57	0x0101	77	132	390	31	14	0
 textEmptyFormatBarcodeScanAlt	""	255 247 57	0x0101	77	132	390	31	10	0
 textEmptyFormatBarcodeScanBottom	""	255 247 57	0x0101	77	380	390	31	14	0
 textEmptyFormatBarcodeScanBottomAlt	""	255 247 57	0x0101	77	380	390	31	10	0
+textEmptyFormatBarcodeTimeStamp	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 247 57	0x0112	400	20	86	15	14	1
 textEmptyFormatBloodTypeButton12Pt	""	255 255 255	0x0111	0	0	100	48	12	0
 textEmptyFormatBloodTypeButton14Pt	""	255 255 255	0x0111	0	0	100	48	14	0
 textEmptyFormatButtonCfgLang	""	255 247 57	0x0111	0	0	0	0	14	0
@@ -1060,8 +1144,8 @@ textEmptyFormatNewPredCurrPltVolInit	"#![BeginSeg 1]#!{dataItem1} 毫升#![EndSe
 textEmptyFormatNewPredProdPcxInit	""	255 255 255	0x0100	330	10	59	19	14	0
 textEmptyFormatNewPredProdPlasInit	"#![BeginSeg 1]#!{dataItem1} 毫升#![EndSeg 1]"	255 255 255	0x0120	277	10	100	19	14	1
 textEmptyFormatNewPredProdPltInit	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0120	473	10	120	19	14	1
-textEmptyFormatOfflineVolumeDataLabelRow1	""	74 74 74	0x0101	240	305	230	32	14	0
-textEmptyFormatOfflineVolumeDataLabelRow2	""	74 74 74	0x0101	240	338	230	32	14	0
+textEmptyFormatOfflineVolumeDataLabelRow1	""	74 74 74	0x0101	240	305	230	32	14	1
+textEmptyFormatOfflineVolumeDataLabelRow2	""	74 74 74	0x0101	240	338	230	32	14	1
 textEmptyFormatOfflineVolumeRow1	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatOfflineVolumeRow2	""	255 255 255	0x0121	480	338	60	32	14	0
 textEmptyFormatOperatorPromptButton1	""	255 247 57	0x0111	0	0	640	0	14	0
@@ -1073,8 +1157,8 @@ textEmptyFormatPasEmptyData	""	0 0 0	0x0120	15	390	35	25	16	0
 textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPlasmaRinsebackVol	"#![BeginSeg 1](+#!{dataItem1})#![EndSeg 1]"	0 0 0	0x0111	0	0	34	30	12	0
 textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
-textEmptyFormatPredConfPostPltDataUnit	"#![BeginSeg 1]#!{dataItem} x 1000/µl #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	14	1
-textEmptyFormatPredConfPostPltDataUnitBold	"#![BeginSeg 1]#!{dataItem} x 1000/µl #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	20	1
+textEmptyFormatPredConfPostPltDataUnit	"#![BeginSeg 1]#!{dataItem} x 1000/µL #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	14	1
+textEmptyFormatPredConfPostPltDataUnitBold	"#![BeginSeg 1]#!{dataItem} x 1000/µL #![EndSeg 1]"	74 74 74	0x0101	260	335	120	24	20	1
 textEmptyFormatPredConfirmAcDataUnit	"#![BeginSeg 1]#!{dataItem} 毫升#![EndSeg 1]"	74 74 74	0x0101	260	247	120	24	14	1
 textEmptyFormatPredConfirmFlowDataUnit	"#![BeginSeg 1]#!{dataItem} 毫升/分鐘#![EndSeg 1]"	74 74 74	0x0101	260	313	120	24	14	1
 textEmptyFormatPredConfirmPasVolDataUnit	"#![BeginSeg 1]#!{dataItem} 毫升#![EndSeg 1]"	74 74 74	0x0101	260	119	120	24	14	1
@@ -1158,21 +1242,21 @@ textEmptyFormatRs2DatRbcAcSplitLayout	""	255 255 255	0x0121	370	246	60	23	14	0
 textEmptyFormatRs2DatRbcRasSplitLayout	""	255 255 255	0x0121	370	276	60	23	14	0
 textEmptyFormatRs2DatRbcVol	""	255 255 255	0x0121	370	338	60	23	14	0
 textEmptyFormatRs2DatRbcVolSplitLayout	""	255 255 255	0x0121	370	216	60	23	14	0
-textEmptyFormatRsDatAcToDonorJP	""	255 255 255	0x0121	206	258	50	35	14	0
-textEmptyFormatRsDatEndOfRunTimeJP	""	255 255 255	0x0121	203	138	50	35	14	0
-textEmptyFormatRsDatEndOfRunTimeJP24	""	255 255 255	0x0121	215	138	50	35	14	0
-textEmptyFormatRsDatPasVolJP	""	255 255 255	0x0121	522	367	50	35	14	0
-textEmptyFormatRsDatPlsAcJP	""	255 255 255	0x0121	522	178	50	35	14	0
-textEmptyFormatRsDatPlsVolJP	""	255 255 255	0x0121	522	138	50	35	14	0
-textEmptyFormatRsDatPltAcJP	""	255 255 255	0x0121	522	327	50	35	14	0
-textEmptyFormatRsDatPltVolJP	""	255 255 255	0x0121	522	247	50	35	14	0
-textEmptyFormatRsDatPltYieldJP	""	255 255 255	0x0121	522	287	50	35	14	0
-textEmptyFormatRsDatPostHctJP	""	255 255 255	0x0121	206	218	50	35	14	0
-textEmptyFormatRsDatPostPltCountJP	""	255 255 255	0x0121	179	178	50	35	14	0
-textEmptyFormatRsDatRasVolJP	""	255 255 255	0x0121	522	218	50	35	14	0
-textEmptyFormatRsDatRbcVolJP	""	255 255 255	0x0121	522	138	50	35	14	0
-textEmptyFormatRsDatSalineUsedJP	""	255 255 255	0x0121	206	298	50	35	14	0
-textEmptyFormatRsRbcAcJP	""	255 255 255	0x0121	522	178	50	35	14	0
+textEmptyFormatRsDatAcToDonorJP	""	255 255 255	0x0121	206	258	50	35	14	1
+textEmptyFormatRsDatEndOfRunTimeJP	""	255 255 255	0x0121	203	138	50	35	14	1
+textEmptyFormatRsDatEndOfRunTimeJP24	""	255 255 255	0x0121	215	138	50	35	14	1
+textEmptyFormatRsDatPasVolJP	""	255 255 255	0x0121	522	367	50	35	14	1
+textEmptyFormatRsDatPlsAcJP	""	255 255 255	0x0121	522	178	50	35	14	1
+textEmptyFormatRsDatPlsVolJP	""	255 255 255	0x0121	522	138	50	35	14	1
+textEmptyFormatRsDatPltAcJP	""	255 255 255	0x0121	522	327	50	35	14	1
+textEmptyFormatRsDatPltVolJP	""	255 255 255	0x0121	522	247	50	35	14	1
+textEmptyFormatRsDatPltYieldJP	""	255 255 255	0x0121	522	287	50	35	14	1
+textEmptyFormatRsDatPostHctJP	""	255 255 255	0x0121	206	218	50	35	14	1
+textEmptyFormatRsDatPostPltCountJP	""	255 255 255	0x0121	179	178	50	35	14	1
+textEmptyFormatRsDatRasVolJP	""	255 255 255	0x0121	522	218	50	35	14	1
+textEmptyFormatRsDatRbcVolJP	""	255 255 255	0x0121	522	138	50	35	14	1
+textEmptyFormatRsDatSalineUsedJP	""	255 255 255	0x0121	206	298	50	35	14	1
+textEmptyFormatRsRbcAcJP	""	255 255 255	0x0121	522	178	50	35	14	1
 textEmptyFormatRunDonationTimeLeft24Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
 textEmptyFormatRunDonationTimeLeftAm12Hr	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2} am#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
 textEmptyFormatRunDonationTimeLeftMinutes	"#![BeginSeg 1]#!{dataItem1} 分鐘#![EndSeg 1]"	239 239 239	0x0101	314	144	86	15	14	1
@@ -1198,8 +1282,8 @@ textEmptyFormatSetIdRef	""	255 247 57	0x0102	400	310	97	48	18	0
 textEmptyFormatSetListboxInit	""	255 247 57	0x0111	0	0	640	0	12	0
 textEmptyFormatSimScreenshotInfo	""	0 0 0	0x0121	505	468	130	12	10	0
 textEmptyFormatSimScreenshotName	""	0 0 0	0x0101	5	468	460	12	10	0
-textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	640	25	18	0
-textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
+textEmptyFormatStatOperatorPrompt	""	255 247 57	0x0111	0	0	477	32	16	0
+textEnableScreenshotButton	"#![BeginSeg 1]RD: Screenshot Capture#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textEnableVistaCfr11PinLogging	"#![BeginSeg 1]RD: Vista Tracking#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
 textExtraPlasmaNoAc	"#![BeginSeg 1]預測:不含抗凝血劑的額外血漿量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textFormatNewPredCurrFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} 毫升/分鐘#![EndSeg 1]"	255 247 57	0x0101	510	384	150	23	15	1
@@ -1222,9 +1306,10 @@ textFormatPredPrevFlowRateUnit	"#![BeginSeg 1]#!{dataItem1} 毫升/分鐘#![EndS
 textFormatPredPrevPltExp	"#![BeginSeg 1]11#![EndSeg 1]"	74 74 74	0x0101	107	190	13	11	8	0
 textFormatPredPrevTimeUnit	"#![BeginSeg 1]#!{dataItem1} 分鐘#![EndSeg 1]"	74 74 74	0x0101	520	181	150	19	14	1
 textGenericDataFomat	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	60	36	14	0
+textInfoEventLookupFail	"#![BeginSeg 1]#!{dataItem1}:失敗#![EndSeg 1]"	255 247 57	0x0100	16	40	455	150	14	1
 textJapanFeatures	"#![BeginSeg 1]日本專用功能#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textJapanPASGraphics	"#![BeginSeg 1]管路組:日本 PAS 圖形#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
-textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	0
+textKeyboardEmptyFormatInit	""	0 0 0	0x0101	20	10	470	85	18	1
 textKeypadUnitsCm	"#![BeginSeg 1]#!{dataItem1} 公分#![EndSeg 1]"	0 0 0	0x0121	56	10	109	32	18	1
 textKeypadUnitsCrit	"#![BeginSeg 1]%#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	18	0
 textKeypadUnitsExponentInit	"#![BeginSeg 1]0#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	12	0
@@ -1236,7 +1321,7 @@ textKeypadUnitsPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	0 0 0	0x0121	0	0	0	
 textKeypadUnitsTime	"#![BeginSeg 1]分鐘#![EndSeg 1]"	0 0 0	0x0121	0	0	0	0	20	1
 textLRSUnscheduledPurgeBody	"#![BeginSeg 1]系統偵測到可能的白血球汙染，正在清除 LRS 收集室。\n\n#![EndSeg 1]#![BeginSeg 2]不需要進行衝紅復原。\n\n#![EndSeg 2]#![BeginSeg 3]確保血小板袋仍然懸掛在點滴架。\n\n#![EndSeg 3]#![BeginSeg 4]完成時將恢復血小板的收集工作。\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	18	1
 textLRSscheduledPurgeBody	"#![BeginSeg 1]系統正在依照預定時間表清除\nLRS 收集室。\n\n#![EndSeg 1]#![BeginSeg 2]不需要進行衝紅復原。\n\n#![EndSeg 2]#![BeginSeg 3]確保血小板袋仍然懸掛在點滴架。\n\n#![EndSeg 3]#![BeginSeg 4]完成時將恢復血小板的收集工作。\n\n#![EndSeg 4]"	0 0 0	0x0100	15	120	227	300	16	1
-textLabelCfgAppServer	"#![BeginSeg 1]管理應用程式連接#![EndSeg 1]"	255 255 255	0x0101	55	120	120	20	14	1
+textLabelCfgAppServer	"#![BeginSeg 1]應用程式連接#![EndSeg 1]"	255 255 255	0x0101	55	120	120	20	14	1
 textLabelCfgAppServerIpAddress	"#![BeginSeg 1]伺服器或 IP 位址#![EndSeg 1]"	255 255 255	0x0121	210	160	150	20	14	1
 textLabelCfgAppServerOff	"#![BeginSeg 1]關#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
 textLabelCfgAppServerOn	"#![BeginSeg 1]開#![EndSeg 1]"	255 255 255	0x0111	0	0	60	20	14	1
@@ -1395,7 +1480,7 @@ textMiscBloodTypeONeg	"#![BeginSeg 1]O-#![EndSeg 1]"	255 255 255	0x0111	416	313	
 textMiscBloodTypeOPos	"#![BeginSeg 1]O+#![EndSeg 1]"	255 255 255	0x0111	416	313	171	24	18	0
 textMiscBreakPasLineBreakFrang	"#![BeginSeg 1]2: #![EndSeg 1]#![BeginSeg 2]折斷袋子的封折管（若有）#![EndSeg 2]"	255 247 57	0x0112	177	105	150	45	16	1
 textMiscBreakPasLineFrang	"#![BeginSeg 1]3: #![EndSeg 1]#![BeginSeg 2]懸掛袋子，打開\n夾鉗#![EndSeg 2]"	255 247 57	0x0112	336	105	150	45	16	1
-textMiscCfgAdminNumDigits	"#![BeginSeg 1]管路組代碼:\n#![EndSeg 1]#![BeginSeg 2]8 至 10 位數#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1
+textMiscCfgAdminNumDigits	"#![BeginSeg 1]管路組代碼:\n#![EndSeg 1]#![BeginSeg 2]6 至 10 位數#![EndSeg 2]"	255 247 57	0x0101	10	25	620	75	16	1
 textMiscCfgAutoProcPasLabel	"#![BeginSeg 1]血小板程序#![EndSeg 1]"	255 247 57	0x0101	68	110	300	25	20	1
 textMiscCfgAutoProcRasLabel	"#![BeginSeg 1]紅血球程序#![EndSeg 1]"	255 247 57	0x0101	395	110	300	25	20	1
 textMiscCfgMachBarcode	"#![BeginSeg 1]條碼#![EndSeg 1]"	255 247 57	0x0111	270	235	100	45	16	1
@@ -1407,7 +1492,7 @@ textMiscCfgMaxValue	"#![BeginSeg 1]最大值 ＝ #![EndSeg 1]"	255 247 57	0x0101
 textMiscCfgMinValue	"#![BeginSeg 1]最小值 ＝ #![EndSeg 1]"	255 247 57	0x0101	10	50	620	17	15	1
 textMiscCfgNoVolLimSelected	"#![BeginSeg 1]選擇一種捐血量極限值以繼續#![EndSeg 1]"	255 247 57	0x0111	0	50	640	0	20	1
 textMiscCfgPasVolInit	"#![BeginSeg 1]--#![EndSeg 1]"	255 247 57	0x0111	0	0	50	20	14	0
-textMiscCfgPcxIndicator	""	255 247 57	0x0102	4	3	620	25	10	0
+textMiscCfgPcxIndicator	""	255 247 57	0x0102	4	3	620	25	10	1
 textMiscCfgPlt10Indicator	"#![BeginSeg 1]血小板 10#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
 textMiscCfgPlt1Indicator	"#![BeginSeg 1]血小板 1#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
 textMiscCfgPlt2Indicator	"#![BeginSeg 1]血小板 2#![EndSeg 1]"	255 247 57	0x0101	10	25	620	25	15	1
@@ -1431,24 +1516,32 @@ textMiscCfgSplitRangeBottomMin	"#![BeginSeg 1]最小值 ＝ #![EndSeg 1]"	255 24
 textMiscCfgSplitRangeTopLabel	"#![BeginSeg 1]雙份產品範圍#![EndSeg 1]"	255 247 57	0x0101	200	46	200	17	15	1
 textMiscCfgSplitRangeTopMax	"#![BeginSeg 1]最大值 ＝ #![EndSeg 1]"	255 247 57	0x0101	200	80	200	17	15	1
 textMiscCfgSplitRangeTopMin	"#![BeginSeg 1]最小值 ＝ #![EndSeg 1]"	255 247 57	0x0101	200	63	200	17	15	1
+textMiscCfrActionAcReactionDown	"#![BeginSeg 1]AC reaction down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionAcReactionUp	"#![BeginSeg 1]AC reaction up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionAdvisory	"#![BeginSeg 1]建議已接收#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAirblock	"#![BeginSeg 1]空氣阻塞復原已執行#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlarm	"#![BeginSeg 1]警報已接收#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionAlert	"#![BeginSeg 1]警示已接收#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesModified	"#![BeginSeg 1]程序條碼已修改#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionBarcodesReviewed	"#![BeginSeg 1]程序條碼已審查#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionClumpingDown	"#![BeginSeg 1]Clumping down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionClumpingUp	"#![BeginSeg 1]Clumping up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionCollectionEnded	"#![BeginSeg 1]收集已結束#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
-textMiscCfrActionConfigCleared	"#![BeginSeg 1]管理應用程式設定已清除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionConfigCleared	"#![BeginSeg 1]應用程式設定已清除#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionConfigModified	"#![BeginSeg 1]設定已修改#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConfirmed	"#![BeginSeg 1]捐血者確認#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorConnected	"#![BeginSeg 1]捐血者已連接#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionDonorInfoChange	"#![BeginSeg 1]捐血者資訊已變更#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionDrawDown	"#![BeginSeg 1]Draw flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionDrawUp	"#![BeginSeg 1]Draw flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionEORSummaryReviewed	"#![BeginSeg 1]程序摘要已審查#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionFlowRate	"#![BeginSeg 1]流速已輸入#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionLabelReviewed	"#![BeginSeg 1]產品確認已審查#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionNewProcedureSelected	"#![BeginSeg 1]程序已選取#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	16	1
 textMiscCfrActionProcAdjustment	"#![BeginSeg 1]程序調整#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionProductBagsSealed	"#![BeginSeg 1]產品袋已密封#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrActionReturnDown	"#![BeginSeg 1]Return flow down#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrActionReturnUp	"#![BeginSeg 1]Return flow up#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrActionRinsebackInitiated	"#![BeginSeg 1]回沖已啟動#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSalineBolus	"#![BeginSeg 1]已輸送大量生理食鹽水#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionSolutionAborted	"#![BeginSeg 1]添加溶液已中止#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
@@ -1458,7 +1551,15 @@ textMiscCfrActionTubingAction	"#![BeginSeg 1]管路組行動已完成#![EndSeg 1
 textMiscCfrActionTubingSetLoaded	"#![BeginSeg 1]管路組已安裝#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionTubingSetUnloaded	"#![BeginSeg 1]管路組已卸載#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
 textMiscCfrActionVolumeConfirm	"#![BeginSeg 1]添加容量已確認#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	1
+textMiscCfrCommaDelim	"#![BeginSeg 1], #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoCrit	"#![BeginSeg 1]HCT: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoGender	"#![BeginSeg 1]Gender: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHeight	"#![BeginSeg 1]Height: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoHgb	"#![BeginSeg 1]Hgb: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoPltPrecount	"#![BeginSeg 1]Platelet precount: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
+textMiscCfrDonInfoWeight	"#![BeginSeg 1]Weight: #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrOpIdLabel	"#![BeginSeg 1]醫事技術人員 ID#![EndSeg 1]"	255 255 255	0x0101	70	110	0	0	21	1
+textMiscCfrTimeDelim	"#![BeginSeg 1]:#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscCfrTimeEventSeparator	"#![BeginSeg 1] - #![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	14	0
 textMiscChannelTest	"#![BeginSeg 1]測試期間請勿連接添加液#![EndSeg 1]"	255 247 57	0x0111	10	150	340	210	20	1
 textMiscClampBloodDiversionJp	"#![BeginSeg 1]關閉血液分流夾鉗#![EndSeg 1]"	255 247 57	0x0112	15	105	610	40	20	1
@@ -1567,7 +1668,7 @@ textMiscRunProcInitPltEstExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 255 255	0x0
 textMiscRunProcInitPltVolBtnYieldCurrentExponent	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0120	1	3	14	12	8	0
 textMiscRunProcPltCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0121	197	388	128	24	24	1
 textMiscRunProcPltEst	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 255 255	0x0121	197	209	128	24	24	1
-textMiscRunProcPltPcxLabel	""	255 255 255	0x0111	202	209	128	24	20	0
+textMiscRunProcPltPcxLabel	""	255 255 255	0x0111	202	209	128	24	20	1
 textMiscRunProcPltVolBtnVolCurrent	"#![BeginSeg 1]#!{dataItem1} 毫升#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
 textMiscRunProcPltVolBtnYieldCurrent	"#![BeginSeg 1]#!{dataItem1} x 10#![EndSeg 1]"	255 247 57	0x0111	3	3	111	26	22	1
 textMiscRunProcPressureLabelN	"#![BeginSeg 1]壓力#![EndSeg 1]"	239 239 239	0x0110	0	12	130	14	14	1
@@ -1607,20 +1708,22 @@ textMiscUnitsDonorInfoHematocrit	"#![BeginSeg 1]%#![EndSeg 1]"	239 239 239	0x011
 textMiscUnitsDonorInfoHemoglobin	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]g/dL#![EndSeg 2]"	239 239 239	0x0111	0	0	640	0	18	1
 textMiscUnitsDonorInfoPltPrecount	"#![BeginSeg 1]x1000#![EndSeg 1]"	239 239 239	0x0111	0	0	640	0	18	0
 textMiscUnitsDonorVitalsTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]毫升#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	18	1
+textMultiBarcodeCount	"#![BeginSeg 1]#!{dataItem1} 之 #!{dataItem2}#![EndSeg 1]"	255 247 57	0x0111	380	0	120	30	14	1
 textMultiTextListBoxBlankItem1	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem2	""	255 255 255	0x0111	20	0	640	0	19	0
 textMultiTextListBoxBlankItem3	""	255 255 255	0x0111	20	0	640	0	19	0
 textNewPredACinPlasmaVolumeValueCurr	"#![BeginSeg 1]#!{dataItem1} 毫升#![EndSeg 1]"	255 247 57	0x0121	200	387	100	35	14	1
 textNoNeedleLineClamp	"#![BeginSeg 1]管路組:無針管夾鉗#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPIRPreferred	"#![BeginSeg 1]預測:增強血小板庫存復原#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textPPCCollectTiming	"#![BeginSeg 1]預測:PPC 收集時機#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPasBagBarcodeScanFeature	"#![BeginSeg 1]運行:PAS 條碼確認#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textPlasmaDrainAlertBody	"#![BeginSeg 1]在血漿轉移期間系統尚未在下端液位感應器中偵測到液體。\n\n#![EndSeg 1]#![BeginSeg 2]－確認血漿管路沒有阻塞#![EndSeg 2]"	0 0 0	0x0100	15	120	227	300	18	1
-textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	0
-textPltConfigCollectCon2	""	255 255 0	0x0110	485	248	59	35	14	0
-textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	0
-textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	0
-textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	0
-textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	0
+textPltConfigCollectCon1	""	255 255 0	0x0110	485	183	59	35	14	1
+textPltConfigCollectCon2	""	255 255 0	0x0110	485	248	59	35	14	1
+textPltConfigCollectCon3	""	255 255 0	0x0110	485	314	59	35	14	1
+textPltConfigSolutionVol1	""	255 255 0	0x0110	565	183	59	35	14	1
+textPltConfigSolutionVol2	""	255 255 0	0x0110	565	248	59	35	14	1
+textPltConfigSolutionVol3	""	255 255 0	0x0110	565	314	59	35	14	1
 textPopupTimerTime	"#![BeginSeg 1]#!{dataItem1}:#!{dataItem2}#![EndSeg 1]"	255 255 255	0x0111	140	90	100	65	36	1
 textPostcountPlateletMobilizationAlgorithm	"#![BeginSeg 1]預測:血小板動員#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textProcConfirmPopup	"#![BeginSeg 1]預測:程序確認#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
@@ -1681,6 +1784,7 @@ textProdVerifReasonPlasmaRinsebackNotCompleted	"#![BeginSeg 1]血漿回沖沒有
 textProdVerifReasonPltConcAboveStorageRange	"#![BeginSeg 1]預測的濃度過高#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltConcBelowStorageRange	"#![BeginSeg 1]預測的濃度過低#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonPltContamDetected	"#![BeginSeg 1]偵測到可能的白血球汙染#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
+textProdVerifReasonPredictedVolmTooHigh	"#![BeginSeg 1]預測的容量過高#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	1
 textProdVerifReasonRbcDetectorError	"#![BeginSeg 1]紅血球偵測器校準錯誤#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonRbcSpillover	"#![BeginSeg 1]衝紅#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonRinsebackNotCompleted	"#![BeginSeg 1]回沖沒有完成#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
@@ -1689,23 +1793,24 @@ textProdVerifReasonSolutionAbortedByOperator	"#![BeginSeg 1]自動添加溶液�
 textProdVerifReasonTargetVolumesNotAchieved	"#![BeginSeg 1]未達到設定的容量#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	14	1
 textProdVerifReasonWbcNotValidated	"#![BeginSeg 1]Configured yield > 9.0#![EndSeg 1]"	255 255 255	0x0101	54	146	182	14	12	0
 textProgBarAddition	"#![BeginSeg 1]添加#![EndSeg 1]"	255 247 57	0x0101	308	50	0	0	18	1
-textProgBarAdditionBarcode	""	255 247 57	0x0101	356	10	0	0	14	0
+textProgBarAdditionBarcode	""	255 247 57	0x0101	356	10	0	0	14	1
 textProgBarDonate	"#![BeginSeg 1]捐血#![EndSeg 1]"	255 247 57	0x0101	228	50	0	0	18	1
-textProgBarDonateBarcode	""	255 247 57	0x0101	273	10	0	0	14	0
+textProgBarDonateBarcode	""	255 247 57	0x0101	273	10	0	0	14	1
 textProgBarDonorInfo	"#![BeginSeg 1]資訊#![EndSeg 1]"	255 247 57	0x0101	85	50	0	0	18	1
-textProgBarDonorInfoBarcode	""	255 247 57	0x0101	130	10	0	0	14	0
+textProgBarDonorInfoBarcode	""	255 247 57	0x0101	130	10	0	0	14	1
 textProgBarDonorPrep	"#![BeginSeg 1]準備#![EndSeg 1]"	255 247 57	0x0101	164	50	0	0	18	1
-textProgBarDonorPrepBarcode	""	255 247 57	0x0101	184	10	0	0	14	0
+textProgBarDonorPrepBarcode	""	255 247 57	0x0101	184	10	0	0	14	1
 textProgBarLoad	"#![BeginSeg 1]安裝#![EndSeg 1]"	255 247 57	0x0101	25	50	0	0	18	1
-textProgBarLoadBarcode	""	255 247 57	0x0101	70	10	0	0	14	0
+textProgBarLoadBarcode	""	255 247 57	0x0101	70	10	0	0	14	1
 textProgBarNoAdditionUnload	"#![BeginSeg 1]卸載#![EndSeg 1]"	255 247 57	0x0101	332	50	0	0	18	1
-textProgBarNoAdditionUnloadBarcode	""	255 247 57	0x0101	383	10	0	0	14	0
+textProgBarNoAdditionUnloadBarcode	""	255 247 57	0x0101	383	10	0	0	14	1
 textProgBarUnload	"#![BeginSeg 1]卸載#![EndSeg 1]"	255 247 57	0x0101	363	50	0	0	18	1
-textProgBarUnloadBarcode	""	255 247 57	0x0101	417	10	0	0	14	0
-textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	0
-textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	0
-textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	0
+textProgBarUnloadBarcode	""	255 247 57	0x0101	417	10	0	0	14	1
+textRBCConfigCollectVol1	""	255 255 0	0x0100	440	185	59	35	14	1
+textRBCConfigCollectVol2	""	255 255 0	0x0100	440	250	59	35	14	1
+textRBCConfigCollectVol3	""	255 255 0	0x0100	440	316	59	35	14	1
 textRunScreenPlateletVolumeToggle	"#![BeginSeg 1]運行:血小板量切換#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textSBoxBarcodeUnableDonorEligibility	"#![BeginSeg 1]無法確認捐血者資格#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textSelectBarcodeCategory	"#![BeginSeg 1]選擇條碼類別#![EndSeg 1]"	255 247 57	0x0111	100	10	300	50	20	1
 textSelectScreenDisplayPlateletVolume	"#![BeginSeg 1]預測:血小板產品容量#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textServiceModePeriodicLog	"#![BeginSeg 1]RD: Periodic Logging#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	0
@@ -1725,6 +1830,7 @@ textStatAasClampChannel	"#![BeginSeg 1]自動添加溶液#![EndSeg 1]"	255 255 2
 textStatAasRemoveDisp	"#![BeginSeg 1]移除管路組#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatAasSealDetach	"#![BeginSeg 1]密封並取下產品和添加液袋#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatAcPriming	"#![BeginSeg 1]預沖抗凝血劑...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
+textStatActionNotAllowed	"#![BeginSeg 1]行動不允許#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatAdjustingPltConc	"#![BeginSeg 1]調整血小板濃度...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatAlarm10MinPause	"#![BeginSeg 1]十分鐘暫停#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	21	1
 textStatAlarm10MinPauseFailure	"#![BeginSeg 1]十分鐘暫停#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	21	1
@@ -1822,16 +1928,17 @@ textStatAlarmUnloadingBagCassettePosition	"#![BeginSeg 1]卡匣卸載錯誤#![En
 textStatAlarmValveError	"#![BeginSeg 1]閥門錯誤#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	21	1
 textStatAlarmValveLedError	"#![BeginSeg 1]閥門感應器故障或機門感應器故障#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	21	1
 textStatAlarmVoltageFailure	"#![BeginSeg 1]電壓故障#![EndSeg 1]"	165 8 0	0x0101	0	0	182	14	21	1
-textStatAppTransferSuccessful	"#![BeginSeg 1]收到了管理應用程式資訊#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
-textStatAppTransferUnsuccessful	"#![BeginSeg 1]管理應用程式傳輸不成功#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferSuccessful	"#![BeginSeg 1]應用程序資訊已收到#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatAppTransferUnsuccessful	"#![BeginSeg 1]從應用程式傳輸不成功#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatApsLow	"#![BeginSeg 3]抽血壓力偏低#![EndSeg 3]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatAuthEvents	"#![BeginSeg 1]輸入醫事技術人員 ID 條碼#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
+textStatAuthEventsScan	"#![BeginSeg 1]掃描操作員 ID#![EndSeg 1]"	255 247 57	0x0111	22	20	355	115	18	1
 textStatAwaitingAp2Xmit	"#![BeginSeg 1]等候傳輸捐血者資訊...#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatBarcode2ManyScans	"#![BeginSeg 1]無法接受輸入，數值已經存在#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatBarcodeBadScan	"#![BeginSeg 1]讀取條碼時發生錯誤#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatBarcodeDeletionDisallowed	"#![BeginSeg 1]數值不可刪除#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatBarcodeMoveInput	"#![BeginSeg 1]識別條碼數值#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
-textStatBarcodeNotRecognized	"#![BeginSeg 1]條碼掃描無法識別#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatBarcodeNotRecognized	"#![BeginSeg 1]條碼無法識別#![EndSeg 1]"	255 247 57	0x0110	85	55	350	60	16	1
 textStatBarcodeOK	"#![BeginSeg 1]正確:#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatBarcodeReview	"#![BeginSeg 1]檢視數值#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatBarcodeRuleBroken	"#![BeginSeg 1]不正確:#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
@@ -1842,7 +1949,7 @@ textStatBloodPrimeInProgress	"#![BeginSeg 1]血液預沖進行中#![EndSeg 1]"	2
 textStatCfgMachBadBarcode	"#![BeginSeg 1]條碼與管路組 REF 不相符#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatCfgMachBadCatNum	"#![BeginSeg 1]REF 需有 5 或 6 位數#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachBadPair	"#![BeginSeg 1]輸入無效－請確認數字是否正確#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
-textStatCfgMachBadSetCode	"#![BeginSeg 1]管路組代碼需有 8 至 10 位數#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
+textStatCfgMachBadSetCode	"#![BeginSeg 1]管路組代碼需有 6 至 10 位數#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachEnterCatNum	"#![BeginSeg 1]輸入管路組 REF#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachEnterSetCode	"#![BeginSeg 1]輸入管路組代碼#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatCfgMachSuccess	"#![BeginSeg 1]REF 輸入成功#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
@@ -1888,6 +1995,7 @@ textStatPasEmpty	"#![BeginSeg 1]更換 PAS 袋#![EndSeg 1]"	255 247 57	0x0101	0	
 textStatPasPause	"#![BeginSeg 1]分別添加 PAS#![EndSeg 1]"	255 255 255	0x0111	0	0	100	0	21	1
 textStatProcListTransferUnsuccessful	"#![BeginSeg 1]程序清單傳輸不成功#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
 textStatRASEmptyWarnBarcodeAccepted	"#![BeginSeg 1]條碼被接受#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	18	1
+textStatREFNotAMatch	"#![BeginSeg 1]REF 與所選的程序不相符#![EndSeg 1]"	255 247 57	0x0111	85	30	350	60	16	1
 textStatRbc1Runsum	"#![BeginSeg 1]紅血球產品 1 的確認#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatRbc2Runsum	"#![BeginSeg 1]紅血球產品 2 的確認#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	21	1
 textStatRecoveryProcedure	"#![BeginSeg 1]復原程序進行中#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
@@ -1907,8 +2015,10 @@ textStatSetIdInstructions	"#![BeginSeg 1]選擇管路組 REF#![EndSeg 1]"	255 24
 textStatTubingSetBarcodeAccepted	"#![BeginSeg 1]條碼被接受#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
 textStatUnscheduledPurge	"#![BeginSeg 1]偵測到含有白血球，清除 LRS 收集室#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textStatValueOutOfRange	"#![BeginSeg 1]數值超出範圍#![EndSeg 1]"	255 247 57	0x0101	0	0	0	0	21	1
-textStatWaitingForVista	"#![BeginSeg 1]等候管理應用程式...#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
+textStatVistaDonorName	"#![BeginSeg 1]#!{donorNameFromVista}#![EndSeg 1]"	255 255 255	0x0111	0	0	640	0	18	1
+textStatWaitingForVista	"#![BeginSeg 1]等候應用程式…#![EndSeg 1]"	255 247 57	0x0111	0	0	640	0	21	1
 textTier1ConcentrationLimit	"#![BeginSeg 1]一級濃度限制#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
 textTitlePopupTimer	"#![BeginSeg 1]#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0111	0	0	400	32	18	0
 textTriplePpcFlag	"#![BeginSeg 1]收集後:PPC/PAS 白血球訊息#![EndSeg 1]"	0 0 0	0x0001	10	2	280	25	10	1
+textVerifyRuleBox	"#![BeginSeg 1]確認:#!{dataItem1}#![EndSeg 1]"	255 247 57	0x0110	16	30	200	200	18	1
 STRING_FILE_TABLE_END
