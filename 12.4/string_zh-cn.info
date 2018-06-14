@@ -102,7 +102,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans 2312"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"’…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xf5b3edf3"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0xc86e249c"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"中文"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"13"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -649,15 +649,15 @@ textDataLabelDonDlTbv	"#![BeginSeg 1]全血容量#![EndSeg 1]"	255 255 255	0x012
 textDataLabelDonDlWeight	"#![BeginSeg 1]体重#![EndSeg 1]"	255 255 255	0x0121	242	245	164	24	20	1
 textDataLabelPasOffline	"#![BeginSeg 1]血小板产品#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	17	1
 textDataLabelPasVolRemaining	"#![BeginSeg 1]要输送的剩余\n血小板添加液：#![EndSeg 1]"	165 8 0	0x0110	15	350	225	60	18	1
-textDataLabelPredConfAcRequired	"#![BeginSeg 1]需要的抗凝剂量#![EndSeg 1]"	255 247 57	0x0101	20	173	200	24	17	1
-textDataLabelPredConfDuration	"#![BeginSeg 1]持续时间#![EndSeg 1]"	255 247 57	0x0101	20	195	200	24	17	1
+textDataLabelPredConfAcRequired	"#![BeginSeg 1]需要的抗凝剂量#![EndSeg 1]"	255 247 57	0x0101	20	151	200	24	17	1
+textDataLabelPredConfDuration	"#![BeginSeg 1]持续时间#![EndSeg 1]"	255 247 57	0x0101	20	173	200	24	17	1
 textDataLabelPredConfFlow	"#![BeginSeg 1]抽血速率#![EndSeg 1]"	255 247 57	0x0101	20	151	200	24	17	1
 textDataLabelPredConfPlasVol	"#![BeginSeg 1]血浆量#![EndSeg 1]"	255 247 57	0x0101	20	129	200	24	17	1
 textDataLabelPredConfPltVol	"#![BeginSeg 1]血小板量#![EndSeg 1]"	255 247 57	0x0101	20	63	200	24	17	1
 textDataLabelPredConfPltYield	"#![BeginSeg 1]血小板产量#![EndSeg 1]"	255 247 57	0x0101	20	85	200	24	17	1
-textDataLabelPredConfPostPlt	"#![BeginSeg 1]采后血小板计数#![EndSeg 1]"	255 247 57	0x0101	20	239	200	24	14	1
+textDataLabelPredConfPostPlt	"#![BeginSeg 1]采后血小板计数#![EndSeg 1]"	255 247 57	0x0101	20	217	200	24	14	1
 textDataLabelPredConfRbcVol	"#![BeginSeg 1]红细胞量#![EndSeg 1]"	255 247 57	0x0101	20	107	200	24	17	1
-textDataLabelPredConfTbvProcessed	"#![BeginSeg 1]处理的血量#![EndSeg 1]"	255 247 57	0x0101	20	217	200	24	17	1
+textDataLabelPredConfTbvProcessed	"#![BeginSeg 1]处理的血量#![EndSeg 1]"	255 247 57	0x0101	20	195	200	24	17	1
 textDataLabelRas1Offline	"#![BeginSeg 1]红细胞产品 1#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	17	1
 textDataLabelRas2Offline	"#![BeginSeg 1]红细胞产品 2#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	17	1
 textDataLabelRasOffline	"#![BeginSeg 1]红细胞产品#![EndSeg 1]"	74 74 74	0x0101	240	305	230	32	17	1
@@ -719,16 +719,16 @@ textDataUnitsDonDlTbv	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]毫升#![EndSeg 
 textDataUnitsMl	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]毫升#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	22	1
 textDataUnitsPasOffline	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 255 255	0x0101	545	305	60	32	14	1
 textDataUnitsPasVolRemaining	"#![BeginSeg 1]毫升#![EndSeg 1]"	165 8 0	0x0100	130	390	113	25	16	1
-textDataUnitsPredConfAcRequired	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	173	60	24	14	1
-textDataUnitsPredConfDuration	"#![BeginSeg 1]分钟#![EndSeg 1]"	255 247 57	0x0101	245	195	60	24	14	1
+textDataUnitsPredConfAcRequired	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	151	60	24	14	1
+textDataUnitsPredConfDuration	"#![BeginSeg 1]分钟#![EndSeg 1]"	255 247 57	0x0101	245	173	60	24	14	1
 textDataUnitsPredConfFlow	"#![BeginSeg 1]毫升/分钟#![EndSeg 1]"	255 247 57	0x0101	245	151	60	24	12	1
 textDataUnitsPredConfPlasVol	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	129	60	24	14	1
 textDataUnitsPredConfPltVol	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	63	60	24	14	1
 textDataUnitsPredConfPltYieldExp	"#![BeginSeg 1]11#![EndSeg 1]"	255 247 57	0x0101	277	81	60	24	10	0
 textDataUnitsPredConfPltYieldX10	"#![BeginSeg 1]x 10#![EndSeg 1]"	255 247 57	0x0101	245	85	60	24	14	0
-textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x 1000/微升#![EndSeg 1]"	255 247 57	0x0101	245	239	80	24	12	1
+textDataUnitsPredConfPostPlt	"#![BeginSeg 1]x 1000/微升#![EndSeg 1]"	255 247 57	0x0101	245	217	80	24	12	1
 textDataUnitsPredConfRbcVol	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	107	60	24	14	1
-textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	217	60	24	14	1
+textDataUnitsPredConfTbvProcessed	"#![BeginSeg 1]毫升#![EndSeg 1]"	255 247 57	0x0101	245	195	60	24	14	1
 textDataUnitsPredDuration	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]分钟#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	22	1
 textDataUnitsPredFlowRate	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]毫升/分钟#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	12	1
 textDataUnitsPredPltYield	"#![BeginSeg 1] #![EndSeg 1]#![BeginSeg 2]x 10#![EndSeg 2]"	255 255 255	0x0111	0	0	640	0	24	0
@@ -823,15 +823,16 @@ textEmptyFormatOfflineRas2Data	""	255 255 255	0x0121	480	305	60	32	14	0
 textEmptyFormatPasEmptyData	""	165 8 0	0x0120	15	390	110	25	16	0
 textEmptyFormatPlasListboxVolInit	""	255 247 57	0x0121	0	0	0	0	10	0
 textEmptyFormatPltListboxYieldInit	""	255 247 57	0x0121	0	0	0	0	10	0
-textEmptyFormatPredConfPostPlt	""	255 247 57	0x0121	212	239	30	24	14	0
-textEmptyFormatPredConfirmAcData	""	255 247 57	0x0121	212	173	30	24	14	0
+textEmptyFormatPredConfPostPlt	""	255 247 57	0x0121	212	217	30	24	14	0
+textEmptyFormatPredConfirmAcData	""	255 247 57	0x0121	212	151	30	24	14	0
 textEmptyFormatPredConfirmFlowData	""	255 247 57	0x0121	212	151	30	24	14	0
 textEmptyFormatPredConfirmPlasVolData	""	255 247 57	0x0121	212	129	30	24	14	0
 textEmptyFormatPredConfirmPltVolData	""	255 247 57	0x0121	212	63	30	24	14	0
 textEmptyFormatPredConfirmPltYieldData	""	255 247 57	0x0121	212	85	30	24	14	0
 textEmptyFormatPredConfirmRbcVolData	""	255 247 57	0x0121	212	107	30	24	14	0
-textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	212	217	30	24	14	0
-textEmptyFormatPredConfirmTimeData	""	255 247 57	0x0121	212	195	30	24	14	0
+textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	195	217	30	24	14	0
+textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	195	217	30	24	14	0
+textEmptyFormatPredConfirmTimeData	""	255 247 57	0x0121	212	173	30	24	14	0
 textEmptyFormatPredCurrFlowRateInit	""	255 247 57	0x0121	490	246	54	23	16	0
 textEmptyFormatPredCurrFlowRateLabelInit	""	255 247 57	0x0101	546	246	64	23	12	0
 textEmptyFormatPredCurrPlasInit	""	255 247 57	0x0121	225	265	59	23	18	0
