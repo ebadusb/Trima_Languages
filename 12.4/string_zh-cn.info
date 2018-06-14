@@ -102,7 +102,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans 2312"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"’…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0xc86e249c"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x5f6f4f7e"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"中文"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"13"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -830,8 +830,7 @@ textEmptyFormatPredConfirmPlasVolData	""	255 247 57	0x0121	212	129	30	24	14	0
 textEmptyFormatPredConfirmPltVolData	""	255 247 57	0x0121	212	63	30	24	14	0
 textEmptyFormatPredConfirmPltYieldData	""	255 247 57	0x0121	212	85	30	24	14	0
 textEmptyFormatPredConfirmRbcVolData	""	255 247 57	0x0121	212	107	30	24	14	0
-textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	195	217	30	24	14	0
-textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	195	217	30	24	14	0
+textEmptyFormatPredConfirmTbvProcessedData	""	255 247 57	0x0121	212	195	30	24	14	0
 textEmptyFormatPredConfirmTimeData	""	255 247 57	0x0121	212	173	30	24	14	0
 textEmptyFormatPredCurrFlowRateInit	""	255 247 57	0x0121	490	246	54	23	16	0
 textEmptyFormatPredCurrFlowRateLabelInit	""	255 247 57	0x0101	546	246	64	23	12	0
