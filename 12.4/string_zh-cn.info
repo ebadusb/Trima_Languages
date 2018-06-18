@@ -102,7 +102,7 @@ TEXT_RBC_LABEL_COMP_PLS	"#![BeginSeg 1]RBC product#![EndSeg 1]"	239 239 239	0x01
 fontName	"Sans 2312"	0 0 0	0x0001	0	0	0	0	18	0
 forbiddenEndCharList	"（(「｢［[‘“・"	0 0 0	0x0000	520	110	380	20	10	0
 forbiddenStartCharList	"’…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="	0 0 0	0x0000	520	110	380	20	10	0
-languageCrc	"0x5f6f4f7e"	0 0 0	0x0001	0	0	0	0	18	0
+languageCrc	"0x4e0a90c6"	0 0 0	0x0001	0	0	0	0	18	0
 languageId	"中文"	255 255 255	0x0001	0	0	100	50	16	0
 languageIndex	"13"	0 0 0	0x0001	0	0	0	0	18	0
 languageWrappingAlgorithm	"CharBased"	0 0 0	0x0001	0	0	0	0	18	0
@@ -842,7 +842,7 @@ textEmptyFormatPredCurrPltVolInit	""	255 247 57	0x0121	35	290	45	23	14	0
 textEmptyFormatPredCurrPltVolLabelInit	""	255 247 57	0x0101	85	290	47	23	14	0
 textEmptyFormatPredCurrPltX10Init	""	255 247 57	0x0101	85	265	47	23	18	0
 textEmptyFormatPredCurrRbcInit	""	255 247 57	0x0121	330	265	59	23	18	0
-textEmptyFormatPredCurrRbcLabelInit	""	255 247 57	0x0101	391	265	39	23	18	0
+textEmptyFormatPredCurrRbcLabelInit	""	255 247 57	0x0101	391	265	44	23	18	0
 textEmptyFormatPredCurrTimeInit	""	255 247 57	0x0121	510	265	54	23	18	0
 textEmptyFormatPredCurrTimeInitAlt	""	255 247 57	0x0121	490	269	54	23	16	0
 textEmptyFormatPredCurrTimeLabelInit	""	255 247 57	0x0101	566	265	44	23	18	0
