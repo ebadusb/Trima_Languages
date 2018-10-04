@@ -21,8 +21,8 @@ forbiddenEndCharList            "（(「｢［[‘“・"                       
 # NOTE: the enums below have to be right at the first column or the parse will skip them (very annoying)
 ###########################################################################################################################################################################
 
-TEXT_COMP_PLS_OOS_WARNING_TITLE     ""    165   8   0  0x0110   22   2   255    55  16   0  approved
-TEXT_COMP_PLS_OOS_WARNING_BODY      ""    255 247  57  0x0100   85   8   290   270  18   0  approved
+TEXT_COMP_PLS_OOS_WARNING_TITLE     ""    165   8   0  0x0110   22   2   255   55   16   0  approved
+TEXT_COMP_PLS_OOS_WARNING_BODY      ""    255 247  57  0x0110   95   20  290   270  17   0  approved
 
 ######################################
 # All new strings are here
