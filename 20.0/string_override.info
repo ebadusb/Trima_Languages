@@ -3,7 +3,7 @@ languageId                      "Override"                     255 255 255 0x000
 languageIndex                   "10000"                         0   0   0  0x0001     0     0     0     0  18    0  approved
 languageWrappingAlgorithm       "WordBased"                    0   0   0  0x0001     0     0     0     0  18    0  approved
 fontName                        "Lucida Sans BOLD"             0   0   0  0x0001     0     0     0     0  18    0  approved
-languageCrc                     "a7d8f636"                   0   0   0  0x0001     0     0     0     0  18    0  approved
+languageCrc                     "611bb7a"                   0   0   0  0x0001     0     0     0     0  18    0  approved
 readyForRelease                 "1"                            0   0   0  0x0001     0     0     0     0  18    0  approved
 forbiddenStartCharList          "…：:；;℃℉゜！!％%―ー、，,。．.？? ）)」]’”/／＝="    0   0   0  0x0000   520   110   380    20  10    0  Approved
 forbiddenEndCharList            "（(「｢［[‘“・"                                      0   0   0  0x0000   520   110   380    20  10    0  approved
@@ -32,13 +32,5 @@ TEXT_COMP_PLS_OOS_WARNING_BODY      ""    255 247  57  0x0110   95   20  290   2
 
 textOverrideUnitTestText                                               "#![BeginSeg 1]Load#![EndSeg 1]"     255 247  57 0x0101    30    50     0     0  16    1  approved
 textOverridetextEmptyFormatDonDlDonorNameInit                          ""     255 255 255 0x0101   116   131   285    10  9    0  approved
-
-####################################################
-#Existing Strings with changes in strings properties 
-####################################################
-
-textFormatPredPrevTimeUnit                 "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"          74  74  74 0x0101   520   187   150   19   14    1  approved
-textFormatPredCurrTimeUnit                 "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"          255 247  57 0x0101   520   265    150    23  18    1  approved
-textFormatPredNextTimeUnit                 "#![BeginSeg 1]#!{dataItem1} min#![EndSeg 1]"          74  74  74 0x0101   520  317  150    19  14    1  approved
 
 STRING_FILE_TABLE_END
